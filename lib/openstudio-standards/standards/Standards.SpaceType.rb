@@ -21,7 +21,6 @@ class Standard
     }
 
     # lookup space type properties
-
     space_type_properties = model_find_object(standards_data['space_types'], search_criteria)
 
     if space_type_properties.nil?
@@ -200,6 +199,7 @@ class Standard
         instance = OpenStudio::Model::Lights.new(definition)
         instance.setName("#{space_type.name} Lights")
         instance.setSpaceType(space_type)
+        instance.setFractionReplaceable(lights_frac_replaceable)
         OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.SpaceType', "#{space_type.name} had no lights, one has been created.")
         instances << instance
       elsif instances.size > 1
@@ -212,6 +212,7 @@ class Standard
 
       # Modify the definition of the instance
       space_type.lights.sort.each do |inst|
+        inst.setFractionReplaceable(lights_frac_replaceable)
         definition = inst.lightsDefinition
         unless lighting_per_area.zero?
           occ_sens_lpd_factor = 1.0

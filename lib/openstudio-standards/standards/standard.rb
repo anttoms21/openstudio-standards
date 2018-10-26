@@ -82,6 +82,7 @@ class Standard
     standards_files << 'OpenStudio_Standards_construction_sets.json'
     standards_files << 'OpenStudio_Standards_constructions.json'
     standards_files << 'OpenStudio_Standards_curves.json'
+    standards_files << 'OpenStudio_Standards_fans.json'
     standards_files << 'OpenStudio_Standards_ground_temperatures.json'
     standards_files << 'OpenStudio_Standards_heat_pumps_heating.json'
     standards_files << 'OpenStudio_Standards_heat_pumps.json'
@@ -105,6 +106,8 @@ class Standard
     standards_files << 'OpenStudio_Standards_refrigerated_cases.json'
     standards_files << 'OpenStudio_Standards_walkin_refrigeration.json'
     standards_files << 'OpenStudio_Standards_refrigeration_compressors.json'
+    standards_files << 'OpenStudio_Standards_hvac_inference.json'
+    standards_files << 'OpenStudio_Standards_size_category.json'
     #    standards_files << 'OpenStudio_Standards_unitary_hps.json'
     # Combine the data from the JSON files into a single hash
     top_dir = File.expand_path('../../..', File.dirname(__FILE__))
