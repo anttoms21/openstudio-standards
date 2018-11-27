@@ -648,14 +648,29 @@ class NECB2011
       #find adjacent spaces
       dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
       adj_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space_zone_data[:space], true)
-      # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier
+      # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier these will be
+      # lumped together in the same zone.
       wild_adjacent_spaces = adj_spaces do |adj_space| is_an_necb_wildcard_space?(adj_space) and
           not is_an_necb_wet_space?(adj_space) and
           adj_space.thermalZone.empty? and
           space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
       end
-      other_adjacent_spaces = adj_spaces{|space| not is_an_necb_wildcard_space?(space)}
+      wild_adjacent_spaces << space
 
+      #Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase it is part of a mirrored space.
+      other_adjacent_spaces = adj_spaces{|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.spaces.size == 1}
+
+      #If there are no adjacent spaces..
+      # We will need to set each space to the dominant floor schedule by setting the spaces spacetypes to that
+      # schedule version and eventually set it to a system 4
+      if other_adjacent_spaces.empty?
+
+      else
+        #assign the space(s) to the adjacent thermal zone.
+        schedule = determine_dominant_schedule(space.other_adjacent_spaces.first)
+        zone = space.other_adjacent_spaces.first.thermalZone.get
+        wild_adjacent_spaces.each { |space| space.setThermalZone(zone)}
+      end
 
 
 
