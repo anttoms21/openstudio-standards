@@ -504,25 +504,114 @@ class NECB2011
 
 
   def auto_zoning(model)
-    self.auto_zone_dwelling_units(model)
-    self.auto_zone_wet_spaces(model)
-    # todo....
+    #create zones for dwelling units.
+    dwelling_tz_array = self.auto_zone_dwelling_units(model)
+    #wet zone creation.
+    wet_zone_array = self.auto_zone_wet_spaces(model)
+
     self.auto_zone_all_other_spaces(model)
     self.auto_zone_wild_spaces(model)
   end
 
-  def auto_zone_all_other_spaces(model)
-    model.getSpaces.select {|space| not is_a_necb_dwelling_unit?(space) && is_an_necb_wildcard_space?(space)}.each do |space|
-      next unless space.thermalZone.empty?
+  # Dwelling unit spaces need to have their own HVAC system. Thankfully NECB defines what spacetypes are considering
+  # dwelling units and have been defined as spaces that are
+  # openstudio-standards/standards/necb/NECB2011/data/necb_hvac_system_selection_type.json as spaces that are Residential/Accomodation and Sleeping area'
+  # this is determine by the is_a_necb_dwelling_unit? method. The thermostat is set by the space-type schedule. This will return an array of TZ.
+  def auto_zone_dwelling_units(model)
+    dwelling_tz_array = []
+    # ----Dwelling units----------- will always have their own system per unit, so they should have their own thermal zone.
+    model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("#{space.name} ZN")
+      zone.setName("Dwelling ZN")
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
       end
       space.setThermalZone(zone)
 
-      # Skip thermostat for spaces with no space type
-      next if space.spaceType.empty?
+      # Add a thermostat based on the space type.
+      space_type_name = space.spaceType.get.name.get
+      thermostat_name = space_type_name + ' Thermostat'
+      thermostat = model.getThermostatSetpointDualSetpointByName(thermostat_name)
+      if thermostat.empty?
+        # The thermostat name for the spacetype should exist.
+        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}")
+      else
+        thermostat_clone = thermostat.get.clone(model).to_ThermostatSetpointDualSetpoint.get
+        zone.setThermostatSetpointDualSetpoint(thermostat_clone)
+        # Set Ideal loads to thermal zone for sizing for NECB needs. We need this for sizing.
+        OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model).addToThermalZone(zone)
+      end
+      dwelling_tz << zone
+    end
+    return dwelling_tz_array
+  end
+
+  # Something that the code is silent on are smelly humid areas that should not be on the same system as the rest of the
+  #  building.. These are the 'wet' spaces and have been defined as locker and washroom areas.. These will be put under
+  # their own single system 4 system. These will be set to the dominant floor schedule.
+  def auto_zone_wet_spaces(model)
+    wet_zone_array = Array.new
+    model.getSpaces.select {|space| is_an_necb_wet_space?(space)}.each do |space|
+      #if this space was already assigned to something skip it.
+      next unless space.thermalZone.empty?
+      #create new TZ and set space to the zone.
+      zone = OpenStudio::Model::ThermalZone.new(model)
+      space.setThermalZone(zone)
+      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
+      #Set multiplier from the original tz multiplier.
+      unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
+        zone.setMultiplier(space_multiplier_map[space.name.to_s])
+      end
+
+      # Set space to dominant
+      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
+      #this method will determine if the right schedule was used for this wet & wild space if not.. it will reset the space
+      # to use the correct schedule version of the wet and wild space type.
+      adjust_wildcard_spacetype_schedule(space, dominant_floor_schedule)
+      #Find spacetype thermostat and assign it to the zone.
+      thermostat_name = space.spaceType.get.name.get + ' Thermostat'
+      thermostat = model.getThermostatSetpointDualSetpointByName(thermostat_name)
+      if thermostat.empty?
+        # The thermostat name for the spacetype should exist.
+        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}")
+      else
+        thermostat_clone = thermostat.get.clone(model).to_ThermostatSetpointDualSetpoint.get
+        zone.setThermostatSetpointDualSetpoint(thermostat_clone)
+        # Set Ideal loads to thermal zone for sizing for NECB needs. We need this for sizing.
+        ideal_loads = OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model)
+        ideal_loads.addToThermalZone(zone)
+      end
+      # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
+      model.getSpaces.map {|space| is_an_necb_wet_space?(space)}.each do |space_target|
+        if space_target.space.thermalZone.empty?
+          if are_space_loads_similar?(space_1: space, space_2: space_target) &&
+              space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
+            adjust_wildcard_spacetype_schedule(space_target, dominant_floor_schedule)
+            space_target.setThermalZone(zone)
+          end
+        end
+      end
+      wet_zone_array << zone
+    end
+    return wet_zone_array
+  end
+
+  def auto_zone_all_other_spaces(model)
+    other_tz_array = Array.new
+    #iterate through all non wildcard spaces.
+    model.getSpaces.select {|space| not is_a_necb_dwelling_unit?(space) and not is_an_necb_wildcard_space?(space)}.each do |space|
+      #skip if already assigned to a thermal zone.
+      next unless space.thermalZone.empty?
+      #create new zone for this space based on the space name.
+      zone = OpenStudio::Model::ThermalZone.new(model)
+      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
+      #sets space mulitplier unless it is nil or 1.
+      unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
+        zone.setMultiplier(space_multiplier_map[space.name.to_s])
+      end
+      #Assign space to the new zone.
+      space.setThermalZone(zone)
+
       # Add a thermostat
       space_type_name = space.spaceType.get.name.get
       thermostat_name = space_type_name + ' Thermostat'
@@ -537,7 +626,7 @@ class NECB2011
         ideal_loads = OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model)
         ideal_loads.addToThermalZone(zone)
       end
-      # Go through other spaces.
+      # Go through other spaces and if you find something with similar loads on the same floor, add it to the zone.
       model.getSpaces.map {|space| not is_a_necb_dwelling_unit?(space) and not is_an_necb_wildcard_space?(space)}.each do |space_target|
         if space_target.space.thermalZone.empty?
           if are_space_loads_similar?(space_1: space, space_2: space_target) &&
@@ -546,18 +635,72 @@ class NECB2011
           end
         end
       end
+      other_tz_array << zone
     end
+    return other_tz_array
   end
 
   def auto_zone_wild_spaces(model)
-    #organize Wildcard spaces accordingly. Can be grouped with adjacent spaced unless they are dwelling units.
-    model.getSpaces.select {|space| is_an_necb_wildcard_space?(space)}.each do |space|
-      adjacent_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space, true)
-      adjacent_real_spaces = adjacent_spaces.select {|space, area| not is_an_necb_wildcard_space?(space)}
-      adjacent_spaceadjacent_real_spaces.map {|k, v| key}[0]
-    end
-  end
+    wild_zone_array = Array.new
+    model.getSpaces.select {|space| is_an_necb_wildcard_space?(space) and not is_an_necb_wet_space?(space)}.each do |space|
+      #if this space was already assigned to something skip it.
+      next unless space.thermalZone.empty?
+      #find adjacent spaces
+      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
+      adj_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space_zone_data[:space], true)
+      # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier
+      wild_adjacent_spaces = adj_spaces do |adj_space| is_an_necb_wildcard_space?(adj_space) and
+          not is_an_necb_wet_space?(adj_space) and
+          adj_space.thermalZone.empty? and
+          space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
+      end
+      other_adjacent_spaces = adj_spaces{|space| not is_an_necb_wildcard_space?(space)}
 
+
+
+
+
+      #create new TZ and set space to the zone.
+      zone = OpenStudio::Model::ThermalZone.new(model)
+      space.setThermalZone(zone)
+      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
+      #Set multiplier from the original tz multiplier.
+      unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
+        zone.setMultiplier(space_multiplier_map[space.name.to_s])
+      end
+
+      # Set space to dominant
+      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
+      #this method will determine if the right schedule was used for this wet & wild space if not.. it will reset the space
+      # to use the correct schedule version of the wet and wild space type.
+      adjust_wildcard_spacetype_schedule(space, dominant_floor_schedule)
+      #Find spacetype thermostat and assign it to the zone.
+      thermostat_name = space.spaceType.get.name.get + ' Thermostat'
+      thermostat = model.getThermostatSetpointDualSetpointByName(thermostat_name)
+      if thermostat.empty?
+        # The thermostat name for the spacetype should exist.
+        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}")
+      else
+        thermostat_clone = thermostat.get.clone(model).to_ThermostatSetpointDualSetpoint.get
+        zone.setThermostatSetpointDualSetpoint(thermostat_clone)
+        # Set Ideal loads to thermal zone for sizing for NECB needs. We need this for sizing.
+        ideal_loads = OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model)
+        ideal_loads.addToThermalZone(zone)
+      end
+      # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
+      model.getSpaces.map {|space| is_an_necb_wet_space?(space)}.each do |space_target|
+        if space_target.space.thermalZone.empty?
+          if are_space_loads_similar?(space_1: space, space_2: space_target) &&
+              space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
+            adjust_wildcard_spacetype_schedule(space_target, dominant_floor_schedule)
+            space_target.setThermalZone(zone)
+          end
+        end
+      end
+      wet_zone_array << zone
+    end
+    return wet_zone_array
+  end
 
   # This method will try to determine if the spaces have similar loads. This will ensure:
   # 1) Space have the same multiplier.
@@ -737,84 +880,6 @@ class NECB2011
   end
 
 
-  # Dwelling unit spaces need to have their own HVAC system. Thankfully NECB defines what spacetypes are considering
-  # dwelling units and have been defined as spaces that are
-  # openstudio-standards/standards/necb/NECB2011/data/necb_hvac_system_selection_type.json as spaces that are Residential/Accomodation and Sleeping area'
-  # this is determine by the is_a_necb_dwelling_unit? method. The thermostat is set by the space-type schedule. This will return an array of TZ.
-  def auto_zone_dwelling_units(model)
-    dwelling_tz_array = []
-    # ----Dwelling units----------- will always have their own system per unit, so they should have their own thermal zone.
-    model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
-      zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("Dwelling ZN")
-      unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
-        zone.setMultiplier(space_multiplier_map[space.name.to_s])
-      end
-      space.setThermalZone(zone)
 
-      # Add a thermostat based on the space type.
-      space_type_name = space.spaceType.get.name.get
-      thermostat_name = space_type_name + ' Thermostat'
-      thermostat = model.getThermostatSetpointDualSetpointByName(thermostat_name)
-      if thermostat.empty?
-        # The thermostat name for the spacetype should exist.
-        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}")
-      else
-        thermostat_clone = thermostat.get.clone(model).to_ThermostatSetpointDualSetpoint.get
-        zone.setThermostatSetpointDualSetpoint(thermostat_clone)
-        # Set Ideal loads to thermal zone for sizing for NECB needs. We need this for sizing.
-        OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model).addToThermalZone(zone)
-      end
-      dwelling_tz << zone
-    end
-    return dwelling_tz_array
-  end
-
-  # Something that the code is silent on are smelly humid areas that should not be on the same system as the rest of the
-  #  building.. These are the 'wet' spaces and have been defined as locker and washroom areas.. These will be put under
-  # their own single system 4 system. These will be set to the dominant floor schedule.
-  def auto_zone_wet_spaces(model)
-    model.getSpaces.select {|space| is_an_necb_wet_space?(space)}.each do |space|
-      #if this space was already assigned to something skip it.
-      next unless space.thermalZone.empty?
-      #create new TZ and set space to the zone.
-      zone = OpenStudio::Model::ThermalZone.new(model)
-      space.setThermalZone(zone)
-      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
-      #Set multiplier from the original tz multiplier.
-      unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
-        zone.setMultiplier(space_multiplier_map[space.name.to_s])
-      end
-
-      # Set space to dominant
-      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
-      #this method will determine if the right schedule was used for this wet & wild space if not.. it will reset the space
-      # to use the correct schedule version of the wet and wild space type.
-      adjust_wildcard_spacetype_schedule(space, dominant_floor_schedule)
-      #Find spacetype thermostat and assign it to the zone.
-      thermostat_name = space.spaceType.get.name.get + ' Thermostat'
-      thermostat = model.getThermostatSetpointDualSetpointByName(thermostat_name)
-      if thermostat.empty?
-        # The thermostat name for the spacetype should exist.
-        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}")
-      else
-        thermostat_clone = thermostat.get.clone(model).to_ThermostatSetpointDualSetpoint.get
-        zone.setThermostatSetpointDualSetpoint(thermostat_clone)
-        # Set Ideal loads to thermal zone for sizing for NECB needs. We need this for sizing.
-        ideal_loads = OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model)
-        ideal_loads.addToThermalZone(zone)
-      end
-      # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
-      model.getSpaces.map {|space| is_an_necb_wet_space?(space)}.each do |space_target|
-        if space_target.space.thermalZone.empty?
-          if are_space_loads_similar?(space_1: space, space_2: space_target) &&
-              space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
-            adjust_wildcard_spacetype_schedule(space_target, dominant_floor_schedule)
-            space_target.setThermalZone(zone)
-          end
-        end
-      end
-    end
-  end
 end
 
