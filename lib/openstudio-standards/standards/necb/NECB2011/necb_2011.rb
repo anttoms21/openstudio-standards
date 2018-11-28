@@ -242,7 +242,7 @@ class NECB2011 < Standard
     model_add_ground_temperatures(model, nil, climate_zone) # prototype candidate
 
     #Add Occ sensor schedule adjustments where needed.
-    set_occ_sensor_spacetypes(model, @space_type_map)
+    set_occ_sensor_spacetypes(model)
 
     #Set Loads/Schedules
     model_add_loads(model)
@@ -259,7 +259,7 @@ class NECB2011 < Standard
     apply_standard_construction_properties(model)
 
     #Set up thermal zones for initial sizing run.
-    model_create_thermal_zones(model, @space_multiplier_map)
+    model_create_thermal_zones(model)
 
     # Set FDWR and SSR.  Do this after the thermal zones are set because the methods need to know what walls and roofs
     # are adjacent to conditioned spaces.
@@ -570,9 +570,9 @@ class NECB2011 < Standard
   end
 
   # @return [Bool] returns true if successful, false if not
-  def set_occ_sensor_spacetypes(model, space_type_map)
+  def set_occ_sensor_spacetypes(model)
     building_type = 'Space Function'
-    space_type_map.each do |space_type_name, space_names|
+    @space_type_map.each do |space_type_name, space_names|
       space_names.sort.each do |space_name|
         space = model.getSpaceByName(space_name)
         next if space.empty?

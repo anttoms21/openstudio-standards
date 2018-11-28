@@ -504,13 +504,15 @@ class NECB2011
 
 
   def auto_zoning(model)
+    # Remove any Thermal zones assigned
+    model.getThermalZones.each(&:remove)
     #create zones for dwelling units.
     dwelling_tz_array = self.auto_zone_dwelling_units(model)
     #wet zone creation.
     wet_zone_array = self.auto_zone_wet_spaces(model)
 
     self.auto_zone_all_other_spaces(model)
-    self.auto_zone_wild_spaces(model)
+    #self.auto_zone_wild_spaces(model)
   end
 
   # Dwelling unit spaces need to have their own HVAC system. Thankfully NECB defines what spacetypes are considering
@@ -522,7 +524,7 @@ class NECB2011
     # ----Dwelling units----------- will always have their own system per unit, so they should have their own thermal zone.
     model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("Dwelling ZN")
+      zone.setName("ZN-#{space.spaceType.get.standardsBuildingType.get}-#{space.spaceType.get.standardsSpaceType.get}_FL-#{space.buildingStory().get}")
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
       end
@@ -557,7 +559,7 @@ class NECB2011
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
       space.setThermalZone(zone)
-      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
+      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get.name}")
       #Set multiplier from the original tz multiplier.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -604,7 +606,7 @@ class NECB2011
       next unless space.thermalZone.empty?
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
+      zone.setName("ZN-#{space.spaceType.get.standardsBuildingType.get}-#{space.spaceType.get.standardsSpaceType.get}_FL-#{space.buildingStory().get.name}")
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -627,8 +629,8 @@ class NECB2011
         ideal_loads.addToThermalZone(zone)
       end
       # Go through other spaces and if you find something with similar loads on the same floor, add it to the zone.
-      model.getSpaces.map {|space| not is_a_necb_dwelling_unit?(space) and not is_an_necb_wildcard_space?(space)}.each do |space_target|
-        if space_target.space.thermalZone.empty?
+      model.getSpaces.select {|space| not is_a_necb_dwelling_unit?(space) and not is_an_necb_wildcard_space?(space)}.each do |space_target|
+        if space_target.thermalZone.empty?
           if are_space_loads_similar?(space_1: space, space_2: space_target) &&
               space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
             space_target.setThermalZone(zone)
@@ -641,6 +643,18 @@ class NECB2011
   end
 
   def auto_zone_wild_spaces(model)
+=begin
+
+
+
+
+=end
+
+
+
+
+
+
     wild_zone_array = Array.new
     model.getSpaces.select {|space| is_an_necb_wildcard_space?(space) and not is_an_necb_wet_space?(space)}.each do |space|
       #if this space was already assigned to something skip it.
@@ -657,23 +671,22 @@ class NECB2011
       end
       wild_adjacent_spaces << space
 
-      #Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase it is part of a mirrored space.
-      other_adjacent_spaces = adj_spaces{|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.spaces.size == 1}
+      # Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase
+      # it is part of a mirrored space.
+      other_adjacent_spaces = adj_spaces.select{|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.spaces.size == 1}
 
       #If there are no adjacent spaces..
       # We will need to set each space to the dominant floor schedule by setting the spaces spacetypes to that
       # schedule version and eventually set it to a system 4
       if other_adjacent_spaces.empty?
-
-      else
         #assign the space(s) to the adjacent thermal zone.
-        schedule = determine_dominant_schedule(space.other_adjacent_spaces.first)
+        schedule_type = determine_dominant_schedule(space.other_adjacent_spaces.first)
         zone = space.other_adjacent_spaces.first.thermalZone.get
-        wild_adjacent_spaces.each { |space| space.setThermalZone(zone)}
+        wild_adjacent_spaces.each do |space|
+          adjust_wildcard_spacetype_schedule(space, schedule_type)
+          space.setThermalZone(zone)
+        end
       end
-
-
-
 
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
@@ -810,7 +823,7 @@ class NECB2011
                                                    search_criteria: {'template' => self.class.name,
                                                                      'space_type' => space.spaceType.get.standardsSpaceType.get,
                                                                      'building_type' => space.spaceType.get.standardsBuildingType.get})
-
+    necb_hvac_system_selection_table = standards_lookup_table_many(table_name: 'necb_hvac_system_selection_type')
     necb_hvac_system_select = necb_hvac_system_selection_table.detect do |necb_hvac_system_select|
       necb_hvac_system_select['necb_hvac_system_selection_type'] == space_type_data['necb_hvac_system_selection_type'] &&
           necb_hvac_system_select['min_stories'] <= space.model.getBuilding.standardsNumberOfAboveGroundStories.get &&
@@ -831,6 +844,7 @@ class NECB2011
                                                                      'space_type' => space.spaceType.get.standardsSpaceType.get,
                                                                      'building_type' => space.spaceType.get.standardsBuildingType.get})
 
+    necb_hvac_system_selection_table = standards_lookup_table_many(table_name: 'necb_hvac_system_selection_type')
     necb_hvac_system_select = necb_hvac_system_selection_table.detect do |necb_hvac_system_select|
       necb_hvac_system_select['necb_hvac_system_selection_type'] == space_type_data['necb_hvac_system_selection_type'] &&
           necb_hvac_system_select['min_stories'] <= space.model.getBuilding.standardsNumberOfAboveGroundStories.get &&
