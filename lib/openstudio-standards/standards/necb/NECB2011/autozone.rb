@@ -524,7 +524,7 @@ class NECB2011
     # ----Dwelling units----------- will always have their own system per unit, so they should have their own thermal zone.
     model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("ZN-#{space.spaceType.get.standardsBuildingType.get}-#{space.spaceType.get.standardsSpaceType.get}_FL-#{space.buildingStory().get}")
+      zone.setName("ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
       end
@@ -543,7 +543,7 @@ class NECB2011
         # Set Ideal loads to thermal zone for sizing for NECB needs. We need this for sizing.
         OpenStudio::Model::ZoneHVACIdealLoadsAirSystem.new(model).addToThermalZone(zone)
       end
-      dwelling_tz << zone
+      dwelling_tz_array << zone
     end
     return dwelling_tz_array
   end
@@ -559,7 +559,7 @@ class NECB2011
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
       space.setThermalZone(zone)
-      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get.name}")
+      zone.setName("ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #Set multiplier from the original tz multiplier.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -575,7 +575,7 @@ class NECB2011
       thermostat = model.getThermostatSetpointDualSetpointByName(thermostat_name)
       if thermostat.empty?
         # The thermostat name for the spacetype should exist.
-        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}")
+        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Thermostat #{thermostat_name} not found for space name: #{space.name}-")
       else
         thermostat_clone = thermostat.get.clone(model).to_ThermostatSetpointDualSetpoint.get
         zone.setThermostatSetpointDualSetpoint(thermostat_clone)
@@ -606,7 +606,7 @@ class NECB2011
       next unless space.thermalZone.empty?
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("ZN-#{space.spaceType.get.standardsBuildingType.get}-#{space.spaceType.get.standardsSpaceType.get}_FL-#{space.buildingStory().get.name}")
+      zone.setName("ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -651,10 +651,6 @@ class NECB2011
 =end
 
 
-
-
-
-
     wild_zone_array = Array.new
     model.getSpaces.select {|space| is_an_necb_wildcard_space?(space) and not is_an_necb_wet_space?(space)}.each do |space|
       #if this space was already assigned to something skip it.
@@ -664,16 +660,17 @@ class NECB2011
       adj_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space_zone_data[:space], true)
       # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier these will be
       # lumped together in the same zone.
-      wild_adjacent_spaces = adj_spaces do |adj_space| is_an_necb_wildcard_space?(adj_space) and
-          not is_an_necb_wet_space?(adj_space) and
-          adj_space.thermalZone.empty? and
-          space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
+      wild_adjacent_spaces = adj_spaces do |adj_space|
+        is_an_necb_wildcard_space?(adj_space) and
+            not is_an_necb_wet_space?(adj_space) and
+            adj_space.thermalZone.empty? and
+            space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
       end
       wild_adjacent_spaces << space
 
       # Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase
       # it is part of a mirrored space.
-      other_adjacent_spaces = adj_spaces.select{|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.spaces.size == 1}
+      other_adjacent_spaces = adj_spaces.select {|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.spaces.size == 1}
 
       #If there are no adjacent spaces..
       # We will need to set each space to the dominant floor schedule by setting the spaces spacetypes to that
@@ -768,28 +765,27 @@ class NECB2011
   def space_surface_report(space)
     surface_report = []
     space_floor_area = space.floorArea
-    [:outdoors, :ground].each do |bc|
-      orientations.each do |orientation|
-        surfaces = BTAP::Geometry::Surfaces.filter_by_boundary_condition(space.surfaces, boundary_conditions[bc]).each do |surface|
-          #sum wall area and subsurface area by direction. This is the old way so excluding top and bottom surfaces.
-          #new way
-          glazings = BTAP::Geometry::Surfaces::filter_subsurfaces_by_types(surface.subSurfaces, ["FixedWindow",
-                                                                                                 "OperableWindow",
-                                                                                                 "GlassDoor",
-                                                                                                 "Skylight",
-                                                                                                 "TubularDaylightDiffuser",
-                                                                                                 "TubularDaylightDome"])
-          doors = BTAP::Geometry::Surfaces::filter_subsurfaces_by_types(surface.subSurfaces, ["Door",
-                                                                                              "OverheadDoor"])
-          azimuth = (surface.azimuth() * 180.0 / Math::PI)
-          tilt = (surface.tilt() * 180.0 / Math::PI)
-          surface_data = json_data[:surface_data].detect do |surface_data|
-            surface_data[:surface_type] == surface.surfaceType &&
-                surface_data[:azimuth] == azimuth &&
-                surface_data[:tilt] == tilt &&
-                surface_data[:boundary_condition] == bc
-          end
+    ['Outdoors', 'Ground'].each do |bc|
+      surfaces = BTAP::Geometry::Surfaces.filter_by_boundary_condition(space.surfaces, [bc]).each do |surface|
+        #sum wall area and subsurface area by direction. This is the old way so excluding top and bottom surfaces.
+        #new way
+        glazings = BTAP::Geometry::Surfaces::filter_subsurfaces_by_types(surface.subSurfaces, ["FixedWindow",
+                                                                                               "OperableWindow",
+                                                                                               "GlassDoor",
+                                                                                               "Skylight",
+                                                                                               "TubularDaylightDiffuser",
+                                                                                               "TubularDaylightDome"])
+        doors = BTAP::Geometry::Surfaces::filter_subsurfaces_by_types(surface.subSurfaces, ["Door",
+                                                                                            "OverheadDoor"])
+        azimuth = (surface.azimuth() * 180.0 / Math::PI)
+        tilt = (surface.tilt() * 180.0 / Math::PI)
+        surface_data = surface_report.detect do |surface_data|
+          surface_data[:surface_type] == surface.surfaceType &&
+              surface_data[:azimuth] == azimuth &&
+              surface_data[:tilt] == tilt &&
+              surface_data[:boundary_condition] == bc
         end
+
         if surface_data.nil?
           surface_data = {
               surface_type: surface.surfaceType,
@@ -907,7 +903,6 @@ class NECB2011
       end
     end
   end
-
 
 
 end
