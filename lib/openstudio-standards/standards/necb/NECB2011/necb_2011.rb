@@ -230,7 +230,6 @@ class NECB2011 < Standard
       puts spacetype.name
     end
 
-
     #Get rid of any existing Thermostats. We will only use the code schedules.
     model.getThermostatSetpointDualSetpoints(&:remove)
 
@@ -303,8 +302,10 @@ class NECB2011 < Standard
     model_add_daylighting_controls(model) # to be removed after refactor.
     # Add output variables for debugging
     model_request_timeseries_outputs(model) if debug
-    # Remove duplicate materials and constructions
-    model = BTAP::FileIO::remove_duplicate_materials_and_constructions(model)
+    # Remove duplicate materials and constructions (currently commented out).
+    # Commented out because it consumes a significant portion of the btap run time (30% - 50%).  The line below should
+    # be uncommented when the flie clarity it affords is desired.
+    # model = BTAP::FileIO::remove_duplicate_materials_and_constructions(model)
     return model
   end
 

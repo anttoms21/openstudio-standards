@@ -41,12 +41,14 @@ class NECB2011
   # generates full qaqc.json
   def init_qaqc(model)
     # load the qaqc.json files
-    @qaqc_data = self.load_qaqc_database_new()
+    # This is currently disabled as most tests are now done using regression and unit tests.. but we may bring this back.
+    # @qaqc_data = self.load_qaqc_database_new()
 
     # generate base qaqc hash
     qaqc = create_base_data(model)
     # performs the qaqc on the given base qaqc hash
-    necb_qaqc(qaqc, model)
+    #necb_qaqc(qaqc, model)
+    return qaqc
   end
 
   # generates only qaqc component

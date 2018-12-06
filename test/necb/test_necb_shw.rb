@@ -30,7 +30,7 @@ class SHW_test < Minitest::Test
           model = nil
           standard = nil
           # Open the Outpatient model.
-          model = BTAP::FileIO.load_osm("#{File.dirname(__FILE__)}/models/#{template}Outpatient.osm")
+          model = BTAP::FileIO.load_osm("#{File.dirname(__FILE__)}/models/NECB2011Outpatient.osm")
           # Set the weather file.
           BTAP::Environment::WeatherFile.new(epw_file).set_weather_file(model)
           # Get spacetypes from JSON.  I say I use all of the spacetypes but really it is only those with a
@@ -134,7 +134,7 @@ class SHW_test < Minitest::Test
           supply_equip_info = {
               "water_heater_vol_m3" => water_heaters[0].tankVolume,
               "water_heater_capacity_w" => water_heaters[0].heaterMaximumCapacity,
-              "pump_head_Pa" => pumps[0].ratedPumpHead,
+              "pump_head_Pa" => pumps[0].ratedPumpHead.to_f.round(8),
               "pump_motor_eff" => pumps[0].motorEfficiency
           }
           # make hash containing the template applied, weather file used, water heater name, space types applied (or
