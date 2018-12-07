@@ -535,13 +535,27 @@ class NECB2011
 
   def auto_system(model)
     #ensure each dwelling unit has its own system.
-    auto_zone_dwelling_units(model)
+    auto_system_dwelling_units(model)
     #Assign a single system 4 for all wet spaces.. and assign the control zone to the one with the largest load.
     auto_system_wet_spaces(model)
     #Assign the wild spaces to a single system 4 system with a control zone with the largest load.
     auto_system_wild_spaces(model)
     # do the regular assignment for the rest and group where possible.
     auto_system_all_other_spaces(model)
+  end
+
+
+  def auto_system_dwelling_units
+    #dwelling units are either system 1 or 3.
+    dwellling_tz = []
+    model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
+      dwellling_tz << space.thermalZone.get
+    end
+    dwellling_tz.uniq!.each do |tz|
+      #check what system type to assign.
+
+    end
+
   end
 
 
@@ -697,7 +711,7 @@ class NECB2011
       # Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase
       # it is part of a mirrored space.
       other_adjacent_spaces = adj_spaces.select do |adj_space|
-         is_an_necb_wildcard_space?(adj_space) == false and
+        is_an_necb_wildcard_space?(adj_space) == false and
             adj_space.thermalZone.get.spaces.size == 1 and
             space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
       end
