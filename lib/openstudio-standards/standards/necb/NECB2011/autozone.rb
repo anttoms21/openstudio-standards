@@ -504,8 +504,25 @@ class NECB2011
 
 
   def auto_zoning(model)
-    # Remove any Thermal zones assigned
+    #The first thing we need to do is get a sizing run to determine the heating loads of all the spaces. The default
+    # btap geometry has a one to one relationship of zones to spaces.. So we simply create the thermal zones for all the spaces.
+    # to do this we need to create thermals zone for each space.
+    # Remove any Thermal zones assigned before
     model.getThermalZones.each(&:remove)
+    # create new thermal zones one to one with spaces.
+    model_create_thermal_zones(model)
+    # do a sizing run.
+    raise("autorun sizing run failed!") if model_run_sizing_run(model, "#{Dir.pwd}/autozone") == false
+
+    #store sizing loads for each space into a class hash.
+    @space_heating_load = {}
+    model.getSpaces.each do |space|
+      @space_heating_load[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get * space.floorArea * space.multiplier / 1000.0
+    end
+
+    # Remove any Thermal zones assigned again to start fresh.
+    model.getThermalZones.each(&:remove)
+
     #create zones for dwelling units.
     dwelling_tz_array = self.auto_zone_dwelling_units(model)
     #wet zone creation.
@@ -514,6 +531,19 @@ class NECB2011
     self.auto_zone_all_other_spaces(model)
     self.auto_zone_wild_spaces(model)
   end
+
+
+  def auto_system(model)
+    #ensure each dwelling unit has its own system.
+    auto_zone_dwelling_units(model)
+    #Assign a single system 4 for all wet spaces.. and assign the control zone to the one with the largest load.
+    auto_system_wet_spaces(model)
+    #Assign the wild spaces to a single system 4 system with a control zone with the largest load.
+    auto_system_wild_spaces(model)
+    # do the regular assignment for the rest and group where possible.
+    auto_system_all_other_spaces(model)
+  end
+
 
   # Dwelling unit spaces need to have their own HVAC system. Thankfully NECB defines what spacetypes are considering
   # dwelling units and have been defined as spaces that are
@@ -606,7 +636,9 @@ class NECB2011
       next unless space.thermalZone.empty?
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("All-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
+      tz_name = "All-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:"
+      zone.setName(tz_name)
+      puts "new thermal zone #{tz_name} created."
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -631,8 +663,9 @@ class NECB2011
       # Go through other spaces and if you find something with similar loads on the same floor, add it to the zone.
       model.getSpaces.select {|space| not is_a_necb_dwelling_unit?(space) and not is_an_necb_wildcard_space?(space)}.each do |space_target|
         if space_target.thermalZone.empty?
-          if are_space_loads_similar?(space_1: space, space_2: space_target) &&
+          if are_space_loads_similar?(space_1: space, space_2: space_target) and
               space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
+            puts "#{space.name} == #{space_target.name}"
             space_target.setThermalZone(zone)
           end
         end
@@ -647,30 +680,35 @@ class NECB2011
     model.getSpaces.select {|space| is_an_necb_wildcard_space?(space) and not is_an_necb_wet_space?(space)}.each do |space|
       #if this space was already assigned to something skip it.
       next unless space.thermalZone.empty?
-      #find adjacent spaces
+      #find adjacent spaces to the current space.
       adj_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space, true)
-      adj_spaces = adj_spaces.map{ |key, value| key }
+      adj_spaces = adj_spaces.map {|key, value| key}
       # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier these will be
       # lumped together in the same zone.
-      wild_adjacent_spaces = adj_spaces.select{|adj_space|
+      wild_adjacent_spaces = adj_spaces.select {|adj_space|
         is_an_necb_wildcard_space?(adj_space) and
             not is_an_necb_wet_space?(adj_space) and
             adj_space.thermalZone.empty? and
             space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
       }
+      #put them all together.
       wild_adjacent_spaces << space
 
       # Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase
       # it is part of a mirrored space.
-      other_adjacent_spaces = adj_spaces.select {|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.get.spaces.size == 1}
+      other_adjacent_spaces = adj_spaces.select do |adj_space|
+         is_an_necb_wildcard_space?(adj_space) == false and
+            adj_space.thermalZone.get.spaces.size == 1 and
+            space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
+      end
 
-      #If there are no adjacent spaces..
+      #If there are adjacent spaces that fit the above criteria.
       # We will need to set each space to the dominant floor schedule by setting the spaces spacetypes to that
       # schedule version and eventually set it to a system 4
-      if other_adjacent_spaces.empty?
+      unless other_adjacent_spaces.empty?
         #assign the space(s) to the adjacent thermal zone.
-        schedule_type = determine_dominant_schedule(space.other_adjacent_spaces.first)
-        zone = space.other_adjacent_spaces.first.thermalZone.get
+        schedule_type = determine_dominant_schedule(space.buildingStory.get.spaces)
+        zone = other_adjacent_spaces.first.thermalZone.get
         wild_adjacent_spaces.each do |space|
           adjust_wildcard_spacetype_schedule(space, schedule_type)
           space.setThermalZone(zone)
@@ -687,7 +725,7 @@ class NECB2011
       end
 
       # Set space to dominant
-      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
+
       dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
       #this method will determine if the right schedule was used for this wet & wild space if not.. it will reset the space
       # to use the correct schedule version of the wet and wild space type.
@@ -706,7 +744,7 @@ class NECB2011
         ideal_loads.addToThermalZone(zone)
       end
       # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
-      model.getSpaces.select { |s| is_an_necb_wildcard_space?(s) and not is_an_necb_wet_space?(s) }.each do |space_target|
+      model.getSpaces.select {|s| is_an_necb_wildcard_space?(s) and not is_an_necb_wet_space?(s)}.each do |space_target|
         if space_target.thermalZone.empty?
           if are_space_loads_similar?(space_1: space, space_2: space_target) &&
               space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
@@ -725,7 +763,7 @@ class NECB2011
   # 2) Spaces have space types and that they are the same.
   # 3) That the spaces have the same exposed surfaces area relative to the floor area in the same direction. by a
   # percent difference and angular percent difference.
-  def are_space_loads_similar?(space_1:, space_2:, surface_percent_difference_tolerance: 5.0, angular_percent_difference_tolerance: 5.0)
+  def are_space_loads_similar?(space_1:, space_2:, surface_percent_difference_tolerance: 0.0, angular_percent_difference_tolerance: 0.00)
     # Do they have the same space type?
     return false unless space_1.multiplier == space_2.multiplier
     # Ensure that they both have defined spacetypes
@@ -738,8 +776,9 @@ class NECB2011
     space_2_floor_area = space_2.floorArea
     space_1_surface_report = space_surface_report(space_1)
     space_2_surface_report = space_surface_report(space_2)
+
     space_1_surface_report.each do |space_1_surface|
-      space_2_surface_report.detect do |space_2_surface|
+      surface_match = space_2_surface_report.detect do |space_2_surface|
         space_1_surface[:surface_type] == space_2_surface[:surface_type] &&
             space_1_surface[:boundary_condition] == space_2_surface[:boundary_condition] &&
             self.percentage_difference(space_1_surface[:tilt], space_2_surface[:tilt]) <= angular_percent_difference_tolerance &&
@@ -749,9 +788,13 @@ class NECB2011
             self.percentage_difference(space_1_surface[:glazed_subsurface_area_to_floor_ratio],
                                        space_2_surface[:glazed_subsurface_area_to_floor_ratio]) <= surface_percent_difference_tolerance &&
             self.percentage_difference(space_1_surface[:opaque_subsurface_area_to_floor_ratio],
-                                       space_2_surface[:opaque_subsurface_area_to_floor_ratio]) <= surface_percent_difference_tolerance
+                                       space_2_surface[:opaque_subsurface_area_to_floor_ratio]) <= surface_percent_difference_tolerance &&
+            self.percentage_difference(@space_heating_load[space_1], @space_heating_load[space_2]) <= 5.0
+
       end
+      return false if surface_match.nil?
     end
+    return true
   end
 
   #This method gathers the surface information for the space to determine if spaces are the same.

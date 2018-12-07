@@ -5,8 +5,8 @@ require_relative '../helpers/create_doe_prototype_helper'
 class NECB_Autozone_Tests < MiniTest::Test
 
 
-=begin
-  def test_fullserice_resturant()
+
+  def test_fullservice_resturant()
     model = autozone("FullServiceRestaurant.osm")
   end
 
@@ -18,7 +18,7 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_primary()
     model = autozone("PrimarySchool.osm")
   end
-=end
+
 
   def test_secondary()
     model = autozone("SecondarySchool.osm")
@@ -76,14 +76,16 @@ class NECB_Autozone_Tests < MiniTest::Test
     standard.auto_zoning(model)
 
     thermalzone_debug = []
-    model.getThermalZones.each do |tz|
-      hash = {}
-      hash["thermal_zone_name"] = tz.name.to_s
-      hash['spaces'] = []
+
+
+    model.getThermalZones.sort.each do |tz|
+      data = {}
+      data[:thermal_zone_name] = tz.name.to_s
+      data[:spaces] = []
       tz.spaces.each do |space|
-        hash['spaces'] << space.name
-        thermalzone_debug << hash
+        data[:spaces] << space.name.get
       end
+      puts data
     end
     puts JSON.pretty_generate(thermalzone_debug)
   end
