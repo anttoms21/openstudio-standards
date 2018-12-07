@@ -5,25 +5,25 @@ require_relative '../helpers/create_doe_prototype_helper'
 class NECB_Autozone_Tests < MiniTest::Test
 
 
+=begin
   def test_fullserice_resturant()
     model = autozone("FullServiceRestaurant.osm")
   end
 
   def test_large_hotel()
     model = autozone("LargeHotel.osm")
-
   end
 
-=begin
 
   def test_primary()
     model = autozone("PrimarySchool.osm")
   end
+=end
 
   def test_secondary()
     model = autozone("SecondarySchool.osm")
   end
-=end
+
 
 
   # Test to validate the heat pump performance curves

@@ -512,7 +512,7 @@ class NECB2011
     wet_zone_array = self.auto_zone_wet_spaces(model)
 
     self.auto_zone_all_other_spaces(model)
-    #self.auto_zone_wild_spaces(model)
+    self.auto_zone_wild_spaces(model)
   end
 
   # Dwelling unit spaces need to have their own HVAC system. Thankfully NECB defines what spacetypes are considering
@@ -524,7 +524,7 @@ class NECB2011
     # ----Dwelling units----------- will always have their own system per unit, so they should have their own thermal zone.
     model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
+      zone.setName("DU-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
       end
@@ -559,7 +559,7 @@ class NECB2011
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
       space.setThermalZone(zone)
-      zone.setName("ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
+      zone.setName("WET-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #Set multiplier from the original tz multiplier.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -584,8 +584,8 @@ class NECB2011
         ideal_loads.addToThermalZone(zone)
       end
       # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
-      model.getSpaces.map {|space| is_an_necb_wet_space?(space)}.each do |space_target|
-        if space_target.space.thermalZone.empty?
+      model.getSpaces.select {|s| is_an_necb_wet_space?(s)}.each do |space_target|
+        if space_target.thermalZone.empty?
           if are_space_loads_similar?(space_1: space, space_2: space_target) &&
               space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
             adjust_wildcard_spacetype_schedule(space_target, dominant_floor_schedule)
@@ -606,7 +606,7 @@ class NECB2011
       next unless space.thermalZone.empty?
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
-      zone.setName("ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
+      zone.setName("All-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -643,34 +643,26 @@ class NECB2011
   end
 
   def auto_zone_wild_spaces(model)
-=begin
-
-
-
-
-=end
-
-
     wild_zone_array = Array.new
     model.getSpaces.select {|space| is_an_necb_wildcard_space?(space) and not is_an_necb_wet_space?(space)}.each do |space|
       #if this space was already assigned to something skip it.
       next unless space.thermalZone.empty?
       #find adjacent spaces
-      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
-      adj_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space_zone_data[:space], true)
+      adj_spaces = space_get_adjacent_spaces_with_shared_wall_areas(space, true)
+      adj_spaces = adj_spaces.map{ |key, value| key }
       # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier these will be
       # lumped together in the same zone.
-      wild_adjacent_spaces = adj_spaces do |adj_space|
+      wild_adjacent_spaces = adj_spaces.select{|adj_space|
         is_an_necb_wildcard_space?(adj_space) and
             not is_an_necb_wet_space?(adj_space) and
             adj_space.thermalZone.empty? and
             space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
-      end
+      }
       wild_adjacent_spaces << space
 
       # Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase
       # it is part of a mirrored space.
-      other_adjacent_spaces = adj_spaces.select {|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.spaces.size == 1}
+      other_adjacent_spaces = adj_spaces.select {|space| not is_an_necb_wildcard_space?(space) and space.thermalZone.get.spaces.size == 1}
 
       #If there are no adjacent spaces..
       # We will need to set each space to the dominant floor schedule by setting the spaces spacetypes to that
@@ -688,13 +680,14 @@ class NECB2011
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
       space.setThermalZone(zone)
-      zone.setName("ZN-#{space.buildingType.get.name.get}-#{space.spaceType.get.name.get}_FL-#{space.buildingStory().get}")
+      zone.setName("Wild-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #Set multiplier from the original tz multiplier.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
       end
 
       # Set space to dominant
+      dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
       dominant_floor_schedule = determine_dominant_schedule(space.buildingStory().get.spaces)
       #this method will determine if the right schedule was used for this wet & wild space if not.. it will reset the space
       # to use the correct schedule version of the wet and wild space type.
@@ -713,8 +706,8 @@ class NECB2011
         ideal_loads.addToThermalZone(zone)
       end
       # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
-      model.getSpaces.map {|space| is_an_necb_wet_space?(space)}.each do |space_target|
-        if space_target.space.thermalZone.empty?
+      model.getSpaces.select { |s| is_an_necb_wildcard_space?(s) and not is_an_necb_wet_space?(s) }.each do |space_target|
+        if space_target.thermalZone.empty?
           if are_space_loads_similar?(space_1: space, space_2: space_target) &&
               space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
             adjust_wildcard_spacetype_schedule(space_target, dominant_floor_schedule)
@@ -722,9 +715,9 @@ class NECB2011
           end
         end
       end
-      wet_zone_array << zone
+      wild_zone_array << zone
     end
-    return wet_zone_array
+    return wild_zone_array
   end
 
   # This method will try to determine if the spaces have similar loads. This will ensure:
@@ -819,14 +812,7 @@ class NECB2011
                                                    search_criteria: {'template' => self.class.name,
                                                                      'space_type' => space.spaceType.get.standardsSpaceType.get,
                                                                      'building_type' => space.spaceType.get.standardsBuildingType.get})
-    necb_hvac_system_selection_table = standards_lookup_table_many(table_name: 'necb_hvac_system_selection_type')
-    necb_hvac_system_select = necb_hvac_system_selection_table.detect do |necb_hvac_system_select|
-      necb_hvac_system_select['necb_hvac_system_selection_type'] == space_type_data['necb_hvac_system_selection_type'] &&
-          necb_hvac_system_select['min_stories'] <= space.model.getBuilding.standardsNumberOfAboveGroundStories.get &&
-          necb_hvac_system_select['max_stories'] >= space.model.getBuilding.standardsNumberOfAboveGroundStories.get
-    end
-    return necb_hvac_system_select['dwelling'] == true
-
+    return space_type_data["necb_hvac_system_selection_type"] == "Wildcard"
   end
 
   def is_an_necb_wet_space?(space)
@@ -869,6 +855,7 @@ class NECB2011
   end
 
   def percentage_difference(value_1, value_2)
+    return 0.0 if value_1 == value_2
     return ((value_1 - value_2).abs / ((value_1 + value_2) / 2) * 100)
   end
 
@@ -879,31 +866,33 @@ class NECB2011
     # Get current spacetype name
     space_type_name = space.spaceType.get.name.get
     # Determine new spacetype name.
+    puts space_type_name
+    puts schedule
+    regex = /^(.*sch-)(\S)$/
     new_spacetype_name = "#{space_type_name.match(regex).captures.first}#{schedule}"
+    new_space_type = nil
 
     #if the new spacetype does not match the old space type. we gotta update the space with the new spacetype.
     unless space_type_name == new_spacetype_name
       new_spacetype = space.model.getSpaceTypes.detect do |spacetype|
-        not spacetype.standardsBuildingType.empty? and
-            spacetype.standardsBuildingType.get.name.get == space.spaceType.standardsBuildingType.get.name.get and
-            not spacetype.standardsSpaceType.empty? and
-            spacetype.standardsSpaceType.get.name.get == space.spaceType.standardsSpaceType.get.name.get
+        not spacetype.standardsBuildingType.empty? and #need to do this to prevent an exception.
+            spacetype.standardsBuildingType.get == space.spaceType.get.standardsBuildingType.get and
+            not spacetype.standardsSpaceType.empty? and #need to do this to prevent an exception.
+            spacetype.standardsSpaceType.get == space.spaceType.get.standardsSpaceType.get
       end
-      space.setSpaceType(new_spacetype)
       if new_spacetype.nil?
         # Space type is not in model. need to create from scratch.
         new_spacetype = OpenStudio::Model::SpaceType.new(space.model)
-        new_spacetype.setStandardsBuildingType(space.spaceType.standardsBuildingType.get.name.get)
+        new_spacetype.setStandardsBuildingType(space.spaceType.get.standardsBuildingType.get)
         new_spacetype.setStandardsSpaceType(new_spacetype_name)
-        new_spacetype.setName("#{space.spaceType.standardsBuildingType.get.name.get} #{new_spacetype_name}")
+        new_spacetype.setName("#{space.spaceType.get.standardsBuildingType.get} #{new_spacetype_name}")
         space_type_apply_rendering_color(new_spacetype_name)
-        space_type_apply_internal_loads(space_type, true, true, true, true, true, true)
-        space_type_apply_internal_load_schedules(space_type, true, true, true, true, true, true, true)
-        space.setSpaceType(new_spacetype)
+        space_type_apply_internal_loads(new_space_type, true, true, true, true, true, true)
+        space_type_apply_internal_load_schedules(new_spacetype, true, true, true, true, true, true, true)
+
       end
+      space.setSpaceType(new_spacetype)
     end
   end
-
-
 end
 

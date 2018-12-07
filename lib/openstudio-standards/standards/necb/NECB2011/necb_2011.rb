@@ -417,7 +417,6 @@ class NECB2011 < Standard
 
 
   def determine_dominant_schedule(spaces)
-    spaces.each do |space|
       # lookup necb space type properties
       space_type_properties = standards_lookup_table_many(table_name: 'space_types')
       # Here is a hash to keep track of the m2 running total of spacetypes for each
@@ -445,7 +444,7 @@ class NECB2011 < Standard
       ]
       # iterate through spaces in building.
       wildcard_spaces = 0
-      model.getSpaces.sort.each do |space|
+      spaces.sort.each do |space|
         found_space_type = false
         # iterate through the NECB spacetype property table
         space_type_properties.each do |spacetype|
@@ -470,10 +469,10 @@ class NECB2011 < Standard
         raise "Did not find #{space.spaceType.get.name} in NECB space types." if found_space_type == false
       end
       # finds max value and returns NECB schedule letter.
-      raise('Only wildcard spaces in model. You need to define the actual spaces. ') if wildcard_spaces == model.getSpaces.size
+      raise('Only wildcard spaces in model. You need to define the actual spaces. ') if wildcard_spaces == spaces.size
       dominant_schedule = schedule_hash.each {|k, v| return k.to_s if v == schedule_hash.values.max}
       return dominant_schedule
-    end
+
   end
 
 
