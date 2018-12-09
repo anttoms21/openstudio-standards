@@ -25,6 +25,7 @@ class NECB2011 < Standard
   # Load JSON files differently depending on whether loading from
   # the OpenStudio CLI embedded filesystem or from typical gem installation
   def load_standards_database_new()
+    @random = Random.new(1234)
     @standards_data = {}
     @standards_data["tables"] = {}
 

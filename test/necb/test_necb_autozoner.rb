@@ -6,24 +6,56 @@ class NECB_Autozone_Tests < MiniTest::Test
 
 
 
-  def test_fullservice_resturant()
+
+  def test_HighriseApartment()
+    model = autozone("HighriseApartment.osm")
+  end
+  def test_LargeOffice()
+    model = autozone("LargeOffice.osm")
+  end
+  def test_MediumOffice()
+    model = autozone("MediumOffice.osm")
+  end
+  def test_MidriseApartment()
+    model = autozone("MidriseApartment.osm")
+  end
+  def test_Outpatient()
+    model = autozone("Outpatient.osm")
+  end
+  def test_QuickServiceRestaurant()
+    model = autozone("QuickServiceRestaurant.osm")
+  end
+  def test_RetailStandalone()
+    model = autozone("RetailStandalone.osm")
+  end
+  def test_RetailStripmall()
+    model = autozone("RetailStripmall.osm")
+  end
+  def test_SmallHotel()
+    model = autozone("SmallHotel.osm")
+  end
+  def test_SmallOffice()
+    model = autozone("SmallOffice.osm")
+  end
+  def test_Warehouse()
+    model = autozone("Warehouse.osm")
+  end
+
+  def test_FullServiceRestaurant()
     model = autozone("FullServiceRestaurant.osm")
   end
 
-  def test_large_hotel()
+  def test_LargeHotel()
     model = autozone("LargeHotel.osm")
   end
 
-
-  def test_primary()
+  def test_PrimarySchool()
     model = autozone("PrimarySchool.osm")
   end
 
-
-  def test_secondary()
+  def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
-
 
 
   # Test to validate the heat pump performance curves
@@ -74,19 +106,43 @@ class NECB_Autozone_Tests < MiniTest::Test
     standard.model_add_constructions(model)
     standard.apply_standard_construction_properties(model)
     standard.auto_zoning(model)
+    system_fuel_defaults = standard.get_canadian_system_defaults_by_weatherfile_name(model)
+    standard.auto_system(model: model,
+                         boiler_fueltype: system_fuel_defaults['boiler_fueltype'],
+                         baseboard_type: system_fuel_defaults['baseboard_type'],
+                         mau_type: system_fuel_defaults['mau_type'],
+                         mau_heating_coil_type: system_fuel_defaults['mau_heating_coil_type'],
+                         mau_cooling_type: system_fuel_defaults['mau_cooling_type'],
+                         chiller_type: system_fuel_defaults['chiller_type'],
+                         heating_coil_type_sys3: system_fuel_defaults['heating_coil_type_sys3'],
+                         heating_coil_type_sys4: system_fuel_defaults['heating_coil_type_sys4'],
+                         heating_coil_type_sys6: system_fuel_defaults['heating_coil_type_sys6']
+    )
 
-    thermalzone_debug = []
+    #writing file
+    outfile = output_folder + "/#{filename}_autozoned.osm"
+    puts "Writing Output #{outfile}"
+    BTAP::FileIO::save_osm(model, outfile)
 
 
-    model.getThermalZones.sort.each do |tz|
-      data = {}
-      data[:thermal_zone_name] = tz.name.to_s
-      data[:spaces] = []
-      tz.spaces.each do |space|
-        data[:spaces] << space.name.get
+    air_loops = []
+    model.getAirLoopHVACs.each do |airloop|
+      debug = {}
+      debug["airloop.name"] = airloop.name
+      debug[:thermal_zones] = []
+      airloop.thermalZones.each do |tz|
+        data = {}
+        data[:thermal_zone_name] = tz.name.to_s
+        data[:spaces] = []
+        tz.spaces.each do |space|
+          data[:spaces] << space.name.get
+        end
+        debug[:thermal_zones] << data
       end
-      puts data
+      air_loops << debug
     end
-    puts JSON.pretty_generate(thermalzone_debug)
+    outfile = output_folder + "/#{filename}_autozoned.json"
+    puts "Writing Output #{outfile}"
+    File.write(outfile, JSON.pretty_generate(air_loops))
   end
 end

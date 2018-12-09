@@ -313,7 +313,6 @@ class NECB2011
             next
           else
             space_zone_data[:system_number] = adj_space_data[:system_number]
-            puts space_zone_data[:space].name.get.to_s
             break
           end
         end
@@ -367,6 +366,8 @@ class NECB2011
                 space_info_array.each do |space_info|
                   # Create thermalzone for each space.
                   thermal_zone = OpenStudio::Model::ThermalZone.new(model)
+                  thermal_zone.setRenderingColor(self.set_random_rendering_color(thermal_zone))
+
                   # Create a more informative space name.
                   thermal_zone.setName("Sp-#{space_info[:space].name} Sys-#{system_number} Flr-#{building_index + 1} Sch-#{schedule_type} HPlcmt-#{horizontal_placement} ZN")
                   # Add zone mulitplier if required.
@@ -475,6 +476,7 @@ class NECB2011
     # Create a thermal zone for each space in the self
     model.getSpaces.sort.each do |space|
       zone = OpenStudio::Model::ThermalZone.new(model)
+      zone.setRenderingColor(self.set_random_rendering_color(zone))
       zone.setName("#{space.name} ZN")
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -516,8 +518,10 @@ class NECB2011
 
     #store sizing loads for each space into a class hash.
     @space_heating_load = {}
+    @space_cooling_load = {}
     model.getSpaces.each do |space|
       @space_heating_load[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get * space.floorArea * space.multiplier / 1000.0
+      @space_cooling_load[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get * space.floorArea * space.multiplier / 1000.0
     end
 
     # Remove any Thermal zones assigned again to start fresh.
@@ -568,6 +572,7 @@ class NECB2011
     # ----Dwelling units----------- will always have their own system per unit, so they should have their own thermal zone.
     model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
       zone = OpenStudio::Model::ThermalZone.new(model)
+      zone.setRenderingColor(self.set_random_rendering_color(zone))
       zone.setName("DU-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -602,6 +607,7 @@ class NECB2011
       next unless space.thermalZone.empty?
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
+      zone.setRenderingColor(self.set_random_rendering_color(zone))
       space.setThermalZone(zone)
       zone.setName("WET-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #Set multiplier from the original tz multiplier.
@@ -650,9 +656,9 @@ class NECB2011
       next unless space.thermalZone.empty?
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
+      zone.setRenderingColor(self.set_random_rendering_color(zone))
       tz_name = "All-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:"
       zone.setName(tz_name)
-      puts "new thermal zone #{tz_name} created."
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -679,7 +685,6 @@ class NECB2011
         if space_target.thermalZone.empty?
           if are_space_loads_similar?(space_1: space, space_2: space_target) and
               space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
-            puts "#{space.name} == #{space_target.name}"
             space_target.setThermalZone(zone)
           end
         end
@@ -731,6 +736,7 @@ class NECB2011
 
       #create new TZ and set space to the zone.
       zone = OpenStudio::Model::ThermalZone.new(model)
+      zone.setRenderingColor(self.set_random_rendering_color(zone))
       space.setThermalZone(zone)
       zone.setName("Wild-ZN:BT=#{space.spaceType.get.standardsBuildingType.get}:ST=#{space.spaceType.get.standardsSpaceType.get}:FL=#{space.buildingStory().get.name}:")
       #Set multiplier from the original tz multiplier.
@@ -897,19 +903,30 @@ class NECB2011
                                                                                                 'space_type' => space.spaceType.get.standardsSpaceType.get,
                                                                                                 'building_type' => space.spaceType.get.standardsBuildingType.get})
 
-    #Get Heating and cooling loads
-    cooling_design_load = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get * space.floorArea * space.multiplier / 1000.0
-
     # identify space-system_index and assign the right NECB system type 1-7.
     necb_hvac_system_selection_table = standards_lookup_table_many(table_name: 'necb_hvac_system_selection_type')
     necb_hvac_system_select = necb_hvac_system_selection_table.detect do |necb_hvac_system_select|
       necb_hvac_system_select['necb_hvac_system_selection_type'] == space_type_data['necb_hvac_system_selection_type'] &&
           necb_hvac_system_select['min_stories'] <= space.model.getBuilding.standardsNumberOfAboveGroundStories.get &&
           necb_hvac_system_select['max_stories'] >= space.model.getBuilding.standardsNumberOfAboveGroundStories.get &&
-          necb_hvac_system_select['min_cooling_capacity_kw'] <= cooling_design_load &&
-          necb_hvac_system_select['max_cooling_capacity_kw'] >= cooling_design_load
+          necb_hvac_system_select['min_cooling_capacity_kw'] <= @space_cooling_load[space] &&
+          necb_hvac_system_select['max_cooling_capacity_kw'] >= @space_cooling_load[space]
     end
+    raise("could not find system for given spacetype") if necb_hvac_system_select.nil?
+    return necb_hvac_system_select['system_type']
   end
+
+  def get_necb_thermal_zone_system_selection(tz)
+    systems = []
+    tz.spaces.each do |space|
+      systems << get_necb_spacetype_system_selection(space)
+    end
+    systems.uniq!
+    systems.compact!
+    raise("This thermal zone spaces require different systems.") if systems.size > 1
+    return systems.first
+  end
+
 
   def percentage_difference(value_1, value_2)
     return 0.0 if value_1 == value_2
@@ -923,8 +940,6 @@ class NECB2011
     # Get current spacetype name
     space_type_name = space.spaceType.get.name.get
     # Determine new spacetype name.
-    puts space_type_name
-    puts schedule
     regex = /^(.*sch-)(\S)$/
     new_spacetype_name = "#{space_type_name.match(regex).captures.first}#{schedule}"
     new_space_type = nil
@@ -943,13 +958,349 @@ class NECB2011
         new_spacetype.setStandardsBuildingType(space.spaceType.get.standardsBuildingType.get)
         new_spacetype.setStandardsSpaceType(new_spacetype_name)
         new_spacetype.setName("#{space.spaceType.get.standardsBuildingType.get} #{new_spacetype_name}")
-        space_type_apply_rendering_color(new_spacetype_name)
+        new_spacetype.setRenderingColor(self.set_random_rendering_color(new_spacetype))
         space_type_apply_internal_loads(new_space_type, true, true, true, true, true, true)
         space_type_apply_internal_load_schedules(new_spacetype, true, true, true, true, true, true, true)
 
       end
       space.setSpaceType(new_spacetype)
     end
+  end
+
+
+  ############autosystem
+
+  def auto_system(model:,
+                  boiler_fueltype: "NaturalGas",
+                  baseboard_type: "Hot Water",
+                  mau_type: true,
+                  mau_heating_coil_type: "Hot Water",
+                  mau_cooling_type: "DX",
+                  chiller_type: "Scroll",
+                  heating_coil_type_sys3: "Gas",
+                  heating_coil_type_sys4: "Gas",
+                  heating_coil_type_sys6: "Hot Water",
+                  fan_type: "var_speed_drive",
+                  swh_fueltype: "NaturalGas"
+  )
+
+    #remove idealair from zones if any.
+    model.getZoneHVACIdealLoadsAirSystems.each(&:remove)
+    @hw_loop = create_hw_loop_if_required(baseboard_type,
+                                          boiler_fueltype,
+                                          mau_heating_coil_type,
+                                          model)
+    #Rule that all dwelling units have their own zone and system.
+    auto_system_dwelling_units(model: model,
+                               baseboard_type: baseboard_type,
+                               boiler_fueltype: boiler_fueltype,
+                               chiller_type: chiller_type,
+                               fan_type: fan_type,
+                               heating_coil_type_sys3: heating_coil_type_sys3,
+                               heating_coil_type_sys4: heating_coil_type_sys4,
+                               hw_loop: @hw_loop,
+                               heating_coil_type_sys6: heating_coil_type_sys6,
+                               mau_cooling_type: mau_cooling_type,
+                               mau_heating_coil_type: mau_heating_coil_type,
+                               mau_type: mau_type
+    )
+
+    #Assign a single system 4 for all wet spaces.. and assign the control zone to the one with the largest load.
+    auto_system_wet_spaces(baseboard_type: baseboard_type,
+                           boiler_fueltype: boiler_fueltype,
+                           heating_coil_type_sys4: heating_coil_type_sys4,
+                           model: model)
+
+    #Assign the wild spaces to a single system 4 system with a control zone with the largest load.
+    auto_system_wild_spaces(baseboard_type: baseboard_type,
+                            boiler_fueltype: boiler_fueltype,
+                            heating_coil_type_sys4: heating_coil_type_sys4,
+                            model: model)
+    # do the regular assignment for the rest and group where possible.
+    auto_system_all_other_spaces(model: model,
+                                 baseboard_type: baseboard_type,
+                                 boiler_fueltype: boiler_fueltype,
+                                 chiller_type: chiller_type,
+                                 fan_type: fan_type,
+                                 heating_coil_type_sys3: heating_coil_type_sys3,
+                                 heating_coil_type_sys4: heating_coil_type_sys4,
+                                 hw_loop: @hw_loop,
+                                 heating_coil_type_sys6: heating_coil_type_sys6,
+                                 mau_cooling_type: mau_cooling_type,
+                                 mau_heating_coil_type: mau_heating_coil_type,
+                                 mau_type: mau_type
+    )
+  end
+
+  def create_hw_loop_if_required(baseboard_type, boiler_fueltype, mau_heating_coil_type, model)
+    #get systems that will be used in the model based on the space types to determine if a hw_loop is required.
+    systems_used = []
+    model.getSpaces.each do |space|
+      systems_used << get_necb_spacetype_system_selection(space)
+      systems_used.uniq!
+    end
+
+    #See if we need to create a hot water loop based on fueltype and systems used.
+    hw_loop_needed = false
+    systems_used.each do |system|
+      case system.to_s
+      when '2', '5', '7'
+        hw_loop_needed = true
+      when '1', '6'
+        if mau_heating_coil_type == 'Hot Water' or baseboard_type == 'Hot Water'
+          hw_loop_needed = true
+        end
+      when '3', '4'
+        if mau_heating_coil_type == 'Hot Water' or baseboard_type == 'Hot Water'
+          hw_loop_needed = true if (baseboard_type == 'Hot Water')
+        end
+      end
+      if hw_loop_needed
+        # just need one true condition to need a boiler.
+        break
+      end
+    end # each
+    #create hw_loop as needed.. Assuming one loop per model.
+    if hw_loop_needed
+      @hw_loop = OpenStudio::Model::PlantLoop.new(model)
+      always_on = model.alwaysOnDiscreteSchedule
+      setup_hw_loop_with_components(model, @hw_loop, boiler_fueltype, always_on)
+    end
+    return @hw_loop
+  end
+
+  def create_necb_system(baseboard_type:,
+                         boiler_fueltype:,
+                         chiller_type:,
+                         fan_type:,
+                         heating_coil_type_sys3:,
+                         heating_coil_type_sys4:,
+                         heating_coil_type_sys6:,
+                         hw_loop:,
+                         mau_cooling_type:,
+                         mau_heating_coil_type:,
+                         mau_type:,
+                         model:,
+                         zones:)
+
+    # The goal is to minimize the number of system when possible.
+    system_zones_hash = {}
+    zones.each do |zone|
+      system_zones_hash[get_necb_thermal_zone_system_selection(zone)] = [] if system_zones_hash[get_necb_thermal_zone_system_selection(zone)].nil?
+      system_zones_hash[get_necb_thermal_zone_system_selection(zone)] << zone
+    end
+
+    # go through each system and zones pairs to
+    system_zones_hash.each_pair do |system, zones|
+      case system
+      when 0, nil
+        # Do nothing no system assigned to zone. Used for Unconditioned spaces
+      when 1
+        mau_air_loop = add_sys1_unitary_ac_baseboard_heating(model,
+                                                             zones,
+                                                             boiler_fueltype,
+                                                             mau_type,
+                                                             mau_heating_coil_type,
+                                                             baseboard_type,
+                                                             @hw_loop)
+
+      when 2
+        add_sys2_FPFC_sys5_TPFC(model,
+                                zones,
+                                boiler_fueltype,
+                                chiller_type,
+                                'FPFC',
+                                mau_cooling_type,
+                                @hw_loop)
+      when 3
+        add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed(model,
+                                                                                           zones,
+                                                                                           boiler_fueltype,
+                                                                                           heating_coil_type_sys3,
+                                                                                           baseboard_type,
+                                                                                           @hw_loop)
+      when 4
+        add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
+                                                                     zones,
+                                                                     boiler_fueltype,
+                                                                     heating_coil_type_sys4,
+                                                                     baseboard_type,
+                                                                     @hw_loop)
+      when 5
+        add_sys2_FPFC_sys5_TPFC(model,
+                                zones,
+                                boiler_fueltype,
+                                chiller_type,
+                                'TPFC',
+                                mau_cooling_type,
+                                @hw_loop)
+      when 6
+        add_sys6_multi_zone_built_up_system_with_baseboard_heating(model,
+                                                                   zones,
+                                                                   boiler_fueltype,
+                                                                   heating_coil_type_sys6,
+                                                                   baseboard_type,
+                                                                   chiller_type,
+                                                                   fan_type,
+                                                                   @hw_loop)
+      when 7
+        add_sys2_FPFC_sys5_TPFC(model,
+                                zones,
+                                boiler_fueltype,
+                                chiller_type,
+                                'FPFC',
+                                mau_cooling_type,
+                                @hw_loop)
+      end
+    end
+  end
+
+
+  def auto_system_all_other_spaces(baseboard_type:,
+                                   boiler_fueltype:,
+                                   chiller_type:,
+                                   fan_type:,
+                                   heating_coil_type_sys3:,
+                                   heating_coil_type_sys4:,
+                                   heating_coil_type_sys6:,
+                                   hw_loop:,
+                                   mau_cooling_type:,
+                                   mau_heating_coil_type:,
+                                   mau_type:,
+                                   model:
+  )
+    #dwelling units are either system 1 or 3.
+    dwelling_tz = []
+    other_spaces = model.getSpaces.select do |space|
+      (not is_a_necb_dwelling_unit?(space)) and
+          (not is_an_necb_wildcard_space?(space))
+    end
+    other_spaces.each do |space|
+      dwelling_tz << space.thermalZone.get
+    end
+    dwelling_tz.uniq!
+    dwelling_tz.each do |tz|
+      #since dwelling units are all zoned 1:1 to space:zone we simply add the zone to the appropriate btap system.
+      create_necb_system(baseboard_type: baseboard_type,
+                         boiler_fueltype: boiler_fueltype,
+                         chiller_type: chiller_type,
+                         fan_type: fan_type,
+                         heating_coil_type_sys3: heating_coil_type_sys3,
+                         heating_coil_type_sys4: heating_coil_type_sys4,
+                         heating_coil_type_sys6: heating_coil_type_sys6,
+                         hw_loop: @hw_loop,
+                         mau_cooling_type: mau_cooling_type,
+                         mau_heating_coil_type: mau_heating_coil_type,
+                         mau_type: mau_type,
+                         model: model,
+                         zones: [tz])
+    end
+  end
+
+
+  def auto_system_dwelling_units(baseboard_type:,
+                                 boiler_fueltype:,
+                                 chiller_type:,
+                                 fan_type:,
+                                 heating_coil_type_sys3:,
+                                 heating_coil_type_sys4:,
+                                 heating_coil_type_sys6:,
+                                 hw_loop:,
+                                 mau_cooling_type:,
+                                 mau_heating_coil_type:,
+                                 mau_type:,
+                                 model:
+  )
+    #dwelling units are either system 1 or 3.
+    dwelling_tz = []
+    model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
+      dwelling_tz << space.thermalZone.get
+    end
+    dwelling_tz.uniq!
+    dwelling_tz.each do |tz|
+      #since dwelling units are all zoned 1:1 to space:zone we simply add the zone to the appropriate btap system.
+      create_necb_system(baseboard_type: baseboard_type,
+                         boiler_fueltype: boiler_fueltype,
+                         chiller_type: chiller_type,
+                         fan_type: fan_type,
+                         heating_coil_type_sys3: heating_coil_type_sys3,
+                         heating_coil_type_sys4: heating_coil_type_sys4,
+                         heating_coil_type_sys6: heating_coil_type_sys6,
+                         hw_loop: @hw_loop,
+                         mau_cooling_type: mau_cooling_type,
+                         mau_heating_coil_type: mau_heating_coil_type,
+                         mau_type: mau_type,
+                         model: model,
+                         zones: [tz])
+    end
+  end
+
+  def auto_system_wet_spaces(baseboard_type:,
+                             boiler_fueltype:,
+                             heating_coil_type_sys4:,
+                             model:
+  )
+    #Determine what zones are wet zones.
+    wet_tz = []
+    model.getSpaces.select {|space|
+      is_an_necb_wet_space?(space)}.each do |space|
+      wet_tz << space.thermalZone.get
+
+    end
+    wet_tz.uniq!
+    #create a system 4 for the wet zones.
+    add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
+                                                                 wet_tz,
+                                                                 boiler_fueltype,
+                                                                 heating_coil_type_sys4,
+                                                                 baseboard_type,
+                                                                 @hw_loop)
+  end
+
+  def auto_system_wild_spaces(baseboard_type:,
+                              boiler_fueltype:,
+                              heating_coil_type_sys4:,
+                              model:
+  )
+    #Determine what zones are wet zones.
+    wet_tz = []
+    model.getSpaces.select {|space|
+      not is_an_necb_wet_space?(space) and is_an_necb_wildcard_space?(space)}.each do |space|
+      wet_tz << space.thermalZone.get
+    end
+
+    wet_tz.uniq!
+    #create a system 4 for the wet zones.
+    add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
+                                                                 wet_tz,
+                                                                 boiler_fueltype,
+                                                                 heating_coil_type_sys4,
+                                                                 baseboard_type,
+                                                                 @hw_loop)
+  end
+
+  def determine_control_zone(zones)
+    # In this case the control zone is the load with the largest heating loads. This may cause overheating of some zones.
+    # but this is preferred to unmet heating.
+    #Iterate through zones.
+    zone_heating_load_hash = {}
+    zones.each do |zone|
+      zone_heating_load = 0.0
+      zone.spaces.each do |space|
+        zone_heating_load += @space_heating_load[space]
+      end
+      zone_heating_load_hash[zone] = zone_heating_load
+    end
+    return zone_heating_load_hash.max_by(&:last).first
+  end
+
+  def set_random_rendering_color(object)
+    rendering_color = OpenStudio::Model::RenderingColor.new(object.model)
+    rendering_color.setName(object.name.get)
+    rendering_color.setRenderingRedValue(@random.rand(255))
+    rendering_color.setRenderingGreenValue(@random.rand(255))
+    rendering_color.setRenderingBlueValue(@random.rand(255))
+    return rendering_color
   end
 end
 

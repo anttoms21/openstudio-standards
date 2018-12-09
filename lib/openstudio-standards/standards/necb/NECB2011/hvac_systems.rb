@@ -1528,7 +1528,7 @@ class NECB2011
       end # components for MAU
     end # of zone loop
 
-    return true
+    return mau_air_loop
   end
 
   # sys1_unitary_ac_baseboard_heating
@@ -1948,6 +1948,7 @@ class NECB2011
       diffuser = OpenStudio::Model::AirTerminalSingleDuctUncontrolled.new(model, always_on)
       air_loop.addBranchForZone(zone, diffuser.to_StraightComponent)
     end # zone loop
+    return air_loop
   end
 
   # add_sys2_FPFC_sys5_TPFC

@@ -10,6 +10,7 @@ class NECB2011
     end
     spacetype_data.each do |spacedata|
       space_type = OpenStudio::Model::SpaceType.new(model)
+      space_type.setRenderingColor(self.set_random_rendering_color(space_type))
       space_type.setStandardsSpaceType(spacedata["space_type"])
       space_type.setStandardsBuildingType(spacedata["building_type"])
       space_type.setName("#{spacedata['building_type']} #{spacedata['space_type']}")
