@@ -5,6 +5,14 @@ require_relative '../helpers/create_doe_prototype_helper'
 class NECB_Autozone_Tests < MiniTest::Test
 
 
+  def setup()
+    @output_folder = "#{File.dirname(__FILE__)}/output/autozoner"
+    @relative_geometry_path = "/../../lib/openstudio-standards/standards/necb/NECB2011/data/geometry/"
+    @epw_file = 'CAN_ON_Toronto.Pearson.Intl.AP.716240_CWEC2016.epw'
+    @template = 'NECB2011'
+    @climate_zone = 'NECB HDD Method'
+    FileUtils.mkdir_p(@output_folder) unless File.directory?(@output_folder)
+  end
 
 
   def test_HighriseApartment()
@@ -60,15 +68,13 @@ class NECB_Autozone_Tests < MiniTest::Test
 
   # Test to validate the heat pump performance curves
   def autozone(filename)
-    output_folder = "#{File.dirname(__FILE__)}/output/autozoner"
-    relative_geometry_path = "/../../lib/openstudio-standards/standards/necb/NECB2011/data/geometry/"
-    epw_file = 'CAN_ON_Toronto.Pearson.Intl.AP.716240_CWEC2016.epw'
-    FileUtils.rm_rf(output_folder)
-    FileUtils.mkdir_p(output_folder)
-    template = 'NECB2011'
-    climate_zone = 'NECB HDD Method'
-    standard = Standard.build(template)
-    model = BTAP::FileIO.load_osm("#{File.dirname(__FILE__)}#{relative_geometry_path}#{filename}")
+    outfile = @output_folder + "/#{filename}_autozoned.osm"
+    File.delete(outfile) if File.exist?(outfile)
+    outfile_json = @output_folder + "/#{filename}_autozoned.json"
+    File.delete(outfile_json) if File.exist?(outfile_json)
+
+    standard = Standard.build(@template)
+    model = BTAP::FileIO.load_osm("#{File.dirname(__FILE__)}#{@relative_geometry_path}#{filename}")
     return false unless standard.validate_initial_model(model)
 
     #Ensure that the space types names match the space types names in the code.
@@ -86,8 +92,8 @@ class NECB_Autozone_Tests < MiniTest::Test
     model.yearDescription.get.setDayofWeekforStartDay('Sunday')
 
     #Set climate data.
-    standard.model_add_design_days_and_weather_file(model, climate_zone, epw_file) # Standards
-    standard.model_add_ground_temperatures(model, nil, climate_zone) # prototype candidate
+    standard.model_add_design_days_and_weather_file(model, @climate_zone, @epw_file) # Standards
+    standard.model_add_ground_temperatures(model, nil, @climate_zone) # prototype candidate
 
     #Add Occ sensor schedule adjustments where needed.
     standard.set_occ_sensor_spacetypes(model)
@@ -120,7 +126,7 @@ class NECB_Autozone_Tests < MiniTest::Test
     )
 
     #writing file
-    outfile = output_folder + "/#{filename}_autozoned.osm"
+
     puts "Writing Output #{outfile}"
     BTAP::FileIO::save_osm(model, outfile)
 
@@ -135,14 +141,17 @@ class NECB_Autozone_Tests < MiniTest::Test
         data[:thermal_zone_name] = tz.name.to_s
         data[:spaces] = []
         tz.spaces.each do |space|
-          data[:spaces] << space.name.get
+          space_data = {}
+          space_data[:name] = space.name.get
+          space_data[:schedule] = standard.determine_necb_schedule_type(space).to_s
+          data[:spaces] << space_data
         end
         debug[:thermal_zones] << data
       end
       air_loops << debug
     end
-    outfile = output_folder + "/#{filename}_autozoned.json"
+    outfile_json = @output_folder + "/#{filename}_autozoned.json"
     puts "Writing Output #{outfile}"
-    File.write(outfile, JSON.pretty_generate(air_loops))
+    File.write(outfile_json, JSON.pretty_generate(air_loops))
   end
 end
