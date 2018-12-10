@@ -1,0 +1,182 @@
+[
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 3",
+        "spaces": [
+          {
+            "name": "Perimeter_mid_ZN_3",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 5",
+        "spaces": [
+          {
+            "name": "Perimeter_mid_ZN_4",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 2",
+        "spaces": [
+          {
+            "name": "Perimeter_mid_ZN_2",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Basement Story 0:",
+        "spaces": [
+          {
+            "name": "DataCenter_basement_ZN_6",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 1",
+        "spaces": [
+          {
+            "name": "Perimeter_mid_ZN_1",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 4",
+        "spaces": [
+          {
+            "name": "Core_mid",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "DataCenter_mid_ZN_6",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Perimeter_top_ZN_1",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_top_ZN_2",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_top_ZN_4",
+            "schedule": "A"
+          },
+          {
+            "name": "DataCenter_top_ZN_6",
+            "schedule": "A"
+          },
+          {
+            "name": "Core_top",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_top_ZN_3",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Core_bottom",
+            "schedule": "A"
+          },
+          {
+            "name": "DataCenter_bot_ZN_6",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_bot_ZN_2",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_bot_ZN_1",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_bot_ZN_4",
+            "schedule": "A"
+          },
+          {
+            "name": "Perimeter_bot_ZN_3",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-A:FL=Basement Story 0:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-A:FL=Basement Story 0:",
+        "spaces": [
+          {
+            "name": "Basement",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Dining",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Kitchen",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  }
+]

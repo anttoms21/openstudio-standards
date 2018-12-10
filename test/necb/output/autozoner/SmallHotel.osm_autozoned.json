@@ -1,0 +1,857 @@
+[
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
+        "spaces": [
+          {
+            "name": "FrontStorageFlr3",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "FrontLoungeFlr1",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 19",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 2",
+        "spaces": [
+          {
+            "name": "GuestRoom103",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 16",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 6",
+        "spaces": [
+          {
+            "name": "GuestRoom424",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 15",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 5",
+        "spaces": [
+          {
+            "name": "GuestRoom409_412",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4: 1",
+        "spaces": [
+          {
+            "name": "FrontStorageFlr4",
+            "schedule": "E"
+          },
+          {
+            "name": "CorridorFlr4",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 1",
+        "spaces": [
+          {
+            "name": "GuestRoom306_308",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 21",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 8",
+        "spaces": [
+          {
+            "name": "GuestRoom420_423",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 1",
+        "spaces": [
+          {
+            "name": "GuestRoom224",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 26",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 3",
+        "spaces": [
+          {
+            "name": "GuestRoom101",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 18",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 5",
+        "spaces": [
+          {
+            "name": "GuestRoom313",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
+        "spaces": [
+          {
+            "name": "ElevatorCoreFlr3",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 17",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 7",
+        "spaces": [
+          {
+            "name": "GuestRoom413",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - fitness:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "ExerciseCenterFlr1",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 13",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 4",
+        "spaces": [
+          {
+            "name": "GuestRoom414",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 2",
+        "spaces": [
+          {
+            "name": "GuestRoom402_405",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 20",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 3",
+        "spaces": [
+          {
+            "name": "GuestRoom209_212",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2:",
+        "spaces": [
+          {
+            "name": "GuestRoom206_208",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 2",
+        "spaces": [
+          {
+            "name": "GuestRoom309_312",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 14",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 4",
+        "spaces": [
+          {
+            "name": "GuestRoom319",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4:",
+        "spaces": [
+          {
+            "name": "GuestRoom401",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 22",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 4",
+        "spaces": [
+          {
+            "name": "GuestRoom215_218",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "GuestRoom102",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 12",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 3",
+        "spaces": [
+          {
+            "name": "GuestRoom302_305",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
+        "spaces": [
+          {
+            "name": "RearStorageFlr3",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 1",
+        "spaces": [
+          {
+            "name": "GuestRoom415_418",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory4:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory4:",
+        "spaces": [
+          {
+            "name": "ElevatorCoreFlr4",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 2",
+        "spaces": [
+          {
+            "name": "GuestRoom201",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "EmployeeLoungeFlr1",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 23",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 5",
+        "spaces": [
+          {
+            "name": "GuestRoom220_223",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 24",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 9",
+        "spaces": [
+          {
+            "name": "GuestRoom406_408",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory4:",
+        "spaces": [
+          {
+            "name": "FrontStairsFlr4",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory3:",
+        "spaces": [
+          {
+            "name": "RearStairsFlr3",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "RearStairsFlr1",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 9",
+        "spaces": [
+          {
+            "name": "CorridorFlr3",
+            "schedule": "F"
+          },
+          {
+            "name": "GuestRoom314",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-F:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "MeetingRoomFlr1",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory2:",
+        "spaces": [
+          {
+            "name": "FrontStairsFlr2",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 4",
+        "spaces": [
+          {
+            "name": "GuestRoom104",
+            "schedule": "F"
+          },
+          {
+            "name": "CorridorFlr1",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory2: 1",
+        "spaces": [
+          {
+            "name": "RearStairsFlr2",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-F:FL=BuildingStory1: 1",
+        "spaces": [
+          {
+            "name": "MechanicalRoomFlr1",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory4: 1",
+        "spaces": [
+          {
+            "name": "RearStairsFlr4",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory3: 1",
+        "spaces": [
+          {
+            "name": "FrontStairsFlr3",
+            "schedule": "F"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory1: 1",
+        "spaces": [
+          {
+            "name": "FrontStairsFlr1",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 25",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 6",
+        "spaces": [
+          {
+            "name": "GuestRoom315_318",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 27",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 6",
+        "spaces": [
+          {
+            "name": "GuestRoom202_205",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 28",
+    "thermal_zones": [
+
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 29",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 7",
+        "spaces": [
+          {
+            "name": "GuestRoom214",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
+        "spaces": [
+          {
+            "name": "CorridorFlr2",
+            "schedule": "F"
+          },
+          {
+            "name": "FrontStorageFlr2",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 31",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 8",
+        "spaces": [
+          {
+            "name": "GuestRoom301",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
+        "spaces": [
+          {
+            "name": "ElevatorCoreFlr2",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2:",
+        "spaces": [
+          {
+            "name": "RearStorageFlr2",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 11",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 1",
+        "spaces": [
+          {
+            "name": "GuestRoom105",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 32",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 8",
+        "spaces": [
+          {
+            "name": "GuestRoom219",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3:",
+        "spaces": [
+          {
+            "name": "GuestRoom324",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 34",
+    "thermal_zones": [
+
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "RestroomFlr1",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "FrontOfficeFlr1",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 10",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 3",
+        "spaces": [
+          {
+            "name": "GuestRoom419",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 33",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 9",
+        "spaces": [
+          {
+            "name": "GuestRoom213",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 30",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 7",
+        "spaces": [
+          {
+            "name": "GuestRoom320_323",
+            "schedule": "F"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "LaundryRoomFlr1",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4:",
+        "spaces": [
+          {
+            "name": "RearStorageFlr4",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1: 1",
+        "spaces": [
+          {
+            "name": "RearStorageFlr1",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1: 2",
+        "spaces": [
+          {
+            "name": "FrontStorageFlr1",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
+        "spaces": [
+          {
+            "name": "ElevatorCoreFlr1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1359,6 +1359,7 @@ class NECB2011
     return "NECB-CNEB ClimatZone 4-8"
   end
 
+=begin
   def add_sys1_unitary_ac_baseboard_heating(model, zones, boiler_fueltype, mau, mau_heating_coil_type, baseboard_type, hw_loop)
     # System Type 1: PTAC with no heating (unitary AC)
     # Zone baseboards, electric or hot water depending on argument baseboard_type
@@ -2560,6 +2561,7 @@ class NECB2011
 
     return true
   end
+=end
 
   def setup_hw_loop_with_components(model, hw_loop, boiler_fueltype, pump_flow_sch)
     hw_loop.setName('Hot Water Loop')

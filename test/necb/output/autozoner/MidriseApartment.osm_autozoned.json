@@ -1,0 +1,370 @@
+[
+  {
+    "airloop.name": "Sys_4_PSZ_Wild-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "T Corridor",
+            "schedule": "G"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "G Corridor",
+            "schedule": "G"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "M Corridor",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "G N1 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "G NE Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 3",
+        "spaces": [
+          {
+            "name": "M S2 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 12",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "G NW Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 2",
+        "spaces": [
+          {
+            "name": "M SE Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "M NW Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "T N2 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "G N2 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 4",
+        "spaces": [
+          {
+            "name": "M N2 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 19",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 6",
+        "spaces": [
+          {
+            "name": "T NE Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 1",
+        "spaces": [
+          {
+            "name": "M S1 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 10",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 5",
+        "spaces": [
+          {
+            "name": "M SW Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 15",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 4",
+        "spaces": [
+          {
+            "name": "G S2 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 16",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 5",
+        "spaces": [
+          {
+            "name": "T S1 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Office",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 13",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 3",
+        "spaces": [
+          {
+            "name": "T N1 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "T SW Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 11",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 2",
+        "spaces": [
+          {
+            "name": "T NW Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 14",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 4",
+        "spaces": [
+          {
+            "name": "T SE Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 22",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 6",
+        "spaces": [
+          {
+            "name": "G SW Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 17",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 5",
+        "spaces": [
+          {
+            "name": "G S1 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 18",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 6",
+        "spaces": [
+          {
+            "name": "M NE Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 20",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 7",
+        "spaces": [
+          {
+            "name": "M N1 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 21",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 7",
+        "spaces": [
+          {
+            "name": "T S2 Apartment",
+            "schedule": "G"
+          }
+        ]
+      }
+    ]
+  }
+]

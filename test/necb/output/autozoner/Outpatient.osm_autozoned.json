@@ -1,0 +1,1214 @@
+[
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Treatment",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 6",
+        "spaces": [
+          {
+            "name": "NE Stair",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Storage",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 1 Sterile Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 IT Hall",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 2: 1",
+        "spaces": [
+          {
+            "name": "Floor 2 Conference",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 11",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Floor 1 IT Room",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 5",
+        "spaces": [
+          {
+            "name": "Floor 1 Utility Room",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 10",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "Floor 3 Humid",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Reception",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Undeveloped 1",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Dictation",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "Floor 3 Undeveloped 2",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "NW Elevator",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 2",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 6",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - recovery:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - recovery:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Pre-Op Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Recovery Room",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Utility Janitor",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 12",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "Floor 1 Scheduling",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Floor 1 Sterile Storage",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 1 Nurse Janitor",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Dressing Room",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 3",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 7",
+            "schedule": "C"
+          },
+          {
+            "name": "Floor 2 Work Hall",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 4",
+        "spaces": [
+          {
+            "name": "Floor 1 Sub-Sterile",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Scheduling 2",
+            "schedule": "A"
+          },
+          {
+            "name": "Floor 2 Work",
+            "schedule": "A"
+          },
+          {
+            "name": "Floor 2 Scheduling 1",
+            "schedule": "A"
+          },
+          {
+            "name": "Floor 2 Office",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Humid",
+            "schedule": "A"
+          },
+          {
+            "name": "Floor 1 Dictation",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Pre-Op Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Work Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Physical Therapy Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 2: 1",
+        "spaces": [
+          {
+            "name": "Floor 2 Conference Toilet",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 2 Reception Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Lobby Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "Floor 3 Lounge Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Floor 1 MRI Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 3: 2",
+        "spaces": [
+          {
+            "name": "Floor 3 Office Toilet",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-H:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "Floor 1 Nurse Toilet",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 5",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 6",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "Floor 3 Janitor",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 3 Utility",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Soil",
+            "schedule": "C"
+          },
+          {
+            "name": "Floor 1 Soil Work",
+            "schedule": "C"
+          },
+          {
+            "name": "Floor 1 Clean Work",
+            "schedule": "C"
+          },
+          {
+            "name": "Floor 1 Clean",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Lounge",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Utility Hall",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Scrub",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Lobby Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Reception Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Nurse Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 MRI Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Locker Room Hall",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam Hall 4",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 2: 1",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam Hall 3",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 2 Exam Hall 2",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Office Hall",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 2: 2",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam Hall 1",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 2: 3",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam Hall 6",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-H:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "SW Stair",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 2: 4",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam Hall 5",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-H:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Mechanical",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 2: 5",
+        "spaces": [
+          {
+            "name": "Floor 2 Office Hall",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Hospital corr. >= 2.4m-sch-H:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Floor 1 Vestibule",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-H:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Electrical Room",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Stairway-sch-H:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "NW Stair",
+            "schedule": "H"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-H:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Elevator Pump Room",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 3: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 3: 2",
+        "spaces": [
+          {
+            "name": "Floor 3 Storage 1",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - radiology/imaging:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - radiology/imaging:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 X-Ray",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 1",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 9",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Storage 2",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 2 Storage 3",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 2 Storage 1",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 2 Janitor",
+            "schedule": "E"
+          },
+          {
+            "name": "Floor 2 Utility",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - radiology/imaging:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - radiology/imaging:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 MRI Control Room",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Locker room-sch-H:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Locker",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - nurses' station:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - nurses' station:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Nourishment",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Nurse Station",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Anesthesia",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Lobby",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 5",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 8",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Elevator Hall",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 3 Office",
+            "schedule": "A"
+          },
+          {
+            "name": "Floor 3 Mechanical Hall",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "Floor 1 Operating Room 2",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Operating Room 3",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Operating Room 1",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Lounge",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 7",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 4",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Cafe",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Bio Haz",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - operating room:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Floor 1 Procedure Room",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Office",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - patient room:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - patient room:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Pre-Op Room 1",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 Pre-Op Room 2",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Reception",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed - occsens:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Dressing Room",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Lounge",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - radiology/imaging:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - radiology/imaging:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 MRI Room",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Floor 1 Soil Hold",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - physical therapy:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - physical therapy:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Physical Therapy 2",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - physical therapy:FL=Building Story 3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - physical therapy:FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "Floor 3 Physical Therapy 1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 8",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 2",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 3:",
+        "spaces": [
+          {
+            "name": "Floor 3 Storage 2",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - exam:FL=Building Story 2: 4",
+        "spaces": [
+          {
+            "name": "Floor 2 Exam 3",
+            "schedule": "C"
+          },
+          {
+            "name": "Floor 2 Reception Hall",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Locker room-sch-H:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Locker Room",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 1 PACU",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - lounge/recreation:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Floor 1 Step Down",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "Floor 1 Med Gas",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - nurses' station:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - nurses' station:FL=Building Story 2:",
+        "spaces": [
+          {
+            "name": "Floor 2 Nurse Station 1",
+            "schedule": "H"
+          },
+          {
+            "name": "Floor 2 Nurse Station 2",
+            "schedule": "H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 3: 1",
+        "spaces": [
+          {
+            "name": "Floor 3 Work",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  }
+]

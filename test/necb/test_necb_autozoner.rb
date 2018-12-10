@@ -18,6 +18,7 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_HighriseApartment()
     model = autozone("HighriseApartment.osm")
   end
+
   def test_LargeOffice()
     model = autozone("LargeOffice.osm")
   end
@@ -64,6 +65,7 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
+
 
 
   # Test to validate the heat pump performance curves
@@ -151,7 +153,7 @@ class NECB_Autozone_Tests < MiniTest::Test
       air_loops << debug
     end
     outfile_json = @output_folder + "/#{filename}_autozoned.json"
-    puts "Writing Output #{outfile}"
+    puts "Writing Output #{outfile_json}"
     File.write(outfile_json, JSON.pretty_generate(air_loops))
   end
 end

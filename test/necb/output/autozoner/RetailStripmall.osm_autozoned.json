@@ -1,0 +1,142 @@
+[
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 9",
+        "spaces": [
+          {
+            "name": "SMstore2",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 6",
+        "spaces": [
+          {
+            "name": "SMstore1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 5",
+        "spaces": [
+          {
+            "name": "LGstore1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "SMstore5",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "SMstore8",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 4",
+        "spaces": [
+          {
+            "name": "LGstore2",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "SMstore4",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 8",
+        "spaces": [
+          {
+            "name": "SMstore3",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 7",
+        "spaces": [
+          {
+            "name": "SMstore7",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "SMstore6",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  }
+]

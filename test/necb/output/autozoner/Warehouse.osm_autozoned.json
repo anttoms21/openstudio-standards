@@ -1,0 +1,44 @@
+[
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Warehouse - med/blk:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Warehouse - med/blk:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Zone3 Bulk Storage",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Warehouse - fine:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Warehouse - fine:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Zone2 Fine Storage",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Zone1 Office",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  }
+]

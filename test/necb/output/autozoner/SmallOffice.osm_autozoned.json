@@ -1,0 +1,72 @@
+[
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
+        "spaces": [
+          {
+            "name": "Perimeter_ZN_1",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "Perimeter_ZN_3",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Core_ZN",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Perimeter_ZN_2",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Perimeter_ZN_4",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  }
+]

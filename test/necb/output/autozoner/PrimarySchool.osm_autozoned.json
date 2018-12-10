@@ -1,0 +1,247 @@
+[
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Offices_ZN_1_FLR_1",
+            "schedule": "A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 5",
+        "spaces": [
+          {
+            "name": "Mult_Class_2_Pod_3_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_WET-ZN:BT=Space Function:ST=Washroom-sch-D:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-D:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Bath_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_Wild-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Corridor_Pod_3_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Corridor_Pod_1_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Corridor_Pod_2_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "Wild-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Main_Corridor_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 4",
+        "spaces": [
+          {
+            "name": "Corner_Class_2_Pod_2_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Corner_Class_2_Pod_1_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Corner_Class_2_Pod_3_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Kitchen_ZN_1_FLR_1",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Computer_Class_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Lobby_ZN_1_FLR_1",
+            "schedule": "C"
+          },
+          {
+            "name": "Mech_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Mult_Class_1_Pod_2_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Mult_Class_1_Pod_3_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Mult_Class_1_Pod_1_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Mult_Class_2_Pod_1_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Mult_Class_2_Pod_2_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
+        "spaces": [
+          {
+            "name": "Corner_Class_1_Pod_3_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Corner_Class_1_Pod_1_ZN_1_FLR_1",
+            "schedule": "D"
+          },
+          {
+            "name": "Corner_Class_1_Pod_2_ZN_1_FLR_1",
+            "schedule": "D"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Cafeteria_ZN_1_FLR_1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Gym_ZN_1_FLR_1",
+            "schedule": "B"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Library_Media_Center_ZN_1_FLR_1",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  }
+]

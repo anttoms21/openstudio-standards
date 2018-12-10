@@ -1,0 +1,72 @@
+[
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Back_Space",
+            "schedule": "E"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 2",
+        "spaces": [
+          {
+            "name": "Core_Retail",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1: 1",
+        "spaces": [
+          {
+            "name": "Front_Retail",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Point_Of_Sale",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+        "spaces": [
+          {
+            "name": "Front_Entry",
+            "schedule": "C"
+          }
+        ]
+      }
+    ]
+  }
+]
