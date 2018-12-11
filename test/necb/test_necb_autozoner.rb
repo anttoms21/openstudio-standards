@@ -14,7 +14,6 @@ class NECB_Autozone_Tests < MiniTest::Test
     FileUtils.mkdir_p(@output_folder) unless File.directory?(@output_folder)
   end
 
-
   def test_HighriseApartment()
     model = autozone("HighriseApartment.osm")
   end
@@ -65,7 +64,6 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
-
 
 
   # Test to validate the heat pump performance curves
@@ -137,15 +135,22 @@ class NECB_Autozone_Tests < MiniTest::Test
     model.getAirLoopHVACs.each do |airloop|
       debug = {}
       debug["airloop.name"] = airloop.name
+      debug["control_zone"] = standard.determine_control_zone(airloop.thermalZones).name
       debug[:thermal_zones] = []
       airloop.thermalZones.each do |tz|
         data = {}
         data[:thermal_zone_name] = tz.name.to_s
+        data[:heating_load] = standard.stored_zone_heating_load(tz)
+        data[:cooling_load] = standard.stored_zone_cooling_load(tz)
         data[:spaces] = []
         tz.spaces.each do |space|
           space_data = {}
           space_data[:name] = space.name.get
+          space_data[:space_type] = space.spaceType.get.standardsBuildingType.get + '-' + space.spaceType.get.standardsSpaceType.get
           space_data[:schedule] = standard.determine_necb_schedule_type(space).to_s
+          space_data[:heating_load] = standard.stored_space_heating_load(space)
+          space_data[:cooling_load] = standard.stored_space_cooling_load(space)
+          space_data[:surface_report] = standard.space_surface_report(space)
           data[:spaces] << space_data
         end
         debug[:thermal_zones] << data

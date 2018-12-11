@@ -1,13 +1,69 @@
 [
   {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+        "heating_load": 4.25545,
+        "cooling_load": 3.99841,
         "spaces": [
           {
             "name": "Kitchen",
-            "schedule": "B"
+            "space_type": "Space Function-Food preparation",
+            "schedule": "B",
+            "heating_load": 4.25545,
+            "cooling_load": 3.99841,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 68,
+                "surface_area_to_floor_ratio": 0.49445345442750566,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 18,
+                "surface_area_to_floor_ratio": 0.134850743297934,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 18,
+                "surface_area_to_floor_ratio": 0.134850743297934,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 139,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
           }
         ]
       }
@@ -15,13 +71,69 @@
   },
   {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Dining - family space:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Dining - family space:FL=Building Story 1:",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Dining - family space:FL=Building Story 1:",
+        "heating_load": 12.87768,
+        "cooling_load": 11.30658,
         "spaces": [
           {
             "name": "Dining",
-            "schedule": "B"
+            "space_type": "Space Function-Dining - family space",
+            "schedule": "B",
+            "heating_load": 12.87768,
+            "cooling_load": 11.30658,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 68,
+                "surface_area_to_floor_ratio": 0.18541966951899627,
+                "glazed_subsurface_area": 19,
+                "glazed_subsurface_area_to_floor_ratio": 0.05191412163255605,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 50,
+                "surface_area_to_floor_ratio": 0.13485074329793398,
+                "glazed_subsurface_area": 13,
+                "glazed_subsurface_area_to_floor_ratio": 0.03748686222942483,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 50,
+                "surface_area_to_floor_ratio": 0.13485074329793398,
+                "glazed_subsurface_area": 13,
+                "glazed_subsurface_area_to_floor_ratio": 0.03748686222942483,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 371,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
           }
         ]
       }
