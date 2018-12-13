@@ -14,6 +14,7 @@ class NECB_Autozone_Tests < MiniTest::Test
     FileUtils.mkdir_p(@output_folder) unless File.directory?(@output_folder)
   end
 
+=begin
   def test_HighriseApartment()
     model = autozone("HighriseApartment.osm")
   end
@@ -37,9 +38,11 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_RetailStandalone()
     model = autozone("RetailStandalone.osm")
   end
+
   def test_RetailStripmall()
     model = autozone("RetailStripmall.osm")
   end
+
   def test_SmallHotel()
     model = autozone("SmallHotel.osm")
   end
@@ -57,15 +60,16 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_LargeHotel()
     model = autozone("LargeHotel.osm")
   end
-
+=end
   def test_PrimarySchool()
     model = autozone("PrimarySchool.osm")
   end
-
+=begin
   def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
 
+=end
 
 
 

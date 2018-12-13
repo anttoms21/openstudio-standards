@@ -5,8 +5,8 @@ class NECB2011
     @stored_space_heating_sizing_loads = {}
     @stored_space_cooling_sizing_loads = {}
     model.getSpaces.each do |space|
-      @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get * space.floorArea * space.multiplier / 1000.0
-      @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get * space.floorArea * space.multiplier / 1000.0
+      @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
+      @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
     end
   end
 
@@ -346,9 +346,9 @@ class NECB2011
   # percent difference and angular percent difference.
   def are_space_loads_similar?(space_1:,
                                space_2:,
-                               surface_percent_difference_tolerance: 0.000,
-                               angular_percent_difference_tolerance: 0.000,
-                               heating_load_percent_difference_tolerance: 5.0)
+                               surface_percent_difference_tolerance: 0.01,
+                               angular_percent_difference_tolerance: 0.001,
+                               heating_load_percent_difference_tolerance: 10.0)
     # Do they have the same space type?
     return false unless space_1.multiplier == space_2.multiplier
     # Ensure that they both have defined spacetypes
@@ -364,7 +364,7 @@ class NECB2011
     #Spaces should have the same number of surface orientations.
     return false unless space_1_surface_report.size == space_2_surface_report.size
     #spaces should have similar loads
-    return false unless self.percentage_difference(stored_space_heating_load(space_1), stored_space_heating_load(space_2)) <= heating_load_percent_difference_tolerance
+    return false unless self.percentage_difference(stored_space_heating_load(space_1) , stored_space_heating_load(space_2)) <= heating_load_percent_difference_tolerance
     #Each surface should match
     space_1_surface_report.each do |space_1_surface|
       surface_match = space_2_surface_report.detect do |space_2_surface|
