@@ -1,5 +1,51 @@
 [
   {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
+    "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
+        "heating_load_per_area": 51.243543411194366,
+        "cooling_load_per_area": 34.68091670339357,
+        "spaces": [
+          {
+            "name": "Perimeter_ZN_1",
+            "space_type": "Space Function-Office - enclosed",
+            "schedule": "A",
+            "heating_load_per_area": 51.243543411194366,
+            "cooling_load_per_area": 34.68091670339357,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 113,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 87,
+                "surface_area_to_floor_ratio": 0.7788428382547378,
+                "glazed_subsurface_area": 16,
+                "glazed_subsurface_area_to_floor_ratio": 0.14749687086822394,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 3",
     "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 3",
     "thermal_zones": [
@@ -70,52 +116,6 @@
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1: 4",
-        "heating_load_per_area": 51.243543411194366,
-        "cooling_load_per_area": 34.68091670339357,
-        "spaces": [
-          {
-            "name": "Perimeter_ZN_1",
-            "space_type": "Space Function-Office - enclosed",
-            "schedule": "A",
-            "heating_load_per_area": 51.243543411194366,
-            "cooling_load_per_area": 34.68091670339357,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 113,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 87,
-                "surface_area_to_floor_ratio": 0.7788428382547378,
-                "glazed_subsurface_area": 16,
-                "glazed_subsurface_area_to_floor_ratio": 0.14749687086822394,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }

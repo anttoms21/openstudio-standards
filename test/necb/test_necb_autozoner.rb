@@ -107,6 +107,8 @@ class NECB_Autozone_Tests < MiniTest::Test
 
     #Set Loads/Schedules
     standard.model_add_loads(model)
+    #set space_type colors
+    model.getSpaceTypes.sort.each { |space_type| space_type.setRenderingColor(standard.set_random_rendering_color(space_type)) }
 
     #Add Infiltration
     standard.model_apply_infiltration_standard(model)

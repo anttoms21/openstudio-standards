@@ -247,7 +247,7 @@ class NECB2011 < Standard
     #Set Loads/Schedules
     model_add_loads(model)
     #set space_type colors
-    model.getSpaceTypes.sort.each { |space_type| self.set_random_rendering_color(space_type) }
+    model.getSpaceTypes.sort.each { |space_type| space_type.setRenderingColor(self.set_random_rendering_color(space_type)) }
 
     #Add Infiltration
     model_apply_infiltration_standard(model)
