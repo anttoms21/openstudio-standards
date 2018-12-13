@@ -5,8 +5,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Warehouse - med/blk:FL=Building Story 1:",
-        "heating_load": 52.92096625255414,
-        "cooling_load": 25.35393413160257,
+        "heating_load_per_area": 52.92096625255414,
+        "cooling_load_per_area": 25.35393413160257,
         "spaces": [
           {
             "name": "Zone3 Bulk Storage",
@@ -35,7 +35,7 @@
                 "surface_area": 3204,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 47,
-                "glazed_subsurface_area_to_floor_ratio": 0.014842027271483966,
+                "glazed_subsurface_area_to_floor_ratio": 0.01484202727148397,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -87,8 +87,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Warehouse - fine:FL=Building Story 1:",
-        "heating_load": 43.37399159578775,
-        "cooling_load": 28.960154656706187,
+        "heating_load_per_area": 43.37399159578775,
+        "cooling_load_per_area": 28.960154656706187,
         "spaces": [
           {
             "name": "Zone2 Fine Storage",
@@ -117,7 +117,7 @@
                 "surface_area": 1393,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 20,
-                "glazed_subsurface_area_to_floor_ratio": 0.014934789941930683,
+                "glazed_subsurface_area_to_floor_ratio": 0.014934789941930681,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -169,8 +169,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
-        "heating_load": 38.167061334768846,
-        "cooling_load": 32.41511084147726,
+        "heating_load_per_area": 38.167061334768846,
+        "cooling_load_per_area": 32.41511084147726,
         "spaces": [
           {
             "name": "Zone1 Office",

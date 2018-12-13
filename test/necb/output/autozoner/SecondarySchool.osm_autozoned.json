@@ -5,8 +5,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Conf./meet./multi-purpose:FL=Building Story 1:",
-        "heating_load": 24.068269230769232,
-        "cooling_load": 30.613653846153845,
+        "heating_load_per_area": 24.068269230769232,
+        "cooling_load_per_area": 30.613653846153845,
         "spaces": [
           {
             "name": "Cafeteria_ZN_1_FLR_1",
@@ -58,13 +58,59 @@
     ]
   },
   {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+        "heating_load_per_area": 15.142083333333334,
+        "cooling_load_per_area": 41.244537037037034,
+        "spaces": [
+          {
+            "name": "Kitchen_ZN_1_FLR_1",
+            "space_type": "Space Function-Food preparation",
+            "schedule": "B",
+            "heating_load_per_area": 15.142083333333334,
+            "cooling_load_per_area": 41.244537037037034,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 216,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 36,
+                "surface_area_to_floor_ratio": 0.16666666666666666,
+                "glazed_subsurface_area": 12,
+                "glazed_subsurface_area_to_floor_ratio": 0.05833270138888888,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1: 1",
     "control_zone": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1: 1",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1: 1",
-        "heating_load": 47.17123397435897,
-        "cooling_load": 116.41613782051282,
+        "heating_load_per_area": 47.17123397435897,
+        "cooling_load_per_area": 116.41613782051282,
         "spaces": [
           {
             "name": "Aux_Gym_ZN_1_FLR_1",
@@ -93,7 +139,7 @@
                 "surface_area": 1248,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 53,
-                "glazed_subsurface_area_to_floor_ratio": 0.0429064615384615,
+                "glazed_subsurface_area_to_floor_ratio": 0.042906461538461504,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -128,188 +174,26 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
+    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
-        "heating_load": 26.23119939271255,
-        "cooling_load": 53.2855060728745,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
+        "heating_load_per_area": 146.98232323232324,
+        "cooling_load_per_area": 182.9889898989899,
         "spaces": [
           {
-            "name": "Gym_ZN_1_FLR_1",
-            "space_type": "Space Function-Gym - play",
-            "schedule": "B",
-            "heating_load_per_area": 26.23119939271255,
-            "cooling_load_per_area": 53.2855060728745,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 1976,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 1976,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 80,
-                "glazed_subsurface_area_to_floor_ratio": 0.04062601457489881,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 2:",
-        "heating_load": 34.05277380952381,
-        "cooling_load": 36.53077380952381,
-        "spaces": [
-          {
-            "name": "LIBRARY_MEDIA_CENTER_ZN_1_FLR_2",
-            "space_type": "Space Function-Library - reading",
-            "schedule": "C",
-            "heating_load_per_area": 34.05277380952381,
-            "cooling_load_per_area": 36.53077380952381,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 840,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 96,
-                "surface_area_to_floor_ratio": 0.11428571428571428,
-                "glazed_subsurface_area": 33,
-                "glazed_subsurface_area_to_floor_ratio": 0.0399996375,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 140,
-                "surface_area_to_floor_ratio": 0.16666666666666666,
-                "glazed_subsurface_area": 49,
-                "glazed_subsurface_area_to_floor_ratio": 0.05833389583333334,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Audience - auditorium:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Audience - auditorium:FL=Building Story 1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Audience - auditorium:FL=Building Story 1:",
-        "heating_load": 37.3763967611336,
-        "cooling_load": 35.57112348178137,
-        "spaces": [
-          {
-            "name": "Auditorium_ZN_1_FLR_1",
-            "space_type": "Space Function-Audience - auditorium",
-            "schedule": "C",
-            "heating_load_per_area": 37.3763967611336,
-            "cooling_load_per_area": 35.57112348178137,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 988,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 988,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 304,
-                "surface_area_to_floor_ratio": 0.3076923076923077,
-                "glazed_subsurface_area": 106,
-                "glazed_subsurface_area_to_floor_ratio": 0.10769354048582998,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2:",
-        "heating_load": 184.51646464646464,
-        "cooling_load": 228.8069696969697,
-        "spaces": [
-          {
-            "name": "Corner_Class_2_Pod_3_ZN_1_FLR_2",
+            "name": "Corner_Class_2_Pod_1_ZN_1_FLR_1",
             "space_type": "Space Function-Classroom/lecture/training",
             "schedule": "D",
-            "heating_load_per_area": 61.56575757575758,
-            "cooling_load_per_area": 76.66767676767677,
+            "heating_load_per_area": 48.93,
+            "cooling_load_per_area": 60.60565656565657,
             "surface_report": [
               {
-                "surface_type": "RoofCeiling",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 99,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
@@ -344,17 +228,17 @@
             ]
           },
           {
-            "name": "Corner_Class_2_Pod_1_ZN_1_FLR_2",
+            "name": "Corner_Class_2_Pod_3_ZN_1_FLR_1",
             "space_type": "Space Function-Classroom/lecture/training",
             "schedule": "D",
-            "heating_load_per_area": 61.47858585858586,
-            "cooling_load_per_area": 76.03393939393939,
+            "heating_load_per_area": 49.147171717171716,
+            "cooling_load_per_area": 61.78474747474747,
             "surface_report": [
               {
-                "surface_type": "RoofCeiling",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 99,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
@@ -389,17 +273,17 @@
             ]
           },
           {
-            "name": "Corner_Class_2_Pod_2_ZN_1_FLR_2",
+            "name": "Corner_Class_2_Pod_2_ZN_1_FLR_1",
             "space_type": "Space Function-Classroom/lecture/training",
             "schedule": "D",
-            "heating_load_per_area": 61.47212121212121,
-            "cooling_load_per_area": 76.10535353535354,
+            "heating_load_per_area": 48.90515151515151,
+            "cooling_load_per_area": 60.598585858585864,
             "surface_report": [
               {
-                "surface_type": "RoofCeiling",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 99,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
@@ -443,8 +327,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 3",
-        "heating_load": 183.4633333333333,
-        "cooling_load": 242.3428282828283,
+        "heating_load_per_area": 183.4633333333333,
+        "cooling_load_per_area": 242.3428282828283,
         "spaces": [
           {
             "name": "Corner_Class_1_Pod_3_ZN_1_FLR_2",
@@ -591,8 +475,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-D:FL=Building Story 1:",
-        "heating_load": 30.074285714285715,
-        "cooling_load": 18.313333333333333,
+        "heating_load_per_area": 30.074285714285715,
+        "cooling_load_per_area": 18.313333333333333,
         "spaces": [
           {
             "name": "Bathrooms_ZN_1_FLR_1",
@@ -643,8 +527,8 @@
       },
       {
         "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-D:FL=Building Story 2:",
-        "heating_load": 41.72009523809523,
-        "cooling_load": 28.781809523809525,
+        "heating_load_per_area": 41.72009523809523,
+        "cooling_load_per_area": 28.781809523809525,
         "spaces": [
           {
             "name": "Bathrooms_ZN_1_FLR_2",
@@ -696,479 +580,13 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
-    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
-        "heating_load": 90.99140461215933,
-        "cooling_load": 85.72922431865828,
-        "spaces": [
-          {
-            "name": "Mult_Class_2_Pod_1_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 30.168113207547172,
-            "cooling_load_per_area": 28.0658071278826,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 477,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Mult_Class_2_Pod_3_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 30.679685534591194,
-            "cooling_load_per_area": 29.60901467505241,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 477,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Mult_Class_2_Pod_2_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 30.143605870020963,
-            "cooling_load_per_area": 28.05440251572327,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 477,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2: 1",
-    "control_zone": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2:",
-        "heating_load": 30.45738596491228,
-        "cooling_load": 26.835210526315787,
-        "spaces": [
-          {
-            "name": "Main_Corridor_ZN_1_FLR_2",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 30.45738596491228,
-            "cooling_load_per_area": 26.835210526315787,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 1140,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 140,
-                "surface_area_to_floor_ratio": 0.12280701754385964,
-                "glazed_subsurface_area": 48,
-                "glazed_subsurface_area_to_floor_ratio": 0.04298236403508772,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1:",
-        "heating_load": 18.61625438596491,
-        "cooling_load": 17.170526315789473,
-        "spaces": [
-          {
-            "name": "Main_Corridor_ZN_1_FLR_1",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 18.61625438596491,
-            "cooling_load_per_area": 17.170526315789473,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 1140,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 140,
-                "surface_area_to_floor_ratio": 0.12280701754385964,
-                "glazed_subsurface_area": 48,
-                "glazed_subsurface_area_to_floor_ratio": 0.04298236403508772,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1: 1",
-        "heating_load": 70.3831875,
-        "cooling_load": 55.524718750000005,
-        "spaces": [
-          {
-            "name": "Corridor_Pod_2_ZN_1_FLR_1",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 23.2954375,
-            "cooling_load_per_area": 18.27178125,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 320,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.0625,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Corridor_Pod_3_ZN_1_FLR_1",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 23.54253125,
-            "cooling_load_per_area": 18.63915625,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 320,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.0625,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Corridor_Pod_1_ZN_1_FLR_1",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 23.54521875,
-            "cooling_load_per_area": 18.61378125,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 320,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.0625,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2: 1",
-        "heating_load": 111.59115624999998,
-        "cooling_load": 87.70706249999999,
-        "spaces": [
-          {
-            "name": "Corridor_Pod_2_ZN_1_FLR_2",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 37.09890625,
-            "cooling_load_per_area": 29.098093749999997,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 320,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.0625,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Corridor_Pod_1_ZN_1_FLR_2",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 37.238468749999996,
-            "cooling_load_per_area": 29.2989375,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 320,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.0625,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Corridor_Pod_3_ZN_1_FLR_2",
-            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 37.253781249999996,
-            "cooling_load_per_area": 29.310031249999998,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 320,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.0625,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-D:FL=Building Story 1:",
-        "heating_load": 12.964766081871344,
-        "cooling_load": 16.648684210526316,
-        "spaces": [
-          {
-            "name": "Mech_ZN_1_FLR_1",
-            "space_type": "Space Function-Electrical/Mechanical-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 12.964766081871344,
-            "cooling_load_per_area": 16.648684210526316,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 342,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-D:FL=Building Story 2:",
-        "heating_load": 26.52035087719298,
-        "cooling_load": 25.079327485380116,
-        "spaces": [
-          {
-            "name": "Mech_ZN_1_FLR_2",
-            "space_type": "Space Function-Electrical/Mechanical-sch-D",
-            "schedule": "D",
-            "heating_load_per_area": 26.52035087719298,
-            "cooling_load_per_area": 25.079327485380116,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 342,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 2:",
     "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 2:",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 2:",
-        "heating_load": 39.669530075187964,
-        "cooling_load": 47.44351503759399,
+        "heating_load_per_area": 39.669530075187964,
+        "cooling_load_per_area": 47.44351503759399,
         "spaces": [
           {
             "name": "Offices_ZN_1_FLR_2",
@@ -1220,174 +638,26 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
-    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 3",
-        "heating_load": 146.98232323232324,
-        "cooling_load": 182.9889898989899,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+        "heating_load_per_area": 26.841238095238094,
+        "cooling_load_per_area": 24.37857142857143,
         "spaces": [
           {
-            "name": "Corner_Class_2_Pod_2_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 48.90515151515151,
-            "cooling_load_per_area": 60.598585858585864,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 99,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 44,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 15,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555566161616158,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 36,
-                "surface_area_to_floor_ratio": 0.36363636363636365,
-                "glazed_subsurface_area": 12,
-                "glazed_subsurface_area_to_floor_ratio": 0.12727134848484847,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Corner_Class_2_Pod_3_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 49.147171717171716,
-            "cooling_load_per_area": 61.78474747474747,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 99,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 44,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 15,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555566161616158,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 36,
-                "surface_area_to_floor_ratio": 0.36363636363636365,
-                "glazed_subsurface_area": 12,
-                "glazed_subsurface_area_to_floor_ratio": 0.12727134848484847,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Corner_Class_2_Pod_1_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 48.93,
-            "cooling_load_per_area": 60.60565656565657,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 99,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 44,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 15,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555566161616158,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 36,
-                "surface_area_to_floor_ratio": 0.36363636363636365,
-                "glazed_subsurface_area": 12,
-                "glazed_subsurface_area_to_floor_ratio": 0.12727134848484847,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 2:",
-        "heating_load": 37.67852380952381,
-        "cooling_load": 36.75585714285714,
-        "spaces": [
-          {
-            "name": "Lobby_ZN_1_FLR_2",
+            "name": "Lobby_ZN_1_FLR_1",
             "space_type": "Space Function-Lobby - elevator",
             "schedule": "C",
-            "heating_load_per_area": 37.67852380952381,
-            "cooling_load_per_area": 36.75585714285714,
+            "heating_load_per_area": 26.841238095238094,
+            "cooling_load_per_area": 24.37857142857143,
             "surface_report": [
               {
-                "surface_type": "RoofCeiling",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 210,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
@@ -1414,13 +684,171 @@
     ]
   },
   {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 1",
+    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 1",
+        "heating_load_per_area": 126.07997903563941,
+        "cooling_load_per_area": 156.91953878406707,
+        "spaces": [
+          {
+            "name": "Mult_Class_1_Pod_1_ZN_1_FLR_2",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 42.20475890985325,
+            "cooling_load_per_area": 52.90861635220126,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Mult_Class_1_Pod_3_ZN_1_FLR_2",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 41.95373165618449,
+            "cooling_load_per_area": 52.059916142557654,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Mult_Class_1_Pod_2_ZN_1_FLR_2",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 41.92148846960168,
+            "cooling_load_per_area": 51.951006289308175,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - play:FL=Building Story 1:",
+        "heating_load_per_area": 26.23119939271255,
+        "cooling_load_per_area": 53.2855060728745,
+        "spaces": [
+          {
+            "name": "Gym_ZN_1_FLR_1",
+            "space_type": "Space Function-Gym - play",
+            "schedule": "B",
+            "heating_load_per_area": 26.23119939271255,
+            "cooling_load_per_area": 53.2855060728745,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 1976,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 1976,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 80,
+                "glazed_subsurface_area_to_floor_ratio": 0.040626014574898825,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
     "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
-        "heating_load": 28.15953007518797,
-        "cooling_load": 34.712988721804514,
+        "heating_load_per_area": 28.15953007518797,
+        "cooling_load_per_area": 34.712988721804514,
         "spaces": [
           {
             "name": "Offices_ZN_1_FLR_1",
@@ -1472,27 +900,39 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Audience - auditorium:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Audience - auditorium:FL=Building Story 1:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 1:",
-        "heating_load": 26.841238095238094,
-        "cooling_load": 24.37857142857143,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Audience - auditorium:FL=Building Story 1:",
+        "heating_load_per_area": 37.3763967611336,
+        "cooling_load_per_area": 35.57112348178137,
         "spaces": [
           {
-            "name": "Lobby_ZN_1_FLR_1",
-            "space_type": "Space Function-Lobby - elevator",
+            "name": "Auditorium_ZN_1_FLR_1",
+            "space_type": "Space Function-Audience - auditorium",
             "schedule": "C",
-            "heating_load_per_area": 26.841238095238094,
-            "cooling_load_per_area": 24.37857142857143,
+            "heating_load_per_area": 37.3763967611336,
+            "cooling_load_per_area": 35.57112348178137,
             "surface_report": [
               {
                 "surface_type": "Floor",
                 "azimuth": 90.0,
                 "tilt": 180.0,
                 "boundary_condition": "Ground",
-                "surface_area": 210,
+                "surface_area": 988,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 988,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
@@ -1501,171 +941,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 60,
-                "surface_area_to_floor_ratio": 0.2857142857142857,
-                "glazed_subsurface_area": 20,
-                "glazed_subsurface_area_to_floor_ratio": 0.09999886666666667,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
-        "heating_load": 15.142083333333334,
-        "cooling_load": 41.244537037037034,
-        "spaces": [
-          {
-            "name": "Kitchen_ZN_1_FLR_1",
-            "space_type": "Space Function-Food preparation",
-            "schedule": "B",
-            "heating_load_per_area": 15.142083333333334,
-            "cooling_load_per_area": 41.244537037037034,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 216,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 36,
-                "surface_area_to_floor_ratio": 0.16666666666666666,
-                "glazed_subsurface_area": 12,
-                "glazed_subsurface_area_to_floor_ratio": 0.05833270138888888,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
-    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
-        "heating_load": 89.9649895178197,
-        "cooling_load": 112.54683438155135,
-        "spaces": [
-          {
-            "name": "Mult_Class_1_Pod_2_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 29.782767295597484,
-            "cooling_load_per_area": 37.039035639412994,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 477,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Mult_Class_1_Pod_1_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 30.360314465408806,
-            "cooling_load_per_area": 38.40888888888889,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 477,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Mult_Class_1_Pod_3_ZN_1_FLR_1",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 29.821907756813417,
-            "cooling_load_per_area": 37.098909853249474,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 477,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "surface_area": 304,
+                "surface_area_to_floor_ratio": 0.3076923076923077,
+                "glazed_subsurface_area": 106,
+                "glazed_subsurface_area_to_floor_ratio": 0.10769354048582998,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1681,8 +963,8 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1:",
-        "heating_load": 145.93454545454546,
-        "cooling_load": 197.29858585858585,
+        "heating_load_per_area": 145.93454545454546,
+        "cooling_load_per_area": 197.29858585858585,
         "spaces": [
           {
             "name": "Corner_Class_1_Pod_2_ZN_1_FLR_1",
@@ -1824,27 +1106,27 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 1",
-    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 1",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 2:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 2:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 1",
-        "heating_load": 126.07997903563941,
-        "cooling_load": 156.91953878406707,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Library - reading:FL=Building Story 2:",
+        "heating_load_per_area": 34.05277380952381,
+        "cooling_load_per_area": 36.53077380952381,
         "spaces": [
           {
-            "name": "Mult_Class_1_Pod_3_ZN_1_FLR_2",
-            "space_type": "Space Function-Classroom/lecture/training",
-            "schedule": "D",
-            "heating_load_per_area": 41.95373165618449,
-            "cooling_load_per_area": 52.059916142557654,
+            "name": "LIBRARY_MEDIA_CENTER_ZN_1_FLR_2",
+            "space_type": "Space Function-Library - reading",
+            "schedule": "C",
+            "heating_load_per_area": 34.05277380952381,
+            "cooling_load_per_area": 36.53077380952381,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
                 "tilt": 0.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 477,
+                "surface_area": 840,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
@@ -1853,31 +1135,101 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 212,
+                "surface_area": 96,
+                "surface_area_to_floor_ratio": 0.11428571428571428,
+                "glazed_subsurface_area": 33,
+                "glazed_subsurface_area_to_floor_ratio": 0.0399996375,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 140,
+                "surface_area_to_floor_ratio": 0.16666666666666666,
+                "glazed_subsurface_area": 49,
+                "glazed_subsurface_area_to_floor_ratio": 0.05833389583333334,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2:",
+        "heating_load_per_area": 184.51646464646464,
+        "cooling_load_per_area": 228.8069696969697,
+        "spaces": [
+          {
+            "name": "Corner_Class_2_Pod_1_ZN_1_FLR_2",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 61.47858585858586,
+            "cooling_load_per_area": 76.03393939393939,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 99,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 44,
                 "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "glazed_subsurface_area": 15,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555566161616158,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 36,
+                "surface_area_to_floor_ratio": 0.36363636363636365,
+                "glazed_subsurface_area": 12,
+                "glazed_subsurface_area_to_floor_ratio": 0.12727134848484847,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
           },
           {
-            "name": "Mult_Class_1_Pod_2_ZN_1_FLR_2",
+            "name": "Corner_Class_2_Pod_2_ZN_1_FLR_2",
             "space_type": "Space Function-Classroom/lecture/training",
             "schedule": "D",
-            "heating_load_per_area": 41.92148846960168,
-            "cooling_load_per_area": 51.951006289308175,
+            "heating_load_per_area": 61.47212121212121,
+            "cooling_load_per_area": 76.10535353535354,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
                 "tilt": 0.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 477,
+                "surface_area": 99,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
@@ -1886,31 +1238,101 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 212,
+                "surface_area": 44,
                 "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "glazed_subsurface_area": 15,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555566161616158,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 36,
+                "surface_area_to_floor_ratio": 0.36363636363636365,
+                "glazed_subsurface_area": 12,
+                "glazed_subsurface_area_to_floor_ratio": 0.12727134848484847,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
           },
           {
-            "name": "Mult_Class_1_Pod_1_ZN_1_FLR_2",
+            "name": "Corner_Class_2_Pod_3_ZN_1_FLR_2",
             "space_type": "Space Function-Classroom/lecture/training",
             "schedule": "D",
-            "heating_load_per_area": 42.20475890985325,
-            "cooling_load_per_area": 52.90861635220126,
+            "heating_load_per_area": 61.56575757575758,
+            "cooling_load_per_area": 76.66767676767677,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
                 "tilt": 0.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 477,
+                "surface_area": 99,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 44,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 15,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555566161616158,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 36,
+                "surface_area_to_floor_ratio": 0.36363636363636365,
+                "glazed_subsurface_area": 12,
+                "glazed_subsurface_area_to_floor_ratio": 0.12727134848484847,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 2:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=Building Story 2:",
+        "heating_load_per_area": 37.67852380952381,
+        "cooling_load_per_area": 36.75585714285714,
+        "spaces": [
+          {
+            "name": "Lobby_ZN_1_FLR_2",
+            "space_type": "Space Function-Lobby - elevator",
+            "schedule": "C",
+            "heating_load_per_area": 37.67852380952381,
+            "cooling_load_per_area": 36.75585714285714,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 210,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
@@ -1922,10 +1344,10 @@
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 212,
-                "surface_area_to_floor_ratio": 0.4444444444444444,
-                "glazed_subsurface_area": 74,
-                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "surface_area": 60,
+                "surface_area_to_floor_ratio": 0.2857142857142857,
+                "glazed_subsurface_area": 20,
+                "glazed_subsurface_area_to_floor_ratio": 0.09999886666666667,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1941,9 +1363,42 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 2: 2",
-        "heating_load": 127.0985534591195,
-        "cooling_load": 122.81056603773584,
+        "heating_load_per_area": 127.0985534591195,
+        "cooling_load_per_area": 122.81056603773585,
         "spaces": [
+          {
+            "name": "Mult_Class_2_Pod_3_ZN_1_FLR_2",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 42.547421383647794,
+            "cooling_load_per_area": 41.544507337526206,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
           {
             "name": "Mult_Class_2_Pod_1_ZN_1_FLR_2",
             "space_type": "Space Function-Classroom/lecture/training",
@@ -2009,19 +1464,564 @@
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
-          },
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2: 1",
+    "control_zone": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2:",
+        "heating_load_per_area": 30.45738596491228,
+        "cooling_load_per_area": 26.835210526315787,
+        "spaces": [
           {
-            "name": "Mult_Class_2_Pod_3_ZN_1_FLR_2",
-            "space_type": "Space Function-Classroom/lecture/training",
+            "name": "Main_Corridor_ZN_1_FLR_2",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
             "schedule": "D",
-            "heating_load_per_area": 42.547421383647794,
-            "cooling_load_per_area": 41.544507337526206,
+            "heating_load_per_area": 30.45738596491228,
+            "cooling_load_per_area": 26.835210526315787,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
                 "tilt": 0.0,
                 "boundary_condition": "Outdoors",
+                "surface_area": 1140,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 140,
+                "surface_area_to_floor_ratio": 0.12280701754385964,
+                "glazed_subsurface_area": 48,
+                "glazed_subsurface_area_to_floor_ratio": 0.04298236403508772,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1:",
+        "heating_load_per_area": 18.61625438596491,
+        "cooling_load_per_area": 17.170526315789473,
+        "spaces": [
+          {
+            "name": "Main_Corridor_ZN_1_FLR_1",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 18.61625438596491,
+            "cooling_load_per_area": 17.170526315789473,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 1140,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 140,
+                "surface_area_to_floor_ratio": 0.12280701754385964,
+                "glazed_subsurface_area": 48,
+                "glazed_subsurface_area_to_floor_ratio": 0.04298236403508772,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 1: 1",
+        "heating_load_per_area": 70.3831875,
+        "cooling_load_per_area": 55.524718750000005,
+        "spaces": [
+          {
+            "name": "Corridor_Pod_2_ZN_1_FLR_1",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 23.2954375,
+            "cooling_load_per_area": 18.27178125,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 320,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.0625,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Corridor_Pod_3_ZN_1_FLR_1",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 23.54253125,
+            "cooling_load_per_area": 18.63915625,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 320,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.0625,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Corridor_Pod_1_ZN_1_FLR_1",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 23.54521875,
+            "cooling_load_per_area": 18.61378125,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 320,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.0625,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-D:FL=Building Story 2: 1",
+        "heating_load_per_area": 111.59115624999998,
+        "cooling_load_per_area": 87.70706249999999,
+        "spaces": [
+          {
+            "name": "Corridor_Pod_1_ZN_1_FLR_2",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 37.238468749999996,
+            "cooling_load_per_area": 29.2989375,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 320,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.0625,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Corridor_Pod_2_ZN_1_FLR_2",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 37.09890625,
+            "cooling_load_per_area": 29.098093749999997,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 320,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.0625,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Corridor_Pod_3_ZN_1_FLR_2",
+            "space_type": "Space Function-Corr. >= 2.4m wide-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 37.253781249999996,
+            "cooling_load_per_area": 29.310031249999998,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 320,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.0625,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.021874825000000004,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-D:FL=Building Story 1:",
+        "heating_load_per_area": 12.964766081871344,
+        "cooling_load_per_area": 16.648684210526316,
+        "spaces": [
+          {
+            "name": "Mech_ZN_1_FLR_1",
+            "space_type": "Space Function-Electrical/Mechanical-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 12.964766081871344,
+            "cooling_load_per_area": 16.648684210526316,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 342,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-D:FL=Building Story 2:",
+        "heating_load_per_area": 26.52035087719298,
+        "cooling_load_per_area": 25.079327485380116,
+        "spaces": [
+          {
+            "name": "Mech_ZN_1_FLR_2",
+            "space_type": "Space Function-Electrical/Mechanical-sch-D",
+            "schedule": "D",
+            "heating_load_per_area": 26.52035087719298,
+            "cooling_load_per_area": 25.079327485380116,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 342,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
+    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 2",
+        "heating_load_per_area": 89.9649895178197,
+        "cooling_load_per_area": 112.54683438155135,
+        "spaces": [
+          {
+            "name": "Mult_Class_1_Pod_2_ZN_1_FLR_1",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 29.782767295597484,
+            "cooling_load_per_area": 37.039035639412994,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Mult_Class_1_Pod_1_ZN_1_FLR_1",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 30.360314465408806,
+            "cooling_load_per_area": 38.40888888888889,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Mult_Class_1_Pod_3_ZN_1_FLR_1",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 29.821907756813417,
+            "cooling_load_per_area": 37.098909853249474,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
+    "control_zone": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Classroom/lecture/training:FL=Building Story 1: 1",
+        "heating_load_per_area": 90.99140461215933,
+        "cooling_load_per_area": 85.72922431865828,
+        "spaces": [
+          {
+            "name": "Mult_Class_2_Pod_2_ZN_1_FLR_1",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 30.143605870020963,
+            "cooling_load_per_area": 28.05440251572327,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Mult_Class_2_Pod_1_ZN_1_FLR_1",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 30.168113207547172,
+            "cooling_load_per_area": 28.0658071278826,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 477,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 212,
+                "surface_area_to_floor_ratio": 0.4444444444444444,
+                "glazed_subsurface_area": 74,
+                "glazed_subsurface_area_to_floor_ratio": 0.15555705241090148,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          },
+          {
+            "name": "Mult_Class_2_Pod_3_ZN_1_FLR_1",
+            "space_type": "Space Function-Classroom/lecture/training",
+            "schedule": "D",
+            "heating_load_per_area": 30.679685534591194,
+            "cooling_load_per_area": 29.60901467505241,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 477,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
