@@ -1,5 +1,87 @@
 [
   {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
+        "heating_load": 0.0,
+        "cooling_load": 16.53679,
+        "spaces": [
+          {
+            "name": "Basement",
+            "space_type": "Space Function-Storage area",
+            "schedule": "E",
+            "heating_load": 0.0,
+            "cooling_load": 16.53679,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 1978,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Ground",
+                "surface_area": 211,
+                "surface_area_to_floor_ratio": 0.10669291338582679,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Ground",
+                "surface_area": 55,
+                "surface_area_to_floor_ratio": 0.028176010535679218,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Ground",
+                "surface_area": 211,
+                "surface_area_to_floor_ratio": 0.10669291338582679,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Ground",
+                "surface_area": 55,
+                "surface_area_to_floor_ratio": 0.028176010535679218,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 4:",
     "control_zone": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 4:",
     "thermal_zones": [
@@ -15,6 +97,18 @@
             "heating_load": 7.06049,
             "cooling_load": 13.79438,
             "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 103,
+                "surface_area_to_floor_ratio": 1.0000000000000002,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
@@ -40,18 +134,6 @@
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
               {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 103,
-                "surface_area_to_floor_ratio": 1.0000000000000002,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
@@ -70,238 +152,6 @@
     ]
   },
   {
-    "airloop.name": "Sys_6_VAV with Reheat 2",
-    "control_zone": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=Building Story 2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=Building Story 2:",
-        "heating_load": 0.0,
-        "cooling_load": 39.08031,
-        "spaces": [
-          {
-            "name": "Lobby_Flr_1",
-            "space_type": "Space Function-Hotel/Motel - lobby",
-            "schedule": "H",
-            "heating_load": 0.0,
-            "cooling_load": 39.08031,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 167,
-                "surface_area_to_floor_ratio": 0.12832957111127144,
-                "glazed_subsurface_area": 85,
-                "glazed_subsurface_area_to_floor_ratio": 0.06516256590511009,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 225,
-                "surface_area_to_floor_ratio": 0.17264277035027026,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 41,
-                "surface_area_to_floor_ratio": 0.031388768538191704,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 245,
-                "surface_area_to_floor_ratio": 0.18755212656606424,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
-        "heating_load": 0.10912999999999999,
-        "cooling_load": 1.2973299999999999,
-        "spaces": [
-          {
-            "name": "Storage_Flr_1",
-            "space_type": "Space Function-Storage area - occsens",
-            "schedule": "E",
-            "heating_load": 0.10912999999999999,
-            "cooling_load": 1.2973299999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 36,
-                "surface_area_to_floor_ratio": 0.38236032037054907,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 2:",
-        "heating_load": 1.0703,
-        "cooling_load": 2.9867399999999997,
-        "spaces": [
-          {
-            "name": "Laundry_Flr_1",
-            "space_type": "Space Function-Hospital - laundry/washing",
-            "schedule": "C",
-            "heating_load": 1.0703,
-            "cooling_load": 2.9867399999999997,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 67,
-                "surface_area_to_floor_ratio": 0.8666666666666663,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 18,
-                "surface_area_to_floor_ratio": 0.23214013709063216,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area:FL=Building Story 1:",
-        "heating_load": 0.0,
-        "cooling_load": 16.53679,
-        "spaces": [
-          {
-            "name": "Basement",
-            "space_type": "Space Function-Storage area",
-            "schedule": "E",
-            "heating_load": 0.0,
-            "cooling_load": 16.53679,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Ground",
-                "surface_area": 55,
-                "surface_area_to_floor_ratio": 0.028176010535679218,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Ground",
-                "surface_area": 211,
-                "surface_area_to_floor_ratio": 0.10669291338582679,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Ground",
-                "surface_area": 211,
-                "surface_area_to_floor_ratio": 0.10669291338582679,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Ground",
-                "surface_area": 55,
-                "surface_area_to_floor_ratio": 0.028176010535679218,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 1978,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hotel/Motel - dining:FL=Building Story 4:",
     "control_zone": "All-ZN:BT=Space Function:ST=Hotel/Motel - dining:FL=Building Story 4:",
     "thermal_zones": [
@@ -310,39 +160,6 @@
         "heating_load": 29.83782,
         "cooling_load": 22.54869,
         "spaces": [
-          {
-            "name": "Banquet_Flr_6",
-            "space_type": "Space Function-Hotel/Motel - dining",
-            "schedule": "B",
-            "heating_load": 14.830599999999999,
-            "cooling_load": 11.168260000000002,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 97,
-                "surface_area_to_floor_ratio": 0.2941233233619607,
-                "glazed_subsurface_area": 32,
-                "glazed_subsurface_area_to_floor_ratio": 0.09712328128239996,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 331,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
           {
             "name": "Dining_Flr_6",
             "space_type": "Space Function-Hotel/Motel - dining",
@@ -375,26 +192,295 @@
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
+          },
+          {
+            "name": "Banquet_Flr_6",
+            "space_type": "Space Function-Hotel/Motel - dining",
+            "schedule": "B",
+            "heating_load": 14.830599999999999,
+            "cooling_load": 11.168260000000002,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 331,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 97,
+                "surface_area_to_floor_ratio": 0.2941233233619607,
+                "glazed_subsurface_area": 32,
+                "glazed_subsurface_area_to_floor_ratio": 0.09712328128239996,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
           }
         ]
       }
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 49",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 38",
+    "airloop.name": "Sys_6_VAV with Reheat",
+    "control_zone": "All-ZN:BT=Space Function:ST=Retail - mall concourse:FL=Building Story 2:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 38",
-        "heating_load": 0.9731100000000001,
-        "cooling_load": 0.7967499999999998,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 2:",
+        "heating_load": 0.28026999999999996,
+        "cooling_load": 2.3029699999999997,
         "spaces": [
           {
-            "name": "Room_3_13_Flr_3",
+            "name": "Retail_2_Flr_1",
+            "space_type": "Space Function-Retail - sales",
+            "schedule": "C",
+            "heating_load": 0.28026999999999996,
+            "cooling_load": 2.3029699999999997,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 26,
+                "surface_area_to_floor_ratio": 0.3421170782248316,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - mall concourse:FL=Building Story 2:",
+        "heating_load": 8.056899999999999,
+        "cooling_load": 12.451260000000001,
+        "spaces": [
+          {
+            "name": "Cafe_Flr_1",
+            "space_type": "Space Function-Retail - mall concourse",
+            "schedule": "C",
+            "heating_load": 8.056899999999999,
+            "cooling_load": 12.451260000000001,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 188,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 22,
+                "surface_area_to_floor_ratio": 0.12149756232177353,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 129,
+                "surface_area_to_floor_ratio": 0.6842341564496632,
+                "glazed_subsurface_area": 65,
+                "glazed_subsurface_area_to_floor_ratio": 0.34745232313499697,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=Building Story 2:",
+        "heating_load": 0.0,
+        "cooling_load": 39.08031,
+        "spaces": [
+          {
+            "name": "Lobby_Flr_1",
+            "space_type": "Space Function-Hotel/Motel - lobby",
+            "schedule": "H",
+            "heating_load": 0.0,
+            "cooling_load": 39.08031,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 245,
+                "surface_area_to_floor_ratio": 0.18755212656606424,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 225,
+                "surface_area_to_floor_ratio": 0.17264277035027026,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 167,
+                "surface_area_to_floor_ratio": 0.12832957111127144,
+                "glazed_subsurface_area": 85,
+                "glazed_subsurface_area_to_floor_ratio": 0.06516256590511009,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 41,
+                "surface_area_to_floor_ratio": 0.031388768538191704,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 2: 1",
+        "heating_load": 3.08641,
+        "cooling_load": 4.7775799999999995,
+        "spaces": [
+          {
+            "name": "Retail_1_Flr_1",
+            "space_type": "Space Function-Retail - sales",
+            "schedule": "C",
+            "heating_load": 3.08641,
+            "cooling_load": 4.7775799999999995,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 67,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 45,
+                "surface_area_to_floor_ratio": 0.6842341564496632,
+                "glazed_subsurface_area": 23,
+                "glazed_subsurface_area_to_floor_ratio": 0.34744008925895964,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 22,
+                "surface_area_to_floor_ratio": 0.3421170782248316,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 52",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 41",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 41",
+        "heating_load": 0.9884200000000001,
+        "cooling_load": 0.43333,
+        "spaces": [
+          {
+            "name": "Room_4_5_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9731100000000001,
-            "cooling_load": 0.7967499999999998,
+            "heating_load": 0.9884200000000001,
+            "cooling_load": 0.43333,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.4545183417834775,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.1499739019283216,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 51",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 40",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 40",
+        "heating_load": 0.97312,
+        "cooling_load": 0.79322,
+        "spaces": [
+          {
+            "name": "Room_3_17_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.97312,
+            "cooling_load": 0.79322,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -415,20 +501,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 48",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 37",
+    "airloop.name": "Sys_1_Make-up air unit 50",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 39",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 37",
-        "heating_load": 0.9731000000000001,
-        "cooling_load": 0.79675,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 39",
+        "heating_load": 0.97368,
+        "cooling_load": 0.7964999999999999,
         "spaces": [
           {
-            "name": "Room_3_11_Flr_3",
+            "name": "Room_3_16_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9731000000000001,
-            "cooling_load": 0.79675,
+            "heating_load": 0.97368,
+            "cooling_load": 0.7964999999999999,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -436,41 +522,7 @@
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.1499652052887958,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 47",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 36",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 36",
-        "heating_load": 0.9731000000000001,
-        "cooling_load": 0.79675,
-        "spaces": [
-          {
-            "name": "Room_3_9_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9731000000000001,
-            "cooling_load": 0.79675,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834775,
+                "surface_area_to_floor_ratio": 0.4545183417834774,
                 "glazed_subsurface_area": 3,
                 "glazed_subsurface_area_to_floor_ratio": 0.14996520528879623,
                 "opaque_subsurface_area": 0,
@@ -512,18 +564,6 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 52,
-                "surface_area_to_floor_ratio": 0.12623924350782623,
-                "glazed_subsurface_area": 17,
-                "glazed_subsurface_area_to_floor_ratio": 0.041686507647019096,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
                 "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
@@ -531,6 +571,18 @@
                 "surface_area_to_floor_ratio": 0.08115432767071165,
                 "glazed_subsurface_area": 10,
                 "glazed_subsurface_area_to_floor_ratio": 0.026793394454848005,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 52,
+                "surface_area_to_floor_ratio": 0.12623924350782623,
+                "glazed_subsurface_area": 17,
+                "glazed_subsurface_area_to_floor_ratio": 0.041686507647019096,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -580,6 +632,18 @@
             "surface_report": [
               {
                 "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.06202378509182617,
+                "glazed_subsurface_area": 7,
+                "glazed_subsurface_area_to_floor_ratio": 0.020466682787171585,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
@@ -589,16 +653,38 @@
                 "glazed_subsurface_area_to_floor_ratio": 0.020463552367656845,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              },
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 49",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 38",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 38",
+        "heating_load": 0.9731100000000001,
+        "cooling_load": 0.7967499999999998,
+        "spaces": [
+          {
+            "name": "Room_3_13_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9731100000000001,
+            "cooling_load": 0.7967499999999998,
+            "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.06202378509182617,
-                "glazed_subsurface_area": 7,
-                "glazed_subsurface_area_to_floor_ratio": 0.020466682787171585,
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879664,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -643,78 +729,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_6_VAV with Reheat 1",
-    "control_zone": "All-ZN:BT=Space Function:ST=Retail - mall concourse:FL=Building Story 2:",
+    "airloop.name": "Sys_1_Make-up air unit 21",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 14",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - mall concourse:FL=Building Story 2:",
-        "heating_load": 8.056899999999999,
-        "cooling_load": 12.451260000000001,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 14",
+        "heating_load": 0.96485,
+        "cooling_load": 0.75809,
         "spaces": [
           {
-            "name": "Cafe_Flr_1",
-            "space_type": "Space Function-Retail - mall concourse",
-            "schedule": "C",
-            "heating_load": 8.056899999999999,
-            "cooling_load": 12.451260000000001,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 129,
-                "surface_area_to_floor_ratio": 0.6842341564496632,
-                "glazed_subsurface_area": 65,
-                "glazed_subsurface_area_to_floor_ratio": 0.34745232313499697,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 22,
-                "surface_area_to_floor_ratio": 0.12149756232177353,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 188,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 19",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 12",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 12",
-        "heating_load": 0.9633900000000001,
-        "cooling_load": 0.7583099999999999,
-        "spaces": [
-          {
-            "name": "Room_3_0_Flr_3",
+            "name": "Room_3_18_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9633900000000001,
-            "cooling_load": 0.7583099999999999,
+            "heating_load": 0.96485,
+            "cooling_load": 0.75809,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -722,9 +750,9 @@
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834774,
+                "surface_area_to_floor_ratio": 0.4545183417834775,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879606,
+                "glazed_subsurface_area_to_floor_ratio": 0.1495154732118673,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -735,20 +763,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 51",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 40",
+    "airloop.name": "Sys_1_Make-up air unit 18",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 11",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 40",
-        "heating_load": 0.97312,
-        "cooling_load": 0.79322,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 11",
+        "heating_load": 0.9731000000000001,
+        "cooling_load": 0.79675,
         "spaces": [
           {
-            "name": "Room_3_17_Flr_3",
+            "name": "Room_3_10_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.97312,
-            "cooling_load": 0.79322,
+            "heating_load": 0.9731000000000001,
+            "cooling_load": 0.79675,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -756,55 +784,9 @@
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "surface_area_to_floor_ratio": 0.4545183417834775,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879664,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 1",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 1",
-        "heating_load": 1.8998099999999998,
-        "cooling_load": 1.583,
-        "spaces": [
-          {
-            "name": "Room_3_8_Flr_6",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 1.8998099999999998,
-            "cooling_load": 1.583,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 24,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.8332422088572992,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.27512797512717596,
+                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879623,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -849,30 +831,122 @@
     ]
   },
   {
-    "airloop.name": "Sys_6_VAV with Reheat",
-    "control_zone": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 2:",
+    "airloop.name": "Sys_1_Make-up air unit 8",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 2",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 2:",
-        "heating_load": 0.28026999999999996,
-        "cooling_load": 2.3029699999999997,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 2",
+        "heating_load": 0.9884200000000001,
+        "cooling_load": 0.43333,
         "spaces": [
           {
-            "name": "Retail_2_Flr_1",
-            "space_type": "Space Function-Retail - sales",
-            "schedule": "C",
-            "heating_load": 0.28026999999999996,
-            "cooling_load": 2.3029699999999997,
+            "name": "Room_4_15_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9884200000000001,
+            "cooling_load": 0.43333,
             "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832233,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 4",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 4",
+        "heating_load": 1.90035,
+        "cooling_load": 1.5846600000000002,
+        "spaces": [
+          {
+            "name": "Room_3_5_Flr_6",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 1.90035,
+            "cooling_load": 1.5846600000000002,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 24,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.8332422088572992,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271762,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 29",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 22",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 22",
+        "heating_load": 2.4729699999999997,
+        "cooling_load": 3.94687,
+        "spaces": [
+          {
+            "name": "Room_1_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 2.4729699999999997,
+            "cooling_load": 3.94687,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.3571177504393672,
+                "glazed_subsurface_area": 4,
+                "glazed_subsurface_area_to_floor_ratio": 0.11783264936054048,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 270.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 26,
-                "surface_area_to_floor_ratio": 0.3421170782248316,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "surface_area_to_floor_ratio": 0.6666666666666666,
+                "glazed_subsurface_area": 8,
+                "glazed_subsurface_area_to_floor_ratio": 0.21995219622151793,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -883,88 +957,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 15",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 9",
+    "airloop.name": "Sys_1_Make-up air unit 42",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 32",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 9",
-        "heating_load": 0.9883799999999999,
-        "cooling_load": 0.43333,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 32",
+        "heating_load": 0.97321,
+        "cooling_load": 0.79338,
         "spaces": [
           {
-            "name": "Room_4_8_Flr_3",
+            "name": "Room_3_1_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9883799999999999,
-            "cooling_load": 0.43333,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834775,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832197,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 13",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 7",
-        "heating_load": 0.98838,
-        "cooling_load": 0.43333,
-        "spaces": [
-          {
-            "name": "Room_4_12_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.98838,
-            "cooling_load": 0.43333,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832163,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 43",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 33",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 33",
-        "heating_load": 0.9737,
-        "cooling_load": 0.7964999999999999,
-        "spaces": [
-          {
-            "name": "Room_3_2_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9737,
-            "cooling_load": 0.7964999999999999,
+            "heating_load": 0.97321,
+            "cooling_load": 0.79338,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -975,142 +981,6 @@
                 "surface_area_to_floor_ratio": 0.4545183417834775,
                 "glazed_subsurface_area": 3,
                 "glazed_subsurface_area_to_floor_ratio": 0.14996520528879614,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 12",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 6",
-        "heating_load": 0.9869100000000001,
-        "cooling_load": 0.43273000000000006,
-        "spaces": [
-          {
-            "name": "Room_4_18_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9869100000000001,
-            "cooling_load": 0.43273000000000006,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.1502614443313621,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 11",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 5",
-        "heating_load": 0.9883800000000001,
-        "cooling_load": 0.43333,
-        "spaces": [
-          {
-            "name": "Room_4_11_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9883800000000001,
-            "cooling_load": 0.43333,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832208,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 35",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 27",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 27",
-        "heating_load": 0.9733099999999999,
-        "cooling_load": 0.7967399999999999,
-        "spaces": [
-          {
-            "name": "Room_3_3_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9733099999999999,
-            "cooling_load": 0.7967399999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834775,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879614,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 14",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 8",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 8",
-        "heating_load": 0.9883799999999999,
-        "cooling_load": 0.43333,
-        "spaces": [
-          {
-            "name": "Room_4_9_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9883799999999999,
-            "cooling_load": 0.43333,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834775,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832197,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1179,28 +1049,28 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 2",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 2",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 2:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 2:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 2",
-        "heating_load": 1.90035,
-        "cooling_load": 1.5846600000000002,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hospital - laundry/washing:FL=Building Story 2:",
+        "heating_load": 1.0703,
+        "cooling_load": 2.9867399999999997,
         "spaces": [
           {
-            "name": "Room_3_4_Flr_6",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 1.90035,
-            "cooling_load": 1.5846600000000002,
+            "name": "Laundry_Flr_1",
+            "space_type": "Space Function-Hospital - laundry/washing",
+            "schedule": "C",
+            "heating_load": 1.0703,
+            "cooling_load": 2.9867399999999997,
             "surface_report": [
               {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 24,
-                "surface_area_to_floor_ratio": 1.0,
+                "surface_area": 18,
+                "surface_area_to_floor_ratio": 0.23214013709063216,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
@@ -1208,13 +1078,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 90.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.833242208857299,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.27512797512717607,
+                "surface_area": 67,
+                "surface_area_to_floor_ratio": 0.8666666666666663,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1225,19 +1095,19 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 8",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 2",
+    "airloop.name": "Sys_1_Make-up air unit 11",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 5",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 2",
-        "heating_load": 0.9884200000000001,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 5",
+        "heating_load": 0.9883800000000001,
         "cooling_load": 0.43333,
         "spaces": [
           {
-            "name": "Room_4_15_Flr_3",
+            "name": "Room_4_11_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9884200000000001,
+            "heating_load": 0.9883800000000001,
             "cooling_load": 0.43333,
             "surface_report": [
               {
@@ -1248,7 +1118,7 @@
                 "surface_area": 11,
                 "surface_area_to_floor_ratio": 0.45451834178347744,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832233,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832208,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1259,19 +1129,53 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 52",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 41",
+    "airloop.name": "Sys_1_Make-up air unit 26",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 19",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 41",
-        "heating_load": 0.9884200000000001,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 19",
+        "heating_load": 0.9883800000000001,
         "cooling_load": 0.43333,
         "spaces": [
           {
-            "name": "Room_4_5_Flr_3",
+            "name": "Room_4_10_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9884200000000001,
+            "heating_load": 0.9883800000000001,
+            "cooling_load": 0.43333,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832208,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 15",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 9",
+        "heating_load": 0.9883799999999999,
+        "cooling_load": 0.43333,
+        "spaces": [
+          {
+            "name": "Room_4_8_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9883799999999999,
             "cooling_load": 0.43333,
             "surface_report": [
               {
@@ -1282,53 +1186,7 @@
                 "surface_area": 11,
                 "surface_area_to_floor_ratio": 0.4545183417834775,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.1499739019283216,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 30",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 7",
-        "heating_load": 1.90039,
-        "cooling_load": 1.5846800000000003,
-        "spaces": [
-          {
-            "name": "Room_3_3_Flr_6",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 1.90039,
-            "cooling_load": 1.5846800000000003,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 24,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.833242208857299,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271761,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832197,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1355,18 +1213,6 @@
             "cooling_load": 1.5848199999999997,
             "surface_report": [
               {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.833242208857299,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.275127975127176,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
                 "tilt": 0.0,
@@ -1377,72 +1223,16 @@
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 6",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 1",
-        "heating_load": 0.98887,
-        "cooling_load": 0.43337,
-        "spaces": [
-          {
-            "name": "Room_4_17_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.98887,
-            "cooling_load": 0.43337,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832233,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 21",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 14",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 14",
-        "heating_load": 0.96485,
-        "cooling_load": 0.75809,
-        "spaces": [
-          {
-            "name": "Room_3_18_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.96485,
-            "cooling_load": 0.75809,
-            "surface_report": [
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834775,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.1495154732118673,
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.833242208857299,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.275127975127176,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1477,6 +1267,74 @@
                 "surface_area_to_floor_ratio": 0.45451834178347744,
                 "glazed_subsurface_area": 3,
                 "glazed_subsurface_area_to_floor_ratio": 0.14997390192832238,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 20",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 13",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 13",
+        "heating_load": 0.9883800000000001,
+        "cooling_load": 0.43333,
+        "spaces": [
+          {
+            "name": "Room_4_6_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9883800000000001,
+            "cooling_load": 0.43333,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832208,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 12",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 6",
+        "heating_load": 0.9869100000000001,
+        "cooling_load": 0.43273000000000006,
+        "spaces": [
+          {
+            "name": "Room_4_18_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9869100000000001,
+            "cooling_load": 0.43273000000000006,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.1502614443313621,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1533,6 +1391,222 @@
     ]
   },
   {
+    "airloop.name": "Sys_1_Make-up air unit 10",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 4",
+        "heating_load": 0.9883800000000001,
+        "cooling_load": 0.43333,
+        "spaces": [
+          {
+            "name": "Room_4_13_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9883800000000001,
+            "cooling_load": 0.43333,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832233,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 38",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 28",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 28",
+        "heating_load": 0.9760800000000001,
+        "cooling_load": 0.43939999999999996,
+        "spaces": [
+          {
+            "name": "Room_4_1_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9760800000000001,
+            "cooling_load": 0.43939999999999996,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.4545183417834774,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.1499739019283221,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 7",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 5",
+        "heating_load": 1.90032,
+        "cooling_load": 1.58459,
+        "spaces": [
+          {
+            "name": "Room_3_7_Flr_6",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 1.90032,
+            "cooling_load": 1.58459,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 24,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.8332422088572992,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271762,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 48",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 37",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 37",
+        "heating_load": 0.9731000000000001,
+        "cooling_load": 0.79675,
+        "spaces": [
+          {
+            "name": "Room_3_11_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9731000000000001,
+            "cooling_load": 0.79675,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.1499652052887958,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 35",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 27",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 27",
+        "heating_load": 0.9733099999999999,
+        "cooling_load": 0.7967399999999999,
+        "spaces": [
+          {
+            "name": "Room_3_3_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.9733099999999999,
+            "cooling_load": 0.7967399999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.4545183417834775,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879614,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=Building Story 2:",
+        "heating_load": 0.10912999999999999,
+        "cooling_load": 1.2973299999999999,
+        "spaces": [
+          {
+            "name": "Storage_Flr_1",
+            "space_type": "Space Function-Storage area - occsens",
+            "schedule": "E",
+            "heating_load": 0.10912999999999999,
+            "cooling_load": 1.2973299999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 36,
+                "surface_area_to_floor_ratio": 0.38236032037054907,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 9",
     "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 3",
     "thermal_zones": [
@@ -1567,33 +1641,21 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 7",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 5",
+    "airloop.name": "Sys_1_Make-up air unit 37",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 9",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 5",
-        "heating_load": 1.90032,
-        "cooling_load": 1.58459,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 9",
+        "heating_load": 1.9152799999999999,
+        "cooling_load": 1.5844299999999998,
         "spaces": [
           {
-            "name": "Room_3_7_Flr_6",
+            "name": "Room_3_1_Flr_6",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 1.90032,
-            "cooling_load": 1.58459,
+            "heating_load": 1.9152799999999999,
+            "cooling_load": 1.5844299999999998,
             "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.8332422088572992,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271762,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
@@ -1603,6 +1665,18 @@
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.8332422088572986,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271767,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1637,52 +1711,6 @@
                 "surface_area_to_floor_ratio": 0.45451834178347744,
                 "glazed_subsurface_area": 3,
                 "glazed_subsurface_area_to_floor_ratio": 0.14996520528879664,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 22",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 15",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 15",
-        "heating_load": 2.4729699999999997,
-        "cooling_load": 3.7560700000000002,
-        "spaces": [
-          {
-            "name": "Room_5_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 2.4729699999999997,
-            "cooling_load": 3.7560700000000002,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.35711775043936717,
-                "glazed_subsurface_area": 4,
-                "glazed_subsurface_area_to_floor_ratio": 0.11783264936054012,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 26,
-                "surface_area_to_floor_ratio": 0.6666666666666661,
-                "glazed_subsurface_area": 8,
-                "glazed_subsurface_area_to_floor_ratio": 0.21995219622151777,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1773,54 +1801,42 @@
     ]
   },
   {
-    "airloop.name": "Sys_6_VAV with Reheat 3",
-    "control_zone": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 2: 1",
+    "airloop.name": "Sys_1_Make-up air unit 22",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 15",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Retail - sales:FL=Building Story 2: 1",
-        "heating_load": 3.08641,
-        "cooling_load": 4.7775799999999995,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 15",
+        "heating_load": 2.4729699999999997,
+        "cooling_load": 3.7560700000000002,
         "spaces": [
           {
-            "name": "Retail_1_Flr_1",
-            "space_type": "Space Function-Retail - sales",
-            "schedule": "C",
-            "heating_load": 3.08641,
-            "cooling_load": 4.7775799999999995,
+            "name": "Room_5_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 2.4729699999999997,
+            "cooling_load": 3.7560700000000002,
             "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 26,
+                "surface_area_to_floor_ratio": 0.6666666666666661,
+                "glazed_subsurface_area": 8,
+                "glazed_subsurface_area_to_floor_ratio": 0.21995219622151777,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 45,
-                "surface_area_to_floor_ratio": 0.6842341564496632,
-                "glazed_subsurface_area": 23,
-                "glazed_subsurface_area_to_floor_ratio": 0.34744008925895964,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 67,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 22,
-                "surface_area_to_floor_ratio": 0.3421170782248316,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.35711775043936717,
+                "glazed_subsurface_area": 4,
+                "glazed_subsurface_area_to_floor_ratio": 0.11783264936054012,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1831,76 +1847,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 37",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 9",
+    "airloop.name": "Sys_1_Make-up air unit 39",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 29",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 9",
-        "heating_load": 1.9152799999999999,
-        "cooling_load": 1.5844299999999998,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 29",
+        "heating_load": 0.9731000000000001,
+        "cooling_load": 0.79675,
         "spaces": [
           {
-            "name": "Room_3_1_Flr_6",
+            "name": "Room_3_8_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 1.9152799999999999,
-            "cooling_load": 1.5844299999999998,
+            "heating_load": 0.9731000000000001,
+            "cooling_load": 0.79675,
             "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 24,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.8332422088572986,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271767,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 20",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 13",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 13",
-        "heating_load": 0.9883800000000001,
-        "cooling_load": 0.43333,
-        "spaces": [
-          {
-            "name": "Room_4_6_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9883800000000001,
-            "cooling_load": 0.43333,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 11,
                 "surface_area_to_floor_ratio": 0.45451834178347744,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832208,
+                "glazed_subsurface_area_to_floor_ratio": 0.1499652052887962,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1925,40 +1895,6 @@
             "schedule": "F",
             "heating_load": 0.9885499999999999,
             "cooling_load": 0.43333999999999995,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832208,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 26",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 19",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 19",
-        "heating_load": 0.9883800000000001,
-        "cooling_load": 0.43333,
-        "spaces": [
-          {
-            "name": "Room_4_10_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9883800000000001,
-            "cooling_load": 0.43333,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -2013,20 +1949,54 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 38",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 28",
+    "airloop.name": "Sys_1_Make-up air unit 19",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 12",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 28",
-        "heating_load": 0.9760800000000001,
-        "cooling_load": 0.43939999999999996,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 12",
+        "heating_load": 0.9633900000000001,
+        "cooling_load": 0.7583099999999999,
         "spaces": [
           {
-            "name": "Room_4_1_Flr_3",
+            "name": "Room_3_0_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.9760800000000001,
-            "cooling_load": 0.43939999999999996,
+            "heating_load": 0.9633900000000001,
+            "cooling_load": 0.7583099999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.4545183417834774,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879606,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 6",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 1",
+        "heating_load": 0.98887,
+        "cooling_load": 0.43337,
+        "spaces": [
+          {
+            "name": "Room_4_17_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.98887,
+            "cooling_load": 0.43337,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -2034,9 +2004,113 @@
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834774,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.1499739019283221,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832233,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 44",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 10",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 10",
+        "heating_load": 3.2380999999999998,
+        "cooling_load": 4.23278,
+        "spaces": [
+          {
+            "name": "Room_2_Flr_6",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 3.2380999999999998,
+            "cooling_load": 4.23278,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 39,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.3571595969064915,
+                "glazed_subsurface_area": 4,
+                "glazed_subsurface_area_to_floor_ratio": 0.11794313149337726,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 26,
+                "surface_area_to_floor_ratio": 0.6666666666666663,
+                "glazed_subsurface_area": 8,
+                "glazed_subsurface_area_to_floor_ratio": 0.22015842758347542,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 1",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 1",
+        "heating_load": 1.8998099999999998,
+        "cooling_load": 1.583,
+        "spaces": [
+          {
+            "name": "Room_3_8_Flr_6",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 1.8998099999999998,
+            "cooling_load": 1.583,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 24,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.8332422088572992,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.27512797512717596,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2081,30 +2155,64 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 29",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 22",
+    "airloop.name": "Sys_1_Make-up air unit 13",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 7",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 22",
-        "heating_load": 2.4729699999999997,
-        "cooling_load": 3.94687,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 7",
+        "heating_load": 0.98838,
+        "cooling_load": 0.43333,
         "spaces": [
           {
-            "name": "Room_1_Flr_3",
+            "name": "Room_4_12_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 2.4729699999999997,
-            "cooling_load": 3.94687,
+            "heating_load": 0.98838,
+            "cooling_load": 0.43333,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 270.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 26,
-                "surface_area_to_floor_ratio": 0.6666666666666666,
-                "glazed_subsurface_area": 8,
-                "glazed_subsurface_area_to_floor_ratio": 0.21995219622151793,
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.45451834178347744,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832163,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 30",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 7",
+        "heating_load": 1.90039,
+        "cooling_load": 1.5846800000000003,
+        "spaces": [
+          {
+            "name": "Room_3_3_Flr_6",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 1.90039,
+            "cooling_load": 1.5846800000000003,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 24,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -2113,10 +2221,10 @@
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.3571177504393672,
-                "glazed_subsurface_area": 4,
-                "glazed_subsurface_area_to_floor_ratio": 0.11783264936054048,
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.833242208857299,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271761,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2241,120 +2349,6 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 10",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 4",
-        "heating_load": 0.9883800000000001,
-        "cooling_load": 0.43333,
-        "spaces": [
-          {
-            "name": "Room_4_13_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9883800000000001,
-            "cooling_load": 0.43333,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832233,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 36",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 8",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 8",
-        "heating_load": 1.90035,
-        "cooling_load": 1.5846600000000002,
-        "spaces": [
-          {
-            "name": "Room_3_6_Flr_6",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 1.90035,
-            "cooling_load": 1.5846600000000002,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.8332422088572992,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271762,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 24,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 50",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 39",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 39",
-        "heating_load": 0.97368,
-        "cooling_load": 0.7964999999999999,
-        "spaces": [
-          {
-            "name": "Room_3_16_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.97368,
-            "cooling_load": 0.7964999999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.4545183417834774,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879623,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "airloop.name": "Sys_1_Make-up air unit 34",
     "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 26",
     "thermal_zones": [
@@ -2389,30 +2383,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 42",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 32",
+    "airloop.name": "Sys_1_Make-up air unit 14",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 8",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 32",
-        "heating_load": 0.97321,
-        "cooling_load": 0.79338,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 8",
+        "heating_load": 0.9883799999999999,
+        "cooling_load": 0.43333,
         "spaces": [
           {
-            "name": "Room_3_1_Flr_3",
+            "name": "Room_4_9_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.97321,
-            "cooling_load": 0.79338,
+            "heating_load": 0.9883799999999999,
+            "cooling_load": 0.43333,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 11,
                 "surface_area_to_floor_ratio": 0.4545183417834775,
                 "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879614,
+                "glazed_subsurface_area_to_floor_ratio": 0.14997390192832197,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2423,33 +2417,21 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 4",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 4",
+    "airloop.name": "Sys_1_Make-up air unit 36",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 8",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 4",
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 8",
         "heating_load": 1.90035,
         "cooling_load": 1.5846600000000002,
         "spaces": [
           {
-            "name": "Room_3_5_Flr_6",
+            "name": "Room_3_6_Flr_6",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
             "heating_load": 1.90035,
             "cooling_load": 1.5846600000000002,
             "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 20,
-                "surface_area_to_floor_ratio": 0.8332422088572992,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271762,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
@@ -2461,38 +2443,16 @@
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 39",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 29",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 29",
-        "heating_load": 0.9731000000000001,
-        "cooling_load": 0.79675,
-        "spaces": [
-          {
-            "name": "Room_3_8_Flr_3",
-            "space_type": "Space Function-Hotel/Motel - rooms",
-            "schedule": "F",
-            "heating_load": 0.9731000000000001,
-            "cooling_load": 0.79675,
-            "surface_report": [
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 11,
-                "surface_area_to_floor_ratio": 0.45451834178347744,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.1499652052887962,
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.8332422088572992,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.2751279751271762,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2503,39 +2463,27 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 44",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 10",
+    "airloop.name": "Sys_1_Make-up air unit 2",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 2",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 10",
-        "heating_load": 3.2380999999999998,
-        "cooling_load": 4.23278,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 4: 2",
+        "heating_load": 1.90035,
+        "cooling_load": 1.5846600000000002,
         "spaces": [
           {
-            "name": "Room_2_Flr_6",
+            "name": "Room_3_4_Flr_6",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 3.2380999999999998,
-            "cooling_load": 4.23278,
+            "heating_load": 1.90035,
+            "cooling_load": 1.5846600000000002,
             "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 26,
-                "surface_area_to_floor_ratio": 0.6666666666666663,
-                "glazed_subsurface_area": 8,
-                "glazed_subsurface_area_to_floor_ratio": 0.22015842758347542,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
                 "tilt": 0.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 39,
+                "surface_area": 24,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
@@ -2544,13 +2492,47 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.3571595969064915,
-                "glazed_subsurface_area": 4,
-                "glazed_subsurface_area_to_floor_ratio": 0.11794313149337726,
+                "surface_area": 20,
+                "surface_area_to_floor_ratio": 0.833242208857299,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.27512797512717607,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 45",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 34",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 34",
+        "heating_load": 0.97315,
+        "cooling_load": 0.79675,
+        "spaces": [
+          {
+            "name": "Room_3_4_Flr_3",
+            "space_type": "Space Function-Hotel/Motel - rooms",
+            "schedule": "F",
+            "heating_load": 0.97315,
+            "cooling_load": 0.79675,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 11,
+                "surface_area_to_floor_ratio": 0.4545183417834775,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.14996520528879614,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2595,16 +2577,16 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 18",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 11",
+    "airloop.name": "Sys_1_Make-up air unit 47",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 36",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 11",
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 36",
         "heating_load": 0.9731000000000001,
         "cooling_load": 0.79675,
         "spaces": [
           {
-            "name": "Room_3_10_Flr_3",
+            "name": "Room_3_9_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
             "heating_load": 0.9731000000000001,
@@ -2629,20 +2611,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 45",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 34",
+    "airloop.name": "Sys_1_Make-up air unit 43",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 33",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 34",
-        "heating_load": 0.97315,
-        "cooling_load": 0.79675,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hotel/Motel - rooms:FL=Building Story 3: 33",
+        "heating_load": 0.9737,
+        "cooling_load": 0.7964999999999999,
         "spaces": [
           {
-            "name": "Room_3_4_Flr_3",
+            "name": "Room_3_2_Flr_3",
             "space_type": "Space Function-Hotel/Motel - rooms",
             "schedule": "F",
-            "heating_load": 0.97315,
-            "cooling_load": 0.79675,
+            "heating_load": 0.9737,
+            "cooling_load": 0.7964999999999999,
             "surface_report": [
               {
                 "surface_type": "Wall",

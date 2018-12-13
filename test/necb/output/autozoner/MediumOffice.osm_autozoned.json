@@ -1,325 +1,25 @@
 [
   {
-    "airloop.name": "Sys_6_VAV with Reheat 8",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 4",
-        "heating_load": 7.677060000000001,
-        "cooling_load": 7.50109,
-        "spaces": [
-          {
-            "name": "Perimeter_bot_ZN_3",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 7.677060000000001,
-            "cooling_load": 7.50109,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 136,
-                "surface_area_to_floor_ratio": 0.6603505488804736,
-                "glazed_subsurface_area": 65,
-                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 207,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 6",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 2",
-        "heating_load": 1.80504,
-        "cooling_load": 21.557080000000003,
-        "spaces": [
-          {
-            "name": "Core_bottom",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 1.80504,
-            "cooling_load": 21.557080000000003,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 983,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 5",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 1",
-        "heating_load": 7.55498,
-        "cooling_load": 11.07864,
-        "spaces": [
-          {
-            "name": "Perimeter_bot_ZN_1",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 7.55498,
-            "cooling_load": 11.07864,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 136,
-                "surface_area_to_floor_ratio": 0.6603505488804736,
-                "glazed_subsurface_area": 65,
-                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 207,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 7",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 3",
-        "heating_load": 5.17488,
-        "cooling_load": 13.45201,
-        "spaces": [
-          {
-            "name": "Perimeter_bot_ZN_2",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 5.17488,
-            "cooling_load": 13.45201,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 91,
-                "surface_area_to_floor_ratio": 0.6953768279270287,
-                "glazed_subsurface_area": 43,
-                "glazed_subsurface_area_to_floor_ratio": 0.3315653825414759,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 131,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 4",
+    "airloop.name": "Sys_6_VAV with Reheat",
     "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 2",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 2",
-        "heating_load": 50.71658000000001,
-        "cooling_load": 49.48192999999999,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2:",
+        "heating_load": 5.75938,
+        "cooling_load": 25.81137,
         "spaces": [
           {
-            "name": "Core_top",
+            "name": "Core_mid",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 25.254330000000003,
-            "cooling_load": 28.801299999999998,
+            "heating_load": 5.75938,
+            "cooling_load": 25.81137,
             "surface_report": [
 
             ]
-          },
-          {
-            "name": "Perimeter_top_ZN_3",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 12.797540000000001,
-            "cooling_load": 9.09108,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 136,
-                "surface_area_to_floor_ratio": 0.6603505488804733,
-                "glazed_subsurface_area": 65,
-                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Perimeter_top_ZN_1",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 12.66471,
-            "cooling_load": 11.58955,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 136,
-                "surface_area_to_floor_ratio": 0.6603505488804733,
-                "glazed_subsurface_area": 65,
-                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 3",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 1",
-        "heating_load": 8.42849,
-        "cooling_load": 13.76989,
-        "spaces": [
-          {
-            "name": "Perimeter_top_ZN_4",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 8.42849,
-            "cooling_load": 13.76989,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 91,
-                "surface_area_to_floor_ratio": 0.6954224443549957,
-                "glazed_subsurface_area": 43,
-                "glazed_subsurface_area_to_floor_ratio": 0.33158713309136734,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 2",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1:",
-        "heating_load": 5.1748400000000006,
-        "cooling_load": 14.3836,
-        "spaces": [
-          {
-            "name": "Perimeter_bot_ZN_4",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 5.1748400000000006,
-            "cooling_load": 14.3836,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 91,
-                "surface_area_to_floor_ratio": 0.695422444354996,
-                "glazed_subsurface_area": 43,
-                "glazed_subsurface_area_to_floor_ratio": 0.33158713309136734,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 131,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat 1",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3:",
-    "thermal_zones": [
+      },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3:",
         "heating_load": 8.428690000000003,
@@ -347,17 +47,152 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2:",
-    "thermal_zones": [
+      },
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2:",
-        "heating_load": 33.30838,
-        "cooling_load": 70.8721,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1:",
+        "heating_load": 5.1748400000000006,
+        "cooling_load": 14.3836,
+        "spaces": [
+          {
+            "name": "Perimeter_bot_ZN_4",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 5.1748400000000006,
+            "cooling_load": 14.3836,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 131,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 91,
+                "surface_area_to_floor_ratio": 0.695422444354996,
+                "glazed_subsurface_area": 43,
+                "glazed_subsurface_area_to_floor_ratio": 0.33158713309136734,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 1",
+        "heating_load": 8.42849,
+        "cooling_load": 13.76989,
+        "spaces": [
+          {
+            "name": "Perimeter_top_ZN_4",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 8.42849,
+            "cooling_load": 13.76989,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 91,
+                "surface_area_to_floor_ratio": 0.6954224443549957,
+                "glazed_subsurface_area": 43,
+                "glazed_subsurface_area_to_floor_ratio": 0.33158713309136734,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 1",
+        "heating_load": 8.28668,
+        "cooling_load": 8.388219999999999,
+        "spaces": [
+          {
+            "name": "Perimeter_mid_ZN_3",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 8.28668,
+            "cooling_load": 8.388219999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 136,
+                "surface_area_to_floor_ratio": 0.6603505488804735,
+                "glazed_subsurface_area": 65,
+                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 2",
+        "heating_load": 25.254330000000003,
+        "cooling_load": 28.801299999999998,
+        "spaces": [
+          {
+            "name": "Core_top",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 25.254330000000003,
+            "cooling_load": 28.801299999999998,
+            "surface_report": [
+
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 2",
+        "heating_load": 5.55263,
+        "cooling_load": 12.39817,
+        "spaces": [
+          {
+            "name": "Perimeter_mid_ZN_2",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 5.55263,
+            "cooling_load": 12.39817,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 91,
+                "surface_area_to_floor_ratio": 0.6953768279270285,
+                "glazed_subsurface_area": 43,
+                "glazed_subsurface_area_to_floor_ratio": 0.3315653825414759,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 3",
+        "heating_load": 8.157119999999999,
+        "cooling_load": 11.04805,
         "spaces": [
           {
             "name": "Perimeter_mid_ZN_1",
@@ -379,59 +214,110 @@
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 1",
+        "heating_load": 7.55498,
+        "cooling_load": 11.07864,
+        "spaces": [
           {
-            "name": "Core_mid",
+            "name": "Perimeter_bot_ZN_1",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 5.75938,
-            "cooling_load": 25.81137,
-            "surface_report": [
-
-            ]
-          },
-          {
-            "name": "Perimeter_mid_ZN_2",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 5.55263,
-            "cooling_load": 12.39817,
+            "heating_load": 7.55498,
+            "cooling_load": 11.07864,
             "surface_report": [
               {
-                "surface_type": "Wall",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 91,
-                "surface_area_to_floor_ratio": 0.6953768279270285,
-                "glazed_subsurface_area": 43,
-                "glazed_subsurface_area_to_floor_ratio": 0.3315653825414759,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 207,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          },
-          {
-            "name": "Perimeter_mid_ZN_3",
-            "space_type": "Space Function-Office - open plan",
-            "schedule": "A",
-            "heating_load": 8.28668,
-            "cooling_load": 8.388219999999999,
-            "surface_report": [
+              },
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 136,
-                "surface_area_to_floor_ratio": 0.6603505488804735,
+                "surface_area_to_floor_ratio": 0.6603505488804736,
                 "glazed_subsurface_area": 65,
                 "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 2",
+        "heating_load": 1.80504,
+        "cooling_load": 21.557080000000003,
+        "spaces": [
+          {
+            "name": "Core_bottom",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 1.80504,
+            "cooling_load": 21.557080000000003,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 983,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 3",
+        "heating_load": 12.66471,
+        "cooling_load": 11.58955,
+        "spaces": [
+          {
+            "name": "Perimeter_top_ZN_1",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 12.66471,
+            "cooling_load": 11.58955,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 136,
+                "surface_area_to_floor_ratio": 0.6603505488804733,
+                "glazed_subsurface_area": 65,
+                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 4",
+        "heating_load": 5.552569999999999,
+        "cooling_load": 13.22629,
+        "spaces": [
           {
             "name": "Perimeter_mid_ZN_4",
             "space_type": "Space Function-Office - open plan",
@@ -448,6 +334,114 @@
                 "surface_area_to_floor_ratio": 0.6954224443549958,
                 "glazed_subsurface_area": 43,
                 "glazed_subsurface_area_to_floor_ratio": 0.33158713309136734,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 4",
+        "heating_load": 12.797540000000001,
+        "cooling_load": 9.09108,
+        "spaces": [
+          {
+            "name": "Perimeter_top_ZN_3",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 12.797540000000001,
+            "cooling_load": 9.09108,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 136,
+                "surface_area_to_floor_ratio": 0.6603505488804733,
+                "glazed_subsurface_area": 65,
+                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 3",
+        "heating_load": 5.17488,
+        "cooling_load": 13.45201,
+        "spaces": [
+          {
+            "name": "Perimeter_bot_ZN_2",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 5.17488,
+            "cooling_load": 13.45201,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 131,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 91,
+                "surface_area_to_floor_ratio": 0.6953768279270287,
+                "glazed_subsurface_area": 43,
+                "glazed_subsurface_area_to_floor_ratio": 0.3315653825414759,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 4",
+        "heating_load": 7.677060000000001,
+        "cooling_load": 7.50109,
+        "spaces": [
+          {
+            "name": "Perimeter_bot_ZN_3",
+            "space_type": "Space Function-Office - open plan",
+            "schedule": "A",
+            "heating_load": 7.677060000000001,
+            "cooling_load": 7.50109,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 207,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 136,
+                "surface_area_to_floor_ratio": 0.6603505488804736,
+                "glazed_subsurface_area": 65,
+                "glazed_subsurface_area_to_floor_ratio": 0.3148590012982569,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }

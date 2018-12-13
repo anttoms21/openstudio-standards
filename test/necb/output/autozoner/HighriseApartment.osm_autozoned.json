@@ -1,5 +1,63 @@
 [
   {
+    "airloop.name": "Sys_6_VAV with Reheat",
+    "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
+        "heating_load": 2.9225,
+        "cooling_load": 3.6723000000000003,
+        "spaces": [
+          {
+            "name": "Office",
+            "space_type": "Space Function-Office - enclosed",
+            "schedule": "A",
+            "heating_load": 2.9225,
+            "cooling_load": 3.6723000000000003,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 78",
     "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 7",
     "thermal_zones": [
@@ -68,6 +126,120 @@
     ]
   },
   {
+    "airloop.name": "Sys_1_Make-up air unit 76",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 7",
+        "heating_load": 1.9475799999999996,
+        "cooling_load": 1.30134,
+        "spaces": [
+          {
+            "name": "F3 N2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.9475799999999996,
+            "cooling_load": 1.30134,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 74",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 6",
+        "heating_load": 1.9573599999999998,
+        "cooling_load": 1.4972199999999998,
+        "spaces": [
+          {
+            "name": "F4 S1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.9573599999999998,
+            "cooling_load": 1.4972199999999998,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 73",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 7",
+        "heating_load": 2.8848699999999994,
+        "cooling_load": 2.53159,
+        "spaces": [
+          {
+            "name": "F2 SE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.8848699999999994,
+            "cooling_load": 2.53159,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 70",
     "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 5",
     "thermal_zones": [
@@ -114,411 +286,21 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 68",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 6",
+    "airloop.name": "Sys_1_Make-up air unit 67",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 5",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 6",
-        "heating_load": 3.08649,
-        "cooling_load": 2.56754,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 5",
+        "heating_load": 1.99244,
+        "cooling_load": 1.33778,
         "spaces": [
           {
-            "name": "M NW Apartment",
+            "name": "F4 N1 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.08649,
-            "cooling_load": 2.56754,
+            "heating_load": 1.99244,
+            "cooling_load": 1.33778,
             "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 65",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 5",
-        "heating_load": 1.99503,
-        "cooling_load": 1.50208,
-        "spaces": [
-          {
-            "name": "M S1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 1.99503,
-            "cooling_load": 1.50208,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 64",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 7",
-        "heating_load": 2.14941,
-        "cooling_load": 1.3186900000000001,
-        "spaces": [
-          {
-            "name": "F8 N2 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.14941,
-            "cooling_load": 1.3186900000000001,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=Building Story 1:",
-        "heating_load": 2.9225,
-        "cooling_load": 3.6723000000000003,
-        "spaces": [
-          {
-            "name": "Office",
-            "space_type": "Space Function-Office - enclosed",
-            "schedule": "A",
-            "heating_load": 2.9225,
-            "cooling_load": 3.6723000000000003,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 62",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 4",
-        "heating_load": 3.1446,
-        "cooling_load": 2.8738,
-        "spaces": [
-          {
-            "name": "F7 SW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.1446,
-            "cooling_load": 2.8738,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 75",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 6",
-        "heating_load": 2.09585,
-        "cooling_load": 1.3427,
-        "spaces": [
-          {
-            "name": "F7 N1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.09585,
-            "cooling_load": 1.3427,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 61",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 3",
-        "heating_load": 3.17654,
-        "cooling_load": 2.40755,
-        "spaces": [
-          {
-            "name": "F7 NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.17654,
-            "cooling_load": 2.40755,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 58",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 2",
-        "heating_load": 2.06041,
-        "cooling_load": 1.50852,
-        "spaces": [
-          {
-            "name": "F7 S1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.06041,
-            "cooling_load": 1.50852,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 57",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 6",
-        "heating_load": 3.20708,
-        "cooling_load": 2.8779299999999997,
-        "spaces": [
-          {
-            "name": "F8 SW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.20708,
-            "cooling_load": 2.8779299999999997,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 56",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 5",
-        "heating_load": 2.97042,
-        "cooling_load": 2.40125,
-        "spaces": [
-          {
-            "name": "F3 NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.97042,
-            "cooling_load": 2.40125,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
@@ -584,6 +366,110 @@
     ]
   },
   {
+    "airloop.name": "Sys_1_Make-up air unit 59",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 7",
+        "heating_load": 4.9708000000000006,
+        "cooling_load": 3.43797,
+        "spaces": [
+          {
+            "name": "T SE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 4.9708000000000006,
+            "cooling_load": 3.43797,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 57",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 6",
+        "heating_load": 3.20708,
+        "cooling_load": 2.8779299999999997,
+        "spaces": [
+          {
+            "name": "F8 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.20708,
+            "cooling_load": 2.8779299999999997,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 55",
     "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 5",
     "thermal_zones": [
@@ -598,40 +484,6 @@
             "schedule": "G",
             "heating_load": 1.9069200000000004,
             "cooling_load": 1.3050899999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 76",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 7",
-        "heating_load": 1.9475799999999996,
-        "cooling_load": 1.30134,
-        "spaces": [
-          {
-            "name": "F3 N2 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 1.9475799999999996,
-            "cooling_load": 1.30134,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -668,6 +520,64 @@
             "cooling_load": 1.50979,
             "surface_report": [
               {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 51",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 5",
+        "heating_load": 4.9708000000000006,
+        "cooling_load": 3.8899100000000004,
+        "spaces": [
+          {
+            "name": "T SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 4.9708000000000006,
+            "cooling_load": 3.8899100000000004,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
@@ -680,14 +590,106 @@
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
               {
-                "surface_type": "Floor",
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 49",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 5",
+        "heating_load": 3.1012,
+        "cooling_load": 2.87066,
+        "spaces": [
+          {
+            "name": "F6 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.1012,
+            "cooling_load": 2.87066,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 48",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 4",
+        "heating_load": 2.9007199999999997,
+        "cooling_load": 2.37162,
+        "spaces": [
+          {
+            "name": "F2 NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.9007199999999997,
+            "cooling_load": 2.37162,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
                 "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -744,122 +746,6 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 59",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 7",
-        "heating_load": 4.9708000000000006,
-        "cooling_load": 3.43797,
-        "spaces": [
-          {
-            "name": "T SE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 4.9708000000000006,
-            "cooling_load": 3.43797,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 51",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 5",
-        "heating_load": 4.9708000000000006,
-        "cooling_load": 3.8899100000000004,
-        "spaces": [
-          {
-            "name": "T SW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 4.9708000000000006,
-            "cooling_load": 3.8899100000000004,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "airloop.name": "Sys_1_Make-up air unit 50",
     "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 6",
     "thermal_zones": [
@@ -884,52 +770,6 @@
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
                 "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 48",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 4",
-        "heating_load": 2.9007199999999997,
-        "cooling_load": 2.37162,
-        "spaces": [
-          {
-            "name": "F2 NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.9007199999999997,
-            "cooling_load": 2.37162,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -986,20 +826,192 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 28",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 2",
+    "airloop.name": "Sys_1_Make-up air unit 46",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 5",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 2",
-        "heating_load": 3.1325300000000005,
-        "cooling_load": 2.4077800000000003,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 5",
+        "heating_load": 1.84031,
+        "cooling_load": 1.12758,
         "spaces": [
           {
-            "name": "F6 NE Apartment",
+            "name": "G N2 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.1325300000000005,
-            "cooling_load": 2.4077800000000003,
+            "heating_load": 1.84031,
+            "cooling_load": 1.12758,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 7",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4:",
+        "heating_load": 3.00323,
+        "cooling_load": 2.46799,
+        "spaces": [
+          {
+            "name": "F4 SE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.00323,
+            "cooling_load": 2.46799,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 65",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 5",
+        "heating_load": 1.99503,
+        "cooling_load": 1.50208,
+        "spaces": [
+          {
+            "name": "M S1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.99503,
+            "cooling_load": 1.50208,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 62",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 4",
+        "heating_load": 3.1446,
+        "cooling_load": 2.8738,
+        "spaces": [
+          {
+            "name": "F7 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.1446,
+            "cooling_load": 2.8738,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 18",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 1",
+        "heating_load": 3.4714299999999993,
+        "cooling_load": 2.39941,
+        "spaces": [
+          {
+            "name": "F9 NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.4714299999999993,
+            "cooling_load": 2.39941,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1032,6 +1044,52 @@
     ]
   },
   {
+    "airloop.name": "Sys_1_Make-up air unit 36",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 2",
+        "heating_load": 3.0035199999999995,
+        "cooling_load": 2.8612100000000003,
+        "spaces": [
+          {
+            "name": "F4 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.0035199999999995,
+            "cooling_load": 2.8612100000000003,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 15",
     "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 2",
     "thermal_zones": [
@@ -1047,482 +1105,6 @@
             "heating_load": 1.9125799999999997,
             "cooling_load": 1.48672,
             "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 10:",
-    "control_zone": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 10:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 10:",
-        "heating_load": 4.2651,
-        "cooling_load": 2.1039,
-        "spaces": [
-          {
-            "name": "T Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 4.2651,
-            "cooling_load": 2.1039,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 77,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 9:",
-        "heating_load": 2.3110999999999997,
-        "cooling_load": 1.5131700000000001,
-        "spaces": [
-          {
-            "name": "F9 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 2.3110999999999997,
-            "cooling_load": 1.5131700000000001,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 8:",
-        "heating_load": 1.99853,
-        "cooling_load": 1.46564,
-        "spaces": [
-          {
-            "name": "F8 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.99853,
-            "cooling_load": 1.46564,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 4:",
-        "heating_load": 1.894,
-        "cooling_load": 1.46144,
-        "spaces": [
-          {
-            "name": "F4 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.894,
-            "cooling_load": 1.46144,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 1:",
-        "heating_load": 2.0826700000000002,
-        "cooling_load": 1.58667,
-        "spaces": [
-          {
-            "name": "G Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 2.0826700000000002,
-            "cooling_load": 1.58667,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 3,
-                "glazed_subsurface_area_to_floor_ratio": 0.043261516559345,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 77,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 2:",
-        "heating_load": 1.88797,
-        "cooling_load": 1.4584099999999998,
-        "spaces": [
-          {
-            "name": "F2 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.88797,
-            "cooling_load": 1.4584099999999998,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 7:",
-        "heating_load": 1.94239,
-        "cooling_load": 1.46201,
-        "spaces": [
-          {
-            "name": "F7 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.94239,
-            "cooling_load": 1.46201,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 5:",
-        "heating_load": 1.91016,
-        "cooling_load": 1.4618499999999999,
-        "spaces": [
-          {
-            "name": "M Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.91016,
-            "cooling_load": 1.4618499999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 3:",
-        "heating_load": 1.87712,
-        "cooling_load": 1.45987,
-        "spaces": [
-          {
-            "name": "F3 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.87712,
-            "cooling_load": 1.45987,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 6:",
-        "heating_load": 1.92463,
-        "cooling_load": 1.46188,
-        "spaces": [
-          {
-            "name": "F6 Corridor",
-            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
-            "schedule": "G",
-            "heating_load": 1.92463,
-            "cooling_load": 1.46188,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.06578842280901326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 73",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 7",
-        "heating_load": 2.8848699999999994,
-        "cooling_load": 2.53159,
-        "spaces": [
-          {
-            "name": "F2 SE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.8848699999999994,
-            "cooling_load": 2.53159,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
@@ -1576,20 +1158,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 45",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 3",
+    "airloop.name": "Sys_1_Make-up air unit 69",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 7",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 3",
-        "heating_load": 1.8735700000000002,
-        "cooling_load": 1.45815,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 7",
+        "heating_load": 2.02774,
+        "cooling_load": 1.52551,
         "spaces": [
           {
-            "name": "F2 S1 Apartment",
+            "name": "F6 S2 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 1.8735700000000002,
-            "cooling_load": 1.45815,
+            "heating_load": 2.02774,
+            "cooling_load": 1.52551,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1600,202 +1182,6 @@
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
                 "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 13",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 1",
-        "heating_load": 5.00137,
-        "cooling_load": 3.36324,
-        "spaces": [
-          {
-            "name": "T NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 5.00137,
-            "cooling_load": 3.36324,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 6",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10:",
-        "heating_load": 3.93331,
-        "cooling_load": 2.5711399999999998,
-        "spaces": [
-          {
-            "name": "T S1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.93331,
-            "cooling_load": 2.5711399999999998,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 23",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 2",
-        "heating_load": 3.08649,
-        "cooling_load": 2.4080500000000002,
-        "spaces": [
-          {
-            "name": "M NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.08649,
-            "cooling_load": 2.4080500000000002,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 72",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 7",
-        "heating_load": 3.05573,
-        "cooling_load": 2.86673,
-        "spaces": [
-          {
-            "name": "M SW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.05573,
-            "cooling_load": 2.86673,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1840,21 +1226,459 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 18",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 1",
+    "airloop.name": "Sys_1_Make-up air unit 11",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 1",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 1",
-        "heating_load": 3.4714299999999993,
-        "cooling_load": 2.39941,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 1",
+        "heating_load": 3.2395,
+        "cooling_load": 2.57958,
         "spaces": [
           {
-            "name": "F9 NE Apartment",
+            "name": "F8 NW Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.4714299999999993,
-            "cooling_load": 2.39941,
+            "heating_load": 3.2395,
+            "cooling_load": 2.57958,
             "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 39",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 4",
+        "heating_load": 5.00137,
+        "cooling_load": 3.65785,
+        "spaces": [
+          {
+            "name": "T NW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 5.00137,
+            "cooling_load": 3.65785,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 20",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7:",
+        "heating_load": 2.09585,
+        "cooling_load": 1.31278,
+        "spaces": [
+          {
+            "name": "F7 N2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.09585,
+            "cooling_load": 1.31278,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 52",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 7",
+        "heating_load": 3.438840000000001,
+        "cooling_load": 2.44691,
+        "spaces": [
+          {
+            "name": "F9 SE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.438840000000001,
+            "cooling_load": 2.44691,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 13",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 1",
+        "heating_load": 5.00137,
+        "cooling_load": 3.36324,
+        "spaces": [
+          {
+            "name": "T NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 5.00137,
+            "cooling_load": 3.36324,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 1",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6:",
+        "heating_load": 3.1325300000000005,
+        "cooling_load": 2.57146,
+        "spaces": [
+          {
+            "name": "F6 NW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.1325300000000005,
+            "cooling_load": 2.57146,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 40",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 2",
+        "heating_load": 2.9007199999999997,
+        "cooling_load": 2.52205,
+        "spaces": [
+          {
+            "name": "F2 NW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.9007199999999997,
+            "cooling_load": 2.52205,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 3",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3:",
+        "heating_load": 2.94131,
+        "cooling_load": 2.84994,
+        "spaces": [
+          {
+            "name": "F3 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.94131,
+            "cooling_load": 2.84994,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 68",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 6",
+        "heating_load": 3.08649,
+        "cooling_load": 2.56754,
+        "spaces": [
+          {
+            "name": "M NW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.08649,
+            "cooling_load": 2.56754,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1:",
+        "heating_load": 2.7425300000000004,
+        "cooling_load": 2.5163699999999998,
+        "spaces": [
+          {
+            "name": "G NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.7425300000000004,
+            "cooling_load": 2.5163699999999998,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
@@ -1932,88 +1756,42 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1:",
+    "airloop.name": "Sys_4_PSZ_WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 10:",
+    "control_zone": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 10:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1:",
-        "heating_load": 2.7425300000000004,
-        "cooling_load": 2.5163699999999998,
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 10:",
+        "heating_load": 4.2651,
+        "cooling_load": 2.1039,
         "spaces": [
           {
-            "name": "G NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
+            "name": "T Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
             "schedule": "G",
-            "heating_load": 2.7425300000000004,
-            "cooling_load": 2.5163699999999998,
+            "heating_load": 4.2651,
+            "cooling_load": 2.1039,
             "surface_report": [
               {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
+                "surface_type": "RoofCeiling",
                 "azimuth": 90.0,
-                "tilt": 90.0,
+                "tilt": 0.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 88,
+                "surface_area": 77,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 36",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 2",
-        "heating_load": 3.0035199999999995,
-        "cooling_load": 2.8612100000000003,
-        "spaces": [
-          {
-            "name": "F4 SW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.0035199999999995,
-            "cooling_load": 2.8612100000000003,
-            "surface_report": [
+              },
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 90.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -2022,90 +1800,382 @@
                 "azimuth": 270.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 19",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 2",
-    "thermal_zones": [
+      },
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 2",
-        "heating_load": 2.1143,
-        "cooling_load": 1.51092,
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 9:",
+        "heating_load": 2.3110999999999997,
+        "cooling_load": 1.5131700000000001,
         "spaces": [
           {
-            "name": "F8 S1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
+            "name": "F9 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
             "schedule": "G",
-            "heating_load": 2.1143,
-            "cooling_load": 1.51092,
+            "heating_load": 2.3110999999999997,
+            "cooling_load": 1.5131700000000001,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 90.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 42",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 3",
-        "heating_load": 1.81248,
-        "cooling_load": 1.4524199999999998,
-        "spaces": [
-          {
-            "name": "G S1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 1.81248,
-            "cooling_load": 1.4524199999999998,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 8:",
+        "heating_load": 1.99853,
+        "cooling_load": 1.46564,
+        "spaces": [
+          {
+            "name": "F8 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.99853,
+            "cooling_load": 1.46564,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 4:",
+        "heating_load": 1.894,
+        "cooling_load": 1.46144,
+        "spaces": [
+          {
+            "name": "F4 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.894,
+            "cooling_load": 1.46144,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 1:",
+        "heating_load": 2.0826700000000002,
+        "cooling_load": 1.58667,
+        "spaces": [
+          {
+            "name": "G Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 2.0826700000000002,
+            "cooling_load": 1.58667,
+            "surface_report": [
               {
                 "surface_type": "Floor",
                 "azimuth": 90.0,
                 "tilt": 180.0,
                 "boundary_condition": "Ground",
-                "surface_area": 88,
+                "surface_area": 77,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 3,
+                "glazed_subsurface_area_to_floor_ratio": 0.043261516559345,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 2:",
+        "heating_load": 1.88797,
+        "cooling_load": 1.4584099999999998,
+        "spaces": [
+          {
+            "name": "F2 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.88797,
+            "cooling_load": 1.4584099999999998,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 7:",
+        "heating_load": 1.94239,
+        "cooling_load": 1.46201,
+        "spaces": [
+          {
+            "name": "F7 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.94239,
+            "cooling_load": 1.46201,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 5:",
+        "heating_load": 1.91016,
+        "cooling_load": 1.4618499999999999,
+        "spaces": [
+          {
+            "name": "M Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.91016,
+            "cooling_load": 1.4618499999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 3:",
+        "heating_load": 1.87712,
+        "cooling_load": 1.45987,
+        "spaces": [
+          {
+            "name": "F3 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.87712,
+            "cooling_load": 1.45987,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. < 2.4m wide-sch-G:FL=Building Story 6:",
+        "heating_load": 1.92463,
+        "cooling_load": 1.46188,
+        "spaces": [
+          {
+            "name": "F6 Corridor",
+            "space_type": "Space Function-Corr. < 2.4m wide-sch-G",
+            "schedule": "G",
+            "heating_load": 1.92463,
+            "cooling_load": 1.46188,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.06578842280901326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.014352888669357458,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2116,20 +2186,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 17",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9:",
+    "airloop.name": "Sys_1_Make-up air unit 64",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 7",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9:",
-        "heating_load": 2.3734499999999996,
-        "cooling_load": 1.3671099999999998,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 7",
+        "heating_load": 2.14941,
+        "cooling_load": 1.3186900000000001,
         "spaces": [
           {
-            "name": "F9 N2 Apartment",
+            "name": "F8 N2 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 2.3734499999999996,
-            "cooling_load": 1.3671099999999998,
+            "heating_load": 2.14941,
+            "cooling_load": 1.3186900000000001,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -2150,21 +2220,33 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 2",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5:",
+    "airloop.name": "Sys_1_Make-up air unit 6",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5:",
-        "heating_load": 3.05565,
-        "cooling_load": 2.46612,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10:",
+        "heating_load": 3.93331,
+        "cooling_load": 2.5711399999999998,
         "spaces": [
           {
-            "name": "M SE Apartment",
+            "name": "T S1 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.05565,
-            "cooling_load": 2.46612,
+            "heating_load": 3.93331,
+            "cooling_load": 2.5711399999999998,
             "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
@@ -2174,18 +2256,6 @@
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
                 "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2230,140 +2300,26 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 21",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 2",
+    "airloop.name": "Sys_1_Make-up air unit 43",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 4",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 2",
-        "heating_load": 2.33904,
-        "cooling_load": 1.57318,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 4",
+        "heating_load": 2.7425300000000004,
+        "cooling_load": 2.5811100000000002,
         "spaces": [
           {
-            "name": "F9 S2 Apartment",
+            "name": "G NW Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 2.33904,
-            "cooling_load": 1.57318,
+            "heating_load": 2.7425300000000004,
+            "cooling_load": 2.5811100000000002,
             "surface_report": [
               {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 74",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 6",
-        "heating_load": 1.9573599999999998,
-        "cooling_load": 1.4972199999999998,
-        "spaces": [
-          {
-            "name": "F4 S1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 1.9573599999999998,
-            "cooling_load": 1.4972199999999998,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 54",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 4",
-        "heating_load": 2.97042,
-        "cooling_load": 2.55058,
-        "spaces": [
-          {
-            "name": "F3 NW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.97042,
-            "cooling_load": 2.55058,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 39",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 4",
-        "heating_load": 5.00137,
-        "cooling_load": 3.65785,
-        "spaces": [
-          {
-            "name": "T NW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 5.00137,
-            "cooling_load": 3.65785,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 88,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
@@ -2402,178 +2358,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 3",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3:",
+    "airloop.name": "Sys_1_Make-up air unit 44",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3:",
-        "heating_load": 2.94131,
-        "cooling_load": 2.84994,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 3",
+        "heating_load": 2.9438400000000002,
+        "cooling_load": 2.4764,
         "spaces": [
           {
-            "name": "F3 SW Apartment",
+            "name": "F3 SE Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 2.94131,
-            "cooling_load": 2.84994,
+            "heating_load": 2.9438400000000002,
+            "cooling_load": 2.4764,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 270.0,
+                "azimuth": 90.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 23,
                 "surface_area_to_floor_ratio": 0.2631542592688529,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 63",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 6",
-        "heating_load": 1.9475799999999996,
-        "cooling_load": 1.3312599999999999,
-        "spaces": [
-          {
-            "name": "F3 N1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 1.9475799999999996,
-            "cooling_load": 1.3312599999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 5",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8:",
-        "heating_load": 2.1143,
-        "cooling_load": 1.5310599999999999,
-        "spaces": [
-          {
-            "name": "F8 S2 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.1143,
-            "cooling_load": 1.5310599999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 20",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7:",
-        "heating_load": 2.09585,
-        "cooling_load": 1.31278,
-        "spaces": [
-          {
-            "name": "F7 N2 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.09585,
-            "cooling_load": 1.31278,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 31",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 3",
-        "heating_load": 3.93331,
-        "cooling_load": 2.58635,
-        "spaces": [
-          {
-            "name": "T S2 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.93331,
-            "cooling_load": 2.58635,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -2630,78 +2438,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 8",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 1",
+    "airloop.name": "Sys_1_Make-up air unit 2",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 1",
-        "heating_load": 2.71887,
-        "cooling_load": 2.8463600000000007,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5:",
+        "heating_load": 3.05565,
+        "cooling_load": 2.46612,
         "spaces": [
           {
-            "name": "G SW Apartment",
+            "name": "M SE Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 2.71887,
-            "cooling_load": 2.8463600000000007,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 52",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 7",
-        "heating_load": 3.438840000000001,
-        "cooling_load": 2.44691,
-        "spaces": [
-          {
-            "name": "F9 SE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.438840000000001,
-            "cooling_load": 2.44691,
+            "heating_load": 3.05565,
+            "cooling_load": 2.46612,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -2724,98 +2474,6 @@
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
                 "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 7",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4:",
-        "heating_load": 3.00323,
-        "cooling_load": 2.46799,
-        "spaces": [
-          {
-            "name": "F4 SE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.00323,
-            "cooling_load": 2.46799,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 44",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 3",
-        "heating_load": 2.9438400000000002,
-        "cooling_load": 2.4764,
-        "spaces": [
-          {
-            "name": "F3 SE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.9438400000000002,
-            "cooling_load": 2.4764,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2860,20 +2518,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 37",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 4",
+    "airloop.name": "Sys_1_Make-up air unit 38",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 4",
-        "heating_load": 1.99502,
-        "cooling_load": 1.5221,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 3",
+        "heating_load": 1.9573099999999997,
+        "cooling_load": 1.51754,
         "spaces": [
           {
-            "name": "M S2 Apartment",
+            "name": "F4 S2 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 1.99502,
-            "cooling_load": 1.5221,
+            "heating_load": 1.9573099999999997,
+            "cooling_load": 1.51754,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -2940,30 +2598,42 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 38",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 3",
+    "airloop.name": "Sys_1_Make-up air unit 54",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 4",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 3",
-        "heating_load": 1.9573099999999997,
-        "cooling_load": 1.51754,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 4",
+        "heating_load": 2.97042,
+        "cooling_load": 2.55058,
         "spaces": [
           {
-            "name": "F4 S2 Apartment",
+            "name": "F3 NW Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 1.9573099999999997,
-            "cooling_load": 1.51754,
+            "heating_load": 2.97042,
+            "cooling_load": 2.55058,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 35,
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2974,30 +2644,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 49",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 5",
+    "airloop.name": "Sys_1_Make-up air unit 8",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 1",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 5",
-        "heating_load": 3.1012,
-        "cooling_load": 2.87066,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 1",
+        "heating_load": 2.71887,
+        "cooling_load": 2.8463600000000007,
         "spaces": [
           {
-            "name": "F6 SW Apartment",
+            "name": "G SW Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.1012,
-            "cooling_load": 2.87066,
+            "heating_load": 2.71887,
+            "cooling_load": 2.8463600000000007,
             "surface_report": [
               {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -3010,6 +2680,144 @@
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
                 "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 23",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 2",
+        "heating_load": 3.08649,
+        "cooling_load": 2.4080500000000002,
+        "spaces": [
+          {
+            "name": "M NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.08649,
+            "cooling_load": 2.4080500000000002,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 71",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 6",
+        "heating_load": 2.87331,
+        "cooling_load": 2.8249600000000004,
+        "spaces": [
+          {
+            "name": "F2 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.87331,
+            "cooling_load": 2.8249600000000004,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 63",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 6",
+        "heating_load": 1.9475799999999996,
+        "cooling_load": 1.3312599999999999,
+        "spaces": [
+          {
+            "name": "F3 N1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.9475799999999996,
+            "cooling_load": 1.3312599999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -3054,168 +2862,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 46",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 5",
+    "airloop.name": "Sys_1_Make-up air unit 21",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 2",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 5",
-        "heating_load": 1.84031,
-        "cooling_load": 1.12758,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 2",
+        "heating_load": 2.33904,
+        "cooling_load": 1.57318,
         "spaces": [
           {
-            "name": "G N2 Apartment",
+            "name": "F9 S2 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 1.84031,
-            "cooling_load": 1.12758,
+            "heating_load": 2.33904,
+            "cooling_load": 1.57318,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 35,
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 11",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 1",
-        "heating_load": 3.2395,
-        "cooling_load": 2.57958,
-        "spaces": [
-          {
-            "name": "F8 NW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.2395,
-            "cooling_load": 2.57958,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 29",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 3",
-        "heating_load": 2.0631500000000003,
-        "cooling_load": 1.3413599999999999,
-        "spaces": [
-          {
-            "name": "F6 N1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.0631500000000003,
-            "cooling_load": 1.3413599999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 41",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 4",
-        "heating_load": 3.2395,
-        "cooling_load": 2.4055999999999997,
-        "spaces": [
-          {
-            "name": "F8 NE Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.2395,
-            "cooling_load": 2.4055999999999997,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -3242,18 +2912,6 @@
             "cooling_load": 1.16336,
             "surface_report": [
               {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
                 "surface_type": "Floor",
                 "azimuth": 90.0,
                 "tilt": 180.0,
@@ -3264,29 +2922,7 @@
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 67",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 4: 5",
-        "heating_load": 1.99244,
-        "cooling_load": 1.33778,
-        "spaces": [
-          {
-            "name": "F4 N1 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 1.99244,
-            "cooling_load": 1.33778,
-            "surface_report": [
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
@@ -3306,64 +2942,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 12",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 1",
+    "airloop.name": "Sys_1_Make-up air unit 33",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 4",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 1",
-        "heating_load": 1.9129200000000002,
-        "cooling_load": 1.5086199999999996,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 4",
+        "heating_load": 3.4714299999999993,
+        "cooling_load": 2.64883,
         "spaces": [
           {
-            "name": "F3 S2 Apartment",
+            "name": "F9 NW Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 1.9129200000000002,
-            "cooling_load": 1.5086199999999996,
+            "heating_load": 3.4714299999999993,
+            "cooling_load": 2.64883,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 35,
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 30",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 3",
-        "heating_load": 3.438840000000001,
-        "cooling_load": 2.94865,
-        "spaces": [
-          {
-            "name": "F9 SW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 3.438840000000001,
-            "cooling_load": 2.94865,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -3432,21 +3034,273 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 33",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 4",
+    "airloop.name": "Sys_1_Make-up air unit 75",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 6",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 4",
-        "heating_load": 3.4714299999999993,
-        "cooling_load": 2.64883,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 6",
+        "heating_load": 2.09585,
+        "cooling_load": 1.3427,
         "spaces": [
           {
-            "name": "F9 NW Apartment",
+            "name": "F7 N1 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.4714299999999993,
-            "cooling_load": 2.64883,
+            "heating_load": 2.09585,
+            "cooling_load": 1.3427,
             "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 56",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 5",
+        "heating_load": 2.97042,
+        "cooling_load": 2.40125,
+        "spaces": [
+          {
+            "name": "F3 NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.97042,
+            "cooling_load": 2.40125,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 31",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 10: 3",
+        "heating_load": 3.93331,
+        "cooling_load": 2.58635,
+        "spaces": [
+          {
+            "name": "T S2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.93331,
+            "cooling_load": 2.58635,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 28",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 2",
+        "heating_load": 3.1325300000000005,
+        "cooling_load": 2.4077800000000003,
+        "spaces": [
+          {
+            "name": "F6 NE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.1325300000000005,
+            "cooling_load": 2.4077800000000003,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 29",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 3",
+        "heating_load": 2.0631500000000003,
+        "cooling_load": 1.3413599999999999,
+        "spaces": [
+          {
+            "name": "F6 N1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.0631500000000003,
+            "cooling_load": 1.3413599999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 19",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 2",
+        "heating_load": 2.1143,
+        "cooling_load": 1.51092,
+        "spaces": [
+          {
+            "name": "F8 S1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.1143,
+            "cooling_load": 1.51092,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 30",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9: 3",
+        "heating_load": 3.438840000000001,
+        "cooling_load": 2.94865,
+        "spaces": [
+          {
+            "name": "F9 SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.438840000000001,
+            "cooling_load": 2.94865,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 270.0,
@@ -3458,16 +3312,232 @@
                 "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              },
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 58",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 2",
+        "heating_load": 2.06041,
+        "cooling_load": 1.50852,
+        "spaces": [
+          {
+            "name": "F7 S1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.06041,
+            "cooling_load": 1.50852,
+            "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 35,
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 12",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 3: 1",
+        "heating_load": 1.9129200000000002,
+        "cooling_load": 1.5086199999999996,
+        "spaces": [
+          {
+            "name": "F3 S2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.9129200000000002,
+            "cooling_load": 1.5086199999999996,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 37",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 4",
+        "heating_load": 1.99502,
+        "cooling_load": 1.5221,
+        "spaces": [
+          {
+            "name": "M S2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.99502,
+            "cooling_load": 1.5221,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 32",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 4",
+        "heating_load": 3.10119,
+        "cooling_load": 2.4653,
+        "spaces": [
+          {
+            "name": "F6 SE Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.10119,
+            "cooling_load": 2.4653,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 90.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 42",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 3",
+        "heating_load": 1.81248,
+        "cooling_load": 1.4524199999999998,
+        "spaces": [
+          {
+            "name": "G S1 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 1.81248,
+            "cooling_load": 1.4524199999999998,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 88,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 5",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8:",
+        "heating_load": 2.1143,
+        "cooling_load": 1.5310599999999999,
+        "spaces": [
+          {
+            "name": "F8 S2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.1143,
+            "cooling_load": 1.5310599999999999,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -3512,30 +3582,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 32",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 4",
+    "airloop.name": "Sys_1_Make-up air unit 61",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 4",
-        "heating_load": 3.10119,
-        "cooling_load": 2.4653,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 7: 3",
+        "heating_load": 3.17654,
+        "cooling_load": 2.40755,
         "spaces": [
           {
-            "name": "F6 SE Apartment",
+            "name": "F7 NE Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.10119,
-            "cooling_load": 2.4653,
+            "heating_load": 3.17654,
+            "cooling_load": 2.40755,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 35,
                 "surface_area_to_floor_ratio": 0.3999947503805974,
                 "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -3558,21 +3628,67 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 1",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6:",
+    "airloop.name": "Sys_1_Make-up air unit 45",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6:",
-        "heating_load": 3.1325300000000005,
-        "cooling_load": 2.57146,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 3",
+        "heating_load": 1.8735700000000002,
+        "cooling_load": 1.45815,
         "spaces": [
           {
-            "name": "F6 NW Apartment",
+            "name": "F2 S1 Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 3.1325300000000005,
-            "cooling_load": 2.57146,
+            "heating_load": 1.8735700000000002,
+            "cooling_load": 1.45815,
             "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 72",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 5: 7",
+        "heating_load": 3.05573,
+        "cooling_load": 2.86673,
+        "spaces": [
+          {
+            "name": "M SW Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 3.05573,
+            "cooling_load": 2.86673,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.3999947503805974,
+                "glazed_subsurface_area": 10,
+                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
               {
                 "surface_type": "Wall",
                 "azimuth": 270.0,
@@ -3584,7 +3700,29 @@
                 "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
-              },
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 17",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 9:",
+        "heating_load": 2.3734499999999996,
+        "cooling_load": 1.3671099999999998,
+        "spaces": [
+          {
+            "name": "F9 N2 Apartment",
+            "space_type": "Space Function-Dwelling Unit(s)",
+            "schedule": "G",
+            "heating_load": 2.3734499999999996,
+            "cooling_load": 1.3671099999999998,
+            "surface_report": [
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
@@ -3638,66 +3776,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 71",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 6",
+    "airloop.name": "Sys_1_Make-up air unit 41",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 4",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 6",
-        "heating_load": 2.87331,
-        "cooling_load": 2.8249600000000004,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 8: 4",
+        "heating_load": 3.2395,
+        "cooling_load": 2.4055999999999997,
         "spaces": [
           {
-            "name": "F2 SW Apartment",
+            "name": "F8 NE Apartment",
             "space_type": "Space Function-Dwelling Unit(s)",
             "schedule": "G",
-            "heating_load": 2.87331,
-            "cooling_load": 2.8249600000000004,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 40",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 2: 2",
-        "heating_load": 2.9007199999999997,
-        "cooling_load": 2.52205,
-        "spaces": [
-          {
-            "name": "F2 NW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.9007199999999997,
-            "cooling_load": 2.52205,
+            "heating_load": 3.2395,
+            "cooling_load": 2.4055999999999997,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -3713,105 +3805,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 69",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 6: 7",
-        "heating_load": 2.02774,
-        "cooling_load": 1.52551,
-        "spaces": [
-          {
-            "name": "F6 S2 Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.02774,
-            "cooling_load": 1.52551,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.1199984249781993,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 43",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Dwelling Unit(s):FL=Building Story 1: 4",
-        "heating_load": 2.7425300000000004,
-        "cooling_load": 2.5811100000000002,
-        "spaces": [
-          {
-            "name": "G NW Apartment",
-            "space_type": "Space Function-Dwelling Unit(s)",
-            "schedule": "G",
-            "heating_load": 2.7425300000000004,
-            "cooling_load": 2.5811100000000002,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 23,
-                "surface_area_to_floor_ratio": 0.2631542592688529,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0789462203973634,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.3999947503805974,
-                "glazed_subsurface_area": 10,
-                "glazed_subsurface_area_to_floor_ratio": 0.11999839098335838,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 88,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 23,
+                "surface_area_to_floor_ratio": 0.2631542592688529,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.07894622039736338,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }

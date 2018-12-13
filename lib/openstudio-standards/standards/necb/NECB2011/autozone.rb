@@ -129,10 +129,9 @@ class NECB2011
         ideal_loads.addToThermalZone(zone)
       end
       # Go through other spaces to see if there are similar spaces with similar loads on the same floor that can be grouped.
-      model.getSpaces.select { |s| is_an_necb_wet_space?(s)}.each do |space_target|
+      model.getSpaces.select {|s| is_an_necb_wet_space?(s)}.each do |space_target|
         if space_target.thermalZone.empty?
-          if are_space_loads_similar?(space_1: space, space_2: space_target) &&
-              space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
+          if are_space_loads_similar?(space_1: space, space_2: space_target) && space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
             adjust_wildcard_spacetype_schedule(space_target, dominant_floor_schedule)
             space_target.setThermalZone(zone)
           end
@@ -178,8 +177,7 @@ class NECB2011
       # Go through other spaces and if you find something with similar loads on the same floor, add it to the zone.
       model.getSpaces.select {|space| not is_a_necb_dwelling_unit?(space) and not is_an_necb_wildcard_space?(space)}.each do |space_target|
         if space_target.thermalZone.empty?
-          if are_space_loads_similar?(space_1: space, space_2: space_target) and
-              space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
+          if are_space_loads_similar?(space_1: space, space_2: space_target) and space.buildingStory().get == space_target.buildingStory().get # added since chris needs zones to not span floors for costing.
             space_target.setThermalZone(zone)
           end
         end
@@ -249,7 +247,6 @@ class NECB2011
       adj_spaces = adj_spaces.map {|key, value| key}
 
 
-
       # find unassigned adjacent wild spaces that have not been assigned that have the same multiplier these will be
       # lumped together in the same zone.
       wild_adjacent_spaces = adj_spaces.select {|adj_space|
@@ -261,11 +258,6 @@ class NECB2011
       #put them all together.
       wild_adjacent_spaces << space
 
-      #Debug
-      puts "These are wild_adjacent_spaces spaces to #{space.name}"
-      wild_adjacent_spaces.each {|space| puts space.name}
-
-
       # Get adjacent candidate foster zones. Must not be a wildcard space and must not be linked to another space incase
       # it is part of a mirrored space.
       other_adjacent_spaces = adj_spaces.select do |adj_space|
@@ -273,7 +265,6 @@ class NECB2011
             adj_space.thermalZone.get.spaces.size == 1 and
             space_multiplier_map[space.name.to_s] == space_multiplier_map[adj_space.name.to_s]
       end
-
 
 
       #If there are adjacent spaces that fit the above criteria.
@@ -333,6 +324,21 @@ class NECB2011
     return wild_zone_array
   end
 
+  def are_zone_loads_similar?(zone_1:, zone_2:)
+    #make sure they have the same number of spaces.
+    truthes = []
+    return false if zone_1.spaces.size != zone_2.spaces.size
+    zone_1.spaces.each do |space_1|
+      zone_2.spaces.each do |space_2|
+        if are_space_loads_similar?(space_1: space_1, space_2: space_2)
+          truthes << true
+        end
+      end
+    end
+    #truthes sizes should be the same as the # of spaces if all spaces are similar.
+    return truthes.size == zone_1.spaces.size
+  end
+
   # This method will try to determine if the spaces have similar loads. This will ensure:
   # 1) Space have the same multiplier.
   # 2) Spaces have space types and that they are the same.
@@ -340,8 +346,8 @@ class NECB2011
   # percent difference and angular percent difference.
   def are_space_loads_similar?(space_1:,
                                space_2:,
-                               surface_percent_difference_tolerance: 0.0,
-                               angular_percent_difference_tolerance: 0.0,
+                               surface_percent_difference_tolerance: 0.000,
+                               angular_percent_difference_tolerance: 0.000,
                                heating_load_percent_difference_tolerance: 5.0)
     # Do they have the same space type?
     return false unless space_1.multiplier == space_2.multiplier
@@ -355,7 +361,11 @@ class NECB2011
     space_2_floor_area = space_2.floorArea
     space_1_surface_report = space_surface_report(space_1)
     space_2_surface_report = space_surface_report(space_2)
-
+    #Spaces should have the same number of surface orientations.
+    return false unless space_1_surface_report.size == space_2_surface_report.size
+    #spaces should have similar loads
+    return false unless self.percentage_difference(stored_space_heating_load(space_1), stored_space_heating_load(space_2)) <= heating_load_percent_difference_tolerance
+    #Each surface should match
     space_1_surface_report.each do |space_1_surface|
       surface_match = space_2_surface_report.detect do |space_2_surface|
         space_1_surface[:surface_type] == space_2_surface[:surface_type] &&
@@ -367,8 +377,7 @@ class NECB2011
             self.percentage_difference(space_1_surface[:glazed_subsurface_area_to_floor_ratio],
                                        space_2_surface[:glazed_subsurface_area_to_floor_ratio]) <= surface_percent_difference_tolerance &&
             self.percentage_difference(space_1_surface[:opaque_subsurface_area_to_floor_ratio],
-                                       space_2_surface[:opaque_subsurface_area_to_floor_ratio]) <= surface_percent_difference_tolerance &&
-            self.percentage_difference(stored_space_heating_load(space_1), stored_space_heating_load(space_2)) <= heating_load_percent_difference_tolerance
+                                       space_2_surface[:opaque_subsurface_area_to_floor_ratio]) <= surface_percent_difference_tolerance
 
       end
       return false if surface_match.nil?
@@ -426,6 +435,9 @@ class NECB2011
         surface_data[:surface_area_to_floor_ratio] += doors.map {|subsurface| subsurface.grossArea * subsurface.multiplier}.inject(0) {|sum, x| sum + x} / space.floorArea
       end
     end
+    surface_report.sort! {|a, b| [a[:surface_type], a[:azimuth], a[:tilt], a[:boundary_condition]] <=> [b[:surface_type], b[:azimuth], b[:tilt], b[:boundary_condition]]}
+
+
     return surface_report
   end
 
@@ -540,7 +552,7 @@ class NECB2011
                   heating_coil_type_sys6: "Hot Water",
                   fan_type: "var_speed_drive",
                   swh_fueltype: "NaturalGas"
-                 )
+  )
 
     #remove idealair from zones if any.
     model.getZoneHVACIdealLoadsAirSystems.each(&:remove)
@@ -561,7 +573,7 @@ class NECB2011
                                mau_cooling_type: mau_cooling_type,
                                mau_heating_coil_type: mau_heating_coil_type,
                                mau_type: mau_type
-                              )
+    )
 
     #Assign a single system 4 for all wet spaces.. and assign the control zone to the one with the largest load.
     auto_system_wet_spaces(baseboard_type: baseboard_type,
@@ -587,9 +599,12 @@ class NECB2011
                                  mau_cooling_type: mau_cooling_type,
                                  mau_heating_coil_type: mau_heating_coil_type,
                                  mau_type: mau_type
-                                )
+    )
   end
 
+
+
+  ################################################# System Logic
   def create_hw_loop_if_required(baseboard_type, boiler_fueltype, mau_heating_coil_type, model)
     #get systems that will be used in the model based on the space types to determine if a hw_loop is required.
     systems_used = []
@@ -647,52 +662,62 @@ class NECB2011
       system_zones_hash[get_necb_thermal_zone_system_selection(zone)] = [] if system_zones_hash[get_necb_thermal_zone_system_selection(zone)].nil?
       system_zones_hash[get_necb_thermal_zone_system_selection(zone)] << zone
     end
-
+    #puts JSON.pretty_generate(system_zones_hash)
     # go through each system and zones pairs to
     system_zones_hash.each_pair do |system, zones|
       case system
       when 0, nil
         # Do nothing no system assigned to zone. Used for Unconditioned spaces
       when 1
-        mau_air_loop = add_sys1_unitary_ac_baseboard_heating(model,
-                                                             zones,
-                                                             boiler_fueltype,
-                                                             mau_type,
-                                                             mau_heating_coil_type,
-                                                             baseboard_type,
-                                                             @hw_loop)
-
+        group_similar_zones_together(zones).each do |zones|
+          mau_air_loop = add_sys1_unitary_ac_baseboard_heating(model,
+                                                               zones,
+                                                               boiler_fueltype,
+                                                               mau_type,
+                                                               mau_heating_coil_type,
+                                                               baseboard_type,
+                                                               @hw_loop)
+        end
       when 2
-        add_sys2_FPFC_sys5_TPFC(model,
-                                zones,
-                                boiler_fueltype,
-                                chiller_type,
-                                'FPFC',
-                                mau_cooling_type,
-                                @hw_loop)
+        group_similar_zones_together(zones).each do |zones|
+          add_sys2_FPFC_sys5_TPFC(model,
+                                  zones,
+                                  boiler_fueltype,
+                                  chiller_type,
+                                  'FPFC',
+                                  mau_cooling_type,
+                                  @hw_loop)
+        end
       when 3
-        add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed(model,
-                                                                                           zones,
-                                                                                           boiler_fueltype,
-                                                                                           heating_coil_type_sys3,
-                                                                                           baseboard_type,
-                                                                                           @hw_loop)
+        group_similar_zones_together(zones).each do |zones|
+          add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed(model,
+                                                                                             zones,
+                                                                                             boiler_fueltype,
+                                                                                             heating_coil_type_sys3,
+                                                                                             baseboard_type,
+                                                                                             @hw_loop)
+        end
       when 4
-        add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
-                                                                     zones,
-                                                                     boiler_fueltype,
-                                                                     heating_coil_type_sys4,
-                                                                     baseboard_type,
-                                                                     @hw_loop)
+        group_similar_zones_together(zones).each do |zones|
+          add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
+                                                                       zones,
+                                                                       boiler_fueltype,
+                                                                       heating_coil_type_sys4,
+                                                                       baseboard_type,
+                                                                       @hw_loop)
+        end
       when 5
-        add_sys2_FPFC_sys5_TPFC(model,
-                                zones,
-                                boiler_fueltype,
-                                chiller_type,
-                                'TPFC',
-                                mau_cooling_type,
-                                @hw_loop)
+        group_similar_zones_together(zones).each do |zones|
+          add_sys2_FPFC_sys5_TPFC(model,
+                                  zones,
+                                  boiler_fueltype,
+                                  chiller_type,
+                                  'TPFC',
+                                  mau_cooling_type,
+                                  @hw_loop)
+        end
       when 6
+
         add_sys6_multi_zone_built_up_system_with_baseboard_heating(model,
                                                                    zones,
                                                                    boiler_fueltype,
@@ -701,14 +726,17 @@ class NECB2011
                                                                    chiller_type,
                                                                    fan_type,
                                                                    @hw_loop)
+
       when 7
-        add_sys2_FPFC_sys5_TPFC(model,
-                                zones,
-                                boiler_fueltype,
-                                chiller_type,
-                                'FPFC',
-                                mau_cooling_type,
-                                @hw_loop)
+        group_similar_zones_together(zones).each do |zones|
+          add_sys2_FPFC_sys5_TPFC(model,
+                                  zones,
+                                  boiler_fueltype,
+                                  chiller_type,
+                                  'FPFC',
+                                  mau_cooling_type,
+                                  @hw_loop)
+        end
       end
     end
   end
@@ -726,8 +754,8 @@ class NECB2011
                                    mau_heating_coil_type:,
                                    mau_type:,
                                    model:
-                                  )
-    #dwelling units are either system 1 or 3.
+  )
+
     zones = []
     other_spaces = model.getSpaces.select do |space|
       (not is_a_necb_dwelling_unit?(space)) and
@@ -737,22 +765,21 @@ class NECB2011
       zones << space.thermalZone.get
     end
     zones.uniq!
-    zones.each do |tz|
-      #since dwelling units are all zoned 1:1 to space:zone we simply add the zone to the appropriate btap system.
-      create_necb_system(baseboard_type: baseboard_type,
-                         boiler_fueltype: boiler_fueltype,
-                         chiller_type: chiller_type,
-                         fan_type: fan_type,
-                         heating_coil_type_sys3: heating_coil_type_sys3,
-                         heating_coil_type_sys4: heating_coil_type_sys4,
-                         heating_coil_type_sys6: heating_coil_type_sys6,
-                         hw_loop: @hw_loop,
-                         mau_cooling_type: mau_cooling_type,
-                         mau_heating_coil_type: mau_heating_coil_type,
-                         mau_type: mau_type,
-                         model: model,
-                         zones: [tz])
-    end
+
+    #since dwelling units are all zoned 1:1 to space:zone we simply add the zone to the appropriate btap system.
+    create_necb_system(baseboard_type: baseboard_type,
+                       boiler_fueltype: boiler_fueltype,
+                       chiller_type: chiller_type,
+                       fan_type: fan_type,
+                       heating_coil_type_sys3: heating_coil_type_sys3,
+                       heating_coil_type_sys4: heating_coil_type_sys4,
+                       heating_coil_type_sys6: heating_coil_type_sys6,
+                       hw_loop: @hw_loop,
+                       mau_cooling_type: mau_cooling_type,
+                       mau_heating_coil_type: mau_heating_coil_type,
+                       mau_type: mau_type,
+                       model: model,
+                       zones: zones)
   end
 
 
@@ -767,29 +794,70 @@ class NECB2011
                                  mau_cooling_type:,
                                  mau_heating_coil_type:,
                                  mau_type:,
-                                 model:
-                                )
-    #dwelling units are either system 1 or 3.
+                                 model:,
+                                 dwelling_shared_ahu: false
+  )
+
+    system_zones_hash = {}
     zones = []
     model.getSpaces.select {|space| is_a_necb_dwelling_unit?(space)}.each do |space|
       zones << space.thermalZone.get
     end
     zones.uniq!
-    zones.each do |tz|
-      #since dwelling units are all zoned 1:1 to space:zone we simply add the zone to the appropriate btap system.
-      create_necb_system(baseboard_type: baseboard_type,
-                         boiler_fueltype: boiler_fueltype,
-                         chiller_type: chiller_type,
-                         fan_type: fan_type,
-                         heating_coil_type_sys3: heating_coil_type_sys3,
-                         heating_coil_type_sys4: heating_coil_type_sys4,
-                         heating_coil_type_sys6: heating_coil_type_sys6,
-                         hw_loop: @hw_loop,
-                         mau_cooling_type: mau_cooling_type,
-                         mau_heating_coil_type: mau_heating_coil_type,
-                         mau_type: mau_type,
-                         model: model,
-                         zones: [tz])
+    zones.each do |zone|
+      system_zones_hash[get_necb_thermal_zone_system_selection(zone)] = [] if system_zones_hash[get_necb_thermal_zone_system_selection(zone)].nil?
+      system_zones_hash[get_necb_thermal_zone_system_selection(zone)] << zone
+    end
+
+
+    # go through each system and zones pairs to
+    system_zones_hash.each_pair do |system, zones|
+      case system
+      when 1
+        if dwelling_shared_ahu
+        add_sys1_unitary_ac_baseboard_heating(model,
+                                              zones,
+                                              boiler_fueltype,
+                                              mau_type,
+                                              mau_heating_coil_type,
+                                              baseboard_type,
+                                              @hw_loop)
+        else
+          #Create a separate air loop for each unit.
+          zones.each do |zone|
+            add_sys1_unitary_ac_baseboard_heating(model,
+                                                  [zone],
+                                                  boiler_fueltype,
+                                                  mau_type,
+                                                  mau_heating_coil_type,
+                                                  baseboard_type,
+                                                  @hw_loop)
+
+          end
+        end
+
+      when 3
+        if dwelling_shared_ahu
+          add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed(model,
+                                                                                             zones,
+                                                                                             boiler_fueltype,
+                                                                                             heating_coil_type_sys3,
+                                                                                             baseboard_type,
+                                                                                             @hw_loop)
+        else
+          #Create a separate air loop for each unit.
+          zones.each do |zone|
+            add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed(model,
+                                                                                               zones,
+                                                                                               boiler_fueltype,
+                                                                                               heating_coil_type_sys3,
+                                                                                               baseboard_type,
+                                                                                               @hw_loop)
+
+          end
+        end
+      end
+
     end
   end
 
@@ -819,7 +887,7 @@ class NECB2011
                               boiler_fueltype:,
                               heating_coil_type_sys4:,
                               model:
-                             )
+  )
     #Determine what zones are wet zones.
     zones = []
     model.getSpaces.select {|space|
@@ -844,9 +912,47 @@ class NECB2011
     # but this is preferred to unmet heating.
     #Iterate through zones.
     zone_heating_load_hash = {}
-    zones.each {|zone| zone_heating_load_hash[zone] = self.stored_zone_heating_load(zone) }
-
+    zones.each {|zone| zone_heating_load_hash[zone] = self.stored_zone_heating_load(zone)}
     return zone_heating_load_hash.max_by(&:last).first
+  end
+
+
+  # This method is used to determine if there are single zones that can be match to a system that has zones of similar loads.
+  # This is to reduce the load.
+  def group_similar_zones_together(zones)
+    total_zones_input = zones.size
+    array_of_array_of_zones = []
+    accounted_for = []
+    # Go through other zones to see if there are similar zones with similar loads on the same floor that can be grouped.
+    zones.each do |zone|
+      similar_array_of_zones = []
+      next if accounted_for.include?(zone.name.to_s)
+      similar_array_of_zones << zone
+      accounted_for << zone.name.to_s
+      zones.each do |zone_target|
+        unless accounted_for.include?(zone_target.name.to_s)
+          if are_zone_loads_similar?(zone_1: zone,
+                                     zone_2: zone_target)
+            similar_array_of_zones << zone_target
+            accounted_for << zone_target.name.to_s
+          end
+        end
+      end
+      array_of_array_of_zones << similar_array_of_zones
+    end
+    total_zones_output = 0
+    array_of_array_of_zones.each do |zones|
+      total_zones_output += zones.size
+    end
+    #puts total_zones_output
+    #puts accounted_for.sort
+    #sanity check.
+    if total_zones_output != total_zones_input
+      #puts JSON.pretty_generate(array_of_array_of_zones)
+      #puts JSON.pretty_generate(accounted_for.sort)
+      raise("#{}")
+    end
+    return array_of_array_of_zones
   end
 
   def set_random_rendering_color(object)
@@ -885,8 +991,7 @@ class NECB2011
 
     always_on = model.alwaysOnDiscreteSchedule
 
-    # define always off schedule for ptac heating coil
-    always_off = BTAP::Resources::Schedules::StandardSchedules::ON_OFF.always_off(model)
+
 
     # Create MAU
     # TO DO: MAU sizing, characteristics (fan operation schedules, temperature setpoints, outdoor air, etc)
@@ -894,9 +999,7 @@ class NECB2011
     if mau == true
 
       mau_air_loop = OpenStudio::Model::AirLoopHVAC.new(model)
-
       mau_air_loop.setName('Sys_1_Make-up air unit')
-
       # When an air_loop is constructed, its constructor creates a sizing:system object
       # the default sizing:system constructor makes a system:sizing object
       # appropriate for a multizone VAV system
@@ -922,7 +1025,6 @@ class NECB2011
       air_loop_sizing.setHeatingDesignAirFlowMethod('DesignDay')
       air_loop_sizing.setHeatingDesignAirFlowRate(0.0)
       air_loop_sizing.setSystemOutdoorAirMethod('ZoneSum')
-
       mau_fan = OpenStudio::Model::FanConstantVolume.new(model, always_on)
 
       if mau_heating_coil_type == 'Electric' # electric coil
@@ -935,7 +1037,6 @@ class NECB2011
       end
 
       # Set up DX coil with default curves (set to NECB);
-
       mau_clg_coil = BTAP::Resources::HVAC::Plant.add_onespeed_DX_coil(model, always_on)
 
       # oa_controller
@@ -988,42 +1089,10 @@ class NECB2011
       # Set up PTAC heating coil; apply always off schedule
 
       # htg_coil_elec = OpenStudio::Model::CoilHeatingElectric.new(model,always_on)
-      htg_coil = OpenStudio::Model::CoilHeatingElectric.new(model, always_off)
+      add_zonal_ptac(operation_schedule: always_on, model: model, zone: zone)
 
-      # Set up PTAC DX coil with NECB performance curve characteristics;
-      clg_coil = BTAP::Resources::HVAC::Plant.add_onespeed_DX_coil(model, always_on)
-
-      # Set up PTAC constant volume supply fan
-      fan = OpenStudio::Model::FanConstantVolume.new(model, always_on)
-      fan.setPressureRise(640)
-
-      ptac = OpenStudio::Model::ZoneHVACPackagedTerminalAirConditioner.new(model,
-                                                                           always_on,
-                                                                           fan,
-                                                                           htg_coil,
-                                                                           clg_coil)
-      ptac.setName("#{zone.name} PTAC")
-      ptac.addToThermalZone(zone)
-
-      # add zone baseboards
-      if baseboard_type == 'Electric'
-
-        #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
-        zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
-        zone_elec_baseboard.addToThermalZone(zone)
-
-      end
-
-      if baseboard_type == 'Hot Water'
-        baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
-        # Connect baseboard coil to hot water loop
-        hw_loop.addDemandBranchForComponent(baseboard_coil)
-
-        zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, always_on, baseboard_coil)
-        # add zone_baseboard to zone
-        zone_baseboard.addToThermalZone(zone)
-
-      end
+      add_zonal_baseboard_heating( operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop,
+                                   model: model, zone: zone)
 
       #  # Create a diffuser and attach the zone/diffuser pair to the MAU air loop, if applicable
       if mau == true
@@ -1036,6 +1105,8 @@ class NECB2011
 
     return mau_air_loop
   end
+
+
 
   # sys1_unitary_ac_baseboard_heating
 
@@ -1065,9 +1136,6 @@ class NECB2011
     # Some system parameters are set after system is set up; by applying method 'apply_hvac_efficiency_standard'
 
     always_on = model.alwaysOnDiscreteSchedule
-
-    # define always off schedule for ptac heating coil
-    always_off = BTAP::Resources::Schedules::StandardSchedules::ON_OFF.always_off(model)
 
     # TODO: Heating and cooling temperature set point schedules are set somewhere else
     # TODO: For now fetch the schedules and use them in setting up the heat pump system
@@ -1219,45 +1287,13 @@ class NECB2011
       sizing_zone.setZoneCoolingSizingFactor(1.1)
       sizing_zone.setZoneHeatingSizingFactor(1.3)
 
-      # Set up PTAC heating coil; apply always off schedule
-
-      # htg_coil_elec = OpenStudio::Model::CoilHeatingElectric.new(model,always_on)
-      htg_coil = OpenStudio::Model::CoilHeatingElectric.new(model, always_off)
-
-      # Set up PTAC DX coil with NECB performance curve characteristics;
-      clg_coil = BTAP::Resources::HVAC::Plant.add_onespeed_DX_coil(model, always_on)
-
-      # Set up PTAC constant volume supply fan
-      fan = OpenStudio::Model::FanConstantVolume.new(model, always_on)
-      fan.setPressureRise(640)
-
-      ptac = OpenStudio::Model::ZoneHVACPackagedTerminalAirConditioner.new(model,
-                                                                           always_on,
-                                                                           fan,
-                                                                           htg_coil,
-                                                                           clg_coil)
-      ptac.setName("#{zone.name} PTAC")
-      ptac.addToThermalZone(zone)
+      # Add PTAC heating coil; apply always off schedule
+      add_zonal_ptac(operation_schedule: always_on, model: model, zone: zone)
 
       # add zone baseboards
-      if baseboard_type == 'Electric'
+      add_zonal_baseboard_heating(operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop,
+                                  model: model, zone: zone )
 
-        #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
-        zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
-        zone_elec_baseboard.addToThermalZone(zone)
-
-      end
-
-      if baseboard_type == 'Hot Water'
-        baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
-        # Connect baseboard coil to hot water loop
-        hw_loop.addDemandBranchForComponent(baseboard_coil)
-
-        zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, always_on, baseboard_coil)
-        # add zone_baseboard to zone
-        zone_baseboard.addToThermalZone(zone)
-
-      end
 
       #  # Create a diffuser and attach the zone/diffuser pair to the MAU air loop, if applicable
       if mau == true
@@ -1595,23 +1631,9 @@ class NECB2011
       diffuser = OpenStudio::Model::AirTerminalSingleDuctUncontrolled.new(model, always_on)
       air_loop.addBranchForZone(zone, diffuser.to_StraightComponent)
 
-      if baseboard_type == 'Electric'
+      #add baseboard
+      add_zonal_baseboard_heating(operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop, zone: zone, model: model)
 
-        #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
-        zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
-        zone_elec_baseboard.addToThermalZone(zone)
-
-      end
-
-      if baseboard_type == 'Hot Water'
-        baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
-        # Connect baseboard coil to hot water loop
-        hw_loop.addDemandBranchForComponent(baseboard_coil)
-
-        zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, always_on, baseboard_coil)
-        # add zone_baseboard to zone
-        zone_baseboard.addToThermalZone(zone)
-      end
     end # zone loop
 
     return true
@@ -1781,24 +1803,8 @@ class NECB2011
       # diffuser = OpenStudio::Model::AirTerminalSingleDuctUncontrolled.new(model,always_on)
       diffuser = OpenStudio::Model::AirTerminalSingleDuctUncontrolled.new(model, always_on)
       air_loop.addBranchForZone(zone, diffuser.to_StraightComponent)
-
-      if baseboard_type == 'Electric'
-
-        #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
-        zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
-        zone_elec_baseboard.addToThermalZone(zone)
-
-      end
-
-      if baseboard_type == 'Hot Water'
-        baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
-        # Connect baseboard coil to hot water loop
-        hw_loop.addDemandBranchForComponent(baseboard_coil)
-
-        zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, always_on, baseboard_coil)
-        # add zone_baseboard to zone
-        zone_baseboard.addToThermalZone(zone)
-      end
+      # add baseboard
+      add_zonal_baseboard_heating(operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop, zone: zone, model: model)
     end # zone loop
 
     return true
@@ -1932,24 +1938,8 @@ class NECB2011
       # diffuser = OpenStudio::Model::AirTerminalSingleDuctUncontrolled.new(model,always_on)
       diffuser = OpenStudio::Model::AirTerminalSingleDuctUncontrolled.new(model, always_on)
       air_loop.addBranchForZone(zone, diffuser.to_StraightComponent)
-
-      if baseboard_type == 'Electric'
-
-        #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
-        zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
-        zone_elec_baseboard.addToThermalZone(zone)
-
-      end
-
-      if baseboard_type == 'Hot Water'
-        baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
-        # Connect baseboard coil to hot water loop
-        hw_loop.addDemandBranchForComponent(baseboard_coil)
-
-        zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, always_on, baseboard_coil)
-        # add zone_baseboard to zone
-        zone_baseboard.addToThermalZone(zone)
-      end
+      #add baseboard
+      add_zonal_baseboard_heating(operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop, zone: zone, model: model)
     end # zone loop
 
     return true
@@ -1965,6 +1955,9 @@ class NECB2011
                                                                  chiller_type,
                                                                  fan_type,
                                                                  hw_loop)
+    #Determine how may zones we are working with including multipliers.
+
+
     # System Type 6: VAV w/ Reheat
     # This measure creates:
     # a single hot water loop with a natural gas or electric boiler or for the building
@@ -1993,120 +1986,170 @@ class NECB2011
     ctower = BTAP::Resources::HVAC::HVACTemplates::NECB2011.setup_cw_loop_with_components(model, cw_loop, chiller1, chiller2)
 
     # Make a Packaged VAV w/ PFP Boxes for each story of the building
-    model.getBuildingStorys.sort.each do |story|
-      unless (BTAP::Geometry::BuildingStoreys.get_zones_from_storey(story) & zones).empty?
 
-        air_loop = OpenStudio::Model::AirLoopHVAC.new(model)
-        air_loop.setName('Sys_6_VAV with Reheat')
-        sizing_system = air_loop.sizingSystem
-        sizing_system.setCentralCoolingDesignSupplyAirTemperature(13.0)
-        sizing_system.setCentralHeatingDesignSupplyAirTemperature(13.1)
-        sizing_system.autosizeDesignOutdoorAirFlowRate
-        sizing_system.setMinimumSystemAirFlowRatio(0.3)
-        sizing_system.setPreheatDesignTemperature(7.0)
-        sizing_system.setPreheatDesignHumidityRatio(0.008)
-        sizing_system.setPrecoolDesignTemperature(13.0)
-        sizing_system.setPrecoolDesignHumidityRatio(0.008)
-        sizing_system.setSizingOption('NonCoincident')
-        sizing_system.setAllOutdoorAirinCooling(false)
-        sizing_system.setAllOutdoorAirinHeating(false)
-        sizing_system.setCentralCoolingDesignSupplyAirHumidityRatio(0.0085)
-        sizing_system.setCentralHeatingDesignSupplyAirHumidityRatio(0.0080)
-        sizing_system.setCoolingDesignAirFlowMethod('DesignDay')
-        sizing_system.setCoolingDesignAirFlowRate(0.0)
-        sizing_system.setHeatingDesignAirFlowMethod('DesignDay')
-        sizing_system.setHeatingDesignAirFlowRate(0.0)
-        sizing_system.setSystemOutdoorAirMethod('ZoneSum')
+    air_loop = OpenStudio::Model::AirLoopHVAC.new(model)
+    air_loop.setName('Sys_6_VAV with Reheat')
+    sizing_system = air_loop.sizingSystem
+    sizing_system.setCentralCoolingDesignSupplyAirTemperature(13.0)
+    sizing_system.setCentralHeatingDesignSupplyAirTemperature(13.1)
+    sizing_system.autosizeDesignOutdoorAirFlowRate
+    sizing_system.setMinimumSystemAirFlowRatio(0.3)
+    sizing_system.setPreheatDesignTemperature(7.0)
+    sizing_system.setPreheatDesignHumidityRatio(0.008)
+    sizing_system.setPrecoolDesignTemperature(13.0)
+    sizing_system.setPrecoolDesignHumidityRatio(0.008)
+    sizing_system.setSizingOption('NonCoincident')
+    sizing_system.setAllOutdoorAirinCooling(false)
+    sizing_system.setAllOutdoorAirinHeating(false)
+    sizing_system.setCentralCoolingDesignSupplyAirHumidityRatio(0.0085)
+    sizing_system.setCentralHeatingDesignSupplyAirHumidityRatio(0.0080)
+    sizing_system.setCoolingDesignAirFlowMethod('DesignDay')
+    sizing_system.setCoolingDesignAirFlowRate(0.0)
+    sizing_system.setHeatingDesignAirFlowMethod('DesignDay')
+    sizing_system.setHeatingDesignAirFlowRate(0.0)
+    sizing_system.setSystemOutdoorAirMethod('ZoneSum')
 
-        supply_fan = OpenStudio::Model::FanVariableVolume.new(model, always_on)
-        supply_fan.setName('Sys6 Supply Fan')
-        return_fan = OpenStudio::Model::FanVariableVolume.new(model, always_on)
-        return_fan.setName('Sys6 Return Fan')
+    supply_fan = OpenStudio::Model::FanVariableVolume.new(model, always_on)
+    supply_fan.setName('Sys6 Supply Fan')
+    return_fan = OpenStudio::Model::FanVariableVolume.new(model, always_on)
+    return_fan.setName('Sys6 Return Fan')
 
-        if heating_coil_type == 'Hot Water'
-          htg_coil = OpenStudio::Model::CoilHeatingWater.new(model, always_on)
-          hw_loop.addDemandBranchForComponent(htg_coil)
-        end
-        if heating_coil_type == 'Electric'
-          htg_coil = OpenStudio::Model::CoilHeatingElectric.new(model, always_on)
-        end
+    if heating_coil_type == 'Hot Water'
+      htg_coil = OpenStudio::Model::CoilHeatingWater.new(model, always_on)
+      hw_loop.addDemandBranchForComponent(htg_coil)
+    end
+    if heating_coil_type == 'Electric'
+      htg_coil = OpenStudio::Model::CoilHeatingElectric.new(model, always_on)
+    end
 
-        clg_coil = OpenStudio::Model::CoilCoolingWater.new(model, always_on)
-        chw_loop.addDemandBranchForComponent(clg_coil)
+    clg_coil = OpenStudio::Model::CoilCoolingWater.new(model, always_on)
+    chw_loop.addDemandBranchForComponent(clg_coil)
 
-        oa_controller = OpenStudio::Model::ControllerOutdoorAir.new(model)
-        oa_controller.autosizeMinimumOutdoorAirFlowRate
+    oa_controller = OpenStudio::Model::ControllerOutdoorAir.new(model)
+    oa_controller.autosizeMinimumOutdoorAirFlowRate
 
-        oa_system = OpenStudio::Model::AirLoopHVACOutdoorAirSystem.new(model, oa_controller)
+    oa_system = OpenStudio::Model::AirLoopHVACOutdoorAirSystem.new(model, oa_controller)
 
-        # Add the components to the air loop
-        # in order from closest to zone to furthest from zone
-        supply_inlet_node = air_loop.supplyInletNode
-        supply_outlet_node = air_loop.supplyOutletNode
-        supply_fan.addToNode(supply_inlet_node)
-        htg_coil.addToNode(supply_inlet_node)
-        clg_coil.addToNode(supply_inlet_node)
-        oa_system.addToNode(supply_inlet_node)
-        returnAirNode = oa_system.returnAirModelObject.get.to_Node.get
-        return_fan.addToNode(returnAirNode)
+    # Add the components to the air loop
+    # in order from closest to zone to furthest from zone
+    supply_inlet_node = air_loop.supplyInletNode
+    supply_outlet_node = air_loop.supplyOutletNode
+    supply_fan.addToNode(supply_inlet_node)
+    htg_coil.addToNode(supply_inlet_node)
+    clg_coil.addToNode(supply_inlet_node)
+    oa_system.addToNode(supply_inlet_node)
+    returnAirNode = oa_system.returnAirModelObject.get.to_Node.get
+    return_fan.addToNode(returnAirNode)
 
-        # Add a setpoint manager to control the
-        # supply air to a constant temperature
-        sat_c = 13.0
-        sat_sch = OpenStudio::Model::ScheduleRuleset.new(model)
-        sat_sch.setName('Supply Air Temp')
-        sat_sch.defaultDaySchedule.setName('Supply Air Temp Default')
-        sat_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 24, 0, 0), sat_c)
-        sat_stpt_manager = OpenStudio::Model::SetpointManagerScheduled.new(model, sat_sch)
-        sat_stpt_manager.addToNode(supply_outlet_node)
+    # Add a setpoint manager to control the
+    # supply air to a constant temperature
+    sat_c = 13.0
+    sat_sch = OpenStudio::Model::ScheduleRuleset.new(model)
+    sat_sch.setName('Supply Air Temp')
+    sat_sch.defaultDaySchedule.setName('Supply Air Temp Default')
+    sat_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 24, 0, 0), sat_c)
+    sat_stpt_manager = OpenStudio::Model::SetpointManagerScheduled.new(model, sat_sch)
+    sat_stpt_manager.addToNode(supply_outlet_node)
 
-        # Make a VAV terminal with HW reheat for each zone on this story that is in intersection with the zones array.
-        # and hook the reheat coil to the HW loop
-        (BTAP::Geometry::BuildingStoreys.get_zones_from_storey(story) & zones).each do |zone|
-          # Zone sizing parameters
-          sizing_zone = zone.sizingZone
-          sizing_zone.setZoneCoolingDesignSupplyAirTemperature(13.0)
-          sizing_zone.setZoneHeatingDesignSupplyAirTemperature(43.0)
-          sizing_zone.setZoneCoolingSizingFactor(1.1)
-          sizing_zone.setZoneHeatingSizingFactor(1.3)
+    # Make a VAV terminal with HW reheat for each zone on this story that is in intersection with the zones array.
+    # and hook the reheat coil to the HW loop
+    zones.each do |zone|
+      # Zone sizing parameters
+      sizing_zone = zone.sizingZone
+      sizing_zone.setZoneCoolingDesignSupplyAirTemperature(13.0)
+      sizing_zone.setZoneHeatingDesignSupplyAirTemperature(43.0)
+      sizing_zone.setZoneCoolingSizingFactor(1.1)
+      sizing_zone.setZoneHeatingSizingFactor(1.3)
 
-          if heating_coil_type == 'Hot Water'
-            reheat_coil = OpenStudio::Model::CoilHeatingWater.new(model, always_on)
-            hw_loop.addDemandBranchForComponent(reheat_coil)
-          elsif heating_coil_type == 'Electric'
-            reheat_coil = OpenStudio::Model::CoilHeatingElectric.new(model, always_on)
-          end
+      #add zone VAV terminal
+      add_zone_vav_terminal(air_loop: air_loop,
+                            always_on: always_on,
+                            heating_coil_type: heating_coil_type,
+                            hw_loop: hw_loop,
+                            model: model,
+                            zone: zone)
 
-          vav_terminal = OpenStudio::Model::AirTerminalSingleDuctVAVReheat.new(model, always_on, reheat_coil)
-          air_loop.addBranchForZone(zone, vav_terminal.to_StraightComponent)
-          # NECB2011 minimum zone airflow setting
-          min_flow_rate = 0.002 * zone.floorArea
-          vav_terminal.setFixedMinimumAirFlowRate(min_flow_rate)
-          vav_terminal.setMaximumReheatAirTemperature(43.0)
-          vav_terminal.setDamperHeatingAction('Normal')
-
-          # Set zone baseboards
-          if baseboard_type == 'Electric'
-            zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
-            zone_elec_baseboard.addToThermalZone(zone)
-          end
-          if baseboard_type == 'Hot Water'
-            baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
-            # Connect baseboard coil to hot water loop
-            hw_loop.addDemandBranchForComponent(baseboard_coil)
-            zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, always_on, baseboard_coil)
-            # add zone_baseboard to zone
-            zone_baseboard.addToThermalZone(zone)
-          end
-        end
-      end
-    end # next story
-
-    # for debugging
-    # puts "end add_sys6_multi_zone_built_up_with_baseboard_heating"
-
+      # Set zone baseboards
+      add_zonal_baseboard_heating( operation_shedule: always_on,
+                                   baseboard_type: baseboard_type,
+                                   hw_loop: hw_loop,
+                                   model: model,
+                                   zone: zone)
+    end
     return true
   end
 
+
+  ########################################################### Zonal Equipment
+
+  def add_zone_vav_terminal(air_loop:,
+                            always_on:,
+                            heating_coil_type:,
+                            hw_loop:,
+                            model:,
+                            zone:)
+    case heating_coil_type
+    when 'Hot Water'
+      reheat_coil = OpenStudio::Model::CoilHeatingWater.new(model, always_on)
+      hw_loop.addDemandBranchForComponent(reheat_coil)
+    when heating_coil_type == 'Electric'
+      reheat_coil = OpenStudio::Model::CoilHeatingElectric.new(model, always_on)
+    end
+
+    vav_terminal = OpenStudio::Model::AirTerminalSingleDuctVAVReheat.new(model, always_on, reheat_coil)
+    air_loop.addBranchForZone(zone, vav_terminal.to_StraightComponent)
+    # NECB2011 minimum zone airflow setting
+    min_flow_rate = 0.002 * zone.floorArea
+    vav_terminal.setFixedMinimumAirFlowRate(min_flow_rate)
+    vav_terminal.setMaximumReheatAirTemperature(43.0)
+    vav_terminal.setDamperHeatingAction('Normal')
+  end
+
+
+  def add_zonal_ptac(operation_schedule: ,  model:, zone:)
+    #No heating since the baseboards will pro
+
+    htg_coil = OpenStudio::Model::CoilHeatingElectric.new(model, model.alwaysOffDiscreteSchedule)
+
+    # Set Always on schedule
+    # Set up PTAC DX coil with NECB performance curve characteristics;
+    clg_coil = BTAP::Resources::HVAC::Plant.add_onespeed_DX_coil(model, operation_schedule)
+
+    # Set up PTAC constant volume supply fan
+    fan = OpenStudio::Model::FanConstantVolume.new(model, operation_schedule)
+    fan.setPressureRise(640)
+
+    ptac = OpenStudio::Model::ZoneHVACPackagedTerminalAirConditioner.new(model,
+                                                                         operation_schedule,
+                                                                         fan,
+                                                                         htg_coil,
+                                                                         clg_coil)
+    ptac.setName("#{zone.name} PTAC")
+    ptac.addToThermalZone(zone)
+  end
+
+  def add_zonal_baseboard_heating(operation_shedule:,
+                                  baseboard_type: 'Electric',
+                                  hw_loop: nil,
+                                  model:,
+                                  zone:)
+    zone_baseboard = nil
+    case baseboard_type
+    when 'Electric'
+      #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
+      zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
+      zone_elec_baseboard.addToThermalZone(zone)
+    when 'Hot Water'
+      baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
+      # Connect baseboard coil to hot water loop
+      hw_loop.addDemandBranchForComponent(baseboard_coil)
+      zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, operation_shedule, baseboard_coil)
+      # add zone_baseboard to zone
+    end
+    zone_baseboard.addToThermalZone(zone)
+    return zone_baseboard
+  end
+
 end
+
 

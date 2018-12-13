@@ -21,6 +21,7 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_LargeOffice()
     model = autozone("LargeOffice.osm")
   end
+
   def test_MediumOffice()
     model = autozone("MediumOffice.osm")
   end
@@ -64,6 +65,8 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
+
+
 
 
   # Test to validate the heat pump performance curves
