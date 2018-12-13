@@ -1,85 +1,27 @@
 [
   {
-    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
+    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
-        "heating_load": 1.21474,
-        "cooling_load": 0.28773000000000004,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
+        "heating_load": 33.39443407281875,
+        "cooling_load": 11.72867572072592,
         "spaces": [
           {
-            "name": "RearStorageFlr3",
+            "name": "FrontStorageFlr3",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 1.21474,
-            "cooling_load": 0.28773000000000004,
+            "heating_load_per_area": 33.39443407281875,
+            "cooling_load_per_area": 11.72867572072592,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 90.0,
+                "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 22,
-                "surface_area_to_floor_ratio": 1.1247306255528227,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 6,
-                "surface_area_to_floor_ratio": 0.3333096805612113,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2:",
-        "heating_load": 1.1236,
-        "cooling_load": 0.27088999999999996,
-        "spaces": [
-          {
-            "name": "RearStorageFlr2",
-            "space_type": "Space Function-Storage area - occsens",
-            "schedule": "E",
-            "heating_load": 1.1236,
-            "cooling_load": 0.27088999999999996,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 90.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 22,
-                "surface_area_to_floor_ratio": 1.1247306255528227,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 6,
-                "surface_area_to_floor_ratio": 0.33330968056121135,
+                "surface_area": 4,
+                "surface_area_to_floor_ratio": 0.3333333333333332,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
@@ -97,15 +39,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4: 1",
-        "heating_load": 0.78459,
-        "cooling_load": 0.26094,
+        "heating_load": 62.557455361824275,
+        "cooling_load": 20.80544284545358,
         "spaces": [
           {
             "name": "FrontStorageFlr4",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 0.78459,
-            "cooling_load": 0.26094,
+            "heating_load_per_area": 62.557455361824275,
+            "cooling_load_per_area": 20.80544284545358,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
@@ -143,15 +85,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1: 2",
-        "heating_load": 0.44016000000000005,
-        "cooling_load": 0.17192,
+        "heating_load": 35.09513191865889,
+        "cooling_load": 13.707640584005444,
         "spaces": [
           {
             "name": "FrontStorageFlr1",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 0.44016000000000005,
-            "cooling_load": 0.17192,
+            "heating_load_per_area": 35.09513191865889,
+            "cooling_load_per_area": 13.707640584005444,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -189,15 +131,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1: 1",
-        "heating_load": 1.2458099999999999,
-        "cooling_load": 0.24962,
+        "heating_load": 62.06307886742825,
+        "cooling_load": 12.435432166130823,
         "spaces": [
           {
             "name": "RearStorageFlr1",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 1.2458099999999999,
-            "cooling_load": 0.24962,
+            "heating_load_per_area": 62.06307886742825,
+            "cooling_load_per_area": 12.435432166130823,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -242,100 +184,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 19",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 2",
-        "heating_load": 0.7500399999999999,
-        "cooling_load": 0.35816000000000003,
-        "spaces": [
-          {
-            "name": "GuestRoom103",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.7500399999999999,
-            "cooling_load": 0.35816000000000003,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.407378498458754,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044281443172629,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 22",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 4",
-        "heating_load": 1.8399100000000002,
-        "cooling_load": 1.56481,
-        "spaces": [
-          {
-            "name": "GuestRoom215_218",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 1.8399100000000002,
-            "cooling_load": 1.56481,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.3333333333354363,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525555,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "airloop.name": "Sys_1_Make-up air unit 21",
     "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 8",
     "thermal_zones": [
       {
         "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 8",
-        "heating_load": 5.03543,
-        "cooling_load": 2.49089,
+        "heating_load": 38.60464204388364,
+        "cooling_load": 19.09666440019806,
         "spaces": [
           {
             "name": "GuestRoom420_423",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 5.03543,
-            "cooling_load": 2.49089,
+            "heating_load_per_area": 38.60464204388364,
+            "cooling_load_per_area": 19.09666440019806,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
@@ -368,62 +230,28 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 33",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 9",
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 9",
-        "heating_load": 0.59884,
-        "cooling_load": 0.39652,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2:",
+        "heating_load": 55.97488815813766,
+        "cooling_load": 13.495049353113128,
         "spaces": [
           {
-            "name": "GuestRoom213",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.59884,
-            "cooling_load": 0.39652,
+            "name": "RearStorageFlr2",
+            "space_type": "Space Function-Storage area - occsens",
+            "schedule": "E",
+            "heating_load_per_area": 55.97488815813766,
+            "cooling_load_per_area": 13.495049353113128,
             "surface_report": [
               {
                 "surface_type": "Wall",
-                "azimuth": 180.0,
+                "azimuth": 90.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.33330968056121285,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044281443233928,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 15",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 5",
-        "heating_load": 5.08308,
-        "cooling_load": 2.0616399999999997,
-        "spaces": [
-          {
-            "name": "GuestRoom409_412",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 5.08308,
-            "cooling_load": 2.0616399999999997,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 130,
-                "surface_area_to_floor_ratio": 1.0000000000184592,
+                "surface_area": 22,
+                "surface_area_to_floor_ratio": 1.1247306255528227,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
@@ -434,136 +262,10 @@
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33330968056331506,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339084,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 3",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 2",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 2",
-        "heating_load": 2.18139,
-        "cooling_load": 1.5454400000000001,
-        "spaces": [
-          {
-            "name": "GuestRoom309_312",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 2.18139,
-            "cooling_load": 1.5454400000000001,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33330968056331506,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339084,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 13",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 4",
-        "heating_load": 1.4968,
-        "cooling_load": 0.6497,
-        "spaces": [
-          {
-            "name": "GuestRoom414",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 1.4968,
-            "cooling_load": 0.6497,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0000000000000018,
+                "surface_area": 6,
+                "surface_area_to_floor_ratio": 0.33330968056121135,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.33333333333333387,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525805,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_6_VAV with Reheat",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=BuildingStory1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=BuildingStory1:",
-        "heating_load": 1.77232,
-        "cooling_load": 2.8950500000000003,
-        "spaces": [
-          {
-            "name": "FrontOfficeFlr1",
-            "space_type": "Space Function-Office - enclosed",
-            "schedule": "A",
-            "heating_load": 1.77232,
-            "cooling_load": 2.8950500000000003,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 130,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 53,
-                "surface_area_to_floor_ratio": 0.4074074074074073,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402320731,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -572,24 +274,24 @@
         ]
       },
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - fitness:FL=BuildingStory1:",
-        "heating_load": 0.44353,
-        "cooling_load": 0.89028,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3:",
+        "heating_load": 60.51525065967973,
+        "cooling_load": 14.333975231168521,
         "spaces": [
           {
-            "name": "ExerciseCenterFlr1",
-            "space_type": "Space Function-Gym - fitness",
-            "schedule": "B",
-            "heating_load": 0.44353,
-            "cooling_load": 0.89028,
+            "name": "RearStorageFlr3",
+            "space_type": "Space Function-Storage area - occsens",
+            "schedule": "E",
+            "heating_load_per_area": 60.51525065967973,
+            "cooling_load_per_area": 14.333975231168521,
             "surface_report": [
               {
-                "surface_type": "Floor",
+                "surface_type": "Wall",
                 "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 22,
+                "surface_area_to_floor_ratio": 1.1247306255528227,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
@@ -597,13 +299,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.40740740740740733,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525576,
+                "surface_area": 6,
+                "surface_area_to_floor_ratio": 0.3333096805612113,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -614,20 +316,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 20",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 3",
+    "airloop.name": "Sys_1_Make-up air unit 12",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 3",
-        "heating_load": 1.79532,
-        "cooling_load": 1.43383,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 3",
+        "heating_load": 16.846394308317244,
+        "cooling_load": 12.22046441545213,
         "spaces": [
           {
-            "name": "GuestRoom209_212",
+            "name": "GuestRoom302_305",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 1.79532,
-            "cooling_load": 1.43383,
+            "heating_load_per_area": 16.846394308317244,
+            "cooling_load_per_area": 12.22046441545213,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -635,9 +337,9 @@
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.3333096805633151,
+                "surface_area_to_floor_ratio": 0.33330968056331517,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339056,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339125,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -648,66 +350,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 17",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 7",
+    "airloop.name": "Sys_1_Make-up air unit 19",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 2",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 7",
-        "heating_load": 1.52412,
-        "cooling_load": 0.5478099999999998,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 2",
+        "heating_load": 22.999403124156174,
+        "cooling_load": 10.982702553127535,
         "spaces": [
           {
-            "name": "GuestRoom413",
+            "name": "GuestRoom103",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 1.52412,
-            "cooling_load": 0.5478099999999998,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0000000000121523,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333096805612128,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339306,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
-        "heating_load": 0.5538500000000001,
-        "cooling_load": 0.6514,
-        "spaces": [
-          {
-            "name": "EmployeeLoungeFlr1",
-            "space_type": "Space Function-Lounge/recreation",
-            "schedule": "B",
-            "heating_load": 0.5538500000000001,
-            "cooling_load": 0.6514,
+            "heating_load_per_area": 22.999403124156174,
+            "cooling_load_per_area": 10.982702553127535,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -723,13 +379,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.40740740740740733,
+                "surface_area_to_floor_ratio": 0.407378498458754,
                 "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525694,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044281443172629,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -745,15 +401,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 1",
-        "heating_load": 0.6636799999999999,
-        "cooling_load": 0.38818,
+        "heating_load": 20.352683946900044,
+        "cooling_load": 11.90408759418343,
         "spaces": [
           {
             "name": "GuestRoom105",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 0.6636799999999999,
-            "cooling_load": 0.38818,
+            "heating_load_per_area": 20.352683946900044,
+            "cooling_load_per_area": 11.90408759418343,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -786,30 +442,214 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 1",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 1",
+    "airloop.name": "Sys_1_Make-up air unit 7",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 1",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 1",
-        "heating_load": 1.85663,
-        "cooling_load": 1.29445,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 1",
+        "heating_load": 38.74992416809777,
+        "cooling_load": 19.249229797130052,
         "spaces": [
           {
-            "name": "GuestRoom306_308",
+            "name": "GuestRoom415_418",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 1.85663,
-            "cooling_load": 1.29445,
+            "heating_load_per_area": 38.74992416809777,
+            "cooling_load_per_area": 19.249229797130052,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 130,
+                "surface_area_to_floor_ratio": 1.000000000006309,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33333333333543624,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352558,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 13",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 4",
+        "heating_load": 45.90148464880663,
+        "cooling_load": 19.923967514918274,
+        "spaces": [
+          {
+            "name": "GuestRoom414",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 45.90148464880663,
+            "cooling_load_per_area": 19.923967514918274,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0000000000000018,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.33333333333333387,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525805,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 26",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 3",
+        "heating_load": 18.217315612540588,
+        "cooling_load": 10.869858166832278,
+        "spaces": [
+          {
+            "name": "GuestRoom101",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 18.217315612540588,
+            "cooling_load_per_area": 10.869858166832278,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.407378498458754,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044281443172629,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 18",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 5",
+        "heating_load": 22.29228585595734,
+        "cooling_load": 12.890937922619475,
+        "spaces": [
+          {
+            "name": "GuestRoom313",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 22.29228585595734,
+            "cooling_load_per_area": 12.890937922619475,
             "surface_report": [
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.33330968056121224,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.06354944458680929,
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333096805612128,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339306,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 10",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 3",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 3",
+        "heating_load": 44.58068230792999,
+        "cooling_load": 20.1159392505553,
+        "spaces": [
+          {
+            "name": "GuestRoom419",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 44.58068230792999,
+            "cooling_load_per_area": 20.1159392505553,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0000000000000009,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333333333333336,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352576,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -825,15 +665,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3:",
-        "heating_load": 0.62764,
-        "cooling_load": 0.43431000000000003,
+        "heating_load": 19.24746647847205,
+        "cooling_load": 13.31872915407749,
         "spaces": [
           {
             "name": "GuestRoom324",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 0.62764,
-            "cooling_load": 0.43431000000000003,
+            "heating_load_per_area": 19.24746647847205,
+            "cooling_load_per_area": 13.31872915407749,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -854,20 +694,266 @@
     ]
   },
   {
+    "airloop.name": "Sys_1_Make-up air unit 16",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 6",
+        "heating_load": 45.01123872459837,
+        "cooling_load": 19.899434385763357,
+        "spaces": [
+          {
+            "name": "GuestRoom424",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 45.01123872459837,
+            "cooling_load_per_area": 19.899434385763357,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.33333333333333326,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352564,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 1",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 1",
+        "heating_load": 17.62185266620613,
+        "cooling_load": 12.28602747115501,
+        "spaces": [
+          {
+            "name": "GuestRoom306_308",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 17.62185266620613,
+            "cooling_load_per_area": 12.28602747115501,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.33330968056121224,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0635494445868093,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 15",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 5",
+        "heating_load": 38.967190427762624,
+        "cooling_load": 15.804653570963378,
+        "spaces": [
+          {
+            "name": "GuestRoom409_412",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 38.967190427762624,
+            "cooling_load_per_area": 15.804653570963378,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 130,
+                "surface_area_to_floor_ratio": 1.0000000000184592,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33330968056331506,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339084,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_6_VAV with Reheat",
+    "control_zone": "All-ZN:BT=Space Function:ST=Gym - fitness:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - enclosed:FL=BuildingStory1:",
+        "heating_load": 13.587673582352284,
+        "cooling_load": 22.19519861232113,
+        "spaces": [
+          {
+            "name": "FrontOfficeFlr1",
+            "space_type": "Space Function-Office - enclosed",
+            "schedule": "A",
+            "heating_load_per_area": 13.587673582352284,
+            "cooling_load_per_area": 22.19519861232113,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 130,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 53,
+                "surface_area_to_floor_ratio": 0.4074074074074073,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0504463940232073,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Gym - fitness:FL=BuildingStory1:",
+        "heating_load": 13.601473467587645,
+        "cooling_load": 27.30169278002374,
+        "spaces": [
+          {
+            "name": "ExerciseCenterFlr1",
+            "space_type": "Space Function-Gym - fitness",
+            "schedule": "B",
+            "heating_load_per_area": 13.601473467587645,
+            "cooling_load_per_area": 27.30169278002374,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.40740740740740733,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525576,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 3",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 2",
+        "heating_load": 16.722664118451235,
+        "cooling_load": 11.847433991729712,
+        "spaces": [
+          {
+            "name": "GuestRoom309_312",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 16.722664118451235,
+            "cooling_load_per_area": 11.847433991729712,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33330968056331506,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339084,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 2",
     "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2:",
     "thermal_zones": [
       {
         "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2:",
-        "heating_load": 1.53301,
-        "cooling_load": 1.21325,
+        "heating_load": 14.550274613585183,
+        "cooling_load": 11.515333021266803,
         "spaces": [
           {
             "name": "GuestRoom206_208",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 1.53301,
-            "cooling_load": 1.21325,
+            "heating_load_per_area": 14.550274613585183,
+            "cooling_load_per_area": 11.515333021266803,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -888,42 +974,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 8",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 2",
+    "airloop.name": "Sys_1_Make-up air unit 20",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 3",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 2",
-        "heating_load": 5.105449999999999,
-        "cooling_load": 2.07917,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 3",
+        "heating_load": 13.763028777585792,
+        "cooling_load": 10.991825163294475,
         "spaces": [
           {
-            "name": "GuestRoom402_405",
+            "name": "GuestRoom209_212",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 5.105449999999999,
-            "cooling_load": 2.07917,
+            "heating_load_per_area": 13.763028777585792,
+            "cooling_load_per_area": 10.991825163294475,
             "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 130,
-                "surface_area_to_floor_ratio": 1.0000000000184597,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
                 "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33330968056331517,
+                "surface_area_to_floor_ratio": 0.3333096805633151,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339125,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339056,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -934,20 +1008,272 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 28",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 4",
+    "airloop.name": "Sys_1_Make-up air unit 24",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 9",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 4",
-        "heating_load": 0.70821,
-        "cooling_load": 0.36922000000000005,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 9",
+        "heating_load": 40.33588857514035,
+        "cooling_load": 16.69673458701151,
         "spaces": [
           {
-            "name": "GuestRoom104",
+            "name": "GuestRoom406_408",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 0.70821,
-            "cooling_load": 0.36922000000000005,
+            "heating_load_per_area": 40.33588857514035,
+            "cooling_load_per_area": 16.69673458701151,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 105,
+                "surface_area_to_floor_ratio": 1.0000000000121505,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 35,
+                "surface_area_to_floor_ratio": 0.33330968056121224,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0635494445868093,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 4",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1:",
+        "heating_load": 19.297003341197147,
+        "cooling_load": 10.817728966641553,
+        "spaces": [
+          {
+            "name": "GuestRoom102",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 19.297003341197147,
+            "cooling_load_per_area": 10.817728966641553,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.40737849845875407,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814431726074,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 5",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4:",
+        "heating_load": 63.13643413296358,
+        "cooling_load": 20.44875202330696,
+        "spaces": [
+          {
+            "name": "GuestRoom401",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 63.13643413296358,
+            "cooling_load_per_area": 20.44875202330696,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0000000000121503,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333096805612122,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044281443233914,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 22,
+                "surface_area_to_floor_ratio": 0.6923076923161039,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 6",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 1",
+        "heating_load": 16.064906298853433,
+        "cooling_load": 13.729352403307526,
+        "spaces": [
+          {
+            "name": "GuestRoom224",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 16.064906298853433,
+            "cooling_load_per_area": 13.729352403307526,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333333333333333,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352561,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 14",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 4",
+        "heating_load": 18.20480848938906,
+        "cooling_load": 13.150983883480905,
+        "spaces": [
+          {
+            "name": "GuestRoom319",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 18.20480848938906,
+            "cooling_load_per_area": 13.150983883480905,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333333333333336,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352576,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 30",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 7",
+        "heating_load": 16.20121849772031,
+        "cooling_load": 12.691754372112731,
+        "spaces": [
+          {
+            "name": "GuestRoom320_323",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 16.20121849772031,
+            "cooling_load_per_area": 12.691754372112731,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33333333333543635,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352561,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lounge/recreation:FL=BuildingStory1:",
+        "heating_load": 16.984591978047508,
+        "cooling_load": 19.976100414372386,
+        "spaces": [
+          {
+            "name": "EmployeeLoungeFlr1",
+            "space_type": "Space Function-Lounge/recreation",
+            "schedule": "B",
+            "heating_load_per_area": 16.984591978047508,
+            "cooling_load_per_area": 19.976100414372386,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -980,20 +1306,54 @@
     ]
   },
   {
-    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
-    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
+    "airloop.name": "Sys_1_Make-up air unit 22",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 4",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory3: 1",
-        "heating_load": 0.41883,
-        "cooling_load": 0.14709999999999998,
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 4",
+        "heating_load": 14.105859269806539,
+        "cooling_load": 11.996776822771748,
         "spaces": [
           {
-            "name": "FrontStorageFlr3",
+            "name": "GuestRoom215_218",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 14.105859269806539,
+            "cooling_load_per_area": 11.996776822771748,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.3333333333354363,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525555,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
+    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
+        "heating_load": 28.244500933446297,
+        "cooling_load": 11.452003356681605,
+        "spaces": [
+          {
+            "name": "FrontStorageFlr2",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 0.41883,
-            "cooling_load": 0.14709999999999998,
+            "heating_load_per_area": 28.244500933446297,
+            "cooling_load_per_area": 11.452003356681605,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1014,20 +1374,488 @@
     ]
   },
   {
+    "airloop.name": "Sys_1_Make-up air unit 23",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 5",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 5",
+        "heating_load": 13.493681031363325,
+        "cooling_load": 12.677034494619793,
+        "spaces": [
+          {
+            "name": "GuestRoom220_223",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 13.493681031363325,
+            "cooling_load_per_area": 12.677034494619793,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33333333333543635,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352558,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
+        "heating_load": 27.794144237122527,
+        "cooling_load": 16.58638862545217,
+        "spaces": [
+          {
+            "name": "ElevatorCoreFlr1",
+            "space_type": "Space Function-Lobby - elevator",
+            "schedule": "C",
+            "heating_load_per_area": 27.794144237122527,
+            "cooling_load_per_area": 16.58638862545217,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 15,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 6,
+                "surface_area_to_floor_ratio": 0.40740740740740733,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 25",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 6",
+        "heating_load": 16.495232717435993,
+        "cooling_load": 12.625361591337297,
+        "spaces": [
+          {
+            "name": "GuestRoom315_318",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 16.495232717435993,
+            "cooling_load_per_area": 12.625361591337297,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33333333333543624,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352558,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 27",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 6",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 6",
+        "heating_load": 13.035366471384982,
+        "cooling_load": 12.755325341533363,
+        "spaces": [
+          {
+            "name": "GuestRoom202_205",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 13.035366471384982,
+            "cooling_load_per_area": 12.755325341533363,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.3333096805633152,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.0504428144323391,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 17",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 7",
+        "heating_load": 46.73597446804823,
+        "cooling_load": 16.798174798140234,
+        "spaces": [
+          {
+            "name": "GuestRoom413",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 46.73597446804823,
+            "cooling_load_per_area": 16.798174798140234,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0000000000121523,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333096805612128,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339306,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 31",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 8",
+        "heating_load": 39.613592510135696,
+        "cooling_load": 15.100909368379785,
+        "spaces": [
+          {
+            "name": "GuestRoom301",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 39.613592510135696,
+            "cooling_load_per_area": 15.100909368379785,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333096805612122,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044281443233914,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 270.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 22,
+                "surface_area_to_floor_ratio": 0.6923076923161039,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 28",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 4",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 4",
+        "heating_load": 21.718259248484294,
+        "cooling_load": 11.322652433212424,
+        "spaces": [
+          {
+            "name": "GuestRoom104",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 21.718259248484294,
+            "cooling_load_per_area": 11.322652433212424,
+            "surface_report": [
+              {
+                "surface_type": "Floor",
+                "azimuth": 90.0,
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
+                "surface_area": 32,
+                "surface_area_to_floor_ratio": 1.0,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.40740740740740733,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525694,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 29",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 7",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 7",
+        "heating_load": 17.540574017520324,
+        "cooling_load": 12.53428234934977,
+        "spaces": [
+          {
+            "name": "GuestRoom214",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 17.540574017520324,
+            "cooling_load_per_area": 12.53428234934977,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.3333333333333339,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352578,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 32",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 8",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 8",
+        "heating_load": 16.392730237185706,
+        "cooling_load": 12.835119845611647,
+        "spaces": [
+          {
+            "name": "GuestRoom219",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 16.392730237185706,
+            "cooling_load_per_area": 12.835119845611647,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.33333333333333365,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525735,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 8",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 2",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 2",
+        "heating_load": 39.138680164274554,
+        "cooling_load": 15.939039582633212,
+        "spaces": [
+          {
+            "name": "GuestRoom402_405",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 39.138680164274554,
+            "cooling_load_per_area": 15.939039582633212,
+            "surface_report": [
+              {
+                "surface_type": "RoofCeiling",
+                "azimuth": 90.0,
+                "tilt": 0.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 130,
+                "surface_area_to_floor_ratio": 1.0000000000184597,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              },
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 43,
+                "surface_area_to_floor_ratio": 0.33330968056331517,
+                "glazed_subsurface_area": 6,
+                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339125,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 33",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 9",
+        "heating_load": 18.362970730943758,
+        "cooling_load": 12.158982623461723,
+        "spaces": [
+          {
+            "name": "GuestRoom213",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 18.362970730943758,
+            "cooling_load_per_area": 12.158982623461723,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 180.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.33330968056121285,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044281443233928,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "airloop.name": "Sys_1_Make-up air unit 34",
+    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 9",
+    "thermal_zones": [
+      {
+        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 9",
+        "heating_load": 20.5888153150159,
+        "cooling_load": 13.171530379148141,
+        "spaces": [
+          {
+            "name": "GuestRoom314",
+            "space_type": "Space Function-Hway lodging - rooms",
+            "schedule": "F",
+            "heating_load_per_area": 20.5888153150159,
+            "cooling_load_per_area": 13.171530379148141,
+            "surface_report": [
+              {
+                "surface_type": "Wall",
+                "azimuth": 0.0,
+                "tilt": 90.0,
+                "boundary_condition": "Outdoors",
+                "surface_area": 10,
+                "surface_area_to_floor_ratio": 0.33333333333333387,
+                "glazed_subsurface_area": 1,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525805,
+                "opaque_subsurface_area": 0,
+                "opaque_subsurface_area_to_floor_ratio": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "airloop.name": "Sys_1_Make-up air unit 9",
     "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 2",
     "thermal_zones": [
       {
         "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 2",
-        "heating_load": 1.0547,
-        "cooling_load": 0.51783,
+        "heating_load": 32.34156908343858,
+        "cooling_load": 15.878861020647577,
         "spaces": [
           {
             "name": "GuestRoom201",
             "space_type": "Space Function-Hway lodging - rooms",
             "schedule": "F",
-            "heating_load": 1.0547,
-            "cooling_load": 0.51783,
+            "heating_load_per_area": 32.34156908343858,
+            "cooling_load_per_area": 15.878861020647577,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1060,94 +1888,26 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
+    "airloop.name": "Sys_4_PSZ_WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
+    "control_zone": "WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
-        "heating_load": 0.2885,
-        "cooling_load": 0.23840999999999998,
+        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
+        "heating_load": 14.253043259211568,
+        "cooling_load": 11.33288812146772,
         "spaces": [
           {
-            "name": "ElevatorCoreFlr2",
-            "space_type": "Space Function-Lobby - elevator",
-            "schedule": "C",
-            "heating_load": 0.2885,
-            "cooling_load": 0.23840999999999998,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.33333333333333265,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
-    "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory2: 1",
-        "heating_load": 0.35424,
-        "cooling_load": 0.14363,
-        "spaces": [
-          {
-            "name": "FrontStorageFlr2",
-            "space_type": "Space Function-Storage area - occsens",
-            "schedule": "E",
-            "heating_load": 0.35424,
-            "cooling_load": 0.14363,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 4,
-                "surface_area_to_floor_ratio": 0.3333333333333332,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 16",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 6",
-        "heating_load": 1.46777,
-        "cooling_load": 0.6489,
-        "spaces": [
-          {
-            "name": "GuestRoom424",
-            "space_type": "Space Function-Hway lodging - rooms",
+            "name": "RestroomFlr1",
+            "space_type": "Space Function-Washroom-sch-F",
             "schedule": "F",
-            "heating_load": 1.46777,
-            "cooling_load": 0.6489,
+            "heating_load_per_area": 14.253043259211568,
+            "cooling_load_per_area": 11.33288812146772,
             "surface_report": [
               {
-                "surface_type": "RoofCeiling",
+                "surface_type": "Floor",
                 "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
+                "tilt": 180.0,
+                "boundary_condition": "Ground",
                 "surface_area": 32,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
@@ -1157,13 +1917,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
+                "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.33333333333333326,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352564,
+                "surface_area": 13,
+                "surface_area_to_floor_ratio": 0.40737849845875407,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1174,20 +1934,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_4_PSZ_WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-F:FL=BuildingStory4:",
-    "control_zone": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-F:FL=BuildingStory4:",
+    "airloop.name": "Sys_4_PSZ_WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory4:",
+    "control_zone": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory4:",
     "thermal_zones": [
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory4:",
-        "heating_load": 1.58742,
-        "cooling_load": 0.36657,
+        "heating_load": 79.10577163746919,
+        "cooling_load": 18.26725296969112,
         "spaces": [
           {
             "name": "FrontStairsFlr4",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.58742,
-            "cooling_load": 0.36657,
+            "heating_load_per_area": 79.10577163746919,
+            "cooling_load_per_area": 18.26725296969112,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
@@ -1231,15 +1991,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory3:",
-        "heating_load": 1.07177,
-        "cooling_load": 0.2331,
+        "heating_load": 53.396638598485744,
+        "cooling_load": 11.613271930831267,
         "spaces": [
           {
             "name": "RearStairsFlr3",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.07177,
-            "cooling_load": 0.2331,
+            "heating_load_per_area": 53.396638598485744,
+            "cooling_load_per_area": 11.613271930831267,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1271,15 +2031,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory1:",
-        "heating_load": 1.12589,
-        "cooling_load": 0.21915000000000004,
+        "heating_load": 56.092950382684066,
+        "cooling_load": 10.918269170491978,
         "spaces": [
           {
             "name": "RearStairsFlr1",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.12589,
-            "cooling_load": 0.21915000000000004,
+            "heating_load_per_area": 56.092950382684066,
+            "cooling_load_per_area": 10.918269170491978,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -1323,15 +2083,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-F:FL=BuildingStory3:",
-        "heating_load": 2.2259,
-        "cooling_load": 1.32677,
+        "heating_load": 17.747543829386938,
+        "cooling_load": 10.578601341711536,
         "spaces": [
           {
             "name": "CorridorFlr3",
             "space_type": "Space Function-Corr. >= 2.4m wide-sch-F",
             "schedule": "F",
-            "heating_load": 2.2259,
-            "cooling_load": 1.32677,
+            "heating_load_per_area": 17.747543829386938,
+            "cooling_load_per_area": 10.578601341711536,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1375,15 +2135,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-F:FL=BuildingStory1:",
-        "heating_load": 1.40126,
-        "cooling_load": 0.8370599999999999,
+        "heating_load": 17.45598014284306,
+        "cooling_load": 10.427545736243246,
         "spaces": [
           {
             "name": "MeetingRoomFlr1",
             "space_type": "Space Function-Electrical/Mechanical-sch-F",
             "schedule": "F",
-            "heating_load": 1.40126,
-            "cooling_load": 0.8370599999999999,
+            "heating_load_per_area": 17.45598014284306,
+            "cooling_load_per_area": 10.427545736243246,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -1415,15 +2175,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory2:",
-        "heating_load": 1.00649,
-        "cooling_load": 0.21800999999999998,
+        "heating_load": 50.15633423756559,
+        "cooling_load": 10.864074583087435,
         "spaces": [
           {
             "name": "FrontStairsFlr2",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.00649,
-            "cooling_load": 0.21800999999999998,
+            "heating_load_per_area": 50.15633423756559,
+            "cooling_load_per_area": 10.864074583087435,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1455,15 +2215,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-F:FL=BuildingStory1:",
-        "heating_load": 3.1022600000000002,
-        "cooling_load": 1.6806800000000002,
+        "heating_load": 20.612232615510894,
+        "cooling_load": 11.166880632905317,
         "spaces": [
           {
             "name": "CorridorFlr1",
             "space_type": "Space Function-Corr. >= 2.4m wide-sch-F",
             "schedule": "F",
-            "heating_load": 3.1022600000000002,
-            "cooling_load": 1.6806800000000002,
+            "heating_load_per_area": 20.612232615510894,
+            "cooling_load_per_area": 11.166880632905317,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -1531,15 +2291,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory2: 1",
-        "heating_load": 0.98499,
-        "cooling_load": 0.22197999999999998,
+        "heating_load": 49.07317339832471,
+        "cooling_load": 11.059262562015979,
         "spaces": [
           {
             "name": "RearStairsFlr2",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 0.98499,
-            "cooling_load": 0.22197999999999998,
+            "heating_load_per_area": 49.07317339832471,
+            "cooling_load_per_area": 11.059262562015979,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1571,15 +2331,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-F:FL=BuildingStory1: 1",
-        "heating_load": 0.54968,
-        "cooling_load": 0.36063999999999996,
+        "heating_load": 16.855516917720557,
+        "cooling_load": 11.058749856656132,
         "spaces": [
           {
             "name": "MechanicalRoomFlr1",
             "space_type": "Space Function-Electrical/Mechanical-sch-F",
             "schedule": "F",
-            "heating_load": 0.54968,
-            "cooling_load": 0.36063999999999996,
+            "heating_load_per_area": 16.855516917720557,
+            "cooling_load_per_area": 11.058749856656132,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -1611,15 +2371,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-F:FL=BuildingStory2:",
-        "heating_load": 1.77609,
-        "cooling_load": 1.28386,
+        "heating_load": 14.161119151774944,
+        "cooling_load": 10.236471369242425,
         "spaces": [
           {
             "name": "CorridorFlr2",
             "space_type": "Space Function-Corr. >= 2.4m wide-sch-F",
             "schedule": "F",
-            "heating_load": 1.77609,
-            "cooling_load": 1.28386,
+            "heating_load_per_area": 14.161119151774944,
+            "cooling_load_per_area": 10.236471369242425,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1663,15 +2423,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory4: 1",
-        "heating_load": 1.57862,
-        "cooling_load": 0.36487,
+        "heating_load": 78.64840555748114,
+        "cooling_load": 18.178183309319625,
         "spaces": [
           {
             "name": "RearStairsFlr4",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.57862,
-            "cooling_load": 0.36487,
+            "heating_load_per_area": 78.64840555748114,
+            "cooling_load_per_area": 18.178183309319625,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
@@ -1715,15 +2475,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Corr. >= 2.4m wide-sch-F:FL=BuildingStory4:",
-        "heating_load": 5.85027,
-        "cooling_load": 2.24086,
+        "heating_load": 46.64536737443171,
+        "cooling_load": 17.86682288760502,
         "spaces": [
           {
             "name": "CorridorFlr4",
             "space_type": "Space Function-Corr. >= 2.4m wide-sch-F",
             "schedule": "F",
-            "heating_load": 5.85027,
-            "cooling_load": 2.24086,
+            "heating_load_per_area": 46.64536737443171,
+            "cooling_load_per_area": 17.86682288760502,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
@@ -1779,15 +2539,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory3: 1",
-        "heating_load": 1.0931199999999999,
-        "cooling_load": 0.22793,
+        "heating_load": 54.47335997552652,
+        "cooling_load": 11.358417135558549,
         "spaces": [
           {
             "name": "FrontStairsFlr3",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.0931199999999999,
-            "cooling_load": 0.22793,
+            "heating_load_per_area": 54.47335997552652,
+            "cooling_load_per_area": 11.358417135558549,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -1819,15 +2579,15 @@
       },
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Stairway-sch-F:FL=BuildingStory1: 1",
-        "heating_load": 1.1453499999999999,
-        "cooling_load": 0.20478,
+        "heating_load": 57.076133313789256,
+        "cooling_load": 10.204785070063966,
         "spaces": [
           {
             "name": "FrontStairsFlr1",
             "space_type": "Space Function-Stairway-sch-F",
             "schedule": "F",
-            "heating_load": 1.1453499999999999,
-            "cooling_load": 0.20478,
+            "heating_load_per_area": 57.076133313789256,
+            "cooling_load_per_area": 10.204785070063966,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -1872,168 +2632,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 4",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1:",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1:",
-        "heating_load": 0.6293,
-        "cooling_load": 0.35278,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory2:",
+        "heating_load": 19.169062686547854,
+        "cooling_load": 15.840888163257794,
         "spaces": [
           {
-            "name": "GuestRoom102",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.6293,
-            "cooling_load": 0.35278,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.40737849845875407,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814431726074,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 12",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 3",
-        "heating_load": 2.19753,
-        "cooling_load": 1.5940999999999999,
-        "spaces": [
-          {
-            "name": "GuestRoom302_305",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 2.19753,
-            "cooling_load": 1.5940999999999999,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33330968056331517,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339125,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 5",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4:",
-        "heating_load": 2.05896,
-        "cooling_load": 0.66686,
-        "spaces": [
-          {
-            "name": "GuestRoom401",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 2.05896,
-            "cooling_load": 0.66686,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0000000000121503,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333096805612122,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044281443233914,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 22,
-                "surface_area_to_floor_ratio": 0.6923076923161039,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 6",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 1",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 1",
-        "heating_load": 0.52386,
-        "cooling_load": 0.4477,
-        "spaces": [
-          {
-            "name": "GuestRoom224",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.52386,
-            "cooling_load": 0.4477,
+            "name": "ElevatorCoreFlr2",
+            "space_type": "Space Function-Lobby - elevator",
+            "schedule": "C",
+            "heating_load_per_area": 19.169062686547854,
+            "cooling_load_per_area": 15.840888163257794,
             "surface_report": [
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333333333333333,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352561,
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.33333333333333265,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2044,42 +2666,30 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 7",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 1",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 1",
-        "heating_load": 5.05438,
-        "cooling_load": 2.51079,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
+        "heating_load": 21.64941315479337,
+        "cooling_load": 16.438218747493725,
         "spaces": [
           {
-            "name": "GuestRoom415_418",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 5.05438,
-            "cooling_load": 2.51079,
+            "name": "ElevatorCoreFlr3",
+            "space_type": "Space Function-Lobby - elevator",
+            "schedule": "C",
+            "heating_load_per_area": 21.64941315479337,
+            "cooling_load_per_area": 16.438218747493725,
             "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 130,
-                "surface_area_to_floor_ratio": 1.000000000006309,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
               {
                 "surface_type": "Wall",
                 "azimuth": 0.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33333333333543624,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352558,
+                "surface_area": 5,
+                "surface_area_to_floor_ratio": 0.3333333333333326,
+                "glazed_subsurface_area": 0,
+                "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -2095,15 +2705,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory4:",
-        "heating_load": 0.8074199999999999,
-        "cooling_load": 0.37587,
+        "heating_load": 53.648126843578744,
+        "cooling_load": 24.974265483510372,
         "spaces": [
           {
             "name": "ElevatorCoreFlr4",
             "space_type": "Space Function-Lobby - elevator",
             "schedule": "C",
-            "heating_load": 0.8074199999999999,
-            "cooling_load": 0.37587,
+            "heating_load_per_area": 53.648126843578744,
+            "cooling_load_per_area": 24.974265483510372,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",
@@ -2136,311 +2746,27 @@
     ]
   },
   {
-    "airloop.name": "Sys_1_Make-up air unit 18",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 5",
+    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
+    "control_zone": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
     "thermal_zones": [
       {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 5",
-        "heating_load": 0.7269800000000001,
-        "cooling_load": 0.42039,
+        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
+        "heating_load": 2.9123664219359404,
+        "cooling_load": 21.66182917562318,
         "spaces": [
           {
-            "name": "GuestRoom313",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.7269800000000001,
-            "cooling_load": 0.42039,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333096805612128,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050442814432339306,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 23",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 5",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 5",
-        "heating_load": 1.76006,
-        "cooling_load": 1.65354,
-        "spaces": [
-          {
-            "name": "GuestRoom220_223",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 1.76006,
-            "cooling_load": 1.65354,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33333333333543635,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352558,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 24",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 9",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 9",
-        "heating_load": 4.249770000000001,
-        "cooling_load": 1.75916,
-        "spaces": [
-          {
-            "name": "GuestRoom406_408",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 4.249770000000001,
-            "cooling_load": 1.75916,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 105,
-                "surface_area_to_floor_ratio": 1.0000000000121505,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 35,
-                "surface_area_to_floor_ratio": 0.33330968056121224,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.06354944458680929,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 30",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 7",
-        "heating_load": 2.1132199999999997,
-        "cooling_load": 1.65546,
-        "spaces": [
-          {
-            "name": "GuestRoom320_323",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 2.1132199999999997,
-            "cooling_load": 1.65546,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33333333333543635,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352561,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 25",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 6",
-        "heating_load": 2.15157,
-        "cooling_load": 1.6468,
-        "spaces": [
-          {
-            "name": "GuestRoom315_318",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 2.15157,
-            "cooling_load": 1.6468,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.33333333333543624,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352558,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 32",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 8",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 8",
-        "heating_load": 0.53455,
-        "cooling_load": 0.41854,
-        "spaces": [
-          {
-            "name": "GuestRoom219",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.53455,
-            "cooling_load": 0.41854,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.33333333333333365,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525735,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 27",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 6",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 6",
-        "heating_load": 1.7004000000000001,
-        "cooling_load": 1.66387,
-        "spaces": [
-          {
-            "name": "GuestRoom202_205",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 1.7004000000000001,
-            "cooling_load": 1.66387,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 43,
-                "surface_area_to_floor_ratio": 0.3333096805633152,
-                "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0504428144323391,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 29",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 7",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory2: 7",
-        "heating_load": 0.57198,
-        "cooling_load": 0.40873000000000004,
-        "spaces": [
-          {
-            "name": "GuestRoom214",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.57198,
-            "cooling_load": 0.40873000000000004,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333333333333339,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352578,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory1:",
-        "heating_load": 0.41831,
-        "cooling_load": 0.24963000000000002,
-        "spaces": [
-          {
-            "name": "ElevatorCoreFlr1",
-            "space_type": "Space Function-Lobby - elevator",
-            "schedule": "C",
-            "heating_load": 0.41831,
-            "cooling_load": 0.24963000000000002,
+            "name": "FrontLoungeFlr1",
+            "space_type": "Space Function-Hotel/Motel - lobby",
+            "schedule": "H",
+            "heating_load_per_area": 2.9123664219359404,
+            "cooling_load_per_area": 21.66182917562318,
             "surface_report": [
               {
                 "surface_type": "Floor",
                 "azimuth": 90.0,
                 "tilt": 180.0,
                 "boundary_condition": "Ground",
-                "surface_area": 15,
+                "surface_area": 163,
                 "surface_area_to_floor_ratio": 1.0,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
@@ -2449,47 +2775,13 @@
               },
               {
                 "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 6,
-                "surface_area_to_floor_ratio": 0.40740740740740733,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 31",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 8",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 8",
-        "heating_load": 1.29185,
-        "cooling_load": 0.49245999999999995,
-        "spaces": [
-          {
-            "name": "GuestRoom301",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 1.29185,
-            "cooling_load": 0.49245999999999995,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
                 "azimuth": 180.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333096805612122,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044281443233914,
+                "surface_area": 66,
+                "surface_area_to_floor_ratio": 0.407378498458754,
+                "glazed_subsurface_area": 14,
+                "glazed_subsurface_area_to_floor_ratio": 0.09093167461066543,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               },
@@ -2498,134 +2790,8 @@
                 "azimuth": 270.0,
                 "tilt": 90.0,
                 "boundary_condition": "Outdoors",
-                "surface_area": 22,
-                "surface_area_to_floor_ratio": 0.6923076923161039,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 34",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 9",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 9",
-        "heating_load": 0.67138,
-        "cooling_load": 0.42951,
-        "spaces": [
-          {
-            "name": "GuestRoom314",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.67138,
-            "cooling_load": 0.42951,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.33333333333333387,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525805,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 10",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory4: 3",
-        "heating_load": 1.45373,
-        "cooling_load": 0.65596,
-        "spaces": [
-          {
-            "name": "GuestRoom419",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 1.45373,
-            "cooling_load": 0.65596,
-            "surface_report": [
-              {
-                "surface_type": "RoofCeiling",
-                "azimuth": 90.0,
-                "tilt": 0.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0000000000000009,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333333333333336,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352576,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_4_PSZ_WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
-    "control_zone": "WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "WET-ZN:BT=Space Function:ST=Washroom-sch-F:FL=BuildingStory1:",
-        "heating_load": 0.46481,
-        "cooling_load": 0.36957999999999996,
-        "spaces": [
-          {
-            "name": "RestroomFlr1",
-            "space_type": "Space Function-Washroom-sch-F",
-            "schedule": "F",
-            "heating_load": 0.46481,
-            "cooling_load": 0.36957999999999996,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.40737849845875407,
+                "surface_area": 27,
+                "surface_area_to_floor_ratio": 0.16923076922991503,
                 "glazed_subsurface_area": 0,
                 "glazed_subsurface_area_to_floor_ratio": 0.0,
                 "opaque_subsurface_area": 0,
@@ -2643,15 +2809,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory1:",
-        "heating_load": 2.2396,
-        "cooling_load": 1.15253,
+        "heating_load": 22.893498356182608,
+        "cooling_load": 11.781319726938356,
         "spaces": [
           {
             "name": "LaundryRoomFlr1",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 2.2396,
-            "cooling_load": 1.15253,
+            "heating_load_per_area": 22.893498356182608,
+            "cooling_load_per_area": 11.781319726938356,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -2684,192 +2850,20 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Lobby - elevator:FL=BuildingStory3:",
-        "heating_load": 0.32583,
-        "cooling_load": 0.24740000000000004,
-        "spaces": [
-          {
-            "name": "ElevatorCoreFlr3",
-            "space_type": "Space Function-Lobby - elevator",
-            "schedule": "C",
-            "heating_load": 0.32583,
-            "cooling_load": 0.24740000000000004,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 5,
-                "surface_area_to_floor_ratio": 0.3333333333333326,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 14",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 4",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory3: 4",
-        "heating_load": 0.59364,
-        "cooling_load": 0.42884,
-        "spaces": [
-          {
-            "name": "GuestRoom319",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.59364,
-            "cooling_load": 0.42884,
-            "surface_report": [
-              {
-                "surface_type": "Wall",
-                "azimuth": 0.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 10,
-                "surface_area_to_floor_ratio": 0.3333333333333336,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352576,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Hotel/Motel - lobby:FL=BuildingStory1:",
-        "heating_load": 0.47487999999999997,
-        "cooling_load": 3.5321,
-        "spaces": [
-          {
-            "name": "FrontLoungeFlr1",
-            "space_type": "Space Function-Hotel/Motel - lobby",
-            "schedule": "H",
-            "heating_load": 0.47487999999999997,
-            "cooling_load": 3.5321,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 163,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 66,
-                "surface_area_to_floor_ratio": 0.407378498458754,
-                "glazed_subsurface_area": 14,
-                "glazed_subsurface_area_to_floor_ratio": 0.09093167461066544,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 270.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 27,
-                "surface_area_to_floor_ratio": 0.16923076922991503,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "airloop.name": "Sys_1_Make-up air unit 26",
-    "control_zone": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 3",
-    "thermal_zones": [
-      {
-        "thermal_zone_name": "DU-ZN:BT=Space Function:ST=Hway lodging - rooms:FL=BuildingStory1: 3",
-        "heating_load": 0.59409,
-        "cooling_load": 0.35448,
-        "spaces": [
-          {
-            "name": "GuestRoom101",
-            "space_type": "Space Function-Hway lodging - rooms",
-            "schedule": "F",
-            "heating_load": 0.59409,
-            "cooling_load": 0.35448,
-            "surface_report": [
-              {
-                "surface_type": "Floor",
-                "azimuth": 90.0,
-                "tilt": 180.0,
-                "boundary_condition": "Ground",
-                "surface_area": 32,
-                "surface_area_to_floor_ratio": 1.0,
-                "glazed_subsurface_area": 0,
-                "glazed_subsurface_area_to_floor_ratio": 0.0,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              },
-              {
-                "surface_type": "Wall",
-                "azimuth": 180.0,
-                "tilt": 90.0,
-                "boundary_condition": "Outdoors",
-                "surface_area": 13,
-                "surface_area_to_floor_ratio": 0.407378498458754,
-                "glazed_subsurface_area": 1,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044281443172629,
-                "opaque_subsurface_area": 0,
-                "opaque_subsurface_area_to_floor_ratio": 0
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "airloop.name": "Sys_4_PSZ_All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4:",
     "control_zone": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4:",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Storage area - occsens:FL=BuildingStory4:",
-        "heating_load": 1.64337,
-        "cooling_load": 0.45011,
+        "heating_load": 81.86850476365137,
+        "cooling_load": 22.423332955552993,
         "spaces": [
           {
             "name": "RearStorageFlr4",
             "space_type": "Space Function-Storage area - occsens",
             "schedule": "E",
-            "heating_load": 1.64337,
-            "cooling_load": 0.45011,
+            "heating_load_per_area": 81.86850476365137,
+            "cooling_load_per_area": 22.423332955552993,
             "surface_report": [
               {
                 "surface_type": "RoofCeiling",

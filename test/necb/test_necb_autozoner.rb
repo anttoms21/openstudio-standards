@@ -14,7 +14,7 @@ class NECB_Autozone_Tests < MiniTest::Test
     FileUtils.mkdir_p(@output_folder) unless File.directory?(@output_folder)
   end
 
-=begin
+
   def test_HighriseApartment()
     model = autozone("HighriseApartment.osm")
   end
@@ -60,16 +60,16 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_LargeHotel()
     model = autozone("LargeHotel.osm")
   end
-=end
+
   def test_PrimarySchool()
     model = autozone("PrimarySchool.osm")
   end
-=begin
+
   def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
 
-=end
+
 
 
 
@@ -147,8 +147,8 @@ class NECB_Autozone_Tests < MiniTest::Test
       airloop.thermalZones.each do |tz|
         data = {}
         data[:thermal_zone_name] = tz.name.to_s
-        data[:heating_load] = standard.stored_zone_heating_load(tz)
-        data[:cooling_load] = standard.stored_zone_cooling_load(tz)
+        data[:heating_load_per_area] = standard.stored_zone_heating_load(tz)
+        data[:cooling_load_per_area] = standard.stored_zone_cooling_load(tz)
         data[:spaces] = []
         tz.spaces.each do |space|
           space_data = {}

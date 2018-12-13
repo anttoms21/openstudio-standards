@@ -1,19 +1,19 @@
 [
   {
     "airloop.name": "Sys_6_VAV with Reheat",
-    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 4",
+    "control_zone": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3:",
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1:",
         "heating_load": 0.0,
-        "cooling_load": 54.88840000000001,
+        "cooling_load": 21.98948363676125,
         "spaces": [
           {
             "name": "Core_bottom",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 0.0,
-            "cooling_load": 54.88840000000001,
+            "heating_load_per_area": 0.0,
+            "cooling_load_per_area": 21.98948363676125,
             "surface_report": [
 
             ]
@@ -22,15 +22,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2:",
-        "heating_load": 0.50102,
-        "cooling_load": 3.6980999999999993,
+        "heating_load": 13.839283253935369,
+        "cooling_load": 102.1497213711596,
         "spaces": [
           {
             "name": "DataCenter_mid_ZN_6",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 0.50102,
-            "cooling_load": 3.6980999999999993,
+            "heating_load_per_area": 13.839283253935369,
+            "cooling_load_per_area": 102.1497213711596,
             "surface_report": [
 
             ]
@@ -39,15 +39,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 1",
-        "heating_load": 13.307,
-        "cooling_load": 20.680259999999997,
+        "heating_load": 42.457447555222,
+        "cooling_load": 65.98264480186032,
         "spaces": [
           {
             "name": "Perimeter_mid_ZN_1",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 13.307,
-            "cooling_load": 20.680259999999997,
+            "heating_load_per_area": 42.457447555222,
+            "cooling_load_per_area": 65.98264480186032,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -67,15 +67,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 1",
-        "heating_load": 8.50071,
-        "cooling_load": 12.00201,
+        "heating_load": 27.123043602061735,
+        "cooling_load": 38.29457075260549,
         "spaces": [
           {
             "name": "Perimeter_bot_ZN_3",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 8.50071,
-            "cooling_load": 12.00201,
+            "heating_load_per_area": 27.123043602061735,
+            "cooling_load_per_area": 38.29457075260549,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -95,15 +95,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3:",
-        "heating_load": 3.35512,
-        "cooling_load": 3.87764,
+        "heating_load": 92.6758533211122,
+        "cooling_load": 107.10901424452106,
         "spaces": [
           {
             "name": "DataCenter_top_ZN_6",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 3.35512,
-            "cooling_load": 3.87764,
+            "heating_load_per_area": 92.6758533211122,
+            "cooling_load_per_area": 107.10901424452106,
             "surface_report": [
 
             ]
@@ -112,15 +112,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 1",
-        "heating_load": 26.01296,
-        "cooling_load": 14.38238,
+        "heating_load": 82.99902576357597,
+        "cooling_load": 45.88956920556291,
         "spaces": [
           {
             "name": "Perimeter_top_ZN_3",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 26.01296,
-            "cooling_load": 14.38238,
+            "heating_load_per_area": 82.99902576357597,
+            "cooling_load_per_area": 45.88956920556291,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -140,15 +140,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 2",
-        "heating_load": 0.0503,
-        "cooling_load": 3.37034,
+        "heating_load": 1.3893975243961294,
+        "cooling_load": 93.09626346666504,
         "spaces": [
           {
             "name": "DataCenter_bot_ZN_6",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 0.0503,
-            "cooling_load": 3.37034,
+            "heating_load_per_area": 1.3893975243961294,
+            "cooling_load_per_area": 93.09626346666504,
             "surface_report": [
 
             ]
@@ -157,15 +157,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 3",
-        "heating_load": 6.02644,
-        "cooling_load": 21.52568,
+        "heating_load": 29.837532090916984,
+        "cooling_load": 106.57588356953856,
         "spaces": [
           {
             "name": "Perimeter_bot_ZN_4",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 6.02644,
-            "cooling_load": 21.52568,
+            "heating_load_per_area": 29.837532090916984,
+            "cooling_load_per_area": 106.57588356953856,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -185,15 +185,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 2",
-        "heating_load": 9.20612,
-        "cooling_load": 24.80942,
+        "heating_load": 45.5804589331069,
+        "cooling_load": 122.83402230952895,
         "spaces": [
           {
             "name": "Perimeter_mid_ZN_2",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 9.20612,
-            "cooling_load": 24.80942,
+            "heating_load_per_area": 45.5804589331069,
+            "cooling_load_per_area": 122.83402230952895,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -214,14 +214,14 @@
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Basement Story 0:",
         "heating_load": 0.0,
-        "cooling_load": 16.26956,
+        "cooling_load": 20.76047921291683,
         "spaces": [
           {
             "name": "DataCenter_basement_ZN_6",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 0.0,
-            "cooling_load": 16.26956,
+            "heating_load_per_area": 0.0,
+            "cooling_load_per_area": 20.76047921291683,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -277,15 +277,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 4",
-        "heating_load": 8.266219999999999,
-        "cooling_load": 16.67597,
+        "heating_load": 26.374284371378007,
+        "cooling_load": 53.20651699913245,
         "spaces": [
           {
             "name": "Perimeter_bot_ZN_1",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 8.266219999999999,
-            "cooling_load": 16.67597,
+            "heating_load_per_area": 26.374284371378007,
+            "cooling_load_per_area": 53.20651699913245,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -305,15 +305,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 3",
-        "heating_load": 13.637270000000001,
-        "cooling_load": 13.671530000000002,
+        "heating_load": 43.51216178684939,
+        "cooling_load": 43.62147447647257,
         "spaces": [
           {
             "name": "Perimeter_mid_ZN_3",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 13.637270000000001,
-            "cooling_load": 13.671530000000002,
+            "heating_load_per_area": 43.51216178684939,
+            "cooling_load_per_area": 43.62147447647257,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -333,15 +333,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 2",
-        "heating_load": 17.18937,
-        "cooling_load": 24.65411,
+        "heating_load": 85.10636113487327,
+        "cooling_load": 122.06506632406486,
         "spaces": [
           {
             "name": "Perimeter_top_ZN_2",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 17.18937,
-            "cooling_load": 24.65411,
+            "heating_load_per_area": 85.10636113487327,
+            "cooling_load_per_area": 122.06506632406486,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -362,14 +362,14 @@
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 4",
         "heating_load": 0.0,
-        "cooling_load": 60.3245,
+        "cooling_load": 24.167303212442043,
         "spaces": [
           {
             "name": "Core_mid",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 0.0,
-            "cooling_load": 60.3245,
+            "heating_load_per_area": 0.0,
+            "cooling_load_per_area": 24.167303212442043,
             "surface_report": [
 
             ]
@@ -378,15 +378,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 3",
-        "heating_load": 25.69846,
-        "cooling_load": 21.11937,
+        "heating_load": 81.99376401142032,
+        "cooling_load": 67.38367356837219,
         "spaces": [
           {
             "name": "Perimeter_top_ZN_1",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 25.69846,
-            "cooling_load": 21.11937,
+            "heating_load_per_area": 81.99376401142032,
+            "cooling_load_per_area": 67.38367356837219,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -406,15 +406,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 2: 5",
-        "heating_load": 9.73468,
-        "cooling_load": 26.556390000000004,
+        "heating_load": 48.19741454238452,
+        "cooling_load": 131.48345272564018,
         "spaces": [
           {
             "name": "Perimeter_mid_ZN_4",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 9.73468,
-            "cooling_load": 26.556390000000004,
+            "heating_load_per_area": 48.19741454238452,
+            "cooling_load_per_area": 131.48345272564018,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -434,15 +434,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 4",
-        "heating_load": 78.71399000000001,
-        "cooling_load": 66.02088,
+        "heating_load": 31.534531797049805,
+        "cooling_load": 26.44939660191549,
         "spaces": [
           {
             "name": "Core_top",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 78.71399000000001,
-            "cooling_load": 66.02088,
+            "heating_load_per_area": 31.534531797049805,
+            "cooling_load_per_area": 26.44939660191549,
             "surface_report": [
 
             ]
@@ -451,15 +451,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 3: 5",
-        "heating_load": 17.04213,
-        "cooling_load": 27.14334,
+        "heating_load": 84.37736055989592,
+        "cooling_load": 134.3895033062091,
         "spaces": [
           {
             "name": "Perimeter_top_ZN_4",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 17.04213,
-            "cooling_load": 27.14334,
+            "heating_load_per_area": 84.37736055989592,
+            "cooling_load_per_area": 134.3895033062091,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -479,15 +479,15 @@
       },
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Office - open plan:FL=Building Story 1: 5",
-        "heating_load": 5.70691,
-        "cooling_load": 19.9287,
+        "heating_load": 28.255505782016424,
+        "cooling_load": 98.66906926481595,
         "spaces": [
           {
             "name": "Perimeter_bot_ZN_2",
             "space_type": "Space Function-Office - open plan",
             "schedule": "A",
-            "heating_load": 5.70691,
-            "cooling_load": 19.9287,
+            "heating_load_per_area": 28.255505782016424,
+            "cooling_load_per_area": 98.66906926481595,
             "surface_report": [
               {
                 "surface_type": "Wall",
@@ -514,14 +514,14 @@
       {
         "thermal_zone_name": "WLD-ZN:BT=Space Function:ST=Electrical/Mechanical-sch-A:FL=Basement Story 0:",
         "heating_load": 0.0,
-        "cooling_load": 36.30634,
+        "cooling_load": 13.062528706266498,
         "spaces": [
           {
             "name": "Basement",
             "space_type": "Space Function-Electrical/Mechanical-sch-A",
             "schedule": "A",
-            "heating_load": 0.0,
-            "cooling_load": 36.30634,
+            "heating_load_per_area": 0.0,
+            "cooling_load_per_area": 13.062528706266498,
             "surface_report": [
               {
                 "surface_type": "Floor",

@@ -5,15 +5,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
-        "heating_load": 5.47391,
-        "cooling_load": 5.18417,
+        "heating_load": 47.119225753570845,
+        "cooling_load": 44.62515397127271,
         "spaces": [
           {
             "name": "Dining",
             "space_type": "Space Function-Dining - bar lounge/leisure",
             "schedule": "B",
-            "heating_load": 5.47391,
-            "cooling_load": 5.18417,
+            "heating_load_per_area": 47.119225753570845,
+            "cooling_load_per_area": 44.62515397127271,
             "surface_report": [
               {
                 "surface_type": "Floor",
@@ -75,15 +75,15 @@
     "thermal_zones": [
       {
         "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
-        "heating_load": 3.6348499999999997,
-        "cooling_load": 3.4271599999999998,
+        "heating_load": 31.28866162037136,
+        "cooling_load": 29.500873367228884,
         "spaces": [
           {
             "name": "Kitchen",
             "space_type": "Space Function-Food preparation",
             "schedule": "B",
-            "heating_load": 3.6348499999999997,
-            "cooling_load": 3.4271599999999998,
+            "heating_load_per_area": 31.28866162037136,
+            "cooling_load_per_area": 29.500873367228884,
             "surface_report": [
               {
                 "surface_type": "Floor",
