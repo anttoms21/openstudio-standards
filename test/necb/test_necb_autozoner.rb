@@ -155,8 +155,8 @@ class NECB_Autozone_Tests < MiniTest::Test
           space_data[:name] = space.name.get
           space_data[:space_type] = space.spaceType.get.standardsBuildingType.get + '-' + space.spaceType.get.standardsSpaceType.get
           space_data[:schedule] = standard.determine_necb_schedule_type(space).to_s
-          space_data[:heating_load] = standard.stored_space_heating_load(space)
-          space_data[:cooling_load] = standard.stored_space_cooling_load(space)
+          space_data[:heating_load_per_area] = standard.stored_space_heating_load(space)
+          space_data[:cooling_load_per_area] = standard.stored_space_cooling_load(space)
           space_data[:surface_report] = standard.space_surface_report(space)
           data[:spaces] << space_data
         end
