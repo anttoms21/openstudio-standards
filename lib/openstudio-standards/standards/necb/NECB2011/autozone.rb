@@ -1,40 +1,8 @@
 class NECB2011
 
 
-  def store_space_sizing_loads(model)
-    @stored_space_heating_sizing_loads = {}
-    @stored_space_cooling_sizing_loads = {}
-    model.getSpaces.each do |space|
-      @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
-      @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
-    end
-  end
 
-  def stored_space_heating_load(space)
-    @stored_space_heating_sizing_loads[space]
-  end
-
-  def stored_space_cooling_load(space)
-    @stored_space_cooling_sizing_loads[space]
-  end
-
-  # @param [Object] zone Thermal zone
-  def stored_zone_heating_load(zone)
-    total = 0.0
-    zone.spaces.each do |space|
-      total += stored_space_heating_load(space)
-    end
-    return total
-  end
-
-  def stored_zone_cooling_load(zone)
-    total = 0.0
-    zone.spaces.each do |space|
-      total += stored_space_cooling_load(space)
-    end
-    return total
-  end
-
+  # Top level method that merges spaces into zones where possible. This requires a sizing run.
   def auto_zoning(model)
     #The first thing we need to do is get a sizing run to determine the heating loads of all the spaces. The default
     # btap geometry has a one to one relationship of zones to spaces.. So we simply create the thermal zones for all the spaces.
@@ -56,6 +24,106 @@ class NECB2011
     self.auto_zone_wet_spaces(model)
     self.auto_zone_all_other_spaces(model)
     self.auto_zone_wild_spaces(model)
+  end
+
+  # Organizes Zones and assigns them to appropriate systems according to NECB 2011-17 systems spacetype rules in Sec 8.
+  # requires requires fuel type to be assigned for each system aspect. Defaults to gas hydronic.
+  def auto_system(model:,
+                  boiler_fueltype: "NaturalGas",
+                  baseboard_type: "Hot Water",
+                  mau_type: true,
+                  mau_heating_coil_type: "Hot Water",
+                  mau_cooling_type: "DX",
+                  chiller_type: "Scroll",
+                  heating_coil_type_sys3: "Gas",
+                  heating_coil_type_sys4: "Gas",
+                  heating_coil_type_sys6: "Hot Water",
+                  fan_type: "var_speed_drive",
+                  swh_fueltype: "NaturalGas"
+  )
+
+    #remove idealair from zones if any.
+    model.getZoneHVACIdealLoadsAirSystems.each(&:remove)
+    @hw_loop = create_hw_loop_if_required(baseboard_type,
+                                          boiler_fueltype,
+                                          mau_heating_coil_type,
+                                          model)
+    #Rule that all dwelling units have their own zone and system.
+    auto_system_dwelling_units(model: model,
+                               baseboard_type: baseboard_type,
+                               boiler_fueltype: boiler_fueltype,
+                               chiller_type: chiller_type,
+                               fan_type: fan_type,
+                               heating_coil_type_sys3: heating_coil_type_sys3,
+                               heating_coil_type_sys4: heating_coil_type_sys4,
+                               hw_loop: @hw_loop,
+                               heating_coil_type_sys6: heating_coil_type_sys6,
+                               mau_cooling_type: mau_cooling_type,
+                               mau_heating_coil_type: mau_heating_coil_type,
+                               mau_type: mau_type
+    )
+
+    #Assign a single system 4 for all wet spaces.. and assign the control zone to the one with the largest load.
+    auto_system_wet_spaces(baseboard_type: baseboard_type,
+                           boiler_fueltype: boiler_fueltype,
+                           heating_coil_type_sys4: heating_coil_type_sys4,
+                           model: model)
+
+    #Assign the wild spaces to a single system 4 system with a control zone with the largest load.
+    auto_system_wild_spaces(baseboard_type: baseboard_type,
+                            boiler_fueltype: boiler_fueltype,
+                            heating_coil_type_sys4: heating_coil_type_sys4,
+                            model: model)
+    # do the regular assignment for the rest and group where possible.
+    auto_system_all_other_spaces(model: model,
+                                 baseboard_type: baseboard_type,
+                                 boiler_fueltype: boiler_fueltype,
+                                 chiller_type: chiller_type,
+                                 fan_type: fan_type,
+                                 heating_coil_type_sys3: heating_coil_type_sys3,
+                                 heating_coil_type_sys4: heating_coil_type_sys4,
+                                 hw_loop: @hw_loop,
+                                 heating_coil_type_sys6: heating_coil_type_sys6,
+                                 mau_cooling_type: mau_cooling_type,
+                                 mau_heating_coil_type: mau_heating_coil_type,
+                                 mau_type: mau_type
+    )
+  end
+
+
+  # Method to store space sizing loads. This is needed because later when the zones are destroyed this information will be lost.
+  def store_space_sizing_loads(model)
+    @stored_space_heating_sizing_loads = {}
+    @stored_space_cooling_sizing_loads = {}
+    model.getSpaces.each do |space|
+      @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
+      @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
+    end
+  end
+  # Returns heating load per area for space after sizing run has been done.
+  def stored_space_heating_load(space)
+    @stored_space_heating_sizing_loads[space]
+  end
+  # Returns the cooling load per area for space after sizing runs has been done.
+  def stored_space_cooling_load(space)
+    @stored_space_cooling_sizing_loads[space]
+  end
+
+  # # Returns the heating load per area for zone after sizing runs has been done.
+  def stored_zone_heating_load(zone)
+    total = 0.0
+    zone.spaces.each do |space|
+      total += stored_space_heating_load(space)
+    end
+    return total
+  end
+  # Returns the cooling load per area for zone after sizing runs has been done.
+  def stored_zone_cooling_load(zone)
+    total = 0.0
+    zone.spaces.each do |space|
+      total += stored_space_cooling_load(space)
+    end
+    return total
   end
 
   # Dwelling unit spaces need to have their own HVAC system. Thankfully NECB defines what spacetypes are considering
@@ -142,6 +210,9 @@ class NECB2011
     return wet_zone_array
   end
 
+  # This method will find all the spaces that are not wet, wild or dwelling units and zone them. It will try to determine
+  # if the spaces are similar based on exposure and load and blend those spaces into the same zone.  It will not merge spaces
+  # from different floors, since this will impact Chris Kirneys costing algorithms.
   def auto_zone_all_other_spaces(model)
     other_tz_array = Array.new
     #iterate through all non wildcard spaces.
@@ -187,6 +258,8 @@ class NECB2011
     return other_tz_array
   end
 
+  # This will take all the wildcard spaces and merge them to be supported by a system 4. The control zone will be the
+  # zone that has the largest heating load per area.
   def auto_zone_wild_spaces(model)
     other_tz_array = Array.new
     #iterate through wildcard spaces.
@@ -324,6 +397,7 @@ class NECB2011
     return wild_zone_array
   end
 
+  # This method will determine if the loads on a zone are similar. (Exposure, space type, space loads, and schedules, etc)
   def are_zone_loads_similar?(zone_1:, zone_2:)
     #make sure they have the same number of spaces.
     truthes = []
@@ -339,11 +413,7 @@ class NECB2011
     return truthes.size == zone_1.spaces.size
   end
 
-  # This method will try to determine if the spaces have similar loads. This will ensure:
-  # 1) Space have the same multiplier.
-  # 2) Spaces have space types and that they are the same.
-  # 3) That the spaces have the same exposed surfaces area relative to the floor area in the same direction. by a
-  # percent difference and angular percent difference.
+  # This method will determine if the loads on a space are similar. (Exposure, space type, space loads, and schedules, etc)
   def are_space_loads_similar?(space_1:,
                                space_2:,
                                surface_percent_difference_tolerance: 0.01,
@@ -364,7 +434,7 @@ class NECB2011
     #Spaces should have the same number of surface orientations.
     return false unless space_1_surface_report.size == space_2_surface_report.size
     #spaces should have similar loads
-    return false unless self.percentage_difference(stored_space_heating_load(space_1) , stored_space_heating_load(space_2)) <= heating_load_percent_difference_tolerance
+    return false unless self.percentage_difference(stored_space_heating_load(space_1), stored_space_heating_load(space_2)) <= heating_load_percent_difference_tolerance
     #Each surface should match
     space_1_surface_report.each do |space_1_surface|
       surface_match = space_2_surface_report.detect do |space_2_surface|
@@ -441,6 +511,7 @@ class NECB2011
     return surface_report
   end
 
+  #Check to see if this is a wildcard space that the NECB does not have a specified schedule or system for.
   def is_an_necb_wildcard_space?(space)
     space_type_data = standards_lookup_table_first(table_name: 'space_types',
                                                    search_criteria: {'template' => self.class.name,
@@ -449,11 +520,14 @@ class NECB2011
     return space_type_data["necb_hvac_system_selection_type"] == "Wildcard"
   end
 
+  # Check to see if this is a wet space that the NECB does not have a specified schedule or system for. Currently hardcoded to
+  # Locker room and washroom.
   def is_an_necb_wet_space?(space)
     #Hack! Should replace this with a proper table lookup.
     return space.spaceType.get.standardsSpaceType.get.include?('Locker room') || space.spaceType.get.standardsSpaceType.get.include?('Washroom')
   end
 
+  # Check if the space spactype is a dwelling unit as per NECB.
   def is_a_necb_dwelling_unit?(space)
     space_type_data = standards_lookup_table_first(table_name: 'space_types',
                                                    search_criteria: {'template' => self.class.name,
@@ -469,6 +543,7 @@ class NECB2011
     return necb_hvac_system_select['dwelling'] == true
   end
 
+  # Determines what system index number is required for the space's spacetype by NECB rules.
   def get_necb_spacetype_system_selection(space)
     space_type_data = standards_lookup_table_first(table_name: 'space_types', search_criteria: {'template' => self.class.name,
                                                                                                 'space_type' => space.spaceType.get.standardsSpaceType.get,
@@ -487,6 +562,7 @@ class NECB2011
     return necb_hvac_system_select['system_type']
   end
 
+  # Determines what system index number is required for the thermal zone based on the spacetypes it contains
   def get_necb_thermal_zone_system_selection(tz)
     systems = []
     tz.spaces.each do |space|
@@ -498,11 +574,13 @@ class NECB2011
     return systems.first
   end
 
+  # Math fundtion to determine percent difference.
   def percentage_difference(value_1, value_2)
     return 0.0 if value_1 == value_2
     return ((value_1 - value_2).abs / ((value_1 + value_2) / 2) * 100)
   end
 
+  # Set wildcard spactype schedule to NECB letter index.
   def adjust_wildcard_spacetype_schedule(space, schedule)
     if space.spaceType.empty?
       OpenStudio.logFree(OpenStudio::Error, 'Error: No spacetype assigned for #{space.name.get}. This must be assigned. Aborting.')
@@ -538,73 +616,11 @@ class NECB2011
   end
 
 
-  ############autosystem
-
-  def auto_system(model:,
-                  boiler_fueltype: "NaturalGas",
-                  baseboard_type: "Hot Water",
-                  mau_type: true,
-                  mau_heating_coil_type: "Hot Water",
-                  mau_cooling_type: "DX",
-                  chiller_type: "Scroll",
-                  heating_coil_type_sys3: "Gas",
-                  heating_coil_type_sys4: "Gas",
-                  heating_coil_type_sys6: "Hot Water",
-                  fan_type: "var_speed_drive",
-                  swh_fueltype: "NaturalGas"
-  )
-
-    #remove idealair from zones if any.
-    model.getZoneHVACIdealLoadsAirSystems.each(&:remove)
-    @hw_loop = create_hw_loop_if_required(baseboard_type,
-                                          boiler_fueltype,
-                                          mau_heating_coil_type,
-                                          model)
-    #Rule that all dwelling units have their own zone and system.
-    auto_system_dwelling_units(model: model,
-                               baseboard_type: baseboard_type,
-                               boiler_fueltype: boiler_fueltype,
-                               chiller_type: chiller_type,
-                               fan_type: fan_type,
-                               heating_coil_type_sys3: heating_coil_type_sys3,
-                               heating_coil_type_sys4: heating_coil_type_sys4,
-                               hw_loop: @hw_loop,
-                               heating_coil_type_sys6: heating_coil_type_sys6,
-                               mau_cooling_type: mau_cooling_type,
-                               mau_heating_coil_type: mau_heating_coil_type,
-                               mau_type: mau_type
-    )
-
-    #Assign a single system 4 for all wet spaces.. and assign the control zone to the one with the largest load.
-    auto_system_wet_spaces(baseboard_type: baseboard_type,
-                           boiler_fueltype: boiler_fueltype,
-                           heating_coil_type_sys4: heating_coil_type_sys4,
-                           model: model)
-
-    #Assign the wild spaces to a single system 4 system with a control zone with the largest load.
-    auto_system_wild_spaces(baseboard_type: baseboard_type,
-                            boiler_fueltype: boiler_fueltype,
-                            heating_coil_type_sys4: heating_coil_type_sys4,
-                            model: model)
-    # do the regular assignment for the rest and group where possible.
-    auto_system_all_other_spaces(model: model,
-                                 baseboard_type: baseboard_type,
-                                 boiler_fueltype: boiler_fueltype,
-                                 chiller_type: chiller_type,
-                                 fan_type: fan_type,
-                                 heating_coil_type_sys3: heating_coil_type_sys3,
-                                 heating_coil_type_sys4: heating_coil_type_sys4,
-                                 hw_loop: @hw_loop,
-                                 heating_coil_type_sys6: heating_coil_type_sys6,
-                                 mau_cooling_type: mau_cooling_type,
-                                 mau_heating_coil_type: mau_heating_coil_type,
-                                 mau_type: mau_type
-    )
-  end
 
 
+  ################################################# NECB Systems
 
-  ################################################# System Logic
+  # Method will create a hot water loop if systems default fuel and medium sources require it.
   def create_hw_loop_if_required(baseboard_type, boiler_fueltype, mau_heating_coil_type, model)
     #get systems that will be used in the model based on the space types to determine if a hw_loop is required.
     systems_used = []
@@ -642,6 +658,9 @@ class NECB2011
     return @hw_loop
   end
 
+  # Default method to create a necb system and assign array of zones to be supported by it. It will try to bring zones with
+  # similar loads on the same airloops and set control zones where possible for single zone systems and will create monolithic
+  # system 6 multizones where possible.
   def create_necb_system(baseboard_type:,
                          boiler_fueltype:,
                          chiller_type:,
@@ -741,7 +760,7 @@ class NECB2011
     end
   end
 
-
+# This method will deal with all non wet, non-wild, and non-dwelling units thermal zones.
   def auto_system_all_other_spaces(baseboard_type:,
                                    boiler_fueltype:,
                                    chiller_type:,
@@ -783,6 +802,8 @@ class NECB2011
   end
 
 
+  # This methos will ensure that all dwelling units are assigned to a system 1 or 3. There is an option to have a shared
+  # AHU or not. Currently set to false. So by default all dwelling units will have their own AHU.
   def auto_system_dwelling_units(baseboard_type:,
                                  boiler_fueltype:,
                                  chiller_type:,
@@ -815,13 +836,13 @@ class NECB2011
       case system
       when 1
         if dwelling_shared_ahu
-        add_sys1_unitary_ac_baseboard_heating(model,
-                                              zones,
-                                              boiler_fueltype,
-                                              mau_type,
-                                              mau_heating_coil_type,
-                                              baseboard_type,
-                                              @hw_loop)
+          add_sys1_unitary_ac_baseboard_heating(model,
+                                                zones,
+                                                boiler_fueltype,
+                                                mau_type,
+                                                mau_heating_coil_type,
+                                                baseboard_type,
+                                                @hw_loop)
         else
           #Create a separate air loop for each unit.
           zones.each do |zone|
@@ -861,6 +882,7 @@ class NECB2011
     end
   end
 
+  # All wet spaces will be on their own system 4 AHU.
   def auto_system_wet_spaces(baseboard_type:,
                              boiler_fueltype:,
                              heating_coil_type_sys4:,
@@ -883,6 +905,7 @@ class NECB2011
     end
   end
 
+  # All wild spaces will be on a single system 4 ahu with the largests heating load zone being the control zone.
   def auto_system_wild_spaces(baseboard_type:,
                               boiler_fueltype:,
                               heating_coil_type_sys4:,
@@ -907,6 +930,7 @@ class NECB2011
     end
   end
 
+  #This method will determine the control zone from the last sizing run space loads.
   def determine_control_zone(zones)
     # In this case the control zone is the load with the largest heating loads. This may cause overheating of some zones.
     # but this is preferred to unmet heating.
@@ -917,8 +941,7 @@ class NECB2011
   end
 
 
-  # This method is used to determine if there are single zones that can be match to a system that has zones of similar loads.
-  # This is to reduce the load.
+  # This method is used to determine if there are single zones that can be grouped with zones of similar loads.
   def group_similar_zones_together(zones)
     total_zones_input = zones.size
     array_of_array_of_zones = []
@@ -955,6 +978,7 @@ class NECB2011
     return array_of_array_of_zones
   end
 
+  # This method will create a color object used in SU, 3D Viewer and Floorspace.js
   def set_random_rendering_color(object)
     rendering_color = OpenStudio::Model::RenderingColor.new(object.model)
     rendering_color.setName(object.name.get)
@@ -965,6 +989,8 @@ class NECB2011
   end
 
   #### NECB Systems ####
+
+  # This will add a add all zones included into a system 1 ahu with the zone with the largest load as the control zone.
   def add_sys1_unitary_ac_baseboard_heating(model,
                                             zones,
                                             boiler_fueltype,
@@ -990,7 +1016,6 @@ class NECB2011
     # Some system parameters are set after system is set up; by applying method 'apply_hvac_efficiency_standard'
 
     always_on = model.alwaysOnDiscreteSchedule
-
 
 
     # Create MAU
@@ -1091,8 +1116,8 @@ class NECB2011
       # htg_coil_elec = OpenStudio::Model::CoilHeatingElectric.new(model,always_on)
       add_zonal_ptac(operation_schedule: always_on, model: model, zone: zone)
 
-      add_zonal_baseboard_heating( operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop,
-                                   model: model, zone: zone)
+      add_zonal_baseboard_heating(operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop,
+                                  model: model, zone: zone)
 
       #  # Create a diffuser and attach the zone/diffuser pair to the MAU air loop, if applicable
       if mau == true
@@ -1107,9 +1132,8 @@ class NECB2011
   end
 
 
-
   # sys1_unitary_ac_baseboard_heating
-
+  # This will add a add all zones included into a system 1 ahu with the zone with the largest load as the control zone.
   def add_sys1_unitary_ac_baseboard_heating_multi_speed(model,
                                                         zones,
                                                         boiler_fueltype,
@@ -1292,7 +1316,7 @@ class NECB2011
 
       # add zone baseboards
       add_zonal_baseboard_heating(operation_shedule: always_on, baseboard_type: baseboard_type, hw_loop: hw_loop,
-                                  model: model, zone: zone )
+                                  model: model, zone: zone)
 
 
       #  # Create a diffuser and attach the zone/diffuser pair to the MAU air loop, if applicable
@@ -1308,7 +1332,6 @@ class NECB2011
   end
 
   # sys1_unitary_ac_baseboard_heating
-
   def add_sys2_FPFC_sys5_TPFC(model,
                               zones,
                               boiler_fueltype,
@@ -1507,7 +1530,6 @@ class NECB2011
   end
 
   # add_sys2_FPFC_sys5_TPFC
-
   def add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed(model,
                                                                                          zones,
                                                                                          boiler_fueltype,
@@ -1640,7 +1662,6 @@ class NECB2011
   end
 
   # end add_sys3_single_zone_packaged_rooftop_unit_with_baseboard_heating_single_speed
-
   def add_sys3and8_single_zone_packaged_rooftop_unit_with_baseboard_heating_multi_speed(model,
                                                                                         zones,
                                                                                         boiler_fueltype,
@@ -1811,7 +1832,6 @@ class NECB2011
   end
 
   # end add_sys3_single_zone_packaged_rooftop_unit_with_baseboard_heating_multi_speed
-
   def add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
                                                                    zones,
                                                                    boiler_fueltype,
@@ -1946,7 +1966,6 @@ class NECB2011
   end
 
   # end add_sys4_single_zone_make_up_air_unit_with_baseboard_heating
-
   def add_sys6_multi_zone_built_up_system_with_baseboard_heating(model,
                                                                  zones,
                                                                  boiler_fueltype,
@@ -2070,18 +2089,18 @@ class NECB2011
                             zone: zone)
 
       # Set zone baseboards
-      add_zonal_baseboard_heating( operation_shedule: always_on,
-                                   baseboard_type: baseboard_type,
-                                   hw_loop: hw_loop,
-                                   model: model,
-                                   zone: zone)
+      add_zonal_baseboard_heating(operation_shedule: always_on,
+                                  baseboard_type: baseboard_type,
+                                  hw_loop: hw_loop,
+                                  model: model,
+                                  zone: zone)
     end
     return true
   end
-
-
   ########################################################### Zonal Equipment
 
+  # this will add a single duct vav terminal with reheat to the zone provided.
+  # @return vav_terminal : the vav terminal object.
   def add_zone_vav_terminal(air_loop:,
                             always_on:,
                             heating_coil_type:,
@@ -2103,10 +2122,12 @@ class NECB2011
     vav_terminal.setFixedMinimumAirFlowRate(min_flow_rate)
     vav_terminal.setMaximumReheatAirTemperature(43.0)
     vav_terminal.setDamperHeatingAction('Normal')
+    return vav_terminal
   end
 
-
-  def add_zonal_ptac(operation_schedule: ,  model:, zone:)
+  # This will add a ptac unit (no heating) to the zone.
+  # returns the ZoneHVACPackagedTerminalAirConditioner wiht heating off.
+  def add_zonal_ptac(operation_schedule:, model:, zone:)
     #No heating since the baseboards will pro
 
     htg_coil = OpenStudio::Model::CoilHeatingElectric.new(model, model.alwaysOffDiscreteSchedule)
@@ -2126,8 +2147,10 @@ class NECB2011
                                                                          clg_coil)
     ptac.setName("#{zone.name} PTAC")
     ptac.addToThermalZone(zone)
+    return ptac
   end
 
+  #Adds a baseboard heater to the zone.
   def add_zonal_baseboard_heating(operation_shedule:,
                                   baseboard_type: 'Electric',
                                   hw_loop: nil,
@@ -2149,7 +2172,6 @@ class NECB2011
     zone_baseboard.addToThermalZone(zone)
     return zone_baseboard
   end
-
 end
 
 
