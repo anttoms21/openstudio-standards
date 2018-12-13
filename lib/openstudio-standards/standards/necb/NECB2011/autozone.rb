@@ -1,9 +1,15 @@
 class NECB2011
 
+  # Top level method that merges spaces into zones where possible. This requires a sizing run. This follows the spirit of
+  # the EE4 modelling manual found here https://www.nrcan.gc.ca/energy/software-tools/7457 where the
+  # A zone includes those areas in the building that meet three criteria:
+  # * Served by the same HVAC system
+  # * Similar operation and function
+  # * Similar heating/cooling loads
+  # Some expections are dwelling units wet zone and wild zones.  These spaces will have special considerations when autozoning a
+  # building.
 
-
-  # Top level method that merges spaces into zones where possible. This requires a sizing run.
-  def auto_zoning(model)
+  def auto_zoning( model )
     #The first thing we need to do is get a sizing run to determine the heating loads of all the spaces. The default
     # btap geometry has a one to one relationship of zones to spaces.. So we simply create the thermal zones for all the spaces.
     # to do this we need to create thermals zone for each space.
@@ -2160,13 +2166,13 @@ class NECB2011
     case baseboard_type
     when 'Electric'
       #  zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
-      zone_elec_baseboard = BTAP::Resources::HVAC::Plant.add_elec_baseboard(model)
+      zone_elec_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveElectric.new(model)
       zone_elec_baseboard.addToThermalZone(zone)
     when 'Hot Water'
-      baseboard_coil = BTAP::Resources::HVAC::Plant.add_hw_baseboard_coil(model)
+      baseboard_coil = OpenStudio::Model::CoilHeatingWaterBaseboard.new(model);
       # Connect baseboard coil to hot water loop
       hw_loop.addDemandBranchForComponent(baseboard_coil)
-      zone_baseboard = BTAP::Resources::HVAC::ZoneEquipment.add_zone_baseboard_convective_water(model, operation_shedule, baseboard_coil)
+      zone_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveWater.new(model,operation_shedule,baseboard_coil);
       # add zone_baseboard to zone
     end
     zone_baseboard.addToThermalZone(zone)
