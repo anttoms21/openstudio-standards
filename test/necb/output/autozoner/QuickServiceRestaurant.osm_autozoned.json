@@ -1,10 +1,10 @@
 [
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
+    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Dining - bar lounge/leisure_FL=Building Story 1_SCH=B",
+    "control_zone": "ALL_BT=Space Function_ST=Dining - bar lounge/leisure_FL=Building Story 1_SCH=B",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Dining - bar lounge/leisure:FL=Building Story 1:",
+        "name": "ALL_BT=Space Function_ST=Dining - bar lounge/leisure_FL=Building Story 1_SCH=B",
         "heating_load_per_area": 47.119225753570845,
         "cooling_load_per_area": 44.62515397127271,
         "spaces": [
@@ -70,11 +70,11 @@
     ]
   },
   {
-    "airloop.name": "Sys_3_PSZ All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
-    "control_zone": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Food preparation_FL=Building Story 1_SCH=B",
+    "control_zone": "ALL_BT=Space Function_ST=Food preparation_FL=Building Story 1_SCH=B",
     "thermal_zones": [
       {
-        "thermal_zone_name": "All-ZN:BT=Space Function:ST=Food preparation:FL=Building Story 1:",
+        "name": "ALL_BT=Space Function_ST=Food preparation_FL=Building Story 1_SCH=B",
         "heating_load_per_area": 31.28866162037136,
         "cooling_load_per_area": 29.500873367228884,
         "spaces": [
