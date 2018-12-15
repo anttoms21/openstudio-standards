@@ -1094,11 +1094,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Conf./meet./multi-purpose_FL=Building Story 1_SCH=C",
-    "control_zone": "ALL_BT=Space Function_ST=Conf./meet./multi-purpose_FL=Building Story 1_SCH=C",
+    "airloop_name": "Sys_3_PSZ ALL_ST=Conf./meet./multi-purpose_FL=Building Story 1_SCH=C",
+    "control_zone": "ALL_ST=Conf./meet./multi-purpose_FL=Building Story 1_SCH=C",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Conf./meet./multi-purpose_FL=Building Story 1_SCH=C",
+        "name": "ALL_ST=Conf./meet./multi-purpose_FL=Building Story 1_SCH=C",
         "heating_load_per_area": 30.213619572934036,
         "cooling_load_per_area": 38.13946378962466,
         "spaces": [
@@ -1152,11 +1152,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_WILD_BT=Space Function_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 3_SCH=G",
-    "control_zone": "WILD_BT=Space Function_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 3_SCH=G",
+    "airloop_name": "Sys_4_PSZ_WILD_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 3_SCH=G",
+    "control_zone": "WILD_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 3_SCH=G",
     "thermal_zones": [
       {
-        "name": "WILD_BT=Space Function_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 1_SCH=G",
+        "name": "WILD_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 1_SCH=G",
         "heating_load_per_area": 35.22074035381728,
         "cooling_load_per_area": 19.64476769100242,
         "spaces": [
@@ -1208,7 +1208,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 2_SCH=G",
+        "name": "WILD_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 2_SCH=G",
         "heating_load_per_area": 34.747519842120674,
         "cooling_load_per_area": 15.039012245461162,
         "spaces": [
@@ -1248,7 +1248,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 3_SCH=G",
+        "name": "WILD_ST=Corr. < 2.4m wide-sch-G_FL=Building Story 3_SCH=G",
         "heating_load_per_area": 58.14843510487547,
         "cooling_load_per_area": 23.622652873949765,
         "spaces": [

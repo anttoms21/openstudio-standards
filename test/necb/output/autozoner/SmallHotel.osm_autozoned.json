@@ -595,7 +595,7 @@
                 "surface_area": 43,
                 "surface_area_to_floor_ratio": 0.33333333333543635,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352561,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525624,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -709,7 +709,7 @@
                 "surface_area": 35,
                 "surface_area_to_floor_ratio": 0.33330968056121224,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0635494445868093,
+                "glazed_subsurface_area_to_floor_ratio": 0.06354944458680929,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -971,7 +971,7 @@
                 "surface_area": 43,
                 "surface_area_to_floor_ratio": 0.33333333333543635,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.05044639402352561,
+                "glazed_subsurface_area_to_floor_ratio": 0.050446394023525624,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }
@@ -1406,11 +1406,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Hotel/Motel - lobby_FL=BuildingStory1_SCH=H",
-    "control_zone": "ALL_BT=Space Function_ST=Hotel/Motel - lobby_FL=BuildingStory1_SCH=H",
+    "airloop_name": "Sys_3_PSZ ALL_ST=Hotel/Motel - lobby_FL=BuildingStory1_SCH=H",
+    "control_zone": "ALL_ST=Hotel/Motel - lobby_FL=BuildingStory1_SCH=H",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Hotel/Motel - lobby_FL=BuildingStory1_SCH=H",
+        "name": "ALL_ST=Hotel/Motel - lobby_FL=BuildingStory1_SCH=H",
         "heating_load_per_area": 2.9123664219359404,
         "cooling_load_per_area": 21.66182917562318,
         "spaces": [
@@ -1464,11 +1464,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory1_SCH=C",
-    "control_zone": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory1_SCH=C",
+    "airloop_name": "Sys_3_PSZ ALL_ST=Lobby - elevator_FL=BuildingStory1_SCH=C",
+    "control_zone": "ALL_ST=Lobby - elevator_FL=BuildingStory1_SCH=C",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory1_SCH=C",
+        "name": "ALL_ST=Lobby - elevator_FL=BuildingStory1_SCH=C",
         "heating_load_per_area": 27.794144237122527,
         "cooling_load_per_area": 16.58638862545217,
         "spaces": [
@@ -1510,11 +1510,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory2_SCH=C",
-    "control_zone": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory2_SCH=C",
+    "airloop_name": "Sys_3_PSZ ALL_ST=Lobby - elevator_FL=BuildingStory3_SCH=C",
+    "control_zone": "ALL_ST=Lobby - elevator_FL=BuildingStory3_SCH=C",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory2_SCH=C",
+        "name": "ALL_ST=Lobby - elevator_FL=BuildingStory2_SCH=C",
         "heating_load_per_area": 19.169062686547854,
         "cooling_load_per_area": 15.840888163257794,
         "spaces": [
@@ -1540,15 +1540,9 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory3_SCH=C",
-    "control_zone": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory3_SCH=C",
-    "thermal_zones": [
+      },
       {
-        "name": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory3_SCH=C",
+        "name": "ALL_ST=Lobby - elevator_FL=BuildingStory3_SCH=C",
         "heating_load_per_area": 21.64941315479337,
         "cooling_load_per_area": 16.438218747493725,
         "spaces": [
@@ -1578,11 +1572,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory4_SCH=C",
-    "control_zone": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory4_SCH=C",
+    "airloop_name": "Sys_3_PSZ ALL_ST=Lobby - elevator_FL=BuildingStory4_SCH=C",
+    "control_zone": "ALL_ST=Lobby - elevator_FL=BuildingStory4_SCH=C",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Lobby - elevator_FL=BuildingStory4_SCH=C",
+        "name": "ALL_ST=Lobby - elevator_FL=BuildingStory4_SCH=C",
         "heating_load_per_area": 53.648126843578744,
         "cooling_load_per_area": 24.974265483510372,
         "spaces": [
@@ -1624,11 +1618,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_3_PSZ ALL_BT=Space Function_ST=Lounge/recreation_FL=BuildingStory1_SCH=B",
-    "control_zone": "ALL_BT=Space Function_ST=Lounge/recreation_FL=BuildingStory1_SCH=B",
+    "airloop_name": "Sys_3_PSZ ALL_ST=Lounge/recreation_FL=BuildingStory1_SCH=B",
+    "control_zone": "ALL_ST=Lounge/recreation_FL=BuildingStory1_SCH=B",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Lounge/recreation_FL=BuildingStory1_SCH=B",
+        "name": "ALL_ST=Lounge/recreation_FL=BuildingStory1_SCH=B",
         "heating_load_per_area": 16.984591978047508,
         "cooling_load_per_area": 19.976100414372386,
         "spaces": [
@@ -1670,11 +1664,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E",
         "heating_load_per_area": 22.893498356182608,
         "cooling_load_per_area": 11.781319726938356,
         "spaces": [
@@ -1716,11 +1710,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 1",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 1",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 1",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 1",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 1",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 1",
         "heating_load_per_area": 62.06307886742825,
         "cooling_load_per_area": 12.435432166130823,
         "spaces": [
@@ -1774,11 +1768,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 2",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 2",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 2",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 2",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 2",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory1_SCH=E 2",
         "heating_load_per_area": 35.09513191865889,
         "cooling_load_per_area": 13.707640584005444,
         "spaces": [
@@ -1820,11 +1814,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory2_SCH=E 1",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory2_SCH=E 1",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory2_SCH=E 1",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory2_SCH=E 1",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory2_SCH=E 1",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory2_SCH=E 1",
         "heating_load_per_area": 28.244500933446297,
         "cooling_load_per_area": 11.452003356681605,
         "spaces": [
@@ -1854,11 +1848,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory3_SCH=E",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory3_SCH=E",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory3_SCH=E",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory3_SCH=E",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory2_SCH=E",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory2_SCH=E",
         "heating_load_per_area": 55.97488815813766,
         "cooling_load_per_area": 13.495049353113128,
         "spaces": [
@@ -1898,7 +1892,7 @@
         ]
       },
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory3_SCH=E",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory3_SCH=E",
         "heating_load_per_area": 60.51525065967973,
         "cooling_load_per_area": 14.333975231168521,
         "spaces": [
@@ -1940,11 +1934,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory3_SCH=E 1",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory3_SCH=E 1",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory3_SCH=E 1",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory3_SCH=E 1",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory3_SCH=E 1",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory3_SCH=E 1",
         "heating_load_per_area": 33.39443407281875,
         "cooling_load_per_area": 11.72867572072592,
         "spaces": [
@@ -1974,11 +1968,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory4_SCH=E",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory4_SCH=E",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory4_SCH=E",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory4_SCH=E",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory4_SCH=E",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory4_SCH=E",
         "heating_load_per_area": 81.86850476365137,
         "cooling_load_per_area": 22.423332955552993,
         "spaces": [
@@ -2032,11 +2026,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory4_SCH=E 1",
-    "control_zone": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory4_SCH=E 1",
+    "airloop_name": "Sys_4_PSZ_ALL_ST=Storage area - occsens_FL=BuildingStory4_SCH=E 1",
+    "control_zone": "ALL_ST=Storage area - occsens_FL=BuildingStory4_SCH=E 1",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Storage area - occsens_FL=BuildingStory4_SCH=E 1",
+        "name": "ALL_ST=Storage area - occsens_FL=BuildingStory4_SCH=E 1",
         "heating_load_per_area": 62.557455361824275,
         "cooling_load_per_area": 20.80544284545358,
         "spaces": [
@@ -2078,11 +2072,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_WET_BT=Space Function_ST=Washroom-sch-F_FL=BuildingStory1_SCHF",
-    "control_zone": "WET_BT=Space Function_ST=Washroom-sch-F_FL=BuildingStory1_SCHF",
+    "airloop_name": "Sys_4_PSZ_WET_ST=Washroom-sch-F_FL=BuildingStory1_SCHF",
+    "control_zone": "WET_ST=Washroom-sch-F_FL=BuildingStory1_SCHF",
     "thermal_zones": [
       {
-        "name": "WET_BT=Space Function_ST=Washroom-sch-F_FL=BuildingStory1_SCHF",
+        "name": "WET_ST=Washroom-sch-F_FL=BuildingStory1_SCHF",
         "heating_load_per_area": 14.253043259211568,
         "cooling_load_per_area": 11.33288812146772,
         "spaces": [
@@ -2124,11 +2118,11 @@
     ]
   },
   {
-    "airloop_name": "Sys_4_PSZ_WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F",
-    "control_zone": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F",
+    "airloop_name": "Sys_4_PSZ_WILD_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F",
+    "control_zone": "WILD_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F",
     "thermal_zones": [
       {
-        "name": "WILD_BT=Space Function_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory1_SCH=F",
+        "name": "WILD_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory1_SCH=F",
         "heating_load_per_area": 20.612232615510894,
         "cooling_load_per_area": 11.166880632905317,
         "spaces": [
@@ -2204,7 +2198,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory2_SCH=F",
+        "name": "WILD_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory2_SCH=F",
         "heating_load_per_area": 14.161119151774944,
         "cooling_load_per_area": 10.236471369242425,
         "spaces": [
@@ -2256,7 +2250,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory3_SCH=F",
+        "name": "WILD_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory3_SCH=F",
         "heating_load_per_area": 17.747543829386938,
         "cooling_load_per_area": 10.578601341711536,
         "spaces": [
@@ -2308,7 +2302,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory4_SCH=F",
+        "name": "WILD_ST=Corr. >= 2.4m wide-sch-F_FL=BuildingStory4_SCH=F",
         "heating_load_per_area": 46.64536737443171,
         "cooling_load_per_area": 17.86682288760502,
         "spaces": [
@@ -2372,7 +2366,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Electrical/Mechanical-sch-F_FL=BuildingStory1_SCH=F",
+        "name": "WILD_ST=Electrical/Mechanical-sch-F_FL=BuildingStory1_SCH=F",
         "heating_load_per_area": 17.45598014284306,
         "cooling_load_per_area": 10.427545736243246,
         "spaces": [
@@ -2412,7 +2406,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Electrical/Mechanical-sch-F_FL=BuildingStory1_SCH=F 1",
+        "name": "WILD_ST=Electrical/Mechanical-sch-F_FL=BuildingStory1_SCH=F 1",
         "heating_load_per_area": 16.855516917720557,
         "cooling_load_per_area": 11.058749856656132,
         "spaces": [
@@ -2452,7 +2446,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory1_SCH=F",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory1_SCH=F",
         "heating_load_per_area": 56.092950382684066,
         "cooling_load_per_area": 10.918269170491978,
         "spaces": [
@@ -2504,7 +2498,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory1_SCH=F 1",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory1_SCH=F 1",
         "heating_load_per_area": 57.076133313789256,
         "cooling_load_per_area": 10.204785070063966,
         "spaces": [
@@ -2556,7 +2550,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory2_SCH=F",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory2_SCH=F",
         "heating_load_per_area": 50.15633423756559,
         "cooling_load_per_area": 10.864074583087435,
         "spaces": [
@@ -2596,7 +2590,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory2_SCH=F 1",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory2_SCH=F 1",
         "heating_load_per_area": 49.07317339832471,
         "cooling_load_per_area": 11.059262562015979,
         "spaces": [
@@ -2636,7 +2630,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory3_SCH=F",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory3_SCH=F",
         "heating_load_per_area": 53.396638598485744,
         "cooling_load_per_area": 11.613271930831267,
         "spaces": [
@@ -2676,7 +2670,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory3_SCH=F 1",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory3_SCH=F 1",
         "heating_load_per_area": 54.47335997552652,
         "cooling_load_per_area": 11.358417135558549,
         "spaces": [
@@ -2716,7 +2710,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F",
         "heating_load_per_area": 79.10577163746919,
         "cooling_load_per_area": 18.26725296969112,
         "spaces": [
@@ -2768,7 +2762,7 @@
         ]
       },
       {
-        "name": "WILD_BT=Space Function_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F 1",
+        "name": "WILD_ST=Stairway-sch-F_FL=BuildingStory4_SCH=F 1",
         "heating_load_per_area": 78.64840555748114,
         "cooling_load_per_area": 18.178183309319625,
         "spaces": [
@@ -2823,10 +2817,10 @@
   },
   {
     "airloop_name": "Sys_6_VAV with Reheat",
-    "control_zone": "ALL_BT=Space Function_ST=Gym - fitness_FL=BuildingStory1_SCH=B",
+    "control_zone": "ALL_ST=Gym - fitness_FL=BuildingStory1_SCH=B",
     "thermal_zones": [
       {
-        "name": "ALL_BT=Space Function_ST=Gym - fitness_FL=BuildingStory1_SCH=B",
+        "name": "ALL_ST=Gym - fitness_FL=BuildingStory1_SCH=B",
         "heating_load_per_area": 13.601473467587645,
         "cooling_load_per_area": 27.30169278002374,
         "spaces": [
@@ -2866,7 +2860,7 @@
         ]
       },
       {
-        "name": "ALL_BT=Space Function_ST=Office - enclosed_FL=BuildingStory1_SCH=A",
+        "name": "ALL_ST=Office - enclosed_FL=BuildingStory1_SCH=A",
         "heating_load_per_area": 13.587673582352284,
         "cooling_load_per_area": 22.19519861232113,
         "spaces": [
@@ -2897,7 +2891,7 @@
                 "surface_area": 53,
                 "surface_area_to_floor_ratio": 0.4074074074074073,
                 "glazed_subsurface_area": 6,
-                "glazed_subsurface_area_to_floor_ratio": 0.0504463940232073,
+                "glazed_subsurface_area_to_floor_ratio": 0.05044639402320731,
                 "opaque_subsurface_area": 0,
                 "opaque_subsurface_area_to_floor_ratio": 0
               }

@@ -9,7 +9,7 @@ class NECB2011
   # Some expections are dwelling units wet zone and wild zones.  These spaces will have special considerations when autozoning a
   # building.
 
-  def auto_zoning( model )
+  def auto_zoning(model)
     #The first thing we need to do is get a sizing run to determine the heating loads of all the spaces. The default
     # btap geometry has a one to one relationship of zones to spaces.. So we simply create the thermal zones for all the spaces.
     # to do this we need to create thermals zone for each space.
@@ -106,10 +106,12 @@ class NECB2011
       @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
     end
   end
+
   # Returns heating load per area for space after sizing run has been done.
   def stored_space_heating_load(space)
     @stored_space_heating_sizing_loads[space]
   end
+
   # Returns the cooling load per area for space after sizing runs has been done.
   def stored_space_cooling_load(space)
     @stored_space_cooling_sizing_loads[space]
@@ -123,6 +125,7 @@ class NECB2011
     end
     return total
   end
+
   # Returns the cooling load per area for zone after sizing runs has been done.
   def stored_zone_cooling_load(zone)
     total = 0.0
@@ -181,7 +184,8 @@ class NECB2011
       zone = OpenStudio::Model::ThermalZone.new(model)
       zone.setRenderingColor(self.set_random_rendering_color(zone))
       space.setThermalZone(zone)
-      zone.setName("WET_BT=#{space.spaceType.get.standardsBuildingType.get}_ST=#{space.spaceType.get.standardsSpaceType.get}_FL=#{space.buildingStory().get.name}_SCH#{dominant_schedule}")
+      tz_name = "WET_ST=#{space.spaceType.get.standardsSpaceType.get}_FL=#{space.buildingStory().get.name}_SCH#{dominant_schedule}"
+      zone.setName(tz_name)
       #Set multiplier from the original tz multiplier.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
         zone.setMultiplier(space_multiplier_map[space.name.to_s])
@@ -230,7 +234,7 @@ class NECB2011
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
       zone.setRenderingColor(self.set_random_rendering_color(zone))
-      tz_name = "ALL_BT=#{space.spaceType.get.standardsBuildingType.get}_ST=#{space.spaceType.get.standardsSpaceType.get}_FL=#{space.buildingStory().get.name}_SCH=#{ determine_dominant_schedule([space])}"
+      tz_name = "ALL_ST=#{space.spaceType.get.standardsSpaceType.get}_FL=#{space.buildingStory().get.name}_SCH=#{ determine_dominant_schedule([space])}"
       zone.setName(tz_name)
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
@@ -277,7 +281,7 @@ class NECB2011
       #create new zone for this space based on the space name.
       zone = OpenStudio::Model::ThermalZone.new(model)
       zone.setRenderingColor(self.set_random_rendering_color(zone))
-      tz_name = "WILD_BT=#{space.spaceType.get.standardsBuildingType.get}_ST=#{space.spaceType.get.standardsSpaceType.get}_FL=#{space.buildingStory().get.name}_SCH=#{determine_dominant_schedule(space.model.getSpaces)}"
+      tz_name = "WILD_ST=#{space.spaceType.get.standardsSpaceType.get}_FL=#{space.buildingStory().get.name}_SCH=#{determine_dominant_schedule(space.model.getSpaces)}"
       zone.setName(tz_name)
       #sets space mulitplier unless it is nil or 1.
       unless space_multiplier_map[space.name.to_s].nil? || (space_multiplier_map[space.name.to_s] == 1)
@@ -288,6 +292,7 @@ class NECB2011
 
       #lets keep the wild schedules to be the same as what dominate the floor.
       dominant_floor_schedule = determine_dominant_schedule(space.model.getSpaces)
+
       adjust_wildcard_spacetype_schedule(space, dominant_floor_schedule)
 
       # Add a thermostat
@@ -426,7 +431,7 @@ class NECB2011
                                space_2:,
                                surface_percent_difference_tolerance: 0.01,
                                angular_percent_difference_tolerance: 0.001,
-                               heating_load_percent_difference_tolerance: 10.0)
+                               heating_load_percent_difference_tolerance: 15.0)
     # Do they have the same space type?
     return false unless space_1.multiplier == space_2.multiplier
     # Ensure that they both have defined spacetypes
@@ -604,13 +609,12 @@ class NECB2011
     #if the new spacetype does not match the old space type. we gotta update the space with the new spacetype.
     if space_type_name != new_spacetype_name
       new_spacetype = space.model.getSpaceTypes.detect do |spacetype|
-        not spacetype.standardsBuildingType.empty? and #need to do this to prevent an exception.
-            spacetype.standardsBuildingType.get == new_spacetype_name and
-            not spacetype.standardsSpaceType.empty? and #need to do this to prevent an exception.
+        (not spacetype.standardsBuildingType.empty?) and #need to do this to prevent an exception.
+            spacetype.standardsBuildingType.get == space.spaceType.get.standardsBuildingType.get and
+            (not spacetype.standardsSpaceType.empty?) and #need to do this to prevent an exception.
             spacetype.standardsSpaceType.get == new_spacetype_name
       end
       if new_spacetype.nil?
-        puts "must create new spacetype"
         # Space type is not in model. need to create from scratch.
         new_spacetype = OpenStudio::Model::SpaceType.new(space.model)
         new_spacetype.setStandardsBuildingType(space.spaceType.get.standardsBuildingType.get)
@@ -621,11 +625,72 @@ class NECB2011
         space_type_apply_internal_load_schedules(new_spacetype, true, true, true, true, true, true, true)
       end
       space.setSpaceType(new_spacetype)
-      raise () if  schedule != space.spaceType.get.name.get.match(regex)[2]
+      #sanity check.
+      raise ("could not reassign space type schedule.") if schedule != space.spaceType.get.name.get.match(regex)[2]
     end
+    return space
+  end
+
+  def set_wildcard_schedules_to_dominant_building_schedule(model, runner = nil)
+    #Get rid of.
+  end
+
+  def determine_dominant_schedule(spaces)
+    # lookup necb space type properties
+    space_type_properties = standards_lookup_table_many(table_name: 'space_types')
+    # Here is a hash to keep track of the m2 running total of spacetypes for each
+    # sched type.
+    # 2018-04-11:  Not sure if this is still used but the list was expanded to incorporate additional existing or potential
+    # future schedules.
+    schedule_hash = Hash[
+        'A', 0,
+        'B', 0,
+        'C', 0,
+        'D', 0,
+        'E', 0,
+        'F', 0,
+        'G', 0,
+        'H', 0,
+        'I', 0,
+        'J', 0,
+        'K', 0,
+        'L', 0,
+        'M', 0,
+        'N', 0,
+        'O', 0,
+        'P', 0,
+        'Q', 0
+    ]
+    # iterate through spaces in building.
+    spaces.select {|space| not is_an_necb_wildcard_space?(space)}.each do |space|
+      # Ensure space floors are multiplied.
+      mult = @space_multiplier_map[space.name.to_s].nil? ? 1.0 : @space_multiplier_map[space.name.to_s]
+      schedule_hash[determine_necb_schedule_type(space)] += space.floorArea * mult
+    end
+    # finds max value and returns NECB schedule letter.
+    #determine dominant letter schedule.
+    return schedule_hash.max_by(&:last).first
   end
 
 
+  # This model determines the dominant NECB schedule type
+  # @param model [OpenStudio::model::Model] A model object
+  # return s.each [String]
+  def determine_dominant_necb_schedule_type(model)
+    return determine_dominant_schedule(model.getSpaces)
+  end
+
+  # This method determines the spacetype schedule type. This will re
+  # @author phylroy.lopez@nrcan.gc.ca
+  # @param space [String]
+  # @return [String]:["A","B","C","D","E","F","G","H","I"] spacetype
+  def determine_necb_schedule_type(space)
+    spacetype_data = standards_lookup_table_many(table_name: 'space_types')
+    raise "Spacetype not defined for space #{space.get.name}) if space.spaceType.empty?" if space.spaceType.empty?
+    raise "Undefined standardsSpaceType or StandardsBuildingType for space #{space.spaceType.get.name}) if space.spaceType.empty?" if space.spaceType.get.standardsSpaceType.empty? | space.spaceType.get.standardsBuildingType.empty?
+    space_type_properties = spacetype_data.detect {|st| (st['space_type'] == space.spaceType.get.standardsSpaceType.get) && (st['building_type'] == space.spaceType.get.standardsBuildingType.get)}
+    return space_type_properties['necb_schedule_type'].strip
+  end
 
 
   ################################################# NECB Systems
@@ -770,7 +835,7 @@ class NECB2011
     end
   end
 
-# This method will deal with all non wet, non-wild, and non-dwelling units thermal zones.
+  # This method will deal with all non wet, non-wild, and non-dwelling units thermal zones.
   def auto_system_all_other_spaces(baseboard_type:,
                                    boiler_fueltype:,
                                    chiller_type:,
@@ -928,6 +993,7 @@ class NECB2011
       zones << space.thermalZone.get
     end
     zones.uniq!
+    unless zones.empty?
       #create a system 4 for the wild zones.
       add_sys4_single_zone_make_up_air_unit_with_baseboard_heating(model,
                                                                    zones,
@@ -935,6 +1001,7 @@ class NECB2011
                                                                    heating_coil_type_sys4,
                                                                    baseboard_type,
                                                                    @hw_loop)
+    end
   end
 
   #This method will determine the control zone from the last sizing run space loads.
@@ -2104,6 +2171,7 @@ class NECB2011
     end
     return true
   end
+
   ########################################################### Zonal Equipment
 
   # this will add a single duct vav terminal with reheat to the zone provided.
@@ -2173,7 +2241,7 @@ class NECB2011
       baseboard_coil = OpenStudio::Model::CoilHeatingWaterBaseboard.new(model);
       # Connect baseboard coil to hot water loop
       hw_loop.addDemandBranchForComponent(baseboard_coil)
-      zone_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveWater.new(model,operation_shedule,baseboard_coil);
+      zone_baseboard = OpenStudio::Model::ZoneHVACBaseboardConvectiveWater.new(model, operation_shedule, baseboard_coil);
       # add zone_baseboard to zone
     end
     zone_baseboard.addToThermalZone(zone)

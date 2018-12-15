@@ -12,7 +12,7 @@ class NECB_Autozone_Tests < MiniTest::Test
     @climate_zone = 'NECB HDD Method'
     FileUtils.mkdir_p(@output_folder) unless File.directory?(@output_folder)
   end
-=begin
+
 
 
   def test_HighriseApartment()
@@ -35,6 +35,7 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_QuickServiceRestaurant()
     model = autozone("QuickServiceRestaurant.osm")
   end
+
   def test_RetailStandalone()
     model = autozone("RetailStandalone.osm")
   end
@@ -43,12 +44,16 @@ class NECB_Autozone_Tests < MiniTest::Test
     model = autozone("RetailStripmall.osm")
   end
 
+
   def test_SmallHotel()
     model = autozone("SmallHotel.osm")
   end
+
+
   def test_SmallOffice()
     model = autozone("SmallOffice.osm")
   end
+
   def test_Warehouse()
     model = autozone("Warehouse.osm")
   end
@@ -56,12 +61,10 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_FullServiceRestaurant()
     model = autozone("FullServiceRestaurant.osm")
   end
-=end
 
   def test_LargeHotel()
     model = autozone("LargeHotel.osm")
   end
-=begin
 
   def test_PrimarySchool()
     model = autozone("PrimarySchool.osm")
@@ -70,7 +73,7 @@ class NECB_Autozone_Tests < MiniTest::Test
   def test_SecondarySchool()
     model = autozone("SecondarySchool.osm")
   end
-=end
+
 
 
   # Test to validate the heat pump performance curves
