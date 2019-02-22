@@ -1164,11 +1164,6 @@ def model_add_refrigeration_system(model,
 
   OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', "Adding #{compressor_type} refrigeration system called #{system_name} with #{cases.size} cases and #{walkins.size} walkins.")
 
-  # Compressors (20 for each system)
-  for i in 0...20
-    compressor = model_add_refrigeration_compressor(model, compressor_type)
-    ref_sys.addCompressor(compressor)
-  end
 
   size_category = 'Any'
   # Cases
@@ -1192,6 +1187,14 @@ def model_add_refrigeration_system(model,
       cooling_cap += ref_walkin.ratedCoilCoolingCapacity # calculate total cooling capacity of the cases + walkins
     end
   end
+
+  # Compressors (20 for each system)
+  for i in 0...20
+    compressor = model_add_refrigeration_compressor(model, compressor_type)
+    ref_sys.addCompressor(compressor)
+  end
+
+
 
   # Condenser capacity
   # The heat rejection rate from the condenser is equal to the rated capacity of all the display cases and walk-ins connected to the compressor rack

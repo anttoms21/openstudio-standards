@@ -101,7 +101,7 @@ class TestAddRefrigeration < Minitest::Test
     assert(model.getRefrigerationCondenserAirCooleds.size==2)
     # assert(mt_system.refrigerationCondenser.ratedFanPower
     # check cases
-    assert (mt_system.cases.size == 19)
+    assert (mt_system.cases.size == 14)
     #check walkins
     assert (mt_system.walkins.size == 8)
 
@@ -113,7 +113,7 @@ class TestAddRefrigeration < Minitest::Test
     # check compressors
     assert (lt_system.compressors.size == 5)
     # check cases
-    assert (lt_system.cases.size == 7)
+    assert (lt_system.cases.size == 3)
     #check walkins
     assert (lt_system.walkins.size == 2)
 
