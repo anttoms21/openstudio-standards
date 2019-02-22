@@ -110,6 +110,7 @@ class Standard
     standards_files << 'OpenStudio_Standards_refrigerated_cases.json'
     standards_files << 'OpenStudio_Standards_walkin_refrigeration.json'
     standards_files << 'OpenStudio_Standards_refrigeration_compressors.json'
+    standards_files << 'OpenStudio_Standards_refrigeration_walkins.json'
     standards_files << 'OpenStudio_Standards_hvac_inference.json'
     standards_files << 'OpenStudio_Standards_size_category.json'
     #    standards_files << 'OpenStudio_Standards_unitary_hps.json'
