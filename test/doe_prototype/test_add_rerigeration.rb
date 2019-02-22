@@ -21,15 +21,14 @@ class TestAddRefrigeration < Minitest::Test
     # add_case =
     # puts tz)
 
-    add_case = standard.model_add_refrigeration_case(model, tz, "Prepared Foods Cases 2", ">50k ft2")
-
+    add_case = standard.model_add_refrigeration_case(model, tz, "Prepared Foods Cases", ">50k ft2")
     # Check case length
-    assert(add_case.caseLength == OpenStudio.convert(28,"ft","m").get)
+    assert(add_case.caseLength == OpenStudio.convert(56,"ft","m").get)
     # Check case operating temperature
     assert_in_epsilon(add_case.caseOperatingTemperature,OpenStudio.convert(27,"F","C").get,0.5) # kBtu/hr
     #
   end
-+
+
 
   def test_add_refrigeration_walkin
     # Load the test model
