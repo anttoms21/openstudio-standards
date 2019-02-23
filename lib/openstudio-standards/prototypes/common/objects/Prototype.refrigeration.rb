@@ -1169,14 +1169,39 @@ def model_add_refrigeration_system(model,
   # Cases
   cooling_cap = 0
   puts '---------------------------------------------'
+  i = 0
   cases.each do |case_|
-    puts '++++++++++++++++++++++++++++++++++++++++++'
-    # for i in 0...case_['number_of_cases']
     zone = model_get_zones_from_spaces_on_system(model, case_)[0]
     ref_case = model_add_refrigeration_case(model, zone, case_['case_type'], size_category)
+    ########################################
+    # Defrost schedule
+    defrost_sch = OpenStudio::Model::ScheduleRuleset.new(model)
+    defrost_sch.setName('Refrigeration Defrost Schedule')
+    defrost_sch.defaultDaySchedule.setName('Refrigeration Defrost Schedule Default')
+    defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 0, 0), 0)
+    defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 59, 0), 0)
+    defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,24, 0, 0), 0)
+    # Dripdown schedule
+    dripdown_sch = OpenStudio::Model::ScheduleRuleset.new(model)
+    dripdown_sch.setName('Refrigeration Defrost Schedule')
+    dripdown_sch.defaultDaySchedule.setName('Refrigeration Defrost Schedule Default')
+    dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 0, 0), 0)
+    dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 59, 0), 0)
+    dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,24, 0, 0), 0)
+    # Case Credit Schedule
+    case_credit_sch = OpenStudio::Model::ScheduleRuleset.new(model)
+    case_credit_sch.setName('Refrigeration Case Credit Schedule')
+    case_credit_sch.defaultDaySchedule.setName('Refrigeration Case Credit Schedule Default')
+    case_credit_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 7, 0, 0), 0.2)
+    case_credit_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 21, 0, 0), 0.4)
+    case_credit_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 24, 0, 0), 0.2)
+    #
+    ref_case.setCaseDefrostSchedule(defrost_sch)
+    ref_case.setCaseDefrostDripDownSchedule(dripdown_sch)
+    ########################################
     ref_sys.addCase(ref_case)
     cooling_cap += (ref_case.ratedTotalCoolingCapacityperUnitLength * ref_case.caseLength) # calculate total cooling capacity of the cases
-    # end
+    i = i + 1
   end
 
   # Walkins
@@ -1184,6 +1209,29 @@ def model_add_refrigeration_system(model,
     for i in 0...walkin['number_of_walkins']
       zone = model_get_zones_from_spaces_on_system(model, walkin)[0]
       ref_walkin = model_add_refrigeration_walkin(model, zone, size_category, walkin['walkin_type'])
+      ########################################
+      # Defrost schedule
+      defrost_sch = OpenStudio::Model::ScheduleRuleset.new(model)
+      defrost_sch.setName('Refrigeration Defrost Schedule')
+      defrost_sch.defaultDaySchedule.setName('Refrigeration Defrost Schedule Default')
+      defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 0, 0), 0)
+      defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 59, 0), 1)
+      defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i+10, 0, 0), 0)
+      defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i+10, 59, 0), 1)
+      defrost_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,24, 0, 0), 0)
+      # Dripdown schedule
+      dripdown_sch = OpenStudio::Model::ScheduleRuleset.new(model)
+      dripdown_sch.setName('Refrigeration Defrost Schedule')
+      dripdown_sch.defaultDaySchedule.setName('Refrigeration Defrost Schedule Default')
+      dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 0, 0), 0)
+      dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i, 59, 0), 1)
+      dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i+10, 0, 0), 0)
+      dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,i+10, 59, 0), 1)
+      dripdown_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0,24, 0, 0), 0)
+      #
+      ref_walkin.setDefrostSchedule(defrost_sch)
+      ref_walkin.setDefrostDripDownSchedule(dripdown_sch)
+      ########################################
       cooling_cap += ref_walkin.ratedCoilCoolingCapacity # calculate total cooling capacity of the cases + walkins
     end
   end
