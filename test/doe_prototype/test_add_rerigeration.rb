@@ -29,7 +29,7 @@ class TestAddRefrigeration < Minitest::Test
     assert_in_epsilon(add_case.caseOperatingTemperature,OpenStudio.convert(27,"F","C").get,0.5) # kBtu/hr
     #
   end
-+
+
 
   def test_add_refrigeration_walkin
     # Load the test model
