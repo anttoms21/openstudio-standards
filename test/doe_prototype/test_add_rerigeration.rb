@@ -6,7 +6,7 @@ class TestAddRefrigeration < Minitest::Test
 
     # Load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
-    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/GroStore.osm")
+    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/MultiStoryRetail.osm")
     model = translator.loadModel(path)
     model = model.get
     puts "Test building area is #{OpenStudio.convert(model.getBuilding.floorArea,"m^2","ft^2").get.round} ft^2."
@@ -21,10 +21,11 @@ class TestAddRefrigeration < Minitest::Test
     # add_case =
     # puts tz)
 
-    add_case = standard.model_add_refrigeration_case(model, tz, "Prepared Foods Cases 2", ">50k ft2")
+    add_case = standard.model_add_refrigeration_case(model, tz, "Prepared Foods Cases", ">50k ft2")
 
+    puts add_case.caseLength
     # Check case length
-    assert(add_case.caseLength == OpenStudio.convert(28,"ft","m").get)
+    assert(add_case.caseLength == OpenStudio.convert(56,"ft","m").get)
     # Check case operating temperature
     assert_in_epsilon(add_case.caseOperatingTemperature,OpenStudio.convert(27,"F","C").get,0.5) # kBtu/hr
     #
@@ -34,7 +35,7 @@ class TestAddRefrigeration < Minitest::Test
   def test_add_refrigeration_walkin
     # Load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
-    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/GroStore.osm")
+    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/MultiStoryRetail.osm")
     model = translator.loadModel(path)
     model = model.get
     puts "Test building area is #{OpenStudio.convert(model.getBuilding.floorArea,"m^2","ft^2").get.round} ft^2."
@@ -61,7 +62,7 @@ class TestAddRefrigeration < Minitest::Test
   def test_add_refrigeration_compressor
     # Load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
-    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/GroStore.osm")
+    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/MultiStoryRetail.osm")
     model = translator.loadModel(path)
     model = model.get
     puts "Test building area is #{OpenStudio.convert(model.getBuilding.floorArea,"m^2","ft^2").get.round} ft^2."
@@ -80,7 +81,7 @@ class TestAddRefrigeration < Minitest::Test
   def test_add_typical_refrigeration
     # Load the test model
     translator = OpenStudio::OSVersion::VersionTranslator.new
-    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/GroStore.osm")
+    path = OpenStudio::Path.new("#{File.dirname(__FILE__)}/models/MultiStoryRetail.osm")
     model = translator.loadModel(path)
     model = model.get
     puts "Test building area is #{OpenStudio.convert(model.getBuilding.floorArea,"m^2","ft^2").get.round} ft^2."
@@ -95,9 +96,9 @@ class TestAddRefrigeration < Minitest::Test
     standard.model_add_typical_refrigeration(model, '5A' , tz, tz)
     mt_system = model.getRefrigerationSystemByName('Medium Temperature').get
     #check ref system refrigerant
-    assert(mt_system.refrigerationSystemWorkingFluidType == 'R507a')
+    assert(mt_system.refrigerationSystemWorkingFluidType == 'R404a')
     # check compressors
-    assert (mt_system.compressors.size == 6)
+    assert (mt_system.compressors.size == 22)
     # check fan power
     assert(model.getRefrigerationCondenserAirCooleds.size==2)
     # assert(mt_system.refrigerationCondenser.ratedFanPower
@@ -112,7 +113,7 @@ class TestAddRefrigeration < Minitest::Test
     # standard.model_add_typical_refrigeration(model, '5A' , tz, tz)
     lt_system = model.getRefrigerationSystemByName('Low Temperature').get
     # check compressors
-    assert (lt_system.compressors.size == 5)
+    assert (lt_system.compressors.size == 18)
     # check cases
     assert (lt_system.cases.size == 3)
     #check walkins

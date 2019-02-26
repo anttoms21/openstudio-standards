@@ -767,7 +767,9 @@ class Standard
             'system_type' => system_type
         }
         #
+        puts search_criteria
         props = model_find_object(standards_data['refrigeration_system'], search_criteria)
+        puts props
         if props.nil?
           OpenStudio.logFree(OpenStudio::Error, 'openstudio.Model.Model', "Could not find refrigeration system properties for: #{search_criteria}.")
           return nil
