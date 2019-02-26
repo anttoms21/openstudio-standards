@@ -32,23 +32,35 @@ class Standard
     end
 
     # Capacity, defrost, anti-sweat
-    latent_heat_ratio = props['latent_heat_ratio']
-    rated_runtime_fraction = props['rated_runtime_fraction']
+    if props['latent_heat_ratio']
+      latent_heat_ratio = props['latent_heat_ratio']
+    end
+    if props['rated_runtime_fraction']
+      rated_runtime_fraction = props['rated_runtime_fraction']
+    end
     case_length = OpenStudio::convert(props['case_length'],"ft","m").get
     case_temp = OpenStudio::convert(props['case_temp'],"F","C").get
     cooling_capacity_per_length = OpenStudio::convert(OpenStudio::convert(props['cooling_capacity_per_length'],"Btu/h","W").get,"W/ft","W/m").get
     evap_fan_power_per_length = OpenStudio::convert(props['evap_fan_power_per_length'],"W/ft","W/m").get
-    evap_temp = OpenStudio::convert(props['evap_temp'],"F","C").get
+    if props['evap_temp']
+      evap_temp = OpenStudio::convert(props['evap_temp'],"F","C").get
+    end
     lighting_per_ft = OpenStudio::convert(props['lighting_per_ft'],"W/ft","W/m").get
     fraction_of_lighting_energy_to_case = props['fraction_of_lighting_energy_to_case']
-    latent_case_credit_curve_name = model_add_curve(model, props['latent_case_credit_curve_name'])
+    if props['latent_case_credit_curve_name']
+      latent_case_credit_curve_name = model_add_curve(model, props['latent_case_credit_curve_name'])
+    end
     defrost_power_per_length = OpenStudio::convert(props['defrost_power_per_length'],"W/ft","W/m").get
     defrost_type = props['defrost_type']
-    defrost_correction_type = props['defrost_correction_type']
+    if props['defrost_correction_type']
+      defrost_correction_type = props['defrost_correction_type']
+    end
     if props['defrost_correction_curve_name']
       defrost_correction_curve_name = model_add_curve(model, props['defrost_correction_curve_name'])
     end
-    anti_sweat_power = OpenStudio::convert(props['anti_sweat_power'],"W/ft","W/m").get
+    if props['anti_sweat_power']
+      anti_sweat_power = OpenStudio::convert(props['anti_sweat_power'],"W/ft","W/m").get
+    end
     if props['minimum_anti_sweat_heater_power_per_unit_length']
       minimum_anti_sweat_heater_power_per_unit_length = OpenStudio::convert(props['minimum_anti_sweat_heater_power_per_unit_length'],"W/ft","W/m").get
       anti_sweat_heater_control = props['anti_sweat_heater_control']
@@ -64,25 +76,44 @@ class Standard
     ref_case.setAvailabilitySchedule(model.alwaysOnDiscreteSchedule)
     ref_case.setThermalZone(thermal_zone)
     ref_case.setRatedAmbientTemperature(OpenStudio.convert(75, 'F', 'C').get)
-    ref_case.setRatedLatentHeatRatio(latent_heat_ratio)
-    ref_case.setRatedRuntimeFraction(rated_runtime_fraction)
+    if props['latent_heat_ratio']
+      ref_case.setRatedLatentHeatRatio(latent_heat_ratio)
+    end
+    if props['rated_runtime_fraction']
+      ref_case.setRatedRuntimeFraction(rated_runtime_fraction)
+    end
     ref_case.setCaseLength(case_length)
     ref_case.setCaseOperatingTemperature(case_temp)
     ref_case.setRatedTotalCoolingCapacityperUnitLength(cooling_capacity_per_length)
     ref_case.setStandardCaseFanPowerperUnitLength(evap_fan_power_per_length)
     ref_case.setOperatingCaseFanPowerperUnitLength(evap_fan_power_per_length)
-    ref_case.setDesignEvaporatorTemperatureorBrineInletTemperature(evap_temp)
+    if props['evap_temp']
+      ref_case.setDesignEvaporatorTemperatureorBrineInletTemperature(evap_temp)
+    end
     ref_case.setStandardCaseLightingPowerperUnitLength(lighting_per_ft)
     ref_case.setInstalledCaseLightingPowerperUnitLength(lighting_per_ft)
     ref_case.setCaseLightingSchedule(model.alwaysOnDiscreteSchedule)
-    ref_case.setLatentCaseCreditCurve(latent_case_credit_curve_name)
+    puts '++++++++++++++++++'
+    puts case_type
+    puts props['latent_case_credit_curve_name']
+    puts '++++++++++'
+    # puts model_add_curve(model, latent_case_credit_curve_name)
+    puts '-----------='
+    if props['latent_case_credit_curve_name']
+      # ref_case.setLatentCaseCreditCurve(model_add_curve(model, latent_case_credit_curve_name))
+    end
     ref_case.setCaseDefrostPowerperUnitLength(defrost_power_per_length)
-    ref_case.setCaseDefrostType(defrost_type)
+    if
+      ref_case.setCaseDefrostType(defrost_type)
+    end
     ref_case.setDefrostEnergyCorrectionCurveType(defrost_correction_type)
     if props['defrost_correction_curve_name']
+      # ref_case.setDefrostEnergyCorrectionCurve(model_add_curve(model, defrost_correction_curve_name))
       ref_case.setDefrostEnergyCorrectionCurve(defrost_correction_curve_name)
     end
-    ref_case.setCaseAntiSweatHeaterPowerperUnitLength(anti_sweat_power)
+    if props['anti_sweat_power']
+      ref_case.setCaseAntiSweatHeaterPowerperUnitLength(anti_sweat_power)
+    end
     ref_case.setFractionofAntiSweatHeaterEnergytoCase(fractionofantisweatheaterenergytocase)
     ref_case.setFractionofLightingEnergytoCase(fraction_of_lighting_energy_to_case)
     if props['minimum_anti_sweat_heater_power_per_unit_length']
@@ -163,8 +194,12 @@ class Standard
       reachin_door_area_mult = OpenStudio::convert(props['reachin_door_area_mult'],"ft^2","m^2").get
     end
     operating_temp = OpenStudio::convert(props['operating_temp'],"F","C").get
-    source_temp = OpenStudio::convert(props['source_temp'],"F","C").get
-    defrost_control_type = props['defrost_control_type']
+    if props['source_temp']
+      source_temp = OpenStudio::convert(props['source_temp'],"F","C").get
+    end
+    if props['defrost_control_type']
+      defrost_control_type = props['defrost_control_type']
+    end
     defrost_type = props['defrost_type']
     defrost_power_mult = props['defrost_power_mult']
     defrost_power = props['defrost_power']
@@ -173,9 +208,15 @@ class Standard
     fan_power = props['fan_power']
     lighting_power = props['lighting_power']
     # lighting_power_mult = props['lighting_power_mult']
-    insulated_floor_u = OpenStudio::convert(props['insulated_floor_u'],"Btu/ft^2*h*R","W/m^2*K").get
-    insulated_surface_u = OpenStudio::convert(props['insulated_surface_u'],"Btu/ft^2*h*R","W/m^2*K").get
-    insulated_door_u = OpenStudio::convert(props['stocking_door_u'],"Btu/ft^2*h*R","W/m^2*K").get
+    if props['insulated_floor_u']
+      insulated_floor_u = OpenStudio::convert(props['insulated_floor_u'],"Btu/ft^2*h*R","W/m^2*K").get
+    end
+    if props['insulated_surface_u']
+      insulated_surface_u = OpenStudio::convert(props['insulated_surface_u'],"Btu/ft^2*h*R","W/m^2*K").get
+    end
+    if props['stocking_door_u']
+      insulated_door_u = OpenStudio::convert(props['stocking_door_u'],"Btu/ft^2*h*R","W/m^2*K").get
+    end
     if props['glass_reachin_door_u_value']
       glass_reachin_door_u_value = OpenStudio::convert(props['glass_reachin_door_u_value'],"Btu/ft^2*h*R","W/m^2*K").get
     end
@@ -198,14 +239,13 @@ class Standard
       height_of_stocking_doors = OpenStudio::convert(props['height_of_stocking_doors'],"ft","m").get
     end
     availabilityschedule = props['availabilityschedule']
-    lightingschedule = props['lightingschedule']
+    lightingschedule = props['lighting_schedule']
     defrostschedule = props['defrostschedule']
     defrostdripdownschedule = props['defrostdripdownschedule']
-    restockingschedule = props['restockingschedule']
+    restockingschedule = props['restocking_schedule']
     zoneboundarystockingdooropeningschedulefacingzone = props['zoneboundarystockingdooropeningschedulefacingzone']
     temperatureterminationdefrostfractiontoice = props['temperatureterminationdefrostfractiontoice']
 
-    always_off_name = 'Always Off'
 
     # Calculated properties
     if rated_cooling_capacity == nil
@@ -215,28 +255,17 @@ class Standard
       defrost_power = defrost_power_mult * rated_cooling_capacity
     end
     if total_insulated_surface_area == nil
-      zoneboundarytotalinsulatedsurfaceareafacingzone = 1.7226 * floor_surface_area + 28.653
+      total_insulated_surface_area = 1.7226 * floor_surface_area + 28.653
     end
     if reachin_door_area == nil
       reachin_door_area = reachin_door_area_mult * floor_surface_area
     end
-
     if fan_power == nil
       fan_power = fan_power_mult * rated_cooling_capacity
     end
-
-    puts 'LP'
-    puts lighting_power
-    puts 'LPM'
-    puts lighting_power_mult
-    puts 'FSA'
-    puts floor_surface_area
     if lighting_power == nil
       lighting_power = lighting_power_mult * floor_surface_area
     end
-
-
-
 
     # Walk-In
     ref_walkin = OpenStudio::Model::RefrigerationWalkIn.new(model, model.alwaysOnDiscreteSchedule)
@@ -245,8 +274,12 @@ class Standard
     ref_walkin.setAvailabilitySchedule(model.alwaysOnDiscreteSchedule)
     ref_walkin.setRatedCoilCoolingCapacity(rated_cooling_capacity)
     ref_walkin.setOperatingTemperature(operating_temp)
-    ref_walkin.setRatedCoolingSourceTemperature(source_temp)
-    ref_walkin.setDefrostControlType(defrost_control_type)
+    if props['source_temp']
+      ref_walkin.setRatedCoolingSourceTemperature(source_temp)
+    end
+    if props['defrost_control_type']
+      ref_walkin.setDefrostControlType(defrost_control_type)
+    end
     ref_walkin.setDefrostType(defrost_type)
     ref_walkin.setDefrostPower(defrost_power)
     ref_walkin.setRatedTotalHeatingPower(ratedtotalheatingpower)
@@ -255,10 +288,18 @@ class Standard
     end
     ref_walkin.setRatedCoolingCoilFanPower(fan_power)
     ref_walkin.setRatedTotalLightingPower(lighting_power)
-    ref_walkin.setInsulatedFloorUValue(insulated_floor_u)
-    ref_walkin.setZoneBoundaryInsulatedSurfaceUValueFacingZone(insulated_surface_u)
-    ref_walkin.setZoneBoundaryStockingDoorUValueFacingZone(insulated_door_u)
-    ref_walkin.setZoneBoundaryAreaofGlassReachInDoorsFacingZone(reachin_door_area)
+    if props['insulated_floor_u']
+      ref_walkin.setInsulatedFloorUValue(insulated_floor_u)
+    end
+    if props['insulated_surface_u']
+      ref_walkin.setZoneBoundaryInsulatedSurfaceUValueFacingZone(insulated_surface_u)
+    end
+    if props['stocking_door_u']
+      ref_walkin.setZoneBoundaryStockingDoorUValueFacingZone(insulated_door_u)
+    end
+    if props['reachin_door_area']
+      ref_walkin.setZoneBoundaryAreaofGlassReachInDoorsFacingZone(reachin_door_area)
+    end
     if props['total_insulated_surface_area']
       ref_walkin.setZoneBoundaryTotalInsulatedSurfaceAreaFacingZone(total_insulated_surface_area)
     end
@@ -280,8 +321,8 @@ class Standard
     if props['temperatureterminationdefrostfractiontoice']
       ref_walkin.setTemperatureTerminationDefrostFractiontoIce(temperatureterminationdefrostfractiontoice)
     end
-    ref_walkin.setRestockingSchedule(model_add_schedule(model, always_off_name))
-    ref_walkin.setLightingSchedule(model.alwaysOnDiscreteSchedule)
+    ref_walkin.setRestockingSchedule(model_add_schedule(model, restockingschedule))
+    ref_walkin.setLightingSchedule(model_add_schedule(model, lightingschedule))
     ref_walkin.setZoneBoundaryStockingDoorOpeningScheduleFacingZone(model_add_schedule(model, 'door_wi_sched'))
 
 
@@ -1162,7 +1203,8 @@ def model_add_refrigeration_system(model,
   ref_sys.setName(system_name.to_s)
   ref_sys.setSuctionPipingZone(thermal_zone)
 
-  OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', "Adding #{compressor_type} refrigeration system called #{system_name} with #{cases.size} cases and #{walkins.size} walkins.")
+  OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model',
+                     "Adding #{compressor_type} refrigeration system called #{system_name} with #{cases.size} cases and #{walkins.size} walkins.")
 
 
   size_category = 'Any'
@@ -1196,9 +1238,10 @@ def model_add_refrigeration_system(model,
     case_credit_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 21, 0, 0), 0.4)
     case_credit_sch.defaultDaySchedule.addValue(OpenStudio::Time.new(0, 24, 0, 0), 0.2)
     #
-    ref_case.setCaseDefrostSchedule(defrost_sch)
-    ref_case.setCaseDefrostDripDownSchedule(dripdown_sch)
+    # ref_case.setCaseDefrostSchedule(defrost_sch)
+    # ref_case.setCaseDefrostDripDownSchedule(dripdown_sch)
     ########################################
+    # puts ref_case
     ref_sys.addCase(ref_case)
     cooling_cap += (ref_case.ratedTotalCoolingCapacityperUnitLength * ref_case.caseLength) # calculate total cooling capacity of the cases
     i = i + 1
@@ -1207,6 +1250,7 @@ def model_add_refrigeration_system(model,
   # Walkins
   walkins.each do |walkin|
     for i in 0...walkin['number_of_walkins']
+
       zone = model_get_zones_from_spaces_on_system(model, walkin)[0]
       ref_walkin = model_add_refrigeration_walkin(model, zone, size_category, walkin['walkin_type'])
       ########################################
@@ -1249,7 +1293,8 @@ def model_add_refrigeration_system(model,
   # plus the power rating of the compressors making up the compressor rack.
   # Assuming a COP of 1.3 for low-temperature compressor racks and a COP of 2.0 for medium-temperature compressor racks,
   # the required condenser capacity is approximated as follows:
-  # Note the factor 1.2 has been included to over-estimate the condenser size.  The total capacity of the display cases can be calculated from their rated cooling capacity times the length of the cases.  The capacity of each of the walk-ins is specified directly.
+  # Note the factor 1.2 has been included to over-estimate the condenser size.  The total capacity of the display cases can be calculated
+  # from their rated cooling capacity times the length of the cases.  The capacity of each of the walk-ins is specified directly.
   condensor_cap = if compressor_type == 'Low Temp'
                     1.2 * cooling_cap * (1 + 1 / 1.3)
                   else

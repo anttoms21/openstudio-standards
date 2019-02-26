@@ -208,13 +208,15 @@
     "compressor_type": "Low Temp",
     "cases": [
       {
-        "case_type": "LT ReachIn Ice Cream",
+        "case_type": "LT ReachIn IceCream",
+        "lighting_schedule": "",
+        "restocking_schedule": "RestaurantFastFood Kitchen_Case:1_WALKINFREEZER_WalkInStockingSched",
         "space_names": [
           "Main Sales"
         ]
       },
       {
-        "case_type": "LT Coffin Ice Cream",
+        "case_type": "LT Coffin IceCream",
         "space_names": [
           "Main Sales"
         ]
@@ -393,7 +395,6 @@
         },
         {
           "walkin_type": "Walk-In Deli Cooler",
-          "insulated_floor_area": 11,
           "space_names": [
             "Deli"
           ],

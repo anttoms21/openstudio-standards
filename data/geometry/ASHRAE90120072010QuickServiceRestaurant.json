@@ -42,10 +42,7 @@
     "evaporator_fan_pwr_per_length": 74,
     "lighting_per_length": 33,
     "defrost_pwr_per_length": 1291.7,
-    "cop": 1.5,
-    "cop_f_of_t_curve_name": "RACK1_RackCOPfTCurve",
     "condenser_fan_pwr": 330,
-    "condenser_fan_pwr_curve_name": "RACK1_RackCondFanCurve2",
     "lighting_schedule": "RestaurantFastFood BLDG_LIGHT_DINING_SCH_2004_2007",
     "restocking_schedule": "RestaurantFastFood Kitchen_Case:1_WALKINFREEZER_WalkInStockingSched",
     "space_names": [
