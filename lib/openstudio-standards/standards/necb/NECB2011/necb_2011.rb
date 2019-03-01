@@ -237,11 +237,11 @@ class NECB2011 < Standard
     #   puts spacetype.name
     # end
 
-    #Get rid of any existing Thermostats. We will only use the code schedules.
+    #Get rid of any existing Thermostats. We will only use the code schedules.j
     model.getThermostatSetpointDualSetpoints(&:remove)
 
     #Set simulation start day to be consistent.
-    model.yearDescription.get.setDayofWeekforStartDay('Sunday')
+    model.getYearDescription.setDayofWeekforStartDay('Sunday')
 
     #Set climate data.
     model_add_design_days_and_weather_file(model, climate_zone, epw_file) # Standards
