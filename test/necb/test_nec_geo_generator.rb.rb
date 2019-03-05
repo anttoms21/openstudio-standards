@@ -5,7 +5,7 @@ require 'parallel'
 require 'etc'
 $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 #require 'Building.hpp'
-#LargeOffice
+#LargeOfficespace_type_objects[index]
 class GeoTest < CreateDOEPrototypeBuildingTest
   #creating an empty model object
   model = OpenStudio::Model::Model.new()
@@ -45,8 +45,13 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   model.getSpaces.each_with_index do |space, index|
     space.setSpaceType(space_type_objects[index])
 
+    space.getSpace.setName('hello') #("#{space_type_objects[index].standardsSpaceType.get}-#{space_type_objects[index].standardsBuildingType.get}")
+    puts space.name
+    raise 'hell'
+
     #puts "set space #{space.name} with index #{index} spacetype #{space_type_objects[index].standardsSpaceType.get} -#{space_type_objects[index].standardsSpaceType.get}"
   end
+
   standard.model_create_thermal_zones(model)
 
   BTAP::FileIO::save_osm(model, '/home/osdev/rectangle.osm')
@@ -57,7 +62,7 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   end
 
   standard.model_apply_standard(model: model,
-                                epw_file: 'CAN_AB_Fort.McMurray.AP.716890_CWEC201f6.epw',
+                                epw_file: 'CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw',
                                 sizing_run_dir: test_dir,
                                 new_auto_zoner: true)
 

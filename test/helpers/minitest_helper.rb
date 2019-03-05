@@ -32,7 +32,7 @@ else
   require 'minitest/reporters'
 end
 
-require 'openstudio'
+require '/usr/local/openstudio-2.6.0/Ruby/openstudio'
 require 'openstudio/ruleset/ShowRunnerOutput'
 require 'json'
 require 'fileutils'
@@ -40,10 +40,10 @@ require 'fileutils'
 # Require local version instead of installed version for developers
 begin
   require_relative '../../lib/openstudio-standards.rb'
-  puts 'DEVELOPERS OF OPENSTUDIO-STANDARDS: Requiring code directly instead of using installed gem.  This avoids having to run rake install every time you make a change.' 
+  puts 'DEVELOPERS OF OPENSTUDIO-STANDARDS: Requiring code directly instead of using installed gem.  This avoids having to run rake install every time you make a change.'
 rescue LoadError
   require 'openstudio-standards'
-  puts 'Using installed openstudio-standards gem.' 
+  puts 'Using installed openstudio-standards gem.'
 end
 
 # Format test output differently depending on whether running

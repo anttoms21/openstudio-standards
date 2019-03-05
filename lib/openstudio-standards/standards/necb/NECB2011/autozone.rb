@@ -960,6 +960,7 @@ class NECB2011
       end
       space.setSpaceType(new_spacetype)
       #sanity check.
+      puts space
       raise ("could not reassign space type schedule.") if schedule != space.spaceType.get.name.get.match(regex)[2]
     end
     return space
