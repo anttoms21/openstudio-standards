@@ -427,11 +427,24 @@ class NECB2011
   def store_space_sizing_loads(model)
     @stored_space_heating_sizing_loads = {}
     @stored_space_cooling_sizing_loads = {}
-    puts model.getSpaces.spaceType.get.standardsSpaceType.get
-    puts model.getSpaces.thermalZone.get.heatingDesignLoad.get
+
     model.getSpaces.each do |space|
-      #puts space.spaceType.get.standardsSpaceType.get
-      #puts space.thermalZone.get.heatingDesignLoad.get
+      if space.spaceType.empty?
+        puts "space-type is undefined #{space.name}"
+      end
+      if space.thermalZone.empty?
+        puts "thermalzone is undefined #{thermalZone.name}"
+      end
+      if space.spaceType.get.standardsSpaceType.get.empty?
+        puts "standardsSpaceType is undefined #{spaceType.get.standardsSpaceType.name}"
+      end
+#      if space.thermalZone.get.heatingDesignLoad.get.empty?
+ #       puts "heating Design load is undefined #{space.thermalZone.get.heatingDesignLoad.name}"
+   #   end
+ #     if thermalZone.get.coolingDesignLoad.get.empty?
+  #      puts "cooling Design load is undefined #{space.thermalZone.get.coolingDesignLoad.name}"
+  #    end
+
       @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
       @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
     end
