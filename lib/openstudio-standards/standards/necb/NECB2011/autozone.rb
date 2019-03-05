@@ -427,7 +427,11 @@ class NECB2011
   def store_space_sizing_loads(model)
     @stored_space_heating_sizing_loads = {}
     @stored_space_cooling_sizing_loads = {}
+    puts model.getSpaces.spaceType.get.standardsSpaceType.get
+    puts model.getSpaces.thermalZone.get.heatingDesignLoad.get
     model.getSpaces.each do |space|
+      #puts space.spaceType.get.standardsSpaceType.get
+      #puts space.thermalZone.get.heatingDesignLoad.get
       @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
       @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
     end
@@ -960,7 +964,7 @@ class NECB2011
       end
       space.setSpaceType(new_spacetype)
       #sanity check.
-      puts space
+      puts space.name
       raise ("could not reassign space type schedule.") if schedule != space.spaceType.get.name.get.match(regex)[2]
     end
     return space

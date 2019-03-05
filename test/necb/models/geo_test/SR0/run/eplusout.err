@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.05 16:13,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.05 18:46,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
@@ -6,172 +6,176 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.05 16:13,
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
-   ** Warning ** SetUpZoneSizingArrays: Requested Sizing for Zone="STORY 12 EAST PERIMETER SPACE ZN", Zone has no thermostat (ref: ZoneControl:Thermostat, et al)
-   ** Warning ** Calculated design heating load for zone=STORY 1 CORE SPACE ZN is zero.
+   ** Warning ** SetUpZoneSizingArrays: Requested Sizing for Zone="- UNDEFINED --SPACE FUNCTION ZN", Zone has no thermostat (ref: ZoneControl:Thermostat, et al)
+   ** Warning ** Calculated design cooling load for zone=- UNDEFINED --SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 1 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=- UNDEFINED --SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 1 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=ATRIUM - H > 13M-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 1 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=AUDIENCE - AUDITORIUM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 1 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=AUDIENCE - MOTION PICTURE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 10 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=AUDIENCE - PERFORMANCE ARTS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 10 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=BANK - BANKING AND OFFICES-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 10 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=CLASSROOM/LECTURE/TRAINING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 10 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=CONVENTION CENTRE - AUDIENCE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 10 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=CONVENTION CENTRE - EXHIBIT-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 11 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=COURTHOUSE - CELL-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 11 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 11 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=COURTHOUSE - COURTROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 12 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=DINING - OTHER-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design cooling load for zone=STORY 12 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 12 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 12 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=FOOD PREPARATION - VENTED-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 12 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=FOOD PREPARATION-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 13 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=GYM - FITNESS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 13 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - EMERGENCY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 13 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - EXAM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 14 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 14 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 14 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 15 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - NURSERY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 15 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - NURSES' STATION-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 15 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 16 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 16 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - PHARMACY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 17 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 17 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 18 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOSPITAL - RECOVERY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 18 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOTEL/MOTEL - DINING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 19 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 19 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HWAY LODGING - DINING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 2 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=HWAY LODGING - ROOMS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 2 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LAB - CLASSROOMS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 2 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LAB - RESEARCH-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 2 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LIBRARY - READING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 2 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LIBRARY - STACKS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 20 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOBBY - MOTION PICTURE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 20 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOBBY - OTHER-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 21 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 21 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-B-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 22 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-F-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 23 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-G-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 24 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-H-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 24 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=LOUNGE/RECREATION-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 25 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 25 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=MFG - BAY H < 7.5M-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 25 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=MFG - BAY H > 15M-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 26 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=MFG - DETAILED-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 27 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=MUSEUM - RESTORATION-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 3 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 3 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=OFFICE - ENCLOSED-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 3 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=OFFICE - OPEN PLAN-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 3 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 3 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=PENITENTIARY - DINING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 4 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 4 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 4 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 4 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=RETAIL - SALES-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 4 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=SALES AREA-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 5 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 5 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - COURT C1-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 5 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - COURT C3-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 5 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - RING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 5 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=TRANSP. BAGGAGE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 6 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=TRANSP. CONCOURSE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 6 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=TRANSP. COUNTER-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 6 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=TRANSP. SEATING-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 6 WEST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 7 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-DORMITORY ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 7 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-EXERCISE CENTRE ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 7 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-FIRE STATION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 8 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-HOSPITAL ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 8 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-LIBRARY ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 8 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-MOTION PICTURE THEATRE ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 8 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-PENITENTIARY ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 9 CORE SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-POLICE STATION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 9 EAST PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-RELIGIOUS ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 9 NORTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-RETAIL ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORY 9 SOUTH PERIMETER SPACE ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-SCHOOL/UNIVERSITY ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-TRANSPORTATION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=WORKSHOP SPACE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
@@ -201,5 +205,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.05 16:13,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 89 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 93 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 20.76sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 91 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 95 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 21.54sec

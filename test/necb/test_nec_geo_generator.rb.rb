@@ -45,13 +45,13 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   model.getSpaces.each_with_index do |space, index|
     space.setSpaceType(space_type_objects[index])
 
-    space.getSpace.setName('hello') #("#{space_type_objects[index].standardsSpaceType.get}-#{space_type_objects[index].standardsBuildingType.get}")
+    space.setName("#{space_type_objects[index].standardsSpaceType.get}-#{space_type_objects[index].standardsBuildingType.get}")
     puts space.name
-    raise 'hell'
+    #raise 'hell'
 
     #puts "set space #{space.name} with index #{index} spacetype #{space_type_objects[index].standardsSpaceType.get} -#{space_type_objects[index].standardsSpaceType.get}"
   end
-
+  #raise 'hell'
   standard.model_create_thermal_zones(model)
 
   BTAP::FileIO::save_osm(model, '/home/osdev/rectangle.osm')
