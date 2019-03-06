@@ -307,6 +307,7 @@ class NECB2011 < Standard
     model.getOutputControlReportingTolerances.setToleranceforTimeCoolingSetpointNotMet(1.0)
 
     #Do a second sizing run for the plant and loops.
+
     if model_run_sizing_run(model, "#{sizing_run_dir}/SR1") == false
       raise("sizing run 1 failed!")
     end

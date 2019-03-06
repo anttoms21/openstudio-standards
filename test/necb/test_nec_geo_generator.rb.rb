@@ -14,11 +14,14 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #puts standard
   #get spacetypes that are not wildcard spacetypes.
   spacetypes = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
+  puts spacetypes.size
+  #raise 'hell'
   #puts "number of non-wildcard spacetypes : #{spacetypes.size}"
   #determine number of floors
-  first_5_spacetypes = spacetypes[0...10]
+  #first_5_spacetypes = spacetypes[0...10]
   #puts first_5_spacetypes
-  number_of_floors = first_5_spacetypes.size / 5
+  #raise 'hell'
+  number_of_floors = spacetypes.size / 5
   model.getBuilding.setStandardsNumberOfStories(number_of_floors)
   model.getBuilding.setStandardsNumberOfAboveGroundStories(number_of_floors)
   #puts "Number of floors: #{number_of_floors}"
@@ -37,15 +40,17 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #puts model.getBuilding.standardsNumberOfStories
   #puts "Created model with #{number_of_floors*5} zones"
   space_type_objects = []
-  first_5_spacetypes.each do |spacetype_info|
+  spacetypes.each do |spacetype_info|
 
     spacetype = OpenStudio::Model::SpaceType.new(model)
     spacetype.setStandardsSpaceType(spacetype_info['space_type'])
     spacetype.setStandardsBuildingType(spacetype_info['building_type'])
+    spacetype.setName(spacetype_info['building_type'] + " " + spacetype_info['space_type'])
     space_type_objects << spacetype
     #  puts "Created spacetype #{spacetype_info['space_type']} -#{spacetype_info['building_type']}"
   end
-  puts space_type_objects
+  #puts space_type_objects
+  #raise 'hell'
   model.getSpaces.each_with_index do |space, index|
     space.setSpaceType(space_type_objects[index])
 
@@ -64,6 +69,8 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   if !Dir.exists?(test_dir)
     Dir.mkdir(test_dir)
   end
+
+
 
   standard.model_apply_standard(model: model,
                                 epw_file: 'CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw',

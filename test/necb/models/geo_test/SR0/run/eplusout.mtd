@@ -1,5 +1,5 @@
 
- Meters for 9,WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy [J]
+ Meters for 9,WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J]
@@ -7,15 +7,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 82,WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 107,WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy [J]
+ Meters for 82,WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J]
@@ -23,7 +15,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 132,WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy [J]
+ Meters for 107,WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J]
@@ -31,7 +23,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 157,WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy [J]
+ Meters for 132,WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J]
@@ -39,7 +31,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 182,WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy [J]
+ Meters for 157,WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J]
@@ -47,7 +39,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 207,WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy [J]
+ Meters for 182,WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J]
@@ -55,7 +47,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 232,WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy [J]
+ Meters for 207,WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J]
@@ -63,7 +55,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 257,WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy [J]
+ Meters for 232,WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J]
@@ -71,7 +63,7 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 282,WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy [J]
+ Meters for 257,WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J]
@@ -79,7 +71,15 @@
   OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 307,WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 282,WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J]
@@ -87,15 +87,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 344,WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 357,WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 344,WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J]
@@ -103,7 +95,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 370,WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 357,WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J]
@@ -111,7 +103,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 383,WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 370,WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J]
@@ -119,7 +111,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 396,WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 383,WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J]
@@ -127,7 +119,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 409,WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 396,WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J]
@@ -135,7 +127,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 422,WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 409,WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J]
@@ -143,7 +135,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 435,WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 422,WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J]
@@ -151,12 +143,20 @@
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 448,WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 435,WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
   OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 448,WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
  Meters for 461,WHOLEBUILDING-AUTOMOTIVE FACILITY ZN:Zone Air System Sensible Heating Energy [J]
@@ -427,196 +427,196 @@
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
  For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-AUTOMOTIVE FACILITY ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN SPACE TYPE 1 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-GYMNASIUM ZN SPACE TYPE 10 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-AUTOMOTIVE FACILITY ZN AUTOMOTIVE FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-CONVENTION CENTRE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-CONVENTION CENTRE ZN SPACE TYPE 2 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-CONVENTION CENTRE ZN CONVENTION CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-COURTHOUSE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-COURTHOUSE ZN SPACE TYPE 3 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-COURTHOUSE ZN COURTHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DINING - BAR/LOUNGE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - BAR/LOUNGE ZN SPACE TYPE 4 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - BAR/LOUNGE ZN DINING - BAR/LOUNGE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DINING - CAFETERIA ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - CAFETERIA ZN SPACE TYPE 5 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - CAFETERIA ZN DINING - CAFETERIA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DINING - FAMILY ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-DINING - FAMILY ZN SPACE TYPE 6 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DINING - FAMILY ZN DINING - FAMILY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-DORMITORY ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-DORMITORY ZN SPACE TYPE 7 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-DORMITORY ZN DORMITORY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-EXERCISE CENTRE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-EXERCISE CENTRE ZN SPACE TYPE 8 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-EXERCISE CENTRE ZN EXERCISE CENTRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-FIRE STATION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-FIRE STATION ZN SPACE TYPE 9 ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-FIRE STATION ZN FIRE STATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-GYMNASIUM ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-GYMNASIUM ZN GYMNASIUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
   WHOLEBUILDING-AUTOMOTIVE FACILITY ZN:Zone Air System Sensible Heating Energy

@@ -213,8 +213,8 @@ Building,
 Zone,
   WholeBuilding-Automotive facility ZN,   !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
+  25,                                     !- X Origin {m}
+  25,                                     !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -225,103 +225,87 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 49,                             !- Name
+  Surface 55,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   WholeBuilding-Automotive facility ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 24,                             !- Outside Boundary Condition Object
+  Surface 30,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 50,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
-  WholeBuilding-Automotive facility ZN,   !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-FenestrationSurface:Detailed,
-  Surface 50_FixedWindow,                 !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 50,                             !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  ,                                       !- Multiplier
-  ,                                       !- Number of Vertices
-  0.0254, 0, 1.7124828452854,             !- X,Y,Z Vertex 1 {m}
-  0.0254, 0, 0.762,                       !- X,Y,Z Vertex 2 {m}
-  99.9746, 0, 0.762,                      !- X,Y,Z Vertex 3 {m}
-  99.9746, 0, 1.7124828452854;            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 51,                             !- Name
+  Surface 56,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Automotive facility ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 35,                             !- Outside Boundary Condition Object
+  Surface 34,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 52,                             !- Name
+  Surface 57,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Automotive facility ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 59,                             !- Outside Boundary Condition Object
+  Surface 40,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 53,                             !- Name
+  Surface 58,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Automotive facility ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 45,                             !- Outside Boundary Condition Object
+  Surface 46,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 54,                             !- Name
+  Surface 59,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Automotive facility ZN,   !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 52,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 60,                             !- Name
   Roof,                                   !- Surface Type
   BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   WholeBuilding-Automotive facility ZN,   !- Zone Name
@@ -331,26 +315,26 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 54_Skylight,                    !- Name
+  Surface 60_Skylight,                    !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 54,                             !- Building Surface Name
+  Surface 60,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   1,                                      !- Multiplier
   ,                                       !- Number of Vertices
-  55.5901699437495, 15.2950849718747, 3.8, !- X,Y,Z Vertex 1 {m}
-  44.4098300562505, 15.2950849718747, 3.8, !- X,Y,Z Vertex 2 {m}
-  38.8196601125011, 9.70491502812526, 3.8, !- X,Y,Z Vertex 3 {m}
-  61.1803398874989, 9.70491502812526, 3.8; !- X,Y,Z Vertex 4 {m}
+  30.5901699437495, 19.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
+  30.5901699437495, 30.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
+  19.4098300562505, 30.5901699437495, 3.8, !- X,Y,Z Vertex 3 {m}
+  19.4098300562505, 19.4098300562505, 3.8; !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   WholeBuilding-Automotive facility Infiltration, !- Name
@@ -371,7 +355,7 @@ ZoneControl:Thermostat,
   WholeBuilding-Automotive facility ZN,   !- Zone or ZoneList Name
   WholeBuilding-Automotive facility ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 1 Thermostat 1;              !- Control Name 1
+  Automotive facility WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Automotive facility ZN Thermostat Schedule, !- Name
@@ -388,7 +372,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 1 Thermostat 1,              !- Name
+  Automotive facility WholeBuilding Thermostat 1, !- Name
   NECB-E-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-E-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -570,7 +554,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 1 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Automotive facility WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -579,7 +563,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 1 Ventilation,               !- Name
+  Automotive facility WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00114808,                             !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -604,7 +588,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 1 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Automotive facility WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -628,8 +612,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   WholeBuilding-Convention centre ZN,     !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
-  75,                                     !- Y Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -640,23 +624,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 37,                             !- Name
+  Surface 49,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   WholeBuilding-Convention centre ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 12,                             !- Outside Boundary Condition Object
+  Surface 24,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  -25, 25, 0,                             !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 38,                             !- Name
+  Surface 50,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   WholeBuilding-Convention centre ZN,     !- Zone Name
@@ -666,77 +650,77 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  -25, 25, 0,                             !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 38_FixedWindow,                 !- Name
+  Surface 50_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 38,                             !- Building Surface Name
+  Surface 50,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  74.9746, 25, 1.7124828452854,           !- X,Y,Z Vertex 1 {m}
-  74.9746, 25, 0.762,                     !- X,Y,Z Vertex 2 {m}
-  -24.9746, 25, 0.762,                    !- X,Y,Z Vertex 3 {m}
-  -24.9746, 25, 1.7124828452854;          !- X,Y,Z Vertex 4 {m}
+  0.0254, 0, 1.7124828452854,             !- X,Y,Z Vertex 1 {m}
+  0.0254, 0, 0.762,                       !- X,Y,Z Vertex 2 {m}
+  99.9746, 0, 0.762,                      !- X,Y,Z Vertex 3 {m}
+  99.9746, 0, 1.7124828452854;            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 39,                             !- Name
+  Surface 51,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Convention centre ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 47,                             !- Outside Boundary Condition Object
+  Surface 35,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 40,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Convention centre ZN,     !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 57,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 41,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Convention centre ZN,     !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 33,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  -25, 25, 0,                             !- X,Y,Z Vertex 2 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 42,                             !- Name
+  Surface 52,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Convention centre ZN,     !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 59,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 53,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Convention centre ZN,     !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 45,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 54,                             !- Name
   Roof,                                   !- Surface Type
   BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   WholeBuilding-Convention centre ZN,     !- Zone Name
@@ -746,26 +730,26 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
-  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 42_Skylight,                    !- Name
+  Surface 54_Skylight,                    !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 42,                             !- Building Surface Name
+  Surface 54,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   1,                                      !- Multiplier
   ,                                       !- Number of Vertices
-  19.4098300562505, 9.70491502812526, 3.8, !- X,Y,Z Vertex 1 {m}
-  30.5901699437495, 9.70491502812526, 3.8, !- X,Y,Z Vertex 2 {m}
-  36.1803398874989, 15.2950849718747, 3.8, !- X,Y,Z Vertex 3 {m}
-  13.8196601125011, 15.2950849718747, 3.8; !- X,Y,Z Vertex 4 {m}
+  55.5901699437495, 15.2950849718747, 3.8, !- X,Y,Z Vertex 1 {m}
+  44.4098300562505, 15.2950849718747, 3.8, !- X,Y,Z Vertex 2 {m}
+  38.8196601125011, 9.70491502812526, 3.8, !- X,Y,Z Vertex 3 {m}
+  61.1803398874989, 9.70491502812526, 3.8; !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   WholeBuilding-Convention centre Infiltration, !- Name
@@ -786,7 +770,7 @@ ZoneControl:Thermostat,
   WholeBuilding-Convention centre ZN,     !- Zone or ZoneList Name
   WholeBuilding-Convention centre ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 2 Thermostat 1;              !- Control Name 1
+  Convention centre WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Convention centre ZN Thermostat Schedule, !- Name
@@ -803,7 +787,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 2 Thermostat 1,              !- Name
+  Convention centre WholeBuilding Thermostat 1, !- Name
   NECB-C-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-C-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -988,7 +972,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 2 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Convention centre WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -997,7 +981,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 2 Ventilation,               !- Name
+  Convention centre WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00074676,                             !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -1022,7 +1006,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 2 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Convention centre WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -1046,8 +1030,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   WholeBuilding-Courthouse ZN,            !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
+  25,                                     !- X Origin {m}
+  75,                                     !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -1058,23 +1042,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 31,                             !- Name
+  Surface 37,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   WholeBuilding-Courthouse ZN,            !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 6,                              !- Outside Boundary Condition Object
+  Surface 12,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 32,                             !- Name
+  Surface 38,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   WholeBuilding-Courthouse ZN,            !- Zone Name
@@ -1084,77 +1068,77 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 32_FixedWindow,                 !- Name
+  Surface 38_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 32,                             !- Building Surface Name
+  Surface 38,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  0, 99.9746, 1.7124828452854,            !- X,Y,Z Vertex 1 {m}
-  0, 99.9746, 0.762,                      !- X,Y,Z Vertex 2 {m}
-  0, 0.0253999999999905, 0.762,           !- X,Y,Z Vertex 3 {m}
-  0, 0.0253999999999905, 1.7124828452854; !- X,Y,Z Vertex 4 {m}
+  74.9746, 25, 1.7124828452854,           !- X,Y,Z Vertex 1 {m}
+  74.9746, 25, 0.762,                     !- X,Y,Z Vertex 2 {m}
+  -24.9746, 25, 0.762,                    !- X,Y,Z Vertex 3 {m}
+  -24.9746, 25, 1.7124828452854;          !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 33,                             !- Name
+  Surface 39,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Courthouse ZN,            !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 41,                             !- Outside Boundary Condition Object
+  Surface 47,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
-  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 34,                             !- Name
+  Surface 40,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Courthouse ZN,            !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 56,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 35,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Courthouse ZN,            !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 51,                             !- Outside Boundary Condition Object
+  Surface 57,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 36,                             !- Name
+  Surface 41,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Courthouse ZN,            !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 33,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 42,                             !- Name
   Roof,                                   !- Surface Type
   BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   WholeBuilding-Courthouse ZN,            !- Zone Name
@@ -1164,26 +1148,26 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 36_Skylight,                    !- Name
+  Surface 42_Skylight,                    !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 36,                             !- Building Surface Name
+  Surface 42,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   1,                                      !- Multiplier
   ,                                       !- Number of Vertices
-  15.2950849718747, 44.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
-  15.2950849718747, 55.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
-  9.70491502812526, 61.1803398874989, 3.8, !- X,Y,Z Vertex 3 {m}
-  9.70491502812526, 38.8196601125011, 3.8; !- X,Y,Z Vertex 4 {m}
+  19.4098300562505, 9.70491502812526, 3.8, !- X,Y,Z Vertex 1 {m}
+  30.5901699437495, 9.70491502812526, 3.8, !- X,Y,Z Vertex 2 {m}
+  36.1803398874989, 15.2950849718747, 3.8, !- X,Y,Z Vertex 3 {m}
+  13.8196601125011, 15.2950849718747, 3.8; !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   WholeBuilding-Courthouse Infiltration,  !- Name
@@ -1204,7 +1188,7 @@ ZoneControl:Thermostat,
   WholeBuilding-Courthouse ZN,            !- Zone or ZoneList Name
   WholeBuilding-Courthouse ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 3 Thermostat 1;              !- Control Name 1
+  Courthouse WholeBuilding Thermostat 1;  !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Courthouse ZN Thermostat Schedule, !- Name
@@ -1221,7 +1205,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 3 Thermostat 1,              !- Name
+  Courthouse WholeBuilding Thermostat 1,  !- Name
   NECB-A-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-A-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -1386,7 +1370,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 3 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Courthouse WholeBuilding Ventilation,   !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -1395,7 +1379,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 3 Ventilation,               !- Name
+  Courthouse WholeBuilding Ventilation,   !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00046228,                             !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -1420,7 +1404,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 3 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Courthouse WholeBuilding Ventilation,   !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -1444,9 +1428,9 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   WholeBuilding-Dining - bar/lounge ZN,   !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
-  25,                                     !- Y Origin {m}
-  0,                                      !- Z Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -1456,107 +1440,153 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 25,                             !- Name
+  Surface 31,                             !- Name
   Floor,                                  !- Surface Type
-  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
+  BTAP-Int-Floor,                         !- Construction Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
+  Surface,                                !- Outside Boundary Condition
+  Surface 6,                              !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 26,                             !- Name
+  Surface 32,                             !- Name
   Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
+  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 4,                              !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
+FenestrationSurface:Detailed,
+  Surface 32_FixedWindow,                 !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
+  Surface 32,                             !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  0, 99.9746, 1.7124828452854,            !- X,Y,Z Vertex 1 {m}
+  0, 99.9746, 0.762,                      !- X,Y,Z Vertex 2 {m}
+  0, 0.0253999999999905, 0.762,           !- X,Y,Z Vertex 3 {m}
+  0, 0.0253999999999905, 1.7124828452854; !- X,Y,Z Vertex 4 {m}
+
 BuildingSurface:Detailed,
-  Surface 27,                             !- Name
+  Surface 33,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 10,                             !- Outside Boundary Condition Object
+  Surface 41,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
+  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 28,                             !- Name
+  Surface 34,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 16,                             !- Outside Boundary Condition Object
+  Surface 56,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 29,                             !- Name
+  Surface 35,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 22,                             !- Outside Boundary Condition Object
+  Surface 51,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 30,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 36,                             !- Name
+  Roof,                                   !- Surface Type
+  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 55,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 36_Skylight,                    !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
+  Surface 36,                             !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  15.2950849718747, 44.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
+  15.2950849718747, 55.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
+  9.70491502812526, 61.1803398874989, 3.8, !- X,Y,Z Vertex 3 {m}
+  9.70491502812526, 38.8196601125011, 3.8; !- X,Y,Z Vertex 4 {m}
+
+ZoneInfiltration:DesignFlowRate,
+  WholeBuilding-Dining - bar/lounge Infiltration, !- Name
+  WholeBuilding-Dining - bar/lounge ZN,   !- Zone or ZoneList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.224,                                  !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   WholeBuilding-Dining - bar/lounge ZN Thermostat, !- Name
   WholeBuilding-Dining - bar/lounge ZN,   !- Zone or ZoneList Name
   WholeBuilding-Dining - bar/lounge ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 4 Thermostat 1;              !- Control Name 1
+  Dining - bar/lounge WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Dining - bar/lounge ZN Thermostat Schedule, !- Name
@@ -1573,7 +1603,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 4 Thermostat 1,              !- Name
+  Dining - bar/lounge WholeBuilding Thermostat 1, !- Name
   NECB-B-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-B-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -1762,7 +1792,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 4 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dining - bar/lounge WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -1771,7 +1801,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 4 Ventilation,               !- Name
+  Dining - bar/lounge WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00127,                                !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -1796,7 +1826,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 4 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dining - bar/lounge WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -1820,8 +1850,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   WholeBuilding-Dining - cafeteria ZN,    !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
+  25,                                     !- X Origin {m}
+  25,                                     !- Y Origin {m}
   0,                                      !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -1832,7 +1862,7 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 19,                             !- Name
+  Surface 25,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
   WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
@@ -1842,97 +1872,97 @@ BuildingSurface:Detailed,
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 20,                             !- Name
+  Surface 26,                             !- Name
   Wall,                                   !- Surface Type
-  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
+  BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
+  Surface,                                !- Outside Boundary Condition
+  Surface 4,                              !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 27,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 10,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 28,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 16,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 29,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 22,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 21,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 5,                              !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 22,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 29,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 23,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 15,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 24,                             !- Name
+  Surface 30,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   WholeBuilding-Dining - cafeteria ZN,    !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 49,                             !- Outside Boundary Condition Object
+  Surface 55,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 ZoneControl:Thermostat,
   WholeBuilding-Dining - cafeteria ZN Thermostat, !- Name
   WholeBuilding-Dining - cafeteria ZN,    !- Zone or ZoneList Name
   WholeBuilding-Dining - cafeteria ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 5 Thermostat 1;              !- Control Name 1
+  Dining - cafeteria WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Dining - cafeteria ZN Thermostat Schedule, !- Name
@@ -1949,7 +1979,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 5 Thermostat 1,              !- Name
+  Dining - cafeteria WholeBuilding Thermostat 1, !- Name
   NECB-B-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-B-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -1990,7 +2020,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 5 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dining - cafeteria WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -1999,7 +2029,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 5 Ventilation,               !- Name
+  Dining - cafeteria WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00127,                                !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -2024,7 +2054,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 5 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dining - cafeteria WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -2048,8 +2078,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   WholeBuilding-Dining - family ZN,       !- Name
   -0,                                     !- Direction of Relative North {deg}
-  75,                                     !- X Origin {m}
-  25,                                     !- Y Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
   0,                                      !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -2060,7 +2090,7 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 13,                             !- Name
+  Surface 19,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
   WholeBuilding-Dining - family ZN,       !- Zone Name
@@ -2070,13 +2100,13 @@ BuildingSurface:Detailed,
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 14,                             !- Name
+  Surface 20,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
   WholeBuilding-Dining - family ZN,       !- Zone Name
@@ -2086,81 +2116,81 @@ BuildingSurface:Detailed,
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 15,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Dining - family ZN,       !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 23,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
-  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 16,                             !- Name
+  Surface 21,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dining - family ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 28,                             !- Outside Boundary Condition Object
+  Surface 5,                              !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 17,                             !- Name
+  Surface 22,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dining - family ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 9,                              !- Outside Boundary Condition Object
+  Surface 29,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 18,                             !- Name
+  Surface 23,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Dining - family ZN,       !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 15,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 24,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   WholeBuilding-Dining - family ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 43,                             !- Outside Boundary Condition Object
+  Surface 49,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
-  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 ZoneControl:Thermostat,
   WholeBuilding-Dining - family ZN Thermostat, !- Name
   WholeBuilding-Dining - family ZN,       !- Zone or ZoneList Name
   WholeBuilding-Dining - family ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 6 Thermostat 1;              !- Control Name 1
+  Dining - family WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Dining - family ZN Thermostat Schedule, !- Name
@@ -2177,7 +2207,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 6 Thermostat 1,              !- Name
+  Dining - family WholeBuilding Thermostat 1, !- Name
   NECB-B-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-B-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -2218,7 +2248,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 6 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dining - family WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -2227,7 +2257,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 6 Ventilation,               !- Name
+  Dining - family WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00127,                                !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -2252,7 +2282,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 6 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dining - family WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -2276,7 +2306,7 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   WholeBuilding-Dormitory ZN,             !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
+  75,                                     !- X Origin {m}
   25,                                     !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
@@ -2288,28 +2318,76 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 55,                             !- Name
+  Surface 43,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   WholeBuilding-Dormitory ZN,             !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 30,                             !- Outside Boundary Condition Object
+  Surface 18,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 56,                             !- Name
+  Surface 44,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
+  WholeBuilding-Dormitory ZN,             !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 44_FixedWindow,                 !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
+  Surface 44,                             !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  25, -24.9746, 1.7124828452854,          !- X,Y,Z Vertex 1 {m}
+  25, -24.9746, 0.762,                    !- X,Y,Z Vertex 2 {m}
+  25, 74.9746, 0.762,                     !- X,Y,Z Vertex 3 {m}
+  25, 74.9746, 1.7124828452854;           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 45,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dormitory ZN,             !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 34,                             !- Outside Boundary Condition Object
+  Surface 53,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
+  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 46,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  WholeBuilding-Dormitory ZN,             !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 58,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
@@ -2320,55 +2398,23 @@ BuildingSurface:Detailed,
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 57,                             !- Name
+  Surface 47,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Dormitory ZN,             !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 40,                             !- Outside Boundary Condition Object
+  Surface 39,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
   0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
   0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 58,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Dormitory ZN,             !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 46,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 59,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  WholeBuilding-Dormitory ZN,             !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 52,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 60,                             !- Name
+  Surface 48,                             !- Name
   Roof,                                   !- Surface Type
   BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   WholeBuilding-Dormitory ZN,             !- Zone Name
@@ -2378,26 +2424,26 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
+  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 60_Skylight,                    !- Name
+  Surface 48_Skylight,                    !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 60,                             !- Building Surface Name
+  Surface 48,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   1,                                      !- Multiplier
   ,                                       !- Number of Vertices
-  30.5901699437495, 19.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
-  30.5901699437495, 30.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
-  19.4098300562505, 30.5901699437495, 3.8, !- X,Y,Z Vertex 3 {m}
-  19.4098300562505, 19.4098300562505, 3.8; !- X,Y,Z Vertex 4 {m}
+  9.70491502812526, 30.5901699437495, 3.8, !- X,Y,Z Vertex 1 {m}
+  9.70491502812526, 19.4098300562505, 3.8, !- X,Y,Z Vertex 2 {m}
+  15.2950849718747, 13.8196601125011, 3.8, !- X,Y,Z Vertex 3 {m}
+  15.2950849718747, 36.1803398874989, 3.8; !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   WholeBuilding-Dormitory Infiltration,   !- Name
@@ -2418,7 +2464,7 @@ ZoneControl:Thermostat,
   WholeBuilding-Dormitory ZN,             !- Zone or ZoneList Name
   WholeBuilding-Dormitory ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 7 Thermostat 1;              !- Control Name 1
+  Dormitory WholeBuilding Thermostat 1;   !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Dormitory ZN Thermostat Schedule, !- Name
@@ -2435,7 +2481,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 7 Thermostat 1,              !- Name
+  Dormitory WholeBuilding Thermostat 1,   !- Name
   NECB-G-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-G-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -2604,7 +2650,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 7 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dormitory WholeBuilding Ventilation,    !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -2613,7 +2659,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 7 Ventilation,               !- Name
+  Dormitory WholeBuilding Ventilation,    !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.000381,                               !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -2638,7 +2684,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 7 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Dormitory WholeBuilding Ventilation,    !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -2664,7 +2710,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   75,                                     !- X Origin {m}
   25,                                     !- Y Origin {m}
-  3.8,                                    !- Z Origin {m}
+  0,                                      !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -2674,12 +2720,12 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 43,                             !- Name
+  Surface 13,                             !- Name
   Floor,                                  !- Surface Type
-  BTAP-Int-Floor,                         !- Construction Name
+  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
   WholeBuilding-Exercise centre ZN,       !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 18,                             !- Outside Boundary Condition Object
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
@@ -2690,14 +2736,14 @@ BuildingSurface:Detailed,
   0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 44,                             !- Name
+  Surface 14,                             !- Name
   Wall,                                   !- Surface Type
-  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
+  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
   WholeBuilding-Exercise centre ZN,       !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
+  Ground,                                 !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
@@ -2705,29 +2751,13 @@ BuildingSurface:Detailed,
   25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
   25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
-FenestrationSurface:Detailed,
-  Surface 44_FixedWindow,                 !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 44,                             !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  ,                                       !- Multiplier
-  ,                                       !- Number of Vertices
-  25, -24.9746, 1.7124828452854,          !- X,Y,Z Vertex 1 {m}
-  25, -24.9746, 0.762,                    !- X,Y,Z Vertex 2 {m}
-  25, 74.9746, 0.762,                     !- X,Y,Z Vertex 3 {m}
-  25, 74.9746, 1.7124828452854;           !- X,Y,Z Vertex 4 {m}
-
 BuildingSurface:Detailed,
-  Surface 45,                             !- Name
+  Surface 15,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Exercise centre ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 53,                             !- Outside Boundary Condition Object
+  Surface 23,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
@@ -2738,12 +2768,12 @@ BuildingSurface:Detailed,
   25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 46,                             !- Name
+  Surface 16,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Exercise centre ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 58,                             !- Outside Boundary Condition Object
+  Surface 28,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
@@ -2754,12 +2784,12 @@ BuildingSurface:Detailed,
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 47,                             !- Name
+  Surface 17,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   WholeBuilding-Exercise centre ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 39,                             !- Outside Boundary Condition Object
+  Surface 9,                              !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
@@ -2770,14 +2800,14 @@ BuildingSurface:Detailed,
   0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 48,                             !- Name
-  Roof,                                   !- Surface Type
-  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
+  Surface 18,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
   WholeBuilding-Exercise centre ZN,       !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  Surface,                                !- Outside Boundary Condition
+  Surface 43,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
@@ -2785,42 +2815,12 @@ BuildingSurface:Detailed,
   25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
   25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
-FenestrationSurface:Detailed,
-  Surface 48_Skylight,                    !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 48,                             !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  1,                                      !- Multiplier
-  ,                                       !- Number of Vertices
-  9.70491502812526, 30.5901699437495, 3.8, !- X,Y,Z Vertex 1 {m}
-  9.70491502812526, 19.4098300562505, 3.8, !- X,Y,Z Vertex 2 {m}
-  15.2950849718747, 13.8196601125011, 3.8, !- X,Y,Z Vertex 3 {m}
-  15.2950849718747, 36.1803398874989, 3.8; !- X,Y,Z Vertex 4 {m}
-
-ZoneInfiltration:DesignFlowRate,
-  WholeBuilding-Exercise centre Infiltration, !- Name
-  WholeBuilding-Exercise centre ZN,       !- Zone or ZoneList Name
-  Always On Discrete,                     !- Schedule Name
-  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
-  ,                                       !- Design Flow Rate {m3/s}
-  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
-  ,                                       !- Air Changes per Hour {1/hr}
-  0,                                      !- Constant Term Coefficient
-  0,                                      !- Temperature Term Coefficient
-  0.224,                                  !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
-
 ZoneControl:Thermostat,
   WholeBuilding-Exercise centre ZN Thermostat, !- Name
   WholeBuilding-Exercise centre ZN,       !- Zone or ZoneList Name
   WholeBuilding-Exercise centre ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 8 Thermostat 1;              !- Control Name 1
+  Exercise centre WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Exercise centre ZN Thermostat Schedule, !- Name
@@ -2837,7 +2837,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 8 Thermostat 1,              !- Name
+  Exercise centre WholeBuilding Thermostat 1, !- Name
   NECB-B-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-B-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -2878,7 +2878,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 8 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Exercise centre WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -2887,7 +2887,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 8 Ventilation,               !- Name
+  Exercise centre WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00124968,                             !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -2912,7 +2912,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 8 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Exercise centre WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -3048,7 +3048,7 @@ ZoneControl:Thermostat,
   WholeBuilding-Fire station ZN,          !- Zone or ZoneList Name
   WholeBuilding-Fire station ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 9 Thermostat 1;              !- Control Name 1
+  Fire station WholeBuilding Thermostat 1; !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Fire station ZN Thermostat Schedule, !- Name
@@ -3065,7 +3065,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 9 Thermostat 1,              !- Name
+  Fire station WholeBuilding Thermostat 1, !- Name
   NECB-F-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-F-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -3234,7 +3234,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 9 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Fire station WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -3243,7 +3243,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 9 Ventilation,               !- Name
+  Fire station WholeBuilding Ventilation, !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00075184,                             !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -3268,7 +3268,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 9 Ventilation,               !- Design Specification Outdoor Air Object Name
+  Fire station WholeBuilding Ventilation, !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -3404,7 +3404,7 @@ ZoneControl:Thermostat,
   WholeBuilding-Gymnasium ZN,             !- Zone or ZoneList Name
   WholeBuilding-Gymnasium ZN Thermostat Schedule, !- Control Type Schedule Name
   ThermostatSetpoint:DualSetpoint,        !- Control Object Type 1
-  Space Type 10 Thermostat 1;             !- Control Name 1
+  Gymnasium WholeBuilding Thermostat 1;   !- Control Name 1
 
 Schedule:Compact,
   WholeBuilding-Gymnasium ZN Thermostat Schedule, !- Name
@@ -3421,7 +3421,7 @@ ScheduleTypeLimits,
   DISCRETE;                               !- Numeric Type
 
 ThermostatSetpoint:DualSetpoint,
-  Space Type 10 Thermostat 1,             !- Name
+  Gymnasium WholeBuilding Thermostat 1,   !- Name
   NECB-B-Thermostat Setpoint-Heating,     !- Heating Setpoint Temperature Schedule Name
   NECB-B-Thermostat Setpoint-Cooling;     !- Cooling Setpoint Temperature Schedule Name
 
@@ -3462,7 +3462,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ,                                       !- Dehumidification Control Type
   ,                                       !- Cooling Sensible Heat Ratio {dimensionless}
   ,                                       !- Humidification Control Type
-  Space Type 10 Ventilation,              !- Design Specification Outdoor Air Object Name
+  Gymnasium WholeBuilding Ventilation,    !- Design Specification Outdoor Air Object Name
   ,                                       !- Outdoor Air Inlet Node Name
   ,                                       !- Demand Controlled Ventilation Type
   ,                                       !- Outdoor Air Economizer Type
@@ -3471,7 +3471,7 @@ ZoneHVAC:IdealLoadsAirSystem,
   ;                                       !- Latent Heat Recovery Effectiveness {dimensionless}
 
 DesignSpecification:OutdoorAir,
-  Space Type 10 Ventilation,              !- Name
+  Gymnasium WholeBuilding Ventilation,    !- Name
   Sum,                                    !- Outdoor Air Method
   0,                                      !- Outdoor Air Flow per Person {m3/s-person}
   0.00124968,                             !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
@@ -3496,7 +3496,7 @@ Sizing:Zone,
   11.11,                                  !- Zone Heating Design Supply Air Temperature Difference {deltaC}
   0.0085,                                 !- Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}
   0.008,                                  !- Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}
-  Space Type 10 Ventilation,              !- Design Specification Outdoor Air Object Name
+  Gymnasium WholeBuilding Ventilation,    !- Design Specification Outdoor Air Object Name
   ,                                       !- Zone Heating Sizing Factor
   ,                                       !- Zone Cooling Sizing Factor
   DesignDay,                              !- Cooling Design Air Flow Method
@@ -6255,12 +6255,12 @@ SizingPeriod:DesignDay,
   0;                                      !- Sky Clearness
 
 ZoneList,
-  Space Type 1,                           !- Name
+  Automotive facility WholeBuilding,      !- Name
   WholeBuilding-Automotive facility ZN;   !- Zone Name 1
 
 Lights,
-  Space Type 1 Lights,                    !- Name
-  Space Type 1,                           !- Zone or ZoneList Name
+  Automotive facility WholeBuilding Lights, !- Name
+  Automotive facility WholeBuilding,      !- Zone or ZoneList Name
   NECB-E-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6273,8 +6273,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 1 People,                    !- Name
-  Space Type 1,                           !- Zone or ZoneList Name
+  Automotive facility WholeBuilding People, !- Name
+  Automotive facility WholeBuilding,      !- Zone or ZoneList Name
   NECB-E-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6294,8 +6294,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 1 Elec Equip,                !- Name
-  Space Type 1,                           !- Zone or ZoneList Name
+  Automotive facility WholeBuilding Elec Equip, !- Name
+  Automotive facility WholeBuilding,      !- Zone or ZoneList Name
   NECB-E-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6307,64 +6307,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 10,                          !- Name
-  WholeBuilding-Gymnasium ZN;             !- Zone Name 1
-
-Lights,
-  Space Type 10 Lights,                   !- Name
-  Space Type 10,                          !- Zone or ZoneList Name
-  NECB-B-Lighting,                        !- Schedule Name
-  Watts/Area,                             !- Design Level Calculation Method
-  ,                                       !- Lighting Level {W}
-  10.799910121348,                        !- Watts per Zone Floor Area {W/m2}
-  ,                                       !- Watts per Person {W/person}
-  ,                                       !- Return Air Fraction
-  0.5,                                    !- Fraction Radiant
-  0.2,                                    !- Fraction Visible
-  1,                                      !- Fraction Replaceable
-  General;                                !- End-Use Subcategory
-
-People,
-  Space Type 10 People,                   !- Name
-  Space Type 10,                          !- Zone or ZoneList Name
-  NECB-B-Occupancy,                       !- Number of People Schedule Name
-  People/Area,                            !- Number of People Calculation Method
-  ,                                       !- Number of People
-  0.0999967277712333,                     !- People per Zone Floor Area {person/m2}
-  ,                                       !- Zone Floor Area per Person {m2/person}
-  0.3,                                    !- Fraction Radiant
-  ,                                       !- Sensible Heat Fraction
-  NECB-Activity,                          !- Activity Level Schedule Name
-  ,                                       !- Carbon Dioxide Generation Rate {m3/s-W}
-  ,                                       !- Enable ASHRAE 55 Comfort Warnings
-  ,                                       !- Mean Radiant Temperature Calculation Type
-  ,                                       !- Surface Name/Angle Factor List Name
-  Work Efficiency Schedule,               !- Work Efficiency Schedule Name
-  ,                                       !- Clothing Insulation Calculation Method
-  ,                                       !- Clothing Insulation Calculation Method Schedule Name
-  Clothing Schedule,                      !- Clothing Insulation Schedule Name
-  Air Velocity Schedule;                  !- Air Velocity Schedule Name
-
-ElectricEquipment,
-  Space Type 10 Elec Equip,               !- Name
-  Space Type 10,                          !- Zone or ZoneList Name
-  NECB-B-Electric-Equipment,              !- Schedule Name
-  Watts/Area,                             !- Design Level Calculation Method
-  ,                                       !- Design Level {W}
-  0.999991679497248,                      !- Watts per Zone Floor Area {W/m2}
-  ,                                       !- Watts per Person {W/person}
-  ,                                       !- Fraction Latent
-  0.5,                                    !- Fraction Radiant
-  ,                                       !- Fraction Lost
-  General;                                !- End-Use Subcategory
-
-ZoneList,
-  Space Type 2,                           !- Name
+  Convention centre WholeBuilding,        !- Name
   WholeBuilding-Convention centre ZN;     !- Zone Name 1
 
 Lights,
-  Space Type 2 Lights,                    !- Name
-  Space Type 2,                           !- Zone or ZoneList Name
+  Convention centre WholeBuilding Lights, !- Name
+  Convention centre WholeBuilding,        !- Zone or ZoneList Name
   NECB-C-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6377,8 +6325,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 2 People,                    !- Name
-  Space Type 2,                           !- Zone or ZoneList Name
+  Convention centre WholeBuilding People, !- Name
+  Convention centre WholeBuilding,        !- Zone or ZoneList Name
   NECB-C-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6398,8 +6346,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 2 Elec Equip,                !- Name
-  Space Type 2,                           !- Zone or ZoneList Name
+  Convention centre WholeBuilding Elec Equip, !- Name
+  Convention centre WholeBuilding,        !- Zone or ZoneList Name
   NECB-C-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6411,12 +6359,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 3,                           !- Name
+  Courthouse WholeBuilding,               !- Name
   WholeBuilding-Courthouse ZN;            !- Zone Name 1
 
 Lights,
-  Space Type 3 Lights,                    !- Name
-  Space Type 3,                           !- Zone or ZoneList Name
+  Courthouse WholeBuilding Lights,        !- Name
+  Courthouse WholeBuilding,               !- Zone or ZoneList Name
   NECB-A-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6429,8 +6377,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 3 People,                    !- Name
-  Space Type 3,                           !- Zone or ZoneList Name
+  Courthouse WholeBuilding People,        !- Name
+  Courthouse WholeBuilding,               !- Zone or ZoneList Name
   NECB-A-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6450,8 +6398,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 3 Elec Equip,                !- Name
-  Space Type 3,                           !- Zone or ZoneList Name
+  Courthouse WholeBuilding Elec Equip,    !- Name
+  Courthouse WholeBuilding,               !- Zone or ZoneList Name
   NECB-A-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6463,12 +6411,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 4,                           !- Name
+  Dining - bar/lounge WholeBuilding,      !- Name
   WholeBuilding-Dining - bar/lounge ZN;   !- Zone Name 1
 
 Lights,
-  Space Type 4 Lights,                    !- Name
-  Space Type 4,                           !- Zone or ZoneList Name
+  Dining - bar/lounge WholeBuilding Lights, !- Name
+  Dining - bar/lounge WholeBuilding,      !- Zone or ZoneList Name
   NECB-B-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6481,8 +6429,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 4 People,                    !- Name
-  Space Type 4,                           !- Zone or ZoneList Name
+  Dining - bar/lounge WholeBuilding People, !- Name
+  Dining - bar/lounge WholeBuilding,      !- Zone or ZoneList Name
   NECB-B-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6502,8 +6450,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 4 Elec Equip,                !- Name
-  Space Type 4,                           !- Zone or ZoneList Name
+  Dining - bar/lounge WholeBuilding Elec Equip, !- Name
+  Dining - bar/lounge WholeBuilding,      !- Zone or ZoneList Name
   NECB-B-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6515,12 +6463,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 5,                           !- Name
+  Dining - cafeteria WholeBuilding,       !- Name
   WholeBuilding-Dining - cafeteria ZN;    !- Zone Name 1
 
 Lights,
-  Space Type 5 Lights,                    !- Name
-  Space Type 5,                           !- Zone or ZoneList Name
+  Dining - cafeteria WholeBuilding Lights, !- Name
+  Dining - cafeteria WholeBuilding,       !- Zone or ZoneList Name
   NECB-B-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6533,8 +6481,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 5 People,                    !- Name
-  Space Type 5,                           !- Zone or ZoneList Name
+  Dining - cafeteria WholeBuilding People, !- Name
+  Dining - cafeteria WholeBuilding,       !- Zone or ZoneList Name
   NECB-B-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6554,8 +6502,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 5 Elec Equip,                !- Name
-  Space Type 5,                           !- Zone or ZoneList Name
+  Dining - cafeteria WholeBuilding Elec Equip, !- Name
+  Dining - cafeteria WholeBuilding,       !- Zone or ZoneList Name
   NECB-B-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6567,12 +6515,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 6,                           !- Name
+  Dining - family WholeBuilding,          !- Name
   WholeBuilding-Dining - family ZN;       !- Zone Name 1
 
 Lights,
-  Space Type 6 Lights,                    !- Name
-  Space Type 6,                           !- Zone or ZoneList Name
+  Dining - family WholeBuilding Lights,   !- Name
+  Dining - family WholeBuilding,          !- Zone or ZoneList Name
   NECB-B-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6585,8 +6533,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 6 People,                    !- Name
-  Space Type 6,                           !- Zone or ZoneList Name
+  Dining - family WholeBuilding People,   !- Name
+  Dining - family WholeBuilding,          !- Zone or ZoneList Name
   NECB-B-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6606,8 +6554,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 6 Elec Equip,                !- Name
-  Space Type 6,                           !- Zone or ZoneList Name
+  Dining - family WholeBuilding Elec Equip, !- Name
+  Dining - family WholeBuilding,          !- Zone or ZoneList Name
   NECB-B-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6619,12 +6567,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 7,                           !- Name
+  Dormitory WholeBuilding,                !- Name
   WholeBuilding-Dormitory ZN;             !- Zone Name 1
 
 Lights,
-  Space Type 7 Lights,                    !- Name
-  Space Type 7,                           !- Zone or ZoneList Name
+  Dormitory WholeBuilding Lights,         !- Name
+  Dormitory WholeBuilding,                !- Zone or ZoneList Name
   NECB-G-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6637,8 +6585,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 7 People,                    !- Name
-  Space Type 7,                           !- Zone or ZoneList Name
+  Dormitory WholeBuilding People,         !- Name
+  Dormitory WholeBuilding,                !- Zone or ZoneList Name
   NECB-G-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6658,8 +6606,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 7 Elec Equip,                !- Name
-  Space Type 7,                           !- Zone or ZoneList Name
+  Dormitory WholeBuilding Elec Equip,     !- Name
+  Dormitory WholeBuilding,                !- Zone or ZoneList Name
   NECB-G-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6671,12 +6619,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 8,                           !- Name
+  Exercise centre WholeBuilding,          !- Name
   WholeBuilding-Exercise centre ZN;       !- Zone Name 1
 
 Lights,
-  Space Type 8 Lights,                    !- Name
-  Space Type 8,                           !- Zone or ZoneList Name
+  Exercise centre WholeBuilding Lights,   !- Name
+  Exercise centre WholeBuilding,          !- Zone or ZoneList Name
   NECB-B-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6689,8 +6637,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 8 People,                    !- Name
-  Space Type 8,                           !- Zone or ZoneList Name
+  Exercise centre WholeBuilding People,   !- Name
+  Exercise centre WholeBuilding,          !- Zone or ZoneList Name
   NECB-B-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6710,8 +6658,8 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 8 Elec Equip,                !- Name
-  Space Type 8,                           !- Zone or ZoneList Name
+  Exercise centre WholeBuilding Elec Equip, !- Name
+  Exercise centre WholeBuilding,          !- Zone or ZoneList Name
   NECB-B-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
@@ -6723,12 +6671,12 @@ ElectricEquipment,
   General;                                !- End-Use Subcategory
 
 ZoneList,
-  Space Type 9,                           !- Name
+  Fire station WholeBuilding,             !- Name
   WholeBuilding-Fire station ZN;          !- Zone Name 1
 
 Lights,
-  Space Type 9 Lights,                    !- Name
-  Space Type 9,                           !- Zone or ZoneList Name
+  Fire station WholeBuilding Lights,      !- Name
+  Fire station WholeBuilding,             !- Zone or ZoneList Name
   NECB-F-Lighting,                        !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
@@ -6741,8 +6689,8 @@ Lights,
   General;                                !- End-Use Subcategory
 
 People,
-  Space Type 9 People,                    !- Name
-  Space Type 9,                           !- Zone or ZoneList Name
+  Fire station WholeBuilding People,      !- Name
+  Fire station WholeBuilding,             !- Zone or ZoneList Name
   NECB-F-Occupancy,                       !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
@@ -6762,12 +6710,64 @@ People,
   Air Velocity Schedule;                  !- Air Velocity Schedule Name
 
 ElectricEquipment,
-  Space Type 9 Elec Equip,                !- Name
-  Space Type 9,                           !- Zone or ZoneList Name
+  Fire station WholeBuilding Elec Equip,  !- Name
+  Fire station WholeBuilding,             !- Zone or ZoneList Name
   NECB-F-Electric-Equipment,              !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Design Level {W}
   2.49997919336116,                       !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Fraction Latent
+  0.5,                                    !- Fraction Radiant
+  ,                                       !- Fraction Lost
+  General;                                !- End-Use Subcategory
+
+ZoneList,
+  Gymnasium WholeBuilding,                !- Name
+  WholeBuilding-Gymnasium ZN;             !- Zone Name 1
+
+Lights,
+  Gymnasium WholeBuilding Lights,         !- Name
+  Gymnasium WholeBuilding,                !- Zone or ZoneList Name
+  NECB-B-Lighting,                        !- Schedule Name
+  Watts/Area,                             !- Design Level Calculation Method
+  ,                                       !- Lighting Level {W}
+  10.799910121348,                        !- Watts per Zone Floor Area {W/m2}
+  ,                                       !- Watts per Person {W/person}
+  ,                                       !- Return Air Fraction
+  0.5,                                    !- Fraction Radiant
+  0.2,                                    !- Fraction Visible
+  1,                                      !- Fraction Replaceable
+  General;                                !- End-Use Subcategory
+
+People,
+  Gymnasium WholeBuilding People,         !- Name
+  Gymnasium WholeBuilding,                !- Zone or ZoneList Name
+  NECB-B-Occupancy,                       !- Number of People Schedule Name
+  People/Area,                            !- Number of People Calculation Method
+  ,                                       !- Number of People
+  0.0999967277712333,                     !- People per Zone Floor Area {person/m2}
+  ,                                       !- Zone Floor Area per Person {m2/person}
+  0.3,                                    !- Fraction Radiant
+  ,                                       !- Sensible Heat Fraction
+  NECB-Activity,                          !- Activity Level Schedule Name
+  ,                                       !- Carbon Dioxide Generation Rate {m3/s-W}
+  ,                                       !- Enable ASHRAE 55 Comfort Warnings
+  ,                                       !- Mean Radiant Temperature Calculation Type
+  ,                                       !- Surface Name/Angle Factor List Name
+  Work Efficiency Schedule,               !- Work Efficiency Schedule Name
+  ,                                       !- Clothing Insulation Calculation Method
+  ,                                       !- Clothing Insulation Calculation Method Schedule Name
+  Clothing Schedule,                      !- Clothing Insulation Schedule Name
+  Air Velocity Schedule;                  !- Air Velocity Schedule Name
+
+ElectricEquipment,
+  Gymnasium WholeBuilding Elec Equip,     !- Name
+  Gymnasium WholeBuilding,                !- Zone or ZoneList Name
+  NECB-B-Electric-Equipment,              !- Schedule Name
+  Watts/Area,                             !- Design Level Calculation Method
+  ,                                       !- Design Level {W}
+  0.999991679497248,                      !- Watts per Zone Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Fraction Latent
   0.5,                                    !- Fraction Radiant
