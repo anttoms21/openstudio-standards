@@ -429,24 +429,30 @@ class NECB2011
     @stored_space_cooling_sizing_loads = {}
 
     model.getSpaces.each do |space|
-      if space.spaceType.empty?
-        puts "space-type is undefined #{space.name}"
-      end
-      if space.thermalZone.empty?
-        puts "thermalzone is undefined #{thermalZone.name}"
-      end
-      if space.spaceType.get.standardsSpaceType.get.empty?
-        puts "standardsSpaceType is undefined #{spaceType.get.standardsSpaceType.name}"
-      end
-#      if space.thermalZone.get.heatingDesignLoad.get.empty?
- #       puts "heating Design load is undefined #{space.thermalZone.get.heatingDesignLoad.name}"
-   #   end
- #     if thermalZone.get.coolingDesignLoad.get.empty?
-  #      puts "cooling Design load is undefined #{space.thermalZone.get.coolingDesignLoad.name}"
-  #    end
+      unless space.nameString == "Hospital - nurses' station-Space Function"
+        unless space.nameString == "Return Plenum-Space Function"
+          if space.spaceType.empty?
+            raise ("space-type is undefined #{space.name}")
+          end
+          if space.thermalZone.empty?
+            raise ("thermalzone is undefined #{thermalZone.name}")
+          end
+          if space.spaceType.get.standardsSpaceType.get.empty?
+            raise ("standardsSpaceType is undefined #{spaceType.get.standardsSpaceType.name}")
+          end
 
-      @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
-      @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
+          puts space.name
+          # if space.thermalZone.get.heatingDesignLoad.get.nil?
+          #   raise ( "heating Design load is undefined #{space.thermalZone.get.heatingDesignLoad.name}")
+          # end
+          #     if thermalZone.get.coolingDesignLoad.get.empty?
+          #      puts "cooling Design load is undefined #{space.thermalZone.get.coolingDesignLoad.name}"
+          #    end
+
+          @stored_space_heating_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.heatingDesignLoad.get
+          @stored_space_cooling_sizing_loads[space] = space.spaceType.get.standardsSpaceType.get == '- undefined -' ? 0.0 : space.thermalZone.get.coolingDesignLoad.get
+        end
+      end
     end
   end
 
