@@ -13,8 +13,11 @@ class GeoTest < CreateDOEPrototypeBuildingTest
 
   #puts standard
   #get spacetypes that are not wildcard spacetypes.
-  spacetypes = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
+  spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
+  spacetypes = spacetypes_unfilterted.select{|spacetype| spacetype["space_type"] != "- undefined -" }
+  puts spacetypes_unfilterted.size
   puts spacetypes.size
+  
   #raise 'hell'
   #puts "number of non-wildcard spacetypes : #{spacetypes.size}"
   #determine number of floors
