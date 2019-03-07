@@ -1,5 +1,5 @@
 EnergyPlus Starting
-EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.06 15:05
+EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 21:46
 Initializing Response Factors
 Calculating CTFs for "BTAP-EXT-ROOF-METAL:U-0.162", Construction # 18
 Calculating CTFs for "BTAP-EXT-WALL-MASS:U-0.21", Construction # 22
@@ -48,6 +48,7 @@ Warming up
 Warming up
 Warming up
 Warming up
+Warming up
 Performing Zone Sizing Simulation
 ...for Sizing Period: #2 FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB
 Calculating System sizing
@@ -66,6 +67,25 @@ Warming up {3}
 Warming up {4}
 Warming up {5}
 Warming up {6}
+Warming up {7}
+Warming up {8}
+Warming up {9}
+Warming up {10}
+Warming up {11}
+Warming up {12}
+Warming up {13}
+Warming up {14}
+Warming up {15}
+Warming up {16}
+Warming up {17}
+Warming up {18}
+Warming up {19}
+Warming up {20}
+Warming up {21}
+Warming up {22}
+Warming up {23}
+Warming up {24}
+Warming up {25}
 Starting Simulation at 01/01 for RUN PERIOD 1
 Updating Shadowing Calculations, Start Date=01/21
 Continuing Simulation at 01/21 for RUN PERIOD 1

@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 16:04,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 21:45,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
@@ -6,30 +6,6 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 16:04,
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS PEOPLE".
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[110] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [11] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS PEOPLE".
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[114] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [15] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS PEOPLE".
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED PEOPLE".
    ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED PEOPLE".
    **   ~~~   ** ZoneList/Zone Name="WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN".
@@ -43,30 +19,6 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 16:04,
    **   ~~~   ** Shortening the Object Name by [11] characters will assure uniqueness for this ZoneList.
    **   ~~~   ** name that will be used (may be needed in reporting)="WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED PEOPLE".
    ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[110] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [11] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[114] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [15] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS".
    **   ~~~   ** ZoneList/Zone Name="WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN".
    **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
@@ -79,30 +31,6 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 16:04,
    **   ~~~   ** Shortening the Object Name by [11] characters will assure uniqueness for this ZoneList.
    **   ~~~   ** name that will be used (may be needed in reporting)="WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[114] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [15] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[118] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [19] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP".
    **   ~~~   ** ZoneList/Zone Name="WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN".
    **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
@@ -114,165 +42,21 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 16:04,
    **   ~~~   ** Item length=[114] > Maximum Length=[100]. You may need to shorten the names.
    **   ~~~   ** Shortening the Object Name by [15] characters will assure uniqueness for this ZoneList.
    **   ~~~   ** name that will be used (may be needed in reporting)="WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP".
-   ** Warning ** Calculated design heating load for zone=ATRIUM - H > 13M-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=AUDIENCE - MOTION PICTURE-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WASHROOM-SCH-B-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=CONVENTION CENTRE - AUDIENCE-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WASHROOM-SCH-C-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=COURTHOUSE - CELL-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=COURTHOUSE - COURTROOM-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ELECTRICAL/MECHANICAL-SCH-C-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ELECTRICAL/MECHANICAL-SCH-F-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ELECTRICAL/MECHANICAL-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=FIRE STATION - QUARTERS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=FOOD PREPARATION-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=GYM - FITNESS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=GYM - PLAY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - EMERGENCY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - NURSERY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - NURSES STATION-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - PHARMACY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL - RECOVERY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. >= 2.4M-SCH-C-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. >= 2.4M-SCH-F-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOSPITAL CORR. >= 2.4M-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=HWAY LODGING - ROOMS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=LAB - RESEARCH-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=LIBRARY - STACKS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-B-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-F-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-I-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MFG - CORR. >= 2.4M-SCH-A-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MFG - CORR. >= 2.4M-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MUSEUM - RESTORATION-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=OFFICE - OPEN PLAN-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=PENITENTIARY - DINING-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - COURT C1-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - COURT C2-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - COURT C3-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=SPORTS ARENA - RING-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STAIRWAY-SCH-E-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STAIRWAY-SCH-H-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=STORAGE AREA - OCCSENS-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=TRANSP. BAGGAGE-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=TRANSP. COUNTER-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=TRANSP. SEATING-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WAREHOUSE - MED/BLK-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WASHROOM-SCH-F-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WASHROOM-SCH-D-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=WASHROOM-SCH-H-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WASHROOM-SCH-I-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-DINING - BAR/LOUNGE ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-DINING - FAMILY ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-FIRE STATION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-HEALTH-CARE CLINIC ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-HOSPITAL ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-LIBRARY ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-PENITENTIARY ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-PERFORMING ARTS THEATRE ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-POLICE STATION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-SPORTS ARENA ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-TOWN HALL ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-TRANSPORTATION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-WORKSHOP ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=WORKSHOP SPACE-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
@@ -302,5 +86,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.07 16:04,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 103 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 107 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 37.40sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 19 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 23 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.85sec
