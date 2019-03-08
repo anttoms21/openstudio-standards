@@ -17,17 +17,38 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   spacetypes = spacetypes_unfilterted.select{|spacetype| spacetype["space_type"] != "- undefined -" }
   puts spacetypes_unfilterted.size
   puts spacetypes.size
-  intermediatestep = spacetypes.drop(203)
+  #intermediatestep = spacetypes.drop(124)
+  intermediatestep = spacetypes
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(129)
+  intermediatestep.delete_at(128)
+  #intermediatestep.pop
+  #intermediatestep.pop
+  #intermediatestep.pop
+  #intermediatestep.pop
+  x = intermediatestep.drop(150)
   #raise 'hell'
   #puts "number of non-wildcard spacetypes : #{spacetypes.size}"
   #determine number of floors
-  first_20_spacetypes = intermediatestep[0 .. 19]
-  puts intermediatestep.size
-  puts first_20_spacetypes.size
-  number_of_floors = first_20_spacetypes.size / 5
+  all_spacetypes = x[0 .. 19]
+  #puts intermediatestep.size
+  #puts first_20_spacetypes.size
+  x = 0
+  puts all_spacetypes.size
+
+
+  number_of_floors = (all_spacetypes.size ) / 5
+  puts number_of_floors
   model.getBuilding.setStandardsNumberOfStories(number_of_floors)
   model.getBuilding.setStandardsNumberOfAboveGroundStories(number_of_floors)
-
+  puts number_of_floors
+  puts all_spacetypes.size
   #puts "Number of floors: #{number_of_floors}"
   #Adding geometry and spaces to the object
   #puts "creating a model geometry....."
@@ -44,7 +65,7 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #puts model.getBuilding.standardsNumberOfStories
   #puts "Created model with #{number_of_floors*5} zones"
   space_type_objects = []
-  first_20_spacetypes.each do |spacetype_info|
+  all_spacetypes.each do |spacetype_info|
 
     spacetype = OpenStudio::Model::SpaceType.new(model)
     spacetype.setStandardsSpaceType(spacetype_info['space_type'])

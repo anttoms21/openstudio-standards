@@ -1,1530 +1,1482 @@
 
- Meters for 9,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy [J]
+ Meters for 9,MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 82,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy [J]
+ Meters for 82,MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 107,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy [J]
+ Meters for 107,MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 132,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy [J]
+ Meters for 132,MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 157,WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy [J]
+ Meters for 157,OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 182,WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy [J]
+ Meters for 182,OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 207,WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy [J]
+ Meters for 207,OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 232,WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy [J]
+ Meters for 232,PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 257,WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy [J]
+ Meters for 257,PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 282,WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy [J]
+ Meters for 282,PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 307,WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy [J]
+ Meters for 307,PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 332,WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy [J]
+ Meters for 332,POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 357,WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy [J]
+ Meters for 357,RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 382,WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy [J]
+ Meters for 382,RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 407,WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+ Meters for 407,RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 432,WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+ Meters for 432,RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 457,WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+ Meters for 457,RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 482,WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+ Meters for 482,RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
+  OnMeter=Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 507,WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+ Meters for 507,SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
+  OnMeter=Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 532,WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+ Meters for 532,SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
+  OnMeter=Electricity:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 557,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 557,MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 594,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 594,MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 607,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 607,MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 620,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 620,OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 633,WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 633,OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 646,WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 646,OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 659,WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 659,PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 672,WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 672,PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 685,WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 685,PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 698,WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 698,POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 711,WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 711,RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 724,WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 724,RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 737,WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 737,RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 750,WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 750,RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 763,WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 763,RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 776,WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 776,RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 789,WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 789,SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 802,WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 815,WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 828,WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 841,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 802,MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J]
 
- Meters for 902,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 863,MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J]
 
- Meters for 929,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 890,MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
 
- Meters for 954,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 915,MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J]
 
- Meters for 969,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 930,MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
 
- Meters for 994,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 955,MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J]
 
- Meters for 1009,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 970,MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
 
- Meters for 1034,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 995,MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J]
 
- Meters for 1049,WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1010,OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
 
- Meters for 1074,WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1035,OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J]
 
- Meters for 1089,WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1050,OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
 
- Meters for 1114,WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1075,OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J]
 
- Meters for 1129,WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1090,OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
 
- Meters for 1154,WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1115,OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J]
 
- Meters for 1169,WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1130,PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J]
 
- Meters for 1194,WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1155,PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J]
 
- Meters for 1209,WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1170,PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
 
- Meters for 1234,WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1195,PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J]
 
- Meters for 1249,WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1210,PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
 
- Meters for 1274,WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1235,PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J]
 
- Meters for 1289,WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1250,PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
 
- Meters for 1314,WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1275,PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J]
 
- Meters for 1329,WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1290,POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
 
- Meters for 1354,WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1315,POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J]
 
- Meters for 1369,WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1330,RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
 
- Meters for 1394,WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1355,RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J]
 
- Meters for 1409,WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1370,RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
 
- Meters for 1434,WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1395,RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J]
 
- Meters for 1449,WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1410,RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
 
- Meters for 1474,WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1435,RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J]
 
- Meters for 1489,WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1450,RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
 
- Meters for 1514,WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1475,RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J]
 
- Meters for 1529,WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1490,RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
 
- Meters for 1554,WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1515,RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J]
 
- Meters for 1569,WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1530,RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
 
- Meters for 1594,WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1555,RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J]
 
- Meters for 1609,WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1570,SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
+  OnMeter=EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J]
 
- Meters for 1634,WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1595,SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
+  OnMeter=EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J]
 
- Meters for 1649,WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 1610,SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J]
 
- Meters for 1674,WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 1635,SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J]
 
- Meters for 1689,Whole Building:Facility Total Purchased Electric Energy [J]
+ Meters for 1650,Whole Building:Facility Total Purchased Electric Energy [J]
   OnMeter=ElectricityPurchased:Facility [J]
   OnMeter=ElectricityPurchased:Plant [J]
   OnMeter=Cogeneration:ElectricityPurchased [J]
 
- Meters for 1726,Whole Building:Facility Total Surplus Electric Energy [J]
+ Meters for 1687,Whole Building:Facility Total Surplus Electric Energy [J]
   OnMeter=ElectricitySurplusSold:Facility [J]
   OnMeter=ElectricitySurplusSold:Plant [J]
   OnMeter=Cogeneration:ElectricitySurplusSold [J]
 
- Meters for 1763,Whole Building:Facility Net Purchased Electric Energy [J]
+ Meters for 1724,Whole Building:Facility Net Purchased Electric Energy [J]
   OnMeter=ElectricityNet:Facility [J]
   OnMeter=ElectricityNet:Plant [J]
   OnMeter=Cogeneration:ElectricityNet [J]
 
- Meters for 1800,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1761,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1837,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1798,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1874,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1835,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1875,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1836,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1876,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1837,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1877,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1838,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1878,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1839,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1879,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1840,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1880,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1841,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1881,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1842,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1882,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1843,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1883,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1844,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1884,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1845,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1885,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1846,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1886,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1847,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1887,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1848,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1888,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1849,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1889,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1850,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1890,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1851,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1891,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1852,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1892,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1853,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1893,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1854,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1894,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1855,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1895,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1856,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1896,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1857,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1897,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1858,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1898,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1859,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1899,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1860,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1900,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1861,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1901,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1862,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1902,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1863,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1903,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1864,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1904,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1865,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1905,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1866,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1906,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1867,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1907,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1868,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1908,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1869,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1909,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1870,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1910,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 1871,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1911,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 1872,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1912,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+ Meters for 1873,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
- Meters for 1937,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+ Meters for 1898,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
- Meters for 1938,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+ Meters for 1899,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
  For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy
 
  For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy
+  MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy
 
  For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy
+  MFG - DETAILED-SPACE FUNCTION ZN SPACE FUNCTION MFG - DETAILED LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN SPACE FUNCTION PARKING GARAGE SPACE LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS:Lights Electric Energy
 
  For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN SPACE FUNCTION MFG - EQUIPMENT ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - EXHIBITION ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN SPACE FUNCTION MUSEUM - RESTORATION ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - ENCLOSED - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - CLASSROOM ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PENITENTIARY - DINING-SPACE FUNCTION ZN SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  POST OFFICE SORTING-SPACE FUNCTION ZN SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WASHROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WORKSHOP SPACE-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP SPACE ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-SPORTS ARENA ZN SPORTS ARENA WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-TOWN HALL ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-TOWN HALL ZN TOWN HALL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RETAIL - SALES-SPACE FUNCTION ZN SPACE FUNCTION RETAIL - SALES ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-TRANSPORTATION ZN TRANSPORTATION WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN WAREHOUSE - REFRIGERATED WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-WAREHOUSE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE ZN WAREHOUSE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-WORKSHOP ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  WHOLEBUILDING-WORKSHOP ZN WORKSHOP WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:SALES AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  SALES AREA-SPACE FUNCTION ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Cooling Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
  For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Cooling Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
  For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Heating Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
  For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Cooling Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Cooling Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - DETAILED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - DETAILED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - EQUIPMENT-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - EQUIPMENT-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:MUSEUM - EXHIBITION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MUSEUM - EXHIBITION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:MUSEUM - RESTORATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MUSEUM - RESTORATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  OFFICE - ENCLOSED - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:OFFICE - ENCLOSED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  OFFICE - ENCLOSED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:OFFICE - OPEN PLAN-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  OFFICE - OPEN PLAN-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:PARKING GARAGE SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PARKING GARAGE SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PENITENTIARY - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:PENITENTIARY - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PENITENTIARY - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:POST OFFICE SORTING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  POST OFFICE SORTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WASHROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WASHROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RELIGIOUS - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-SPORTS ARENA ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WHOLEBUILDING-SPORTS ARENA ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-TOWN HALL ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WHOLEBUILDING-TOWN HALL ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-TRANSPORTATION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WHOLEBUILDING-TRANSPORTATION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RETAIL - DRESSING/FITTING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE - REFRIGERATED ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RETAIL - MALL CONCOURSE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-WAREHOUSE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WHOLEBUILDING-WAREHOUSE ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:RETAIL - SALES-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RETAIL - SALES-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Heating Energy
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-WORKSHOP ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WHOLEBUILDING-WORKSHOP ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:SALES AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  SALES AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:WORKSHOP SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  WORKSHOP SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  SPORTS ARENA - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
 
  For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
   Whole Building:Facility Total Purchased Electric Energy
@@ -1570,8 +1522,8 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
 
@@ -1592,8 +1544,8 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
 
@@ -1614,8 +1566,8 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
 
@@ -1636,8 +1588,8 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
 
@@ -1658,8 +1610,8 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
 
@@ -1680,8 +1632,8 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
 
