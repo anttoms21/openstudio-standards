@@ -1,20 +1,20 @@
 require 'json'
 require 'parallel'
 require_relative '../helpers/minitest_helper'
+require_relative 'test_nec_geo_generator'
 class Run_geo_generator
   TestOutputFolder = File.join(File.dirname(__FILE__), 'local_test_output')
   ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
 
-  def run_geo_test(file)
+  def run_geo_test(files)
     did_all_tests_pass = true
     @file = nil
     FileUtils.rm_rf(TestOutputFolder)
     FileUtils.mkpath(TestOutputFolder)
 
     # load test files from file.
-    @file = file
+    @file = files
     puts "Running #{@file.size} tests suites in parallel using #{ProcessorsUsed} of available cpus."
-    puts "To increase or decrease the ProcessorsUsed, please edit the test/test_run_all_locally.rb file."
     timings_json = Hash.new()
     Parallel.each(@file, in_threads: (ProcessorsUsed), progress: "Progress :") do |test_file|
       file_name = test_file.gsub(/^.+(openstudio-standards\/test\/)/, '')
@@ -44,16 +44,22 @@ class Run_geo_generator
         timings_json[file_name.to_s]['total'] = timings_json[file_name.to_s]['end'] - timings_json[file_name.to_s]['start']
       end
     end
-    File.open(File.join(File.dirname(__FILE__), 'helpers', 'ci_test_helper', 'timings.json'), 'w') {|file| file.puts(JSON.pretty_generate(timings_json.sort {|a, z| a <=> z}.to_h))}
+    File.open(File.join(File.dirname(
+__FILE__), 'helpers', 'ci_test_helper', 'timings.json'), 'w') {|file| file.puts(JSON.pretty_generate(timings_json.sort {|a, z| a <=> z}.to_h))}
     return did_all_tests_pass
   end
 end
 
 class RunTests < Minitest::Test
-  def test_space_types()
-    filename = 'test_run_geo_generator_locally.rb'
+  def test_space_types
+    filenames_array = []
+    geo_test = GeoTest.new
+    geo_test.create_buildings(0)
+    #filenames_array[0] = GeoTest.new.create_buildings(0)
+    #filenames_array[1] =  GeoTest.create_building(20)
+    #filename = 'test_run_geo_generator_locally.rb'
     #file_in = File.read(filename)
-    assert(Run_geo_generator.new.run_geo_test(filename), "Some tests failed please ensure all test pass and tests have been updated to reflect the changes you expect before issuing a pull request")
+    assert(Run_geo_generator.new.run_geo_test(filenames_array), "Some tests failed please ensure all test pass and tests have been updated to reflect the changes you expect before issuing a pull request")
 
   end
 end
