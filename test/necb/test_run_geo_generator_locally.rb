@@ -1,7 +1,8 @@
 require 'json'
 require 'parallel'
 require_relative '../helpers/minitest_helper'
-require_relative 'test_nec_geo_generator'
+require_relative 'test_necb_geo_generator'
+require_relative '../helpers/create_doe_prototype_helper'
 class Run_geo_generator
   TestOutputFolder = File.join(File.dirname(__FILE__), 'local_test_output')
   ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor

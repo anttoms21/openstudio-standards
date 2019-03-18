@@ -1,0 +1,121 @@
+require_relative '../helpers/minitest_helper'
+require_relative '../helpers/create_doe_prototype_helper'
+require 'json'
+require 'parallel'
+require 'etc'
+require 'securerandom'
+ require 'fileutils'
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+#ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
+#require 'Building.hpp'
+#LargeOfficespace_type_objects[index]
+
+ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
+
+
+class GeoTest < Minitest::Test
+
+  #This method will take a standard name and a range and return an array of an array of spacetypes that are in increments of the range value
+  def determine_space_types_to_test(standard: 'NECB2011', range: 20)
+    #Get the correct standard
+    standard = Standard.build(standard)
+    #this line should be reduced to 1
+    spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
+    spacetypes = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
+    #Indicate the number of model required for the number of spacetypes...round up.
+    while (spacetypes.size%range != 0 )
+      spacetypes.push(spacetypes[0])
+    end
+    number_of_models = (spacetypes.size / range)
+    puts "the number of spacetypes is #{spacetypes.size}"
+    puts "the number of stories is  #{number_of_models}"
+    #raise 'hell'
+    #Add array container to save the sets of range to be used later.
+    array_of_array_of_spacetypes = []
+    #Interate through the number of models.
+    (0..(number_of_models -1 )).to_a.each do |model_number|
+      #Get the starting index
+      start = model_number * range
+      #Save the range to the array.
+      array_of_array_of_spacetypes << spacetypes[start, range]
+    end
+    return array_of_array_of_spacetypes
+  end
+
+  vintage = ['NECB2011', 'NECB2015', 'NECB2017']
+
+  def create_building_with_space_types(standard: 'NECB2011', all_spacetypes:, run_dir:)
+    #creating an empty model object
+    model = OpenStudio::Model::Model.new()
+    standard = Standard.build(standard)
+    number_of_floors = (all_spacetypes.size) / 5
+    model.getBuilding.setStandardsNumberOfStories(number_of_floors)
+    model.getBuilding.setStandardsNumberOfAboveGroundStories(number_of_floors)
+
+    #Create Geometry shell.
+    BTAP::Geometry::Wizards::create_shape_rectangle(model,
+                                                    100.0,
+                                                    100.0,
+                                                    number_of_floors,
+                                                    0,
+                                                    3.8,
+                                                    1,
+                                                    25,
+                                                    0.0,
+                                                    )
+
+    #Array to store spacetypes by name.
+    space_type_objects = []
+    all_spacetypes.each do |spacetype_info|
+
+      spacetype = OpenStudio::Model::SpaceType.new(model)
+      spacetype.setStandardsSpaceType(spacetype_info['space_type'])
+      spacetype.setStandardsBuildingType(spacetype_info['building_type'])
+      spacetype.setName(spacetype_info['building_type'] + " " + spacetype_info['space_type'])
+      space_type_objects << spacetype
+    end
+
+    model.getSpaces.each_with_index do |space, index|
+      space.setSpaceType(space_type_objects[index])
+      space.setName("#{space_type_objects[index].standardsSpaceType.get}-#{space_type_objects[index].standardsBuildingType.get}")
+    end
+
+    standard.model_create_thermal_zones(model)
+    standard.model_apply_standard(model: model,
+                                  epw_file: 'CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw',
+                                  sizing_run_dir: run_dir,
+                                  new_auto_zoner: true)
+
+    return model
+  end
+
+  def test_main()
+    #Create Test Folder to perform runs in.
+    #To do.. you should remove the old runs in this folder.
+    test_dir = "#{File.dirname(__FILE__)}/models/geo_test"
+    if Dir.exists?(test_dir)
+      FileUtils.rm_rf(test_dir)
+    end
+    Dir.mkdir(test_dir)
+    #Get array of arrays in groups of 20. See this method above on how I did this.
+    # For debugging just using .first (would be good to see what happend with .last )
+    array_of_array_of_space_types = [determine_space_types_to_test(standard: 'NECB2011', range: 20).first]
+    Parallel.each(array_of_array_of_space_types, in_processes: (ProcessorsUsed), progress: "Progress :") do |array_of_space_types|
+      #Create a unique folder name to do the runs in..
+      name = SecureRandom.uuid.to_s
+      run_dir = "#{test_dir}/#{name}"
+      if Dir.exists?(run_dir)
+        FileUtils.rm_rf(run_dir)
+      end
+      Dir.mkdir(run_dir)
+      #create the model
+      model = create_building_with_space_types(all_spacetypes: array_of_space_types, run_dir: run_dir)
+
+      #run the model in the run folder. Note the version does not matter here.. I just want to run the simulation
+      Standard.build('NECB2011').model_run_simulation_and_log_errors(model, run_dir)
+      #save osm file.
+      model_out_path = "#{run_dir}/final.osm"
+      model.save(model_out_path, true)
+    end
+  end
+end
