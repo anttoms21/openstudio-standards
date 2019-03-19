@@ -1,0 +1,1552 @@
+
+ Meters for 9,LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 594,LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 607,LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 620,LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 633,LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 646,LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 659,LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 672,LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 685,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 698,MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 711,MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 724,LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+
+ Meters for 785,LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
+
+ Meters for 812,LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+
+ Meters for 837,LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
+
+ Meters for 852,LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+
+ Meters for 877,LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
+
+ Meters for 892,LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
+
+ Meters for 917,LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
+
+ Meters for 932,LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+
+ Meters for 957,LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+
+ Meters for 972,LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+
+ Meters for 997,LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J]
+
+ Meters for 1012,LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 1037,LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 1052,LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+
+ Meters for 1077,LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+
+ Meters for 1092,LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+
+ Meters for 1117,LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+
+ Meters for 1132,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+
+ Meters for 1157,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J]
+
+ Meters for 1172,MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+
+ Meters for 1197,MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J]
+
+ Meters for 1212,MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+
+ Meters for 1237,MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J]
+
+ Meters for 1252,MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1277,MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1292,MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1317,MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1332,MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1357,MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1372,MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1397,MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1412,MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1437,MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1452,MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1477,MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1492,MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1517,MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1532,MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 1557,MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 1572,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1609,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1646,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1683,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1720,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1757,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1758,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1759,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1760,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1761,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1762,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1763,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1764,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1765,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1766,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1767,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1768,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1769,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1770,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1771,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1772,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1773,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1774,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1775,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1776,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1777,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1778,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1779,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1780,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1781,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1782,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1783,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1784,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1785,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1786,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1787,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1788,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1789,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1790,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1791,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1792,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1793,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1794,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1795,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1820,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1821,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-A LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-B LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-D LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-F LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION MFG - CORR. < 2.4M-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MFG - BAY H > 15M-SPACE FUNCTION ZN SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - MOTION PICTURE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - BAY H < 7.5M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - BAY H < 7.5M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - BAY H > 15M-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - BAY H > 15M-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MFG - CORR. < 2.4M-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

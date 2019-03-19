@@ -1,0 +1,3172 @@
+
+ Meters for 9,ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 594,ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 607,ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 620,ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 633,ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 646,ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 659,ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 672,ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 685,ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 698,ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 711,ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 724,397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 773,397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 822,397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 823,397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 824,397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 873,397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 922,ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+
+ Meters for 983,ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J]
+
+ Meters for 1010,ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+
+ Meters for 1035,ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J]
+
+ Meters for 1050,ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+
+ Meters for 1075,ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J]
+
+ Meters for 1090,ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J]
+
+ Meters for 1115,ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J]
+
+ Meters for 1130,ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+
+ Meters for 1155,ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J]
+
+ Meters for 1170,ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+
+ Meters for 1195,ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J]
+
+ Meters for 1210,ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+
+ Meters for 1235,ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J]
+
+ Meters for 1250,ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+
+ Meters for 1275,ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J]
+
+ Meters for 1290,ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+
+ Meters for 1315,ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J]
+
+ Meters for 1330,ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+
+ Meters for 1355,ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J]
+
+ Meters for 1370,ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+
+ Meters for 1395,ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J]
+
+ Meters for 1410,ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+
+ Meters for 1435,ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J]
+
+ Meters for 1450,WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J]
+
+ Meters for 1475,WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J]
+
+ Meters for 1490,WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J]
+
+ Meters for 1515,WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J]
+
+ Meters for 1530,WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J]
+
+ Meters for 1555,WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J]
+
+ Meters for 1570,WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J]
+
+ Meters for 1595,WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J]
+
+ Meters for 1610,WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J]
+
+ Meters for 1635,WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J]
+
+ Meters for 1650,WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J]
+
+ Meters for 1675,WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J]
+
+ Meters for 1690,WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J]
+
+ Meters for 1715,WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J]
+
+ Meters for 1730,WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J]
+
+ Meters for 1755,WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J]
+
+ Meters for 1770,LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1771,LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1772,LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1809,LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1810,LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1811,LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1812,LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1813,LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1814,LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1815,LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1816,LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1817,LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1818,LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1819,LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1820,LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1821,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1822,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1823,MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1824,MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1825,MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1826,MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1827,MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1828,MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 1829,MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 1830,WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1831,WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1832,WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1833,WATER USE CONNECTIONS 4:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1834,WATER USE CONNECTIONS 5:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1835,WATER USE CONNECTIONS 6:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1836,WATER USE CONNECTIONS 7:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1837,WATER USE CONNECTIONS 8:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1838,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1875,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1912,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1949,ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 1974,ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 1999,ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2000,ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2001,ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2002,ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2003,ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2004,ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2005,ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2006,ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2007,ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2008,ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2009,ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2010,ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2011,ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2012,ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2013,ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2014,ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2015,ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2016,ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2017,ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2018,ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2019,ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2020,ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2021,ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2022,ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2023,ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2024,ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2025,ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2026,ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2027,ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2028,ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2029,ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2030,ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2031,ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2032,ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2033,ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2034,ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2035,ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=Baseboard:EnergyTransfer [J]
+
+ Meters for 2036,ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=Baseboard:PlantLoopHeatingDemand [J]
+
+ Meters for 2037,COIL HEATING WATER 2:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2050,COIL HEATING WATER 2:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 2063,COIL HEATING WATER 3:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2064,COIL HEATING WATER 3:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 2065,COIL HEATING WATER 4:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2066,COIL HEATING WATER 4:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 2067,COIL HEATING WATER 1:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2068,COIL HEATING WATER 1:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 2069,COIL COOLING WATER 1:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2082,COIL COOLING WATER 1:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 2119,FAN CONSTANT VOLUME 2:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2156,FAN CONSTANT VOLUME 3:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2157,FAN CONSTANT VOLUME 4:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2158,FAN CONSTANT VOLUME 5:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2159,FAN CONSTANT VOLUME 6:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2160,FAN CONSTANT VOLUME 7:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2161,FAN CONSTANT VOLUME 8:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2162,FAN CONSTANT VOLUME 9:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2163,FAN CONSTANT VOLUME 10:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2164,FAN CONSTANT VOLUME 1:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2165,SYS6 RETURN FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2166,SYS6 SUPPLY FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 2167,SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2180,SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2193,SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2206,SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2207,SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2208,SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2209,SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2210,SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2211,SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2212,SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2213,SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2214,SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2215,SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2216,SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2217,SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2218,SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2219,SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2220,SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2221,SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2222,SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2223,SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2224,SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2225,SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2226,SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2227,SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2228,SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2229,SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2230,SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
+
+ Meters for 2231,SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
+
+ Meters for 2232,SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=HeatRecovery:Electricity [J]
+
+ Meters for 2233,COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2234,COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2247,COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2248,COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2249,COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2250,COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2251,COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2252,COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2253,COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2254,COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2255,COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2256,COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2257,COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2258,COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2259,COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2260,COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2261,COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2262,COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2263,COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 2264,COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2265,COIL HEATING GAS 2:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2266,COIL HEATING GAS 2:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2291,COIL HEATING GAS 2:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2304,COIL HEATING GAS 2:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2305,COIL HEATING GAS 3:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2306,COIL HEATING GAS 3:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2307,COIL HEATING GAS 3:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2308,COIL HEATING GAS 3:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2309,COIL HEATING GAS 4:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2310,COIL HEATING GAS 4:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2311,COIL HEATING GAS 4:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2312,COIL HEATING GAS 4:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2313,COIL HEATING GAS 5:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2314,COIL HEATING GAS 5:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2315,COIL HEATING GAS 5:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2316,COIL HEATING GAS 5:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2317,COIL HEATING GAS 6:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2318,COIL HEATING GAS 6:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2319,COIL HEATING GAS 6:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2320,COIL HEATING GAS 6:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2321,COIL HEATING GAS 7:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2322,COIL HEATING GAS 7:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2323,COIL HEATING GAS 7:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2324,COIL HEATING GAS 7:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2325,COIL HEATING GAS 8:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2326,COIL HEATING GAS 8:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2327,COIL HEATING GAS 8:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2328,COIL HEATING GAS 8:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2329,COIL HEATING GAS 9:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2330,COIL HEATING GAS 9:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2331,COIL HEATING GAS 9:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2332,COIL HEATING GAS 9:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2333,COIL HEATING GAS 10:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2334,COIL HEATING GAS 10:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2335,COIL HEATING GAS 10:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2336,COIL HEATING GAS 10:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2337,COIL HEATING GAS 1:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 2338,COIL HEATING GAS 1:Heating Coil Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2339,COIL HEATING GAS 1:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 2340,COIL HEATING GAS 1:Heating Coil Ancillary Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:HVAC [J]
+  OnMeter=Heating:Gas [J]
+
+ Meters for 2341,PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 2366,PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Evaporator Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Chillers:EnergyTransfer [J]
+
+ Meters for 2379,PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=HeatRejection:EnergyTransfer [J]
+
+ Meters for 2392,SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 2393,SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Evaporator Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Chillers:EnergyTransfer [J]
+
+ Meters for 2394,SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=HeatRejection:EnergyTransfer [J]
+
+ Meters for 2395,COOLING TOWER SINGLE SPEED 1:Cooling Tower Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=HeatRejection:Electricity [J]
+  OnMeter=General:HeatRejection:Electricity [J]
+
+ Meters for 2420,COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=HeatRejection:Water [m3]
+
+ Meters for 2433,COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=HeatRejection:MainsWater [m3]
+
+ Meters for 2446,PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Boilers:EnergyTransfer [J]
+
+ Meters for 2459,PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=Heating:Gas [J]
+  OnMeter=General:Heating:Gas [J]
+
+ Meters for 2472,PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=Boiler Parasitic:Heating:Electricity [J]
+
+ Meters for 2485,SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Boilers:EnergyTransfer [J]
+
+ Meters for 2486,SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=Heating:Gas [J]
+  OnMeter=General:Heating:Gas [J]
+
+ Meters for 2487,SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=Boiler Parasitic:Heating:Electricity [J]
+
+ Meters for 2488,PUMP VARIABLE SPEED 1:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 2501,PUMP CONSTANT SPEED 1:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 2502,PUMP CONSTANT SPEED 2:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 2503,SERVICE WATER LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 2504,COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2505,COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2506,COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2507,COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2508,COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2509,COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2510,COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2511,COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2512,COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2513,COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Crankcase Heater Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 2514,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 2539,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 2540,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+  FAN CONSTANT VOLUME 2:Fan Electric Energy
+  FAN CONSTANT VOLUME 3:Fan Electric Energy
+  FAN CONSTANT VOLUME 4:Fan Electric Energy
+  FAN CONSTANT VOLUME 5:Fan Electric Energy
+  FAN CONSTANT VOLUME 6:Fan Electric Energy
+  FAN CONSTANT VOLUME 7:Fan Electric Energy
+  FAN CONSTANT VOLUME 8:Fan Electric Energy
+  FAN CONSTANT VOLUME 9:Fan Electric Energy
+  FAN CONSTANT VOLUME 10:Fan Electric Energy
+  FAN CONSTANT VOLUME 1:Fan Electric Energy
+  SYS6 RETURN FAN:Fan Electric Energy
+  SYS6 SUPPLY FAN:Fan Electric Energy
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Electric Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Electric Energy
+  COIL HEATING GAS 2:Heating Coil Electric Energy
+  COIL HEATING GAS 3:Heating Coil Electric Energy
+  COIL HEATING GAS 4:Heating Coil Electric Energy
+  COIL HEATING GAS 5:Heating Coil Electric Energy
+  COIL HEATING GAS 6:Heating Coil Electric Energy
+  COIL HEATING GAS 7:Heating Coil Electric Energy
+  COIL HEATING GAS 8:Heating Coil Electric Energy
+  COIL HEATING GAS 9:Heating Coil Electric Energy
+  COIL HEATING GAS 10:Heating Coil Electric Energy
+  COIL HEATING GAS 1:Heating Coil Electric Energy
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Electric Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Electric Energy
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Fan Electric Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Ancillary Electric Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Ancillary Electric Energy
+  PUMP VARIABLE SPEED 1:Pump Electric Energy
+  PUMP CONSTANT SPEED 1:Pump Electric Energy
+  PUMP CONSTANT SPEED 2:Pump Electric Energy
+  SERVICE WATER LOOP PUMP:Pump Electric Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Crankcase Heater Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J], ResourceType=Electricity, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J], ResourceType=Electricity, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C SPACE FUNCTION MFG - CORR. < 2.4M-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - MOTION PICTURE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION LOBBY - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B SPACE FUNCTION LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A SPACE FUNCTION MFG - 7.5 <= BAY H <= 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A SPACE FUNCTION MFG - BAY H < 7.5M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A SPACE FUNCTION MFG - BAY H > 15M ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 4:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 5:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 6:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 7:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 8:Water Use Connections Plant Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Hot Water Energy
+  COIL HEATING WATER 2:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 3:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 4:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 1:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopHeatingDemand:Plant [J], ResourceType=PlantLoopHeatingDemand, Group=Plant, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 4:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 5:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 6:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 7:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 8:Water Use Connections Plant Hot Water Energy
+
+ For Meter=WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 4:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 5:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 6:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 7:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 8:Water Use Connections Plant Hot Water Energy
+
+ For Meter=General:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=Gas:Facility [J], ResourceType=Gas, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+  COIL HEATING GAS 2:Heating Coil Gas Energy
+  COIL HEATING GAS 2:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 3:Heating Coil Gas Energy
+  COIL HEATING GAS 3:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 4:Heating Coil Gas Energy
+  COIL HEATING GAS 4:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 5:Heating Coil Gas Energy
+  COIL HEATING GAS 5:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 6:Heating Coil Gas Energy
+  COIL HEATING GAS 6:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 7:Heating Coil Gas Energy
+  COIL HEATING GAS 7:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 8:Heating Coil Gas Energy
+  COIL HEATING GAS 8:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 9:Heating Coil Gas Energy
+  COIL HEATING GAS 9:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 10:Heating Coil Gas Energy
+  COIL HEATING GAS 10:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 1:Heating Coil Gas Energy
+  COIL HEATING GAS 1:Heating Coil Ancillary Gas Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Gas Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Gas Energy
+
+ For Meter=Gas:Plant [J], ResourceType=Gas, Group=Plant, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Gas Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Gas Energy
+
+ For Meter=WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+
+ For Meter=General:WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+
+ For Meter=Water:Facility [m3], ResourceType=Water, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Total Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Total Volume
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Water Volume
+
+ For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Total Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Total Volume
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Water Volume
+
+ For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Total Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Total Volume
+
+ For Meter=General:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Total Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Total Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Total Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Total Volume
+
+ For Meter=MainsWater:Facility [m3], ResourceType=MainsWater, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Mains Water Volume
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Mains Water Volume
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Mains Water Volume
+
+ For Meter=General:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  397GAL NATURALGAS WATER HEATER - 268KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Mains Water Volume
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Mains Water Volume
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Mains Water Volume
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Heating Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Total Heating Energy
+  COIL HEATING WATER 2:Heating Coil Heating Energy
+  COIL HEATING WATER 3:Heating Coil Heating Energy
+  COIL HEATING WATER 4:Heating Coil Heating Energy
+  COIL HEATING WATER 1:Heating Coil Heating Energy
+  COIL COOLING WATER 1:Cooling Coil Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Heating Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Total Cooling Energy
+  COIL HEATING GAS 2:Heating Coil Heating Energy
+  COIL HEATING GAS 3:Heating Coil Heating Energy
+  COIL HEATING GAS 4:Heating Coil Heating Energy
+  COIL HEATING GAS 5:Heating Coil Heating Energy
+  COIL HEATING GAS 6:Heating Coil Heating Energy
+  COIL HEATING GAS 7:Heating Coil Heating Energy
+  COIL HEATING GAS 8:Heating Coil Heating Energy
+  COIL HEATING GAS 9:Heating Coil Heating Energy
+  COIL HEATING GAS 10:Heating Coil Heating Energy
+  COIL HEATING GAS 1:Heating Coil Heating Energy
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Evaporator Cooling Energy
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Evaporator Cooling Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Heating Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Heating Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Cooling Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LIBRARY - CATALOGING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LIBRARY - READING_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LIBRARY - STACKS_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Heating Energy
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=LOUNGE/RECREATION_FL=STORY 1_SCH=B:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Heating Energy
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-B_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-C_FL=STORY 4_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-D_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-E_FL=STORY 1_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-F_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-G_FL=STORY 3_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WILD_ST=MFG - CORR. < 2.4M-SCH-H_FL=STORY 2_SCH=C:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Plant [J], ResourceType=EnergyTransfer, Group=Plant, contents are:
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Heating Energy
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Evaporator Cooling Energy
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Evaporator Cooling Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Heating Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Heating Energy
+
+ For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Heating Energy
+
+ For Meter=General:WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  LAB - RESEARCH-SPACE FUNCTION SERVICE WATER USE 1.92GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - CATALOGING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - READING-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LIBRARY - STACKS-SPACE FUNCTION SERVICE WATER USE 0.72GAL/MIN:Water Use Equipment Heating Energy
+  LOUNGE/RECREATION-SPACE FUNCTION SERVICE WATER USE 0.96GAL/MIN:Water Use Equipment Heating Energy
+  MFG - 7.5 <= BAY H <= 15M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H < 7.5M-SPACE FUNCTION SERVICE WATER USE 0.48GAL/MIN:Water Use Equipment Heating Energy
+  MFG - BAY H > 15M-SPACE FUNCTION SERVICE WATER USE 0.64GAL/MIN:Water Use Equipment Heating Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Total Heating Energy
+  COIL HEATING WATER 2:Heating Coil Heating Energy
+  COIL HEATING WATER 3:Heating Coil Heating Energy
+  COIL HEATING WATER 4:Heating Coil Heating Energy
+  COIL HEATING WATER 1:Heating Coil Heating Energy
+  COIL COOLING WATER 1:Cooling Coil Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Heating Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Total Cooling Energy
+  COIL HEATING GAS 2:Heating Coil Heating Energy
+  COIL HEATING GAS 3:Heating Coil Heating Energy
+  COIL HEATING GAS 4:Heating Coil Heating Energy
+  COIL HEATING GAS 5:Heating Coil Heating Energy
+  COIL HEATING GAS 6:Heating Coil Heating Energy
+  COIL HEATING GAS 7:Heating Coil Heating Energy
+  COIL HEATING GAS 8:Heating Coil Heating Energy
+  COIL HEATING GAS 9:Heating Coil Heating Energy
+  COIL HEATING GAS 10:Heating Coil Heating Energy
+  COIL HEATING GAS 1:Heating Coil Heating Energy
+
+ For Meter=Baseboard:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Baseboard, contents are:
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Total Heating Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Total Heating Energy
+
+ For Meter=PlantLoopHeatingDemand:HVAC [J], ResourceType=PlantLoopHeatingDemand, Group=HVAC, contents are:
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Hot Water Energy
+  COIL HEATING WATER 2:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 3:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 4:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 1:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=Baseboard:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=Baseboard, contents are:
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 9:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 18:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 19:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 20:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 10:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 11:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 12:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 13:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 14:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 15:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 16:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 17:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 1:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 2:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 3:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 4:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 5:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 6:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 7:Baseboard Hot Water Energy
+  ZONE HVAC BASEBOARD CONVECTIVE WATER 8:Baseboard Hot Water Energy
+
+ For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
+  COIL HEATING WATER 2:Heating Coil Heating Energy
+  COIL HEATING WATER 3:Heating Coil Heating Energy
+  COIL HEATING WATER 4:Heating Coil Heating Energy
+  COIL HEATING WATER 1:Heating Coil Heating Energy
+  COIL HEATING GAS 2:Heating Coil Heating Energy
+  COIL HEATING GAS 3:Heating Coil Heating Energy
+  COIL HEATING GAS 4:Heating Coil Heating Energy
+  COIL HEATING GAS 5:Heating Coil Heating Energy
+  COIL HEATING GAS 6:Heating Coil Heating Energy
+  COIL HEATING GAS 7:Heating Coil Heating Energy
+  COIL HEATING GAS 8:Heating Coil Heating Energy
+  COIL HEATING GAS 9:Heating Coil Heating Energy
+  COIL HEATING GAS 10:Heating Coil Heating Energy
+  COIL HEATING GAS 1:Heating Coil Heating Energy
+
+ For Meter=HeatingCoils:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=HeatingCoils, contents are:
+  COIL HEATING WATER 2:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 3:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 4:Heating Coil Source Side Heat Transfer Energy
+  COIL HEATING WATER 1:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  COIL COOLING WATER 1:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Total Cooling Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Total Cooling Energy
+
+ For Meter=PlantLoopCoolingDemand:Facility [J], ResourceType=PlantLoopCoolingDemand, contents are:
+  COIL COOLING WATER 1:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopCoolingDemand:HVAC [J], ResourceType=PlantLoopCoolingDemand, Group=HVAC, contents are:
+  COIL COOLING WATER 1:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=CoolingCoils:PlantLoopCoolingDemand [J], ResourceType=PlantLoopCoolingDemand, EndUse=CoolingCoils, contents are:
+  COIL COOLING WATER 1:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  FAN CONSTANT VOLUME 2:Fan Electric Energy
+  FAN CONSTANT VOLUME 3:Fan Electric Energy
+  FAN CONSTANT VOLUME 4:Fan Electric Energy
+  FAN CONSTANT VOLUME 5:Fan Electric Energy
+  FAN CONSTANT VOLUME 6:Fan Electric Energy
+  FAN CONSTANT VOLUME 7:Fan Electric Energy
+  FAN CONSTANT VOLUME 8:Fan Electric Energy
+  FAN CONSTANT VOLUME 9:Fan Electric Energy
+  FAN CONSTANT VOLUME 10:Fan Electric Energy
+  FAN CONSTANT VOLUME 1:Fan Electric Energy
+  SYS6 RETURN FAN:Fan Electric Energy
+  SYS6 SUPPLY FAN:Fan Electric Energy
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Electric Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Electric Energy
+  COIL HEATING GAS 2:Heating Coil Electric Energy
+  COIL HEATING GAS 3:Heating Coil Electric Energy
+  COIL HEATING GAS 4:Heating Coil Electric Energy
+  COIL HEATING GAS 5:Heating Coil Electric Energy
+  COIL HEATING GAS 6:Heating Coil Electric Energy
+  COIL HEATING GAS 7:Heating Coil Electric Energy
+  COIL HEATING GAS 8:Heating Coil Electric Energy
+  COIL HEATING GAS 9:Heating Coil Electric Energy
+  COIL HEATING GAS 10:Heating Coil Electric Energy
+  COIL HEATING GAS 1:Heating Coil Electric Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  FAN CONSTANT VOLUME 2:Fan Electric Energy
+  FAN CONSTANT VOLUME 3:Fan Electric Energy
+  FAN CONSTANT VOLUME 4:Fan Electric Energy
+  FAN CONSTANT VOLUME 5:Fan Electric Energy
+  FAN CONSTANT VOLUME 6:Fan Electric Energy
+  FAN CONSTANT VOLUME 7:Fan Electric Energy
+  FAN CONSTANT VOLUME 8:Fan Electric Energy
+  FAN CONSTANT VOLUME 9:Fan Electric Energy
+  FAN CONSTANT VOLUME 10:Fan Electric Energy
+  FAN CONSTANT VOLUME 1:Fan Electric Energy
+  SYS6 RETURN FAN:Fan Electric Energy
+  SYS6 SUPPLY FAN:Fan Electric Energy
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  FAN CONSTANT VOLUME 2:Fan Electric Energy
+  FAN CONSTANT VOLUME 3:Fan Electric Energy
+  FAN CONSTANT VOLUME 4:Fan Electric Energy
+  FAN CONSTANT VOLUME 5:Fan Electric Energy
+  FAN CONSTANT VOLUME 6:Fan Electric Energy
+  FAN CONSTANT VOLUME 7:Fan Electric Energy
+  FAN CONSTANT VOLUME 8:Fan Electric Energy
+  FAN CONSTANT VOLUME 9:Fan Electric Energy
+  FAN CONSTANT VOLUME 10:Fan Electric Energy
+  FAN CONSTANT VOLUME 1:Fan Electric Energy
+  SYS6 RETURN FAN:Fan Electric Energy
+  SYS6 SUPPLY FAN:Fan Electric Energy
+
+ For Meter=HeatRecoveryForHeating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForHeating, contents are:
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Heating Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Heating Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Heating Energy
+
+ For Meter=HeatRecoveryForCooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForCooling, contents are:
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Total Cooling Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Total Cooling Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Total Cooling Energy
+
+ For Meter=HeatRecovery:Electricity [J], ResourceType=Electricity, EndUse=HeatRecovery, contents are:
+  SYS_3_PSZ ALL_ST=LAB - RESEARCH_FL=STORY 4_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - ELEVATOR_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - MOTION PICTURE_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - OTHER_FL=STORY 3_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=LOBBY - PERFORMANCE ARTS_FL=STORY 1_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - 7.5 <= BAY H <= 15M_FL=STORY 1_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H < 7.5M_FL=STORY 2_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_3_PSZ ALL_ST=MFG - BAY H > 15M_FL=STORY 3_SCH=A ERV:Heat Exchanger Electric Energy
+  SYS_4_PSZ_WILD_ST=MFG - CORR. < 2.4M-SCH-A_FL=STORY 2_SCH=C ERV:Heat Exchanger Electric Energy
+  SYS_6_VAV WITH REHEAT ERV:Heat Exchanger Electric Energy
+
+ For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Electric Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Electric Energy
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Electric Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Electric Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Crankcase Heater Electric Energy
+
+ For Meter=Gas:HVAC [J], ResourceType=Gas, Group=HVAC, contents are:
+  COIL HEATING GAS 2:Heating Coil Gas Energy
+  COIL HEATING GAS 2:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 3:Heating Coil Gas Energy
+  COIL HEATING GAS 3:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 4:Heating Coil Gas Energy
+  COIL HEATING GAS 4:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 5:Heating Coil Gas Energy
+  COIL HEATING GAS 5:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 6:Heating Coil Gas Energy
+  COIL HEATING GAS 6:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 7:Heating Coil Gas Energy
+  COIL HEATING GAS 7:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 8:Heating Coil Gas Energy
+  COIL HEATING GAS 8:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 9:Heating Coil Gas Energy
+  COIL HEATING GAS 9:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 10:Heating Coil Gas Energy
+  COIL HEATING GAS 10:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 1:Heating Coil Gas Energy
+  COIL HEATING GAS 1:Heating Coil Ancillary Gas Energy
+
+ For Meter=Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  COIL HEATING GAS 2:Heating Coil Gas Energy
+  COIL HEATING GAS 2:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 3:Heating Coil Gas Energy
+  COIL HEATING GAS 3:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 4:Heating Coil Gas Energy
+  COIL HEATING GAS 4:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 5:Heating Coil Gas Energy
+  COIL HEATING GAS 5:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 6:Heating Coil Gas Energy
+  COIL HEATING GAS 6:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 7:Heating Coil Gas Energy
+  COIL HEATING GAS 7:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 8:Heating Coil Gas Energy
+  COIL HEATING GAS 8:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 9:Heating Coil Gas Energy
+  COIL HEATING GAS 9:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 10:Heating Coil Gas Energy
+  COIL HEATING GAS 10:Heating Coil Ancillary Gas Energy
+  COIL HEATING GAS 1:Heating Coil Gas Energy
+  COIL HEATING GAS 1:Heating Coil Ancillary Gas Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Gas Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Gas Energy
+
+ For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  COIL HEATING GAS 2:Heating Coil Electric Energy
+  COIL HEATING GAS 3:Heating Coil Electric Energy
+  COIL HEATING GAS 4:Heating Coil Electric Energy
+  COIL HEATING GAS 5:Heating Coil Electric Energy
+  COIL HEATING GAS 6:Heating Coil Electric Energy
+  COIL HEATING GAS 7:Heating Coil Electric Energy
+  COIL HEATING GAS 8:Heating Coil Electric Energy
+  COIL HEATING GAS 9:Heating Coil Electric Energy
+  COIL HEATING GAS 10:Heating Coil Electric Energy
+  COIL HEATING GAS 1:Heating Coil Electric Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Ancillary Electric Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Ancillary Electric Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Electric Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Electric Energy
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Fan Electric Energy
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Ancillary Electric Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Ancillary Electric Energy
+  PUMP VARIABLE SPEED 1:Pump Electric Energy
+  PUMP CONSTANT SPEED 1:Pump Electric Energy
+  PUMP CONSTANT SPEED 2:Pump Electric Energy
+  SERVICE WATER LOOP PUMP:Pump Electric Energy
+  COIL COOLING DX SINGLE SPEED 2 574KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 3 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 4 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 6 448KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 7 118KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 8 175KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 9 182KBTU/HR 9.7EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 10 265KBTU/HR 8.21EER:Cooling Coil Crankcase Heater Electric Energy
+  COIL COOLING DX SINGLE SPEED 1 1416KBTU/HR 7.94EER:Cooling Coil Crankcase Heater Electric Energy
+
+ For Meter=General:Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Electric Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Electric Energy
+
+ For Meter=Chillers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Chillers, contents are:
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Evaporator Cooling Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Evaporator Cooling Energy
+
+ For Meter=HeatRejection:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRejection, contents are:
+  PRIMARY CHILLER WATERCOOLED SCROLL 100TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy
+  SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON:Chiller Condenser Heat Transfer Energy
+
+ For Meter=HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Fan Electric Energy
+
+ For Meter=General:HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Fan Electric Energy
+
+ For Meter=HeatRejection:Water [m3], ResourceType=Water, EndUse=HeatRejection, contents are:
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Water Volume
+
+ For Meter=HeatRejection:MainsWater [m3], ResourceType=MainsWater, EndUse=HeatRejection, contents are:
+  COOLING TOWER SINGLE SPEED 1:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=Boilers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Boilers, contents are:
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Heating Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Heating Energy
+
+ For Meter=General:Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Gas Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Gas Energy
+
+ For Meter=Boiler Parasitic:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  PRIMARY BOILER 3708KBTU/HR 0.833 COMBUSTION EFF:Boiler Ancillary Electric Energy
+  SECONDARY BOILER 0KBTU/HR 0.85 AFUE:Boiler Ancillary Electric Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  PUMP VARIABLE SPEED 1:Pump Electric Energy
+  PUMP CONSTANT SPEED 1:Pump Electric Energy
+  PUMP CONSTANT SPEED 2:Pump Electric Energy
+  SERVICE WATER LOOP PUMP:Pump Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

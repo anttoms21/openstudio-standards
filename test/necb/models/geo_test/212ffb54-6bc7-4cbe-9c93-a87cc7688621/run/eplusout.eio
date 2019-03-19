@@ -1,0 +1,807 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.19 18:43
+! <Version>, Version ID
+ Version, 8.9
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  6, 10
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, Yes, No, Yes, No
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 1.000, 1.000, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  19.53,  19.50,  19.54,  19.60,  20.00,  21.64,  22.23,  22.38,  21.45,  20.12,  19.80,  19.63
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod, -12.27, -13.66, -11.19,  -7.33,   2.77,  10.57,  15.83,  17.43,  14.70,   8.65,   0.56,  -6.95
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Fort McMurray AP AB CAN CWEC2016 WMO#=716890,56.65,-111.22,-7.00,369.10,96969,1.1525
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Building 1,0.000,Suburbs,4.00000E-002,0.40000,FullExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.220,370.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,20,137,17
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,0.0,25.00,25.00,11.40,50.00,50.00,13.30,1,1,1,25.00,75.00,25.00,75.00,11.40,15.20,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,125.00,6,1,0,Yes
+ Zone Information, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,0.0,0.00,0.00,11.40,50.00,10.85,13.30,1,1,1,0.00,100.00,0.00,25.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,0.0,75.00,25.00,11.40,89.15,50.00,13.30,1,1,1,75.00,100.00,0.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,0.0,25.00,75.00,11.40,50.00,89.15,13.30,1,1,1,0.00,100.00,75.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,0.0,75.00,25.00,7.60,89.15,50.00,9.50,1,1,1,75.00,100.00,0.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,0.0,25.00,75.00,7.60,50.00,89.15,9.50,1,1,1,0.00,100.00,75.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,0.0,25.00,25.00,7.60,50.00,50.00,9.50,1,1,1,25.00,75.00,25.00,75.00,7.60,11.40,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,0.0,0.00,0.00,7.60,50.00,10.85,9.50,1,1,1,0.00,100.00,0.00,25.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, ALL_ST=SALES AREA_FL=STORY 1_SCH=C,0.0,0.00,0.00,0.00,10.85,50.00,1.90,1,1,1,0.00,25.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,0.0,0.00,0.00,7.60,10.85,50.00,9.50,1,1,1,0.00,25.00,0.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,0.0,75.00,25.00,0.00,89.15,50.00,1.90,1,1,1,75.00,100.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,0.0,75.00,25.00,3.80,89.15,50.00,5.70,1,1,1,75.00,100.00,0.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,0.0,0.00,0.00,0.00,50.00,10.85,1.90,1,1,1,0.00,100.00,0.00,25.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,0.0,25.00,75.00,3.80,50.00,89.15,5.70,1,1,1,0.00,100.00,75.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,0.0,0.00,0.00,3.80,10.85,50.00,5.70,1,1,1,0.00,25.00,0.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,0.0,25.00,75.00,0.00,50.00,89.15,1.90,1,1,1,0.00,100.00,75.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,0.0,25.00,25.00,0.00,50.00,50.00,1.90,1,1,1,25.00,75.00,25.00,75.00,0.00,3.80,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,0.0,0.00,0.00,3.80,50.00,10.85,5.70,1,1,1,0.00,100.00,0.00,25.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,0.0,0.00,0.00,11.40,10.85,50.00,13.30,1,1,1,0.00,25.00,0.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,0.0,25.00,25.00,3.80,50.00,50.00,5.70,1,1,1,25.00,75.00,25.00,75.00,3.80,7.60,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,2500.00,250.0,10.000,10.000E-002,11.500,1.000,0.000,0.000,0.000,0.000,12.500,No
+ Zone Internal Gains Nominal, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,1875.00,93.8,19.979,5.005E-002,10.100,7.500,0.000,0.000,0.000,0.000,17.600,No
+ Zone Internal Gains Nominal, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,1875.00,375.0,5.000,0.200,18.200,1.000,0.000,0.000,0.000,0.000,19.200,No
+ Zone Internal Gains Nominal, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,1875.00,375.0,5.000,0.200,6.900,1.000,0.000,0.000,0.000,0.000,7.900,No
+ Zone Internal Gains Nominal, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,1875.00,375.0,5.000,0.200,18.200,1.000,0.000,0.000,0.000,0.000,19.200,No
+ Zone Internal Gains Nominal, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,1875.00,62.6,29.969,3.337E-002,8.460,2.500,0.000,0.000,0.000,0.000,10.960,No
+ Zone Internal Gains Nominal, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,2500.00,125.1,19.979,5.005E-002,11.800,1.000,0.000,0.000,0.000,0.000,12.800,No
+ Zone Internal Gains Nominal, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,1875.00,62.6,29.969,3.337E-002,18.100,2.500,0.000,0.000,0.000,0.000,20.600,No
+ Zone Internal Gains Nominal, ALL_ST=SALES AREA_FL=STORY 1_SCH=C,1875.00,62.6,29.969,3.337E-002,18.100,2.500,0.000,0.000,0.000,0.000,20.600,No
+ Zone Internal Gains Nominal, ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,1875.00,375.0,5.000,0.200,4.600,0.000,0.000,0.000,0.000,0.000,4.600,No
+ Zone Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,1875.00,375.0,5.000,0.200,32.400,1.500,0.000,0.000,0.000,0.000,33.900,No
+ Zone Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,1875.00,375.0,5.000,0.200,20.700,1.500,0.000,0.000,0.000,0.000,22.200,No
+ Zone Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,1875.00,375.0,5.000,0.200,12.900,1.500,0.000,0.000,0.000,0.000,14.400,No
+ Zone Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,1875.00,375.0,5.000,0.200,7.800,1.500,0.000,0.000,0.000,0.000,9.300,No
+ Zone Internal Gains Nominal, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,1875.00,375.0,5.000,0.200,28.800,1.500,0.000,0.000,0.000,0.000,30.300,No
+ Zone Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,1875.00,9.3,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,2500.00,12.4,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,1875.00,9.3,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,1875.00,9.3,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,2500.00,12.4,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B SPACE FUNCTION PENITENTIARY - DINING PEOPLE,NECB-B-OCCUPANCY,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,2500.00,250.0,250.0,10.000E-002,10.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,225
+ People Internal Gains Nominal, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A SPACE FUNCTION POST OFFICE SORTING PEOPLE,NECB-A-OCCUPANCY,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,1875.00,93.8,93.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,84
+ People Internal Gains Nominal, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I SPACE FUNCTION RELIGIOUS - AUDIENCE PEOPLE,NECB-I-OCCUPANCY,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,300
+ People Internal Gains Nominal, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL PEOPLE,NECB-C-OCCUPANCY,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR PEOPLE,NECB-I-OCCUPANCY,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,300
+ People Internal Gains Nominal, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - DRESSING/FITTING PEOPLE,NECB-C-OCCUPANCY,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,1875.00,62.6,62.6,3.337E-002,29.969,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,56
+ People Internal Gains Nominal, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - MALL CONCOURSE PEOPLE,NECB-C-OCCUPANCY,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,2500.00,125.1,125.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,113
+ People Internal Gains Nominal, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - SALES PEOPLE,NECB-C-OCCUPANCY,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,1875.00,62.6,62.6,3.337E-002,29.969,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,56
+ People Internal Gains Nominal, ALL_ST=SALES AREA_FL=STORY 1_SCH=C SPACE FUNCTION SALES AREA PEOPLE,NECB-C-OCCUPANCY,ALL_ST=SALES AREA_FL=STORY 1_SCH=C,1875.00,62.6,62.6,3.337E-002,29.969,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,56
+ People Internal Gains Nominal, ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B SPACE FUNCTION SPORTS ARENA - AUDIENCE PEOPLE,NECB-B-OCCUPANCY,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C1 PEOPLE,NECB-B-OCCUPANCY,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C2 PEOPLE,NECB-B-OCCUPANCY,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C3 PEOPLE,NECB-B-OCCUPANCY,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C4 PEOPLE,NECB-B-OCCUPANCY,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - RING PEOPLE,NECB-B-OCCUPANCY,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,1875.00,375.0,375.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,337
+ People Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B SPACE FUNCTION STAIRWAY-SCH-B PEOPLE,NECB-B-OCCUPANCY,WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,1875.00,9.3,9.3,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,8
+ People Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B SPACE FUNCTION STAIRWAY-SCH-B PEOPLE,NECB-B-OCCUPANCY,WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,2500.00,12.4,12.4,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,11
+ People Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B SPACE FUNCTION STAIRWAY-SCH-B PEOPLE,NECB-B-OCCUPANCY,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,1875.00,9.3,9.3,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,8
+ People Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B SPACE FUNCTION STAIRWAY-SCH-B PEOPLE,NECB-B-OCCUPANCY,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,1875.00,9.3,9.3,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,8
+ People Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B SPACE FUNCTION STAIRWAY-SCH-B PEOPLE,NECB-B-OCCUPANCY,WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,2500.00,12.4,12.4,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,11
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B SPACE FUNCTION PENITENTIARY - DINING LIGHTS,NECB-B-LIGHTING,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,2500.00,250.0,28749.761,11.500,115.003,0.000,0.500,0.200,0.300,1.000,General,2874.976,25874.785
+ Lights Internal Gains Nominal, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A SPACE FUNCTION POST OFFICE SORTING LIGHTS,NECB-A-LIGHTING,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,1875.00,93.8,18937.342,10.100,201.788,0.000,0.500,0.200,0.300,1.000,General,946.867,17043.608
+ Lights Internal Gains Nominal, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I SPACE FUNCTION RELIGIOUS - AUDIENCE LIGHTS,NECB-I-LIGHTING,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,1875.00,375.0,34124.716,18.200,91.002,0.000,0.500,0.200,0.300,1.000,General,1706.236,30712.244
+ Lights Internal Gains Nominal, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL LIGHTS,NECB-C-LIGHTING,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,1875.00,375.0,12937.392,6.900,34.501,0.000,0.500,0.200,0.300,1.000,General,646.870,11643.653
+ Lights Internal Gains Nominal, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR LIGHTS,NECB-I-LIGHTING,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,1875.00,375.0,34124.716,18.200,91.002,0.000,0.500,0.200,0.300,1.000,General,1706.236,30712.244
+ Lights Internal Gains Nominal, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - DRESSING/FITTING LIGHTS,NECB-C-LIGHTING,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,1875.00,62.6,15862.368,8.460,253.533,0.000,0.500,0.200,0.300,1.000,General,793.118,14276.131
+ Lights Internal Gains Nominal, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - MALL CONCOURSE LIGHTS,NECB-C-LIGHTING,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,2500.00,125.1,29499.754,11.800,235.752,0.000,0.500,0.200,0.300,1.000,General,1474.988,26549.779
+ Lights Internal Gains Nominal, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - SALES LIGHTS,NECB-C-LIGHTING,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,1875.00,62.6,33937.218,18.100,542.429,0.000,0.500,0.200,0.300,1.000,General,1696.861,30543.496
+ Lights Internal Gains Nominal, ALL_ST=SALES AREA_FL=STORY 1_SCH=C SPACE FUNCTION SALES AREA LIGHTS,NECB-C-LIGHTING,ALL_ST=SALES AREA_FL=STORY 1_SCH=C,1875.00,62.6,33937.218,18.100,542.429,0.000,0.500,0.200,0.300,1.000,General,1696.861,30543.496
+ Lights Internal Gains Nominal, ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B SPACE FUNCTION SPORTS ARENA - AUDIENCE LIGHTS,NECB-B-LIGHTING,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,1875.00,375.0,8624.928,4.600,23.001,0.000,0.500,0.200,0.300,1.000,General,862.493,7762.435
+ Lights Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C1 LIGHTS,NECB-B-LIGHTING,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,1875.00,375.0,60749.494,32.400,162.004,0.000,0.500,0.200,0.300,1.000,General,6074.949,54674.545
+ Lights Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C2 LIGHTS,NECB-B-LIGHTING,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,1875.00,375.0,38812.177,20.700,103.503,0.000,0.500,0.200,0.300,1.000,General,3881.218,34930.959
+ Lights Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C3 LIGHTS,NECB-B-LIGHTING,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,1875.00,375.0,24187.299,12.900,64.502,0.000,0.500,0.200,0.300,1.000,General,2418.730,21768.569
+ Lights Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C4 LIGHTS,NECB-B-LIGHTING,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,1875.00,375.0,14624.878,7.800,39.001,0.000,0.500,0.200,0.300,1.000,General,1462.488,13162.390
+ Lights Internal Gains Nominal, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - RING LIGHTS,NECB-B-LIGHTING,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,1875.00,375.0,53999.551,28.800,144.004,0.000,0.500,0.200,0.300,1.000,General,5399.955,48599.596
+ Lights Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B SPACE FUNCTION STAIRWAY-SCH-B LIGHTS,NECB-B-LIGHTING,WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,1875.00,9.3,13874.885,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,1387.488,12487.396
+ Lights Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B SPACE FUNCTION STAIRWAY-SCH-B LIGHTS,NECB-B-LIGHTING,WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,2500.00,12.4,18499.846,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,1849.985,16649.861
+ Lights Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B SPACE FUNCTION STAIRWAY-SCH-B LIGHTS,NECB-B-LIGHTING,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,1875.00,9.3,13874.885,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,1387.488,12487.396
+ Lights Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B SPACE FUNCTION STAIRWAY-SCH-B LIGHTS,NECB-B-LIGHTING,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,1875.00,9.3,13874.885,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,1387.488,12487.396
+ Lights Internal Gains Nominal, WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B SPACE FUNCTION STAIRWAY-SCH-B LIGHTS,NECB-B-LIGHTING,WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,2500.00,12.4,18499.846,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,1849.985,16649.861
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B SPACE FUNCTION PENITENTIARY - DINING ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,2500.00,250.0,2499.979,1.000,10.000,0.000,0.500,0.000,0.500,General,249.998,2249.981
+ ElectricEquipment Internal Gains Nominal, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A SPACE FUNCTION POST OFFICE SORTING ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,1875.00,93.8,14062.383,7.500,149.842,0.000,0.500,0.000,0.500,General,2812.477,12656.145
+ ElectricEquipment Internal Gains Nominal, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I SPACE FUNCTION RELIGIOUS - AUDIENCE ELEC EQUIP,NECB-I-ELECTRIC-EQUIPMENT,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,1875.00,375.0,1874.984,1.000,5.000,0.000,0.500,0.000,0.500,General,187.498,1499.988
+ ElectricEquipment Internal Gains Nominal, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL ELEC EQUIP,NECB-C-ELECTRIC-EQUIPMENT,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,1875.00,375.0,1874.984,1.000,5.000,0.000,0.500,0.000,0.500,General,93.749,1687.486
+ ElectricEquipment Internal Gains Nominal, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR ELEC EQUIP,NECB-I-ELECTRIC-EQUIPMENT,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,1875.00,375.0,1874.984,1.000,5.000,0.000,0.500,0.000,0.500,General,187.498,1499.988
+ ElectricEquipment Internal Gains Nominal, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - DRESSING/FITTING ELEC EQUIP,NECB-C-ELECTRIC-EQUIPMENT,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,1875.00,62.6,4687.461,2.500,74.921,0.000,0.500,0.000,0.500,General,234.373,4218.715
+ ElectricEquipment Internal Gains Nominal, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - MALL CONCOURSE ELEC EQUIP,NECB-C-ELECTRIC-EQUIPMENT,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,2500.00,125.1,2499.979,1.000,19.979,0.000,0.500,0.000,0.500,General,124.999,2249.981
+ ElectricEquipment Internal Gains Nominal, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C SPACE FUNCTION RETAIL - SALES ELEC EQUIP,NECB-C-ELECTRIC-EQUIPMENT,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,1875.00,62.6,4687.461,2.500,74.921,0.000,0.500,0.000,0.500,General,234.373,4218.715
+ ElectricEquipment Internal Gains Nominal, ALL_ST=SALES AREA_FL=STORY 1_SCH=C SPACE FUNCTION SALES AREA ELEC EQUIP,NECB-C-ELECTRIC-EQUIPMENT,ALL_ST=SALES AREA_FL=STORY 1_SCH=C,1875.00,62.6,4687.461,2.500,74.921,0.000,0.500,0.000,0.500,General,234.373,4218.715
+ ElectricEquipment Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C1 ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,1875.00,375.0,2812.477,1.500,7.500,0.000,0.500,0.000,0.500,General,281.248,2531.229
+ ElectricEquipment Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C2 ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,1875.00,375.0,2812.477,1.500,7.500,0.000,0.500,0.000,0.500,General,281.248,2531.229
+ ElectricEquipment Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C3 ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,1875.00,375.0,2812.477,1.500,7.500,0.000,0.500,0.000,0.500,General,281.248,2531.229
+ ElectricEquipment Internal Gains Nominal, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - COURT C4 ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,1875.00,375.0,2812.477,1.500,7.500,0.000,0.500,0.000,0.500,General,281.248,2531.229
+ ElectricEquipment Internal Gains Nominal, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B SPACE FUNCTION SPORTS ARENA - RING ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,1875.00,375.0,2812.477,1.500,7.500,0.000,0.500,0.000,0.500,General,281.248,2531.229
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm, External Shading Calculation Method, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No,No,No
+! <Water Heater Information>,Type,Name,Volume {m3},Maximum Capacity {W},Standard Rated Recovery Efficiency, Standard Rated Energy Factor
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s/m2},Volume Flow Rate/Exterior Surface Area {m3/s/m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, PENITENTIARY - DINING-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,2500.00,250.0,0.625,2.500E-004,2.500E-004,0.237,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, POST OFFICE SORTING-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,1875.00,93.8,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, RELIGIOUS - AUDIENCE-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,1875.00,375.0,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, RELIGIOUS - FELLOWSHIP HALL-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,1875.00,375.0,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, RELIGIOUS - PULPIT/CHOIR-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,1875.00,375.0,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, RETAIL - DRESSING/FITTING-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,1875.00,62.6,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, RETAIL - SALES-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,1875.00,62.6,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, SPORTS ARENA - AUDIENCE-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,1875.00,375.0,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, SPORTS ARENA - COURT C2-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,1875.00,375.0,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, SPORTS ARENA - COURT C4-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,1875.00,375.0,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, SPORTS ARENA - RING-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,1875.00,375.0,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STAIRWAY-SCH-C-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,1875.00,9.3,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STAIRWAY-SCH-D-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,1875.00,9.3,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SALES AREA_FL=STORY 1_SCH=C,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,Mixing/Well-Stirred
+RoomAir Model,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,Mixing/Well-Stirred
+RoomAir Model,WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,Mixing/Well-Stirred
+RoomAir Model,WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,Mixing/Well-Stirred
+RoomAir Model,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,Mixing/Well-Stirred
+RoomAir Model,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,Mixing/Well-Stirred
+RoomAir Model,WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    6
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SALES AREA_FL=STORY 1_SCH=C,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,   1.3000    
+ Heating Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,   1.3000    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SALES AREA_FL=STORY 1_SCH=C,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,   1.1000    
+ Cooling Sizing Factor Information, Zone WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,   1.1000    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Cooling, 91016.56685, 100118.22353, 7.03515, 8.95350, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:10:00, 28.38333, 8.76969E-003, 2500.00000, 249.99182, 8.95350, 0.00000
+ Zone Sizing Information, ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Heating, 36293.33163, 47181.33111, 1.36105, 8.95350, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:20:00, -36.20000, 1.25811E-004, 2500.00000, 249.99182, 8.95350, 0.00000
+ Zone Sizing Information, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A, Cooling, 91887.21937, 101075.94130, 7.10175, 7.81193, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:30:00, 28.59000, 8.76969E-003, 1875.00000, 93.84784, 1.64783, 0.00000
+ Zone Sizing Information, ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A, Heating, 47686.65484, 61992.65129, 1.89952, 2.46938, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 93.84784, 1.64783, 0.00000
+ Zone Sizing Information, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Cooling, 123451.40591, 135796.54650, 7.79682, 8.57650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 28.90000, 8.76969E-003, 1875.00000, 374.98773, 6.28650, 0.00000
+ Zone Sizing Information, ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Heating, 41674.96057, 54177.44875, 1.59760, 6.28650, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 15:30:00, -36.20000, 1.25811E-004, 1875.00000, 374.98773, 6.28650, 0.00000
+ Zone Sizing Information, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Cooling, 72685.78891, 79954.36780, 5.61908, 6.28650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:50:00, 28.79667, 8.76969E-003, 1875.00000, 374.98773, 6.28650, 0.00000
+ Zone Sizing Information, ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Heating, 50514.64881, 65669.04345, 2.01424, 6.28650, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 374.98773, 6.28650, 0.00000
+ Zone Sizing Information, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Cooling, 83113.90939, 91425.30033, 5.54321, 6.28650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 28.90000, 8.76969E-003, 1875.00000, 374.98773, 6.28650, 0.00000
+ Zone Sizing Information, ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Heating, 14380.80430, 18695.04559, 0.55472, 6.28650, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 16:00:00, -36.20000, 1.25811E-004, 1875.00000, 374.98773, 6.28650, 0.00000
+ Zone Sizing Information, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C, Cooling, 31576.22990, 34733.85289, 2.44044, 2.68448, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 27.16400, 8.76969E-003, 1875.00000, 62.56523, 2.21933, 0.00000
+ Zone Sizing Information, ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C, Heating, 24142.63893, 31385.43061, 0.94754, 2.21933, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 62.56523, 2.21933, 0.00000
+ Zone Sizing Information, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C, Cooling, 41776.58584, 45954.24442, 3.22890, 4.57200, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 27.16400, 8.76969E-003, 2500.00000, 125.13046, 4.57200, 0.00000
+ Zone Sizing Information, ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C, Heating, 0.00000, 0.00000, 0.00000, 4.57200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 125.13046, 4.57200, 0.00000
+ Zone Sizing Information, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C, Cooling, 52999.50583, 58299.45641, 4.09610, 4.50571, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 14:20:00, 28.90000, 8.76969E-003, 1875.00000, 62.56523, 2.21933, 0.00000
+ Zone Sizing Information, ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C, Heating, 18343.02317, 23845.93012, 0.71307, 2.21933, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 62.56523, 2.21933, 0.00000
+ Zone Sizing Information, ALL_ST=SALES AREA_FL=STORY 1_SCH=C, Cooling, 34187.61532, 37606.37685, 2.64227, 2.90650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 18:00:00, 25.92400, 8.76969E-003, 1875.00000, 62.56523, 2.21933, 0.00000
+ Zone Sizing Information, ALL_ST=SALES AREA_FL=STORY 1_SCH=C, Heating, 0.00000, 0.00000, 0.00000, 2.21933, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 62.56523, 2.21933, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B, Cooling, 57760.63094, 63536.69403, 4.46532, 11.28713, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:00:00, 22.70000, 8.76969E-003, 1875.00000, 374.98773, 11.28713, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B, Heating, 12835.43808, 16686.06951, 0.49953, 11.28713, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 10:00:00, -36.20000, 1.25811E-004, 1875.00000, 374.98773, 11.28713, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B, Cooling, 67385.21505, 74123.73655, 5.20887, 5.72976, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 22:00:00, 20.46800, 8.76969E-003, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B, Cooling, 70884.57699, 77973.03469, 5.47981, 6.02779, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:00:00, 28.28000, 8.76969E-003, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B, Cooling, 41197.23280, 45316.95608, 3.18515, 3.50366, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:40:00, 21.95600, 8.76969E-003, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B, Cooling, 39609.74102, 43570.71512, 3.06231, 3.36854, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:20:00, 22.32800, 8.76969E-003, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B, Heating, 4495.20870, 5843.77131, 0.17463, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 10:00:00, -36.20000, 1.25811E-004, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B, Cooling, 75738.72095, 83312.59304, 5.85522, 6.44074, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:00:00, 22.70000, 8.76969E-003, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 374.98773, 2.85750, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Cooling, 13211.50860, 14532.65946, 0.94083, 1.03491, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:00:00, 22.08000, 8.76969E-003, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B, Cooling, 16922.86272, 18615.14899, 1.20624, 1.32686, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:00:00, 22.08000, 8.76969E-003, 2500.00000, 12.37850, 0.76200, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 12.37850, 0.76200, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B, Cooling, 32218.23583, 35440.05941, 2.48993, 2.73892, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:40:00, 28.69333, 8.76969E-003, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B, Heating, 5710.48323, 7423.62821, 0.22590, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 10:00:00, -36.20000, 1.25811E-004, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B, Cooling, 67666.03044, 74432.63349, 5.22945, 5.75239, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 16:10:00, 27.99067, 8.76969E-003, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B, Heating, 45987.34534, 59783.54894, 1.83171, 2.38123, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 10:00:00, -36.20000, 1.25811E-004, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B, Cooling, 26992.53770, 29691.79147, 1.89575, 2.08532, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:00:00, 22.08000, 8.76969E-003, 2500.00000, 12.37850, 0.76200, 0.00000
+ Zone Sizing Information, WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B, Heating, 0.00000, 0.00000, 0.00000, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 12.37850, 0.76200, 0.00000
+! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
+ System Sizing Information, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Cooling, Sensible, 159514.96, 8.95350, 8.95350, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Heating, Sensible, 821251.43, 8.95350, 8.95350, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Cooling, Sensible, 145381.19, 8.57650, 8.57650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Heating, Sensible, 576623.34, 6.28650, 6.28650, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Cooling, Sensible, 115009.18, 6.28650, 6.28650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Heating, Sensible, 576623.34, 6.28650, 6.28650, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Cooling, Sensible, 115761.50, 6.28650, 6.28650, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Heating, Sensible, 576623.34, 6.28650, 6.28650, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Cooling, Sensible, 172152.40, 12.93841, 12.93841, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Heating, Sensible, 341288.14, 5.04823, 5.04823, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 10:00:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT, Cooling, Sensible, 138136.84, 12.13992, 12.13992, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 00:00:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT, Heating, Sensible, 453017.55, 7.93433, 7.93433, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT 1, Cooling, Sensible, 209118.31, 15.83708, 15.83708, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 00:00:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT 1, Heating, Sensible, 489454.73, 8.57250, 8.57250, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT 2, Cooling, Sensible, 324596.82, 23.04932, 23.04932, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 00:00:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT 2, Heating, Sensible, 1158920.04, 20.29778, 20.29778, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT 3, Cooling, Sensible, 108273.94, 7.81193, 7.81193, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 00:00:00
+ System Sizing Information, SYS_6_VAV WITH REHEAT 3, Heating, Sensible, 85748.14, 2.46938, 2.46938, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 6, Design Size Maximum Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 6, Design Size Maximum Water Flow Rate [m3/s], 7.04692E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 6, Design Size U-Factor Times Area Value [W/K], 1444.66070
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Maximum Air Flow Rate [m3/s], 7.81193
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Constant Minimum Air Flow Fraction, 0.18289
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Minimum Air Flow Rate [m3/s], 2.34358
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 1.24991E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.33347E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 2.46938
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 11, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 15, Design Size Rated Capacity [W], 89279.80489
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 15, Design Size Maximum Water Flow Rate [m3/s], 1.33347E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 15, Design Size U-Factor Times Area Value [W/K], 2035.28591
+! <Water Heating Coil Capacity Information>,Component Type,Name,Nominal Total Capacity {W}
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 15,82670.56
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 20, Design Size Maximum Water Flow Rate [m3/s], 9.25911E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 20, Design Size U-Factor Times Area Value [W/K], 1889.88572
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 7, Design Size Maximum Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 7, Design Size Maximum Water Flow Rate [m3/s], 8.09184E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 7, Design Size U-Factor Times Area Value [W/K], 1651.72333
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 8, Design Size Maximum Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 8, Design Size Maximum Water Flow Rate [m3/s], 9.80821E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 8, Design Size U-Factor Times Area Value [W/K], 2001.60007
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 9, Design Size Maximum Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 9, Design Size Maximum Water Flow Rate [m3/s], 2.79226E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 9, Design Size U-Factor Times Area Value [W/K], 566.36177
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Maximum Air Flow Rate [m3/s], 2.68448
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Constant Minimum Air Flow Fraction, 0.53223
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Minimum Air Flow Rate [m3/s], 0.80534
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 4.29517E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Maximum Reheat Water Flow Rate [m3/s], 6.72724E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.23181
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 7, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 10, Design Size Rated Capacity [W], 45040.97210
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 10, Design Size Maximum Water Flow Rate [m3/s], 6.72724E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 10, Design Size U-Factor Times Area Value [W/K], 1031.09251
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 10,37191.97
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 16, Design Size Maximum Water Flow Rate [m3/s], 4.68767E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 16, Design Size U-Factor Times Area Value [W/K], 955.47502
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Maximum Air Flow Rate [m3/s], 4.57200
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Constant Minimum Air Flow Fraction, 0.41667
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Minimum Air Flow Rate [m3/s], 1.37160
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 5.48640E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.17917E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.37160
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 8, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 11, Design Size Rated Capacity [W], 14590.22005
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 11, Design Size Maximum Water Flow Rate [m3/s], 2.17917E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 11, Design Size U-Factor Times Area Value [W/K], 263.06652
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 11,13680.36
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 17, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 17, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Maximum Air Flow Rate [m3/s], 4.50571
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Constant Minimum Air Flow Fraction, 0.31710
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Minimum Air Flow Rate [m3/s], 1.35171
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 7.20914E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Maximum Reheat Water Flow Rate [m3/s], 5.78073E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.35171
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 9, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 12, Design Size Rated Capacity [W], 38703.82751
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 12, Design Size Maximum Water Flow Rate [m3/s], 5.78073E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 12, Design Size U-Factor Times Area Value [W/K], 822.92481
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 12,36306.94
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 18, Design Size Maximum Water Flow Rate [m3/s], 3.56158E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 18, Design Size U-Factor Times Area Value [W/K], 724.45677
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Maximum Air Flow Rate [m3/s], 2.90650
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Constant Minimum Air Flow Fraction, 0.49157
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Minimum Air Flow Rate [m3/s], 0.87195
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 4.65040E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.38533E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 0.87195
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 1, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 2, Design Size Rated Capacity [W], 9275.25581
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 2, Design Size Maximum Water Flow Rate [m3/s], 1.38533E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 2, Design Size U-Factor Times Area Value [W/K], 167.23595
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 2,8696.84
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 10, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 10, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Maximum Air Flow Rate [m3/s], 11.28713
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Constant Minimum Air Flow Fraction, 0.12658
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Minimum Air Flow Rate [m3/s], 3.38614
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 1.80594E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Maximum Reheat Water Flow Rate [m3/s], 7.98198E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 3.38614
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 10, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 13, Design Size Rated Capacity [W], 53441.89529
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 13, Design Size Maximum Water Flow Rate [m3/s], 7.98198E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 13, Design Size U-Factor Times Area Value [W/K], 1019.21645
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 13,50091.16
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 19, Design Size Maximum Water Flow Rate [m3/s], 2.49220E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 19, Design Size U-Factor Times Area Value [W/K], 504.89466
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Maximum Air Flow Rate [m3/s], 5.72976
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Constant Minimum Air Flow Fraction, 0.24936
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Minimum Air Flow Rate [m3/s], 1.71893
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 9.16761E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.73099E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.71893
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 2, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 3, Design Size Rated Capacity [W], 18284.86164
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 3, Design Size Maximum Water Flow Rate [m3/s], 2.73099E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 3, Design Size U-Factor Times Area Value [W/K], 329.68214
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 3,17144.59
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 11, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 11, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Maximum Air Flow Rate [m3/s], 6.02779
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Constant Minimum Air Flow Fraction, 0.23703
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Minimum Air Flow Rate [m3/s], 1.80834
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 9.64447E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.87305E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.80834
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 4, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 6, Design Size Rated Capacity [W], 19235.96863
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 6, Design Size Maximum Water Flow Rate [m3/s], 2.87305E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 6, Design Size U-Factor Times Area Value [W/K], 346.83091
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 6,18036.39
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 13, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 13, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Maximum Air Flow Rate [m3/s], 3.50366
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Constant Minimum Air Flow Fraction, 0.40779
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Minimum Air Flow Rate [m3/s], 1.05110
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 5.60586E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Maximum Reheat Water Flow Rate [m3/s], 1.66996E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.05110
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 3, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 4, Design Size Rated Capacity [W], 11180.93232
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 4, Design Size Maximum Water Flow Rate [m3/s], 1.66996E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 4, Design Size U-Factor Times Area Value [W/K], 201.59593
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 4,10483.68
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 12, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 12, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Maximum Air Flow Rate [m3/s], 3.36854
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Constant Minimum Air Flow Fraction, 0.42414
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Minimum Air Flow Rate [m3/s], 1.01056
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 5.38967E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Maximum Reheat Water Flow Rate [m3/s], 2.51671E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.01056
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 5, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 7, Design Size Rated Capacity [W], 16850.15960
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 7, Design Size Maximum Water Flow Rate [m3/s], 2.51671E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 7, Design Size U-Factor Times Area Value [W/K], 324.63911
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 7,15792.92
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 14, Design Size Maximum Water Flow Rate [m3/s], 8.72815E-005
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 14, Design Size U-Factor Times Area Value [W/K], 176.57989
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Maximum Air Flow Rate [m3/s], 6.44074
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Constant Minimum Air Flow Fraction, 0.22183
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, User-Specified Constant Minimum Air Flow Fraction, 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Minimum Air Flow Rate [m3/s], 1.93222
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2], 1.03052E-003
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Maximum Flow Fraction during Reheat [], 0.30000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Maximum Reheat Water Flow Rate [m3/s], 3.06987E-004
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s], 1.93222
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Reheat Coil Sizing Inlet Air Temperature [C], 13.10000
+ Component Sizing Information, AirTerminal:SingleDuct:VAV:Reheat, AIR TERMINAL SINGLE DUCT VAV REHEAT 6, Design Size Reheat Coil Sizing Inlet Air Humidity Ratio [kgWater/kgDryAir], 8.00000E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 8, Design Size Rated Capacity [W], 20553.77346
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 8, Design Size Maximum Water Flow Rate [m3/s], 3.06987E-004
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 8, Design Size U-Factor Times Area Value [W/K], 370.59137
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 8,19272.01
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 15, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 15, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 1, Design Size Maximum Air Flow Rate [m3/s], 1.03491
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 1, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 1, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 2, Design Size Maximum Air Flow Rate [m3/s], 1.32686
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 2, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 2, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 3, Design Size Maximum Air Flow Rate [m3/s], 2.73892
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 3, Design Size Maximum Water Flow Rate [m3/s], 1.10878E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 3, Design Size U-Factor Times Area Value [W/K], 227.03330
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 4, Design Size Maximum Air Flow Rate [m3/s], 5.75239
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 4, Design Size Maximum Water Flow Rate [m3/s], 8.92916E-004
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 4, Design Size U-Factor Times Area Value [W/K], 1822.68588
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 5, Design Size Maximum Air Flow Rate [m3/s], 2.08532
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 5, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 5, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Sum of Air Terminal Maximum Flow Rates [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Adjusted Heating Design Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Adjusted Cooling Design Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Adjusted Main Design Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Sum of Air Terminal Maximum Flow Rates [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Adjusted Heating Design Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Adjusted Cooling Design Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Adjusted Main Design Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Sum of Air Terminal Maximum Flow Rates [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Adjusted Heating Design Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Adjusted Cooling Design Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Adjusted Main Design Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Sum of Air Terminal Maximum Flow Rates [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Adjusted Heating Design Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Adjusted Cooling Design Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Adjusted Main Design Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Sum of Air Terminal Maximum Flow Rates [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Adjusted Heating Design Air Flow Rate [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Adjusted Cooling Design Air Flow Rate [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Adjusted Main Design Air Flow Rate [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 3.64198
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 3.64198
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Sum of Air Terminal Maximum Flow Rates [m3/s], 12.13992
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Adjusted Heating Design Air Flow Rate [m3/s], 7.93433
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Adjusted Cooling Design Air Flow Rate [m3/s], 12.13992
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Adjusted Main Design Air Flow Rate [m3/s], 12.13992
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, User Heating Air Flow Ratio [], 0.30000
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Calculated Heating Air Flow Ratio [], 0.65357
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 4.75112
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 4.75112
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Sum of Air Terminal Maximum Flow Rates [m3/s], 15.83708
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Adjusted Heating Design Air Flow Rate [m3/s], 8.57250
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Adjusted Cooling Design Air Flow Rate [m3/s], 15.83708
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Adjusted Main Design Air Flow Rate [m3/s], 15.83708
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, User Heating Air Flow Ratio [], 0.30000
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Calculated Heating Air Flow Ratio [], 0.54129
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 6.91480
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 6.91480
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Sum of Air Terminal Maximum Flow Rates [m3/s], 23.04932
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Adjusted Heating Design Air Flow Rate [m3/s], 20.29778
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Adjusted Cooling Design Air Flow Rate [m3/s], 23.04932
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Adjusted Main Design Air Flow Rate [m3/s], 23.04932
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, User Heating Air Flow Ratio [], 0.30000
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Calculated Heating Air Flow Ratio [], 0.88062
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 2.34358
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 2.34358
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Sum of Air Terminal Maximum Flow Rates [m3/s], 7.81193
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Adjusted Heating Design Air Flow Rate [m3/s], 2.46938
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Adjusted Cooling Design Air Flow Rate [m3/s], 7.81193
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Adjusted Main Design Air Flow Rate [m3/s], 7.81193
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, User Heating Air Flow Ratio [], 0.30000
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Calculated Heating Air Flow Ratio [], 0.31610
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B, Design Supply Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I, Design Supply Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C, Design Supply Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I, Design Supply Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, AirLoopHVAC, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B, Design Supply Air Flow Rate [m3/s], 12.93841
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT, Design Supply Air Flow Rate [m3/s], 12.13992
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 1, Design Supply Air Flow Rate [m3/s], 15.83708
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 2, Design Supply Air Flow Rate [m3/s], 23.04932
+ Component Sizing Information, AirLoopHVAC, SYS_6_VAV WITH REHEAT 3, Design Supply Air Flow Rate [m3/s], 7.81193
+!<Controller:MechanicalVentilation>,Name,Availability Schedule Name,Demand Controlled Ventilation {Yes/No},System Outdoor Air Method,Zone Maximum Outdoor Air Fraction,Number of Zones,Zone Name,DSOA Name,DSZAD Name
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 2,SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B OCC SCH,No,ZoneSum,1.00,1,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,SPACE FUNCTION PENITENTIARY - DINING VENTILATION,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 9,SYS_6_VAV WITH REHEAT 3 OCC SCH,No,ZoneSum,1.00,1,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,SPACE FUNCTION POST OFFICE SORTING VENTILATION,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 3,SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I OCC SCH,No,ZoneSum,1.00,1,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,SPACE FUNCTION RELIGIOUS - AUDIENCE VENTILATION,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 4,SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C OCC SCH,No,ZoneSum,1.00,1,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,SPACE FUNCTION RELIGIOUS - FELLOWSHIP HALL VENTILATION,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 5,SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I OCC SCH,No,ZoneSum,1.00,1,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,SPACE FUNCTION RELIGIOUS - PULPIT/CHOIR VENTILATION,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 8,SYS_6_VAV WITH REHEAT 2 OCC SCH,No,ZoneSum,1.00,4,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,SPACE FUNCTION RETAIL - DRESSING/FITTING VENTILATION,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C DESIGN SPEC ZONE AIR DIST,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,SPACE FUNCTION RETAIL - MALL CONCOURSE VENTILATION,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C DESIGN SPEC ZONE AIR DIST,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,SPACE FUNCTION RETAIL - SALES VENTILATION,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C DESIGN SPEC ZONE AIR DIST,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,SPACE FUNCTION SPORTS ARENA - AUDIENCE VENTILATION,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 6,SYS_6_VAV WITH REHEAT OCC SCH,No,ZoneSum,1.00,3,ALL_ST=SALES AREA_FL=STORY 1_SCH=C,SPACE FUNCTION SALES AREA VENTILATION,ALL_ST=SALES AREA_FL=STORY 1_SCH=C DESIGN SPEC ZONE AIR DIST,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,SPACE FUNCTION SPORTS ARENA - COURT C1 VENTILATION,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B DESIGN SPEC ZONE AIR DIST,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,SPACE FUNCTION SPORTS ARENA - COURT C3 VENTILATION,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 7,SYS_6_VAV WITH REHEAT 1 OCC SCH,No,ZoneSum,1.00,3,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,SPACE FUNCTION SPORTS ARENA - COURT C2 VENTILATION,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B DESIGN SPEC ZONE AIR DIST,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,SPACE FUNCTION SPORTS ARENA - COURT C4 VENTILATION,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B DESIGN SPEC ZONE AIR DIST,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,SPACE FUNCTION SPORTS ARENA - RING VENTILATION,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 1,SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B OCC SCH,No,ZoneSum,1.00,5,WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,SPACE FUNCTION STAIRWAY-SCH-B VENTILATION,WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B DESIGN SPEC ZONE AIR DIST,WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,SPACE FUNCTION STAIRWAY-SCH-B VENTILATION,WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B DESIGN SPEC ZONE AIR DIST,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,SPACE FUNCTION STAIRWAY-SCH-B VENTILATION,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B DESIGN SPEC ZONE AIR DIST,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,SPACE FUNCTION STAIRWAY-SCH-B VENTILATION,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B DESIGN SPEC ZONE AIR DIST,WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,SPACE FUNCTION STAIRWAY-SCH-B VENTILATION,WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B DESIGN SPEC ZONE AIR DIST
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 2, Maximum Outdoor Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 2, Minimum Outdoor Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 559KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 8.95350
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 559KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 175162.76391
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 559KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.78109
+! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER {Btu/W-h}, IEER {Btu/W-h}
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 559KBTU/HR 8.21EER, 168196.5, 2.68, 9.14, 9.66, 9.31
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 2, Design Size Nominal Capacity [W], 821251.42884
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 2, Design Size Maximum Flow Rate [m3/s], 8.95350
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 3, Maximum Outdoor Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 3, Minimum Outdoor Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 515KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 8.57650
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 515KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 161597.49005
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 515KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.79700
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 515KBTU/HR 8.21EER, 154926.1, 2.64, 9.01, 9.53, 9.16
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 3, Design Size Nominal Capacity [W], 635420.63734
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 3, Design Size Maximum Flow Rate [m3/s], 8.57650
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 4, Maximum Outdoor Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 4, Minimum Outdoor Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 402KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 402KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 125726.71075
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 402KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.77231
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 402KBTU/HR 8.21EER, 120834.8, 2.61, 8.91, 9.41, 9.11
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 4, Design Size Nominal Capacity [W], 576623.34365
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 4, Design Size Maximum Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 5, Maximum Outdoor Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 5, Minimum Outdoor Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 404KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 404KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 126410.64923
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 404KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.77066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 404KBTU/HR 8.21EER, 121518.6, 2.61, 8.92, 9.43, 9.12
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 5, Design Size Nominal Capacity [W], 576623.34365
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 5, Design Size Maximum Flow Rate [m3/s], 6.28650
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Maximum Outdoor Air Flow Rate [m3/s], 12.93841
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Minimum Outdoor Air Flow Rate [m3/s], 3.23850
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_4_PSZ_WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 3.23850
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 731KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 12.93841
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 731KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 214176.64984
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 731KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 731KBTU/HR 8.21EER, 204119.4, 2.69, 9.17, 9.67, 9.17
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 1, Design Size Nominal Capacity [W], 534167.68550
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 1, Design Size Maximum Flow Rate [m3/s], 12.93841
+ Component Sizing Information, Fan:VariableVolume, SYS6 RETURN FAN, Design Size Maximum Flow Rate [m3/s], 12.13992
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 6, Maximum Outdoor Air Flow Rate [m3/s], 12.13992
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 6, Minimum Outdoor Air Flow Rate [m3/s], 7.93433
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_6_VAV WITH REHEAT ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 7.93433
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Coil Load [W], 188181.56219
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Water Flow Rate [m3/s], 7.47184E-003
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Air Flow Rate [m3/s], 12.13992
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Inlet Air Temperature [C], 22.82507
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Inlet Water Temperature [C], 7.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Outlet Air Temperature [C], 13.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Inlet Air Humidity Ratio, 9.12654E-003
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 1, Design Size Design Outlet Air Humidity Ratio, 8.76847E-003
+! <Water Cooling Coil Capacity Information>,Component Type,Name,Nominal Total Capacity {W},Nominal Sensible Capacity {W},Nominal Latent Capacity {W},Nominal Sensible Heat Ratio, Nominal Coil UA Value {W/C}, Nominal Coil Surface Area {m2}
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,COIL COOLING WATER 1,260699.88,186438.40,74261.47,0.72,29107.86,295.23
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 1, Design Size Rated Capacity [W], 207941.92349
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 1, Design Size Maximum Water Flow Rate [m3/s], 3.10578E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 1, Design Size U-Factor Times Area Value [W/K], 2537.50119
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 1,115855.82
+ Component Sizing Information, Fan:VariableVolume, SYS6 SUPPLY FAN, Design Size Maximum Flow Rate [m3/s], 12.13992
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 2, Maximum Actuated Flow [m3/s], 7.47184E-003
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 2, Controller Convergence Tolerance, 6.37313E-005
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 1, Maximum Actuated Flow [m3/s], 3.10578E-003
+ Component Sizing Information, Fan:VariableVolume, SYS6 RETURN FAN 1, Design Size Maximum Flow Rate [m3/s], 15.83708
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 7, Maximum Outdoor Air Flow Rate [m3/s], 15.83708
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 7, Minimum Outdoor Air Flow Rate [m3/s], 8.57250
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_6_VAV WITH REHEAT 1 ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 8.57250
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Coil Load [W], 282834.65316
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Water Flow Rate [m3/s], 1.12301E-002
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Air Flow Rate [m3/s], 15.83708
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Inlet Air Temperature [C], 24.40142
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Inlet Water Temperature [C], 7.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Outlet Air Temperature [C], 13.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Inlet Air Humidity Ratio, 9.26556E-003
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 2, Design Size Design Outlet Air Humidity Ratio, 8.76847E-003
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,COIL COOLING WATER 2,363465.96,253705.34,109760.61,0.70,40368.68,409.44
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 5, Design Size Rated Capacity [W], 271269.77172
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 5, Design Size Maximum Water Flow Rate [m3/s], 4.05163E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 5, Design Size U-Factor Times Area Value [W/K], 3310.28663
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 5,151139.23
+ Component Sizing Information, Fan:VariableVolume, SYS6 SUPPLY FAN 1, Design Size Maximum Flow Rate [m3/s], 15.83708
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 7, Maximum Actuated Flow [m3/s], 1.12301E-002
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 7, Controller Convergence Tolerance, 4.24031E-005
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 6, Maximum Actuated Flow [m3/s], 4.05163E-003
+ Component Sizing Information, Fan:VariableVolume, SYS6 RETURN FAN 2, Design Size Maximum Flow Rate [m3/s], 23.04932
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 8, Maximum Outdoor Air Flow Rate [m3/s], 23.04932
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 8, Minimum Outdoor Air Flow Rate [m3/s], 20.29778
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_6_VAV WITH REHEAT 2 ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 20.29778
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Coil Load [W], 397291.66513
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Water Flow Rate [m3/s], 1.57747E-002
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Air Flow Rate [m3/s], 23.04932
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Inlet Air Temperature [C], 25.15985
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Inlet Water Temperature [C], 7.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Outlet Air Temperature [C], 13.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Inlet Air Humidity Ratio, 8.84564E-003
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 3, Design Size Design Outlet Air Humidity Ratio, 8.76847E-003
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,COIL COOLING WATER 3,512537.23,361081.02,151456.20,0.70,55629.40,564.22
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 9, Design Size Rated Capacity [W], 394806.55033
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 9, Design Size Maximum Water Flow Rate [m3/s], 5.89676E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 9, Design Size U-Factor Times Area Value [W/K], 4817.79756
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 9,219968.33
+ Component Sizing Information, Fan:VariableVolume, SYS6 SUPPLY FAN 2, Design Size Maximum Flow Rate [m3/s], 23.04932
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 12, Maximum Actuated Flow [m3/s], 1.57747E-002
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 12, Controller Convergence Tolerance, 3.01870E-005
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 11, Maximum Actuated Flow [m3/s], 5.89676E-003
+ Component Sizing Information, Fan:VariableVolume, SYS6 RETURN FAN 3, Design Size Maximum Flow Rate [m3/s], 7.81193
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 9, Maximum Outdoor Air Flow Rate [m3/s], 7.81193
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 9, Minimum Outdoor Air Flow Rate [m3/s], 1.64783
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Coil Load [W], 133164.48814
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Water Flow Rate [m3/s], 5.28736E-003
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Air Flow Rate [m3/s], 7.81193
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Inlet Air Temperature [C], 24.96762
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Inlet Water Temperature [C], 7.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Outlet Air Temperature [C], 13.00000
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Inlet Air Humidity Ratio, 8.66780E-003
+ Component Sizing Information, Coil:Cooling:Water, COIL COOLING WATER 4, Design Size Design Outlet Air Humidity Ratio, 8.66780E-003
+Water Cooling Coil Capacity Information,Coil:Cooling:Water,COIL COOLING WATER 4,179192.26,125501.75,53690.51,0.70,20766.06,210.62
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 14, Design Size Rated Capacity [W], 87024.58165
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 14, Design Size Maximum Water Flow Rate [m3/s], 1.29978E-003
+ Component Sizing Information, Coil:Heating:Water, COIL HEATING WATER 14, Design Size U-Factor Times Area Value [W/K], 1179.02571
+Water Heating Coil Capacity Information,Coil:Heating:Water,COIL HEATING WATER 14,56706.81
+ Component Sizing Information, Fan:VariableVolume, SYS6 SUPPLY FAN 3, Design Size Maximum Flow Rate [m3/s], 7.81193
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 18, Maximum Actuated Flow [m3/s], 5.28736E-003
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 18, Controller Convergence Tolerance, 9.00620E-005
+ Component Sizing Information, Controller:WaterCoil, CONTROLLER WATER COIL 17, Maximum Actuated Flow [m3/s], 1.29978E-003
+Water Heater Information,WaterHeater:Mixed,1021GAL NATURALGAS WATER HEATER - 3061KBTU/HR 0.802 THERM EFF,3.8640,897095.1,0.180,0.1751
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP, Maximum Loop Flow Rate [m3/s], 3.97640E-002
+ Component Sizing Information, PlantLoop, CHILLED WATER LOOP, Plant Loop Volume [m3], 4.77167
+ Component Sizing Information, Pump:ConstantSpeed, PUMP CONSTANT SPEED 1, Design Flow Rate [m3/s], 3.97640E-002
+ Component Sizing Information, Pump:ConstantSpeed, PUMP CONSTANT SPEED 1, Design Power Consumption [W], 9895.30619
+ Component Sizing Information, Chiller:Electric:EIR, PRIMARY CHILLER WATERCOOLED SCROLL 287TONS 0.7KW/TON, Design Size Reference Chilled Water Flow Rate [m3/s], 3.97640E-002
+ Component Sizing Information, Chiller:Electric:EIR, PRIMARY CHILLER WATERCOOLED SCROLL 287TONS 0.7KW/TON, Design Size Reference Capacity [W], 1001455.66946
+ Component Sizing Information, Chiller:Electric:EIR, PRIMARY CHILLER WATERCOOLED SCROLL 287TONS 0.7KW/TON, User-Specified Reference Capacity [W], 1010843.21308
+ Component Sizing Information, Chiller:Electric:EIR, PRIMARY CHILLER WATERCOOLED SCROLL 287TONS 0.7KW/TON, Design Size Reference Condenser Fluid Flow Rate [m3/s], 4.80924E-002
+! <Chiller Standard Rating Information>, Component Type, Component Name, IPLV in SI Units {W/W}, IPLV in IP Units {Btu/W-h}
+ Chiller Standard Rating Information, Chiller:Electric:EIR, PRIMARY CHILLER WATERCOOLED SCROLL 287TONS 0.7KW/TON, 6.45, 22.01
+ Component Sizing Information, Chiller:Electric:EIR, SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON, Design Size Reference Chilled Water Flow Rate [m3/s], 3.97640E-002
+ Component Sizing Information, Chiller:Electric:EIR, SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON, Design Size Reference Capacity [W], 1001455.66946
+ Component Sizing Information, Chiller:Electric:EIR, SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON, User-Specified Reference Capacity [W], 1.00000E-003
+ Component Sizing Information, Chiller:Electric:EIR, SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON, Design Size Reference Condenser Fluid Flow Rate [m3/s], 4.87330E-011
+ Chiller Standard Rating Information, Chiller:Electric:EIR, SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON, 5.61, 19.14
+ Component Sizing Information, PlantLoop, CONDENSER WATER LOOP, Maximum Loop Flow Rate [m3/s], 4.80924E-002
+ Component Sizing Information, PlantLoop, CONDENSER WATER LOOP, Plant Loop Volume [m3], 5.77108
+ Component Sizing Information, Pump:ConstantSpeed, PUMP CONSTANT SPEED 2, Design Flow Rate [m3/s], 4.80924E-002
+ Component Sizing Information, Pump:ConstantSpeed, PUMP CONSTANT SPEED 2, Design Power Consumption [W], 11814.40678
+ Component Sizing Information, CoolingTower:SingleSpeed, COOLING TOWER SINGLE SPEED 1, Design Water Flow Rate [m3/s], 4.80924E-002
+ Component Sizing Information, CoolingTower:SingleSpeed, COOLING TOWER SINGLE SPEED 1, Design Air Flow Rate [m3/s], 49.74383
+ Component Sizing Information, CoolingTower:SingleSpeed, COOLING TOWER SINGLE SPEED 1, U-Factor Times Area Value at Design Air Flow Rate [W/C], 42079.68984
+ Component Sizing Information, CoolingTower:SingleSpeed, COOLING TOWER SINGLE SPEED 1, Free Convection Regime Air Flow Rate [m3/s], 4.97438
+ Component Sizing Information, CoolingTower:SingleSpeed, COOLING TOWER SINGLE SPEED 1, Free Convection U-Factor Times Area Value [W/K], 4207.96898
+ Component Sizing Information, PlantLoop, HOT WATER LOOP, Maximum Loop Flow Rate [m3/s], 2.52440E-002
+ Component Sizing Information, PlantLoop, HOT WATER LOOP, Plant Loop Volume [m3], 3.02928
+ Component Sizing Information, Pump:VariableSpeed, PUMP VARIABLE SPEED 1, Design Flow Rate [m3/s], 2.52440E-002
+ Component Sizing Information, Pump:VariableSpeed, PUMP VARIABLE SPEED 1, Design Power Consumption [W], 6329.94724
+ Component Sizing Information, Boiler:HotWater, PRIMARY BOILER 5789KBTU/HR 0.833 COMBUSTION EFF, Design Size Nominal Capacity [W], 1696706.96924
+ Component Sizing Information, Boiler:HotWater, PRIMARY BOILER 5789KBTU/HR 0.833 COMBUSTION EFF, User-Specified Nominal Capacity [W], 1696706.96924
+ Component Sizing Information, Boiler:HotWater, PRIMARY BOILER 5789KBTU/HR 0.833 COMBUSTION EFF, Design Size Design Water Flow Rate [m3/s], 2.52440E-002
+ Component Sizing Information, Boiler:HotWater, SECONDARY BOILER 0KBTU/HR 0.85 AFUE, Design Size Nominal Capacity [W], 1696706.96924
+ Component Sizing Information, Boiler:HotWater, SECONDARY BOILER 0KBTU/HR 0.85 AFUE, User-Specified Nominal Capacity [W], 1.00000E-003
+ Component Sizing Information, Boiler:HotWater, SECONDARY BOILER 0KBTU/HR 0.85 AFUE, Design Size Design Water Flow Rate [m3/s], 2.52440E-002
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Maximum Loop Flow Rate [m3/s], 1.38504E-003
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Plant Loop Volume [m3], 0.16621
+ Component Sizing Information, Pump:ConstantSpeed, SERVICE WATER LOOP PUMP, Design Flow Rate [m3/s], 1.38504E-003
+ Component Sizing Information, Pump:ConstantSpeed, SERVICE WATER LOOP PUMP, Design Power Consumption [W], 2201.76467
+ Component Sizing Information, WaterHeater:Mixed, 1021GAL NATURALGAS WATER HEATER - 3061KBTU/HR 0.802 THERM EFF, Use Side Design Flow Rate [m3/s], 1.38504E-003
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,RUN PERIOD 1,WeatherFileRunPeriod,01/01,12/31,Sunday,365,Use RunPeriod Specified Day,No,No,No,Yes,Yes
+Environment:Daylight Saving,No,RunPeriod Object
+Environment:WarmupDays, 25
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,ALL_ST=PENITENTIARY - DINING_FL=STORY 4_SCH=B,RunPeriod: RUN PERIOD 1,8.6253311267E-002,0.2210224140,Pass,Pass,0.1190103206,0.3921146696,Pass,Pass
+ Warmup Convergence Information,ALL_ST=POST OFFICE SORTING_FL=STORY 4_SCH=A,RunPeriod: RUN PERIOD 1,8.1327537236E-002,0.1308028849,Pass,Pass,3.9994622180E-002,0.1181825399,Pass,Pass
+ Warmup Convergence Information,ALL_ST=RELIGIOUS - AUDIENCE_FL=STORY 4_SCH=I,RunPeriod: RUN PERIOD 1,5.7135338158E-002,0.2298999972,Pass,Pass,0.1004792054,0.3869874489,Pass,Pass
+ Warmup Convergence Information,ALL_ST=RELIGIOUS - FELLOWSHIP HALL_FL=STORY 4_SCH=C,RunPeriod: RUN PERIOD 1,5.7946548702E-002,0.2186146625,Pass,Pass,0.5185990209,2.9189516385,Pass,Pass
+ Warmup Convergence Information,ALL_ST=RELIGIOUS - PULPIT/CHOIR_FL=STORY 3_SCH=I,RunPeriod: RUN PERIOD 1,1.6985332735E-002,5.3584080425E-002,Pass,Pass,4.8796547684E-002,0.2478300332,Pass,Pass
+ Warmup Convergence Information,ALL_ST=RETAIL - DRESSING/FITTING_FL=STORY 3_SCH=C,RunPeriod: RUN PERIOD 1,6.0319242914E-002,0.1373429538,Pass,Pass,0.1530762268,0.5553540926,Pass,Pass
+ Warmup Convergence Information,ALL_ST=RETAIL - MALL CONCOURSE_FL=STORY 3_SCH=C,RunPeriod: RUN PERIOD 1,7.9902646953E-002,0.1146097519,Pass,Pass,0.2069204074,1.0185744706,Pass,Fail
+ Warmup Convergence Information,ALL_ST=RETAIL - SALES_FL=STORY 3_SCH=C,RunPeriod: RUN PERIOD 1,9.6690135753E-002,0.1329357644,Pass,Pass,0.1777133414,0.7327172416,Pass,Fail
+ Warmup Convergence Information,ALL_ST=SALES AREA_FL=STORY 1_SCH=C,RunPeriod: RUN PERIOD 1,0.1956617338,0.1992941701,Pass,Pass,0.7458966487,2.3912686917,Fail,Fail
+ Warmup Convergence Information,ALL_ST=SPORTS ARENA - AUDIENCE_FL=STORY 3_SCH=B,RunPeriod: RUN PERIOD 1,4.3192606842E-002,0.1173000385,Pass,Pass,0.2043518844,1.3144057753,Fail,Fail
+ Warmup Convergence Information,ALL_ST=SPORTS ARENA - COURT C1_FL=STORY 1_SCH=B,RunPeriod: RUN PERIOD 1,0.4106209585,0.4589319656,Pass,Pass,0.6500575623,1.7802720718,Fail,Fail
+ Warmup Convergence Information,ALL_ST=SPORTS ARENA - COURT C2_FL=STORY 2_SCH=B,RunPeriod: RUN PERIOD 1,0.2088972979,0.3147885809,Pass,Fail,2.4313206161,25.1289074540,Fail,Fail
+ Warmup Convergence Information,ALL_ST=SPORTS ARENA - COURT C3_FL=STORY 1_SCH=B,RunPeriod: RUN PERIOD 1,0.2559608006,0.2704811215,Pass,Pass,0.6783951096,2.4653029900,Fail,Fail
+ Warmup Convergence Information,ALL_ST=SPORTS ARENA - COURT C4_FL=STORY 2_SCH=B,RunPeriod: RUN PERIOD 1,0.1189651615,0.1673043176,Pass,Pass,0.4968282976,1.9391715728,Fail,Fail
+ Warmup Convergence Information,ALL_ST=SPORTS ARENA - RING_FL=STORY 2_SCH=B,RunPeriod: RUN PERIOD 1,0.2219399775,0.3388246761,Pass,Fail,0.9698695722,7.6673632581,Fail,Fail
+ Warmup Convergence Information,WILD_ST=STAIRWAY-SCH-A_FL=STORY 1_SCH=B,RunPeriod: RUN PERIOD 1,2.6281620227E-002,4.3694257673E-002,Pass,Pass,4.1704542419E-002,0.1749036323,Pass,Pass
+ Warmup Convergence Information,WILD_ST=STAIRWAY-SCH-B_FL=STORY 1_SCH=B,RunPeriod: RUN PERIOD 1,2.8133364350E-002,4.6711081396E-002,Pass,Pass,0.1056518845,0.6427214677,Fail,Pass
+ Warmup Convergence Information,WILD_ST=STAIRWAY-SCH-C_FL=STORY 2_SCH=B,RunPeriod: RUN PERIOD 1,5.2609509924E-002,8.7455237321E-002,Pass,Pass,9.0319750232E-002,0.4569456414,Fail,Pass
+ Warmup Convergence Information,WILD_ST=STAIRWAY-SCH-D_FL=STORY 4_SCH=B,RunPeriod: RUN PERIOD 1,0.1096236524,0.2550300313,Pass,Pass,0.2558007810,0.6713290873,Fail,Pass
+ Warmup Convergence Information,WILD_ST=STAIRWAY-SCH-E_FL=STORY 2_SCH=B,RunPeriod: RUN PERIOD 1,3.9946907864E-002,6.7841115374E-002,Pass,Pass,0.3357105242,3.0340038780,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data
