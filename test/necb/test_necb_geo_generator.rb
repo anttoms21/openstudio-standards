@@ -21,7 +21,9 @@ class GeoTest < Minitest::Test
     standard = Standard.build(standard)
     #this line should be reduced to 1
     spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
-    spacetypes = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
+    spacetypes_unfilterted_lockerroom = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
+    spacetypes = spacetypes_unfilterted_lockerroom.select{|spacetype| spacetype["ventilation_secondary_space_type"] != "Locker room"}
+
     #Indicate the number of model required for the number of spacetypes...round up.
     while (spacetypes.size%range != 0 )
       spacetypes.push(spacetypes[0])
@@ -99,15 +101,16 @@ class GeoTest < Minitest::Test
     Dir.mkdir(test_dir)
     #Get array of arrays in groups of 20. See this method above on how I did this.
     # For debugging just using .first (would be good to see what happend with .last )
-    array_of_array_of_space_types = [determine_space_types_to_test(standard: 'NECB2011', range: 20).first]
+    array_of_array_of_space_types = determine_space_types_to_test(standard: 'NECB2011', range: 20)
     Parallel.each(array_of_array_of_space_types, in_processes: (ProcessorsUsed), progress: "Progress :") do |array_of_space_types|
       #Create a unique folder name to do the runs in..
+      #puts "space types in this building are#{array_of_space_types.size}"
       name = SecureRandom.uuid.to_s
       run_dir = "#{test_dir}/#{name}"
       if Dir.exists?(run_dir)
-        FileUtils.rm_rf(run_dir)
+        Dir.mkdir(run_dir)
       end
-      Dir.mkdir(run_dir)
+
       #create the model
       model = create_building_with_space_types(all_spacetypes: array_of_space_types, run_dir: run_dir)
 
