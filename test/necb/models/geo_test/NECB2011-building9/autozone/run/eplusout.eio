@@ -1,0 +1,391 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.20 18:02
+! <Version>, Version ID
+ Version, 8.9
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  6, 10
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, No, No, Yes, No, No
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.200, 0.200, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  19.53,  19.50,  19.54,  19.60,  20.00,  21.64,  22.23,  22.38,  21.45,  20.12,  19.80,  19.63
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod, -12.27, -13.66, -11.19,  -7.33,   2.77,  10.57,  15.83,  17.43,  14.70,   8.65,   0.56,  -6.95
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Fort McMurray AP AB CAN CWEC2016 WMO#=716890,56.65,-111.22,-7.00,369.10,96969,1.1525
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Building 1,0.000,Suburbs,4.00000E-002,0.40000,FullExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.220,370.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,20,137,17
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, STAIRWAY-SCH-F-SPACE FUNCTION ZN,0.0,75.00,25.00,11.40,89.15,50.00,13.30,1,1,1,75.00,100.00,0.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, STAIRWAY-SCH-G-SPACE FUNCTION ZN,0.0,25.00,75.00,11.40,50.00,89.15,13.30,1,1,1,0.00,100.00,75.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, STAIRWAY-SCH-H-SPACE FUNCTION ZN,0.0,0.00,0.00,11.40,10.85,50.00,13.30,1,1,1,0.00,25.00,0.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, STAIRWAY-SCH-I-SPACE FUNCTION ZN,0.0,25.00,25.00,7.60,50.00,50.00,9.50,1,1,1,25.00,75.00,25.00,75.00,7.60,11.40,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,0.0,25.00,25.00,11.40,50.00,50.00,13.30,1,1,1,25.00,75.00,25.00,75.00,11.40,15.20,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,125.00,6,1,0,Yes
+ Zone Information, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,0.0,0.00,0.00,7.60,10.85,50.00,9.50,1,1,1,0.00,25.00,0.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,0.0,25.00,75.00,7.60,50.00,89.15,9.50,1,1,1,0.00,100.00,75.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, STORAGE AREA-SPACE FUNCTION ZN,0.0,0.00,0.00,7.60,50.00,10.85,9.50,1,1,1,0.00,100.00,0.00,25.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, TRANSP. BAGGAGE-SPACE FUNCTION ZN,0.0,0.00,0.00,0.00,10.85,50.00,1.90,1,1,1,0.00,25.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, TRANSP. CONCOURSE-SPACE FUNCTION ZN,0.0,75.00,25.00,7.60,89.15,50.00,9.50,1,1,1,75.00,100.00,0.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, TRANSP. COUNTER-SPACE FUNCTION ZN,0.0,25.00,75.00,0.00,50.00,89.15,1.90,1,1,1,0.00,100.00,75.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, TRANSP. SEATING-SPACE FUNCTION ZN,0.0,75.00,25.00,0.00,89.15,50.00,1.90,1,1,1,75.00,100.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,0.0,0.00,0.00,3.80,10.85,50.00,5.70,1,1,1,0.00,25.00,0.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, WAREHOUSE - FINE-SPACE FUNCTION ZN,0.0,25.00,25.00,0.00,50.00,50.00,1.90,1,1,1,25.00,75.00,25.00,75.00,0.00,3.80,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,0.0,25.00,75.00,3.80,50.00,89.15,5.70,1,1,1,0.00,100.00,75.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,0.0,0.00,0.00,0.00,50.00,10.85,1.90,1,1,1,0.00,100.00,0.00,25.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,0.0,75.00,25.00,3.80,89.15,50.00,5.70,1,1,1,75.00,100.00,0.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,0.0,0.00,0.00,3.80,50.00,10.85,5.70,1,1,1,0.00,100.00,0.00,25.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, WASHROOM-SCH-A-SPACE FUNCTION ZN,0.0,0.00,0.00,11.40,50.00,10.85,13.30,1,1,1,0.00,100.00,0.00,25.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, WASHROOM-SCH-B-SPACE FUNCTION ZN,0.0,25.00,25.00,3.80,50.00,50.00,5.70,1,1,1,25.00,75.00,25.00,75.00,3.80,7.60,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, STAIRWAY-SCH-F-SPACE FUNCTION ZN,1875.00,9.3,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, STAIRWAY-SCH-G-SPACE FUNCTION ZN,1875.00,9.3,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, STAIRWAY-SCH-H-SPACE FUNCTION ZN,1875.00,9.3,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, STAIRWAY-SCH-I-SPACE FUNCTION ZN,2500.00,12.4,201.963,4.951E-003,7.400,0.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,2500.00,25.0,99.896,1.001E-002,6.120,1.000,0.000,0.000,0.000,0.000,7.120,No
+ Zone Internal Gains Nominal, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,6.120,1.000,0.000,0.000,0.000,0.000,7.120,No
+ Zone Internal Gains Nominal, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,6.800,1.000,0.000,0.000,0.000,0.000,7.800,No
+ Zone Internal Gains Nominal, STORAGE AREA-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,6.800,1.000,0.000,0.000,0.000,0.000,7.800,No
+ Zone Internal Gains Nominal, TRANSP. BAGGAGE-SPACE FUNCTION ZN,1875.00,93.8,19.979,5.005E-002,8.200,2.500,0.000,0.000,0.000,0.000,10.700,No
+ Zone Internal Gains Nominal, TRANSP. CONCOURSE-SPACE FUNCTION ZN,1875.00,93.8,19.979,5.005E-002,3.900,0.000,0.000,0.000,0.000,0.000,3.900,No
+ Zone Internal Gains Nominal, TRANSP. COUNTER-SPACE FUNCTION ZN,1875.00,187.5,10.000,10.000E-002,11.600,2.500,0.000,0.000,0.000,0.000,14.100,No
+ Zone Internal Gains Nominal, TRANSP. SEATING-SPACE FUNCTION ZN,1875.00,187.5,10.000,10.000E-002,5.800,0.000,0.000,0.000,0.000,0.000,5.800,No
+ Zone Internal Gains Nominal, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,1875.00,37.5,49.948,2.002E-002,10.200,1.000,0.000,0.000,0.000,0.000,11.200,No
+ Zone Internal Gains Nominal, WAREHOUSE - FINE-SPACE FUNCTION ZN,2500.00,50.1,49.948,2.002E-002,10.200,1.000,0.000,0.000,0.000,0.000,11.200,No
+ Zone Internal Gains Nominal, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,6.400,1.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,6.400,1.000,0.000,0.000,0.000,0.000,7.400,No
+ Zone Internal Gains Nominal, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,10.200,1.000,0.000,0.000,0.000,0.000,11.200,No
+ Zone Internal Gains Nominal, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,10.200,1.000,0.000,0.000,0.000,0.000,11.200,No
+ Zone Internal Gains Nominal, WASHROOM-SCH-A-SPACE FUNCTION ZN,1875.00,62.6,29.969,3.337E-002,9.450,1.000,0.000,0.000,0.000,0.000,10.450,No
+ Zone Internal Gains Nominal, WASHROOM-SCH-B-SPACE FUNCTION ZN,2500.00,83.4,29.969,3.337E-002,9.450,1.000,0.000,0.000,0.000,0.000,10.450,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, STAIRWAY-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-F PEOPLE,NECB-F-OCCUPANCY,STAIRWAY-SCH-F-SPACE FUNCTION ZN,1875.00,9.3,9.3,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,2,8
+ People Internal Gains Nominal, STAIRWAY-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-G PEOPLE,NECB-G-OCCUPANCY,STAIRWAY-SCH-G-SPACE FUNCTION ZN,1875.00,9.3,9.3,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,3,8
+ People Internal Gains Nominal, STAIRWAY-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-H PEOPLE,NECB-H-OCCUPANCY,STAIRWAY-SCH-H-SPACE FUNCTION ZN,1875.00,9.3,9.3,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,8,8
+ People Internal Gains Nominal, STAIRWAY-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-I PEOPLE,NECB-I-OCCUPANCY,STAIRWAY-SCH-I-SPACE FUNCTION ZN,2500.00,12.4,12.4,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,10
+ People Internal Gains Nominal, STORAGE AREA-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA PEOPLE,NECB-E-OCCUPANCY,STORAGE AREA-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - OCCSENS PEOPLE,NECB-E-OCCUPANCY,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,2500.00,25.0,25.0,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,23
+ People Internal Gains Nominal, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED PEOPLE,NECB-E-OCCUPANCY,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS PEOPLE,NECB-E-OCCUPANCY,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, TRANSP. BAGGAGE-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. BAGGAGE PEOPLE,NECB-H-OCCUPANCY,TRANSP. BAGGAGE-SPACE FUNCTION ZN,1875.00,93.8,93.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,84,84
+ People Internal Gains Nominal, TRANSP. CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. CONCOURSE PEOPLE,NECB-H-OCCUPANCY,TRANSP. CONCOURSE-SPACE FUNCTION ZN,1875.00,93.8,93.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,84,84
+ People Internal Gains Nominal, TRANSP. COUNTER-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. COUNTER PEOPLE,NECB-H-OCCUPANCY,TRANSP. COUNTER-SPACE FUNCTION ZN,1875.00,187.5,187.5,10.000E-002,10.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,169,169
+ People Internal Gains Nominal, TRANSP. SEATING-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. SEATING PEOPLE,NECB-H-OCCUPANCY,TRANSP. SEATING-SPACE FUNCTION ZN,1875.00,187.5,187.5,10.000E-002,10.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,169,169
+ People Internal Gains Nominal, WAREHOUSE - FINE-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE PEOPLE,NECB-A-OCCUPANCY,WAREHOUSE - FINE-SPACE FUNCTION ZN,2500.00,50.1,50.1,2.002E-002,49.948,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,45
+ People Internal Gains Nominal, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED PEOPLE,NECB-A-OCCUPANCY,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,1875.00,37.5,37.5,2.002E-002,49.948,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,34
+ People Internal Gains Nominal, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK PEOPLE,NECB-A-OCCUPANCY,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED PEOPLE,NECB-A-OCCUPANCY,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 PEOPLE,NECB-A-OCCUPANCY,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED PEOPLE,NECB-A-OCCUPANCY,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A PEOPLE,NECB-A-OCCUPANCY,WASHROOM-SCH-A-SPACE FUNCTION ZN,1875.00,62.6,62.6,3.337E-002,29.969,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,56
+ People Internal Gains Nominal, WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B PEOPLE,NECB-B-OCCUPANCY,WASHROOM-SCH-B-SPACE FUNCTION ZN,2500.00,83.4,83.4,3.337E-002,29.969,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,75
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, STAIRWAY-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-F LIGHTS,NECB-F-LIGHTING,STAIRWAY-SCH-F-SPACE FUNCTION ZN,1875.00,9.3,13874.885,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,1387.488,12487.396
+ Lights Internal Gains Nominal, STAIRWAY-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-G LIGHTS,NECB-G-LIGHTING,STAIRWAY-SCH-G-SPACE FUNCTION ZN,1875.00,9.3,13874.885,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,0.000,12487.396
+ Lights Internal Gains Nominal, STAIRWAY-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-H LIGHTS,NECB-H-LIGHTING,STAIRWAY-SCH-H-SPACE FUNCTION ZN,1875.00,9.3,13874.885,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,12487.396,12487.396
+ Lights Internal Gains Nominal, STAIRWAY-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STAIRWAY-SCH-I LIGHTS,NECB-I-LIGHTING,STAIRWAY-SCH-I-SPACE FUNCTION ZN,2500.00,12.4,18499.846,7.400,1494.515,0.000,0.500,0.200,0.300,1.000,General,924.992,16649.861
+ Lights Internal Gains Nominal, STORAGE AREA-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA LIGHTS,NECB-E-LIGHTING,STORAGE AREA-SPACE FUNCTION ZN,1875.00,18.8,12749.894,6.800,679.285,0.000,0.500,0.200,0.300,1.000,General,637.495,11474.904
+ Lights Internal Gains Nominal, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - OCCSENS LIGHTS,NECB-E-LIGHTING,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,2500.00,25.0,15299.873,6.120,611.357,0.000,0.500,0.200,0.300,1.000,General,764.994,13769.885
+ Lights Internal Gains Nominal, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED LIGHTS,NECB-E-LIGHTING,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,12749.894,6.800,679.285,0.000,0.500,0.200,0.300,1.000,General,637.495,11474.904
+ Lights Internal Gains Nominal, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS LIGHTS,NECB-E-LIGHTING,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,1875.00,18.8,11474.905,6.120,611.357,0.000,0.500,0.200,0.300,1.000,General,573.745,10327.414
+ Lights Internal Gains Nominal, TRANSP. BAGGAGE-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. BAGGAGE LIGHTS,NECB-H-LIGHTING,TRANSP. BAGGAGE-SPACE FUNCTION ZN,1875.00,93.8,15374.872,8.200,163.828,0.000,0.500,0.200,0.300,1.000,General,13837.385,13837.385
+ Lights Internal Gains Nominal, TRANSP. CONCOURSE-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. CONCOURSE LIGHTS,NECB-H-LIGHTING,TRANSP. CONCOURSE-SPACE FUNCTION ZN,1875.00,93.8,7312.439,3.900,77.918,0.000,0.500,0.200,0.300,1.000,General,6581.195,6581.195
+ Lights Internal Gains Nominal, TRANSP. COUNTER-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. COUNTER LIGHTS,NECB-H-LIGHTING,TRANSP. COUNTER-SPACE FUNCTION ZN,1875.00,187.5,21749.819,11.600,116.003,0.000,0.500,0.200,0.300,1.000,General,19574.837,19574.837
+ Lights Internal Gains Nominal, TRANSP. SEATING-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. SEATING LIGHTS,NECB-H-LIGHTING,TRANSP. SEATING-SPACE FUNCTION ZN,1875.00,187.5,10874.910,5.800,58.001,0.000,0.500,0.200,0.300,1.000,General,9787.419,9787.419
+ Lights Internal Gains Nominal, WAREHOUSE - FINE-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE LIGHTS,NECB-A-LIGHTING,WAREHOUSE - FINE-SPACE FUNCTION ZN,2500.00,50.1,25499.788,10.200,509.464,0.000,0.500,0.200,0.300,1.000,General,1274.989,22949.809
+ Lights Internal Gains Nominal, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED LIGHTS,NECB-A-LIGHTING,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,1875.00,37.5,19124.841,10.200,509.464,0.000,0.500,0.200,0.300,1.000,General,956.242,17212.357
+ Lights Internal Gains Nominal, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK LIGHTS,NECB-A-LIGHTING,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,1875.00,18.8,11999.900,6.400,639.327,0.000,0.500,0.200,0.300,1.000,General,599.995,10799.910
+ Lights Internal Gains Nominal, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED LIGHTS,NECB-A-LIGHTING,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,11999.900,6.400,639.327,0.000,0.500,0.200,0.300,1.000,General,599.995,10799.910
+ Lights Internal Gains Nominal, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 LIGHTS,NECB-A-LIGHTING,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,1875.00,18.8,19124.841,10.200,1018.928,0.000,0.500,0.200,0.300,1.000,General,956.242,17212.357
+ Lights Internal Gains Nominal, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED LIGHTS,NECB-A-LIGHTING,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,19124.841,10.200,1018.928,0.000,0.500,0.200,0.300,1.000,General,956.242,17212.357
+ Lights Internal Gains Nominal, WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A LIGHTS,NECB-A-LIGHTING,WASHROOM-SCH-A-SPACE FUNCTION ZN,1875.00,62.6,17718.603,9.450,283.202,0.000,0.500,0.200,0.300,1.000,General,885.930,15946.742
+ Lights Internal Gains Nominal, WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B LIGHTS,NECB-B-LIGHTING,WASHROOM-SCH-B-SPACE FUNCTION ZN,2500.00,83.4,23624.803,9.450,283.202,0.000,0.500,0.200,0.300,1.000,General,2362.480,21262.323
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, STORAGE AREA-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA ELEC EQUIP,NECB-E-ELECTRIC-EQUIPMENT,STORAGE AREA-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,93.749,1687.486
+ ElectricEquipment Internal Gains Nominal, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - OCCSENS ELEC EQUIP,NECB-E-ELECTRIC-EQUIPMENT,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,2500.00,25.0,2499.979,1.000,99.895,0.000,0.500,0.000,0.500,General,124.999,2249.981
+ ElectricEquipment Internal Gains Nominal, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED ELEC EQUIP,NECB-E-ELECTRIC-EQUIPMENT,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,93.749,1687.486
+ ElectricEquipment Internal Gains Nominal, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION STORAGE AREA - REFRIGERATED - OCCSENS ELEC EQUIP,NECB-E-ELECTRIC-EQUIPMENT,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,93.749,1687.486
+ ElectricEquipment Internal Gains Nominal, TRANSP. BAGGAGE-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. BAGGAGE ELEC EQUIP,NECB-H-ELECTRIC-EQUIPMENT,TRANSP. BAGGAGE-SPACE FUNCTION ZN,1875.00,93.8,4687.461,2.500,49.947,0.000,0.500,0.000,0.500,General,4218.715,4218.715
+ ElectricEquipment Internal Gains Nominal, TRANSP. COUNTER-SPACE FUNCTION ZN SPACE FUNCTION TRANSP. COUNTER ELEC EQUIP,NECB-H-ELECTRIC-EQUIPMENT,TRANSP. COUNTER-SPACE FUNCTION ZN,1875.00,187.5,4687.461,2.500,25.001,0.000,0.500,0.000,0.500,General,4218.715,4218.715
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE - FINE-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WAREHOUSE - FINE-SPACE FUNCTION ZN,2500.00,50.1,2499.979,1.000,49.947,0.000,0.500,0.000,0.500,General,499.996,2249.981
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - FINE - REFRIGERATED ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,1875.00,37.5,1874.984,1.000,49.947,0.000,0.500,0.000,0.500,General,374.997,1687.486
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,374.997,1687.486
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK - REFRIGERATED ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,374.997,1687.486
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,374.997,1687.486
+ ElectricEquipment Internal Gains Nominal, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN SPACE FUNCTION WAREHOUSE - MED/BLK2 - REFRIGERATED ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,1874.984,1.000,99.895,0.000,0.500,0.000,0.500,General,374.997,1687.486
+ ElectricEquipment Internal Gains Nominal, WASHROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-A ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,WASHROOM-SCH-A-SPACE FUNCTION ZN,1875.00,62.6,1874.984,1.000,29.968,0.000,0.500,0.000,0.500,General,374.997,1687.486
+ ElectricEquipment Internal Gains Nominal, WASHROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION WASHROOM-SCH-B ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,WASHROOM-SCH-B-SPACE FUNCTION ZN,2500.00,83.4,2499.979,1.000,29.968,0.000,0.500,0.000,0.500,General,249.998,2249.981
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm, External Shading Calculation Method, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No,No,No
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s/m2},Volume Flow Rate/Exterior Surface Area {m3/s/m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, STAIRWAY-SCH-F-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STAIRWAY-SCH-F-SPACE FUNCTION ZN,1875.00,9.3,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STAIRWAY-SCH-G-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STAIRWAY-SCH-G-SPACE FUNCTION ZN,1875.00,9.3,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STAIRWAY-SCH-H-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STAIRWAY-SCH-H-SPACE FUNCTION ZN,1875.00,9.3,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STORAGE AREA - OCCSENS-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,2500.00,25.0,0.625,2.500E-004,2.500E-004,0.237,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STORAGE AREA - REFRIGERATED-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, STORAGE AREA-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,STORAGE AREA-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, TRANSP. CONCOURSE-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,TRANSP. CONCOURSE-SPACE FUNCTION ZN,1875.00,93.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,1875.00,37.5,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, WAREHOUSE - MED/BLK2-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, WASHROOM-SCH-A-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,WASHROOM-SCH-A-SPACE FUNCTION ZN,1875.00,62.6,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,STAIRWAY-SCH-F-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STAIRWAY-SCH-G-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STAIRWAY-SCH-H-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STAIRWAY-SCH-I-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,STORAGE AREA-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,TRANSP. BAGGAGE-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,TRANSP. CONCOURSE-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,TRANSP. COUNTER-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,TRANSP. SEATING-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WAREHOUSE - FINE-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WASHROOM-SCH-A-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,WASHROOM-SCH-B-SPACE FUNCTION ZN,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    6
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2500    
+ Heating Sizing Factor Information, Zone STAIRWAY-SCH-F-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STAIRWAY-SCH-G-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STAIRWAY-SCH-H-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STAIRWAY-SCH-I-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone STORAGE AREA-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone TRANSP. BAGGAGE-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone TRANSP. CONCOURSE-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone TRANSP. COUNTER-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone TRANSP. SEATING-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WAREHOUSE - FINE-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WASHROOM-SCH-A-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone WASHROOM-SCH-B-SPACE FUNCTION ZN,   1.2500    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1500    
+ Cooling Sizing Factor Information, Zone STAIRWAY-SCH-F-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STAIRWAY-SCH-G-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STAIRWAY-SCH-H-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STAIRWAY-SCH-I-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone STORAGE AREA-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone TRANSP. BAGGAGE-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone TRANSP. CONCOURSE-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone TRANSP. COUNTER-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone TRANSP. SEATING-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WAREHOUSE - FINE-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WASHROOM-SCH-A-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone WASHROOM-SCH-B-SPACE FUNCTION ZN,   1.1500    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, STAIRWAY-SCH-F-SPACE FUNCTION ZN, Cooling, 53575.87815, 61612.25988, 4.55457, 5.23776, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 10:20:00, 24.80800, 8.76969E-003, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-F-SPACE FUNCTION ZN, Heating, 50273.04414, 62841.30517, 2.33274, 2.91592, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-G-SPACE FUNCTION ZN, Cooling, 42935.44510, 49375.76186, 3.65001, 4.19751, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:40:00, 28.69333, 8.76969E-003, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-G-SPACE FUNCTION ZN, Heating, 53436.84712, 66796.05890, 2.48211, 3.10264, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-H-SPACE FUNCTION ZN, Cooling, 66172.08850, 76097.90177, 5.62542, 6.46924, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 16:10:00, 27.99067, 8.76969E-003, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-H-SPACE FUNCTION ZN, Heating, 48134.37605, 60167.97007, 2.23167, 2.78958, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 9.28387, 0.57150, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-I-SPACE FUNCTION ZN, Cooling, 34228.00475, 39362.20546, 2.67216, 3.07298, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 28.90000, 8.76969E-003, 2500.00000, 12.37850, 0.76200, 0.00000
+ Zone Sizing Information, STAIRWAY-SCH-I-SPACE FUNCTION ZN, Heating, 3896.01511, 4870.01889, 0.17898, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 16:00:00, -36.20000, 1.25811E-004, 2500.00000, 12.37850, 0.76200, 0.00000
+ Zone Sizing Information, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN, Cooling, 64706.38920, 74412.34758, 5.50088, 6.32601, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:40:00, 28.69333, 8.76969E-003, 2500.00000, 25.02609, 0.88900, 0.00000
+ Zone Sizing Information, STORAGE AREA - OCCSENS-SPACE FUNCTION ZN, Heating, 49355.51864, 61694.39829, 2.27779, 2.84724, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 2500.00000, 25.02609, 0.88900, 0.00000
+ Zone Sizing Information, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN, Cooling, 41586.81373, 47824.83579, 3.53540, 4.06571, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 18:00:00, 25.92400, 8.76969E-003, 1875.00000, 18.76957, 0.66675, 0.00000
+ Zone Sizing Information, STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN, Heating, 28971.90248, 36214.87809, 1.32982, 1.66227, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.66675, 0.00000
+ Zone Sizing Information, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN, Cooling, 22951.18955, 26393.86798, 1.95114, 2.24381, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 16:30:00, 27.66000, 8.76969E-003, 1875.00000, 18.76957, 0.66675, 0.00000
+ Zone Sizing Information, STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN, Heating, 30161.62508, 37702.03135, 1.38594, 1.73242, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.66675, 0.00000
+ Zone Sizing Information, STORAGE AREA-SPACE FUNCTION ZN, Cooling, 34884.01461, 40116.61680, 2.96559, 3.41042, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 14:00:00, 28.90000, 8.76969E-003, 1875.00000, 18.76957, 0.66675, 0.00000
+ Zone Sizing Information, STORAGE AREA-SPACE FUNCTION ZN, Heating, 32732.64347, 40915.80434, 1.50737, 1.88421, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.66675, 0.00000
+ Zone Sizing Information, TRANSP. BAGGAGE-SPACE FUNCTION ZN, Cooling, 23246.10931, 26733.02570, 1.97633, 2.27278, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:30:00, 22.14200, 8.76969E-003, 1875.00000, 93.84784, 1.64783, 0.00000
+ Zone Sizing Information, TRANSP. BAGGAGE-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 1.64783, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 93.84784, 1.64783, 0.00000
+ Zone Sizing Information, TRANSP. CONCOURSE-SPACE FUNCTION ZN, Cooling, 33098.48477, 38063.25748, 2.81406, 7.71525, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:40:00, 23.48533, 8.76969E-003, 1875.00000, 93.84784, 7.71525, 0.00000
+ Zone Sizing Information, TRANSP. CONCOURSE-SPACE FUNCTION ZN, Heating, 19503.45011, 24379.31264, 0.89097, 7.71525, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 93.84784, 7.71525, 0.00000
+ Zone Sizing Information, TRANSP. COUNTER-SPACE FUNCTION ZN, Cooling, 29154.00065, 33527.10074, 2.47878, 2.85059, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 06:50:00, 17.47133, 8.76969E-003, 1875.00000, 187.49386, 1.64783, 0.00000
+ Zone Sizing Information, TRANSP. COUNTER-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 1.64783, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 187.49386, 1.64783, 0.00000
+ Zone Sizing Information, TRANSP. SEATING-SPACE FUNCTION ZN, Cooling, 21727.65205, 24986.79986, 1.84752, 7.71525, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 12:00:00, 27.28800, 8.76969E-003, 1875.00000, 187.49386, 7.71525, 0.00000
+ Zone Sizing Information, TRANSP. SEATING-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 7.71525, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 187.49386, 7.71525, 0.00000
+ Zone Sizing Information, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN, Cooling, 38042.16099, 43748.48514, 3.23414, 3.71926, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:40:00, 26.33733, 8.76969E-003, 1875.00000, 37.53914, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN, Heating, 16601.41602, 20751.77003, 0.75466, 0.94332, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 37.53914, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - FINE-SPACE FUNCTION ZN, Cooling, 21731.43507, 24991.15033, 1.84749, 2.12461, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 27.16400, 8.76969E-003, 2500.00000, 50.05218, 0.76200, 0.00000
+ Zone Sizing Information, WAREHOUSE - FINE-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 50.05218, 0.76200, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN, Cooling, 22081.42334, 25393.63685, 1.74957, 2.01200, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 07:00:00, 17.61600, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN, Heating, 16871.52256, 21089.40320, 0.76967, 0.96209, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN, Cooling, 13897.34591, 15981.94780, 1.18145, 1.35867, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 27.16400, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK-SPACE FUNCTION ZN, Heating, 2014.12960, 2517.66199, 9.42203E-002, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN, Cooling, 33264.65796, 38254.35665, 2.62427, 3.01791, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 07:00:00, 17.61600, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN, Heating, 14585.21397, 18231.51747, 0.66408, 0.83010, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN, Cooling, 30744.27300, 35355.91395, 2.61364, 3.00568, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:50:00, 28.79667, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN, Heating, 23006.52930, 28758.16162, 1.04670, 1.30838, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, WASHROOM-SCH-A-SPACE FUNCTION ZN, Cooling, 75470.16265, 86790.68705, 6.41608, 7.37849, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:30:00, 28.59000, 8.76969E-003, 1875.00000, 62.56523, 0.57150, 0.00000
+ Zone Sizing Information, WASHROOM-SCH-A-SPACE FUNCTION ZN, Heating, 57413.29271, 71766.61588, 2.66971, 3.33714, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 62.56523, 0.57150, 0.00000
+ Zone Sizing Information, WASHROOM-SCH-B-SPACE FUNCTION ZN, Cooling, 27374.91169, 31481.14844, 2.14197, 2.46326, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:00:00, 22.08000, 8.76969E-003, 2500.00000, 83.42031, 0.76200, 0.00000
+ Zone Sizing Information, WASHROOM-SCH-B-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 83.42031, 0.76200, 0.00000
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 1, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 1, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 2, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 2, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 3, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 3, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 4, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 4, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 5, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 5, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 6, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 6, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 7, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 7, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 8, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 8, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 9, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 9, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 10, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 10, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 11, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 11, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 12, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 12, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 13, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 13, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 14, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 14, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 15, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 15, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 16, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 16, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 17, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 17, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 18, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 18, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 19, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 19, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 20, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 20, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+! <Environment:Design Day Data>, Max Dry-Bulb Temp {C}, Temp Range {dC}, Temp Range Ind Type, Hum Ind Value at Max Temp, Hum Ind Type,Pressure {Pa}, Wind Direction {deg CW from N}, Wind Speed {m/s}, Clearness, Rain, Snow
+! <Environment:Design Day Misc>,DayOfYear,ASHRAE A Coeff,ASHRAE B Coeff,ASHRAE C Coeff,Solar Constant-Annual Variation,Eq of Time {minutes}, Solar Declination Angle {deg}, Solar Model
+Environment:Design Day Data,28.90,12.40,DefaultMultipliers,96969,250,3.7,0.00,No,No
+Environment:Design Day Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
+Environment:WarmupDays,  6
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,STAIRWAY-SCH-F-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,1.9393107996E-002,4.5987423469E-002,Pass,Pass,3.8707268764E-002,6.8644139446E-002,Pass,Pass
+ Warmup Convergence Information,STAIRWAY-SCH-G-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,1.9359976749E-002,3.5492866847E-002,Pass,Pass,3.9612649417E-002,6.7705291303E-002,Pass,Pass
+ Warmup Convergence Information,STAIRWAY-SCH-H-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,5.0552155055E-014,6.0614471769E-014,Pass,Pass,2.8520594995E-002,2.0847370925E-002,Pass,Pass
+ Warmup Convergence Information,STAIRWAY-SCH-I-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,5.5212968016E-002,0.2675539669,Pass,Pass,0.1318566529,0.4488319819,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.5172300230E-002,5.6567039937E-002,Pass,Pass,0.1406377865,1.1304839609,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,5.3016917209E-002,0.1787255488,Pass,Pass,0.1390387539,1.2419013405,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.8166348188E-002,7.3817857957E-002,Pass,Pass,0.1192684711,1.0685267920,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.4523548496E-002,9.9348138159E-002,Pass,Pass,0.1308461296,1.1467844106,Pass,Pass
+ Warmup Convergence Information,TRANSP. BAGGAGE-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.1349639762E-014,3.0068949543E-014,Pass,Pass,1.2244950756E-003,9.6285592747E-004,Pass,Pass
+ Warmup Convergence Information,TRANSP. CONCOURSE-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.4196626855E-002,6.0531757147E-002,Pass,Pass,1.3020787364E-002,1.8103484744E-002,Pass,Pass
+ Warmup Convergence Information,TRANSP. COUNTER-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.3397384451E-014,3.9375160200E-014,Pass,Pass,3.4511758749E-004,1.9468246831E-004,Pass,Pass
+ Warmup Convergence Information,TRANSP. SEATING-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.5310783127E-002,6.4312276896E-002,Pass,Pass,1.7016126836E-002,2.8905736447E-002,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.1187183177E-002,0.1351372632,Pass,Pass,8.8202892446E-002,0.5993802179,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - FINE-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,1.0379608712E-002,2.0655392211E-002,Pass,Pass,4.3617153959E-002,0.2381121870,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.0497488212E-002,8.2958695514E-002,Pass,Pass,6.3753990982E-002,0.3916627926,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,1.0282104150E-002,1.9908852335E-002,Pass,Pass,3.9629518882E-002,0.2197218565,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.8031607767E-002,0.1002984501,Pass,Pass,6.3009930952E-002,0.4034211925,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.0255719641E-002,6.7413370599E-002,Pass,Pass,7.0487724819E-002,0.4480257345,Pass,Pass
+ Warmup Convergence Information,WASHROOM-SCH-A-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.4479717952E-002,3.7411090074E-002,Pass,Pass,6.6934420507E-002,0.3521838734,Pass,Pass
+ Warmup Convergence Information,WASHROOM-SCH-B-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.1264981841E-002,7.2318647046E-002,Pass,Pass,5.0531597688E-002,0.2562010595,Pass,Pass
+Environment,FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,SizingPeriod:DesignDay,01/21,01/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,-36.20,0.00,DefaultMultipliers,96969,90,1.0,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,STAIRWAY-SCH-F-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7911822373E-002,0.3285331854,Pass,Pass,0.1068050424,0.4499788847,Pass,Pass
+ Warmup Convergence Information,STAIRWAY-SCH-G-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7709239155E-002,0.3307976108,Pass,Pass,7.6141338604E-002,0.2877129503,Pass,Pass
+ Warmup Convergence Information,STAIRWAY-SCH-H-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.8203087753E-002,0.3259303637,Pass,Pass,0.2042045690,1.5626273425,Pass,Pass
+ Warmup Convergence Information,STAIRWAY-SCH-I-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.2881307313E-002,0.3095243639,Pass,Pass,0.2113299921,1.0473322001,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA - OCCSENS-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.8336240634E-002,0.3282381138,Pass,Pass,0.2084900521,1.2265732828,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA - REFRIGERATED - OCCSENS-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.9868042166E-002,0.3185036468,Pass,Pass,0.2165950112,0.8234767518,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.9822762924E-002,0.3195858295,Pass,Pass,0.3584377179,2.2018119066,Pass,Pass
+ Warmup Convergence Information,STORAGE AREA-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.9772169843E-002,0.3186476259,Pass,Pass,0.2427880740,1.0287005512,Pass,Pass
+ Warmup Convergence Information,TRANSP. BAGGAGE-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7251482876E-002,0.3434231860,Pass,Pass,0.1709476834,0.8706850054,Pass,Pass
+ Warmup Convergence Information,TRANSP. CONCOURSE-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.5555555556E-002,0.3894162338,Pass,Pass,8.5128912807E-002,0.4017549140,Pass,Pass
+ Warmup Convergence Information,TRANSP. COUNTER-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7781070735E-002,0.3390214962,Pass,Pass,8.2341484344E-002,0.3697435731,Pass,Pass
+ Warmup Convergence Information,TRANSP. SEATING-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.5555555556E-002,0.3891047909,Pass,Pass,0.1242729393,0.6328305203,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - FINE - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1624413104E-002,0.3107152579,Pass,Pass,0.1543045044,0.6539504201,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - FINE-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.3542154462E-002,0.3059644450,Pass,Pass,0.3328589303,1.6752892593,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1649920807E-002,0.3113374910,Pass,Pass,0.1422311522,0.6167165903,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.2882114412E-002,0.3073439766,Pass,Pass,0.4587937329,2.2462498172,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK2 - REFRIGERATED-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1845648092E-002,0.3115725802,Pass,Pass,0.1528084309,0.6738425363,Pass,Pass
+ Warmup Convergence Information,WAREHOUSE - MED/BLK2-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1045294162E-002,0.3108532575,Pass,Pass,0.1477653110,0.4857989669,Pass,Pass
+ Warmup Convergence Information,WASHROOM-SCH-A-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7427343005E-002,0.3276858239,Pass,Pass,7.0770819191E-002,0.2543824206,Pass,Pass
+ Warmup Convergence Information,WASHROOM-SCH-B-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.3769791071E-002,0.3143328069,Pass,Pass,0.2694080931,1.0640194267,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

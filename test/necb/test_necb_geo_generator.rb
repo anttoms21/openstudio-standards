@@ -16,7 +16,7 @@ ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
 class GeoTest < Minitest::Test
 
   #This method will take a standard name and a range and return an array of an array of spacetypes that are in increments of the range value
-  def determine_space_types_to_test(standard: 'NECB2011', range: 20)
+  def determine_space_types_to_test(standard:, range: 20)
     #Get the correct standard
     standard = Standard.build(standard)
     #this line should be reduced to 1
@@ -44,9 +44,9 @@ class GeoTest < Minitest::Test
     return array_of_array_of_spacetypes
   end
 
-  vintage = ['NECB2011', 'NECB2015', 'NECB2017']
 
-  def create_building_with_space_types(standard: 'NECB2011', all_spacetypes:, run_dir:)
+
+  def create_building_with_space_types(standard:, all_spacetypes:, run_dir:)
     #creating an empty model object
     model = OpenStudio::Model::Model.new()
     standard = Standard.build(standard)
@@ -94,6 +94,7 @@ class GeoTest < Minitest::Test
   def test_main()
     #Create Test Folder to perform runs in.
     #To do.. you should remove the old runs in this folder.
+    vintage = 'NECB2011'
     test_dir = "#{File.dirname(__FILE__)}/models/geo_test"
     if Dir.exists?(test_dir)
       FileUtils.rm_rf(test_dir)
@@ -101,21 +102,21 @@ class GeoTest < Minitest::Test
     Dir.mkdir(test_dir)
     #Get array of arrays in groups of 20. See this method above on how I did this.
     # For debugging just using .first (would be good to see what happend with .last )
-    array_of_array_of_space_types = determine_space_types_to_test(standard: 'NECB2011', range: 20)
-    Parallel.each(array_of_array_of_space_types, in_processes: (ProcessorsUsed), progress: "Progress :") do |array_of_space_types|
+    array_of_array_of_space_types = determine_space_types_to_test(standard: vintage, range: 20)
+    Parallel.each_with_index(array_of_array_of_space_types, in_processes: (ProcessorsUsed), progress: "Progress :") do |array_of_space_types, index|
       #Create a unique folder name to do the runs in..
       #puts "space types in this building are#{array_of_space_types.size}"
-      name = SecureRandom.uuid.to_s
-      run_dir = "#{test_dir}/#{name}"
+      #name = SecureRandom.uuid.to_s
+      run_dir = "#{test_dir}/#{vintage}-building#{index}"
       if Dir.exists?(run_dir)
         Dir.mkdir(run_dir)
       end
 
       #create the model
-      model = create_building_with_space_types(all_spacetypes: array_of_space_types, run_dir: run_dir)
+      model = create_building_with_space_types(standard: vintage, all_spacetypes: array_of_space_types, run_dir: run_dir)
 
       #run the model in the run folder. Note the version does not matter here.. I just want to run the simulation
-      Standard.build('NECB2011').model_run_simulation_and_log_errors(model, run_dir)
+      Standard.build(vintage).model_run_simulation_and_log_errors(model, run_dir)
       #save osm file.
       model_out_path = "#{run_dir}/final.osm"
       model.save(model_out_path, true)

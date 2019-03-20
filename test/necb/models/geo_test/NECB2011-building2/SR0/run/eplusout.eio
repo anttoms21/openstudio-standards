@@ -1,0 +1,380 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.20 17:53
+! <Version>, Version ID
+ Version, 8.9
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  6, 10
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, No, No, Yes, No, No
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.200, 0.200, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  19.53,  19.50,  19.54,  19.60,  20.00,  21.64,  22.23,  22.38,  21.45,  20.12,  19.80,  19.63
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod, -12.27, -13.66, -11.19,  -7.33,   2.77,  10.57,  15.83,  17.43,  14.70,   8.65,   0.56,  -6.95
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Fort McMurray AP AB CAN CWEC2016 WMO#=716890,56.65,-111.22,-7.00,369.10,96969,1.1525
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Building 1,0.000,Suburbs,4.00000E-002,0.40000,FullExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.220,370.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,20,137,17
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,0.0,0.00,0.00,11.40,50.00,10.85,13.30,1,1,1,0.00,100.00,0.00,25.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,0.0,75.00,25.00,11.40,89.15,50.00,13.30,1,1,1,75.00,100.00,0.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,0.0,25.00,75.00,11.40,50.00,89.15,13.30,1,1,1,0.00,100.00,75.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,0.0,25.00,25.00,7.60,50.00,50.00,9.50,1,1,1,25.00,75.00,25.00,75.00,7.60,11.40,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,0.0,25.00,75.00,7.60,50.00,89.15,9.50,1,1,1,0.00,100.00,75.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,0.0,0.00,0.00,7.60,10.85,50.00,9.50,1,1,1,0.00,25.00,0.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,0.0,0.00,0.00,3.80,50.00,10.85,5.70,1,1,1,0.00,100.00,0.00,25.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,0.0,25.00,75.00,0.00,50.00,89.15,1.90,1,1,1,0.00,100.00,75.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,0.0,0.00,0.00,3.80,10.85,50.00,5.70,1,1,1,0.00,25.00,0.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,0.0,25.00,25.00,11.40,50.00,50.00,13.30,1,1,1,25.00,75.00,25.00,75.00,11.40,15.20,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,125.00,6,1,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,0.0,0.00,0.00,0.00,10.85,50.00,1.90,1,1,1,0.00,25.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,0.0,75.00,25.00,0.00,89.15,50.00,1.90,1,1,1,75.00,100.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,0.0,75.00,25.00,7.60,89.15,50.00,9.50,1,1,1,75.00,100.00,0.00,100.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,0.0,0.00,0.00,0.00,50.00,10.85,1.90,1,1,1,0.00,100.00,0.00,25.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,0.0,25.00,25.00,0.00,50.00,50.00,1.90,1,1,1,25.00,75.00,25.00,75.00,0.00,3.80,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,0.0,25.00,75.00,3.80,50.00,89.15,5.70,1,1,1,0.00,100.00,75.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,0.0,0.00,0.00,11.40,10.85,50.00,13.30,1,1,1,0.00,25.00,0.00,100.00,11.40,15.20,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,188.75,6,2,0,Yes
+ Zone Information, COURTHOUSE - CELL-SPACE FUNCTION ZN,0.0,0.00,0.00,7.60,50.00,10.85,9.50,1,1,1,0.00,100.00,0.00,25.00,7.60,11.40,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,0.0,75.00,25.00,3.80,89.15,50.00,5.70,1,1,1,75.00,100.00,0.00,100.00,3.80,7.60,3.80,7125.00,TARP,TARP,1875.00,380.00,285.00,95.00,6,1,0,Yes
+ Zone Information, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,0.0,25.00,25.00,3.80,50.00,50.00,5.70,1,1,1,25.00,75.00,25.00,75.00,3.80,7.60,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,2500.00,25.0,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,8.400,0.000,0.000,0.000,0.000,0.000,8.400,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,2500.00,25.0,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,2500.00,25.0,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,99.896,1.001E-002,7.100,0.000,0.000,0.000,0.000,0.000,7.100,No
+ Zone Internal Gains Nominal, COURTHOUSE - CELL-SPACE FUNCTION ZN,1875.00,75.1,24.974,4.004E-002,14.700,2.500,0.000,0.000,0.000,0.000,17.200,No
+ Zone Internal Gains Nominal, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,1875.00,93.8,19.979,5.005E-002,12.600,7.500,0.000,0.000,0.000,0.000,20.100,No
+ Zone Internal Gains Nominal, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,2500.00,500.0,5.000,0.200,18.500,2.500,0.000,0.000,0.000,0.000,21.000,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-B PEOPLE,NECB-B-OCCUPANCY,CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-C PEOPLE,NECB-C-OCCUPANCY,CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-D PEOPLE,NECB-D-OCCUPANCY,CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-E PEOPLE,NECB-E-OCCUPANCY,CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,2500.00,25.0,25.0,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,23
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-F PEOPLE,NECB-F-OCCUPANCY,CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,4,17
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-G PEOPLE,NECB-G-OCCUPANCY,CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,6,17
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-H PEOPLE,NECB-H-OCCUPANCY,CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,17,17
+ People Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-I PEOPLE,NECB-I-OCCUPANCY,CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,15
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-A PEOPLE,NECB-A-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-B PEOPLE,NECB-B-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,2500.00,25.0,25.0,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,23
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-C PEOPLE,NECB-C-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-D PEOPLE,NECB-D-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-E PEOPLE,NECB-E-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,17
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-F PEOPLE,NECB-F-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,4,17
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-G PEOPLE,NECB-G-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,2500.00,25.0,25.0,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,8,23
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-H PEOPLE,NECB-H-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,17,17
+ People Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-I PEOPLE,NECB-I-OCCUPANCY,CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,18.8,1.001E-002,99.896,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,15
+ People Internal Gains Nominal, COURTHOUSE - CELL-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CELL PEOPLE,NECB-H-OCCUPANCY,COURTHOUSE - CELL-SPACE FUNCTION ZN,1875.00,75.1,75.1,4.004E-002,24.974,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,68,68
+ People Internal Gains Nominal, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS PEOPLE,NECB-A-OCCUPANCY,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,1875.00,93.8,93.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,84
+ People Internal Gains Nominal, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM PEOPLE,NECB-A-OCCUPANCY,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,2500.00,500.0,500.0,0.200,5.000,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,450
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-B LIGHTS,NECB-B-LIGHTING,CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,1574.987,14174.882
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-C LIGHTS,NECB-C-LIGHTING,CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,787.493,14174.882
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-D LIGHTS,NECB-D-LIGHTING,CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,787.493,14174.882
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-E LIGHTS,NECB-E-LIGHTING,CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,2500.00,25.0,20999.825,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,1049.991,18899.843
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-F LIGHTS,NECB-F-LIGHTING,CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,1574.987,14174.882
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-G LIGHTS,NECB-G-LIGHTING,CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,0.000,14174.882
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-H LIGHTS,NECB-H-LIGHTING,CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,14174.882,14174.882
+ Lights Internal Gains Nominal, CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION CORR. < 2.4M WIDE-SCH-I LIGHTS,NECB-I-LIGHTING,CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,15749.869,8.400,839.117,0.000,0.500,0.200,0.300,1.000,General,787.493,14174.882
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-A LIGHTS,NECB-A-LIGHTING,CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,665.619,11981.150
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-B LIGHTS,NECB-B-LIGHTING,CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,2500.00,25.0,17749.852,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,1774.985,15974.867
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-C LIGHTS,NECB-C-LIGHTING,CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,665.619,11981.150
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-D LIGHTS,NECB-D-LIGHTING,CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,665.619,11981.150
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-E LIGHTS,NECB-E-LIGHTING,CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,665.619,11981.150
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-F LIGHTS,NECB-F-LIGHTING,CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,1331.239,11981.150
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-G LIGHTS,NECB-G-LIGHTING,CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,2500.00,25.0,17749.852,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,0.000,15974.867
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-H LIGHTS,NECB-H-LIGHTING,CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,11981.150,11981.150
+ Lights Internal Gains Nominal, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION CORR. >= 2.4M WIDE-SCH-I LIGHTS,NECB-I-LIGHTING,CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,13312.389,7.100,709.254,0.000,0.500,0.200,0.300,1.000,General,665.619,11981.150
+ Lights Internal Gains Nominal, COURTHOUSE - CELL-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CELL LIGHTS,NECB-H-LIGHTING,COURTHOUSE - CELL-SPACE FUNCTION ZN,1875.00,75.1,27562.271,14.700,367.114,0.000,0.500,0.200,0.300,1.000,General,24806.044,24806.044
+ Lights Internal Gains Nominal, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS,NECB-A-LIGHTING,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,1875.00,93.8,23624.803,12.600,251.735,0.000,0.500,0.200,0.300,1.000,General,1181.240,21262.323
+ Lights Internal Gains Nominal, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS,NECB-A-LIGHTING,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,2500.00,500.0,46249.615,18.500,92.502,0.000,0.500,0.200,0.300,1.000,General,2312.481,41624.654
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, COURTHOUSE - CELL-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CELL ELEC EQUIP,NECB-H-ELECTRIC-EQUIPMENT,COURTHOUSE - CELL-SPACE FUNCTION ZN,1875.00,75.1,4687.461,2.500,62.434,0.000,0.500,0.000,0.500,General,4218.715,4218.715
+ ElectricEquipment Internal Gains Nominal, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,1875.00,93.8,14062.383,7.500,149.842,0.000,0.500,0.000,0.500,General,2812.477,12656.145
+ ElectricEquipment Internal Gains Nominal, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,2500.00,500.0,6249.948,2.500,12.500,0.000,0.500,0.000,0.500,General,1249.990,5624.953
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm, External Shading Calculation Method, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No,No,No
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s/m2},Volume Flow Rate/Exterior Surface Area {m3/s/m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,1875.00,18.8,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,1875.00,18.8,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,1875.00,18.8,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,2500.00,25.0,0.625,2.500E-004,2.500E-004,0.237,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,1875.00,18.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,1875.00,18.8,0.564,3.007E-004,2.500E-004,0.285,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, COURTHOUSE - CELL-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,COURTHOUSE - CELL-SPACE FUNCTION ZN,1875.00,75.1,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, COURTHOUSE - CHAMBERS-SPACE FUNCTION INFILTRATION,ALWAYS ON DISCRETE,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,1875.00,93.8,9.500E-002,5.067E-005,2.500E-004,4.800E-002,0.000,0.000,0.224,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,COURTHOUSE - CELL-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,Mixing/Well-Stirred
+RoomAir Model,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    6
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone COURTHOUSE - CELL-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,   1.2500    
+ Heating Sizing Factor Information, Zone COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,   1.2500    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone COURTHOUSE - CELL-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,   1.1500    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN, Cooling, 75350.61213, 86653.20395, 6.40576, 7.36663, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:30:00, 28.59000, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN, Heating, 39007.51860, 48759.39825, 1.67529, 2.09411, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:10:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN, Cooling, 62628.47348, 72022.74450, 5.32413, 6.12275, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 10:30:00, 25.11800, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN, Heating, 53635.23506, 67044.04383, 2.49160, 3.11450, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN, Cooling, 53786.59837, 61854.58812, 4.57255, 5.25843, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:50:00, 28.79667, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN, Heating, 54640.80435, 68301.00543, 2.53914, 3.17393, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN, Cooling, 30689.74423, 35293.20586, 2.60901, 3.00036, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:50:00, 26.13067, 8.76969E-003, 2500.00000, 25.02609, 0.76200, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 25.02609, 0.76200, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN, Cooling, 19500.38171, 22425.43897, 1.65777, 1.90643, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:50:00, 21.77000, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN, Heating, 26585.46453, 33231.83067, 1.21728, 1.52161, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN, Cooling, 36777.85585, 42294.53422, 3.12655, 3.59553, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:00:00, 22.70000, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN, Heating, 28261.13456, 35326.41820, 1.29658, 1.62072, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN, Cooling, 28641.31672, 32937.51422, 2.43488, 2.80011, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:40:00, 28.69333, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN, Cooling, 11109.15727, 12775.53086, 0.94441, 1.08607, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 22:00:00, 20.46800, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN, Heating, 844.28300, 1055.35375, 3.94394E-002, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 15:10:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN, Cooling, 30124.34227, 34642.99361, 2.56095, 2.94510, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:50:00, 26.13067, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN, Heating, 22707.64383, 28384.55479, 1.03240, 1.29051, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN, Cooling, 66930.96582, 76970.61069, 5.68998, 6.54348, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:40:00, 28.69333, 8.76969E-003, 2500.00000, 25.02609, 0.76200, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN, Heating, 40056.31200, 50070.39000, 1.71719, 2.14649, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:10:00, -36.20000, 1.25811E-004, 2500.00000, 25.02609, 0.76200, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN, Cooling, 12174.97859, 14001.22538, 1.03502, 1.19028, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 19:00:00, 24.06400, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN, Heating, 3483.82661, 4354.78327, 0.16119, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:40:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN, Cooling, 14565.99146, 16750.89018, 1.16258, 1.33697, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 08:00:00, 19.72400, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN, Cooling, 46284.55734, 53227.24094, 3.57171, 4.10746, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 08:00:00, 19.72400, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN, Heating, 29270.90417, 36588.63021, 1.34424, 1.68030, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN, Cooling, 11005.82088, 12656.69401, 0.93562, 1.07597, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 22:00:00, 20.46800, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN, Cooling, 13887.99688, 15971.19642, 1.18065, 1.35774, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 22:00:00, 20.46800, 8.76969E-003, 2500.00000, 25.02609, 0.76200, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 0.76200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 25.02609, 0.76200, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN, Cooling, 15771.74777, 18137.50994, 1.34079, 1.54191, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:20:00, 22.32800, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN, Heating, 8277.86239, 10347.32799, 0.38351, 0.57150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN, Cooling, 101635.92842, 116881.31768, 7.10198, 8.16728, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:00:00, 28.90000, 8.76969E-003, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN, Heating, 45669.08518, 57086.35648, 2.11326, 2.64157, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 16:00:00, -36.20000, 1.25811E-004, 1875.00000, 18.76957, 0.57150, 0.00000
+ Zone Sizing Information, COURTHOUSE - CELL-SPACE FUNCTION ZN, Cooling, 47945.42596, 55137.23985, 4.07614, 4.68756, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 14:20:00, 28.90000, 8.76969E-003, 1875.00000, 75.07828, 2.33363, 0.00000
+ Zone Sizing Information, COURTHOUSE - CELL-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 2.33363, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 75.07828, 2.33363, 0.00000
+ Zone Sizing Information, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN, Cooling, 48006.61042, 55207.60198, 4.08129, 4.69348, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 10:00:00, 24.18800, 8.76969E-003, 1875.00000, 93.84784, 0.80963, 0.00000
+ Zone Sizing Information, COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN, Heating, 12144.27509, 15180.34386, 0.55086, 0.80963, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 08:00:00, -36.20000, 1.25811E-004, 1875.00000, 93.84784, 0.80963, 0.00000
+ Zone Sizing Information, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN, Cooling, 59840.49252, 68816.56640, 5.08942, 5.85283, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 27.16400, 8.76969E-003, 2500.00000, 499.98364, 5.20700, 0.00000
+ Zone Sizing Information, COURTHOUSE - COURTROOM-SPACE FUNCTION ZN, Heating, 0.00000, 0.00000, 0.00000, 5.20700, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 499.98364, 5.20700, 0.00000
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 1, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 1, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 2, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 2, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 3, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 3, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 4, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 4, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 5, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 5, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 6, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 6, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 7, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 7, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 8, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 8, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 9, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 9, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 10, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 10, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 11, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 11, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 12, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 12, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 13, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 13, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 14, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 14, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 15, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 15, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 16, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 16, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 17, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 17, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 18, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 18, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 19, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 19, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 20, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 20, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+! <Environment:Design Day Data>, Max Dry-Bulb Temp {C}, Temp Range {dC}, Temp Range Ind Type, Hum Ind Value at Max Temp, Hum Ind Type,Pressure {Pa}, Wind Direction {deg CW from N}, Wind Speed {m/s}, Clearness, Rain, Snow
+! <Environment:Design Day Misc>,DayOfYear,ASHRAE A Coeff,ASHRAE B Coeff,ASHRAE C Coeff,Solar Constant-Annual Variation,Eq of Time {minutes}, Solar Declination Angle {deg}, Solar Model
+Environment:Design Day Data,28.90,12.40,DefaultMultipliers,96969,250,3.7,0.00,No,No
+Environment:Design Day Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
+Environment:WarmupDays,  6
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.3605765671E-002,0.1783499958,Pass,Pass,6.5933581697E-002,0.2943282267,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,6.5829290874E-002,0.2638997564,Pass,Pass,8.5589253009E-002,0.4366873562,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.1044448275E-002,3.2065832612E-002,Pass,Pass,4.1330286403E-002,7.7734724465E-002,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.5961719731E-002,7.4495672814E-002,Pass,Pass,0.1418218569,1.2375100369,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.6349293118E-014,2.3324902379E-014,Pass,Pass,1.6591623197E-002,2.1634015531E-002,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.5231077315E-014,3.7092601283E-014,Pass,Pass,2.2207402133E-002,2.9003096326E-002,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.5502465165E-014,2.9948860422E-014,Pass,Pass,7.6410423941E-003,6.4384227820E-003,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.7874310314E-002,0.1584584315,Pass,Pass,0.2346985274,1.1823699279,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.4953841833E-002,8.2865097914E-002,Pass,Pass,6.2126434993E-002,0.4346614593,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.2612402957E-002,0.1110866006,Pass,Pass,4.8127627643E-002,0.1748088708,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,1.0401988154E-002,2.4322072924E-002,Pass,Pass,4.3347419240E-002,0.2820795084,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,6.6107014000E-003,1.6104615964E-002,Pass,Pass,2.6535845018E-002,0.1203035341,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,5.7107252052E-002,0.2381254308,Pass,Pass,0.1501792343,1.3447497067,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,1.4186183092E-014,1.2744296237E-014,Pass,Pass,1.4542475068E-002,3.4639880528E-002,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,6.6923169469E-003,1.3872233852E-002,Pass,Pass,3.3436333052E-002,0.1394843746,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.7459516142E-014,2.1897270957E-014,Pass,Pass,5.2328973733E-003,5.3316336088E-003,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,0.1425616980,0.7261709392,Pass,Pass,4.9876024871E-002,0.2002118610,Pass,Pass
+ Warmup Convergence Information,COURTHOUSE - CELL-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,5.2303840271E-014,4.3093578212E-014,Pass,Pass,6.3804383483E-003,4.6536061176E-003,Pass,Pass
+ Warmup Convergence Information,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.0207358235E-002,0.1563684181,Pass,Pass,6.3113582324E-002,0.3803404541,Pass,Pass
+ Warmup Convergence Information,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,3.4961635659E-002,7.8767078272E-002,Pass,Pass,2.8752358601E-002,7.7835235605E-002,Pass,Pass
+Environment,FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,SizingPeriod:DesignDay,01/21,01/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,-36.20,0.00,DefaultMultipliers,96969,90,1.0,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.8093835960E-002,0.3276624925,Pass,Pass,0.1000564163,0.4470940665,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7422519401E-002,0.3279983847,Pass,Pass,5.6250093366E-002,0.2073338092,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7548848913E-002,0.3281342207,Pass,Pass,7.0223242442E-002,0.2722492517,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.2849632507E-002,0.3066618772,Pass,Pass,0.4004755322,2.1208140317,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1098064731E-002,0.3146882787,Pass,Pass,0.1285920064,0.3775824600,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1063388020E-002,0.3170020664,Pass,Pass,0.5231320741,3.3534186814,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.3114671124E-002,0.3071565146,Pass,Pass,0.1733497263,0.9937785180,Pass,Pass
+ Warmup Convergence Information,CORR. < 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.3133069036E-002,0.3114693888,Pass,Pass,0.4588973969,2.0796420693,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-A-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.1090667237E-002,0.3126029951,Pass,Pass,9.3360748305E-002,0.3366431224,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-B-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.8959781900E-002,0.3243252682,Pass,Pass,0.1385895559,0.5995952145,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-C-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.2764388736E-002,0.3087589197,Pass,Pass,0.4251485884,1.8845796150,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-D-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.3078249779E-002,0.3081725128,Pass,Pass,0.5008529875,1.7323776839,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-E-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.0627673551E-002,0.3141952575,Pass,Pass,0.2361187962,0.7985044030,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-F-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.4656524440E-002,0.3083750849,Pass,Pass,0.8517789694,6.0934545072,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-G-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.5182410253E-002,0.3105474124,Pass,Pass,0.2519528918,1.0922781658,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-H-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.2744452897E-002,0.3113928998,Pass,Pass,0.2108294762,1.0127438131,Pass,Pass
+ Warmup Convergence Information,CORR. >= 2.4M WIDE-SCH-I-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.7854272106E-002,0.3260102977,Pass,Pass,7.1356637357E-002,0.2868483929,Pass,Pass
+ Warmup Convergence Information,COURTHOUSE - CELL-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.6001307024E-002,0.3591753773,Pass,Pass,0.3208357475,1.6832652281,Pass,Pass
+ Warmup Convergence Information,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.9671057675E-002,0.3202704182,Pass,Pass,0.3741087821,1.6069587939,Pass,Pass
+ Warmup Convergence Information,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.5555555556E-002,0.3752419050,Pass,Pass,0.3856032058,2.0608498120,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data
