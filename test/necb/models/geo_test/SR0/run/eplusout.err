@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.20 20:07,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.21 16:05,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
@@ -8,44 +8,104 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.20 20:07,
    ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
    ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-C PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="ELECTRICAL/MECHANICAL ROOM-SCH-C-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ELECTRICAL/MECHANICAL ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-C PEOPLE".
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS I FACILITY(4) PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[130] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [31] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS I FACILITY(4) PEOPLE".
    ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-D PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="ELECTRICAL/MECHANICAL ROOM-SCH-D-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ELECTRICAL/MECHANICAL ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-D PEOPLE".
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS II FACILITY(4) PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[132] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [33] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS II FACILITY(4) PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS III FACILITY(4) PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[134] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [35] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS III FACILITY(4) PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[130] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [31] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN SPACE FUNCTION TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION TRANSPORTATION FACILITY TERMINAL TICKET COUNTER PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[134] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [35] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN SPACE FUNCTION TRANSPORTATION FACILITY TERMINAL TICKET COUNTER PEOPLE".
    ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-C LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="ELECTRICAL/MECHANICAL ROOM-SCH-C-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ELECTRICAL/MECHANICAL ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-C LIGHTS".
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS I FACILITY(4) LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[130] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [31] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS I FACILITY(4) LIGHTS".
    ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-D LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="ELECTRICAL/MECHANICAL ROOM-SCH-D-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ELECTRICAL/MECHANICAL ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-D LIGHTS".
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS II FACILITY(4) LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[132] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [33] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS II FACILITY(4) LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS III FACILITY(4) LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[134] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [35] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS III FACILITY(4) LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[130] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [31] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN SPACE FUNCTION TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION TRANSPORTATION FACILITY TERMINAL TICKET COUNTER LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[134] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [35] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN SPACE FUNCTION TRANSPORTATION FACILITY TERMINAL TICKET COUNTER LIGHTS".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-C ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ELECTRICAL/MECHANICAL ROOM-SCH-C-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ELECTRICAL/MECHANICAL ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-C ELEC EQUIP".
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS I FACILITY(4) ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[134] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [35] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS I FACILITY(4) ELEC EQUIP".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-D ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ELECTRICAL/MECHANICAL ROOM-SCH-D-SPACE FUNCTION ZN".
-   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ELECTRICAL/MECHANICAL ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-D ELEC EQUIP".
-   ** Warning ** Calculated design heating load for zone=FOOD PREPARATION AREA-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS II FACILITY(4) ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[136] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [37] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS II FACILITY(4) ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS III FACILITY(4) ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[138] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [39] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN SPACE FUNCTION SPORTS ARENA PLAYING AREA CLASS III FACILITY(4) ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[134] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [35] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN SPACE FUNCTION TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION TRANSPORTATION FACILITY TERMINAL TICKET COUNTER ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[138] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [39] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN SPACE FUNCTION TRANSPORTATION FACILITY TERMINAL TICKET COUNTER ELEC EQUIP".
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA PLAYING AREA CLASS I FACILITY(4)-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=GUEST ROOM-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA PLAYING AREA CLASS II FACILITY(4)-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SPORTS ARENA PLAYING AREA CLASS III FACILITY(4)-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=TRANSPORTATION FACILITY BAGGAGE/CAROUSEL AREA-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=TRANSPORTATION FACILITY TERMINAL TICKET COUNTER-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
@@ -75,5 +135,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.20 20:07,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 14 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 18 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  1.15sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 26 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 30 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  1.07sec
