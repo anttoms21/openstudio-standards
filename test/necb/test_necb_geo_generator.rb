@@ -20,9 +20,10 @@ class GeoTest < Minitest::Test
     #Get the correct standard
     standard = Standard.build(standard)
     #this line should be reduced to 1
-    spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
+    spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard"}
     spacetypes_unfilterted_lockerroom = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
-    spacetypes = spacetypes_unfilterted_lockerroom.select{|spacetype| spacetype["ventilation_secondary_space_type"] != "Locker room"}
+    spacetypes_w_sch_I = spacetypes_unfilterted_lockerroom.select{|spacetype| spacetype["ventilation_secondary_space_type"] != "Locker room"}
+    spacetypes =  spacetypes_w_sch_I.select{|spacetype| spacetype["exhaust_schedule"] != "NECB-I-FAN" }
 
     #Indicate the number of model required for the number of spacetypes...round up.
     while (spacetypes.size%range != 0 )
@@ -94,7 +95,7 @@ class GeoTest < Minitest::Test
   def test_main()
     #Create Test Folder to perform runs in.
     #To do.. you should remove the old runs in this folder.
-    vintage = 'NECB2011'
+    vintage = 'NECB2015'
     test_dir = "#{File.dirname(__FILE__)}/models/geo_test"
     if Dir.exists?(test_dir)
       FileUtils.rm_rf(test_dir)

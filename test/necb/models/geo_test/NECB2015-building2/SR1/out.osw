@@ -1,0 +1,13 @@
+{
+   "completed_at" : "20190326T181319Z",
+   "completed_status" : "Fail",
+   "created_at" : "20190326T181315Z",
+   "current_step" : 0,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.26 18:13,\n   ** Severe  ** <root>[PlantEquipmentOperationSchemes][Main Service Water Loop Operation Schemes] - Missing required property 'control_scheme_1_name'.\n   ** Severe  ** <root>[PlantEquipmentOperationSchemes][Main Service Water Loop Operation Schemes] - Missing required property 'control_scheme_1_object_type'.\n   ** Severe  ** <root>[PlantEquipmentOperationSchemes][Main Service Water Loop Operation Schemes] - Missing required property 'control_scheme_1_schedule_name'.\n   **  Fatal  ** Errors occurred on processing input file. Preceding condition(s) cause termination.\n   ...Summary of Errors that led to program termination:\n   ..... Reference severe error count=3\n   ..... Last severe error=<root>[PlantEquipmentOperationSchemes][Main Service Water Loop Operation Schemes] - Missing required property 'control_scheme_1_schedule_name'.\n   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).\n   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 3 Severe Errors; Elapsed Time=00hr 00min  0.31sec\n",
+   "hash" : "25C3695E",
+   "seed_file" : "in.osm",
+   "started_at" : "20190326T181317Z",
+   "steps" : [],
+   "updated_at" : "20190326T181319Z",
+   "weather_file" : "in.epw"
+}
