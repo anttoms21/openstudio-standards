@@ -1,0 +1,1680 @@
+
+ Meters for 9,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 594,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 607,DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 620,DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 633,DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 646,DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 659,DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 672,DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 685,FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 698,FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 711,FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 724,FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 737,GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 750,GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 763,HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 776,HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 789,HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 802,HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 815,HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 828,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+
+ Meters for 889,COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J]
+
+ Meters for 916,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+
+ Meters for 941,COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J]
+
+ Meters for 956,DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+
+ Meters for 981,DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J]
+
+ Meters for 996,DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+
+ Meters for 1021,DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J]
+
+ Meters for 1036,DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 1061,DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 1076,DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+
+ Meters for 1101,DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J]
+
+ Meters for 1116,DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+
+ Meters for 1141,DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J]
+
+ Meters for 1156,DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+
+ Meters for 1181,DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J]
+
+ Meters for 1196,FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+
+ Meters for 1221,FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J]
+
+ Meters for 1236,FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+
+ Meters for 1261,FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J]
+
+ Meters for 1276,FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+
+ Meters for 1301,FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J]
+
+ Meters for 1316,FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+
+ Meters for 1341,FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J]
+
+ Meters for 1356,GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J]
+
+ Meters for 1381,GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J]
+
+ Meters for 1396,GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+
+ Meters for 1421,GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J]
+
+ Meters for 1436,GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+
+ Meters for 1461,GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J]
+
+ Meters for 1476,HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+
+ Meters for 1501,HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J]
+
+ Meters for 1516,HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+
+ Meters for 1541,HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J]
+
+ Meters for 1556,HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+
+ Meters for 1581,HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J]
+
+ Meters for 1596,HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+
+ Meters for 1621,HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J]
+
+ Meters for 1636,HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+
+ Meters for 1661,HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J]
+
+ Meters for 1676,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1713,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1750,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1787,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1824,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1861,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1862,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1863,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1864,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1865,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1866,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1867,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1868,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1869,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1870,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1871,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1872,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1873,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1874,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1875,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1876,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1877,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1878,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1879,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1880,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1881,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1882,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1883,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1884,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1885,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1886,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1887,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1888,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1889,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1890,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1891,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1892,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1893,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1894,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1895,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1896,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1897,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1898,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1899,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1924,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1925,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS LIGHTS:Lights Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  GYM - AUDIENCE-SPACE FUNCTION ZN SPACE FUNCTION GYM - AUDIENCE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - CHAMBERS ELEC EQUIP:Electric Equipment Electric Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN SPACE FUNCTION COURTHOUSE - COURTROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DINING - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DINING - OTHER-SPACE FUNCTION ZN SPACE FUNCTION DINING - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DWELLING UNIT(S)-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNIT(S) ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  FOOD PREPARATION-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN SPACE FUNCTION FOOD PREPARATION - VENTED ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  GYM - FITNESS-SPACE FUNCTION ZN SPACE FUNCTION GYM - FITNESS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:GYM - PLAY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  GYM - PLAY-SPACE FUNCTION ZN SPACE FUNCTION GYM - PLAY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EMERGENCY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  HOSPITAL - EXAM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - EXAM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  COURTHOUSE - CHAMBERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:COURTHOUSE - COURTROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  COURTHOUSE - COURTROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DINING - BAR LOUNGE/LEISURE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DINING - FAMILY SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DINING - FAMILY SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DINING - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DINING - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DWELLING UNIT(S)-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DWELLING UNIT(S)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:FIRE STATION - QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  FIRE STATION - QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:FOOD PREPARATION - VENTED-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  FOOD PREPARATION - VENTED-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:FOOD PREPARATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  FOOD PREPARATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GYM - AUDIENCE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GYM - AUDIENCE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GYM - FITNESS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GYM - FITNESS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GYM - PLAY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GYM - PLAY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - EMERGENCY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  HOSPITAL - EMERGENCY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - EXAM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  HOSPITAL - EXAM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  HOSPITAL - LAUNDRY/WASHING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  HOSPITAL - LOUNGE/RECREATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  HOSPITAL - MEDICAL SUPPLY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

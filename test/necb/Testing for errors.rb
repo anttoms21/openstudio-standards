@@ -9,18 +9,17 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 class GeoTest < CreateDOEPrototypeBuildingTest
   #creating an empty model object
   model = OpenStudio::Model::Model.new()
-  standard = Standard.build('NECB2015')
+  standard = Standard.build('NECB2011')
 
   #puts standard
   #get spacetypes that are not wildcard spacetypes.
   spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
-  spacetypes_unfilterted2 = spacetypes_unfilterted.select{|spacetype| spacetype["space_type"] != "- undefined -" }
-  spacetypes_w_sch_I = spacetypes_unfilterted2.select{|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" }
-  spacetypes =  spacetypes_w_sch_I.select{|spacetype| spacetype["exhaust_schedule"] != "NECB-I-FAN" }
+  spacetypes= spacetypes_unfilterted.select{|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" }
+  #spacetypes =  spacetypes_w_sch_I.select{|spacetype| spacetype["exhaust_schedule"] != "NECB-I-FAN" }
   #for some reason the above does not work
   puts spacetypes_unfilterted.size
   puts spacetypes.size
-  intermediatestep = spacetypes.drop(186)
+  intermediatestep = spacetypes.drop(40)
 
   #raise 'hell'
   #puts "number of non-wildcard spacetypes : #{spacetypes.size}"
