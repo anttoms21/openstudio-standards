@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:59,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:10,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 10", Blank Schedule Type Limits Name input -- will not be validated.
@@ -122,22 +122,22 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:59,
    **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=CONVENTION CENTRE - AUDIENCE_FL=STORY 1_SCH=C SPACE FUNCTION CONVENTION CENTRE - AUDIENCE LIGHTS".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION AUDIENCE - PERFORMANCE ARTS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=AUDIENCE - PERFORMANCE ARTS_FL=STORY 1_SCH=C".
+   **   ~~~   ** ZoneList/Zone Name="ALL_ST=AUDIENCE - PERFORMANCE ARTS_FL=STORY 4_SCH=C".
    **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
    **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=AUDIENCE - PERFORMANCE ARTS_FL=STORY 1_SCH=C SPACE FUNCTION AUDIENCE - PERFORMANCE ARTS ELEC EQUIP".
+   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=AUDIENCE - PERFORMANCE ARTS_FL=STORY 4_SCH=C SPACE FUNCTION AUDIENCE - PERFORMANCE ARTS ELEC EQUIP".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION BANK - BANKING AND OFFICES ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=BANK - BANKING AND OFFICES_FL=STORY 2_SCH=A".
+   **   ~~~   ** ZoneList/Zone Name="ALL_ST=BANK - BANKING AND OFFICES_FL=STORY 1_SCH=A".
    **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
    **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=BANK - BANKING AND OFFICES_FL=STORY 2_SCH=A SPACE FUNCTION BANK - BANKING AND OFFICES ELEC EQUIP".
+   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=BANK - BANKING AND OFFICES_FL=STORY 1_SCH=A SPACE FUNCTION BANK - BANKING AND OFFICES ELEC EQUIP".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION CLASSROOM/LECTURE/TRAINING ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=CLASSROOM/LECTURE/TRAINING_FL=STORY 1_SCH=D".
+   **   ~~~   ** ZoneList/Zone Name="ALL_ST=CLASSROOM/LECTURE/TRAINING_FL=STORY 2_SCH=D".
    **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
    **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=CLASSROOM/LECTURE/TRAINING_FL=STORY 1_SCH=D SPACE FUNCTION CLASSROOM/LECTURE/TRAINING ELEC EQUIP".
+   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=CLASSROOM/LECTURE/TRAINING_FL=STORY 2_SCH=D SPACE FUNCTION CLASSROOM/LECTURE/TRAINING ELEC EQUIP".
    ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
    **   ~~~   ** Object Name="SPACE FUNCTION CONVENTION CENTRE - AUDIENCE ELEC EQUIP".
    **   ~~~   ** ZoneList/Zone Name="ALL_ST=CONVENTION CENTRE - AUDIENCE_FL=STORY 1_SCH=C".
@@ -150,19 +150,23 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:59,
    **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
    **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
    **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=CONVENTION CENTRE - EXHIBIT_FL=STORY 2_SCH=C SPACE FUNCTION CONVENTION CENTRE - EXHIBIT ELEC EQUIP".
-   ** Warning ** Calculated design heating load for zone=ALL_ST=AUDIENCE - MOTION PICTURE_FL=STORY 1_SCH=C is zero.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=ATRIUM - H < 13M_FL=STORY 1_SCH=C is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=AUDIENCE - PERFORMANCE ARTS_FL=STORY 1_SCH=C is zero.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=AUDIENCE - AUDITORIUM_FL=STORY 2_SCH=C is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=ALL_ST=AUTOMOTIVE - REPAIR_FL=STORY 1_SCH=E is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=BANK - BANKING AND OFFICES_FL=STORY 2_SCH=A is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=CLASSROOM/LECTURE/TRAINING_FL=STORY 1_SCH=D is zero.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=BANK - BANKING AND OFFICES_FL=STORY 1_SCH=A is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=ALL_ST=CONVENTION CENTRE - AUDIENCE_FL=STORY 1_SCH=C is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=CONVENTION CENTRE - EXHIBIT_FL=STORY 2_SCH=C is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=A is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=ALL_ST=WHOLEBUILDING_FL=STORY 3_SCH=H is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=DU_BT=PENITENTIARY_ST=WHOLEBUILDING_FL=STORY 3_SCHH is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=DU_BT=SPACE FUNCTION_ST=COURTHOUSE - CELL_FL=STORY 2_SCHH is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
@@ -170,13 +174,13 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:59,
    ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
    **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 1
    ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 4
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 5
    ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
    **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 2
    ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
    **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 3
    ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 5
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 4
    ************* Beginning Plant Sizing Calculations
    ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4", invalid
    **   ~~~   ** ...Part Load Fraction Correlation Curve Name = CURVE CUBIC 2 has out of range value.
@@ -190,6 +194,11 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:59,
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
    ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 3 but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** SizeWaterCoil: Coil="COIL COOLING WATER 2", Cooling Coil has leaving humidity ratio > entering humidity ratio.
+   **   ~~~   **     Wair,in =  8.747516E-003
+   **   ~~~   **     Wair,out = 8.768468E-003
+   **   ~~~   ** ....coil leaving humidity ratio will be reset to:
+   **   ~~~   **     Wair,out = 8.747516E-003
    ** Warning ** GetElectricEIRChillerInput: Chiller:Electric:EIR="PRIMARY CHILLER WATERCOOLED SCROLL"
    **   ~~~   ** Energy input ratio as a function of temperature curve output is not equal to 1.0 (+ or - 10%) at reference conditions.
    **   ~~~   ** Curve output at reference conditions = 0.861
@@ -254,5 +263,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:59,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 127 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 143 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  5.57sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 129 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 146 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  5.67sec

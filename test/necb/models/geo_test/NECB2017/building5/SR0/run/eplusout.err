@@ -1,0 +1,76 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 14:19,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOUNGE/BREAK ROOM - HEALTH CARE FACILITY PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="LOUNGE/BREAK ROOM - HEALTH CARE FACILITY-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[120] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [21] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="LOUNGE/BREAK ROOM - HEALTH CARE FACILITY-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/BREAK ROOM - HEALTH CARE FACILITY PEOPLE".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOUNGE/BREAK ROOM - HEALTH CARE FACILITY LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="LOUNGE/BREAK ROOM - HEALTH CARE FACILITY-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[120] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [21] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="LOUNGE/BREAK ROOM - HEALTH CARE FACILITY-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/BREAK ROOM - HEALTH CARE FACILITY LIGHTS".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOUNGE/BREAK ROOM - HEALTH CARE FACILITY ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="LOUNGE/BREAK ROOM - HEALTH CARE FACILITY-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[124] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [25] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="LOUNGE/BREAK ROOM - HEALTH CARE FACILITY-SPACE FUNCTION ZN SPACE FUNCTION LOUNGE/BREAK ROOM - HEALTH CARE FACILITY ELEC EQUIP".
+   ** Warning ** Calculated design cooling load for zone=LOCKER ROOM-SCH-K-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=LOCKER ROOM-SCH-K-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=LOUNGE/BREAK ROOM - OTHER-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=OFFICE OPEN PLAN-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SALES AREA-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SEATING AREA GENERAL-SCH-A-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SEATING AREA GENERAL-SCH-B-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SEATING AREA GENERAL-SCH-H-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=SEATING AREA GENERAL-SCH-K-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SEATING AREA GENERAL-SCH-K-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Output:Table:Monthly requested with SimulationControl Run Simulation for Weather File Run Periods set to No so Output:Table:Monthly will not be generated
+   ************* Simulation Error Summary *************
+   ************* There are 8 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 12 unused schedules in input.
+   ************* There are 12 unused week schedules in input.
+   ************* There are 33 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 18 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 22 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.52sec

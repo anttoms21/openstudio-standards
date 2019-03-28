@@ -10,7 +10,8 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 #require 'Building.hpp'
 #LargeOfficespace_type_objects[index]
 
-ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
+#ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
+ProcessorsUsed = 35
 
 
 class GeoTest < Minitest::Test
@@ -119,15 +120,16 @@ class GeoTest < Minitest::Test
     #Get array of arrays in groups of 20. See this method above on how I did this.
     # For debugging just using .first (would be good to see what happend with .last )
     vintages.each do |vintage|
+      vintage_dir = "#{test_dir}/#{vintage}"
+      if Dir.exists?(vintage_dir)
+        Dir.mkdir(vintage_dir)
+      end
       array_of_array_of_space_types = determine_space_types_to_test(standard: vintage, range: 20)
       Parallel.each_with_index(array_of_array_of_space_types, in_processes: (ProcessorsUsed), progress: "Progress :") do |array_of_space_types, index|
         #Create a unique folder name to do the runs in..
         #puts "space types in this building are#{array_of_space_types.size}"
         #name = SecureRandom.uuid.to_s
-        vintage_dir = "#{test_dir}/#{vintage}"
-        if Dir.exists?(vintage_dir)
-          Dir.mkdir(vintage_dir)
-        end
+
         run_dir = "#{test_dir}/#{vintage}/building#{index}"
         if Dir.exists?(run_dir)
           Dir.mkdir(run_dir)

@@ -618,9 +618,9 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Courthouse - courtroom-Space Function ZN, !- Name
   -0,                                     !- Direction of Relative North {deg}
-  75,                                     !- X Origin {m}
+  25,                                     !- X Origin {m}
   25,                                     !- Y Origin {m}
-  11.4,                                   !- Z Origin {m}
+  7.6,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -630,146 +630,100 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 103,                            !- Name
+  Surface 85,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Courthouse - courtroom-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 78,                             !- Outside Boundary Condition Object
+  Surface 60,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 1 {m}
-  25, -25, 1.77635683940025e-15,          !- X,Y,Z Vertex 2 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
-  0, 50, 1.77635683940025e-15;            !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 104,                            !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
-  Courthouse - courtroom-Space Function ZN, !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  25, -25, 1.77635683940025e-15,          !- X,Y,Z Vertex 2 {m}
-  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-FenestrationSurface:Detailed,
-  Surface 104_FixedWindow,                !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 104,                            !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  ,                                       !- Multiplier
-  ,                                       !- Number of Vertices
-  25, -24.9746, 1.71248284528541,         !- X,Y,Z Vertex 1 {m}
-  25, -24.9746, 0.762000000000002,        !- X,Y,Z Vertex 2 {m}
-  25, 74.9746, 0.762000000000002,         !- X,Y,Z Vertex 3 {m}
-  25, 74.9746, 1.71248284528541;          !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 105,                            !- Name
+  Surface 86,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Courthouse - courtroom-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 113,                            !- Outside Boundary Condition Object
+  Surface 64,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 87,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Courthouse - courtroom-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 70,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 88,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Courthouse - courtroom-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 76,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 89,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Courthouse - courtroom-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 82,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
-  25, -25, 1.77635683940025e-15,          !- X,Y,Z Vertex 3 {m}
-  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 106,                            !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
+  Surface 90,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
   Courthouse - courtroom-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 118,                            !- Outside Boundary Condition Object
+  Surface 115,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 107,                            !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Courthouse - courtroom-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 99,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
-  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 108,                            !- Name
-  Roof,                                   !- Surface Type
-  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
-  Courthouse - courtroom-Space Function ZN, !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
-  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-FenestrationSurface:Detailed,
-  Surface 108_Skylight,                   !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 108,                            !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  1,                                      !- Multiplier
-  ,                                       !- Number of Vertices
-  9.70491502812526, 30.5901699437495, 3.8, !- X,Y,Z Vertex 1 {m}
-  9.70491502812526, 19.4098300562505, 3.8, !- X,Y,Z Vertex 2 {m}
-  15.2950849718747, 13.8196601125011, 3.8, !- X,Y,Z Vertex 3 {m}
-  15.2950849718747, 36.1803398874989, 3.8; !- X,Y,Z Vertex 4 {m}
-
-ZoneInfiltration:DesignFlowRate,
-  Courthouse - courtroom-Space Function Infiltration, !- Name
-  Courthouse - courtroom-Space Function ZN, !- Zone or ZoneList Name
-  Always On Discrete,                     !- Schedule Name
-  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
-  ,                                       !- Design Flow Rate {m3/s}
-  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
-  ,                                       !- Air Changes per Hour {1/hr}
-  0,                                      !- Constant Term Coefficient
-  0,                                      !- Temperature Term Coefficient
-  0.224,                                  !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   Courthouse - courtroom-Space Function ZN Thermostat, !- Name
@@ -892,9 +846,9 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Dining - bar lounge/leisure-Space Function ZN, !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
-  11.4,                                   !- Z Origin {m}
+  75,                                     !- X Origin {m}
+  25,                                     !- Y Origin {m}
+  7.6,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -904,23 +858,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 91,                             !- Name
+  Surface 73,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 66,                             !- Outside Boundary Condition Object
+  Surface 48,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 1 {m}
-  0, 100, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  25, 25, 1.77635683940025e-15;           !- X,Y,Z Vertex 4 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 92,                             !- Name
+  Surface 74,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
@@ -930,106 +884,90 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  0, 100, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 92_FixedWindow,                 !- Name
+  Surface 74_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 92,                             !- Building Surface Name
+  Surface 74,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  0, 99.9746, 1.71248284528541,           !- X,Y,Z Vertex 1 {m}
-  0, 99.9746, 0.762000000000002,          !- X,Y,Z Vertex 2 {m}
-  0, 0.0253999999999905, 0.762000000000002, !- X,Y,Z Vertex 3 {m}
-  0, 0.0253999999999905, 1.71248284528541; !- X,Y,Z Vertex 4 {m}
+  25, -24.9746, 1.7124828452854,          !- X,Y,Z Vertex 1 {m}
+  25, -24.9746, 0.762,                    !- X,Y,Z Vertex 2 {m}
+  25, 74.9746, 0.762,                     !- X,Y,Z Vertex 3 {m}
+  25, 74.9746, 1.7124828452854;           !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 93,                             !- Name
+  Surface 75,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 101,                            !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  0, 100, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 94,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 116,                            !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 95,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 111,                            !- Outside Boundary Condition Object
+  Surface 83,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
-  25, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
+  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 96,                             !- Name
-  Roof,                                   !- Surface Type
-  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
+  Surface 76,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
   Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  Surface,                                !- Outside Boundary Condition
+  Surface 88,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
-FenestrationSurface:Detailed,
-  Surface 96_Skylight,                    !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 96,                             !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
+BuildingSurface:Detailed,
+  Surface 77,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 69,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  1,                                      !- Multiplier
   ,                                       !- Number of Vertices
-  15.2950849718747, 44.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
-  15.2950849718747, 55.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
-  9.70491502812526, 61.1803398874989, 3.8, !- X,Y,Z Vertex 3 {m}
-  9.70491502812526, 38.8196601125011, 3.8; !- X,Y,Z Vertex 4 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 78,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
+  Dining - bar lounge/leisure-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 103,                            !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
+  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Dining - bar lounge/leisure-Space Function Infiltration, !- Name
@@ -1316,7 +1254,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   25,                                     !- X Origin {m}
   75,                                     !- Y Origin {m}
-  11.4,                                   !- Z Origin {m}
+  7.6,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -1326,87 +1264,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 100,                            !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dining - family space-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 117,                            !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
-  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 101,                            !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dining - family space-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 93,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  -25, 25, 1.77635683940025e-15,          !- X,Y,Z Vertex 2 {m}
-  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 102,                            !- Name
-  Roof,                                   !- Surface Type
-  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
-  Dining - family space-Space Function ZN, !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
-  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
-
-FenestrationSurface:Detailed,
-  Surface 102_Skylight,                   !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 102,                            !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  1,                                      !- Multiplier
-  ,                                       !- Number of Vertices
-  19.4098300562505, 9.70491502812526, 3.8, !- X,Y,Z Vertex 1 {m}
-  30.5901699437495, 9.70491502812526, 3.8, !- X,Y,Z Vertex 2 {m}
-  36.1803398874989, 15.2950849718747, 3.8, !- X,Y,Z Vertex 3 {m}
-  13.8196601125011, 15.2950849718747, 3.8; !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 97,                             !- Name
+  Surface 67,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Dining - family space-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 72,                             !- Outside Boundary Condition Object
+  Surface 42,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  -25, 25, 1.77635683940025e-15,          !- X,Y,Z Vertex 1 {m}
-  75, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
-  0, 0, 1.77635683940025e-15;             !- X,Y,Z Vertex 4 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 98,                             !- Name
+  Surface 68,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Dining - family space-Space Function ZN, !- Zone Name
@@ -1417,41 +1291,89 @@ BuildingSurface:Detailed,
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  -25, 25, 1.77635683940025e-15,          !- X,Y,Z Vertex 3 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 3 {m}
   -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 98_FixedWindow,                 !- Name
+  Surface 68_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 98,                             !- Building Surface Name
+  Surface 68,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  74.9746, 25, 1.71248284528541,          !- X,Y,Z Vertex 1 {m}
-  74.9746, 25, 0.762000000000002,         !- X,Y,Z Vertex 2 {m}
-  -24.9746, 25, 0.762000000000002,        !- X,Y,Z Vertex 3 {m}
-  -24.9746, 25, 1.71248284528541;         !- X,Y,Z Vertex 4 {m}
+  74.9746, 25, 1.7124828452854,           !- X,Y,Z Vertex 1 {m}
+  74.9746, 25, 0.762,                     !- X,Y,Z Vertex 2 {m}
+  -24.9746, 25, 0.762,                    !- X,Y,Z Vertex 3 {m}
+  -24.9746, 25, 1.7124828452854;          !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 99,                             !- Name
+  Surface 69,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dining - family space-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 107,                            !- Outside Boundary Condition Object
+  Surface 77,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
-  75, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
   75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 70,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Dining - family space-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 87,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 71,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Dining - family space-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 63,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 72,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
+  Dining - family space-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 97,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Dining - family space-Space Function Infiltration, !- Name
@@ -1590,7 +1512,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   0,                                      !- X Origin {m}
   0,                                      !- Y Origin {m}
-  7.6,                                    !- Z Origin {m}
+  0,                                      !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -1600,130 +1522,100 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 79,                             !- Name
+  Surface 1,                              !- Name
   Floor,                                  !- Surface Type
-  BTAP-Int-Floor,                         !- Construction Name
+  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
   Dining - other-Space Function ZN,       !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 54,                             !- Outside Boundary Condition Object
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 80,                             !- Name
+  Surface 2,                              !- Name
   Wall,                                   !- Surface Type
-  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
+  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
   Dining - other-Space Function ZN,       !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
+  Ground,                                 !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-FenestrationSurface:Detailed,
-  Surface 80_FixedWindow,                 !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 80,                             !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  ,                                       !- Multiplier
-  ,                                       !- Number of Vertices
-  0.0254, 0, 1.7124828452854,             !- X,Y,Z Vertex 1 {m}
-  0.0254, 0, 0.762,                       !- X,Y,Z Vertex 2 {m}
-  99.9746, 0, 0.762,                      !- X,Y,Z Vertex 3 {m}
-  99.9746, 0, 1.7124828452854;            !- X,Y,Z Vertex 4 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 81,                             !- Name
+  Surface 3,                              !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dining - other-Space Function ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 65,                             !- Outside Boundary Condition Object
+  Surface 11,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
+  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 4,                              !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Dining - other-Space Function ZN,       !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 26,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
   25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 82,                             !- Name
+  Surface 5,                              !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dining - other-Space Function ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 89,                             !- Outside Boundary Condition Object
+  Surface 21,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
   25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
   25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 83,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dining - other-Space Function ZN,       !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 75,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 84,                             !- Name
+  Surface 6,                              !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   Dining - other-Space Function ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 109,                            !- Outside Boundary Condition Object
+  Surface 31,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-ZoneInfiltration:DesignFlowRate,
-  Dining - other-Space Function Infiltration, !- Name
-  Dining - other-Space Function ZN,       !- Zone or ZoneList Name
-  Always On Discrete,                     !- Schedule Name
-  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
-  ,                                       !- Design Flow Rate {m3/s}
-  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
-  ,                                       !- Air Changes per Hour {1/hr}
-  0,                                      !- Constant Term Coefficient
-  0,                                      !- Temperature Term Coefficient
-  0.224,                                  !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 ZoneControl:Thermostat,
   Dining - other-Space Function ZN Thermostat, !- Name
@@ -1848,7 +1740,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   25,                                     !- X Origin {m}
   25,                                     !- Y Origin {m}
-  7.6,                                    !- Z Origin {m}
+  11.4,                                   !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -1858,100 +1750,130 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 85,                             !- Name
+  Surface 115,                            !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Dormitory - living quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 60,                             !- Outside Boundary Condition Object
+  Surface 90,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 1 {m}
+  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
+  50, 50, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
+  50, 0, 1.77635683940025e-15;            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 86,                             !- Name
+  Surface 116,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dormitory - living quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 64,                             !- Outside Boundary Condition Object
+  Surface 94,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 87,                             !- Name
+  Surface 117,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dormitory - living quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 70,                             !- Outside Boundary Condition Object
+  Surface 100,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 50, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
   0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 88,                             !- Name
+  Surface 118,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dormitory - living quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 76,                             !- Outside Boundary Condition Object
+  Surface 106,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
+  50, 50, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
   50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 89,                             !- Name
+  Surface 119,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dormitory - living quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 82,                             !- Outside Boundary Condition Object
+  Surface 112,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
+  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
   50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 90,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 120,                            !- Name
+  Roof,                                   !- Surface Type
+  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   Dormitory - living quarters-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 115,                            !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
   50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
   0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 120_Skylight,                   !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
+  Surface 120,                            !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  30.5901699437495, 19.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
+  30.5901699437495, 30.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
+  19.4098300562505, 30.5901699437495, 3.8, !- X,Y,Z Vertex 3 {m}
+  19.4098300562505, 19.4098300562505, 3.8; !- X,Y,Z Vertex 4 {m}
+
+ZoneInfiltration:DesignFlowRate,
+  Dormitory - living quarters-Space Function Infiltration, !- Name
+  Dormitory - living quarters-Space Function ZN, !- Zone or ZoneList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.224,                                  !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   Dormitory - living quarters-Space Function ZN Thermostat, !- Name
@@ -2204,7 +2126,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   0,                                      !- X Origin {m}
   0,                                      !- Y Origin {m}
-  0,                                      !- Z Origin {m}
+  7.6,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -2214,100 +2136,130 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 1,                              !- Name
+  Surface 79,                             !- Name
   Floor,                                  !- Surface Type
-  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
+  BTAP-Int-Floor,                         !- Construction Name
   Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
+  Surface,                                !- Outside Boundary Condition
+  Surface 54,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 2,                              !- Name
+  Surface 80,                             !- Name
   Wall,                                   !- Surface Type
-  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
+  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 80_FixedWindow,                 !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
+  Surface 80,                             !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  0.0254, 0, 1.7124828452854,             !- X,Y,Z Vertex 1 {m}
+  0.0254, 0, 0.762,                       !- X,Y,Z Vertex 2 {m}
+  99.9746, 0, 0.762,                      !- X,Y,Z Vertex 3 {m}
+  99.9746, 0, 1.7124828452854;            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 3,                              !- Name
+  Surface 81,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 11,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
-  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 4,                              !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 26,                             !- Outside Boundary Condition Object
+  Surface 65,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
   25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 5,                              !- Name
+  Surface 82,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 21,                             !- Outside Boundary Condition Object
+  Surface 89,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
   25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
   25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 6,                              !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 83,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
   Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 31,                             !- Outside Boundary Condition Object
+  Surface 75,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 84,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
+  Dress./fitt. - performance arts-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 109,                            !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+ZoneInfiltration:DesignFlowRate,
+  Dress./fitt. - performance arts-Space Function Infiltration, !- Name
+  Dress./fitt. - performance arts-Space Function ZN, !- Zone or ZoneList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.224,                                  !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   Dress./fitt. - performance arts-Space Function ZN Thermostat, !- Name
@@ -2574,9 +2526,9 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Dwelling Unit(s)-Space Function ZN,     !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
-  75,                                     !- Y Origin {m}
-  7.6,                                    !- Z Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
+  3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -2586,23 +2538,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 67,                             !- Name
+  Surface 49,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Dwelling Unit(s)-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 42,                             !- Outside Boundary Condition Object
+  Surface 24,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  -25, 25, 0,                             !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 68,                             !- Name
+  Surface 50,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Dwelling Unit(s)-Space Function ZN,     !- Zone Name
@@ -2612,90 +2564,90 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  -25, 25, 0,                             !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 68_FixedWindow,                 !- Name
+  Surface 50_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 68,                             !- Building Surface Name
+  Surface 50,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  74.9746, 25, 1.7124828452854,           !- X,Y,Z Vertex 1 {m}
-  74.9746, 25, 0.762,                     !- X,Y,Z Vertex 2 {m}
-  -24.9746, 25, 0.762,                    !- X,Y,Z Vertex 3 {m}
-  -24.9746, 25, 1.7124828452854;          !- X,Y,Z Vertex 4 {m}
+  0.0254, 0, 1.7124828452854,             !- X,Y,Z Vertex 1 {m}
+  0.0254, 0, 0.762,                       !- X,Y,Z Vertex 2 {m}
+  99.9746, 0, 0.762,                      !- X,Y,Z Vertex 3 {m}
+  99.9746, 0, 1.7124828452854;            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 69,                             !- Name
+  Surface 51,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Dwelling Unit(s)-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 77,                             !- Outside Boundary Condition Object
+  Surface 35,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 70,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dwelling Unit(s)-Space Function ZN,     !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 87,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 71,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Dwelling Unit(s)-Space Function ZN,     !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 63,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  -25, 25, 0,                             !- X,Y,Z Vertex 2 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 72,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 52,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
   Dwelling Unit(s)-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 97,                             !- Outside Boundary Condition Object
+  Surface 59,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
-  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 53,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Dwelling Unit(s)-Space Function ZN,     !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 45,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 54,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
+  Dwelling Unit(s)-Space Function ZN,     !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 79,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Dwelling Unit(s)-Space Function Infiltration, !- Name
@@ -3188,8 +3140,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Fire station - quarters-Space Function ZN, !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
-  25,                                     !- Y Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
   11.4,                                   !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -3200,87 +3152,103 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 115,                            !- Name
+  Surface 91,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Fire station - quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 90,                             !- Outside Boundary Condition Object
+  Surface 66,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 1 {m}
-  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
-  50, 50, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  50, 0, 1.77635683940025e-15;            !- X,Y,Z Vertex 4 {m}
+  0, 100, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
+  25, 25, 1.77635683940025e-15;           !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 116,                            !- Name
+  Surface 92,                             !- Name
   Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
+  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Fire station - quarters-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 94,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  0, 100, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
   0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
+FenestrationSurface:Detailed,
+  Surface 92_FixedWindow,                 !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
+  Surface 92,                             !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  0, 99.9746, 1.71248284528541,           !- X,Y,Z Vertex 1 {m}
+  0, 99.9746, 0.762000000000002,          !- X,Y,Z Vertex 2 {m}
+  0, 0.0253999999999905, 0.762000000000002, !- X,Y,Z Vertex 3 {m}
+  0, 0.0253999999999905, 1.71248284528541; !- X,Y,Z Vertex 4 {m}
+
 BuildingSurface:Detailed,
-  Surface 117,                            !- Name
+  Surface 93,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Fire station - quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 100,                            !- Outside Boundary Condition Object
+  Surface 101,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  50, 50, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
-  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
-  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  0, 100, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
+  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 118,                            !- Name
+  Surface 94,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Fire station - quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 106,                            !- Outside Boundary Condition Object
+  Surface 116,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
-  50, 50, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
-  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 119,                            !- Name
+  Surface 95,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Fire station - quarters-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 112,                            !- Outside Boundary Condition Object
+  Surface 111,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
-  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  25, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 120,                            !- Name
+  Surface 96,                             !- Name
   Roof,                                   !- Surface Type
   BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   Fire station - quarters-Space Function ZN, !- Zone Name
@@ -3290,26 +3258,26 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 120_Skylight,                   !- Name
+  Surface 96_Skylight,                    !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
-  Surface 120,                            !- Building Surface Name
+  Surface 96,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   1,                                      !- Multiplier
   ,                                       !- Number of Vertices
-  30.5901699437495, 19.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
-  30.5901699437495, 30.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
-  19.4098300562505, 30.5901699437495, 3.8, !- X,Y,Z Vertex 3 {m}
-  19.4098300562505, 19.4098300562505, 3.8; !- X,Y,Z Vertex 4 {m}
+  15.2950849718747, 44.4098300562505, 3.8, !- X,Y,Z Vertex 1 {m}
+  15.2950849718747, 55.5901699437495, 3.8, !- X,Y,Z Vertex 2 {m}
+  9.70491502812526, 61.1803398874989, 3.8, !- X,Y,Z Vertex 3 {m}
+  9.70491502812526, 38.8196601125011, 3.8; !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Fire station - quarters-Space Function Infiltration, !- Name
@@ -3448,7 +3416,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   75,                                     !- X Origin {m}
   25,                                     !- Y Origin {m}
-  0,                                      !- Z Origin {m}
+  11.4,                                   !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -3458,100 +3426,146 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 13,                             !- Name
+  Surface 103,                            !- Name
   Floor,                                  !- Surface Type
-  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
+  BTAP-Int-Floor,                         !- Construction Name
   Food preparation - vented-Space Function ZN, !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
+  Surface,                                !- Outside Boundary Condition
+  Surface 78,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
+  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 1 {m}
+  25, -25, 1.77635683940025e-15,          !- X,Y,Z Vertex 2 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
+  0, 50, 1.77635683940025e-15;            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 14,                             !- Name
+  Surface 104,                            !- Name
   Wall,                                   !- Surface Type
-  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
+  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Food preparation - vented-Space Function ZN, !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
+  Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, -25, 1.77635683940025e-15,          !- X,Y,Z Vertex 2 {m}
+  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
   25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
+FenestrationSurface:Detailed,
+  Surface 104_FixedWindow,                !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
+  Surface 104,                            !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  25, -24.9746, 1.71248284528541,         !- X,Y,Z Vertex 1 {m}
+  25, -24.9746, 0.762000000000002,        !- X,Y,Z Vertex 2 {m}
+  25, 74.9746, 0.762000000000002,         !- X,Y,Z Vertex 3 {m}
+  25, 74.9746, 1.71248284528541;          !- X,Y,Z Vertex 4 {m}
+
 BuildingSurface:Detailed,
-  Surface 15,                             !- Name
+  Surface 105,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Food preparation - vented-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 23,                             !- Outside Boundary Condition Object
+  Surface 113,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
+  25, -25, 1.77635683940025e-15,          !- X,Y,Z Vertex 3 {m}
   25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 16,                             !- Name
+  Surface 106,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Food preparation - vented-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 28,                             !- Outside Boundary Condition Object
+  Surface 118,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 17,                             !- Name
+  Surface 107,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Food preparation - vented-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 9,                              !- Outside Boundary Condition Object
+  Surface 99,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  25, 75, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  0, 50, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
   0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 18,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 108,                            !- Name
+  Roof,                                   !- Surface Type
+  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
   Food preparation - vented-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 43,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
   0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
   25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
   25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 108_Skylight,                   !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
+  Surface 108,                            !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  9.70491502812526, 30.5901699437495, 3.8, !- X,Y,Z Vertex 1 {m}
+  9.70491502812526, 19.4098300562505, 3.8, !- X,Y,Z Vertex 2 {m}
+  15.2950849718747, 13.8196601125011, 3.8, !- X,Y,Z Vertex 3 {m}
+  15.2950849718747, 36.1803398874989, 3.8; !- X,Y,Z Vertex 4 {m}
+
+ZoneInfiltration:DesignFlowRate,
+  Food preparation - vented-Space Function Infiltration, !- Name
+  Food preparation - vented-Space Function ZN, !- Zone or ZoneList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.224,                                  !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   Food preparation - vented-Space Function ZN Thermostat, !- Name
@@ -3674,8 +3688,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Food preparation-Space Function ZN,     !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
+  25,                                     !- X Origin {m}
+  25,                                     !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -3686,130 +3700,100 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 31,                             !- Name
+  Surface 55,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Food preparation-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 6,                              !- Outside Boundary Condition Object
+  Surface 30,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 32,                             !- Name
+  Surface 56,                             !- Name
   Wall,                                   !- Surface Type
-  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
+  BTAP-Int-Wall,                          !- Construction Name
   Food preparation-Space Function ZN,     !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  Surface,                                !- Outside Boundary Condition
+  Surface 34,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
-FenestrationSurface:Detailed,
-  Surface 32_FixedWindow,                 !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 32,                             !- Building Surface Name
-  ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  ,                                       !- Multiplier
-  ,                                       !- Number of Vertices
-  0, 99.9746, 1.7124828452854,            !- X,Y,Z Vertex 1 {m}
-  0, 99.9746, 0.762,                      !- X,Y,Z Vertex 2 {m}
-  0, 0.0253999999999905, 0.762,           !- X,Y,Z Vertex 3 {m}
-  0, 0.0253999999999905, 1.7124828452854; !- X,Y,Z Vertex 4 {m}
-
 BuildingSurface:Detailed,
-  Surface 33,                             !- Name
+  Surface 57,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Food preparation-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 41,                             !- Outside Boundary Condition Object
+  Surface 40,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
-  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 34,                             !- Name
+  Surface 58,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Food preparation-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 56,                             !- Outside Boundary Condition Object
+  Surface 46,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 35,                             !- Name
+  Surface 59,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Food preparation-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 51,                             !- Outside Boundary Condition Object
+  Surface 52,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 36,                             !- Name
+  Surface 60,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   Food preparation-Space Function ZN,     !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 61,                             !- Outside Boundary Condition Object
+  Surface 85,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
-
-ZoneInfiltration:DesignFlowRate,
-  Food preparation-Space Function Infiltration, !- Name
-  Food preparation-Space Function ZN,     !- Zone or ZoneList Name
-  Always On Discrete,                     !- Schedule Name
-  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
-  ,                                       !- Design Flow Rate {m3/s}
-  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
-  ,                                       !- Air Changes per Hour {1/hr}
-  0,                                      !- Constant Term Coefficient
-  0,                                      !- Temperature Term Coefficient
-  0.224,                                  !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   Food preparation-Space Function ZN Thermostat, !- Name
@@ -3932,9 +3916,9 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Gym - audience-Space Function ZN,       !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
-  0,                                      !- Z Origin {m}
+  25,                                     !- X Origin {m}
+  75,                                     !- Y Origin {m}
+  11.4,                                   !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -3944,100 +3928,146 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 19,                             !- Name
-  Floor,                                  !- Surface Type
-  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
-  Gym - audience-Space Function ZN,       !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 20,                             !- Name
+  Surface 100,                            !- Name
   Wall,                                   !- Surface Type
-  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
+  BTAP-Int-Wall,                          !- Construction Name
   Gym - audience-Space Function ZN,       !- Zone Name
-  Ground,                                 !- Outside Boundary Condition
-  ,                                       !- Outside Boundary Condition Object
+  Surface,                                !- Outside Boundary Condition
+  Surface 117,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 2 {m}
+  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 21,                             !- Name
+  Surface 101,                            !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Gym - audience-Space Function ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 5,                              !- Outside Boundary Condition Object
+  Surface 93,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  -25, 25, 1.77635683940025e-15,          !- X,Y,Z Vertex 2 {m}
+  0, 0, 1.77635683940025e-15,             !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 22,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
+  Surface 102,                            !- Name
+  Roof,                                   !- Surface Type
+  BTAP-Ext-Roof-Metal:U-0.162,            !- Construction Name
+  Gym - audience-Space Function ZN,       !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 102_Skylight,                   !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-Skylights:U=0.220 SHGC=0.600,  !- Construction Name
+  Surface 102,                            !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  1,                                      !- Multiplier
+  ,                                       !- Number of Vertices
+  19.4098300562505, 9.70491502812526, 3.8, !- X,Y,Z Vertex 1 {m}
+  30.5901699437495, 9.70491502812526, 3.8, !- X,Y,Z Vertex 2 {m}
+  36.1803398874989, 15.2950849718747, 3.8, !- X,Y,Z Vertex 3 {m}
+  13.8196601125011, 15.2950849718747, 3.8; !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 97,                             !- Name
+  Floor,                                  !- Surface Type
+  BTAP-Int-Floor,                         !- Construction Name
   Gym - audience-Space Function ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 29,                             !- Outside Boundary Condition Object
+  Surface 72,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  -25, 25, 1.77635683940025e-15,          !- X,Y,Z Vertex 1 {m}
+  75, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 3 {m}
+  0, 0, 1.77635683940025e-15;             !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 98,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
+  Gym - audience-Space Function ZN,       !- Zone Name
+  Outdoors,                               !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  SunExposed,                             !- Sun Exposure
+  WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  75, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 2 {m}
+  -25, 25, 1.77635683940025e-15,          !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+
+FenestrationSurface:Detailed,
+  Surface 98_FixedWindow,                 !- Name
+  Window,                                 !- Surface Type
+  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
+  Surface 98,                             !- Building Surface Name
+  ,                                       !- Outside Boundary Condition Object
+  ,                                       !- View Factor to Ground
+  ,                                       !- Shading Control Name
+  ,                                       !- Frame and Divider Name
+  ,                                       !- Multiplier
+  ,                                       !- Number of Vertices
+  74.9746, 25, 1.71248284528541,          !- X,Y,Z Vertex 1 {m}
+  74.9746, 25, 0.762000000000002,         !- X,Y,Z Vertex 2 {m}
+  -24.9746, 25, 0.762000000000002,        !- X,Y,Z Vertex 3 {m}
+  -24.9746, 25, 1.71248284528541;         !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 23,                             !- Name
+  Surface 99,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Gym - audience-Space Function ZN,       !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 15,                             !- Outside Boundary Condition Object
+  Surface 107,                            !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 1.77635683940025e-15,            !- X,Y,Z Vertex 2 {m}
+  75, 25, 1.77635683940025e-15,           !- X,Y,Z Vertex 3 {m}
   75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
-BuildingSurface:Detailed,
-  Surface 24,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
-  Gym - audience-Space Function ZN,       !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 49,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+ZoneInfiltration:DesignFlowRate,
+  Gym - audience-Space Function Infiltration, !- Name
+  Gym - audience-Space Function ZN,       !- Zone or ZoneList Name
+  Always On Discrete,                     !- Schedule Name
+  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
+  ,                                       !- Design Flow Rate {m3/s}
+  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
+  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
+  ,                                       !- Air Changes per Hour {1/hr}
+  0,                                      !- Constant Term Coefficient
+  0,                                      !- Temperature Term Coefficient
+  0.224,                                  !- Velocity Term Coefficient
+  0;                                      !- Velocity Squared Term Coefficient
 
 ZoneControl:Thermostat,
   Gym - audience-Space Function ZN Thermostat, !- Name
@@ -4162,7 +4192,7 @@ Zone,
   -0,                                     !- Direction of Relative North {deg}
   0,                                      !- X Origin {m}
   0,                                      !- Y Origin {m}
-  7.6,                                    !- Z Origin {m}
+  0,                                      !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -4172,130 +4202,100 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 61,                             !- Name
+  Surface 19,                             !- Name
   Floor,                                  !- Surface Type
-  BTAP-Int-Floor,                         !- Construction Name
+  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
   Gym - fitness-Space Function ZN,        !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 36,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 62,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
-  Gym - fitness-Space Function ZN,        !- Zone Name
-  Outdoors,                               !- Outside Boundary Condition
+  Ground,                                 !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  SunExposed,                             !- Sun Exposure
-  WindExposed,                            !- Wind Exposure
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
-FenestrationSurface:Detailed,
-  Surface 62_FixedWindow,                 !- Name
-  Window,                                 !- Surface Type
-  BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 62,                             !- Building Surface Name
+BuildingSurface:Detailed,
+  Surface 20,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
+  Gym - fitness-Space Function ZN,        !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
-  ,                                       !- View Factor to Ground
-  ,                                       !- Shading Control Name
-  ,                                       !- Frame and Divider Name
-  ,                                       !- Multiplier
-  ,                                       !- Number of Vertices
-  0, 99.9746, 1.7124828452854,            !- X,Y,Z Vertex 1 {m}
-  0, 99.9746, 0.762,                      !- X,Y,Z Vertex 2 {m}
-  0, 0.0253999999999905, 0.762,           !- X,Y,Z Vertex 3 {m}
-  0, 0.0253999999999905, 1.7124828452854; !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 63,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Gym - fitness-Space Function ZN,        !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 71,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
-  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 64,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Gym - fitness-Space Function ZN,        !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 86,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 65,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Gym - fitness-Space Function ZN,        !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 81,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 66,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 21,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
   Gym - fitness-Space Function ZN,        !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 91,                             !- Outside Boundary Condition Object
+  Surface 5,                              !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
-ZoneInfiltration:DesignFlowRate,
-  Gym - fitness-Space Function Infiltration, !- Name
-  Gym - fitness-Space Function ZN,        !- Zone or ZoneList Name
-  Always On Discrete,                     !- Schedule Name
-  Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
-  ,                                       !- Design Flow Rate {m3/s}
-  ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  0.00025,                                !- Flow per Exterior Surface Area {m3/s-m2}
-  ,                                       !- Air Changes per Hour {1/hr}
-  0,                                      !- Constant Term Coefficient
-  0,                                      !- Temperature Term Coefficient
-  0.224,                                  !- Velocity Term Coefficient
-  0;                                      !- Velocity Squared Term Coefficient
+BuildingSurface:Detailed,
+  Surface 22,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Gym - fitness-Space Function ZN,        !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 29,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 23,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Gym - fitness-Space Function ZN,        !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 15,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 24,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
+  Gym - fitness-Space Function ZN,        !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 49,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
+  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 ZoneControl:Thermostat,
   Gym - fitness-Space Function ZN Thermostat, !- Name
@@ -4418,9 +4418,9 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Gym - play-Space Function ZN,           !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
+  75,                                     !- X Origin {m}
   25,                                     !- Y Origin {m}
-  3.8,                                    !- Z Origin {m}
+  0,                                      !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
@@ -4430,28 +4430,60 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 55,                             !- Name
+  Surface 13,                             !- Name
   Floor,                                  !- Surface Type
-  BTAP-Int-Floor,                         !- Construction Name
+  BTAP-Grnd-Floor-Mass:U-0.757,           !- Construction Name
   Gym - play-Space Function ZN,           !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 30,                             !- Outside Boundary Condition Object
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 0, 0;                               !- X,Y,Z Vertex 4 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 56,                             !- Name
+  Surface 14,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Grnd-Wall-Mass:U-0.284,            !- Construction Name
+  Gym - play-Space Function ZN,           !- Zone Name
+  Ground,                                 !- Outside Boundary Condition
+  ,                                       !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 15,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Gym - play-Space Function ZN,           !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 34,                             !- Outside Boundary Condition Object
+  Surface 23,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
+  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 16,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Gym - play-Space Function ZN,           !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 28,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
@@ -4462,68 +4494,36 @@ BuildingSurface:Detailed,
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 57,                             !- Name
+  Surface 17,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Gym - play-Space Function ZN,           !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 40,                             !- Outside Boundary Condition Object
+  Surface 9,                              !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 50, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
   0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
   0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 58,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Gym - play-Space Function ZN,           !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 46,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  50, 50, 0,                              !- X,Y,Z Vertex 3 {m}
-  50, 50, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 59,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Gym - play-Space Function ZN,           !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 52,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 60,                             !- Name
+  Surface 18,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   Gym - play-Space Function ZN,           !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 85,                             !- Outside Boundary Condition Object
+  Surface 43,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 50, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 50, 3.8,                             !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
+  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 ZoneControl:Thermostat,
   Gym - play-Space Function ZN Thermostat, !- Name
@@ -4646,8 +4646,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Hospital - emergency-Space Function ZN, !- Name
   -0,                                     !- Direction of Relative North {deg}
-  25,                                     !- X Origin {m}
-  75,                                     !- Y Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -4658,23 +4658,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 37,                             !- Name
+  Surface 31,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Hospital - emergency-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 12,                             !- Outside Boundary Condition Object
+  Surface 6,                              !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  -25, 25, 0,                             !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 38,                             !- Name
+  Surface 32,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Hospital - emergency-Space Function ZN, !- Zone Name
@@ -4684,90 +4684,90 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  -25, 25, 0,                             !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 38_FixedWindow,                 !- Name
+  Surface 32_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 38,                             !- Building Surface Name
+  Surface 32,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  74.9746, 25, 1.7124828452854,           !- X,Y,Z Vertex 1 {m}
-  74.9746, 25, 0.762,                     !- X,Y,Z Vertex 2 {m}
-  -24.9746, 25, 0.762,                    !- X,Y,Z Vertex 3 {m}
-  -24.9746, 25, 1.7124828452854;          !- X,Y,Z Vertex 4 {m}
+  0, 99.9746, 1.7124828452854,            !- X,Y,Z Vertex 1 {m}
+  0, 99.9746, 0.762,                      !- X,Y,Z Vertex 2 {m}
+  0, 0.0253999999999905, 0.762,           !- X,Y,Z Vertex 3 {m}
+  0, 0.0253999999999905, 1.7124828452854; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 39,                             !- Name
+  Surface 33,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - emergency-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 47,                             !- Outside Boundary Condition Object
+  Surface 41,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
+  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 40,                             !- Name
+  Surface 34,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - emergency-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 57,                             !- Outside Boundary Condition Object
+  Surface 56,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 35,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Hospital - emergency-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 51,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
-  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 41,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Hospital - emergency-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 33,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  -25, 25, 0,                             !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 42,                             !- Name
+  Surface 36,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   Hospital - emergency-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 67,                             !- Outside Boundary Condition Object
+  Surface 61,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
-  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
-  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Hospital - emergency-Space Function Infiltration, !- Name
@@ -4904,8 +4904,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Hospital - exam-Space Function ZN,      !- Name
   -0,                                     !- Direction of Relative North {deg}
-  75,                                     !- X Origin {m}
-  25,                                     !- Y Origin {m}
+  0,                                      !- X Origin {m}
+  0,                                      !- Y Origin {m}
   7.6,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -4916,23 +4916,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 73,                             !- Name
+  Surface 61,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Hospital - exam-Space Function ZN,      !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 48,                             !- Outside Boundary Condition Object
+  Surface 36,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 0;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 74,                             !- Name
+  Surface 62,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Hospital - exam-Space Function ZN,      !- Zone Name
@@ -4942,90 +4942,90 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 74_FixedWindow,                 !- Name
+  Surface 62_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 74,                             !- Building Surface Name
+  Surface 62,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  25, -24.9746, 1.7124828452854,          !- X,Y,Z Vertex 1 {m}
-  25, -24.9746, 0.762,                    !- X,Y,Z Vertex 2 {m}
-  25, 74.9746, 0.762,                     !- X,Y,Z Vertex 3 {m}
-  25, 74.9746, 1.7124828452854;           !- X,Y,Z Vertex 4 {m}
+  0, 99.9746, 1.7124828452854,            !- X,Y,Z Vertex 1 {m}
+  0, 99.9746, 0.762,                      !- X,Y,Z Vertex 2 {m}
+  0, 0.0253999999999905, 0.762,           !- X,Y,Z Vertex 3 {m}
+  0, 0.0253999999999905, 1.7124828452854; !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 75,                             !- Name
+  Surface 63,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - exam-Space Function ZN,      !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 83,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
-  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 76,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Hospital - exam-Space Function ZN,      !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 88,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 77,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Hospital - exam-Space Function ZN,      !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 69,                             !- Outside Boundary Condition Object
+  Surface 71,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
   25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
+  0, 100, 0,                              !- X,Y,Z Vertex 3 {m}
+  0, 100, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 78,                             !- Name
-  Ceiling,                                !- Surface Type
-  BTAP-Int-Ceiling,                       !- Construction Name
+  Surface 64,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
   Hospital - exam-Space Function ZN,      !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 103,                            !- Outside Boundary Condition Object
+  Surface 86,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
-  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
   25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 65,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Hospital - exam-Space Function ZN,      !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 81,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 66,                             !- Name
+  Ceiling,                                !- Surface Type
+  BTAP-Int-Ceiling,                       !- Construction Name
+  Hospital - exam-Space Function ZN,      !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 91,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 2 {m}
+  0, 100, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Hospital - exam-Space Function Infiltration, !- Name
@@ -5390,8 +5390,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Hospital - lounge/recreation-Space Function ZN, !- Name
   -0,                                     !- Direction of Relative North {deg}
-  75,                                     !- X Origin {m}
-  25,                                     !- Y Origin {m}
+  25,                                     !- X Origin {m}
+  75,                                     !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -5402,23 +5402,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 43,                             !- Name
+  Surface 37,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Hospital - lounge/recreation-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 18,                             !- Outside Boundary Condition Object
+  Surface 12,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
-  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 0, 0;                                !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 44,                             !- Name
+  Surface 38,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Hospital - lounge/recreation-Space Function ZN, !- Zone Name
@@ -5428,90 +5428,90 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 44_FixedWindow,                 !- Name
+  Surface 38_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 44,                             !- Building Surface Name
+  Surface 38,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  25, -24.9746, 1.7124828452854,          !- X,Y,Z Vertex 1 {m}
-  25, -24.9746, 0.762,                    !- X,Y,Z Vertex 2 {m}
-  25, 74.9746, 0.762,                     !- X,Y,Z Vertex 3 {m}
-  25, 74.9746, 1.7124828452854;           !- X,Y,Z Vertex 4 {m}
+  74.9746, 25, 1.7124828452854,           !- X,Y,Z Vertex 1 {m}
+  74.9746, 25, 0.762,                     !- X,Y,Z Vertex 2 {m}
+  -24.9746, 25, 0.762,                    !- X,Y,Z Vertex 3 {m}
+  -24.9746, 25, 1.7124828452854;          !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 45,                             !- Name
+  Surface 39,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - lounge/recreation-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 53,                             !- Outside Boundary Condition Object
+  Surface 47,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  50, 0, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 2 {m}
+  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
+  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 40,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Hospital - lounge/recreation-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 57,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
   0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
-  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+  50, 0, 0,                               !- X,Y,Z Vertex 3 {m}
+  50, 0, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 46,                             !- Name
+  Surface 41,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - lounge/recreation-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 58,                             !- Outside Boundary Condition Object
+  Surface 33,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
+  -25, 25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  -25, 25, 0,                             !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 47,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Hospital - lounge/recreation-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 39,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
-  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
-  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 48,                             !- Name
+  Surface 42,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   Hospital - lounge/recreation-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 73,                             !- Outside Boundary Condition Object
+  Surface 67,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
-  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
-  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  50, 0, 3.8,                             !- X,Y,Z Vertex 2 {m}
+  75, 25, 3.8,                            !- X,Y,Z Vertex 3 {m}
+  -25, 25, 3.8;                           !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Hospital - lounge/recreation-Space Function Infiltration, !- Name
@@ -5648,8 +5648,8 @@ DesignSpecification:ZoneAirDistribution,
 Zone,
   Hospital - medical supply-Space Function ZN, !- Name
   -0,                                     !- Direction of Relative North {deg}
-  0,                                      !- X Origin {m}
-  0,                                      !- Y Origin {m}
+  75,                                     !- X Origin {m}
+  25,                                     !- Y Origin {m}
   3.8,                                    !- Z Origin {m}
   ,                                       !- Type
   ,                                       !- Multiplier
@@ -5660,23 +5660,23 @@ Zone,
   ;                                       !- Zone Outside Convection Algorithm
 
 BuildingSurface:Detailed,
-  Surface 49,                             !- Name
+  Surface 43,                             !- Name
   Floor,                                  !- Surface Type
   BTAP-Int-Floor,                         !- Construction Name
   Hospital - medical supply-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 24,                             !- Outside Boundary Condition Object
+  Surface 18,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  100, 0, 0,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 0;                              !- X,Y,Z Vertex 4 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
+  0, 50, 0;                               !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 50,                             !- Name
+  Surface 44,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Ext-Wall-Mass:U-0.21,              !- Construction Name
   Hospital - medical supply-Space Function ZN, !- Zone Name
@@ -5686,90 +5686,90 @@ BuildingSurface:Detailed,
   WindExposed,                            !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
-  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  25, -25, 3.8,                           !- X,Y,Z Vertex 1 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 2 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Surface 50_FixedWindow,                 !- Name
+  Surface 44_FixedWindow,                 !- Name
   Window,                                 !- Surface Type
   BTAP-Ext-FixedWindow:U=0.220 SHGC=0.600, !- Construction Name
-  Surface 50,                             !- Building Surface Name
+  Surface 44,                             !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
   ,                                       !- Shading Control Name
   ,                                       !- Frame and Divider Name
   ,                                       !- Multiplier
   ,                                       !- Number of Vertices
-  0.0254, 0, 1.7124828452854,             !- X,Y,Z Vertex 1 {m}
-  0.0254, 0, 0.762,                       !- X,Y,Z Vertex 2 {m}
-  99.9746, 0, 0.762,                      !- X,Y,Z Vertex 3 {m}
-  99.9746, 0, 1.7124828452854;            !- X,Y,Z Vertex 4 {m}
+  25, -24.9746, 1.7124828452854,          !- X,Y,Z Vertex 1 {m}
+  25, -24.9746, 0.762,                    !- X,Y,Z Vertex 2 {m}
+  25, 74.9746, 0.762,                     !- X,Y,Z Vertex 3 {m}
+  25, 74.9746, 1.7124828452854;           !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 51,                             !- Name
+  Surface 45,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - medical supply-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 35,                             !- Outside Boundary Condition Object
+  Surface 53,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  25, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 1 {m}
+  0, 0, 0,                                !- X,Y,Z Vertex 2 {m}
+  25, -25, 0,                             !- X,Y,Z Vertex 3 {m}
+  25, -25, 3.8;                           !- X,Y,Z Vertex 4 {m}
+
+BuildingSurface:Detailed,
+  Surface 46,                             !- Name
+  Wall,                                   !- Surface Type
+  BTAP-Int-Wall,                          !- Construction Name
+  Hospital - medical supply-Space Function ZN, !- Zone Name
+  Surface,                                !- Outside Boundary Condition
+  Surface 58,                             !- Outside Boundary Condition Object
+  NoSun,                                  !- Sun Exposure
+  NoWind,                                 !- Wind Exposure
+  ,                                       !- View Factor to Ground
+  ,                                       !- Number of Vertices
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 2 {m}
   0, 0, 0,                                !- X,Y,Z Vertex 3 {m}
   0, 0, 3.8;                              !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 52,                             !- Name
+  Surface 47,                             !- Name
   Wall,                                   !- Surface Type
   BTAP-Int-Wall,                          !- Construction Name
   Hospital - medical supply-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 59,                             !- Outside Boundary Condition Object
+  Surface 39,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 2 {m}
-  25, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  25, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  25, 75, 3.8,                            !- X,Y,Z Vertex 1 {m}
+  25, 75, 0,                              !- X,Y,Z Vertex 2 {m}
+  0, 50, 0,                               !- X,Y,Z Vertex 3 {m}
+  0, 50, 3.8;                             !- X,Y,Z Vertex 4 {m}
 
 BuildingSurface:Detailed,
-  Surface 53,                             !- Name
-  Wall,                                   !- Surface Type
-  BTAP-Int-Wall,                          !- Construction Name
-  Hospital - medical supply-Space Function ZN, !- Zone Name
-  Surface,                                !- Outside Boundary Condition
-  Surface 45,                             !- Outside Boundary Condition Object
-  NoSun,                                  !- Sun Exposure
-  NoWind,                                 !- Wind Exposure
-  ,                                       !- View Factor to Ground
-  ,                                       !- Number of Vertices
-  100, 0, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  100, 0, 0,                              !- X,Y,Z Vertex 2 {m}
-  75, 25, 0,                              !- X,Y,Z Vertex 3 {m}
-  75, 25, 3.8;                            !- X,Y,Z Vertex 4 {m}
-
-BuildingSurface:Detailed,
-  Surface 54,                             !- Name
+  Surface 48,                             !- Name
   Ceiling,                                !- Surface Type
   BTAP-Int-Ceiling,                       !- Construction Name
   Hospital - medical supply-Space Function ZN, !- Zone Name
   Surface,                                !- Outside Boundary Condition
-  Surface 79,                             !- Outside Boundary Condition Object
+  Surface 73,                             !- Outside Boundary Condition Object
   NoSun,                                  !- Sun Exposure
   NoWind,                                 !- Wind Exposure
   ,                                       !- View Factor to Ground
   ,                                       !- Number of Vertices
-  75, 25, 3.8,                            !- X,Y,Z Vertex 1 {m}
-  25, 25, 3.8,                            !- X,Y,Z Vertex 2 {m}
-  0, 0, 3.8,                              !- X,Y,Z Vertex 3 {m}
-  100, 0, 3.8;                            !- X,Y,Z Vertex 4 {m}
+  0, 50, 3.8,                             !- X,Y,Z Vertex 1 {m}
+  0, 0, 3.8,                              !- X,Y,Z Vertex 2 {m}
+  25, -25, 3.8,                           !- X,Y,Z Vertex 3 {m}
+  25, 75, 3.8;                            !- X,Y,Z Vertex 4 {m}
 
 ZoneInfiltration:DesignFlowRate,
   Hospital - medical supply-Space Function Infiltration, !- Name

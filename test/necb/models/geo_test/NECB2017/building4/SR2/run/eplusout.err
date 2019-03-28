@@ -1,0 +1,572 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 14:20,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 10", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 11", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 12", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 13", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 14", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 15", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 16", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 17", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 18", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 19", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 20", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 21", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 22", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 23", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 24", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 25", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 26", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 27", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 28", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 29", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 30", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 31", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 32", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 33", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 34", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 35", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 36", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 37", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 38", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 39", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 40", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 41", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 42", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 43", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 44", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 45", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 46", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 47", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 48", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 49", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 50", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 51", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 52", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 53", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 54", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 55", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 8", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="ECONOMIZER MAX OA FRACTION 100 PCT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 10", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 11", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 12", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 13", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 14", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 15", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 16", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 17", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 18", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 19", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 20", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 3", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 4", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 5", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 6", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 7", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 8", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LABORATORY - CLASSROOMS PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[120] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [21] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN SPACE FUNCTION LABORATORY - CLASSROOMS PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LABORATORY - OTHER PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[109] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [10] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN SPACE FUNCTION LABORATORY - OTHER PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LAUNDRY/WASHING AREA PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[114] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [15] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN SPACE FUNCTION LAUNDRY/WASHING AREA PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOADING DOCK INTERIOR PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOADING DOCK INTERIOR-SPACE FUNCTION SYS-4 FLR-3 SCH-H HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[115] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [16] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOADING DOCK INTERIOR-SPACE FUNCTION SYS-4 FLR-3 SCH-H HPLCMT-CORE ZN SPACE FUNCTION LOADING DOCK INTERIOR PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - ELEVATOR PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - ELEVATOR-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - ELEVATOR-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-SOUTH ZN SPACE FUNCTION LOBBY - ELEVATOR PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[133] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [34] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[135] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [36] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[214] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [115] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-A PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN SPACE FUNCTION LOCKER ROOM-SCH-A PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-B PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN SPACE FUNCTION LOCKER ROOM-SCH-B PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-C PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-C-SPACE FUNCTION SYS-6 FLR-2 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-C-SPACE FUNCTION SYS-6 FLR-2 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOCKER ROOM-SCH-C PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-D PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-D-SPACE FUNCTION SYS-6 FLR-4 SCH-D HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-D-SPACE FUNCTION SYS-6 FLR-4 SCH-D HPLCMT-WEST ZN SPACE FUNCTION LOCKER ROOM-SCH-D PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-E PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN SPACE FUNCTION LOCKER ROOM-SCH-E PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-F PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN SPACE FUNCTION LOCKER ROOM-SCH-F PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-G PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-G-SPACE FUNCTION SYS-6 FLR-2 SCH-G HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-G-SPACE FUNCTION SYS-6 FLR-2 SCH-G HPLCMT-SOUTH ZN SPACE FUNCTION LOCKER ROOM-SCH-G PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-H PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN SPACE FUNCTION LOCKER ROOM-SCH-H PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-I PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN SPACE FUNCTION LOCKER ROOM-SCH-I PEOPLE".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[120] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [21] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LABORATORY - OTHER LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[109] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [10] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[114] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [15] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOADING DOCK INTERIOR-SPACE FUNCTION SYS-4 FLR-3 SCH-H HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[115] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [16] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOADING DOCK INTERIOR-SPACE FUNCTION SYS-4 FLR-3 SCH-H HPLCMT-CORE ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - ELEVATOR LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - ELEVATOR-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - ELEVATOR-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-SOUTH ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[133] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [34] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[135] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [36] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[214] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [115] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-C-SPACE FUNCTION SYS-6 FLR-2 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-C-SPACE FUNCTION SYS-6 FLR-2 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-D-SPACE FUNCTION SYS-6 FLR-4 SCH-D HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-D-SPACE FUNCTION SYS-6 FLR-4 SCH-D HPLCMT-WEST ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-G-SPACE FUNCTION SYS-6 FLR-2 SCH-G HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-G-SPACE FUNCTION SYS-6 FLR-2 SCH-G HPLCMT-SOUTH ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[107] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [8] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[124] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [25] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[113] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [14] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[118] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [19] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - ELEVATOR-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[110] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [11] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - ELEVATOR-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-SOUTH ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - HOTEL-SPACE FUNCTION SYS-3 FLR-3 SCH-H HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[103] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [4] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - HOTEL-SPACE FUNCTION SYS-3 FLR-3 SCH-H HPLCMT-EAST ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[137] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [38] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - OTHER ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - OTHER-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[103] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [4] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - OTHER-SPACE FUNCTION SYS-3 FLR-3 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[139] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [40] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[218] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [119] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[111] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [12] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-C-SPACE FUNCTION SYS-6 FLR-2 SCH-C HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[111] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [12] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-C-SPACE FUNCTION SYS-6 FLR-2 SCH-C HPLCMT-WEST ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-D-SPACE FUNCTION SYS-6 FLR-4 SCH-D HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[111] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [12] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-D-SPACE FUNCTION SYS-6 FLR-4 SCH-D HPLCMT-WEST ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[111] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [12] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-G-SPACE FUNCTION SYS-6 FLR-2 SCH-G HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-G-SPACE FUNCTION SYS-6 FLR-2 SCH-G HPLCMT-SOUTH ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN".
+   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[111] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [12] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP".
+   ** Warning ** Calculated design heating load for zone=SP-LOADING DOCK INTERIOR-SPACE FUNCTION SYS-4 FLR-3 SCH-H HPLCMT-CORE ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOBBY - HOTEL-SPACE FUNCTION SYS-3 FLR-3 SCH-H HPLCMT-EAST ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-CORE ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-WEST ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOCKER ROOM-SCH-A-SPACE FUNCTION SYS-6 FLR-1 SCH-A HPLCMT-SOUTH ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOCKER ROOM-SCH-B-SPACE FUNCTION SYS-6 FLR-1 SCH-B HPLCMT-EAST ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOCKER ROOM-SCH-E-SPACE FUNCTION SYS-6 FLR-2 SCH-E HPLCMT-NORTH ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOCKER ROOM-SCH-F-SPACE FUNCTION SYS-6 FLR-2 SCH-F HPLCMT-EAST ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOCKER ROOM-SCH-H-SPACE FUNCTION SYS-6 FLR-3 SCH-H HPLCMT-NORTH ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=SP-LOCKER ROOM-SCH-I-SPACE FUNCTION SYS-6 FLR-2 SCH-I HPLCMT-CORE ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 2 165KBTU/HR 9.3EER", invalid
+   **   ~~~   ** ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.
+   **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015
+   **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 1
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 1
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 2
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 2
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 3
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 3
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 9
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 4
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 4
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 5
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 5
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 6
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 6
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 8
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 7
+   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 7
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 165KBTU/HR 9.3EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 89KBTU/HR 9.26EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 9 385KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 10 381KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 11 313KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 7 488KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 8 243KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 4 597KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 6 436KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 3 448KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 5 436KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 12 100KBTU/HR 9.26EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named PRIMARY CHILLER WATERCOOLED SCROLL 130TONS 0.8KW/TON
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a chiller in variable flow mode, use a SetpointManager
+   **   ~~~   **   The overall loop setpoint will be assumed for chiller. The simulation continues ... 
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a chiller in variable flow mode, use a SetpointManager
+   **   ~~~   **   The overall loop setpoint will be assumed for chiller. The simulation continues ... 
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named PRIMARY BOILER 3600KBTU/HR 0.833 COMBUSTION EFF
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode, use a SetpointManager
+   **   ~~~   **   The overall loop setpoint will be assumed for Boiler. The simulation continues ... 
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Output:Table:Monthly requested with SimulationControl Run Simulation for Weather File Run Periods set to No so Output:Table:Monthly will not be generated
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 3.484. Environment=FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 03:00 - 03:10
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 1.648. Environment=FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 04:20 - 04:30
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 1.627. Environment=FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 04:40 - 04:50
+   ************* Simulation Error Summary *************
+   ************* There are 8 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 9 unused schedules in input.
+   ************* There are 9 unused week schedules in input.
+   ************* There are 51 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-LAUNDRY/WASHING AREA-SPACE FUNCTION SYS-3 FLR-4 SCH-C HPLCMT-NORTH ZN ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 89 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=3.484245  Min=3.484245
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-LABORATORY - OTHER-SPACE FUNCTION SYS-3 FLR-4 SCH-A HPLCMT-EAST ZN ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 107 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.647736  Min=1.647736
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-LABORATORY - CLASSROOMS-SPACE FUNCTION SYS-3 FLR-4 SCH-D HPLCMT-SOUTH ZN ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 167 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.627371  Min=1.627371
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 153 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 544 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  8.16sec

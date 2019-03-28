@@ -1,0 +1,1664 @@
+
+ Meters for 9,ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 594,ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 607,ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 620,ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 633,ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 646,AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 659,AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 672,AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 685,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 698,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 711,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 724,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 737,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 750,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 763,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 776,AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 789,AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 802,AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 815,ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 876,ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 903,ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 928,ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 943,ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 968,ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 983,ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+
+ Meters for 1008,ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J]
+
+ Meters for 1023,ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+
+ Meters for 1048,ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J]
+
+ Meters for 1063,AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+
+ Meters for 1088,AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J]
+
+ Meters for 1103,AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1128,AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1143,AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J]
+
+ Meters for 1168,AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J]
+
+ Meters for 1183,AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1208,AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1223,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1248,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1263,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1288,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1303,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1328,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1343,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1368,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1383,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1408,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1423,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1448,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1463,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1488,AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1503,AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+
+ Meters for 1528,AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J]
+
+ Meters for 1543,AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1568,AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1583,AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+
+ Meters for 1608,AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J]
+
+ Meters for 1623,AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J]
+
+ Meters for 1648,AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J]
+
+ Meters for 1663,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1700,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1737,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1774,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1811,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1848,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1849,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1850,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1851,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1852,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1853,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1854,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1855,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1856,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1857,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1858,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1859,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1860,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1861,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1862,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1863,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1864,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1865,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1866,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1867,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1868,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1869,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1870,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1871,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1872,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1873,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1874,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1875,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1876,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1877,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1878,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1879,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1880,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1881,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1882,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1883,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1884,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1885,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1886,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1911,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1912,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - GYMNASIUM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-J ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION ATRIUM (6 =< HEIGHT <= 12M)-SCH-K ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - AUDITORIUM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PENITENTIARY ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN SPACE FUNCTION AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ATRIUM (6 =< HEIGHT <= 12M)-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - AUDITORIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - CONVENTION CENTRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - GYMNASIUM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - OTHER-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PENITENTIARY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - RELIGIOUS BUILDING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  AUDIENCE SEATING AREA PERMANENT - SPORTS ARENA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

@@ -1,0 +1,1472 @@
+
+ Meters for 9,CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 594,DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 607,DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 620,DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 633,VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 646,WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 659,CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+
+ Meters for 720,CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J]
+
+ Meters for 747,DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+
+ Meters for 772,DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J]
+
+ Meters for 787,DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+
+ Meters for 812,DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J]
+
+ Meters for 827,DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+
+ Meters for 852,DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J]
+
+ Meters for 867,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 892,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 907,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+
+ Meters for 932,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+
+ Meters for 947,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+
+ Meters for 972,STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+
+ Meters for 987,STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1012,STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1027,STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1052,STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1067,STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1092,STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1107,STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1132,STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1147,STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1172,STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1187,STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1212,STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1227,STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1252,STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1267,STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 1292,STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 1307,STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 1332,STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 1347,STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+
+ Meters for 1372,STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J]
+
+ Meters for 1387,STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+
+ Meters for 1412,STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J]
+
+ Meters for 1427,VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+
+ Meters for 1452,VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J]
+
+ Meters for 1467,WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+
+ Meters for 1492,WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J]
+
+ Meters for 1507,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1544,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1581,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1618,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1655,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1692,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1693,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1694,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1695,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1696,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1697,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1698,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1699,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1700,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1701,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1702,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1703,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1704,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1705,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1706,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1707,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1708,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1709,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1710,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1711,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1712,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1713,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1714,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1715,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1716,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1717,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1718,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1719,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1720,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1721,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1722,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1723,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1724,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1725,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1726,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1727,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1728,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1729,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1730,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1755,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1756,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE LIGHTS:Lights Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-A LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-B LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-D LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-F LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-J LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN SPACE FUNCTION STORAGE ROOM > 100 M2-SCH-K LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN SPACE FUNCTION CONVENTION CENTRE EXHIBIT SPACE ELEC EQUIP:Electric Equipment Electric Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN SPACE FUNCTION DORMITORY LIVING QUARTERS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS GENERAL ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN SPACE FUNCTION DWELLING UNITS LONG-TERM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN SPACE FUNCTION VEHICLE MAINTENANCE AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WORKSHOP-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WORKSHOP-SPACE FUNCTION ZN SPACE FUNCTION WORKSHOP ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CONVENTION CENTRE EXHIBIT SPACE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DORMITORY LIVING QUARTERS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DWELLING UNITS GENERAL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DWELLING UNITS GENERAL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DWELLING UNITS LONG-TERM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM <= 5 M2 <= 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-J-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE ROOM > 100 M2-SCH-K-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  VEHICLE MAINTENANCE AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WORKSHOP-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WORKSHOP-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

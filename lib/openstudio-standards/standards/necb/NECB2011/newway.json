@@ -1,6 +1,6 @@
 [
   {
-    "space": "OS:Space,\n  {7af7a566-713d-4e15-af13-17a6f4ee6fe8}, !- Handle\n  Museum restoration room-Space Function, !- Name\n  {6c01318d-42ef-4ef0-a281-d11df6f5892e}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {32a23c6d-ab7f-481f-8370-7b6da7e1575f}, !- Building Story Name\n  {8a452231-7b9b-4547-85f5-59069dc2d076}; !- Thermal Zone Name\n\n",
+    "space": "OS:Space,\n  {5b0938f9-bce5-4696-993f-e15a183d07e0}, !- Handle\n  Museum restoration room-Space Function, !- Name\n  {009599bf-70f3-436a-8e4e-2c03a293d42d}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {538e705c-422e-4d80-ba79-0dfb556ce4b9}, !- Building Story Name\n  {ea44c1ec-9b28-4ce9-ad8c-c7f44ba47d8c}; !- Thermal Zone Name\n\n",
     "space_name": "Museum restoration room-Space Function",
     "floor_area": 2500.0,
     "building_type_name": "Space Function",
@@ -8,8 +8,8 @@
     "necb_hvac_system_selection_type": "Historical Collections Area",
     "system_number": 2,
     "number_of_stories": 4,
-    "heating_design_load": 38.73285,
-    "cooling_design_load": 75.09105000000001,
+    "heating_design_load": 36.95901,
+    "cooling_design_load": 73.81300999999999,
     "is_dwelling_unit": false,
     "is_wildcard": null,
     "schedule_type": "A",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "space": "OS:Space,\n  {cbac4a65-27c0-4211-80ce-032a32ea52f6}, !- Handle\n  Post office sorting area-Space Function, !- Name\n  {887ccfbf-1b4c-4b12-a9cd-333f1cb2bcdb}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {32a23c6d-ab7f-481f-8370-7b6da7e1575f}, !- Building Story Name\n  {093da233-1ab6-4dcb-8be0-85c42279f3bb}; !- Thermal Zone Name\n\n",
+    "space": "OS:Space,\n  {893a715a-01f3-4328-8d09-15b2ab2a9354}, !- Handle\n  Post office sorting area-Space Function, !- Name\n  {65bedaed-063a-474c-8086-ed2c5f5697e7}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {3d86ff73-ebf3-4e46-8f6d-fd427d4f1cf4}, !- Building Story Name\n  {2d5ae3ae-21d2-49bf-b2f0-f5a47c44570a}; !- Thermal Zone Name\n\n",
     "space_name": "Post office sorting area-Space Function",
     "floor_area": 1875.0,
     "building_type_name": "Space Function",
@@ -98,11 +98,461 @@
     "necb_hvac_system_selection_type": "General Area",
     "system_number": 6,
     "number_of_stories": 4,
-    "heating_design_load": 49.82946,
-    "cooling_design_load": 81.97142,
+    "heating_design_load": 14.86408,
+    "cooling_design_load": 42.27454,
     "is_dwelling_unit": false,
     "is_wildcard": null,
     "schedule_type": "A",
+    "multiplier": 1,
+    "horizontal_placement": "north",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.99999999999949,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {01009234-ec72-4bc8-9120-58cd033e2600}, !- Handle\n  Religious building fellowship hall-Space Function, !- Name\n  {be2a473b-06a3-4fb6-bf6e-4236fe173082}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {538e705c-422e-4d80-ba79-0dfb556ce4b9}, !- Building Story Name\n  {0dbf8268-5688-4320-84a8-8c0667cc12fe}; !- Thermal Zone Name\n\n",
+    "space_name": "Religious building fellowship hall-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Religious building fellowship hall",
+    "necb_hvac_system_selection_type": "Assembly Area",
+    "system_number": 3,
+    "number_of_stories": 4,
+    "heating_design_load": 49.98944,
+    "cooling_design_load": 84.61564,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "C",
+    "multiplier": 1,
+    "horizontal_placement": "south",
+    "vertical_placement": "top",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 379.99999999999983,
+        "glazed_subsurface_area": 95.00000000000028,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 1875.0,
+        "glazed_subsurface_area": 37.50000000000063,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {9dcc57ea-e160-41bb-bac9-f1df96169e31}, !- Handle\n  Religious building worship/pulpit/choir area-Space Function, !- Name\n  {4a27d7f8-7664-43d8-8243-284671c25eec}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {3d86ff73-ebf3-4e46-8f6d-fd427d4f1cf4}, !- Building Story Name\n  {895257c3-e6e8-4a3f-a1c2-f70fd138b86a}; !- Thermal Zone Name\n\n",
+    "space_name": "Religious building worship/pulpit/choir area-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Religious building worship/pulpit/choir area",
+    "necb_hvac_system_selection_type": "Assembly Area",
+    "system_number": 3,
+    "number_of_stories": 4,
+    "heating_design_load": 19.61315,
+    "cooling_design_load": 60.24090000000001,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "I",
+    "multiplier": 1,
+    "horizontal_placement": "south",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.99999999999949,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {233e9c24-aabf-4e4c-a15f-2fc7643b7849}, !- Handle\n  Retail facility dressing/fitting room-Space Function, !- Name\n  {fc7ae51a-92d2-400f-afcf-3dfedcbab43e}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {3d86ff73-ebf3-4e46-8f6d-fd427d4f1cf4}, !- Building Story Name\n  {c60b8485-d353-464b-92cc-7530e7049928}; !- Thermal Zone Name\n\n",
+    "space_name": "Retail facility dressing/fitting room-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Retail facility dressing/fitting room",
+    "necb_hvac_system_selection_type": "General Area",
+    "system_number": 6,
+    "number_of_stories": 4,
+    "heating_design_load": 31.741169999999997,
+    "cooling_design_load": 52.31065,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "C",
+    "multiplier": 1,
+    "horizontal_placement": "west",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.9999999999995,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {3d2d0220-4454-4a1b-a7fe-8ef22401ed58}, !- Handle\n  Retail facility mall concourse-Space Function, !- Name\n  {9a533cdb-9a15-4f79-98d1-fcf4c2af6dbb}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {dc638d2a-b4e8-42cf-9e58-4b341eb386a7}, !- Building Story Name\n  {d30b51bc-1472-41cc-ae78-4eae6cafd636}; !- Thermal Zone Name\n\n",
+    "space_name": "Retail facility mall concourse-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Retail facility mall concourse",
+    "necb_hvac_system_selection_type": "General Area",
+    "system_number": 6,
+    "number_of_stories": 4,
+    "heating_design_load": 0.0,
+    "cooling_design_load": 24.73799,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "C",
+    "multiplier": 1,
+    "horizontal_placement": "west",
+    "vertical_placement": "bottom",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 1875.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {28d56832-fa93-429d-b4c7-a6203fd14513}, !- Handle\n  Space designed to ANSI/IES RP-28 chapel (used primarily by residents)-Space Function, !- Name\n  {fae464f1-777d-40f9-aae5-c675d3d6ed1b}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {538e705c-422e-4d80-ba79-0dfb556ce4b9}, !- Building Story Name\n  {68029761-0957-42ae-9db9-bc9ad89ff5a2}; !- Thermal Zone Name\n\n",
+    "space_name": "Space designed to ANSI/IES RP-28 chapel (used primarily by residents)-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Space designed to ANSI/IES RP-28 chapel (used primarily by residents)",
+    "necb_hvac_system_selection_type": "Assembly Area",
+    "system_number": 3,
+    "number_of_stories": 4,
+    "heating_design_load": 49.373839999999994,
+    "cooling_design_load": 89.37021,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "I",
     "multiplier": 1,
     "horizontal_placement": "west",
     "vertical_placement": "top",
@@ -180,26 +630,26 @@
     }
   },
   {
-    "space": "OS:Space,\n  {ed329d3c-2839-4c0e-b80b-7462c3ca528d}, !- Handle\n  Religious building fellowship hall-Space Function, !- Name\n  {72943ee6-a7ef-44ce-bb5d-d7ca7506ea5e}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {32a23c6d-ab7f-481f-8370-7b6da7e1575f}, !- Building Story Name\n  {8d47688b-aa24-4c7f-bd10-47813cf8b686}; !- Thermal Zone Name\n\n",
-    "space_name": "Religious building fellowship hall-Space Function",
+    "space": "OS:Space,\n  {5a231353-0c7d-4452-b878-78f832134a42}, !- Handle\n  Space designed to ANSI/IES RP-28 recreation room (used primarily by residents)-Space Function, !- Name\n  {fb3e1032-bbfa-4773-9ffe-f71588aae341}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {aa0da1a4-11b6-4da6-b7ad-d6dca17298a4}, !- Building Story Name\n  {c315fb76-f85b-4df3-bbb8-a7671b0789c9}; !- Thermal Zone Name\n\n",
+    "space_name": "Space designed to ANSI/IES RP-28 recreation room (used primarily by residents)-Space Function",
     "floor_area": 1875.0,
     "building_type_name": "Space Function",
-    "space_type_name": "Religious building fellowship hall",
+    "space_type_name": "Space designed to ANSI/IES RP-28 recreation room (used primarily by residents)",
     "necb_hvac_system_selection_type": "Assembly Area",
     "system_number": 3,
     "number_of_stories": 4,
-    "heating_design_load": 51.45301,
-    "cooling_design_load": 67.95178,
+    "heating_design_load": 0.0,
+    "cooling_design_load": 44.18816,
     "is_dwelling_unit": false,
     "is_wildcard": null,
-    "schedule_type": "C",
+    "schedule_type": "B",
     "multiplier": 1,
-    "horizontal_placement": "east",
-    "vertical_placement": "top",
+    "horizontal_placement": "north",
+    "vertical_placement": "middle",
     "north": {
       "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.99999999999949,
         "opaque_subsurface_area": 0.0
       },
       "ground": {
@@ -210,8 +660,8 @@
     },
     "east": {
       "outdoors": {
-        "surface_area": 379.99999999999983,
-        "glazed_subsurface_area": 95.00000000000028,
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
         "opaque_subsurface_area": 0.0
       },
       "ground": {
@@ -246,8 +696,8 @@
     },
     "top": {
       "outdoors": {
-        "surface_area": 1875.0,
-        "glazed_subsurface_area": 37.500000000000625,
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
         "opaque_subsurface_area": 0.0
       },
       "ground": {
@@ -270,19 +720,109 @@
     }
   },
   {
-    "space": "OS:Space,\n  {94a9f2a0-00d2-48ae-abe2-14bcd2780326}, !- Handle\n  Religious building worship/pulpit/choir area-Space Function, !- Name\n  {f1bc144e-a47c-4a07-bc18-1268edc96937}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {2d07f044-e51e-432a-b0f9-c0da0b6a76c3}, !- Building Story Name\n  {5a99306a-94b8-4f16-b028-a7fe1351a0ab}; !- Thermal Zone Name\n\n",
-    "space_name": "Religious building worship/pulpit/choir area-Space Function",
-    "floor_area": 2500.0,
+    "space": "OS:Space,\n  {d8fbe41e-e6ba-4398-b82e-ad532ab2dd74}, !- Handle\n  Sports arena playing area class I facility(4)-Space Function, !- Name\n  {645cb4b3-dab5-4e7f-b69a-daed31a5da39}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {aa0da1a4-11b6-4da6-b7ad-d6dca17298a4}, !- Building Story Name\n  {071c476a-f90d-41c6-8ab1-8bab347e9cf8}; !- Thermal Zone Name\n\n",
+    "space_name": "Sports arena playing area class I facility(4)-Space Function",
+    "floor_area": 1875.0,
     "building_type_name": "Space Function",
-    "space_type_name": "Religious building worship/pulpit/choir area",
-    "necb_hvac_system_selection_type": "Assembly Area",
-    "system_number": 3,
+    "space_type_name": "Sports arena playing area class I facility(4)",
+    "necb_hvac_system_selection_type": "General Area",
+    "system_number": 6,
     "number_of_stories": 4,
     "heating_design_load": 0.0,
-    "cooling_design_load": 69.84864,
+    "cooling_design_load": 73.06062,
     "is_dwelling_unit": false,
     "is_wildcard": null,
-    "schedule_type": "I",
+    "schedule_type": "B",
+    "multiplier": 1,
+    "horizontal_placement": "east",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.99999999999949,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {c88726f7-cc5e-42e6-9af6-431be7b75422}, !- Handle\n  Sports arena playing area class II facility(4)-Space Function, !- Name\n  {71ab8557-5669-4d2a-b514-55908cd91c94}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {aa0da1a4-11b6-4da6-b7ad-d6dca17298a4}, !- Building Story Name\n  {057c0e0b-d5bd-475b-a5e5-c254c346d412}; !- Thermal Zone Name\n\n",
+    "space_name": "Sports arena playing area class II facility(4)-Space Function",
+    "floor_area": 2500.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Sports arena playing area class II facility(4)",
+    "necb_hvac_system_selection_type": "General Area",
+    "system_number": 6,
+    "number_of_stories": 4,
+    "heating_design_load": 0.0,
+    "cooling_design_load": 75.25459,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "B",
     "multiplier": 1,
     "horizontal_placement": "core",
     "vertical_placement": "middle",
@@ -360,386 +900,26 @@
     }
   },
   {
-    "space": "OS:Space,\n  {7490d631-f011-4ebe-bb8f-a06b9431c713}, !- Handle\n  Retail facility dressing/fitting room-Space Function, !- Name\n  {1cf8164c-e071-40ed-9bdd-04f03d01d41c}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {2d07f044-e51e-432a-b0f9-c0da0b6a76c3}, !- Building Story Name\n  {4361c315-fe50-4fb9-a104-9f72111a3770}; !- Thermal Zone Name\n\n",
-    "space_name": "Retail facility dressing/fitting room-Space Function",
+    "space": "OS:Space,\n  {a67dff41-bc10-4de0-aba9-23072dcedfeb}, !- Handle\n  Sports arena playing area class III facility(4)-Space Function, !- Name\n  {acfafe73-41ca-42bf-a1c2-18a2afa7d8bc}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {538e705c-422e-4d80-ba79-0dfb556ce4b9}, !- Building Story Name\n  {323987a4-5070-4d74-9348-ae075dd66e19}; !- Thermal Zone Name\n\n",
+    "space_name": "Sports arena playing area class III facility(4)-Space Function",
     "floor_area": 1875.0,
     "building_type_name": "Space Function",
-    "space_type_name": "Retail facility dressing/fitting room",
+    "space_type_name": "Sports arena playing area class III facility(4)",
     "necb_hvac_system_selection_type": "General Area",
     "system_number": 6,
     "number_of_stories": 4,
-    "heating_design_load": 32.352830000000004,
-    "cooling_design_load": 40.10885,
+    "heating_design_load": 36.29428,
+    "cooling_design_load": 90.78866000000001,
     "is_dwelling_unit": false,
     "is_wildcard": null,
-    "schedule_type": "C",
-    "multiplier": 1,
-    "horizontal_placement": "south",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.99999999999949,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {90120fd6-3592-4cb2-ab32-faad45e1f0d7}, !- Handle\n  Retail facility mall concourse-Space Function, !- Name\n  {9f94725f-a11f-45c7-bb73-ba390de0440f}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {2d07f044-e51e-432a-b0f9-c0da0b6a76c3}, !- Building Story Name\n  {89eeb309-d224-4aaa-bf30-9a13631862d2}; !- Thermal Zone Name\n\n",
-    "space_name": "Retail facility mall concourse-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Retail facility mall concourse",
-    "necb_hvac_system_selection_type": "General Area",
-    "system_number": 6,
-    "number_of_stories": 4,
-    "heating_design_load": 28.33752,
-    "cooling_design_load": 54.8234,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "C",
+    "schedule_type": "B",
     "multiplier": 1,
     "horizontal_placement": "east",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.99999999999949,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {e1648ed1-c253-437e-b4fb-00410e64f068}, !- Handle\n  Space designed to ANSI/IES RP-28 chapel (used primarily by residents)-Space Function, !- Name\n  {7048bfdc-b254-4d3d-b37d-ee1dae70eb92}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {2d07f044-e51e-432a-b0f9-c0da0b6a76c3}, !- Building Story Name\n  {a04334c8-4a82-4430-a4a0-7936c88558b2}; !- Thermal Zone Name\n\n",
-    "space_name": "Space designed to ANSI/IES RP-28 chapel (used primarily by residents)-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Space designed to ANSI/IES RP-28 chapel (used primarily by residents)",
-    "necb_hvac_system_selection_type": "Assembly Area",
-    "system_number": 3,
-    "number_of_stories": 4,
-    "heating_design_load": 10.69985,
-    "cooling_design_load": 43.09589,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "I",
-    "multiplier": 1,
-    "horizontal_placement": "north",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.99999999999949,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {20870fbb-c7f5-475e-908e-28bf2f95168d}, !- Handle\n  Space designed to ANSI/IES RP-28 recreation room (used primarily by residents)-Space Function, !- Name\n  {3f5f3a2f-8712-430e-aff4-ad0de9c59ce4}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {a0849fe2-b24a-4857-8b92-bf6e6b4b6c21}, !- Building Story Name\n  {c47933a2-3399-4e54-9190-82452f3664ea}; !- Thermal Zone Name\n\n",
-    "space_name": "Space designed to ANSI/IES RP-28 recreation room (used primarily by residents)-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Space designed to ANSI/IES RP-28 recreation room (used primarily by residents)",
-    "necb_hvac_system_selection_type": "Assembly Area",
-    "system_number": 3,
-    "number_of_stories": 4,
-    "heating_design_load": 0.0,
-    "cooling_design_load": 39.389309999999995,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "B",
-    "multiplier": 1,
-    "horizontal_placement": "west",
-    "vertical_placement": "bottom",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 1875.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {ccf63bb2-fc11-42a3-a878-0940b1961e81}, !- Handle\n  Sports arena playing area class I facility(4)-Space Function, !- Name\n  {fcdf5519-3bf9-4579-a638-22f09be94961}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {32a23c6d-ab7f-481f-8370-7b6da7e1575f}, !- Building Story Name\n  {e109ae13-abd2-43e8-8ee2-7a813ec48d81}; !- Thermal Zone Name\n\n",
-    "space_name": "Sports arena playing area class I facility(4)-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Sports arena playing area class I facility(4)",
-    "necb_hvac_system_selection_type": "General Area",
-    "system_number": 6,
-    "number_of_stories": 4,
-    "heating_design_load": 37.14654,
-    "cooling_design_load": 98.44189,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "B",
-    "multiplier": 1,
-    "horizontal_placement": "north",
     "vertical_placement": "top",
     "north": {
       "outdoors": {
-        "surface_area": 379.99999999999983,
-        "glazed_subsurface_area": 95.00000000000028,
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
         "opaque_subsurface_area": 0.0
       },
       "ground": {
@@ -750,8 +930,8 @@
     },
     "east": {
       "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
+        "surface_area": 379.99999999999983,
+        "glazed_subsurface_area": 95.00000000000028,
         "opaque_subsurface_area": 0.0
       },
       "ground": {
@@ -810,19 +990,199 @@
     }
   },
   {
-    "space": "OS:Space,\n  {5a756923-1bc7-43d2-a3ad-a576a74172fb}, !- Handle\n  Sports arena playing area class II facility(4)-Space Function, !- Name\n  {ecb6382c-2177-4c90-b6e2-ec83d238451e}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {a0849fe2-b24a-4857-8b92-bf6e6b4b6c21}, !- Building Story Name\n  {ce7c43f4-af1f-4bca-921b-85c951ec669c}; !- Thermal Zone Name\n\n",
-    "space_name": "Sports arena playing area class II facility(4)-Space Function",
+    "space": "OS:Space,\n  {63659693-0a4e-4dea-9dce-dd30eddddb3c}, !- Handle\n  Sports arena playing area class IV facility(4)-Space Function, !- Name\n  {415c40e6-16a7-41d2-97ce-3c2ec0dc623a}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {dc638d2a-b4e8-42cf-9e58-4b341eb386a7}, !- Building Story Name\n  {1b084d65-d6a1-4ec7-a5f1-3442b50f0290}; !- Thermal Zone Name\n\n",
+    "space_name": "Sports arena playing area class IV facility(4)-Space Function",
     "floor_area": 1875.0,
     "building_type_name": "Space Function",
-    "space_type_name": "Sports arena playing area class II facility(4)",
+    "space_type_name": "Sports arena playing area class IV facility(4)",
     "necb_hvac_system_selection_type": "General Area",
     "system_number": 6,
     "number_of_stories": 4,
     "heating_design_load": 0.0,
-    "cooling_design_load": 57.255489999999995,
+    "cooling_design_load": 45.82038,
     "is_dwelling_unit": false,
     "is_wildcard": null,
     "schedule_type": "B",
+    "multiplier": 1,
+    "horizontal_placement": "north",
+    "vertical_placement": "bottom",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 1875.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {1e3a1333-3f8a-42b0-952f-d18e1138f2a7}, !- Handle\n  Transportation facility airport concourse-Space Function, !- Name\n  {3e99f1f9-2de6-43a5-995b-2c3eb24eb850}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {3d86ff73-ebf3-4e46-8f6d-fd427d4f1cf4}, !- Building Story Name\n  {8f994eb0-396a-4022-b8b5-7e941f45731a}; !- Thermal Zone Name\n\n",
+    "space_name": "Transportation facility airport concourse-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Transportation facility airport concourse",
+    "necb_hvac_system_selection_type": "General Area",
+    "system_number": 6,
+    "number_of_stories": 4,
+    "heating_design_load": 0.0,
+    "cooling_design_load": 46.774809999999995,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "H",
+    "multiplier": 1,
+    "horizontal_placement": "east",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.99999999999949,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {07b78e30-f13f-41c9-82b9-129dd6fcc051}, !- Handle\n  Transportation facility baggage/carousel area-Space Function, !- Name\n  {e209327d-f5e5-4488-8a9e-6deb0a813114}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {dc638d2a-b4e8-42cf-9e58-4b341eb386a7}, !- Building Story Name\n  {065c82a5-7bb8-40cd-9cfc-c0adfbe75c23}; !- Thermal Zone Name\n\n",
+    "space_name": "Transportation facility baggage/carousel area-Space Function",
+    "floor_area": 1875.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Transportation facility baggage/carousel area",
+    "necb_hvac_system_selection_type": "General Area",
+    "system_number": 6,
+    "number_of_stories": 4,
+    "heating_design_load": 0.0,
+    "cooling_design_load": 25.3518,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "H",
     "multiplier": 1,
     "horizontal_placement": "east",
     "vertical_placement": "bottom",
@@ -900,19 +1260,109 @@
     }
   },
   {
-    "space": "OS:Space,\n  {03b103de-3e29-44bb-acb2-2c59e8d28461}, !- Handle\n  Sports arena playing area class III facility(4)-Space Function, !- Name\n  {a9030c80-791a-4bd4-b5f9-74be0dc1b071}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {a0849fe2-b24a-4857-8b92-bf6e6b4b6c21}, !- Building Story Name\n  {5a276ff7-c9e3-4f77-9142-e01cd7853380}; !- Thermal Zone Name\n\n",
-    "space_name": "Sports arena playing area class III facility(4)-Space Function",
+    "space": "OS:Space,\n  {09eb5dd0-340f-4ece-aa99-ccef119790fe}, !- Handle\n  Transportation facility terminal ticket counter-Space Function, !- Name\n  {1921004a-bd42-44a0-b00e-7e7dd815941b}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {3d86ff73-ebf3-4e46-8f6d-fd427d4f1cf4}, !- Building Story Name\n  {7d7b2fd7-511e-443e-b7aa-0290a12464bb}; !- Thermal Zone Name\n\n",
+    "space_name": "Transportation facility terminal ticket counter-Space Function",
     "floor_area": 2500.0,
     "building_type_name": "Space Function",
-    "space_type_name": "Sports arena playing area class III facility(4)",
+    "space_type_name": "Transportation facility terminal ticket counter",
     "necb_hvac_system_selection_type": "General Area",
     "system_number": 6,
     "number_of_stories": 4,
     "heating_design_load": 0.0,
-    "cooling_design_load": 70.37061,
+    "cooling_design_load": 50.33691,
     "is_dwelling_unit": false,
     "is_wildcard": null,
-    "schedule_type": "B",
+    "schedule_type": "H",
+    "multiplier": 1,
+    "horizontal_placement": "core",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {2340cfe8-ec98-4603-b4af-72809a4c496b}, !- Handle\n  Warehouse storage area medium to bulky palletized items-Space Function, !- Name\n  {586e3d5c-b9bd-4194-a369-eccf7c22ae31}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {dc638d2a-b4e8-42cf-9e58-4b341eb386a7}, !- Building Story Name\n  {919d8164-3554-4704-a6d2-f48bc1e905c6}; !- Thermal Zone Name\n\n",
+    "space_name": "Warehouse storage area medium to bulky palletized items-Space Function",
+    "floor_area": 2500.0,
+    "building_type_name": "Space Function",
+    "space_type_name": "Warehouse storage area medium to bulky palletized items",
+    "necb_hvac_system_selection_type": "Warehouse Area",
+    "system_number": 4,
+    "number_of_stories": 4,
+    "heating_design_load": 0.0,
+    "cooling_design_load": 25.096939999999996,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "A",
     "multiplier": 1,
     "horizontal_placement": "core",
     "vertical_placement": "bottom",
@@ -990,407 +1440,23 @@
     }
   },
   {
-    "space": "OS:Space,\n  {53996fa9-8cbb-4348-8569-d7a407cb51c4}, !- Handle\n  Sports arena playing area class IV facility(4)-Space Function, !- Name\n  {c38b8366-6501-49b3-b331-0530c56c17d4}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {1fff6556-2947-49d2-a6e5-d29b54e82c41}, !- Building Story Name\n  {23b848d6-a68f-44d1-a94c-4a57ae6b1d96}; !- Thermal Zone Name\n\n",
-    "space_name": "Sports arena playing area class IV facility(4)-Space Function",
-    "floor_area": 2500.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Sports arena playing area class IV facility(4)",
-    "necb_hvac_system_selection_type": "General Area",
-    "system_number": 6,
-    "number_of_stories": 4,
-    "heating_design_load": 0.0,
-    "cooling_design_load": 67.63585,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "B",
-    "multiplier": 1,
-    "horizontal_placement": "core",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {546a8acd-a792-470c-b7cb-bcbfb92397e2}, !- Handle\n  Transportation facility airport concourse-Space Function, !- Name\n  {35955856-a550-446c-ada5-dd9d3a016218}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {a0849fe2-b24a-4857-8b92-bf6e6b4b6c21}, !- Building Story Name\n  {bf5bce76-c24c-4e18-8a20-00971533e6fb}; !- Thermal Zone Name\n\n",
-    "space_name": "Transportation facility airport concourse-Space Function",
+    "space": "OS:Space,\n  {d5d8c2c3-9257-46f5-b457-ad52d6728fa7}, !- Handle\n  Warehouse storage area small hand-carried items(4)-Space Function, !- Name\n  {d4661e21-4d34-450f-8f6e-7907b144a944}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {538e705c-422e-4d80-ba79-0dfb556ce4b9}, !- Building Story Name\n  {d6a440aa-5442-499f-b23f-c064744fe3e9}; !- Thermal Zone Name\n\n",
+    "space_name": "Warehouse storage area small hand-carried items(4)-Space Function",
     "floor_area": 1875.0,
     "building_type_name": "Space Function",
-    "space_type_name": "Transportation facility airport concourse",
-    "necb_hvac_system_selection_type": "General Area",
-    "system_number": 6,
-    "number_of_stories": 4,
-    "heating_design_load": 0.0,
-    "cooling_design_load": 14.45695,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "H",
-    "multiplier": 1,
-    "horizontal_placement": "north",
-    "vertical_placement": "bottom",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 1875.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {52424e93-395b-4535-9108-9f4eb1270857}, !- Handle\n  Transportation facility baggage/carousel area-Space Function, !- Name\n  {b6e24319-77ee-42aa-8018-aa307885377d}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  25,                                     !- X Origin {m}\n  75,                                     !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {1fff6556-2947-49d2-a6e5-d29b54e82c41}, !- Building Story Name\n  {df92362d-791e-4cdc-a7d1-ab6e33933f70}; !- Thermal Zone Name\n\n",
-    "space_name": "Transportation facility baggage/carousel area-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Transportation facility baggage/carousel area",
-    "necb_hvac_system_selection_type": "General Area",
-    "system_number": 6,
-    "number_of_stories": 4,
-    "heating_design_load": 0.0,
-    "cooling_design_load": 27.03768,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "H",
-    "multiplier": 1,
-    "horizontal_placement": "north",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.99999999999949,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {8b84ee77-5762-486f-98f6-3c0af17fcc95}, !- Handle\n  Transportation facility terminal ticket counter-Space Function, !- Name\n  {72cb999e-677f-4ad5-bf5a-cdd2d00a74de}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {1fff6556-2947-49d2-a6e5-d29b54e82c41}, !- Building Story Name\n  {0d1b6156-e8a9-4ffc-a3d0-bce0c98474d6}; !- Thermal Zone Name\n\n",
-    "space_name": "Transportation facility terminal ticket counter-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Transportation facility terminal ticket counter",
-    "necb_hvac_system_selection_type": "General Area",
-    "system_number": 6,
-    "number_of_stories": 4,
-    "heating_design_load": 0.0,
-    "cooling_design_load": 55.029230000000005,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "H",
-    "multiplier": 1,
-    "horizontal_placement": "west",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.9999999999995,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {1d972f61-1a24-4cb1-aaf6-37c481c33b61}, !- Handle\n  Warehouse storage area medium to bulky palletized items-Space Function, !- Name\n  {709205b4-675e-45a5-b726-b886156adf4d}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  11.4,                                   !- Z Origin {m}\n  {32a23c6d-ab7f-481f-8370-7b6da7e1575f}, !- Building Story Name\n  {4145327c-77e3-4800-b738-db69e5d59ac2}; !- Thermal Zone Name\n\n",
-    "space_name": "Warehouse storage area medium to bulky palletized items-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Warehouse storage area medium to bulky palletized items",
+    "space_type_name": "Warehouse storage area small hand-carried items(4)",
     "necb_hvac_system_selection_type": "Warehouse Area",
     "system_number": 4,
     "number_of_stories": 4,
-    "heating_design_load": 60.03548999999999,
-    "cooling_design_load": 58.732330000000005,
+    "heating_design_load": 52.46156,
+    "cooling_design_load": 48.72739,
     "is_dwelling_unit": false,
     "is_wildcard": null,
     "schedule_type": "A",
     "multiplier": 1,
-    "horizontal_placement": "south",
+    "horizontal_placement": "north",
     "vertical_placement": "top",
     "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
       "outdoors": {
         "surface_area": 379.99999999999983,
         "glazed_subsurface_area": 95.00000000000028,
@@ -1402,6 +1468,30 @@
         "opaque_subsurface_area": 0.0
       }
     },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
     "west": {
       "outdoors": {
         "surface_area": 0.0,
@@ -1417,7 +1507,7 @@
     "top": {
       "outdoors": {
         "surface_area": 1875.0,
-        "glazed_subsurface_area": 37.50000000000063,
+        "glazed_subsurface_area": 37.500000000000625,
         "opaque_subsurface_area": 0.0
       },
       "ground": {
@@ -1440,97 +1530,7 @@
     }
   },
   {
-    "space": "OS:Space,\n  {4da2095f-ea3e-4447-bec0-4a21b4701be5}, !- Handle\n  Warehouse storage area small hand-carried items(4)-Space Function, !- Name\n  {a7a76d2f-7604-41f9-a45d-ae32860814b6}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  75,                                     !- X Origin {m}\n  25,                                     !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {1fff6556-2947-49d2-a6e5-d29b54e82c41}, !- Building Story Name\n  {39690a2f-af16-409b-bda2-0b450300f24e}; !- Thermal Zone Name\n\n",
-    "space_name": "Warehouse storage area small hand-carried items(4)-Space Function",
-    "floor_area": 1875.0,
-    "building_type_name": "Space Function",
-    "space_type_name": "Warehouse storage area small hand-carried items(4)",
-    "necb_hvac_system_selection_type": "Warehouse Area",
-    "system_number": 4,
-    "number_of_stories": 4,
-    "heating_design_load": 6.45214,
-    "cooling_design_load": 45.64912,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "A",
-    "multiplier": 1,
-    "horizontal_placement": "east",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.99999999999949,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {48d6e0d8-5014-4575-a79c-b8b3a84934c0}, !- Handle\n  WholeBuilding-Automotive facility,      !- Name\n  {ddb0cdd7-4567-4aea-a1c5-9c23b149ef11}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  7.6,                                    !- Z Origin {m}\n  {2d07f044-e51e-432a-b0f9-c0da0b6a76c3}, !- Building Story Name\n  {a2a087f1-1ef4-4389-b36f-9f3ca34c1bbc}; !- Thermal Zone Name\n\n",
+    "space": "OS:Space,\n  {18a5196d-e0e1-471a-b4f5-3491c949c28e}, !- Handle\n  WholeBuilding-Automotive facility,      !- Name\n  {3ba62d4e-8d91-4cbd-b580-199c3ee4eae1}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {dc638d2a-b4e8-42cf-9e58-4b341eb386a7}, !- Building Story Name\n  {6a22f29b-a059-4dbf-bac6-27ce007b5d2d}; !- Thermal Zone Name\n\n",
     "space_name": "WholeBuilding-Automotive facility",
     "floor_area": 1875.0,
     "building_type_name": "Automotive facility",
@@ -1538,98 +1538,8 @@
     "necb_hvac_system_selection_type": "Automotive Area",
     "system_number": 4,
     "number_of_stories": 4,
-    "heating_design_load": 19.96885,
-    "cooling_design_load": 58.49011,
-    "is_dwelling_unit": false,
-    "is_wildcard": null,
-    "schedule_type": "E",
-    "multiplier": 1,
-    "horizontal_placement": "west",
-    "vertical_placement": "middle",
-    "north": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "east": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "south": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "west": {
-      "outdoors": {
-        "surface_area": 380.0,
-        "glazed_subsurface_area": 94.9999999999995,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "top": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    },
-    "bottom": {
-      "outdoors": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      },
-      "ground": {
-        "surface_area": 0.0,
-        "glazed_subsurface_area": 0.0,
-        "opaque_subsurface_area": 0.0
-      }
-    }
-  },
-  {
-    "space": "OS:Space,\n  {3384c571-419d-46e0-b9da-7fd2014ddba6}, !- Handle\n  WholeBuilding-Automotive facility 1,    !- Name\n  {992c28bb-3de4-4bab-be64-3f9b9ba6f04f}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  0,                                      !- Z Origin {m}\n  {a0849fe2-b24a-4857-8b92-bf6e6b4b6c21}, !- Building Story Name\n  {83757cd5-a186-4c3f-ba5b-97ea15f47b2e}; !- Thermal Zone Name\n\n",
-    "space_name": "WholeBuilding-Automotive facility 1",
-    "floor_area": 1875.0,
-    "building_type_name": "Automotive facility",
-    "space_type_name": "WholeBuilding",
-    "necb_hvac_system_selection_type": "Automotive Area",
-    "system_number": 4,
-    "number_of_stories": 4,
     "heating_design_load": 0.0,
-    "cooling_design_load": 28.8998,
+    "cooling_design_load": 28.750220000000002,
     "is_dwelling_unit": false,
     "is_wildcard": null,
     "schedule_type": "E",
@@ -1710,7 +1620,97 @@
     }
   },
   {
-    "space": "OS:Space,\n  {d69194d5-1e86-4350-a563-3c7774e2d97d}, !- Handle\n  WholeBuilding-Automotive facility 2,    !- Name\n  {c11c978d-c5dd-4aca-815d-819edbc3e91c}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {1fff6556-2947-49d2-a6e5-d29b54e82c41}, !- Building Story Name\n  {b8dbc62d-7eb4-48c7-abb9-5a054ed64d98}; !- Thermal Zone Name\n\n",
+    "space": "OS:Space,\n  {3e349610-a1e9-4568-81f4-150091195bfd}, !- Handle\n  WholeBuilding-Automotive facility 1,    !- Name\n  {25001236-ba24-4019-ae86-097c8c374df7}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {aa0da1a4-11b6-4da6-b7ad-d6dca17298a4}, !- Building Story Name\n  {d10c3627-2317-44ef-a4ff-078315f36c65}; !- Thermal Zone Name\n\n",
+    "space_name": "WholeBuilding-Automotive facility 1",
+    "floor_area": 1875.0,
+    "building_type_name": "Automotive facility",
+    "space_type_name": "WholeBuilding",
+    "necb_hvac_system_selection_type": "Automotive Area",
+    "system_number": 4,
+    "number_of_stories": 4,
+    "heating_design_load": 14.68952,
+    "cooling_design_load": 51.460519999999995,
+    "is_dwelling_unit": false,
+    "is_wildcard": null,
+    "schedule_type": "E",
+    "multiplier": 1,
+    "horizontal_placement": "west",
+    "vertical_placement": "middle",
+    "north": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "east": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "south": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "west": {
+      "outdoors": {
+        "surface_area": 380.0,
+        "glazed_subsurface_area": 94.9999999999995,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "top": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    },
+    "bottom": {
+      "outdoors": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      },
+      "ground": {
+        "surface_area": 0.0,
+        "glazed_subsurface_area": 0.0,
+        "opaque_subsurface_area": 0.0
+      }
+    }
+  },
+  {
+    "space": "OS:Space,\n  {872027d9-e9a0-410f-a430-312471996e19}, !- Handle\n  WholeBuilding-Automotive facility 2,    !- Name\n  {9e3edf32-0e38-449b-b5d6-257c575cde5b}, !- Space Type Name\n  ,                                       !- Default Construction Set Name\n  ,                                       !- Default Schedule Set Name\n  -0,                                     !- Direction of Relative North {deg}\n  0,                                      !- X Origin {m}\n  0,                                      !- Y Origin {m}\n  3.8,                                    !- Z Origin {m}\n  {aa0da1a4-11b6-4da6-b7ad-d6dca17298a4}, !- Building Story Name\n  {035aab8a-8d8a-422e-a54c-3b613221d27c}; !- Thermal Zone Name\n\n",
     "space_name": "WholeBuilding-Automotive facility 2",
     "floor_area": 1875.0,
     "building_type_name": "Automotive facility",
@@ -1718,8 +1718,8 @@
     "necb_hvac_system_selection_type": "Automotive Area",
     "system_number": 4,
     "number_of_stories": 4,
-    "heating_design_load": 14.685469999999999,
-    "cooling_design_load": 44.246379999999995,
+    "heating_design_load": 9.97172,
+    "cooling_design_load": 47.7344,
     "is_dwelling_unit": false,
     "is_wildcard": null,
     "schedule_type": "E",

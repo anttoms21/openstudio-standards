@@ -1,0 +1,1680 @@
+
+ Meters for 9,GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 594,LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 607,LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 620,LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 633,LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 646,LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 659,LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 672,LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 685,LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 698,LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 711,LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 724,LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 737,LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 750,LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 763,LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 776,LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 789,LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 802,LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 815,LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 828,GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+
+ Meters for 889,GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J]
+
+ Meters for 916,LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+
+ Meters for 941,LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J]
+
+ Meters for 956,LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 981,LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 996,LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+
+ Meters for 1021,LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J]
+
+ Meters for 1036,LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J]
+
+ Meters for 1061,LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J]
+
+ Meters for 1076,LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+
+ Meters for 1101,LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
+
+ Meters for 1116,LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+
+ Meters for 1141,LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J]
+
+ Meters for 1156,LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1181,LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1196,LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 1221,LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J]
+
+ Meters for 1236,LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1261,LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J]
+
+ Meters for 1276,LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+
+ Meters for 1301,LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J]
+
+ Meters for 1316,LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1341,LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J]
+
+ Meters for 1356,LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1381,LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J]
+
+ Meters for 1396,LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1421,LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J]
+
+ Meters for 1436,LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1461,LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J]
+
+ Meters for 1476,LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1501,LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J]
+
+ Meters for 1516,LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1541,LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J]
+
+ Meters for 1556,LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1581,LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J]
+
+ Meters for 1596,LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 1621,LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J]
+
+ Meters for 1636,LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 1661,LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J]
+
+ Meters for 1676,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1713,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1750,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1787,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1824,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1861,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1862,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1863,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1864,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1865,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1866,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1867,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1868,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1869,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1870,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1871,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1872,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1873,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1874,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1875,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1876,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1877,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1878,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1879,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1880,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1881,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1882,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1883,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1884,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1885,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1886,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1887,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1888,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1889,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1890,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1891,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1892,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1893,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1894,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1895,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1896,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1897,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1898,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1899,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1924,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1925,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN SPACE FUNCTION LOADING DOCK INTERIOR LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:GUEST ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LABORATORY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LABORATORY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - HOTEL-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - MOTION PICTURE THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - PERFORMING ARTS THEATRE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS) ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-A ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-B ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-C ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-D ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-F ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-G ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-H ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN SPACE FUNCTION LOCKER ROOM-SCH-I ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GUEST ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GUEST ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LABORATORY - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LABORATORY - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LABORATORY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LABORATORY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LAUNDRY/WASHING AREA-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LAUNDRY/WASHING AREA-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOADING DOCK INTERIOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOADING DOCK INTERIOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - HOTEL-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - HOTEL-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - MOTION PICTURE THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - OTHER-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - OTHER-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - PERFORMING ARTS THEATRE-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY - SPACE DESIGNED TO ANSI/IES RP-28 (USED PRIMARILY BY RESIDENTS)-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-A-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-A-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-B-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-B-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-C-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-C-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-D-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-D-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-E-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-E-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-F-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-F-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-G-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-G-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-H-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-H-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOCKER ROOM-SCH-I-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOCKER ROOM-SCH-I-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

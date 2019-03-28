@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:58,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:10,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
@@ -24,17 +24,15 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:58,
    **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
    **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
    **   ~~~   ** name that will be used (may be needed in reporting)="DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP".
-   ** Warning ** Calculated design heating load for zone=DORMITORY - LIVING QUARTERS-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=COURTHOUSE - COURTROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=DRESS./FITT. - PERFORMANCE ARTS-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=DINING - OTHER-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=FIRE STATION - ENGINE ROOM-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=FOOD PREPARATION - VENTED-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=FOOD PREPARATION-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=GYM - AUDIENCE-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=GYM - FITNESS-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Calculated design heating load for zone=GYM - PLAY-SPACE FUNCTION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
@@ -74,5 +72,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.27 19:58,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 19 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 23 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.22sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 18 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 22 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.21sec
