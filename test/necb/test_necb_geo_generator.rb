@@ -11,7 +11,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 #LargeOfficespace_type_objects[index]
 
 #ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
-ProcessorsUsed = 35
+ProcessorsUsed = (Parallel.processor_count - 1).floor
 
 
 class GeoTest < Minitest::Test
