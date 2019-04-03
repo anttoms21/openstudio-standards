@@ -17,7 +17,7 @@ ProcessorsUsed = (Parallel.processor_count - 1).floor
 class GeoTest < Minitest::Test
 
   #This method will take a standard name and a range and return an array of an array of spacetypes that are in increments of the range value
-  def determine_space_types_to_test(standard:, range: 20)
+  def determine_space_types_to_test(standard:, range: 30)
     vintage = standard
     #Get the correct standard
     standard = Standard.build(standard)
@@ -124,7 +124,7 @@ class GeoTest < Minitest::Test
       if Dir.exists?(vintage_dir)
         Dir.mkdir(vintage_dir)
       end
-      array_of_array_of_space_types = determine_space_types_to_test(standard: vintage, range: 20)
+      array_of_array_of_space_types = determine_space_types_to_test(standard: vintage, range: 30)
       Parallel.each_with_index(array_of_array_of_space_types, in_processes: (ProcessorsUsed), progress: "Progress :") do |array_of_space_types, index|
         #Create a unique folder name to do the runs in..
         #puts "space types in this building are#{array_of_space_types.size}"
