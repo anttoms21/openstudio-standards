@@ -1,11 +1,9 @@
 EnergyPlus Starting
-EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:40
+EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 18:00
 Initializing Response Factors
-Calculating CTFs for "BTAP-EXT-ROOF-METAL:U-0.162", Construction # 18
-Calculating CTFs for "BTAP-EXT-WALL-MASS:U-0.21", Construction # 22
 Calculating CTFs for "BTAP-GRND-FLOOR-MASS:U-0.757", Construction # 24
+Calculating CTFs for "BTAP-GRND-ROOF-MASS:U-0.284", Construction # 26
 Calculating CTFs for "BTAP-GRND-WALL-MASS:U-0.284", Construction # 28
-Calculating CTFs for "BTAP-INT-CEILING", Construction # 29
 Calculating CTFs for "BTAP-INT-WALL", Construction # 33
 Initializing Window Optical Properties
 Initializing Solar Calculations
@@ -66,25 +64,6 @@ Warming up {3}
 Warming up {4}
 Warming up {5}
 Warming up {6}
-Warming up {7}
-Warming up {8}
-Warming up {9}
-Warming up {10}
-Warming up {11}
-Warming up {12}
-Warming up {13}
-Warming up {14}
-Warming up {15}
-Warming up {16}
-Warming up {17}
-Warming up {18}
-Warming up {19}
-Warming up {20}
-Warming up {21}
-Warming up {22}
-Warming up {23}
-Warming up {24}
-Warming up {25}
 Starting Simulation at 07/21 for FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB
 Initializing New Environment Parameters
 Warming up {1}

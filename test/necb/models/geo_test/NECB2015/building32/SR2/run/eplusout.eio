@@ -1,0 +1,300 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 18:00
+! <Version>, Version ID
+ Version, 8.9
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  6, 10
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, Yes, Yes, Yes, No, No
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 1.000, 1.000, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  19.53,  19.50,  19.54,  19.60,  20.00,  21.64,  22.23,  22.38,  21.45,  20.12,  19.80,  19.63
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod, -12.27, -13.66, -11.19,  -7.33,   2.77,  10.57,  15.83,  17.43,  14.70,   8.65,   0.56,  -6.95
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Fort McMurray AP AB CAN CWEC2016 WMO#=716890,56.65,-111.22,-7.00,369.10,96969,1.1525
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,Building 1,0.000,Suburbs,4.00000E-002,0.40000,FullExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.220,370.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,5,30,0
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,0.0,25.00,25.00,0.00,50.00,50.00,1.90,1,1,1,25.00,75.00,25.00,75.00,0.00,3.80,3.80,9500.00,TARP,TARP,2500.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,0.0,0.00,0.00,0.00,50.00,10.85,1.90,1,1,1,0.00,100.00,0.00,25.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,0.0,75.00,25.00,0.00,89.15,50.00,1.90,1,1,1,75.00,100.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,0.0,25.00,75.00,0.00,50.00,89.15,1.90,1,1,1,0.00,100.00,75.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,0.0,0.00,0.00,0.00,10.85,50.00,1.90,1,1,1,0.00,25.00,0.00,100.00,0.00,3.80,3.80,7125.00,TARP,TARP,1875.00,0.00,0.00,0.00,6,0,0,Yes
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,2500.00,100.0,24.991,4.001E-002,2.401,2.501,0.000,0.000,0.000,0.000,4.902,No
+ Zone Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,1875.00,375.1,4.998,0.200,7.803,1.000,0.000,0.000,0.000,0.000,8.803,No
+ Zone Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,1875.00,375.1,4.998,0.200,13.005,1.501,0.000,0.000,0.000,0.000,14.505,No
+ Zone Internal Gains Nominal, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,1875.00,93.8,19.993,5.002E-002,18.007,10.004,0.000,0.000,0.000,0.000,28.010,No
+ Zone Internal Gains Nominal, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,1875.00,93.8,19.993,5.002E-002,16.306,10.004,0.000,0.000,0.000,0.000,26.310,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN SPACE FUNCTION FIRE STATION SLEEPING QUARTERS PEOPLE,NECB-G-OCCUPANCY,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,2500.00,100.0,100.0,4.001E-002,24.991,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,30,90
+ People Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION GYMNASIUM/FITNESS CENTRE EXERCISE AREA PEOPLE,NECB-B-OCCUPANCY,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,1875.00,375.1,375.1,0.200,4.998,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,338
+ People Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN SPACE FUNCTION GYMNASIUM/FITNESS CENTRE PLAYING AREA PEOPLE,NECB-B-OCCUPANCY,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,1875.00,375.1,375.1,0.200,4.998,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,338
+ People Internal Gains Nominal, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN SPACE FUNCTION HEALTH CARE FACILITY EXAM/TREATMENT ROOM PEOPLE,NECB-C-OCCUPANCY,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,1875.00,93.8,93.8,5.002E-002,19.993,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,84
+ People Internal Gains Nominal, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN SPACE FUNCTION HEALTH CARE FACILITY IMAGING ROOM PEOPLE,NECB-H-OCCUPANCY,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,1875.00,93.8,93.8,5.002E-002,19.993,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,84,84
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN SPACE FUNCTION FIRE STATION SLEEPING QUARTERS LIGHTS,NECB-G-LIGHTING,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,2500.00,100.0,6002.181,2.401,60.000,0.000,0.500,0.200,0.300,1.000,General,0.000,5401.962
+ Lights Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION GYMNASIUM/FITNESS CENTRE EXERCISE AREA LIGHTS,NECB-B-LIGHTING,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,1875.00,375.1,14630.315,7.803,39.000,0.000,0.500,0.200,0.300,1.000,General,1463.032,13167.284
+ Lights Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN SPACE FUNCTION GYMNASIUM/FITNESS CENTRE PLAYING AREA LIGHTS,NECB-B-OCCUPANCY-NECB-B-LIGHTING-0.0-0.0-0.67-LIGHT RULESET,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,1875.00,375.1,24383.858,13.005,65.000,0.000,0.500,0.200,0.300,1.000,General,2438.386,21945.473
+ Lights Internal Gains Nominal, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN SPACE FUNCTION HEALTH CARE FACILITY EXAM/TREATMENT ROOM LIGHTS,NECB-C-OCCUPANCY-NECB-C-LIGHTING-0.3-0.0-0.67-LIGHT RULESET,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,1875.00,93.8,33762.265,18.007,360.000,0.000,0.500,0.200,0.300,1.000,General,1348.803,30386.039
+ Lights Internal Gains Nominal, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN SPACE FUNCTION HEALTH CARE FACILITY IMAGING ROOM LIGHTS,NECB-H-OCCUPANCY-NECB-H-LIGHTING-0.0-0.0-0.67-LIGHT RULESET,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,1875.00,93.8,30573.607,16.306,326.000,0.000,0.500,0.200,0.300,1.000,General,27516.246,27516.246
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN SPACE FUNCTION FIRE STATION SLEEPING QUARTERS ELEC EQUIP,NECB-G-ELECTRIC-EQUIPMENT,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,2500.00,100.0,6252.271,2.501,62.500,0.000,0.500,0.000,0.500,General,1250.454,5627.044
+ ElectricEquipment Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION GYMNASIUM/FITNESS CENTRE EXERCISE AREA ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,1875.00,375.1,1875.681,1.000,5.000,0.000,0.500,0.000,0.500,General,187.568,1688.113
+ ElectricEquipment Internal Gains Nominal, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN SPACE FUNCTION GYMNASIUM/FITNESS CENTRE PLAYING AREA ELEC EQUIP,NECB-B-ELECTRIC-EQUIPMENT,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,1875.00,375.1,2813.522,1.501,7.500,0.000,0.500,0.000,0.500,General,281.352,2532.170
+ ElectricEquipment Internal Gains Nominal, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN SPACE FUNCTION HEALTH CARE FACILITY EXAM/TREATMENT ROOM ELEC EQUIP,NECB-C-ELECTRIC-EQUIPMENT,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,1875.00,93.8,18756.814,10.004,200.000,0.000,0.500,0.000,0.500,General,937.841,16881.133
+ ElectricEquipment Internal Gains Nominal, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN SPACE FUNCTION HEALTH CARE FACILITY IMAGING ROOM ELEC EQUIP,NECB-H-ELECTRIC-EQUIPMENT,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,1875.00,93.8,18756.814,10.004,200.000,0.000,0.500,0.000,0.500,General,16881.133,16881.133
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm, External Shading Calculation Method, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No,No,No
+! <Water Heater Information>,Type,Name,Volume {m3},Maximum Capacity {W},Standard Rated Recovery Efficiency, Standard Rated Energy Factor
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,Mixing/Well-Stirred
+RoomAir Model,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,Mixing/Well-Stirred
+RoomAir Model,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,Mixing/Well-Stirred
+RoomAir Model,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,Mixing/Well-Stirred
+RoomAir Model,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    6
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.3000    
+ Heating Sizing Factor Information, Zone SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,   1.3000    
+ Heating Sizing Factor Information, Zone SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,   1.3000    
+ Heating Sizing Factor Information, Zone SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,   1.3000    
+ Heating Sizing Factor Information, Zone SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,   1.3000    
+ Heating Sizing Factor Information, Zone SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,   1.3000    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1000    
+ Cooling Sizing Factor Information, Zone SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,   1.1000    
+ Cooling Sizing Factor Information, Zone SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,   1.1000    
+ Cooling Sizing Factor Information, Zone SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,   1.1000    
+ Cooling Sizing Factor Information, Zone SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,   1.1000    
+ Cooling Sizing Factor Information, Zone SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,   1.1000    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Cooling, 13307.98110, 14638.77921, 1.02861, 2.03200, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:00:00, 22.70000, 8.76969E-003, 2500.00000, 100.03634, 2.03200, 0.00000
+ Zone Sizing Information, SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Heating, 0.00000, 0.00000, 0.00000, 2.03200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 2500.00000, 100.03634, 2.03200, 0.00000
+ Zone Sizing Information, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Cooling, 31711.60692, 34882.76761, 2.45187, 8.19150, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 21:40:00, 20.84000, 8.76969E-003, 1875.00000, 375.13628, 8.19150, 0.00000
+ Zone Sizing Information, SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Heating, 254.05808, 330.27550, 1.02072E-002, 8.19150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:10:00, -36.20000, 1.25811E-004, 1875.00000, 375.13628, 8.19150, 0.00000
+ Zone Sizing Information, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Cooling, 39186.42736, 43105.07010, 3.02970, 3.33267, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:40:00, 21.95600, 8.76969E-003, 1875.00000, 375.13628, 2.85750, 0.00000
+ Zone Sizing Information, SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Heating, 144.02859, 187.23717, 5.77952E-003, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 09:10:00, -36.20000, 1.25811E-004, 1875.00000, 375.13628, 2.85750, 0.00000
+ Zone Sizing Information, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Cooling, 41618.40634, 45780.24697, 3.21667, 3.53833, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 27.16400, 8.76969E-003, 1875.00000, 93.78407, 2.85750, 0.00000
+ Zone Sizing Information, SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Heating, 0.00000, 0.00000, 0.00000, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 93.78407, 2.85750, 0.00000
+ Zone Sizing Information, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Cooling, 39876.76151, 43864.43766, 3.08212, 4.28625, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 20:00:00, 22.70000, 8.76969E-003, 1875.00000, 93.78407, 4.28625, 0.00000
+ Zone Sizing Information, SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Heating, 0.00000, 0.00000, 0.00000, 4.28625, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, , -36.20000, 1.25811E-004, 1875.00000, 93.78407, 4.28625, 0.00000
+! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
+ System Sizing Information, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Cooling, Sensible, 22827.25, 2.03200, 2.03200, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Heating, Sensible, 186383.30, 2.03200, 2.03200, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Cooling, Sensible, 74376.82, 8.19150, 8.19150, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Heating, Sensible, 751357.69, 8.19150, 8.19150, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Cooling, Sensible, 35689.52, 3.33267, 3.33267, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Heating, Sensible, 262101.52, 2.85750, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Cooling, Sensible, 55546.48, 3.53833, 3.53833, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Heating, Sensible, 262101.52, 2.85750, 2.85750, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+ System Sizing Information, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Cooling, Sensible, 48151.23, 4.28625, 4.28625, FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB, 7/21 05:00:00
+ System Sizing Information, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Heating, Sensible, 393152.28, 4.28625, 4.28625, FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB, 1/21 00:10:00
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 1, Design Size Maximum Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 1, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 1, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 3, Design Size Maximum Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 3, Design Size Maximum Water Flow Rate [m3/s], 4.93293E-006
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 3, Design Size U-Factor Times Area Value [W/K], 7.52967
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 2, Design Size Maximum Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 2, Design Size Maximum Water Flow Rate [m3/s], 2.79654E-006
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 2, Design Size U-Factor Times Area Value [W/K], 4.26876
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 4, Design Size Maximum Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 4, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 4, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirTerminal:SingleDuct:Uncontrolled, AIR TERMINAL SINGLE DUCT UNCONTROLLED 5, Design Size Maximum Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 5, Design Size Maximum Water Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:Baseboard:Convective:Water, ZONE HVAC BASEBOARD CONVECTIVE WATER 5, Design Size U-Factor Times Area Value [W/K], 0.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Sum of Air Terminal Maximum Flow Rates [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Adjusted Heating Design Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Adjusted Cooling Design Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Adjusted Main Design Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Sum of Air Terminal Maximum Flow Rates [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Adjusted Heating Design Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Adjusted Cooling Design Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Adjusted Main Design Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Sum of Air Terminal Maximum Flow Rates [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Adjusted Heating Design Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Adjusted Cooling Design Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Adjusted Main Design Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Sum of Air Terminal Maximum Flow Rates [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Adjusted Heating Design Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Adjusted Cooling Design Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Adjusted Main Design Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 4.28625
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 4.28625
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Sum of Air Terminal Maximum Flow Rates [m3/s], 4.28625
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Adjusted Heating Design Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Adjusted Cooling Design Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Adjusted Main Design Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, User Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Calculated Heating Air Flow Ratio [], 1.00000
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN, Design Supply Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN, Design Supply Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN, Design Supply Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN, Design Supply Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, AirLoopHVAC, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN, Design Supply Air Flow Rate [m3/s], 4.28625
+!<Controller:MechanicalVentilation>,Name,Availability Schedule Name,Demand Controlled Ventilation {Yes/No},System Outdoor Air Method,Zone Maximum Outdoor Air Fraction,Number of Zones,Zone Name,DSOA Name,DSZAD Name
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 1,SYS_3_PSZ SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN OCC SCH,No,ZoneSum,1.00,1,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,SPACE FUNCTION FIRE STATION SLEEPING QUARTERS VENTILATION,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 3,SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN OCC SCH,No,ZoneSum,1.00,1,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,SPACE FUNCTION GYMNASIUM/FITNESS CENTRE EXERCISE AREA VENTILATION,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 2,SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN OCC SCH,No,ZoneSum,1.00,1,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,SPACE FUNCTION GYMNASIUM/FITNESS CENTRE PLAYING AREA VENTILATION,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 4,SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN OCC SCH,No,ZoneSum,1.00,1,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,SPACE FUNCTION HEALTH CARE FACILITY EXAM/TREATMENT ROOM VENTILATION,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN DESIGN SPEC ZONE AIR DIST
+ Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 5,SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN OCC SCH,No,ZoneSum,1.00,1,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,SPACE FUNCTION HEALTH CARE FACILITY IMAGING ROOM VENTILATION,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN DESIGN SPEC ZONE AIR DIST
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Maximum Outdoor Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 1, Minimum Outdoor Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 115KBTU/HR 9.26EER, Design Size Rated Air Flow Rate [m3/s], 2.03200
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 115KBTU/HR 9.26EER, Design Size Gross Rated Total Cooling Capacity [W], 33636.81510
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 115KBTU/HR 9.26EER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER {Btu/W-h}, IEER {Btu/W-h}
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 1 115KBTU/HR 9.26EER, 32057.3, 2.66, 9.09, 9.59, 9.10
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 1, Design Size Nominal Capacity [W], 186383.30300
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 1, Design Size Maximum Flow Rate [m3/s], 2.03200
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 3, Maximum Outdoor Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 3, Minimum Outdoor Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 463KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 8.19150
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 463KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 135598.41086
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 463KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 3 463KBTU/HR 8.21EER, 129231.0, 2.56, 8.74, 9.23, 8.79
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 3, Design Size Nominal Capacity [W], 751357.69021
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 3, Design Size Maximum Flow Rate [m3/s], 8.19150
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 2, Maximum Outdoor Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 2, Minimum Outdoor Air Flow Rate [m3/s], 2.85750
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 2.85750
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 188KBTU/HR 9.08EER, Design Size Rated Air Flow Rate [m3/s], 3.33267
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 188KBTU/HR 9.08EER, Design Size Gross Rated Total Cooling Capacity [W], 55167.54459
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 188KBTU/HR 9.08EER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 2 188KBTU/HR 9.08EER, 52577.0, 2.66, 9.06, 9.57, 9.08
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 2, Design Size Nominal Capacity [W], 273770.55576
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 2, Design Size Maximum Flow Rate [m3/s], 3.33267
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 4, Maximum Outdoor Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 4, Minimum Outdoor Air Flow Rate [m3/s], 2.85750
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 2.85750
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 200KBTU/HR 9.08EER, Design Size Rated Air Flow Rate [m3/s], 3.53833
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 200KBTU/HR 9.08EER, Design Size Gross Rated Total Cooling Capacity [W], 63000.21165
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 200KBTU/HR 9.08EER, Design Size Gross Rated Sensible Heat Ratio, 0.80081
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 4 200KBTU/HR 9.08EER, 60248.7, 2.70, 9.20, 9.71, 9.27
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 4, Design Size Nominal Capacity [W], 278659.94914
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 4, Design Size Maximum Flow Rate [m3/s], 3.53833
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 5, Maximum Outdoor Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, Controller:OutdoorAir, CONTROLLER OUTDOOR AIR 5, Minimum Outdoor Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, HeatExchanger:AirToAir:SensibleAndLatent, SYS_3_PSZ SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN ERV, Design Size Nominal Supply Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 242KBTU/HR 8.21EER, Design Size Rated Air Flow Rate [m3/s], 4.28625
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 242KBTU/HR 8.21EER, Design Size Gross Rated Total Cooling Capacity [W], 70952.65684
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 242KBTU/HR 8.21EER, Design Size Gross Rated Sensible Heat Ratio, 0.80066
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, COIL COOLING DX SINGLE SPEED 5 242KBTU/HR 8.21EER, 67620.9, 2.46, 8.38, 8.86, 8.47
+ Component Sizing Information, Coil:Heating:Fuel, COIL HEATING GAS 5, Design Size Nominal Capacity [W], 393152.27976
+ Component Sizing Information, Fan:ConstantVolume, FAN CONSTANT VOLUME 5, Design Size Maximum Flow Rate [m3/s], 4.28625
+Water Heater Information,WaterHeater:Mixed,446GAL NATURALGAS WATER HEATER - 877KBTU/HR 0.803 THERM EFF,1.6879,257115.9,0.399,0.2924
+ Component Sizing Information, PlantLoop, HOT WATER LOOP, Maximum Loop Flow Rate [m3/s], 7.72947E-006
+ Component Sizing Information, PlantLoop, HOT WATER LOOP, Plant Loop Volume [m3], 9.27537E-004
+ Component Sizing Information, Pump:VariableSpeed, PUMP VARIABLE SPEED 1, Design Flow Rate [m3/s], 7.72947E-006
+ Component Sizing Information, Pump:VariableSpeed, PUMP VARIABLE SPEED 1, Design Power Consumption [W], 2.53900
+ Component Sizing Information, Boiler:HotWater, PRIMARY BOILER 2KBTU/HR 0.85 AFUE, Design Size Nominal Capacity [W], 519.51595
+ Component Sizing Information, Boiler:HotWater, PRIMARY BOILER 2KBTU/HR 0.85 AFUE, User-Specified Nominal Capacity [W], 519.51595
+ Component Sizing Information, Boiler:HotWater, PRIMARY BOILER 2KBTU/HR 0.85 AFUE, Design Size Design Water Flow Rate [m3/s], 7.72947E-006
+ Component Sizing Information, Boiler:HotWater, SECONDARY BOILER 0KBTU/HR 0.85 AFUE, Design Size Nominal Capacity [W], 519.51595
+ Component Sizing Information, Boiler:HotWater, SECONDARY BOILER 0KBTU/HR 0.85 AFUE, User-Specified Nominal Capacity [W], 1.00000E-003
+ Component Sizing Information, Boiler:HotWater, SECONDARY BOILER 0KBTU/HR 0.85 AFUE, Design Size Design Water Flow Rate [m3/s], 7.72947E-006
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Maximum Loop Flow Rate [m3/s], 7.13697E-004
+ Component Sizing Information, PlantLoop, MAIN SERVICE WATER LOOP, Plant Loop Volume [m3], 8.56436E-002
+ Component Sizing Information, Pump:ConstantSpeed, SERVICE WATER LOOP PUMP, Design Flow Rate [m3/s], 7.13697E-004
+ Component Sizing Information, Pump:ConstantSpeed, SERVICE WATER LOOP PUMP, Design Power Consumption [W], 247.48349
+ Component Sizing Information, WaterHeater:Mixed, 446GAL NATURALGAS WATER HEATER - 877KBTU/HR 0.803 THERM EFF, Use Side Design Flow Rate [m3/s], 7.13697E-004
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+! <Environment:Design Day Data>, Max Dry-Bulb Temp {C}, Temp Range {dC}, Temp Range Ind Type, Hum Ind Value at Max Temp, Hum Ind Type,Pressure {Pa}, Wind Direction {deg CW from N}, Wind Speed {m/s}, Clearness, Rain, Snow
+! <Environment:Design Day Misc>,DayOfYear,ASHRAE A Coeff,ASHRAE B Coeff,ASHRAE C Coeff,Solar Constant-Annual Variation,Eq of Time {minutes}, Solar Declination Angle {deg}, Solar Model
+Environment:Design Day Data,28.90,12.40,DefaultMultipliers,96969,250,3.7,0.00,No,No
+Environment:Design Day Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
+Environment:WarmupDays,  6
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,2.8817729724E-002,6.1862014977E-002,Pass,Pass,3.0956668281E-002,7.3759704704E-002,Pass,Pass
+ Warmup Convergence Information,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.7916035394E-002,9.5300794275E-002,Pass,Pass,8.3952895689E-002,0.2076576251,Pass,Pass
+ Warmup Convergence Information,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,6.2565196191E-002,0.1072553049,Pass,Pass,8.9331816460E-002,0.2499318108,Pass,Pass
+ Warmup Convergence Information,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,4.6093525961E-002,0.1347597158,Pass,Pass,8.3462602037E-002,0.3961264983,Pass,Pass
+ Warmup Convergence Information,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,SizingPeriod: FORT MCMURRAY AP ANN CLG .4% CONDNS DB=>MWB,6.5195706959E-005,1.7701595520E-004,Pass,Pass,1.1622510073E-003,1.2510753440E-003,Pass,Pass
+Environment,FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,SizingPeriod:DesignDay,01/21,01/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,-36.20,0.00,DefaultMultipliers,96969,90,1.0,0.00,No,No
+Environment:Design Day Misc, 21,1229.0,0.1415,5.7310E-002,1.0,-11.15,-20.1,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,SP-FIRE STATION SLEEPING QUARTERS-SPACE FUNCTION SYS-3 FLR-1 SCH-G HPLCMT-CORE ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.3824634980E-002,0.1795674252,Pass,Pass,6.8564251014E-002,0.2064346870,Pass,Pass
+ Warmup Convergence Information,SP-GYMNASIUM/FITNESS CENTRE EXERCISE AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,5.5557144074E-002,0.3079915587,Pass,Pass,0.4761592372,2.6637453577,Pass,Pass
+ Warmup Convergence Information,SP-GYMNASIUM/FITNESS CENTRE PLAYING AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-B HPLCMT-EAST ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,8.7384513543E-002,0.2492132701,Pass,Pass,10.2476047989,119.5401743140,Pass,Pass
+ Warmup Convergence Information,SP-HEALTH CARE FACILITY EXAM/TREATMENT ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,6.5807983008E-002,0.2482549470,Pass,Pass,0.1868265175,0.9435659857,Pass,Pass
+ Warmup Convergence Information,SP-HEALTH CARE FACILITY IMAGING ROOM-SPACE FUNCTION SYS-3 FLR-1 SCH-H HPLCMT-WEST ZN,SizingPeriod: FORT MCMURRAY AP ANN HTG 99.6% CONDNS DB,1.6783357852E-002,0.1003313043,Pass,Pass,1.1234212922E-002,5.6040824743E-002,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

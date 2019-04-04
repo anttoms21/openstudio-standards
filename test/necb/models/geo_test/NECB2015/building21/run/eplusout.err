@@ -1,0 +1,238 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 18:00,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 10", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 11", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 12", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 13", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 14", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 15", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 16", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 17", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 18", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 19", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 20", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 21", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 22", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 23", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 24", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 25", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 26", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 27", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 28", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 29", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 5", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 6", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 7", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 8", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="ECONOMIZER MAX OA FRACTION 100 PCT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 10", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 11", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 12", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 13", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 14", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 15", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 16", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 17", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 3", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 4", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 5", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 6", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 7", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 8", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION OFFICE ENCLOSED > 25 M2 PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-OFFICE ENCLOSED > 25 M2-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[119] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [20] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-OFFICE ENCLOSED > 25 M2-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-CORE ZN SPACE FUNCTION OFFICE ENCLOSED > 25 M2 PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION OFFICE OPEN PLAN PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-OFFICE OPEN PLAN-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-OFFICE OPEN PLAN-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-SOUTH ZN SPACE FUNCTION OFFICE OPEN PLAN PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION SEATING AREA GENERAL-SCH-A PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="SP-SEATING AREA GENERAL-SCH-A-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[125] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [26] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-SEATING AREA GENERAL-SCH-A-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-WEST ZN SPACE FUNCTION SEATING AREA GENERAL-SCH-A PEOPLE".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION OFFICE ENCLOSED > 25 M2 LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-OFFICE ENCLOSED > 25 M2-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[119] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [20] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-OFFICE ENCLOSED > 25 M2-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-CORE ZN SPACE FUNCTION OFFICE ENCLOSED > 25 M2 LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION OFFICE OPEN PLAN LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-OFFICE OPEN PLAN-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-OFFICE OPEN PLAN-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-SOUTH ZN SPACE FUNCTION OFFICE OPEN PLAN LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION SEATING AREA GENERAL-SCH-A LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="SP-SEATING AREA GENERAL-SCH-A-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-WEST ZN".
+   **   ~~~   ** Item length=[125] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [26] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-SEATING AREA GENERAL-SCH-A-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-WEST ZN SPACE FUNCTION SEATING AREA GENERAL-SCH-A LIGHTS".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION OFFICE ENCLOSED > 25 M2 ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-OFFICE ENCLOSED > 25 M2-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-CORE ZN".
+   **   ~~~   ** Item length=[123] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [24] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-OFFICE ENCLOSED > 25 M2-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-CORE ZN SPACE FUNCTION OFFICE ENCLOSED > 25 M2 ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION OFFICE OPEN PLAN ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-OFFICE OPEN PLAN-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-SOUTH ZN".
+   **   ~~~   ** Item length=[110] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [11] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-OFFICE OPEN PLAN-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-SOUTH ZN SPACE FUNCTION OFFICE OPEN PLAN ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION PHARMACY AREA ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="SP-PHARMACY AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-EAST ZN".
+   **   ~~~   ** Item length=[103] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [4] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="SP-PHARMACY AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-EAST ZN SPACE FUNCTION PHARMACY AREA ELEC EQUIP".
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 196KBTU/HR 9.08EER", invalid
+   **   ~~~   ** ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.
+   **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015
+   **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 3 196KBTU/HR 9.08EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 139KBTU/HR 9.08EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 5 151KBTU/HR 9.08EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 4 128KBTU/HR 9.26EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 440KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-SEATING AREA GENERAL-SCH-A-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-WEST ZN ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 9.875E-002. Environment=RUN PERIOD 1, at Simulation time=01/02 07:05 - 07:10
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-SALES AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 8.362E-004. Environment=RUN PERIOD 1, at Simulation time=01/02 08:00 - 08:10
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-PHARMACY AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-EAST ZN ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 8.343E-002. Environment=RUN PERIOD 1, at Simulation time=01/02 08:03 - 08:07
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 4 128KBTU/HR 9.26EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.52 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/06 11:50 - 12:00
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 11.800 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 5 151KBTU/HR 9.08EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.18 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/06 12:00 - 12:10
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 11.900 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 3 196KBTU/HR 9.08EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.73 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/24 10:40 - 10:50
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.033 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 2 139KBTU/HR 9.08EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.73 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/24 10:50 - 11:00
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.200 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-RESIDUAL OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-NATURAL GAS" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ************* Simulation Error Summary *************
+   ************* There are 9 unused schedules in input.
+   ************* There are 9 unused week schedules in input.
+   ************* There are 22 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-SEATING AREA GENERAL-SCH-A-SPACE FUNCTION SYS-3 FLR-1 SCH-A HPLCMT-WEST ZN ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 1385 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.382229  Min=3.949481E-003
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-SALES AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-NORTH ZN ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 2117 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.334016  Min=4.127149E-004
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ SP-PHARMACY AREA-SPACE FUNCTION SYS-3 FLR-1 SCH-C HPLCMT-EAST ZN ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 1973 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.499814  Min=4.017738E-004
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4 128KBTU/HR 9.26EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 809 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.998271  Min=-2.772393
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 5 151KBTU/HR 9.08EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 626 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.997044  Min=-2.473285
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 196KBTU/HR 9.08EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 174 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.990729  Min=2.233722E-002
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 2 139KBTU/HR 9.08EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 182 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.997697  Min=-0.261121
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 56 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 7340 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 19.17sec

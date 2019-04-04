@@ -1,11 +1,9 @@
 EnergyPlus Starting
-EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:20
+EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 17:58
 Initializing Response Factors
-Calculating CTFs for "BTAP-EXT-ROOF-METAL:U-0.162", Construction # 18
-Calculating CTFs for "BTAP-EXT-WALL-MASS:U-0.21", Construction # 22
 Calculating CTFs for "BTAP-GRND-FLOOR-MASS:U-0.757", Construction # 24
+Calculating CTFs for "BTAP-GRND-ROOF-MASS:U-0.284", Construction # 26
 Calculating CTFs for "BTAP-GRND-WALL-MASS:U-0.284", Construction # 28
-Calculating CTFs for "BTAP-INT-CEILING", Construction # 29
 Calculating CTFs for "BTAP-INT-WALL", Construction # 33
 Initializing Window Optical Properties
 Initializing Solar Calculations

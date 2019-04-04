@@ -1,0 +1,496 @@
+
+ Meters for 9,WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 219,WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 232,WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 245,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 258,WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 271,WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+
+ Meters for 332,WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J]
+
+ Meters for 359,WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+
+ Meters for 384,WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J]
+
+ Meters for 399,WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+
+ Meters for 424,WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
+
+ Meters for 439,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+
+ Meters for 464,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J]
+
+ Meters for 479,WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+
+ Meters for 504,WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
+
+ Meters for 519,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 556,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 593,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 630,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 667,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 704,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 705,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 706,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 707,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 708,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 709,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 710,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 711,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 712,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 737,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 738,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN LONG-TERM CARE - OTHER WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN MANUFACTURING FACILITY WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN MULTI-UNIT RESIDENTIAL BUILDING WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-LONG-TERM CARE - OTHER ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-LONG-TERM CARE - OTHER ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MANUFACTURING FACILITY ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MANUFACTURING FACILITY ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL BUILDING ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

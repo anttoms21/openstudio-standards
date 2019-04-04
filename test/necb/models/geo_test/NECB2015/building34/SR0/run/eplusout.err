@@ -1,0 +1,97 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 18:00,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION HEALTH CARE FACILITY PHYSICAL THERAPY ROOM PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="HEALTH CARE FACILITY PHYSICAL THERAPY ROOM-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[124] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [25] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="HEALTH CARE FACILITY PHYSICAL THERAPY ROOM-SPACE FUNCTION ZN SPACE FUNCTION HEALTH CARE FACILITY PHYSICAL THERAPY ROOM PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION HEALTH CARE FACILITY RECOVERY ROOM PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN SPACE FUNCTION HEALTH CARE FACILITY RECOVERY ROOM PEOPLE".
+   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION MANUFACTURING FACILITY DETAILED MANUFACTURING AREA PEOPLE".
+   **   ~~~   ** ZoneList/Zone Name="MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[140] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [41] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN SPACE FUNCTION MANUFACTURING FACILITY DETAILED MANUFACTURING AREA PEOPLE".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION HEALTH CARE FACILITY PHYSICAL THERAPY ROOM LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="HEALTH CARE FACILITY PHYSICAL THERAPY ROOM-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[124] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [25] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="HEALTH CARE FACILITY PHYSICAL THERAPY ROOM-SPACE FUNCTION ZN SPACE FUNCTION HEALTH CARE FACILITY PHYSICAL THERAPY ROOM LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION HEALTH CARE FACILITY RECOVERY ROOM LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN SPACE FUNCTION HEALTH CARE FACILITY RECOVERY ROOM LIGHTS".
+   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION MANUFACTURING FACILITY DETAILED MANUFACTURING AREA LIGHTS".
+   **   ~~~   ** ZoneList/Zone Name="MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[140] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [41] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN SPACE FUNCTION MANUFACTURING FACILITY DETAILED MANUFACTURING AREA LIGHTS".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION HEALTH CARE FACILITY PHYSICAL THERAPY ROOM ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="HEALTH CARE FACILITY PHYSICAL THERAPY ROOM-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[128] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [29] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="HEALTH CARE FACILITY PHYSICAL THERAPY ROOM-SPACE FUNCTION ZN SPACE FUNCTION HEALTH CARE FACILITY PHYSICAL THERAPY ROOM ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION HEALTH CARE FACILITY RECOVERY ROOM ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN SPACE FUNCTION HEALTH CARE FACILITY RECOVERY ROOM ELEC EQUIP".
+   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
+   **   ~~~   ** Object Name="SPACE FUNCTION MANUFACTURING FACILITY DETAILED MANUFACTURING AREA ELEC EQUIP".
+   **   ~~~   ** ZoneList/Zone Name="MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN".
+   **   ~~~   ** Item length=[144] > Maximum Length=[100]. You may need to shorten the names.
+   **   ~~~   ** Shortening the Object Name by [45] characters will assure uniqueness for this ZoneList.
+   **   ~~~   ** name that will be used (may be needed in reporting)="MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN SPACE FUNCTION MANUFACTURING FACILITY DETAILED MANUFACTURING AREA ELEC EQUIP".
+   ** Warning ** Calculated design heating load for zone=HEALTH CARE FACILITY RECOVERY ROOM-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=MANUFACTURING FACILITY DETAILED MANUFACTURING AREA-SPACE FUNCTION ZN is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Output:Table:Monthly requested with SimulationControl Run Simulation for Weather File Run Periods set to No so Output:Table:Monthly will not be generated
+   ************* Simulation Error Summary *************
+   ************* There are 8 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 7 unused schedules in input.
+   ************* There are 7 unused week schedules in input.
+   ************* There are 10 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 17 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 21 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  1.10sec

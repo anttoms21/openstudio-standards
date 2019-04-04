@@ -1,0 +1,251 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 17:59,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 10", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 11", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 12", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 13", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 14", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 15", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 16", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 17", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 18", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 19", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 20", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 21", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 22", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 23", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 24", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 25", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 26", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 27", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 28", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 29", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 30", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="ECONOMIZER MAX OA FRACTION 100 PCT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 10", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 11", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 12", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 13", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 14", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 3", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 4", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 5", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 6", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 7", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 8", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetSetPointManagerInputs: SetpointManager:SingleZone:Reheat="SETPOINT MANAGER SINGLE ZONE REHEAT 4",
+   **   ~~~   ** ...Maximum Supply Air Temperature=[13.0] is less than Minimum Supply Air Temperature=[13.1].
+   ** Warning ** Calculated design heating load for zone=ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=A 2 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4 44KBTU/HR 14.0SEER", invalid
+   **   ~~~   ** ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.
+   **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015
+   **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 4 44KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 5 159KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 60KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 139KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 3 139KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named PRIMARY CHILLER WATERCOOLED SCROLL 3TONS 0.8KW/TON
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a chiller in variable flow mode, use a SetpointManager
+   **   ~~~   **   The overall loop setpoint will be assumed for chiller. The simulation continues ... 
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a chiller in variable flow mode, use a SetpointManager
+   **   ~~~   **   The overall loop setpoint will be assumed for chiller. The simulation continues ... 
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Error when autosizing the load for cooling tower = COOLING TOWER SINGLE SPEED 1. Tower Design Range Temperature is different from the Design Loop Delta Temperature.
+   **   ~~~   ** Tower Design Range Temperature specified in tower = COOLING TOWER SINGLE SPEED 1
+   **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
+   **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
+   **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 1 60KBTU/HR 14.0SEER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -9.27
+   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/02 07:15 - 07:17
+   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 3 139KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.45 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/07 14:00 - 14:05
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.533 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_4_PSZ_ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=E ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 6.689E-002. Environment=RUN PERIOD 1, at Simulation time=01/07 15:35 - 15:40
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 2 139KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -2.70 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/07 15:40 - 15:45
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.283 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_4_PSZ_ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=E 1 ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 3.116E-002. Environment=RUN PERIOD 1, at Simulation time=01/07 15:50 - 16:00
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 5 159KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.34 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/24 10:50 - 11:00
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.200 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** GetDensityGlycol: Temperature is out of range (too high) for fluid [WATER] density **
+   **   ~~~   ** ..Called From:PlantPumps:CalcPumps: ,Temperature=[100.02], supplied data range=[0.00,100.00]
+   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=08/14 06:20 - 06:30
+   ** Warning ** GetSpecificHeatGlycol: Temperature is out of range (too high) for fluid [WATER] specific heat **
+   **   ~~~   ** ..Called From:PlantLoopSolver::EvaluateLoopSetPointLoad,Temperature=[125.00], supplied data range=[0.00,125.00]
+   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=08/25 08:30 - 08:40
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 4 44KBTU/HR 14.0SEER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.51 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 09/12 09:00 - 09:10
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 11.996 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 4 44KBTU/HR 14.0SEER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -6.67E-002
+   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 09/14 05:00 - 05:10
+   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-RESIDUAL OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-NATURAL GAS" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ************* Simulation Error Summary *************
+   ************* There are 9 unused schedules in input.
+   ************* There are 9 unused week schedules in input.
+   ************* There are 28 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 1 60KBTU/HR 14.0SEER" - Low condenser dry-bulb temperature error continues...
+   *************  **   ~~~   **   This error occurred 279 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-0.1 [C]  Min=-24.6 [C]
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 139KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 412 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.989787  Min=-2.880492
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_4_PSZ_ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=E ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 500 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.48183  Min=2.907143E-003
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 2 139KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 486 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.989787  Min=-2.880492
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_4_PSZ_ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=E 1 ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 482 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.477009  Min=7.008608E-004
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 5 159KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 242 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.998304  Min=-0.635403
+   *************
+   *************  ** Warning ** GetDensityGlycol: Temperature out of range (too high) for fluid [WATER] density **
+   *************  **   ~~~   **   This error occurred 695970 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=282.509058 {C}  Min=100.000893 {C}
+   *************
+   *************  ** Warning ** Plant loop exceeding upper temperature limit, PlantLoop="HOT WATER LOOP"
+   *************  **   ~~~   **   This error occurred 27610 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=282.509058
+   *************
+   *************  ** Warning ** GetSpecificHeatGlycol: Temperature out of range (too high) for fluid [WATER] specific heat **
+   *************  **   ~~~   **   This error occurred 1094953 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=282.520936 {C}  Min=125.000023 {C}
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4 44KBTU/HR 14.0SEER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 1148 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.997313  Min=-1.975948
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4 44KBTU/HR 14.0SEER" - Low condenser dry-bulb temperature error continues...
+   *************  **   ~~~   **   This error occurred 1142 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-2.775558E-017 [C]  Min=-8.3 [C]
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 43 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 1823292 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 36.07sec

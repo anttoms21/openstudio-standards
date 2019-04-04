@@ -1,1514 +1,420 @@
 
- Meters for 9,HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy [J]
+ Meters for 9,WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 82,HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy [J]
+ Meters for 82,WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 107,HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy [J]
+ Meters for 107,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 132,HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy [J]
+ Meters for 132,WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 157,HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy [J]
+ Meters for 157,WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J]
   OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorLights:Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 182,HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy [J]
+ Meters for 182,WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 207,HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 232,HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 257,HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 282,HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 307,HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 332,HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 357,HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 382,HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 407,LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 432,LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 457,LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 482,LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 507,LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 532,LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 557,HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 594,HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 219,WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 607,HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 232,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 620,HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 245,WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 633,HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+ Meters for 258,WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J]
   OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 646,HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 659,HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 672,HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 685,HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 698,HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 711,HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 724,HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 737,HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 750,HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 763,LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 776,LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 789,LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 802,LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 815,LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 828,HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 271,WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J]
 
- Meters for 889,HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 332,WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J]
 
- Meters for 916,HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 359,WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
 
- Meters for 941,HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 384,WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J]
 
- Meters for 956,HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 399,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
 
- Meters for 981,HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 424,WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J]
 
- Meters for 996,HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 439,WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
 
- Meters for 1021,HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 464,WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J]
 
- Meters for 1036,HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
+ Meters for 479,WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J]
   OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J]
 
- Meters for 1061,HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
+ Meters for 504,WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J]
   OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J]
 
- Meters for 1076,HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-
- Meters for 1101,HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J]
-
- Meters for 1116,HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-
- Meters for 1141,HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J]
-
- Meters for 1156,HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-
- Meters for 1181,HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J]
-
- Meters for 1196,HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-
- Meters for 1221,HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J]
-
- Meters for 1236,HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-
- Meters for 1261,HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J]
-
- Meters for 1276,HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-
- Meters for 1301,HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J]
-
- Meters for 1316,HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-
- Meters for 1341,HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J]
-
- Meters for 1356,HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-
- Meters for 1381,HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J]
-
- Meters for 1396,HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-
- Meters for 1421,HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J]
-
- Meters for 1436,LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-
- Meters for 1461,LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J]
-
- Meters for 1476,LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-
- Meters for 1501,LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J]
-
- Meters for 1516,LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-
- Meters for 1541,LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J]
-
- Meters for 1556,LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-
- Meters for 1581,LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J]
-
- Meters for 1596,LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
-
- Meters for 1621,LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J]
-
- Meters for 1636,LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-  OnMeter=Heating:EnergyTransfer [J]
-  OnMeter=Heating:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-
- Meters for 1661,LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:Building [J]
-  OnMeter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-  OnMeter=Cooling:EnergyTransfer [J]
-  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J]
-
- Meters for 1676,Whole Building:Facility Total Purchased Electric Energy [J]
+ Meters for 519,Whole Building:Facility Total Purchased Electric Energy [J]
   OnMeter=ElectricityPurchased:Facility [J]
   OnMeter=ElectricityPurchased:Plant [J]
   OnMeter=Cogeneration:ElectricityPurchased [J]
 
- Meters for 1713,Whole Building:Facility Total Surplus Electric Energy [J]
+ Meters for 556,Whole Building:Facility Total Surplus Electric Energy [J]
   OnMeter=ElectricitySurplusSold:Facility [J]
   OnMeter=ElectricitySurplusSold:Plant [J]
   OnMeter=Cogeneration:ElectricitySurplusSold [J]
 
- Meters for 1750,Whole Building:Facility Net Purchased Electric Energy [J]
+ Meters for 593,Whole Building:Facility Net Purchased Electric Energy [J]
   OnMeter=ElectricityNet:Facility [J]
   OnMeter=ElectricityNet:Plant [J]
   OnMeter=Cogeneration:ElectricityNet [J]
 
- Meters for 1787,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 630,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1824,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 667,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1861,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 704,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1862,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 705,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1863,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 706,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1864,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 707,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1865,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 708,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1866,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 709,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1867,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+ Meters for 710,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
   OnMeter=DistrictHeating:Facility [J]
   OnMeter=DistrictHeating:HVAC [J]
   OnMeter=Heating:DistrictHeating [J]
 
- Meters for 1868,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+ Meters for 711,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
   OnMeter=DistrictCooling:Facility [J]
   OnMeter=DistrictCooling:HVAC [J]
   OnMeter=Cooling:DistrictCooling [J]
 
- Meters for 1869,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1870,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1871,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1872,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1873,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1874,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1875,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1876,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1877,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1878,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1879,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1880,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1881,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1882,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1883,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1884,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1885,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1886,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1887,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1888,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1889,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1890,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1891,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1892,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1893,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1894,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1895,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1896,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1897,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
-  OnMeter=DistrictHeating:Facility [J]
-  OnMeter=DistrictHeating:HVAC [J]
-  OnMeter=Heating:DistrictHeating [J]
-
- Meters for 1898,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
-  OnMeter=DistrictCooling:Facility [J]
-  OnMeter=DistrictCooling:HVAC [J]
-  OnMeter=Cooling:DistrictCooling [J]
-
- Meters for 1899,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+ Meters for 712,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
- Meters for 1924,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+ Meters for 737,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
- Meters for 1925,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+ Meters for 738,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
  For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING LIGHTS:Lights Electric Energy
 
- For Meter=Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  LIBRARY - STACKS-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - STACKS LIGHTS:Lights Electric Energy
-
- For Meter=Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, Group=Zone, contents are:
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorLights:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR LIGHTS:Lights Electric Energy
+ For Meter=InteriorLights:Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING LIGHTS:Lights Electric Energy
 
  For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MOTEL ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - MEDICAL SUPPLY - OCCSENS ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTEL ZN MOTEL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSERY ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN MOTION PICTURE THEATRE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - NURSES STATION ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN MULTI-UNIT RESIDENTIAL WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - OPERATING ROOM ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN MUSEUM WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PATIENT ROOM ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHARMACY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - PHYSICAL THERAPY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RADIOLOGY/IMAGING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN SPACE FUNCTION HOSPITAL - RECOVERY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - DINING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - LOBBY ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HOTEL/MOTEL - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HWAY LODGING - DINING-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - DINING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN SPACE FUNCTION HWAY LODGING - ROOMS ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  LAB - CLASSROOMS-SPACE FUNCTION ZN SPACE FUNCTION LAB - CLASSROOMS ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  LAB - RESEARCH-SPACE FUNCTION ZN SPACE FUNCTION LAB - RESEARCH ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - CATALOGING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  LIBRARY - READING-SPACE FUNCTION ZN SPACE FUNCTION LIBRARY - READING ELEC EQUIP:Electric Equipment Electric Energy
-
- For Meter=InteriorEquipment:Electricity:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN SPACE FUNCTION LOBBY - ELEVATOR ELEC EQUIP:Electric Equipment Electric Energy
+ For Meter=InteriorEquipment:Electricity:Zone:WHOLEBUILDING-OFFICE ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  WHOLEBUILDING-OFFICE ZN OFFICE WHOLEBUILDING ELEC EQUIP:Electric Equipment Electric Energy
 
  For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Cooling Energy
 
  For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Cooling Energy
 
  For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Heating Energy
 
  For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - MEDICAL SUPPLY - OCCSENS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MOTEL ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MOTEL ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - NURSERY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - NURSERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MOTION PICTURE THEATRE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MOTION PICTURE THEATRE ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - NURSES STATION-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - NURSES STATION-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - OPERATING ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-MUSEUM ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-MUSEUM ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Heating Energy
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Cooling Energy
 
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
+ For Meter=Heating:EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Heating Energy
 
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - PATIENT ROOM-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - PHARMACY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - PHARMACY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - PHYSICAL THERAPY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - RADIOLOGY/IMAGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOSPITAL - RECOVERY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOSPITAL - RECOVERY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOTEL/MOTEL - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOTEL/MOTEL - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOTEL/MOTEL - LOBBY-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HOTEL/MOTEL - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HWAY LODGING - DINING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HWAY LODGING - DINING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:HWAY LODGING - ROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  HWAY LODGING - ROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:LAB - CLASSROOMS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  LAB - CLASSROOMS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:LAB - RESEARCH-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  LAB - RESEARCH-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:LIBRARY - CATALOGING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  LIBRARY - CATALOGING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:LIBRARY - READING-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  LIBRARY - READING-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:LIBRARY - STACKS-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  LIBRARY - STACKS-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
-
- For Meter=Heating:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Heating Energy
-
- For Meter=Cooling:EnergyTransfer:Zone:LOBBY - ELEVATOR-SPACE FUNCTION ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
-  LOBBY - ELEVATOR-SPACE FUNCTION ZN:Zone Air System Sensible Cooling Energy
+ For Meter=Cooling:EnergyTransfer:Zone:WHOLEBUILDING-OFFICE ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  WHOLEBUILDING-OFFICE ZN:Zone Air System Sensible Cooling Energy
 
  For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
   Whole Building:Facility Total Purchased Electric Energy
@@ -1543,21 +449,6 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
 
  For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
   ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
@@ -1565,21 +456,6 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
 
  For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
   ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
@@ -1587,21 +463,6 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
 
  For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
   ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
@@ -1609,21 +470,6 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
 
  For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
   ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
@@ -1631,21 +477,6 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
 
  For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
   ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
@@ -1653,21 +484,6 @@
   ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
   ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
-  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
 
  For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
   Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass

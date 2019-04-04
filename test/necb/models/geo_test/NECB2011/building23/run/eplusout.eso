@@ -1,0 +1,19 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 17:59
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Report Variables Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Report Variables Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Report Variables Requested
+6,1,Calendar Year of Simulation[] ! When Annual Report Variables Requested
+7,9,Environment,Site Outdoor Air Drybulb Temperature [C] !Monthly [Value,Min,Day,Hour,Minute,Max,Day,Hour,Minute]
+8,1,Environment,Site Outdoor Air Wetbulb Temperature [C] !TimeStep
+529,1,ALL_ST=STORAGE AREA - REFRIGERATED - OCCSENS_FL=STORY 1_SCH=E,Zone Air Temperature [C] !Hourly
+530,7,ALL_ST=STORAGE AREA - REFRIGERATED - OCCSENS_FL=STORY 1_SCH=E,Zone Air Relative Humidity [%] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+569,1,ALL_ST=TRANSP. BAGGAGE_FL=STORY 1_SCH=H,Zone Air Temperature [C] !Hourly
+570,7,ALL_ST=TRANSP. BAGGAGE_FL=STORY 1_SCH=H,Zone Air Relative Humidity [%] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+609,1,ALL_ST=TRANSP. CONCOURSE_FL=STORY 1_SCH=H,Zone Air Temperature [C] !Hourly
+610,7,ALL_ST=TRANSP. CONCOURSE_FL=STORY 1_SCH=H,Zone Air Relative Humidity [%] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+649,1,ALL_ST=TRANSP. COUNTER_FL=STORY 1_SCH=H,Zone Air Temperature [C] !Hourly
+650,7,ALL_ST=TRANSP. COUNTER_FL=STORY 1_SCH=H,Zone Air Relative Humidity [%] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]
+689,1,ALL_ST=TRANSP. SEATING_FL=STORY 1_SCH=H,Zone Air Temperature [C] !Hourly
+690,7,ALL_ST=TRANSP. SEATING_FL=STORY 1_SCH=H,Zone Air Relative Humidity [%] !Daily [Value,Min,Hour,Minute,Max,Hour,Minute]

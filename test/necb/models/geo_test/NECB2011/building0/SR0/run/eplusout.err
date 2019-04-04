@@ -1,25 +1,12 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:10,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 17:58,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-CONVENTION CENTRE ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-DINING - CAFETERIA ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-FIRE STATION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-HEALTH-CARE CLINIC ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-LIBRARY ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-MANUFACTURING FACILITY ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-MULTI-UNIT RESIDENTIAL ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
@@ -35,9 +22,9 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:10,
    ************* Simulation Error Summary *************
    ************* There are 8 unused objects in input.
    ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
-   ************* There are 6 unused schedules in input.
-   ************* There are 6 unused week schedules in input.
-   ************* There are 9 unused day schedules in input.
+   ************* There are 7 unused schedules in input.
+   ************* There are 7 unused week schedules in input.
+   ************* There are 10 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
    ************* ===== Final Error Summary =====
@@ -48,5 +35,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:10,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 12 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 16 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.31sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 6 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 10 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  1.07sec

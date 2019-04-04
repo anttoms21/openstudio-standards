@@ -1,11 +1,8 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:11,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 17:59,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 10", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 100", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 101", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 102", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 11", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 12", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 13", Blank Schedule Type Limits Name input -- will not be validated.
@@ -31,73 +28,10 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:11,
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 32", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 33", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 34", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 35", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 36", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 37", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 38", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 39", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 40", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 41", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 42", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 43", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 44", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 45", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 46", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 47", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 48", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 49", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 50", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 51", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 52", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 53", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 54", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 55", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 56", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 57", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 58", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 59", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 60", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 61", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 62", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 63", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 64", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 65", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 66", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 67", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 68", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 69", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 70", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 71", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 72", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 73", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 74", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 75", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 76", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 77", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 78", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 79", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 8", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 80", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 81", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 82", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 83", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 84", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 85", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 86", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 87", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 88", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 89", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 9", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 90", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 91", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 92", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 93", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 94", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 95", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 96", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 97", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 98", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 99", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 4", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="TPFC_HTG_AVAILABILITY_SCH_RULE_DAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="TPFC_HTG_AVAILABILITY_SCH_RULE_DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="TPFC_HTG_AVAILABILITY_SCH_RULE_DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="ECONOMIZER MAX OA FRACTION 100 PCT", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 10", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 11", Blank Schedule Type Limits Name input -- will not be validated.
@@ -107,224 +41,47 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:11,
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 15", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 16", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 17", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 18", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 19", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 20", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 21", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 22", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 23", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 24", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 25", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 26", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 27", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 28", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 29", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 3", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 30", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 31", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 32", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 33", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 34", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 35", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 36", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 37", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 38", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 39", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 4", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 40", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 41", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 42", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 43", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 44", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 45", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 46", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 47", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 48", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 49", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 5", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 50", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 51", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 52", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 53", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 54", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 55", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 56", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 57", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 58", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 59", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 6", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 7", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 8", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="SCHEDULE RULESET 9", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="TPFC_HTG_AVAILABILITY", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DORMITORY - LIVING QUARTERS PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG".
-   **   ~~~   ** Item length=[116] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [17] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG SPACE FUNCTION DORMITORY - LIVING QUARTERS PEOPLE".
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C".
-   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS PEOPLE".
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION FIRE STATION - QUARTERS PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG".
-   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG SPACE FUNCTION FIRE STATION - QUARTERS PEOPLE".
-   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION PEOPLE".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION PEOPLE".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG".
-   **   ~~~   ** Item length=[116] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [17] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG SPACE FUNCTION DORMITORY - LIVING QUARTERS LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C".
-   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG".
-   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG SPACE FUNCTION FIRE STATION - QUARTERS LIGHTS".
-   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION LIGHTS".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=DINING - BAR LOUNGE/LEISURE_FL=STORY 3_SCH=B".
-   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=DINING - BAR LOUNGE/LEISURE_FL=STORY 3_SCH=B SPACE FUNCTION DINING - BAR LOUNGE/LEISURE ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG".
-   **   ~~~   ** Item length=[120] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [21] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG SPACE FUNCTION DORMITORY - LIVING QUARTERS ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C".
-   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C SPACE FUNCTION DRESS./FITT. - PERFORMANCE ARTS ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=FIRE STATION - ENGINE ROOM_FL=STORY 1_SCH=H".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=FIRE STATION - ENGINE ROOM_FL=STORY 1_SCH=H SPACE FUNCTION FIRE STATION - ENGINE ROOM ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG".
-   **   ~~~   ** Item length=[112] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [13] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG SPACE FUNCTION FIRE STATION - QUARTERS ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=HOSPITAL - LAUNDRY/WASHING_FL=STORY 1_SCH=C".
-   **   ~~~   ** Item length=[102] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [3] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=HOSPITAL - LAUNDRY/WASHING_FL=STORY 1_SCH=C SPACE FUNCTION HOSPITAL - LAUNDRY/WASHING ELEC EQUIP".
-   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.
-   **   ~~~   ** Object Name="SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP".
-   **   ~~~   ** ZoneList/Zone Name="ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B".
-   **   ~~~   ** Item length=[106] > Maximum Length=[100]. You may need to shorten the names.
-   **   ~~~   ** Shortening the Object Name by [7] characters will assure uniqueness for this ZoneList.
-   **   ~~~   ** name that will be used (may be needed in reporting)="ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B SPACE FUNCTION HOSPITAL - LOUNGE/RECREATION ELEC EQUIP".
-   ** Warning ** Calculated design heating load for zone=ALL_ST=COURTHOUSE - COURTROOM_FL=STORY 3_SCH=A is zero.
+   ** Warning ** GetSetPointManagerInputs: SetpointManager:SingleZone:Reheat="SETPOINT MANAGER SINGLE ZONE REHEAT 4",
+   **   ~~~   ** ...Maximum Supply Air Temperature=[13.0] is less than Minimum Supply Air Temperature=[13.1].
+   ** Warning ** Calculated design heating load for zone=ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=A is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=DINING - OTHER_FL=STORY 1_SCH=B is zero.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=A 1 is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=FIRE STATION - ENGINE ROOM_FL=STORY 1_SCH=H is zero.
+   ** Warning ** Calculated design heating load for zone=ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=H is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=FOOD PREPARATION_FL=STORY 2_SCH=B is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=GYM - FITNESS_FL=STORY 1_SCH=B is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=GYM - PLAY_FL=STORY 1_SCH=B is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=HOSPITAL - EMERGENCY_FL=STORY 2_SCH=H is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=HOSPITAL - LAUNDRY/WASHING_FL=STORY 1_SCH=C is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=ALL_ST=HOSPITAL - MEDICAL SUPPLY_FL=STORY 2_SCH=H is zero.
+   ** Warning ** Calculated design heating load for zone=DU_BT=HOTEL_ST=WHOLEBUILDING_FL=STORY 1_SCHF is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ************* Beginning System Sizing Calculations
-   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 3
-   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 1
-   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 1
-   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 2
-   ** Warning ** Since Damper Heating Action = NORMAL, input for Maximum Flow Fraction During Reheat will be ignored.
-   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = AIR TERMINAL SINGLE DUCT VAV REHEAT 2
-   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 116KBTU/HR 9.3EER", invalid
+   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 2 90KBTU/HR 9.3EER", invalid
    **   ~~~   ** ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.
    **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015
    **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.
    ************* Beginning Plant Sizing Calculations
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 3 116KBTU/HR 9.3EER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 90KBTU/HR 9.3EER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 5 306KBTU/HR 9.3EER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 43KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 37KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 6 113KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 4 93KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 3 334KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 6 431KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 5 156KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 7 362KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 4 244KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 8 379KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 9 379KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 10 379KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 11 186KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 12 252KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 13 348KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 14 348KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 15 332KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 16 163KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 17 231KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 293KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 18 135KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 19 387KBTU/HR 8.21EER but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named PRIMARY CHILLER WATERCOOLED SCROLL 97TONS 0.8KW/TON
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named PRIMARY CHILLER WATERCOOLED SCROLL 9TONS 0.8KW/TON
    **   ~~~   **   A temperature setpoint is needed at the outlet node of a chiller in variable flow mode, use a SetpointManager
    **   ~~~   **   The overall loop setpoint will be assumed for chiller. The simulation continues ... 
    ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode chiller named SECONDARY CHILLER WATERCOOLED SCROLL 0TONS 0.8KW/TON
@@ -360,9 +117,6 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:11,
    **   ~~~   ** is inconsistent with Design Loop Delta Temperature specified in Sizing:Plant object = CONDENSER WATER LOOP.
    **   ~~~   ** ..The Design Range Temperature specified in tower is = 5.00
    **   ~~~   ** ..The Design Loop Delta Temperature specified in plant sizing data is = 6.00
-   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named PRIMARY BOILER 3446KBTU/HR 0.833 COMBUSTION EFF
-   **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode, use a SetpointManager
-   **   ~~~   **   The overall loop setpoint will be assumed for Boiler. The simulation continues ... 
    ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
    ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
@@ -374,217 +128,42 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:11,
    ************* All Return Air Paths passed integrity testing
    ************* No node connection errors were found.
    ************* Beginning Simulation
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C" did not converge after 25 warmup days.
-   **   ~~~   ** See Warmup Convergence Information in .eio file for details.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 1.92E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 2.49E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 7.6902E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 2.0497E-003 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="ALL_ST=GYM - FITNESS_FL=STORY 1_SCH=B" did not converge after 25 warmup days.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 4.17E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 0.72 vs Temperature Convergence Tolerance=0.40 - Fail Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 0.9962 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 0.4697 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="ALL_ST=GYM - PLAY_FL=STORY 1_SCH=B" did not converge after 25 warmup days.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 4.78E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 6.61E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 0.0000 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 0.3362 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="ALL_ST=HOSPITAL - EXAM_FL=STORY 3_SCH=C" did not converge after 25 warmup days.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 6.86E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 2.60E-006 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 0.0000 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 7.0360E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="DU_BT=SPACE FUNCTION_ST=DORMITORY - LIVING QUARTERS_FL=STORY 4_SCHG" did not converge after 25 warmup days.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 4.23E-007 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 1.66E-007 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 0.3087 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 4.2038E-005 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="DU_BT=SPACE FUNCTION_ST=DWELLING UNIT(S)_FL=STORY 2_SCHG" did not converge after 25 warmup days.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 5.32E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 1.50E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 2.8747E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 0.1122 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="DU_BT=SPACE FUNCTION_ST=FIRE STATION - QUARTERS_FL=STORY 4_SCHG" did not converge after 25 warmup days.
-   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
-   **   ~~~   ** ..Max Temp Comparison = 4.62E-005 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Min Temp Comparison = 6.60E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
-   **   ~~~   ** ..Max Heat Load Comparison = 0.1237 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
-   **   ~~~   ** ..Max Cool Load Comparison = 8.8620E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
    ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
    **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_4_PSZ_ALL_ST=FOOD PREPARATION - VENTED_FL=STORY 4_SCH=B ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 2.660. Environment=RUN PERIOD 1, at Simulation time=01/01 01:01 - 01:02
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 19 387KBTU/HR 8.21EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -13.17
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/01 01:01 - 01:02
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 2 90KBTU/HR 9.3EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -9.47
+   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/01 00:00 - 00:10
    **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - MEDICAL SUPPLY_FL=STORY 2_SCH=H ERV"
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 2 90KBTU/HR 9.3EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.17 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/01 00:00 - 00:10
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 8.282 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 4 244KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 9.45E-002 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/07 13:30 - 13:40
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.366 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 5 156KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.31 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/24 10:50 - 11:00
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.200 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 3 334KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.65 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/24 12:30 - 12:40
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 16.233 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=A ERV"
    **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 1.446. Environment=RUN PERIOD 1, at Simulation time=01/01 08:03 - 08:05
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 1.406. Environment=RUN PERIOD 1, at Simulation time=01/01 10:00 - 10:10
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DINING - FAMILY SPACE_FL=STORY 3_SCH=B ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 4.056E-002. Environment=RUN PERIOD 1, at Simulation time=01/01 10:02 - 10:03
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=FOOD PREPARATION_FL=STORY 2_SCH=B ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 1.316. Environment=RUN PERIOD 1, at Simulation time=01/01 10:02 - 10:03
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - LAUNDRY/WASHING_FL=STORY 1_SCH=C ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 9.030E-003. Environment=RUN PERIOD 1, at Simulation time=01/01 10:08 - 10:10
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - EXAM_FL=STORY 3_SCH=C ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 2.178. Environment=RUN PERIOD 1, at Simulation time=01/01 11:10 - 11:12
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 14 348KBTU/HR 8.21EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -1.07
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/01 11:10 - 11:12
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 3 116KBTU/HR 9.3EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -1.05
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/01 11:26 - 11:27
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 3 116KBTU/HR 9.3EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 2.00 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/01 18:30 - 18:40
+   **   ~~~   ** Air volume flow rate ratio = 2.034E-002. Environment=RUN PERIOD 1, at Simulation time=05/01 20:50 - 21:00
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 6 113KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.97 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 07/03 07:50 - 07:55
    **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.946 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 7 362KBTU/HR 8.21EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -8.80
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/02 08:10 - 08:12
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=COURTHOUSE - COURTROOM_FL=STORY 3_SCH=A ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 1.164E-002. Environment=RUN PERIOD 1, at Simulation time=01/02 20:05 - 20:10
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DINING - OTHER_FL=STORY 1_SCH=B ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 1.019E-002. Environment=RUN PERIOD 1, at Simulation time=01/04 09:55 - 10:00
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 17 231KBTU/HR 9.7EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -3.42
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/05 08:03 - 08:05
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 17 231KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -0.36 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/05 08:03 - 08:05
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.789 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 14 348KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.02 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/05 09:22 - 09:23
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 11.927 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 12 252KBTU/HR 8.21EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -4.17
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/05 10:10 - 10:13
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 12 252KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.22 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/05 10:10 - 10:13
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.609 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 7 362KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -7.65E-002 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/06 08:10 - 08:12
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.132 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 11 186KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.51 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/06 09:12 - 09:14
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.616 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 15 332KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.18 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/07 12:30 - 12:40
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.333 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 18 135KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.75 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/07 12:50 - 13:00
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.900 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 13 348KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.45 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/07 13:50 - 14:00
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.600 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DINING - BAR LOUNGE/LEISURE_FL=STORY 3_SCH=B ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 8.661E-004. Environment=RUN PERIOD 1, at Simulation time=01/09 09:00 - 09:10
-   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B ERV"
-   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
-   **   ~~~   ** Air volume flow rate ratio = 1.501E-002. Environment=RUN PERIOD 1, at Simulation time=01/10 09:02 - 09:05
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 19 387KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -6.40E-002 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/15 01:02 - 01:03
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.096 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 5 306KBTU/HR 9.3EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -0.90
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 03/04 14:40 - 14:50
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 03/24 17:50 - 17:52
-   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
-   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on each max iteration exceeded.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 11 186KBTU/HR 9.7EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -5.73
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 03/27 09:10 - 09:11
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 16 163KBTU/HR 9.7EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -2.67
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 03/27 10:10 - 10:13
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 16 163KBTU/HR 9.7EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -0.15 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 03/27 10:10 - 10:13
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.108 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 04/06 22:40 - 22:50
-   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 13 348KBTU/HR 8.21EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -6.67E-002
-   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 04/10 08:03 - 08:05
-   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
-   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 04/15 20:55 - 20:60
-   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
-   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 04/21 21:30 - 21:40
-   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 9 379KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -0.51 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/26 09:48 - 09:50
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.383 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 6 431KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.35 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/26 10:50 - 11:00
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.500 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 8 379KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -1.38 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 04/30 09:10 - 09:11
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 11.733 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 10 379KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -0.11 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 05/06 09:07 - 09:09
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.033 C.
-   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
-   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
-   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 1 293KBTU/HR 8.21EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.77 C.
-   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 05/29 11:50 - 12:00
-   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
-   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.900 C.
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 12.100 C.
    **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
    **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
@@ -598,260 +177,64 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:11,
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
    **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
    ************* Simulation Error Summary *************
-   ************* There are 9 unused schedules in input.
-   ************* There are 9 unused week schedules in input.
-   ************* There are 59 unused day schedules in input.
+   ************* There are 10 unused schedules in input.
+   ************* There are 14 unused week schedules in input.
+   ************* There are 35 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
    ************* ===== Recurring Error Summary =====
    ************* The following recurring error messages occurred.
    *************
-   *************  ** Warning ** Plant loop falling below lower temperature limit, PlantLoop="MAIN SERVICE WATER LOOP"
-   *************  **   ~~~   **   This error occurred 1 total times;
-   *************  **   ~~~   **   during Warmup 1 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Min=4.461373
-   *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_4_PSZ_ALL_ST=FOOD PREPARATION - VENTED_FL=STORY 4_SCH=B ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 170150 total times;
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 2 90KBTU/HR 9.3EER" - Low condenser dry-bulb temperature error continues...
+   *************  **   ~~~   **   This error occurred 12538 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=2.731858  Min=3.626423E-004
+   *************  **   ~~~   **   Max=-1.387779E-017 [C]  Min=-24.983333 [C]
    *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 19 387KBTU/HR 8.21EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 65 total times;
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 2 90KBTU/HR 9.3EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 11554 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-0.133333 [C]  Min=-23.166667 [C]
+   *************  **   ~~~   **   Max=1.999759  Min=-9.586475
    *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - MEDICAL SUPPLY_FL=STORY 2_SCH=H ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 255920 total times;
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4 244KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 39 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.471535  Min=1.320102
+   *************  **   ~~~   **   Max=1.937406  Min=9.446542E-002
    *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DRESS./FITT. - PERFORMANCE ARTS_FL=STORY 3_SCH=C ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 63317 total times;
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 5 156KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 238 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.429207  Min=3.900568E-004
+   *************  **   ~~~   **   Max=1.990639  Min=-0.709308
    *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DINING - FAMILY SPACE_FL=STORY 3_SCH=B ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 2123 total times;
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 334KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 31 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.285324  Min=1.433776E-004
+   *************  **   ~~~   **   Max=1.988141  Min=-1.13757
    *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=FOOD PREPARATION_FL=STORY 2_SCH=B ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 203666 total times;
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=WHOLEBUILDING_FL=STORY 1_SCH=A ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 1076 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.34272  Min=1.248837E-003
+   *************  **   ~~~   **   Max=0.447113  Min=2.311566E-003
    *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - LAUNDRY/WASHING_FL=STORY 1_SCH=C ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 1679 total times;
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 6 113KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 125 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.234072  Min=1.548206E-003
-   *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - EXAM_FL=STORY 3_SCH=C ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 147962 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=2.222402  Min=3.415291E-004
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 14 348KBTU/HR 8.21EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 101 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-1.110223E-016 [C]  Min=-18.766667 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 116KBTU/HR 9.3EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 5920 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-1.387779E-017 [C]  Min=-21.866667 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 3 116KBTU/HR 9.3EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 1700 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.999963  Min=-3.655363
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 7 362KBTU/HR 8.21EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 18 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-0.133333 [C]  Min=-8.8 [C]
-   *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=COURTHOUSE - COURTROOM_FL=STORY 3_SCH=A ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 2135 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.400361  Min=5.558778E-004
-   *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DINING - OTHER_FL=STORY 1_SCH=B ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 1544 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.297056  Min=1.517936E-004
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 17 231KBTU/HR 9.7EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 63 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-6.666667E-002 [C]  Min=-7.566667 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 17 231KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 182 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.990337  Min=-1.437417
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 14 348KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 97 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.984618  Min=-1.358521
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 12 252KBTU/HR 8.21EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 46 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-0.533333 [C]  Min=-7.433333 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 12 252KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 360 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.997944  Min=-1.437972
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 7 362KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 351 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.991692  Min=-2.813864
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 11 186KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 346 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.998831  Min=-3.276989
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 15 332KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 347 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.994337  Min=-2.693248
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 18 135KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 57 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.990337  Min=0.294292
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 13 348KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 146 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.990337  Min=-1.403815
-   *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=DINING - BAR LOUNGE/LEISURE_FL=STORY 3_SCH=B ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 1859 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.279336  Min=1.813011E-004
-   *************
-   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "SYS_3_PSZ ALL_ST=HOSPITAL - LOUNGE/RECREATION_FL=STORY 2_SCH=B ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
-   *************  **   ~~~   **   This error occurred 1133 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=0.250292  Min=4.333104E-004
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 19 387KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 88 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.990337  Min=-1.375412
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 5 306KBTU/HR 9.3EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 148 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-5.551115E-017 [C]  Min=-5.65 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 11 186KBTU/HR 9.7EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 5 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-1.110223E-016 [C]  Min=-5.733333 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 16 163KBTU/HR 9.7EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 9 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-0.666667 [C]  Min=-3.866667 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 16 163KBTU/HR 9.7EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 83 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.985673  Min=-1.359988
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 13 348KBTU/HR 8.21EER" - Low condenser dry-bulb temperature error continues...
-   *************  **   ~~~   **   This error occurred 1 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=-6.666667E-002 [C]  Min=-6.666667E-002 [C]
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 9 379KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 12 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.857735  Min=-0.924016
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 6 431KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 13 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.98568  Min=1.35176
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 8 379KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 18 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.990337  Min=-1.375412
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 10 379KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 6 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.857735  Min=-0.113235
-   *************
-   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 1 293KBTU/HR 8.21EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
-   *************  **   ~~~   **   This error occurred 1 total times;
-   *************  **   ~~~   **   during Warmup 0 times;
-   *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.771329  Min=1.771329
+   *************  **   ~~~   **   Max=1.963149  Min=-1.750442
    *************
    *************
    ************* ===== Final Error Summary =====
    ************* The following error categories occurred.  Consider correcting or noting.
-   ************* Loads Initialization did not Converge
-   ************* ..1) very high thermal mass such as very thick concrete (solution: increase max number of warmup
-   ************* ..   days in the BUILDING object);
-   ************* ..2) moderate mass and inadequate space conditioning such that the building keeps getting warmer
-   ************* ..   and warmer on successive days (solution: add HVAC, check building thermal properties,
-   ************* ..   check if infiltration is included, make sure HVAC properly controlled);
-   ************* ..3) a soil layer modeled below the concrete slab - (solution remove this layer and read about
-   ************* ..   ground temperatures in the Auxiliary Programs document).
-   ************* ..4) unreasonable (too small) limits in the BUILDING object for temperature (.4 default) or
-   ************* ..   loads tolerances (.04 default)
    ************* Nominally Unused Constructions
    ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
    ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
-   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 7 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 190 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 861914 Warning; 7 Severe Errors; Elapsed Time=00hr 04min  1.96sec
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 58 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 25683 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 30.32sec

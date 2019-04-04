@@ -1,24 +1,21 @@
-Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:16,
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.04.04 17:58,
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** CheckUsedConstructions: There are 27 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 32 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
-   ** Warning ** Calculated design heating load for zone=MFG - BAY H > 15M-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-PARKING GARAGE ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MFG - DETAILED-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-PENITENTIARY ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MFG - EQUIPMENT-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-PERFORMING ARTS THEATRE ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=MUSEUM - RESTORATION-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-POLICE STATION ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=OFFICE - ENCLOSED-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=PENITENTIARY - CLASSROOM-SPACE FUNCTION ZN is zero.
-   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
-   ** Warning ** Calculated design heating load for zone=POST OFFICE SORTING-SPACE FUNCTION ZN is zero.
+   ** Warning ** Calculated design heating load for zone=WHOLEBUILDING-POST OFFICE ZN is zero.
    **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
    ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
    ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="GAS:FACILITY" - not found.
@@ -37,7 +34,7 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:16,
    ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
    ************* There are 7 unused schedules in input.
    ************* There are 7 unused week schedules in input.
-   ************* There are 13 unused day schedules in input.
+   ************* There are 10 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
    ************* ===== Final Error Summary =====
@@ -48,5 +45,5 @@ Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.03.28 13:16,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 12 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 16 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.33sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 11 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 15 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  0.68sec
