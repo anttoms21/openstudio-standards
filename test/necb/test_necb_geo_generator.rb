@@ -123,7 +123,7 @@ class GeoTest < Minitest::Test
     #Create Test Folder to perform runs in.
     #To do.. you should remove the old runs in this folder.
     vintages = ['NECB2011', 'NECB2015', 'NECB2017']
-    num_space_types_per_building = 20
+    num_space_types_per_building = 10
     test_dir = "#{File.dirname(__FILE__)}/models/geo_test"
     if Dir.exists?(test_dir)
       FileUtils.rm_rf(test_dir)
