@@ -9,7 +9,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 class GeoTest < CreateDOEPrototypeBuildingTest
   #creating an empty model object
   model = OpenStudio::Model::Model.new()
-  standard = Standard.build('NECB2011')
+  standard = Standard.build('NECB2015')
 
   #puts standard
   #get spacetypes that are not wildcard spacetypes.
@@ -19,7 +19,7 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #for some reason the above does not work
   puts spacetypes_unfilterted.size
   puts spacetypes.size
-  intermediatestep = spacetypes.drop(40)
+  intermediatestep = spacetypes.drop(20)
 
   #raise 'hell'
   #puts "number of non-wildcard spacetypes : #{spacetypes.size}"
@@ -28,7 +28,7 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #
   #
 
-  first_20_spacetypes = intermediatestep[0 .. 19]
+  first_20_spacetypes = intermediatestep[0 .. 5]
   puts intermediatestep.size
   puts first_20_spacetypes.size
   number_of_floors = first_20_spacetypes.size / 5
