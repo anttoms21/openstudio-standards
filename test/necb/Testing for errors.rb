@@ -14,12 +14,21 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #puts standard
   #get spacetypes that are not wildcard spacetypes.
   spacetypes_unfilterted = standard.standards_lookup_table_many(table_name: 'space_types').select {|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" || spacetype['space_type'] != "- undefined -"}
-  spacetypes= spacetypes_unfilterted.select{|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" }
+  spacetypes1= spacetypes_unfilterted.select{|spacetype| spacetype["necb_hvac_system_selection_type"] != "Wildcard" }
   #spacetypes =  spacetypes_w_sch_I.select{|spacetype| spacetype["exhaust_schedule"] != "NECB-I-FAN" }
   #for some reason the above does not work
+  spacetypes = spacetypes1.select {|spacetype| spacetype["space_type"] != "WholeBuilding"}
   puts spacetypes_unfilterted.size
   puts spacetypes.size
-  intermediatestep = spacetypes.drop(20)
+
+  #spacetypes.delete_at(54)#Health care facility patient room-Space Function
+  spacetypes.delete_at(54)#Health care facility operating room-Space Function
+  spacetypes.delete_at(54)#Health care facility nurses station-Space Function
+  spacetypes.delete_at(54)#Health care facility nursery-Space Function
+  spacetypes.delete_at(54) #Health care facility medical supply room-Space Function
+  spacetypes.delete_at(74) #Sports arena playing area class III facility(4)-Space Function
+
+  intermediatestep = spacetypes.drop(53)
 
   #raise 'hell'
   #puts "number of non-wildcard spacetypes : #{spacetypes.size}"
@@ -28,10 +37,12 @@ class GeoTest < CreateDOEPrototypeBuildingTest
   #
   #
 
-  first_20_spacetypes = intermediatestep[0 .. 5]
+  first_20_spacetypes = intermediatestep[0 ... 5]
   puts intermediatestep.size
+  puts 'number of space types:'
   puts first_20_spacetypes.size
   number_of_floors = first_20_spacetypes.size / 5
+
   model.getBuilding.setStandardsNumberOfStories(number_of_floors)
   model.getBuilding.setStandardsNumberOfAboveGroundStories(number_of_floors)
 

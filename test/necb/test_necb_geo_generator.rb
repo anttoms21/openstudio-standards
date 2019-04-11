@@ -33,19 +33,19 @@ class GeoTest < Minitest::Test
     #checks if the vintage is NECB2015
     if vintage == "NECB2015"
       #filters out undefined
-      spacetypes_unfilterted_undefined = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
-      #filters out Atrium (height < 6m) due issues with SHW
-      spacetypes_w_atrium1 = spacetypes_unfilterted_undefined.select {|spacetype| spacetype["ventilation_secondary_space_type"] != "Atrium (height < 6m)"}
-      #filters out Atrium (height > 12m due to issues with SHW)
-      spacetypes = spacetypes_w_atrium1.select {|spacetype| spacetype["ventilation_secondary_space_type"] != "Atrium (height > 12m)"}
+      spacetypes_unfilterted_wholebuilding = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
+      spacetypes = spacetypes_unfilterted_wholebuilding.select {|spacetype| spacetype["space_type"] != "WholeBuilding"}
+      spacetypes.delete_at(54)#Health care facility patient room-Space Function
+      spacetypes.delete_at(54)#Health care facility operating room-Space Function
+      spacetypes.delete_at(54)#Health care facility nurses station-Space Function
+      spacetypes.delete_at(54)#Health care facility nursery-Space Function
+      spacetypes.delete_at(54) #Health care facility medical supply room-Space Function
+      spacetypes.delete_at(74) #Sports arena playing area class III facility(4)-Space Function
     end
     if vintage == "NECB2017"
       #filters out undefined
-      spacetypes_unfilterted_undefined = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
-      #filters out Atrium (height < 6m) due issues with SHW
-      spacetypes_w_atrium1 = spacetypes_unfilterted_undefined.select {|spacetype| spacetype["ventilation_secondary_space_type"] != "Atrium (height < 6m)"}
-      #filters out Atrium (height > 12m due to issues with SHW)
-      spacetypes = spacetypes_w_atrium1.select {|spacetype| spacetype["ventilation_secondary_space_type"] != "Atrium (height > 12m)"}
+      spacetypes_unfilterted_wholebuilding = spacetypes_unfilterted.select {|spacetype| spacetype["space_type"] != "- undefined -"}
+      spacetypes = spacetypes_unfilterted_wholebuilding.select {|spacetype| spacetype["space_type"] != "WholeBuilding"}
     end
     puts "Number of space types before ajdusting for the range: #{spacetypes.size}"
     #Checks if the number of spacetypes is a multiple of the range
