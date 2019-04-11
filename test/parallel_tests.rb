@@ -5,8 +5,8 @@ require 'parallel'
 require 'open3'
 
 TestOutputFolder = File.join(File.dirname(__FILE__), 'local_test_output')
-ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
-
+#ProcessorsUsed = (Parallel.processor_count * 1 / 2).floor
+ProcessorsUsed = 35
 class String
   # colorization
   def colorize(color_code)
