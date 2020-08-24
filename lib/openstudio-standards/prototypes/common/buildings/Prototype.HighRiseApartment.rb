@@ -9,6 +9,23 @@ module HighriseApartment
     # add extra infiltration for ground floor corridor
     add_door_infiltration(climate_zone, model)
 
+    # add transformer
+    transformer_efficiency = nil
+    case template
+    when '90.1-2004', '90.1-2007'
+      transformer_efficiency = 0.966
+    when '90.1-2010', '90.1-2013'
+      transformer_efficiency = 0.98
+    end
+    return true unless !transformer_efficiency.nil?
+
+    model_add_transformer(model,
+                          wired_lighting_frac: 0.0015,
+                          transformer_size: 75000,
+                          transformer_efficiency: transformer_efficiency,
+                          excluded_interiorequip_key: 'T Corridor_Elevators_Equip',
+                          excluded_interiorequip_meter: 'Electric Equipment Electric Energy')
+
     return true
   end
 
@@ -52,16 +69,6 @@ module HighriseApartment
     end
   end
 
-  def update_waterheater_loss_coefficient(model)
-    case template
-      when '90.1-2004', '90.1-2007', '90.1-2010', '90.1-2013'
-        model.getWaterHeaterMixeds.sort.each do |water_heater|
-          water_heater.setOffCycleLossCoefficienttoAmbientTemperature(6.97876623686364)
-          water_heater.setOnCycleLossCoefficienttoAmbientTemperature(6.97876623686364)
-        end
-    end
-  end
-
   # add extra infiltration for ground floor corridor
   def add_door_infiltration(climate_zone, model)
     g_corridor = model.getSpaceByName('G Corridor').get
@@ -74,7 +81,12 @@ module HighriseApartment
         infiltration_g_corridor_door.setSchedule(model_add_schedule(model, 'ApartmentHighRise INFIL_Door_Opening_SCH_0.144'))
       when '90.1-2007', '90.1-2010', '90.1-2013'
         case climate_zone
-          when 'ASHRAE 169-2006-1A', 'ASHRAE 169-2006-2A', 'ASHRAE 169-2006-2B'
+          when 'ASHRAE 169-2006-1A',
+               'ASHRAE 169-2006-2A',
+               'ASHRAE 169-2006-2B',
+               'ASHRAE 169-2013-1A',
+               'ASHRAE 169-2013-2A',
+               'ASHRAE 169-2013-2B'
             infiltration_g_corridor_door.setDesignFlowRate(1.523916863)
             infiltration_g_corridor_door.setSchedule(model_add_schedule(model, 'ApartmentHighRise INFIL_Door_Opening_SCH_0.144'))
           else
@@ -92,7 +104,11 @@ module HighriseApartment
   end
 
   def model_custom_swh_tweaks(model, building_type, climate_zone, prototype_input)
-    update_waterheater_loss_coefficient(model)
+
+    return true
+  end
+
+  def model_custom_geometry_tweaks(building_type, climate_zone, prototype_input, model)
 
     return true
   end

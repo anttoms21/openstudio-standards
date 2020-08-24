@@ -18,6 +18,12 @@ module CoilDX
       sub_category = 'Single Package'
     elsif coil_dx.name.get.to_s.include?('Split System')
       sub_category = 'Split System'
+    elsif coil_dx.name.get.to_s.include?('Central Air Source HP')
+      sub_category = 'Split System'
+    elsif coil_dx.name.get.to_s.include?('Minisplit HP')
+      sub_category = 'Minisplit System'
+    elsif coil_dx.name.get.to_s.include?('CRAC')
+      sub_category = 'CRAC'
     end
 
     if coil_dx.airLoopHVAC.empty?
@@ -54,6 +60,11 @@ module CoilDX
           heat_pump = true
         end # TODO: Add other zone hvac systems
       end
+    else
+      if (!coil_dx.airLoopHVAC.get.supplyComponents('OS:Coil:Heating:DX:SingleSpeed'.to_IddObjectType).empty?) ||
+          (!coil_dx.airLoopHVAC.get.supplyComponents('OS:Coil:Heating:DX:VariableSpeed'.to_IddObjectType).empty?)
+        heat_pump = true
+      end
     end
 
     return heat_pump
@@ -71,6 +82,10 @@ module CoilDX
         containing_comp = coil_dx.containingHVACComponent.get
         if containing_comp.to_AirLoopHVACUnitaryHeatPumpAirToAir.is_initialized
           htg_type = 'Electric Resistance or None'
+        elsif containing_comp.to_AirLoopHVACUnitarySystem.is_initialized
+          if containing_comp.name.to_s.include? 'Minisplit'
+            htg_type = 'All Other'
+          end
         end # TODO: Add other unitary systems
       elsif coil_dx.containingZoneHVACComponent.is_initialized
         containing_comp = coil_dx.containingZoneHVACComponent.get
@@ -93,13 +108,15 @@ module CoilDX
     # If on an AirLoop
     if coil_dx.airLoopHVAC.is_initialized
       air_loop = coil_dx.airLoopHVAC.get
-      htg_type = if !air_loop.supplyComponents('OS:Coil:Heating:Electric'.to_IddObjectType).empty?
-                   'Electric Resistance or None'
-                 elsif !air_loop.supplyComponents('OS:Coil:Heating:Gas'.to_IddObjectType).empty?
+      htg_type = if !air_loop.supplyComponents('OS:Coil:Heating:Gas'.to_IddObjectType).empty?
                    'All Other'
                  elsif !air_loop.supplyComponents('OS:Coil:Heating:Water'.to_IddObjectType).empty?
                    'All Other'
                  elsif !air_loop.supplyComponents('OS:Coil:Heating:DX:SingleSpeed'.to_IddObjectType).empty?
+                   'All Other'
+                 elsif !air_loop.supplyComponents('OS:Coil:Heating:DX:MultiSpeed'.to_IddObjectType).empty?
+                   'All Other'
+                 elsif !air_loop.supplyComponents('OS:Coil:Heating:DX:VariableSpeed'.to_IddObjectType).empty?
                    'All Other'
                  elsif !air_loop.supplyComponents('OS:Coil:Heating:Gas:MultiStage'.to_IddObjectType).empty?
                    'All Other'
@@ -107,6 +124,8 @@ module CoilDX
                    'All Other'
                  elsif !air_loop.supplyComponents('OS:Coil:Heating:WaterToAirHeatPump:EquationFit'.to_IddObjectType).empty?
                    'All Other'
+                 elsif !air_loop.supplyComponents('OS:Coil:Heating:Electric'.to_IddObjectType).empty?
+                   'Electric Resistance or None'
                  else
                    'Electric Resistance or None'
                  end
@@ -125,6 +144,7 @@ module CoilDX
     search_criteria['cooling_type'] = case coil_dx.iddObjectType.valueName.to_s
                                       when 'OS_Coil_Cooling_DX_SingleSpeed',
                                            'OS_Coil_Cooling_DX_TwoSpeed',
+                                           'OS_Coil_Cooling_DX_VariableSpeed',
                                            'OS_Coil_Cooling_DX_MultiSpeed'
                                         coil_dx.condenserType
                                       else

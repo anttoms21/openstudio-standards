@@ -3,19 +3,13 @@ class Standard
   # water mains temperature, and set ground temperature.
   # Based on ChangeBuildingLocation measure by Nicholas Long
 
-  def model_add_design_days_and_weather_file(model, climate_zone, epw_file)
-    success = true
-    require_relative 'Weather.stat_file'
-
-    # Remove any existing Design Day objects that are in the file
-    model.getDesignDays.each(&:remove)
-
-    OpenStudio.logFree(OpenStudio::Info, 'openstudio.weather.Model', "Started adding weather file for climate zone: #{climate_zone}.")
-
+  def model_get_climate_zone_weather_file_map(epw_file = '')
     # Define the weather file for each climate zone
     climate_zone_weather_file_map = {
+        'ASHRAE 169-2006-0A' => 'VNM_SVN_Ho.Chi.Minh-Tan.Son.Nhat.Intl.AP.489000_TMYx.epw',
+        'ASHRAE 169-2006-0B' => 'ARE_DU_Dubai.Intl.AP.411940_TMYx.epw',
         'ASHRAE 169-2006-1A' => 'USA_FL_Miami.Intl.AP.722020_TMY3.epw',
-        'ASHRAE 169-2006-1B' => 'SAU_Riyadh.404380_IWEC.epw',
+        'ASHRAE 169-2006-1B' => 'SAU_RI_Riyadh.AB.404380_TMYx.epw',
         'ASHRAE 169-2006-2A' => 'USA_TX_Houston-Bush.Intercontinental.AP.722430_TMY3.epw',
         'ASHRAE 169-2006-2B' => 'USA_AZ_Phoenix-Sky.Harbor.Intl.AP.722780_TMY3.epw',
         'ASHRAE 169-2006-3A' => 'USA_TN_Memphis.Intl.AP.723340_TMY3.epw',
@@ -33,6 +27,27 @@ class Standard
         'ASHRAE 169-2006-7B' => 'USA_MN_Duluth.Intl.AP.727450_TMY3.epw',
         'ASHRAE 169-2006-8A' => 'USA_AK_Fairbanks.Intl.AP.702610_TMY3.epw',
         'ASHRAE 169-2006-8B' => 'USA_AK_Fairbanks.Intl.AP.702610_TMY3.epw',
+        'ASHRAE 169-2013-0A' => 'VNM_SVN_Ho.Chi.Minh-Tan.Son.Nhat.Intl.AP.489000_TMYx.epw',
+        'ASHRAE 169-2013-0B' => 'ARE_DU_Dubai.Intl.AP.411940_TMYx.epw',
+        'ASHRAE 169-2013-1A' => 'USA_HI_Honolulu.Intl.AP.911820_TMY3.epw',
+        'ASHRAE 169-2013-1B' => 'IND_DL_New.Delhi-Safdarjung.AP.421820_TMYx.epw',
+        'ASHRAE 169-2013-2A' => 'USA_FL_Tampa-MacDill.AFB.747880_TMY3.epw',
+        'ASHRAE 169-2013-2B' => 'USA_AZ_Tucson-Davis-Monthan.AFB.722745_TMY3.epw',
+        'ASHRAE 169-2013-3A' => 'USA_GA_Atlanta-Hartsfield.Jackson.Intl.AP.722190_TMY3.epw',
+        'ASHRAE 169-2013-3B' => 'USA_TX_El.Paso.Intl.AP.722700_TMY3.epw',
+        'ASHRAE 169-2013-3C' => 'USA_CA_San.Deigo-Brown.Field.Muni.AP.722904_TMY3.epw',
+        'ASHRAE 169-2013-4A' => 'USA_NY_New.York-John.F.Kennedy.Intl.AP.744860_TMY3.epw',
+        'ASHRAE 169-2013-4B' => 'USA_NM_Albuquerque.Intl.Sunport.723650_TMY3.epw',
+        'ASHRAE 169-2013-4C' => 'USA_WA_Seattle-Tacoma.Intl.AP.727930_TMY3.epw',
+        'ASHRAE 169-2013-5A' => 'USA_NY_Buffalo.Niagara.Intl.AP.725280_TMY3.epw',
+        'ASHRAE 169-2013-5B' => 'USA_CO_Denver-Aurora-Buckley.AFB.724695_TMY3.epw',
+        'ASHRAE 169-2013-5C' => 'USA_WA_Port.Angeles-William.R.Fairchild.Intl.AP.727885_TMY3.epw',
+        'ASHRAE 169-2013-6A' => 'USA_MN_Rochester.Intl.AP.726440_TMY3.epw',
+        'ASHRAE 169-2013-6B' => 'USA_MT_Great.Falls.Intl.AP.727750_TMY3.epw',
+        'ASHRAE 169-2013-7A' => 'USA_MN_International.Falls.Intl.AP.727470_TMY3.epw',
+        'ASHRAE 169-2013-7B' => 'USA_MN_International.Falls.Intl.AP.727470_TMY3.epw',
+        'ASHRAE 169-2013-8A' => 'USA_AK_Fairbanks.Intl.AP.702610_TMY3.epw',
+        'ASHRAE 169-2013-8B' => 'USA_AK_Fairbanks.Intl.AP.702610_TMY3.epw',
         # For measure input
         'NECB HDD Method' => epw_file.to_s,
         # For testing
@@ -59,6 +74,20 @@ class Standard
         'CEC T24-CEC15' => 'PALM-SPRINGS-INTL_722868_CZ2010.epw',
         'CEC T24-CEC16' => 'BLUE-CANYON_725845_CZ2010.epw'
     }
+    return climate_zone_weather_file_map
+  end
+
+  def model_add_design_days_and_weather_file(model, climate_zone, epw_file)
+    success = true
+    require_relative 'Weather.stat_file'
+
+    # Remove any existing Design Day objects that are in the file
+    model.getDesignDays.each(&:remove)
+
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.weather.Model', "Started adding weather file for climate zone: #{climate_zone}.")
+
+    # Define the weather file for each climate zone
+    climate_zone_weather_file_map = model_get_climate_zone_weather_file_map(epw_file)
 
     # Get the weather file name from the hash
     weather_file_name = if epw_file.nil? || (epw_file.to_s.strip == '')
@@ -125,7 +154,7 @@ class Standard
       # OpenStudio::logFree(OpenStudio::Info, "openstudio.weather.Model", "Mean dry bulb is #{stat_file.mean_dry_bulb}")
       # OpenStudio::logFree(OpenStudio::Info, "openstudio.weather.Model", "Delta dry bulb is #{stat_file.delta_dry_bulb}")
     else
-      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.weather.Model', "Could not find .stat file for weather, will use default water mains temperatures which may be inaccurate for the location.")
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.weather.Model', 'Could not find .stat file for weather, will use default water mains temperatures which may be inaccurate for the location.')
       success = false
     end
 
@@ -134,7 +163,7 @@ class Standard
     ddy_file = "#{File.join(File.dirname(weather_file), File.basename(weather_file, '.*'))}.ddy"
     if File.exist? ddy_file
       ddy_model = OpenStudio::EnergyPlus.loadAndTranslateIdf(ddy_file).get
-      ddy_model.getObjectsByType('OS:SizingPeriod:DesignDay'.to_IddObjectType).each do |d|
+      ddy_model.getObjectsByType('OS:SizingPeriod:DesignDay'.to_IddObjectType).sort.each do |d|
         # Import the 99.6% Heating and 0.4% Cooling design days
         ddy_list = /(Htg 99.6. Condns DB)|(Clg .4% Condns DB=>MWB)|(Clg 0.4% Condns DB=>MCWB)/
         if d.name.get =~ ddy_list
@@ -156,7 +185,29 @@ class Standard
   end
 
   def model_add_ground_temperatures(model, building_type, climate_zone)
-    ground_temp_vals = model_find_object(standards_data['ground_temperatures'], 'template' => template, 'climate_zone' => climate_zone, 'building_type' => building_type)
+
+    # Get ground temperatures from stat file. Stat file is mapped via climate zone.
+    stat_file_path = File.join(File.dirname(__FILE__), "../../../data/weather/#{model_get_climate_zone_weather_file_map[climate_zone].gsub('.epw', '.stat')}")
+
+    ground_temperatures = []
+
+    if stat_file_path.include? '.stat'
+      ground_temperatures = model_get_monthly_ground_temps_from_stat_file(stat_file_path)
+      unless ground_temperatures.empty?
+        # set the site ground temperature building surface
+        ground_temp = model.getSiteGroundTemperatureFCfactorMethod
+        ground_temp.setAllMonthlyTemperatures(ground_temperatures)
+      end
+    end
+
+    # Return if ground temperatures were found
+    return unless ground_temperatures.empty?
+
+    # If stat_file_path did not turn up an EPW file, set default ground temperatures
+    OpenStudio.logFree(OpenStudio::Warn, 'openstudio.weather.Model', 'Could not find ground temperatures in stat file; will use standards lookup.')
+
+    # Look up ground temperatures from templates
+    ground_temp_vals = standards_lookup_table_first(table_name: 'ground_temperatures', search_criteria: {'template' => template, 'climate_zone' => climate_zone, 'building_type' => building_type})
     if ground_temp_vals && ground_temp_vals['jan']
       ground_temp = model.getSiteGroundTemperatureBuildingSurface
       ground_temp.setJanuaryGroundTemperature(ground_temp_vals['jan'])
@@ -172,7 +223,7 @@ class Standard
       ground_temp.setNovemberGroundTemperature(ground_temp_vals['nov'])
       ground_temp.setDecemberGroundTemperature(ground_temp_vals['dec'])
     else
-      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.weather.Model', 'Could not find ground temperatures; will use generic temperatures, which will skew results.')
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.weather.Model', 'Could not find ground temperatures in standards lookup; will use generic temperatures, which will skew results.')
       ground_temp = model.getSiteGroundTemperatureBuildingSurface
       ground_temp.setJanuaryGroundTemperature(19.527)
       ground_temp.setFebruaryGroundTemperature(19.502)
@@ -201,6 +252,42 @@ class Standard
     end
 
     return heating_design_outdoor_temps
+  end
+
+  # This function gets the average ground temperature averages, under the assumption that ground temperature
+  # lags 3 months behind the ambient dry bulb temperature. (e.g. April's ground temperature equal January's
+  # average dry bulb temperature)
+  # @param stat_file_path [String] path to STAT file
+  # @return [Array] a length 12 array of monthly ground temperatures, one for each month
+  def model_get_monthly_ground_temps_from_stat_file(stat_file_path)
+    if File.exist? stat_file_path
+      stat_file = EnergyPlus::StatFile.new(stat_file_path)
+      monthly_dry_bulb = stat_file.monthly_dry_bulb[0..11]
+      ground_temperatures = monthly_dry_bulb.rotate(-3)
+      return ground_temperatures
+    else
+      OpenStudio.logFree(OpenStudio::Error, 'openstudio.weather.Model', "Stat file: #{stat_file_path} was not found when calculating ground temperatures.")
+      return []
+    end
+  end
+
+  # Helper method to retrieve the cooling design day 0.4% evaporation design wet-bulb temperature from ddy file
+  def get_wb_mcb(weather_file)
+    # Load in the ddy file based on convention that it is in
+    # the same directory and has the same basename as the epw file.
+    ddy_file = "#{File.join(File.dirname(weather_file), File.basename(weather_file, '.*'))}.ddy"
+    if File.exist? ddy_file
+      dds = OpenStudio::EnergyPlus.loadAndTranslateIdf(ddy_file).get
+      dds.getDesignDays.sort.each do |dd|
+        if dd.name.get.include? '4% Condns WB=>MDB'
+          return dd.humidityIndicatingConditionsAtMaximumDryBulb
+        end
+      end
+    else
+      OpenStudio.logFree(OpenStudio::Error, 'openstudio.weather.Model', "Could not find .ddy file for: #{ddy_file}.")
+      puts "Could not find .ddy file for: #{ddy_file}."
+    end
+    return false
   end
 end
 
@@ -481,40 +568,40 @@ module BTAP
         hdd18 = self.hdd18.to_f
 
         if cdd10 > 6000 # Extremely Hot  Humid (0A), Dry (0B)
-          return 'ASHRAE 169-2006-0A'
+          return 'ASHRAE 169-2013-0A'
 
         elsif (cdd10 > 5000) && (cdd10 <= 6000) # Very Hot  Humid (1A), Dry (1B)
-          return 'ASHRAE 169-2006-1A'
+          return 'ASHRAE 169-2013-1A'
 
         elsif (cdd10 > 3500) && (cdd10 <= 5000) # Hot  Humid (2A), Dry (2B)
-          return 'ASHRAE 169-2006-2A'
+          return 'ASHRAE 169-2013-2A'
 
         elsif ((cdd10 > 2500) && (cdd10 < 3500)) && (hdd18 <= 2000) # Warm  Humid (3A), Dry (3B)
-          return 'ASHRAE 169-2006-3A' # and 'ASHRAE 169-2006-3B'
+          return 'ASHRAE 169-2013-3A' # and 'ASHRAE 169-2013-3B'
 
         elsif (cdd10 <= 2500) && (hdd18 <= 2000) # Warm  Marine (3C)
-          return 'ASHRAE 169-2006-3C'
+          return 'ASHRAE 169-2013-3C'
 
         elsif ((cdd10 > 1500) && (cdd10 < 3500)) && ((hdd18 > 2000) && (hdd18 <= 3000)) # Mixed  Humid (4A), Dry (4B)
-          return 'ASHRAE 169-2006-4A' # and 'ASHRAE 169-2006-4B'
+          return 'ASHRAE 169-2013-4A' # and 'ASHRAE 169-2013-4B'
 
         elsif (cdd10 <= 1500) && ((hdd18 > 2000) && (hdd18 <= 3000)) # Mixed  Marine
-          return 'ASHRAE 169-2006-4C'
+          return 'ASHRAE 169-2013-4C'
 
         elsif ((cdd10 > 1000) && (cdd10 <= 3500)) && ((hdd18 > 3000) && (hdd18 <= 4000)) # Cool Humid (5A), Dry (5B)
-          return 'ASHRAE 169-2006-5A' # and 'ASHRAE 169-2006-5B'
+          return 'ASHRAE 169-2013-5A' # and 'ASHRAE 169-2013-5B'
 
         elsif (cdd10 <= 1000) && ((hdd18 > 3000) && (hdd18 <= 4000)) # Cool  Marine (5C)
-          return 'ASHRAE 169-2006-5C'
+          return 'ASHRAE 169-2013-5C'
 
         elsif (hdd18 > 4000) && (hdd18 <= 5000) # Cold  Humid (6A), Dry (6B)
-          return 'ASHRAE 169-2006-6A' # and 'ASHRAE 169-2006-6B'
+          return 'ASHRAE 169-2013-6A' # and 'ASHRAE 169-2013-6B'
 
         elsif (hdd18 > 5000) && (hdd18 <= 7000) # Very Cold (7)
-          return 'ASHRAE 169-2006-7A'
+          return 'ASHRAE 169-2013-7A'
 
         elsif hdd18 > 7000 # Subarctic/Arctic (8)
-          return 'ASHRAE 169-2006-8A'
+          return 'ASHRAE 169-2013-8A'
 
         else
           # raise ("invalid cdd10 of #{cdd10} or hdd18 of #{hdd18}")

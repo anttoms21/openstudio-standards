@@ -429,7 +429,7 @@ module Baseline9012013
     prm_maj_sec = 'G3.1.1 Baseline HVAC System Type' 
     
     # get model objects
-    climate_zone = climate_zone.gsub('ASHRAE 169-2006-', '')
+    climate_zone = climate_zone.gsub('ASHRAE 169-2013-', '')
     model_area_si = prop_model.getBuilding.floorArea
     model_area_ip = OpenStudio.convert(model_area_si, 'm^2', 'ft^2').get
     building_storys = prop_model.getBuildingStorys.size
@@ -711,8 +711,8 @@ module Baseline9012013
           prm_min_sec = 'Hot-Water Supply Temperature'
           assert_msg = "#{prm_maj_sec}: #{prm_min_sec}"
           
-          des_temp = sizing_plant.getDesignLoopExitTemperature(returnIP=true).value
-          des_temp_diff = sizing_plant.getLoopDesignTemperatureDifference(returnIP=true).value
+          des_temp = OpenStudio.convert(sizing_plant.designLoopExitTemperature, 'C', 'F').get
+          des_temp_diff = OpenStudio.convert(sizing_plant.loopDesignTemperatureDifference, 'K', 'R').get
           assert_in_delta(180, des_temp, delta, assert_msg)
           assert_in_delta(50, des_temp_diff, delta, assert_msg)
           
@@ -726,10 +726,10 @@ module Baseline9012013
             assert(setpoint_managers[0].to_SetpointManagerOutdoorAirReset.is_initialized, assert_msg)
           end
           
-          set_oat_lo = spm_oar.getSetpointatOutdoorLowTemperature(returnIP=true).value
-          oat_lo = spm_oar.getOutdoorLowTemperature(returnIP=true).value
-          set_oat_hi = spm_oar.getSetpointatOutdoorHighTemperature(returnIP=true).value
-          oat_hi = spm_oar.getOutdoorHighTemperature(returnIP=true).value
+          set_oat_lo = OpenStudio.convert(spm_oar.setpointatOutdoorLowTemperature, 'C', 'F').get
+          oat_lo = OpenStudio.convert(spm_oar.outdoorLowTemperature, 'C', 'F').get
+          set_oat_hi = OpenStudio.convert(spm_oar.setpointatOutdoorHighTemperature, 'C', 'F').get
+          oat_hi = OpenStudio.convert(spm_oar.outdoorHighTemperature, 'C', 'F').get
                     
           assert_in_delta(180, set_oat_lo, delta, assert_msg)
           assert_in_delta(20, oat_lo, delta, assert_msg)
@@ -742,8 +742,8 @@ module Baseline9012013
           prm_min_sec = 'Chilled-Water Design Supply Temperature'
           assert_msg = "#{prm_maj_sec}: #{prm_min_sec}"
           
-          des_temp = sizing_plant.getDesignLoopExitTemperature(returnIP=true).value
-          des_temp_diff = sizing_plant.getLoopDesignTemperatureDifference(returnIP=true).value
+          des_temp = OpenStudio.convert(sizing_plant.designLoopExitTemperature, 'C', 'F').get
+          des_temp_diff = OpenStudio.convert(sizing_plant.loopDesignTemperatureDifference, 'K', 'R').get
           assert_in_delta(44, des_temp, delta, assert_msg)
           assert_in_delta(12, des_temp_diff, delta, assert_msg)
           
@@ -757,10 +757,10 @@ module Baseline9012013
             assert(setpoint_managers[0].to_SetpointManagerOutdoorAirReset.is_initialized, assert_msg)
           end
           
-          set_oat_lo = spm_oar.getSetpointatOutdoorLowTemperature(returnIP=true).value
-          oat_lo = spm_oar.getOutdoorLowTemperature(returnIP=true).value
-          set_oat_hi = spm_oar.getSetpointatOutdoorHighTemperature(returnIP=true).value
-          oat_hi = spm_oar.getOutdoorHighTemperature(returnIP=true).value
+          set_oat_lo = OpenStudio.convert(spm_oar.setpointatOutdoorLowTemperature, 'C', 'F').get
+          oat_lo = OpenStudio.convert(spm_oar.outdoorLowTemperature, 'C', 'F').get
+          set_oat_hi = OpenStudio.convert(spm_oar.setpointatOutdoorHighTemperature, 'C', 'F').get
+          oat_hi = OpenStudio.convert(spm_oar.outdoorHighTemperature, 'C', 'F').get
                     
           assert_in_delta(54, set_oat_lo, delta, assert_msg)
           assert_in_delta(60, oat_lo, delta, assert_msg)
@@ -906,6 +906,12 @@ module Baseline9012013
         ua_on = wh.onCycleLossCoefficienttoAmbientTemperature.get
         ua_on = OpenStudio.convert(ua_on,'W/K','Btu/hr*R').get
         
+        # Estimate storage tank volume
+        tank_volume = vol > 100 ? (vol - 100).round(0) : 0
+        wh_tank_volume = vol > 100 ? 100 : vol
+        # SL Storage Tank: polynomial regression based on a set of manufacturer data
+        sl_tank = 0.0000005 * tank_volume**3 - 0.001 * tank_volume**2 + 1.3519 * tank_volume + 64.456 # in Btu/h
+
         # test baseline water heater fuel
          assert_equal(prm_shw_fuel, fuel, "#{prm_maj_sec}: baseline water heater fuel type")
         
@@ -943,10 +949,10 @@ module Baseline9012013
           elsif cap > prm_cap_gas
             # from standard
             e_t = 0.8
-            sl = cap / 799 + 16.6 * Math.sqrt(vol) #per 2013 errata
             # from PNNL
+            p_on = cap / e_t
+            sl = p_on / 800 + 110 * Math.sqrt(vol) + sl_tank #per 2013 errata
             ua = sl * e_t / 70
-            p_on = cap
             e_ht = (ua * 70 + p_on * e_t) / p_on
             
             # test
@@ -1035,8 +1041,8 @@ module Baseline9012013
       dx_coil_hash.keys.each do |cooling_coil_name_keyword|
         next unless cooling_coil_name.include? cooling_coil_name_keyword
         next unless dx_coil_hash[cooling_coil_name_keyword]["CoilType"] == "SingleSpeedCooling"
-        if cooling_coil.getRatedCOP.is_initialized
-          coil_cop = cooling_coil.getRatedCOP.get
+        if cooling_coil.ratedCOP.is_initialized
+          coil_cop = cooling_coil.ratedCOP.get
           if dx_coil_hash[cooling_coil_name_keyword]["EfficiencyType"] == "EER"
             expected_coil_cop = (7.84e-8*dx_coil_hash[cooling_coil_name_keyword]["Efficiency"]*dx_coil_hash[cooling_coil_name_keyword]["Capacity"]*1000.0)+(0.338*dx_coil_hash[cooling_coil_name_keyword]["Efficiency"])
           elsif dx_coil_hash[cooling_coil_name_keyword]["EfficiencyType"] == "SEER"
@@ -1072,8 +1078,8 @@ module Baseline9012013
       dx_coil_hash.keys.each do |cooling_coil_name_keyword|
         next unless cooling_coil_name.include? cooling_coil_name_keyword
         next unless dx_coil_hash[cooling_coil_name_keyword]["CoilType"] == "TwoSpeedCooling"
-        if cooling_coil.getRatedHighSpeedCOP.is_initialized
-          coil_cop = cooling_coil.getRatedHighSpeedCOP.get
+        if cooling_coil.ratedHighSpeedCOP.is_initialized
+          coil_cop = cooling_coil.ratedHighSpeedCOP.get
           if dx_coil_hash[cooling_coil_name_keyword]["EfficiencyType"] == "EER"
             expected_coil_cop = (7.84e-8*dx_coil_hash[cooling_coil_name_keyword]["Efficiency"]*dx_coil_hash[cooling_coil_name_keyword]["Capacity"]*1000.0)+(0.338*dx_coil_hash[cooling_coil_name_keyword]["Efficiency"])
           elsif dx_coil_hash[cooling_coil_name_keyword]["EfficiencyType"] == "SEER"
