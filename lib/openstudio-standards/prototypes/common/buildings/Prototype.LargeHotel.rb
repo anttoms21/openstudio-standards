@@ -1,75 +1,37 @@
-
 # Custom changes for the LargeHotel prototype.
-# These are changes that are inconsistent with other prototype
-# building types.
+# These are changes that are inconsistent with other prototype building types.
 module LargeHotel
-  def model_custom_hvac_tweaks(building_type, climate_zone, prototype_input, model)
-    OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', 'Started building type specific adjustments')
+  # hvac adjustments specific to the prototype model
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @param building_type [String] the building type
+  # @param climate_zone [String] ASHRAE climate zone, e.g. 'ASHRAE 169-2013-4A'
+  # @param prototype_input [Hash] hash of prototype inputs
+  # @return [Boolean] returns true if successful, false if not
+  def model_custom_hvac_tweaks(model, building_type, climate_zone, prototype_input)
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', 'Started building type specific HVAC adjustments')
+
+    # add transformer
+    # efficiency based on a 150 kVA transformer
+    case template
+    when '90.1-2004', '90.1-2007'
+      transformer_efficiency = 0.971
+    when '90.1-2010', '90.1-2013'
+      transformer_efficiency = 0.983
+    when '90.1-2016', '90.1-2019'
+      transformer_efficiency = 0.988
+    else
+      transformer_efficiency = nil
+    end
+    return true if transformer_efficiency.nil?
+
+    OpenstudioStandards::Equipment.create_transformer(model,
+                                                      wired_lighting_frac: 0.0352,
+                                                      transformer_size: 150000,
+                                                      transformer_efficiency: transformer_efficiency)
 
     # add extra equipment for kitchen
     add_extra_equip_kitchen(model)
-
-    # Add Exhaust Fan
-    space_type_map = define_space_type_map(building_type, climate_zone)
-    exhaust_fan_space_types = []
-    case template
-      when '90.1-2004', '90.1-2007'
-        exhaust_fan_space_types = ['Kitchen', 'Laundry']
-      else
-        exhaust_fan_space_types = ['Banquet', 'Kitchen', 'Laundry']
-    end
-
-    exhaust_fan_space_types.each do |space_type_name|
-      space_type_data = model_find_object(standards_data['space_types'], 'template' => template, 'building_type' => building_type, 'space_type' => space_type_name)
-      if space_type_data.nil?
-        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Unable to find space type #{template}-#{building_type}-#{space_type_name}")
-        return false
-      end
-
-      exhaust_schedule = model_add_schedule(model, space_type_data['exhaust_schedule'])
-      unless exhaust_schedule
-        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', "Unable to find Exhaust Schedule for space type #{template}-#{building_type}-#{space_type_name}")
-        return false
-      end
-
-      balanced_exhaust_schedule = model_add_schedule(model, space_type_data['balanced_exhaust_fraction_schedule'])
-
-      space_names = space_type_map[space_type_name]
-      space_names.each do |space_name|
-        space = model.getSpaceByName(space_name).get
-        thermal_zone = space.thermalZone.get
-
-        zone_exhaust_fan = OpenStudio::Model::FanZoneExhaust.new(model)
-        zone_exhaust_fan.setName(space.name.to_s + ' Exhaust Fan')
-        zone_exhaust_fan.setAvailabilitySchedule(exhaust_schedule)
-        zone_exhaust_fan.setFanEfficiency(space_type_data['exhaust_fan_efficiency'])
-        zone_exhaust_fan.setPressureRise(space_type_data['exhaust_fan_pressure_rise'])
-        maximum_flow_rate = OpenStudio.convert(space_type_data['exhaust_fan_maximum_flow_rate'], 'cfm', 'm^3/s').get
-
-        zone_exhaust_fan.setMaximumFlowRate(maximum_flow_rate)
-        if balanced_exhaust_schedule.class.to_s != 'NilClass'
-          zone_exhaust_fan.setBalancedExhaustFractionSchedule(balanced_exhaust_schedule)
-        end
-        zone_exhaust_fan.setEndUseSubcategory('Zone Exhaust Fans')
-        zone_exhaust_fan.addToThermalZone(thermal_zone)
-
-        if !space_type_data['exhaust_fan_power'].nil? && space_type_data['exhaust_fan_power'].to_f.nonzero?
-          # Create the electric equipment definition
-          exhaust_fan_equip_def = OpenStudio::Model::ElectricEquipmentDefinition.new(model)
-          exhaust_fan_equip_def.setName("#{space_name} Electric Equipment Definition")
-          exhaust_fan_equip_def.setDesignLevel(space_type_data['exhaust_fan_power'].to_f)
-          exhaust_fan_equip_def.setFractionLatent(0)
-          exhaust_fan_equip_def.setFractionRadiant(0)
-          exhaust_fan_equip_def.setFractionLost(1)
-
-          # Create the electric equipment instance and hook it up to the space type
-          exhaust_fan_elec_equip = OpenStudio::Model::ElectricEquipment.new(exhaust_fan_equip_def)
-          exhaust_fan_elec_equip.setName("#{space_name} Exhaust Fan Equipment")
-          exhaust_fan_elec_equip.setSchedule(exhaust_schedule)
-          exhaust_fan_elec_equip.setSpaceType(space.spaceType.get)
-        end
-      end
-    end
 
     # adjust VAV system sizing
     model.getAirLoopHVACs.each do |air_loop|
@@ -106,12 +68,22 @@ module LargeHotel
 
     OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', 'Finished building type specific adjustments')
 
+    # Guestroom vacancy controls
+    model_add_guestroom_vacancy_controls(model, 'LargeHotel')
+
+    # Guestroom temperature reset schedule delay reduction from 30 min to 20 min
+    model_reduce_setback_sch_delay(model, 'LargeHotel')
+
+    # Guestroom ventilation availability schedule setup
+    model_add_guestroom_vent_sch(model, 'LargeHotel')
+
     return true
   end
 
-  # add hvac
-
   # add extra equipment for kitchen
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Boolean] returns true if successful, false if not
   def add_extra_equip_kitchen(model)
     kitchen_space = model.getSpaceByName('Kitchen_Flr_6')
     kitchen_space = kitchen_space.get
@@ -121,19 +93,22 @@ module LargeHotel
     elec_equip_def1.setName('Kitchen Electric Equipment Definition1')
     elec_equip_def2.setName('Kitchen Electric Equipment Definition2')
     case template
-      when '90.1-2004', '90.1-2007', '90.1-2010', '90.1-2013'
+      when '90.1-2004', '90.1-2007', '90.1-2010', '90.1-2013', '90.1-2016', '90.1-2019'
         elec_equip_def1.setFractionLatent(0)
         elec_equip_def1.setFractionRadiant(0.25)
         elec_equip_def1.setFractionLost(0)
         elec_equip_def2.setFractionLatent(0)
         elec_equip_def2.setFractionRadiant(0.25)
         elec_equip_def2.setFractionLost(0)
-        if template == '90.1-2013'
+        if template == '90.1-2013' || template == '90.1-2016'
           elec_equip_def1.setDesignLevel(457.7)
           elec_equip_def2.setDesignLevel(285)
+        elsif template == '90.1-2019'
+          elec_equip_def1.setDesignLevel(277.5)
+          elec_equip_def2.setDesignLevel(156.7)
         else
-          elec_equip_def1.setDesignLevel(457.7)
-          elec_equip_def2.setDesignLevel(285)
+          elec_equip_def1.setDesignLevel(515.917)
+          elec_equip_def2.setDesignLevel(425.8)
         end
         # Create the electric equipment instance and hook it up to the space type
         elec_equip1 = OpenStudio::Model::ElectricEquipment.new(elec_equip_def1)
@@ -147,18 +122,100 @@ module LargeHotel
       # elec_equip2.setSchedule(model.alwaysOnDiscreteSchedule)
       # elec_equip2.setSchedule(model.alwaysOffDiscreteSchedule)
     end
+    return true
   end
 
   # Add the daylighting controls for lobby, cafe, dinning and banquet
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Boolean] returns true if successful, false if not
   def model_add_daylighting_controls(model)
     space_names = ['Banquet_Flr_6', 'Dining_Flr_6', 'Cafe_Flr_1', 'Lobby_Flr_1']
     space_names.each do |space_name|
       space = model.getSpaceByName(space_name).get
       space_add_daylighting_controls(space, false, false)
     end
+    return true
   end
 
-  def model_custom_swh_tweaks(model, building_type, climate_zone, prototype_input)
+  # update water heater ambient conditions
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Boolean] returns true if successful, false if not
+  def update_waterheater_ambient_parameters(model)
+    model.getWaterHeaterMixeds.sort.each do |water_heater|
+      if water_heater.name.to_s.include?('300gal')
+        water_heater.resetAmbientTemperatureSchedule
+        water_heater.setAmbientTemperatureIndicator('ThermalZone')
+        water_heater.setAmbientTemperatureThermalZone(model.getThermalZoneByName('Basement ZN').get)
+      elsif water_heater.name.to_s.include?('6.0gal')
+        water_heater.resetAmbientTemperatureSchedule
+        water_heater.setAmbientTemperatureIndicator('ThermalZone')
+        water_heater.setAmbientTemperatureThermalZone(model.getThermalZoneByName('Kitchen_Flr_6 ZN').get)
+      end
+    end
     return true
+  end
+
+  # swh adjustments specific to the prototype model
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @param building_type [String] the building type
+  # @param climate_zone [String] ASHRAE climate zone, e.g. 'ASHRAE 169-2013-4A'
+  # @param prototype_input [Hash] hash of prototype inputs
+  # @return [Boolean] returns true if successful, false if not
+  def model_custom_swh_tweaks(model, building_type, climate_zone, prototype_input)
+    update_waterheater_ambient_parameters(model)
+    return true
+  end
+
+  # geometry adjustments specific to the prototype model
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @param building_type [String] the building type
+  # @param climate_zone [String] ASHRAE climate zone, e.g. 'ASHRAE 169-2013-4A'
+  # @param prototype_input [Hash] hash of prototype inputs
+  # @return [Boolean] returns true if successful, false if not
+  def model_custom_geometry_tweaks(model, building_type, climate_zone, prototype_input)
+    # Set original building North axis
+    OpenstudioStandards::Geometry.model_set_building_north_axis(model, 0.0)
+    return true
+  end
+
+  # @!group AirTerminalSingleDuctVAVReheat
+  # Set the initial minimum damper position based on OA rate of the space and the template.
+  # Zones with low OA per area get lower initial guesses.
+  # Final position will be adjusted upward as necessary by Standards.AirLoopHVAC.apply_minimum_vav_damper_positions
+  #
+  # @param air_terminal_single_duct_vav_reheat [OpenStudio::Model::AirTerminalSingleDuctVAVReheat] the air terminal object
+  # @param zone_oa_per_area [Double] the zone outdoor air per area in m^3/s*m^2
+  # @return [Boolean] returns true if successful, false if not
+  def air_terminal_single_duct_vav_reheat_apply_initial_prototype_damper_position(air_terminal_single_duct_vav_reheat, zone_oa_per_area)
+    min_damper_position = template == '90.1-2010' || template == '90.1-2013' || template == '90.1-2016' || template == '90.1-2019' ? 0.2 : 0.3
+
+    # Set the minimum flow fraction
+    air_terminal_single_duct_vav_reheat.setConstantMinimumAirFlowFraction(min_damper_position)
+
+    return true
+  end
+
+  # Type of SAT reset for this building type
+  #
+  # @param air_loop_hvac [OpenStudio::Model::AirLoopHVAC] air loop
+  # @return [String] Returns type of SAT reset
+  def air_loop_hvac_supply_air_temperature_reset_type(air_loop_hvac)
+    return 'oa'
+  end
+
+  # List transfer air target and source zones, and airflow (cfm)
+  # code_sections [90.1-2019_6.5.7.1], [90.1-2016_6.5.7.1]
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Hash] target zones (key) and source zones (value) and air flow (value)
+  def model_transfer_air_target_and_source_zones(model)
+    model_transfer_air_target_and_source_zones_hash = {
+      'Laundry_Flr_1 ZN' => ['Lobby_Flr_1 ZN', 500.0]
+    }
+    return model_transfer_air_target_and_source_zones_hash
   end
 end

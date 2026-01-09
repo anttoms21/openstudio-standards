@@ -87,8 +87,10 @@ def export_openstudio_libraries
               boiler.setFuelType('NaturalGas')
             when 'Electric'
               boiler.setFuelType('Electricity')
+            when 'Propane', 'PropaneGas'
+              boiler.setFuelType('Propane')
             when 'Oil'
-              boiler.setFuelType('FuelOil#2')
+              boiler.setFuelType('FuelOilNo2')
           end
           # Set capacity to middle of range
           min_cap_btu_per_hr = props['minimum_capacity'].to_f
@@ -400,16 +402,15 @@ def export_openstudio_libraries
           std_applier.space_type_apply_rendering_color(space_type)
 
           # Loads
-          std_applier.space_type_apply_internal_loads(space_type, true, true, true, true, true, true)
+          std_applier.space_type_apply_internal_loads(space_type)
 
           # Schedules
-          std_applier.space_type_apply_internal_load_schedules(space_type, true, true, true, true, true, true, true)
-
+          std_applier.space_type_apply_internal_load_schedules(space_type)
         end
       end
 
       # Construction Sets, Constructions, and Materials
-      # TODO fix code to remove duplicate constructions and materials
+      # @todo fix code to remove duplicate constructions and materials
       if include_construction_sets
         puts "* Construction Sets *"
         std.standards_data['construction_sets'].each do |props|
@@ -436,9 +437,9 @@ def export_openstudio_libraries
 
       # Save the library
       pkg_dir = "#{__dir__}/../../pkg"
-      Dir.mkdir(pkg_dir) unless Dir.exists?(pkg_dir)
+      Dir.mkdir(pkg_dir) unless Dir.exist?(pkg_dir)
       osm_lib_dir = "#{pkg_dir}/libraries"
-      Dir.mkdir(osm_lib_dir) unless Dir.exists?(osm_lib_dir)
+      Dir.mkdir(osm_lib_dir) unless Dir.exist?(osm_lib_dir)
       library_path = "#{osm_lib_dir}/#{template_name.gsub(/\W/,'_')}.osm"
       puts "* Saving library #{library_path}"
       model.save(OpenStudio::Path.new(library_path), true)

@@ -7,7 +7,7 @@ class ASHRAE9012013 < ASHRAE901
   # @return [String] the occupancy type category
   # @todo Add public assembly building types
   def thermal_zone_occupancy_type(thermal_zone)
-    occ_type = if thermal_zone_residential?(thermal_zone)
+    occ_type = if OpenstudioStandards::ThermalZone.thermal_zone_residential?(thermal_zone)
                  'residential'
                else
                  'nonresidential'
@@ -15,7 +15,7 @@ class ASHRAE9012013 < ASHRAE901
 
     # Based on the space type that
     # represents a majority of the zone.
-    space_type = thermal_zone_majority_space_type(thermal_zone)
+    space_type = OpenstudioStandards::ThermalZone.thermal_zone_get_space_type(thermal_zone)
     if space_type.is_initialized
       space_type = space_type.get
       bldg_type = space_type.standardsBuildingType
@@ -24,7 +24,8 @@ class ASHRAE9012013 < ASHRAE901
         case bldg_type
         when 'Retail', 'StripMall', 'SuperMarket'
           occ_type = 'retail'
-          # when 'SomeBuildingType' # TODO add publicassembly building types
+          # when 'SomeBuildingType'
+          # @todo add publicassembly building types
           # occ_type = 'publicassembly'
         end
       end

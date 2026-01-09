@@ -1,5 +1,5 @@
 # *********************************************************************
-# *  Copyright (c) 2008-2015, Natural Resources Canada
+# *  Copyright (c) 2008-2025, Natural Resources Canada
 # *  All rights reserved.
 # *
 # *  This library is free software; you can redistribute it and/or
@@ -22,24 +22,29 @@ require 'fileutils'
 require 'singleton'
 require 'find'
 require 'date'
-require_relative 'fileio' 
-require_relative 'geometry' 
-require_relative 'compliance' 
-require_relative 'analysis' 
-require_relative 'simmanager' 
-require_relative 'mpc' 
+require_relative 'attributes'
+require_relative 'fileio'
+require_relative 'activity'
+require_relative 'structure'
+require_relative 'geometry'
 require_relative 'envelope'
-require_relative 'spaceloads'
-require_relative 'spacetypes'
+require_relative 'bridging'
 require_relative 'schedules'
-require_relative 'hvac'
-require_relative 'economics'
-require_relative 'measures'
-require_relative 'utilities'
-require_relative 'reporting'
-require_relative 'equest'
 require_relative 'btap_result'
-require_relative 'btap_costing'
+
+# require_relative 'analysis'
+# require_relative 'simmanager'
+# require_relative 'mpc'
+# require_relative 'spaceloads'
+# require_relative 'spacetypes'
+
+# require_relative 'hvac'
+# require_relative 'economics'
+# require_relative 'measures'
+# require_relative 'utilities'
+# require_relative 'reporting'
+# require_relative 'equest'
+# require_relative 'btap_costing'
 #require_relative 'btap.space'
 #require_relative 'btap.model'
 class String
@@ -53,7 +58,7 @@ class String
 end
 
 
-class Fixnum
+class Integer
   #This method converts to Boolean.
   #@author phylroy.lopez@nrcan.gc.ca
   def to_bool
@@ -96,12 +101,12 @@ module BTAP
   #EnergyPlus version
   ENERGY_PLUS_MAJOR_VERSION = 8
   ENERGY_PLUS_MINOR_VERSION = 3
-  
+
   #Path constants
   OS_RUBY_PATH = File.expand_path("..\\..\\..", __FILE__)
   TESTING_FOLDER = "C:\\test"
-  
-  #  A wrapper for outputing feedback to users and developers. 
+
+  #  A wrapper for outputing feedback to users and developers.
   #  BTAP::runner_register("InitialCondition",   "Your Information Message Here", runner)
   #  BTAP::runner_register("Info",    "Your Information Message Here", runner)
   #  BTAP::runner_register("Warning", "Your Information Message Here", runner)
@@ -109,12 +114,12 @@ module BTAP
   #  BTAP::runner_register("Debug",   "Your Information Message Here", runner)
   #  BTAP::runner_register("FinalCondition",   "Your Information Message Here", runner)
   #  @params type [String]
-  #  @params runner [OpenStudio::Ruleset::OSRunner] # or a nil. 
+  #  @params runner [OpenStudio::Ruleset::OSRunner] # or a nil.
   def self.runner_register(type,text,runner = nil)
 
-    #dump to console. 
+    #dump to console.
     puts "#{type.upcase}: #{text}"
-    #dump to runner. 
+    #dump to runner.
     if runner.is_a?(OpenStudio::Ruleset::OSRunner)
       case type.downcase
       when "info"
@@ -136,21 +141,14 @@ module BTAP
       end
     end
   end
-  
+
   def self.runner_register_value(name,value,runner = nil)
     if runner.is_a?(OpenStudio::Ruleset::OSRunner)
       runner.registerValue( name,value.to_s)
       BTAP::runner_register("Info", "#{name} = #{value} has been registered in the runner", runner)
     end
   end
-  
-  
-  
-  
 
-  
-  
-  
   def self.gut_building(model)
     #clean up any remaining items that we don't need for NECB.
     puts "Removing casual loads."
@@ -168,7 +166,7 @@ module BTAP
     puts "Removing HVAC"
     BTAP::Resources::HVAC.clear_all_hvac_from_model( model )
   end
-  
+
 
   class OpenStudioLibrary
     include Singleton
@@ -184,7 +182,7 @@ module BTAP
   module SimulationSettings
     #This sets the simulation period for the model. All arguments are integers.
     #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object {http://openstudio.nrel.gov/latest-c-sdk-documentation/model}
+    #@param model [OpenStudio::Model::Model] A model object {http://openstudio.nrel.gov/latest-c-sdk-documentation/model}
     #@param start_month [Integer] a list of output variables that you wish to report from the simulation.
     #@param start_day [Integer] a list of output variables that you wish to report from the simulation.
     #@param end_month [Integer] a list of output variables that you wish to report from the simulation.
@@ -206,7 +204,7 @@ module BTAP
     #This method clears all the output variables to make simulations run faster or to
     #start fresh.
     #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object {http://openstudio.nrel.gov/latest-c-sdk-documentation/model}
+    #@param model [OpenStudio::Model::Model] A model object {http://openstudio.nrel.gov/latest-c-sdk-documentation/model}
     #@return [OpenStudio::Model::Model] the OpenStudio model object (self reference).
     def self.clear_output_variables(model)
       #remove existing outputs
@@ -218,7 +216,7 @@ module BTAP
 
     #This turns all output on. Warning: Long runtimes will result.
     #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object
+    #@param model [OpenStudio::Model::Model] A model object
     #@param frequency [Fixnum]
     #@return [OpenStudio::Model::Model] a copy of the OpenStudio model object (self reference).
     def self.all_output_variables(model,frequency)
@@ -229,7 +227,7 @@ module BTAP
     #This method returns a vector of the results that are available in the current
     #model.
     #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object
+    #@param model [OpenStudio::Model::Model] A model object
     #@return [Array<String>] a list of all the possible output variables.
     def self.get_possible_output_variables( model )
       #Run simulation
@@ -254,7 +252,7 @@ module BTAP
 
     #This method sets up some predetermined output variables. May take a while to run with these settings.
     #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object
+    #@param model [OpenStudio::Model::Model] A model object
     #@param frequency [Fixnum]
     #@param output_variable_array [Array<String>] a list of output variables that you wish to report from the simulation.
     #@return [OpenStudio::Model::Model] the OpenStudio model object (self reference).
@@ -270,24 +268,13 @@ module BTAP
 
 
   end
-  module Site
-    #This method sets the weather file for the model.
-    #It takes a simple string, remember to escape the slashes..(i.e. // not / )
-    #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object
-    #@param  epw_path [String] a simple string of the epw file path, remember to escape the slashes..(i.e. // not / )
-    def self.set_weather_file(model, epw_path)
-      BTAP::Environment::WeatherFile.new(epw_path).set_weather_file(model)
-    end
-
-  end
   # This contains methods for creation and querying object that deal with Envelope, SpaceLoads,Schedules, and HVAC.
-  
+
   module Common
     #This model checks to see if the obj_array passed is
     #the object we require, or if a string is given to search for a object of that strings name.
     #@author Phylroy A. Lopez
-    #@param model [OpenStudio::model::Model] A model object
+    #@param model [OpenStudio::Model::Model] A model object
     #@param obj_array <Object>
     #@param object_type [Object]
     def self.validate_array(model,obj_array,object_type)
@@ -357,4 +344,3 @@ module BTAP
   end
 end
 #module BTAP
-

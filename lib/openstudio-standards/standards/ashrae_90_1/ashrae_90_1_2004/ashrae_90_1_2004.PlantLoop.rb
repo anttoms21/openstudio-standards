@@ -1,8 +1,10 @@
 class ASHRAE9012004 < ASHRAE901
   # @!group PlantLoop
 
-  # Set the primary and secondary pumping control types for the
-  # chilled water loop, as specified in Appendix G.
+  # Set the primary and secondary pumping control types for the chilled water loop, as specified in Appendix G.
+  #
+  # @param plant_loop [OpenStudio::Model::PlantLoop] chilled water loop
+  # @return [Boolean] returns true if successful, false if not
   def plant_loop_apply_prm_baseline_chilled_water_pumping_type(plant_loop)
     # Determine the pumping type.
     minimum_area_ft2 = 120_000
@@ -33,10 +35,10 @@ class ASHRAE9012004 < ASHRAE901
     plant_loop.supplyComponents.each do |sc|
       if sc.to_PumpVariableSpeed.is_initialized
         pump = sc.to_PumpVariableSpeed.get
-        pump_variable_speed_set_control_type(pump, pri_control_type)
+        OpenstudioStandards::HVAC.pump_variable_speed_set_control_type(pump, control_type: pri_control_type)
       elsif sc.to_HeaderedPumpsVariableSpeed.is_initialized
         pump = sc.to_HeaderedPumpsVariableSpeed.get
-        headered_pump_variable_speed_set_control_type(pump, control_type)
+        OpenstudioStandards::HVAC.pump_variable_speed_set_control_type(pump, control_type: pri_control_type)
       end
     end
 
@@ -44,10 +46,10 @@ class ASHRAE9012004 < ASHRAE901
     plant_loop.demandComponents.each do |sc|
       if sc.to_PumpVariableSpeed.is_initialized
         pump = sc.to_PumpVariableSpeed.get
-        pump_variable_speed_set_control_type(pump, sec_control_type)
+        OpenstudioStandards::HVAC.pump_variable_speed_set_control_type(pump, control_type: sec_control_type)
       elsif sc.to_HeaderedPumpsVariableSpeed.is_initialized
         pump = sc.to_HeaderedPumpsVariableSpeed.get
-        headered_pump_variable_speed_set_control_type(pump, control_type)
+        OpenstudioStandards::HVAC.pump_variable_speed_set_control_type(pump, control_type: pri_control_type)
       end
     end
 
