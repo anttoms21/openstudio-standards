@@ -6,6 +6,9 @@ class Standard
   # Sets the fan pressure rise based on the Prototype buildings inputs
   # which are governed by the flow rate coming through the fan
   # and whether the fan lives inside a unit heater, PTAC, etc.
+  #
+  # @param fan_on_off [OpenStudio::Model::FanOnOff] on off fan object
+  # @return [Boolean] returns true if successful, false if not
   def fan_on_off_apply_prototype_fan_pressure_rise(fan_on_off)
     # Get the max flow rate from the fan.
     maximum_flow_rate_m3_per_s = nil
@@ -21,8 +24,7 @@ class Standard
     # Convert max flow rate to cfm
     maximum_flow_rate_cfm = OpenStudio.convert(maximum_flow_rate_m3_per_s, 'm^3/s', 'cfm').get
 
-    # Pressure rise will be determined based on the
-    # following logic.
+    # Pressure rise will be determined based on the following logic.
     pressure_rise_in_h2o = 0.0
 
     # If the fan lives inside of a zone hvac equipment
@@ -58,11 +60,11 @@ class Standard
     return true
   end
 
-  # Determine the prototype fan pressure rise for an on off
-  # fan on an AirLoopHVAC or inside a unitary system
-  # based on the airflow of the system.
-  # @return [Double] the pressure rise (in H2O).  Defaults
-  # to the logic from ASHRAE 90.1-2004 prototypes.
+  # Determine the prototype fan pressure rise for an on off fan on an AirLoopHVAC or inside a unitary system based on system airflow.
+  # Defaults to the logic from ASHRAE 90.1-2004 prototypes.
+  #
+  # @param fan_on_off [OpenStudio::Model::FanOnOff] on off fan object
+  # @return [Double] pressure rise in inches H20
   def fan_on_off_airloop_or_unitary_fan_pressure_rise(fan_on_off)
     # Get the max flow rate from the fan.
     maximum_flow_rate_m3_per_s = nil
@@ -89,51 +91,4 @@ class Standard
 
     return pressure_rise_in_h2o
   end
-
-  def create_fan_on_off(model,
-                        fan_name: nil,
-                        fan_efficiency: nil,
-                        pressure_rise: nil,
-                        motor_efficiency: nil,
-                        motor_in_airstream_fraction: nil,
-                        end_use_subcategory: nil)
-    fan = OpenStudio::Model::FanOnOff.new(model)
-    PrototypeFan.apply_base_fan_variables(fan,
-                                          fan_name:fan_name,
-                                          fan_efficiency: fan_efficiency,
-                                          pressure_rise: pressure_rise,
-                                          end_use_subcategory:end_use_subcategory)
-    fan.setMotorEfficiency(motor_efficiency) unless motor_efficiency.nil?
-    fan.setMotorInAirstreamFraction(motor_in_airstream_fraction) unless motor_in_airstream_fraction.nil?
-    return fan
-  end
-
-  def create_fan_on_off_from_json(model,
-                                  fan_json,
-                                  fan_name: nil,
-                                  fan_efficiency: nil,
-                                  pressure_rise: nil,
-                                  motor_efficiency: nil,
-                                  motor_in_airstream_fraction: nil,
-                                  end_use_subcategory: nil)
-    # check values to use
-    fan_efficiency = fan_efficiency ? fan_efficiency : fan_json['fan_efficiency']
-    pressure_rise = pressure_rise ? pressure_rise : fan_json['pressure_rise']
-    motor_efficiency = motor_efficiency ? motor_efficiency : fan_json['motor_efficiency']
-    motor_in_airstream_fraction = motor_in_airstream_fraction ? motor_in_airstream_fraction : fan_json['motor_in_airstream_fraction']
-
-    # convert values
-    pressure_rise = pressure_rise ? OpenStudio.convert(pressure_rise, 'inH_{2}O', 'Pa').get : nil
-
-    # create fan
-    fan = create_fan_on_off(model,
-                            fan_name: fan_name,
-                            fan_efficiency: fan_efficiency,
-                            pressure_rise: pressure_rise,
-                            motor_efficiency: motor_efficiency,
-                            motor_in_airstream_fraction: motor_in_airstream_fraction,
-                            end_use_subcategory: end_use_subcategory)
-    return fan
-  end
-
 end

@@ -1,0 +1,1658 @@
+class NECB2011
+  # Reduces the WWR to the values specified by the NECB
+  # NECB 3.2.1.4
+  def apply_standard_window_to_wall_ratio(model:, fdwr_set: -1.0, necb_hdd: true)
+    # NECB FDWR limit
+    hdd = get_necb_hdd18(model: model, necb_hdd: necb_hdd)
+
+    # Get the maximum NECB fdwr
+    # fdwr_set settings:
+    # 0-1:  Remove all windows and add windows to match this fdwr
+    # -1:  Remove all windows and add windows to match max fdwr from NECB
+    # -2:  Do not apply any fdwr changes, leave windows alone (also works for fdwr > 1)
+    # -3:  Use old method which reduces existing window size (if necessary) to meet maximum NECB fdwr limit
+    # <-3.1:  Remove all windows and doors
+    # > 1:  Do nothing
+
+    return if fdwr_set.to_f > 1.0
+    return apply_max_fdwr_nrcan(model: model, fdwr_lim: fdwr_set.to_f) if fdwr_set.to_f >= 0.0 && fdwr_set.to_f <= 1.0
+    return apply_max_fdwr_nrcan(model: model, fdwr_lim: max_fwdr(hdd).round(3)) if fdwr_set.to_f >= -1.1 && fdwr_set.to_f <= -0.9
+    return if fdwr_set.to_f >= -2.1 && fdwr_set.to_f <= -1.9
+    return apply_limit_fdwr(model: model, fdwr_lim: (max_fwdr(hdd) * 100.0).round(1)) if fdwr_set.to_f >= -3.1 && fdwr_set.to_f <= -2.9
+    return apply_max_fdwr_nrcan(model: model, fdwr_lim: fdwr_set.to_f) if fdwr_set.to_f < -3.1
+  end
+
+  def apply_limit_fdwr(model:, fdwr_lim:)
+    # Loop through all spaces in the model, and
+    # per the PNNL PRM Reference Manual, find the areas
+    # of each space conditioning category (res, nonres, semi-heated)
+    # separately.  Include space multipliers.
+    nr_wall_m2 = 0.001 # Avoids divide by zero errors later
+    nr_wind_m2 = 0
+    res_wall_m2 = 0.001
+    res_wind_m2 = 0
+    sh_wall_m2 = 0.001
+    sh_wind_m2 = 0
+    total_wall_m2 = 0.001
+    total_subsurface_m2 = 0.0
+    # Store the space conditioning category for later use
+    space_cats = {}
+    model.getSpaces.sort.each do |space|
+      # Loop through all surfaces in this space
+      wall_area_m2 = 0
+      wind_area_m2 = 0
+      space.surfaces.sort.each do |surface|
+        # Skip non-outdoor surfaces
+        next unless surface.outsideBoundaryCondition == 'Outdoors'
+        # Skip non-walls
+        next unless surface.surfaceType.casecmp('wall').zero?
+
+        # This wall's gross area (including window area)
+        wall_area_m2 += surface.grossArea * space.multiplier
+        # Subsurfaces in this surface
+        surface.subSurfaces.sort.each do |ss|
+          wind_area_m2 += ss.netArea * space.multiplier
+        end
+      end
+
+      # Determine the space category
+      # @todo This should really use the heating/cooling loads
+      # from the proposed building.  However, in an attempt
+      # to avoid another sizing run just for this purpose,
+      # conditioned status is based on heating/cooling
+      # setpoints.  If heated-only, will be assumed Semiheated.
+      # The full-bore method is on the next line in case needed.
+      # cat = thermal_zone_conditioning_category(space, template, climate_zone)
+      cooled = OpenstudioStandards::Space.space_cooled?(space)
+      heated = OpenstudioStandards::Space.space_heated?(space)
+      cat = 'Unconditioned'
+      # Unconditioned
+      if !heated && !cooled
+        cat = 'Unconditioned'
+        # Heated-Only
+      elsif heated && !cooled
+        cat = 'Semiheated'
+        # Heated and Cooled
+      else
+        res = OpenstudioStandards::ThermalZone.thermal_zone_residential?(space.thermalZone.get)
+        cat = if res
+                'ResConditioned'
+              else
+                'NonResConditioned'
+              end
+      end
+      space_cats[space] = cat
+      # NECB2011 keep track of totals for NECB regardless of conditioned or not.
+      total_wall_m2 += wall_area_m2
+      total_subsurface_m2 += wind_area_m2 # this contains doors as well.
+
+      # Add to the correct category
+      case cat
+      when 'Unconditioned'
+        next # Skip unconditioned spaces
+      when 'NonResConditioned'
+        nr_wall_m2 += wall_area_m2
+        nr_wind_m2 += wind_area_m2
+      when 'ResConditioned'
+        res_wall_m2 += wall_area_m2
+        res_wind_m2 += wind_area_m2
+      when 'Semiheated'
+        sh_wall_m2 += wall_area_m2
+        sh_wind_m2 += wind_area_m2
+      end
+    end
+
+    # Calculate the WWR of each category
+    wwr_nr = ((nr_wind_m2 / nr_wall_m2) * 100.0).round(1)
+    wwr_res = ((res_wind_m2 / res_wall_m2) * 100).round(1)
+    wwr_sh = ((sh_wind_m2 / sh_wall_m2) * 100).round(1)
+    fdwr = ((total_subsurface_m2 / total_wall_m2) * 100).round(1) # used by NECB2011
+
+    # Convert to IP and report
+    nr_wind_ft2 = OpenStudio.convert(nr_wind_m2, 'm^2', 'ft^2').get
+    nr_wall_ft2 = OpenStudio.convert(nr_wall_m2, 'm^2', 'ft^2').get
+
+    res_wind_ft2 = OpenStudio.convert(res_wind_m2, 'm^2', 'ft^2').get
+    res_wall_ft2 = OpenStudio.convert(res_wall_m2, 'm^2', 'ft^2').get
+
+    sh_wind_ft2 = OpenStudio.convert(sh_wind_m2, 'm^2', 'ft^2').get
+    sh_wall_ft2 = OpenStudio.convert(sh_wall_m2, 'm^2', 'ft^2').get
+
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.Model', "WWR NonRes = #{wwr_nr.round}%; window = #{nr_wind_ft2.round} ft2, wall = #{nr_wall_ft2.round} ft2.")
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.Model', "WWR Res = #{wwr_res.round}%; window = #{res_wind_ft2.round} ft2, wall = #{res_wall_ft2.round} ft2.")
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.Model', "WWR Semiheated = #{wwr_sh.round}%; window = #{sh_wind_ft2.round} ft2, wall = #{sh_wall_ft2.round} ft2.")
+
+    # WWR limit
+    wwr_lim = 40.0
+
+    # Check against WWR limit
+    red_nr = wwr_nr > wwr_lim
+    red_res = wwr_res > wwr_lim
+    red_sh = wwr_sh > wwr_lim
+
+    # puts "Current FDWR is #{fdwr}, must be less than #{fdwr_lim}."
+    # puts "Current subsurf area is #{total_subsurface_m2} and gross surface area is #{total_wall_m2}"
+    # Stop here unless windows / doors need reducing
+    return true unless fdwr > fdwr_lim
+
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.Model', "Reducing the size of all windows (by raising sill height) to reduce window area down to the limit of #{wwr_lim.round}%.")
+    # Determine the factors by which to reduce the window / door area
+    mult = fdwr_lim / fdwr
+    # Reduce the window area if any of the categories necessary
+    model.getSpaces.sort.each do |space|
+      # Loop through all surfaces in this space
+      space.surfaces.sort.each do |surface|
+        # Skip non-outdoor surfaces
+        next unless surface.outsideBoundaryCondition == 'Outdoors'
+        # Skip non-walls
+        next unless surface.surfaceType == 'Wall'
+
+        # Subsurfaces in this surface
+        surface.subSurfaces.sort.each do |ss|
+          # Reduce the size of the window
+          red = 1.0 - mult
+          OpenstudioStandards::Geometry.sub_surface_reduce_area_by_percent_by_raising_sill(ss, red)
+        end
+      end
+    end
+    return true
+  end
+
+  # Reduces the SRR to the values specified by the PRM. SRR reduction
+  # will be done by shrinking vertices toward the centroid.
+  def apply_standard_skylight_to_roof_ratio(model:, srr_set: -1.0, srr_opt: '')
+    # If srr_set is between 1.0 and 1.2 set it to the maximum allowed by the NECB.  If srr_set is between 0.0 and 1.0
+    # apply whatever was passed.  If srr_set >= 1.2 then set the existing srr of the building to be the necb maximum
+    # only if the the srr exceeds this maximum (otherwise leave it to be whatever was modeled).
+    #
+    # srr_set settings:
+    #   0-1:  Remove all skylights and add skylights to match this srr
+    #    -1:  Remove all skylights and add skylights to match max srr from NECB
+    #    -2:  Do not apply any srr changes, leave skylights alone (also works for srr > 1)
+    #    -3:  Use old method which reduces existing skylight size (if necessary) to meet maximum NECB skylight limit
+    # <-3.1:  Remove all skylights
+    #   > 1:  Do nothing
+    #
+    # By default, :srr_opt is an empty string (" "). If set to "osut", SRR is
+    # instead met using OSut's addSkylights (:srr_set numeric values may apply).
+    return if srr_set.to_f > 1.0
+    return apply_max_srr_nrcan(model: model, srr_lim: srr_set.to_f, srr_opt: srr_opt) if srr_set.to_f >= 0.0 && srr_set.to_f <= 1.0
+
+    # Get the maximum NECB srr
+    return apply_max_srr_nrcan(model: model, srr_lim: get_standards_constant('skylight_to_roof_ratio_max_value').to_f, srr_opt: srr_opt) if srr_set.to_f >= -1.1 && srr_set.to_f <= -0.9
+
+    return if srr_set.to_f >= -2.1 && srr_set.to_f <= -1.9
+    return apply_max_srr_nrcan(model: model, srr_lim: srr_set.to_f, srr_opt: srr_opt) if srr_set.to_f < -3.1
+    return unless srr_set.to_f >= -3.1 && srr_set.to_f <= -2.9
+
+    # SRR limit
+    srr_lim = get_standards_constant('skylight_to_roof_ratio_max_value') * 100.0
+
+    # Loop through all spaces in the model, and
+    # per the PNNL PRM Reference Manual, find the areas
+    # of each space conditioning category (res, nonres, semi-heated)
+    # separately.  Include space multipliers.
+    nr_wall_m2 = 0.001 # Avoids divide by zero errors later
+    nr_sky_m2 = 0
+    res_wall_m2 = 0.001
+    res_sky_m2 = 0
+    sh_wall_m2 = 0.001
+    sh_sky_m2 = 0
+    total_roof_m2 = 0.001
+    total_subsurface_m2 = 0
+
+    model.getSpaces.sort.each do |space|
+      # Loop through all surfaces in this space
+      wall_area_m2 = 0
+      sky_area_m2 = 0
+      space.surfaces.sort.each do |surface|
+        # Skip non-outdoor surfaces
+        next unless surface.outsideBoundaryCondition == 'Outdoors'
+        # Skip non-walls
+        next unless surface.surfaceType == 'RoofCeiling'
+
+        # This wall's gross area (including skylight area)
+        wall_area_m2 += surface.grossArea * space.multiplier
+        # Subsurfaces in this surface
+        surface.subSurfaces.sort.each do |ss|
+          sky_area_m2 += ss.netArea * space.multiplier
+        end
+      end
+
+      # Determine the space category
+      cat = 'NonRes'
+      if OpenstudioStandards::Space.space_residential?(space)
+        cat = 'Res'
+      end
+      # if space.is_semiheated
+      # cat = 'Semiheated'
+      # end
+
+      # Add to the correct category
+      case cat
+      when 'NonRes'
+        nr_wall_m2 += wall_area_m2
+        nr_sky_m2 += sky_area_m2
+      when 'Res'
+        res_wall_m2 += wall_area_m2
+        res_sky_m2 += sky_area_m2
+      when 'Semiheated'
+        sh_wall_m2 += wall_area_m2
+        sh_sky_m2 += sky_area_m2
+      end
+      total_roof_m2 += wall_area_m2
+      total_subsurface_m2 += sky_area_m2
+    end
+
+    # Calculate the SRR of each category
+    srr_nr = ((nr_sky_m2 / nr_wall_m2) * 100).round(1)
+    srr_res = ((res_sky_m2 / res_wall_m2) * 100).round(1)
+    srr_sh = ((sh_sky_m2 / sh_wall_m2) * 100).round(1)
+    srr = ((total_subsurface_m2 / total_roof_m2) * 100.0).round(1)
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.Model', "The skylight to roof ratios (SRRs) are: NonRes: #{srr_nr.round}%, Res: #{srr_res.round}%.")
+
+    # Check against SRR limit
+    red_nr = srr_nr > srr_lim
+    red_res = srr_res > srr_lim
+    red_sh = srr_sh > srr_lim
+
+    # Stop here unless windows need reducing
+    return true unless srr > srr_lim
+
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.Model', "Reducing the size of all windows (by raising sill height) to reduce window area down to the limit of #{srr_lim.round}%.")
+    # Determine the factors by which to reduce the window / door area
+    mult = srr_lim / srr
+
+    # Reduce the subsurface areas
+    model.getSpaces.sort.each do |space|
+      # Loop through all surfaces in this space
+      space.surfaces.sort.each do |surface|
+        # Skip non-outdoor surfaces
+        next unless surface.outsideBoundaryCondition == 'Outdoors'
+        # Skip non-walls
+        next unless surface.surfaceType == 'RoofCeiling'
+
+        # Subsurfaces in this surface
+        surface.subSurfaces.sort.each do |ss|
+          # Reduce the size of the subsurface
+          red = 1.0 - mult
+          OpenstudioStandards::Geometry.sub_surface_reduce_area_by_percent_by_shrinking_toward_centroid(ss, red)
+        end
+      end
+    end
+
+    return true
+  end
+
+  # @author phylroy.lopez@nrcan.gc.ca
+  # @param hdd [Float]
+  # @return [Double] a constant float
+  def max_fwdr(hdd)
+    #  get formula from json database.
+    return eval(get_standards_formula('fdwr_formula'))
+  end
+
+  ##
+  # Returns NECB-required U-factor, based on surface type, outside boundary
+  # condition and heating-degree-days (18C).
+  #
+  # @author nicholas.pneumaticos@nrcan-rncan.gc.ca
+  #
+  # @param stype [#to_s] surface type, e.g. "roofceiling"
+  # @param bc [#to_s] outside boundary condition, e.g. "outdoors"
+  # @param hdd [#to_f] heating-degree-days 18C
+  #
+  # @return [Float] required U-factor, defaults to 0.110 W/m2.K.
+  def max_u_necb(stype = "roofceiling", condition = "outdoors", hdd = 8000)
+
+    # Return required U-factor if provided HDD < stored HDD.
+    @standards_data["surface_thermal_transmittance"][condition][stype].transform_keys(&:to_i).each { |hdd18, u|
+      return u if hdd < hdd18 }
+    return 0.110
+  end
+
+  ##
+  # Returns a layered construction's area-weighted surface air film resistances.
+  # Based on surface's 'netArea' (i.e. no validation wrt Frame & Dividers).
+  #
+  # @author denis@rd2.ca
+  #
+  # @param [OpenStudio::Model::LayeredConstruction] a construction
+  #
+  # @return [Float] area-weighted surface air film resistances (0 if error)
+  def filmR(construction = nil)
+    return 0 unless construction.is_a?(OpenStudio::Model::LayeredConstruction)
+
+    # Tally:
+    #   - areas of each surface referencing the construction
+    #   - inverse of each surface air film resistances (similar to UA)
+    area   = 0
+    filmA  = 0
+
+    construction.model.getSurfaces.each do |surface|
+      tp = surface.surfaceType.downcase
+      bc = surface.outsideBoundaryCondition.downcase
+      fR = surface.filmResistance
+      m2 = surface.netArea
+      lc = surface.construction
+      next if lc.empty?
+
+      lc = lc.get.to_LayeredConstruction
+      next if lc.empty?
+
+      lc = lc.get
+      next unless lc == construction
+      next unless lc.getNetArea.round > 0
+
+      # Reset surface air film resistance if interzone.
+      if bc == "surface"
+        typ = tp == "wall" ? :partition : :ceiling
+        fR  = TBD.filmResistances(typ, surface.tilt)
+      end
+
+      area  += m2
+      filmA += m2 / fR
+    end
+
+    filmA > 0 ? area / filmA : 0
+  end
+
+  ##
+  # Hard-sets basement floor constructions. Ground-facing floors in full-height
+  # basement spaces are outside the scope of the NECBs. A hard set avoids
+  # inheritance conflicts with BTAP default construction sets.
+  #
+  # @author denis@rd2.ca
+  #
+  # @param model [OpenStudio::Model::Model] a model
+  #
+  # @return [Array] collection of (uninsulated) basement floors
+  def set_basement_floor_construction(model = nil)
+    lc   = nil
+    flrs = []
+    return flrs unless model.is_a?(OpenStudio::Model::Model)
+
+    model.getSpaces.each do |space|
+      floors = TBD.facets(space, "all", "floor")
+      floors = floors.select { |floor| floor.isGroundSurface }
+      next if floors.empty?
+
+      walls = TBD.facets(space, "all", "wall")
+      next unless walls.any? { |wall| wall.isGroundSurface }
+
+      if lc.nil?
+        specs         = {}
+        specs[:type ] = :slab
+        specs[:frame] = :none
+        specs[:uo   ] = nil
+        lc            = TBD.genConstruction(model, specs)
+      end
+
+      floors.each { |floor| floor.setConstruction(lc) }
+
+      flrs += floors
+    end
+
+    flrs
+  end
+
+  ##
+  # Adds default construction sets to the building (or to selected spaces). The
+  # solution is an alternative option to BTAP's 'model_apply_construction' &
+  # 'apply_standard_construction_properties'. Parameters are based on previously
+  # set 'category' & 'structure' parameters. Constructions that are part of
+  # the building envelope inherit the AdditionalProperty "btap_uo" (usually the
+  # NECB-required clear-field Uo factor), and the AdditionalProperty "btap_id"
+  # (usually the BTAP costed construction identifier). Both "btap_uo"/"btap_id"
+  # may be reset when uprating (per NECB 2017/2025) - see btap/bridging.rb
+  #
+  # @author denis@rd2.ca
+  #
+  # @param [Array<OpenStudio::Model::Space>] spaces
+  # @param [Boolean] bldg true if assigned to building (not individual spaces)
+  # @param [Boolean] hdd whether to rely on BTAP in setting HDD (vs stat file)
+  # @param [Hash] a optional parameters, e.g. U-factors
+  # @option a [String] :category ("public")
+  # @option a [Symbol] :structure (:concrete)
+  # @option a [Symbol] :framing (:steel)
+  # @option a [Symbol] :cladding (:heavy)
+  # @option a [Symbol] :finish (:light)
+  # @option a [Numeric] :eWallU exposed wall Uo (or Ut)
+  # @option a [Numeric] :eFloorU exposed floor Uo (or Ut)
+  # @option a [Numeric] :eRoofU exposed roof Uo (or Ut)
+  # @option a [Numeric] :gWallU ground wall Uo (or Ut)
+  # @option a [Numeric] :gFloorU ground floor Uo (or Ut)
+  # @option a [Numeric] :gRoofU ground roof Uo (or Ut)
+  # @option a [Numeric] :doorU opaque door U
+  # @option a [Numeric] :fenU fenestration U e.g. fixed/operable, glass door
+  # @option a [Numeric] :skyU skylight U
+  # @option a [Numeric] :fenSHGC fenestration solar heat gain coefficient
+  # @option a [Numeric] :skySHGC skylight solar heat gain coefficient
+  #
+  # @return [Boolean] whether default constructions were successfully added.
+  def add_construction_sets(spaces = [], bldg = true, hdd = true, a = {})
+    bldg = true unless bldg == false
+    hdd  = true unless hdd  == false
+    out  = "outdoors"
+    gnd  = "ground"
+    return false unless a.is_a?(Hash)
+
+    # Accept a single 'OpenStudio::Model::Space' (vs an array of spaces).
+    if spaces.respond_to?(:spaceType) || spaces.respond_to?(:to_a)
+      spaces = [spaces] if spaces.respond_to?(:spaceType)
+      return false if spaces.empty?
+    else
+      return false
+    end
+
+    spaces.each { |sp| return false unless sp.respond_to?(:spaceType) }
+
+    # Rudimentary parameter validation.
+    a.each do |k, v|
+      if v.is_a?(Numeric)
+        return false unless v.round(3) > 0
+
+        if k.to_s[-1].downcase == "u"
+          return false unless v.between?(TBD::UMIN, TBD::UMAX)
+        else
+          return false unless v.between?(0.05, 0.95)
+        end
+      else
+        return false unless k.respond_to?(:to_sym)
+      end
+    end
+
+    # Fetch OpenStudio model & site/climate HDD.
+    model = spaces.first.model
+    hdd   = get_necb_hdd18(model: model, necb_hdd: hdd)
+
+    # Filling in the blanks: STRUCTURE-based parameters.
+    ctg = a[:category ] ? a[:category ] : "commercial"
+    stc = a[:structure] ? a[:structure] : :steel
+    frm = a[:framing  ] ? a[:framing  ] : :steel
+    cld = a[:cladding ] ? a[:cladding ] : :light
+    fsh = a[:finish   ] ? a[:finish   ] : :light
+
+    # Filling in the blanks: U-factors.
+    eWallU  = a[:eWallU ] ? a[:eWallU ] : max_u_necb("wall",        out, hdd)
+    eRoofU  = a[:eRoofU ] ? a[:eRoofU ] : max_u_necb("roofceiling", out, hdd)
+    eFloorU = a[:eFloorU] ? a[:eFloorU] : max_u_necb("floor",       out, hdd)
+    gWallU  = a[:gWallU ] ? a[:gWallU ] : max_u_necb("wall",        gnd, hdd)
+    gFloorU = a[:gFloorU] ? a[:gFloorU] : max_u_necb("floor",       gnd, hdd)
+    gRoofU  = a[:gRoofU ] ? a[:gRoofU ] : max_u_necb("roofceiling", gnd, hdd)
+    doorU   = a[:doorU  ] ? a[:doorU  ] : max_u_necb("door",        out, hdd)
+    fenU    = a[:fenU   ] ? a[:fenU   ] : max_u_necb("window",      out, hdd)
+    skyU    = a[:skyU   ] ? a[:skyU   ] : max_u_necb("skylight",    out, hdd)
+
+    # Filling in the blanks: solar heat gain coefficients.
+    fenSHGC  = a[:fenSHGC] ? a[:fenSHGC] : 0.60
+    skySHGC  = a[:skySHGC] ? a[:skySHGC] : 0.60
+    #
+    # FYI: Excerpt of the 'SimpleGlazing' material, generated by BTAP:
+    #
+    #   SimpleGlazing:U=0.220 SHGC=0.600, !- Name
+    #     2.2,                            !- U-Factor {W/m2-K}
+    #     0.6,                            !- Solar Heat Gain Coefficient
+    #     0.21;                           !- Visible Transmittance
+    #
+    # 1. Identifier 'U=0.220' for an NFRC-rated U-factor of 2.2 W/m2.K ?
+    # 2. VT is almost always higher than SHGC - not the other way around.
+    #    VT should be set here based on a reasonable LSG ratio:
+    #    - eta-publications.lbl.gov/sites/default/files/femp-spec-sel-low-e.pdf
+    #
+    # ... for the moment, sticking to SHGC 60%, yet keeping default VT.
+
+    # Outdoor-facing wall.
+    specs          = {}
+    specs[:type  ] = :wall
+    specs[:uo    ] = eWallU
+    specs[:frame ] = :medium
+    specs[:clad  ] = :heavy  if ctg == "robust"
+    specs[:finish] = :medium if ctg == "robust"
+    specs[:finish] = :medium if frm == :cmu
+    eWall = TBD.genConstruction(model, specs)
+
+    # Ensure insulating layer uniqueness for each insulated construction.
+    lyr = TBD.insulatingLayer(eWall)
+    TBD.assignUniqueMaterial(eWall, lyr[:index]) if lyr[:index]
+
+    # Argument hash to identify BTAP costed assembly.
+    argh            = {}
+    argh[:framing ] = frm
+    argh[:cladding] = cld
+    argh[:finish  ] = fsh
+    argh[:perform ] = :lp
+    argh[:stype   ] = :walls
+    argh[:uo      ] = eWallU
+    id = BTAP::Bridging.costed_assembly(argh)
+
+    eWall.additionalProperties.setFeature("btap_uo", eWallU)
+    eWall.additionalProperties.setFeature("btap_ut", eWallU)
+    eWall.additionalProperties.setFeature("btap_id", id)
+    eWall.additionalProperties.setFeature("btap_type", "walls")
+
+    # Add default exterior wall construction properties to building or spaces.
+    if bldg
+      model.getBuilding.additionalProperties.setFeature("btap_uo", eWallU)
+      model.getBuilding.additionalProperties.setFeature("btap_ut", eWallU)
+      model.getBuilding.additionalProperties.setFeature("btap_id", id)
+      model.getBuilding.additionalProperties.setFeature("btap_type", "walls")
+    else
+      spaces.each do |sp|
+        sp.additionalProperties.setFeature("btap_uo", eWallU)
+        sp.additionalProperties.setFeature("btap_ut", eWallU)
+        sp.additionalProperties.setFeature("btap_id", id)
+        sp.additionalProperties.setFeature("btap_type", "walls")
+      end
+    end
+
+    # Outdoor-facing roof.
+    specs          = {}
+    specs[:type  ] = :roof
+    specs[:uo    ] = eRoofU
+    specs[:clad  ] = :medium if ctg == "housing" && stc == :concrete
+    specs[:clad  ] = :medium if ctg == "lodging" && stc == :concrete
+    specs[:frame ] = :medium
+    specs[:frame ] = :heavy  if frm == :wood
+    specs[:finish] = :medium if ctg == "robust"
+    specs[:finish] = :heavy  if ctg == "housing" && stc == :concrete
+    specs[:finish] = :heavy  if ctg == "lodging" && stc == :concrete
+    eRoof = TBD.genConstruction(model, specs)
+
+    # Ensure insulating layer uniqueness for each insulated construction.
+    lyr = TBD.insulatingLayer(eRoof)
+    TBD.assignUniqueMaterial(eRoof, lyr[:index]) if lyr[:index]
+
+    argh[:perform] = :lp
+    argh[:stype  ] = :roofs
+    argh[:uo     ] = eRoofU
+    id = BTAP::Bridging.costed_assembly(argh)
+
+    eRoof.additionalProperties.setFeature("btap_uo", eRoofU)
+    eRoof.additionalProperties.setFeature("btap_ut", eRoofU)
+    eRoof.additionalProperties.setFeature("btap_id", id)
+    eRoof.additionalProperties.setFeature("btap_type", "roofs")
+
+    # Outdoor-facing floor.
+    specs           = {}
+    specs[:type   ] = :floor
+    specs[:uo     ] = eFloorU
+    specs[:finish ] = :medium unless frm == :wood
+    specs[:finish ] = :heavy      if ctg == "housing" && stc == :concrete
+    specs[:finish ] = :heavy      if ctg == "lodging" && stc == :concrete
+    eFloor = TBD.genConstruction(model, specs)
+
+    # Ensure insulating layer uniqueness for each insulated construction.
+    lyr = TBD.insulatingLayer(eFloor)
+    TBD.assignUniqueMaterial(eFloor, lyr[:index]) if lyr[:index]
+
+    argh[:perform ] = :lp
+    argh[:stype   ] = :floors
+    id = BTAP::Bridging.costed_assembly(argh)
+
+    eFloor.additionalProperties.setFeature("btap_uo", eFloorU)
+    eFloor.additionalProperties.setFeature("btap_ut", eFloorU)
+    eFloor.additionalProperties.setFeature("btap_id", id)
+    eFloor.additionalProperties.setFeature("btap_type", "floors")
+
+    extSPACE = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+    extSPACE.setName("BTAP exterior constructions")
+    extSPACE.setWallConstruction(eWall)
+    extSPACE.setFloorConstruction(eFloor)
+    extSPACE.setRoofCeilingConstruction(eRoof)
+
+    setSPACE = OpenStudio::Model::DefaultConstructionSet.new(model)
+    setSPACE.setName("BTAP construction set")
+    setSPACE.setDefaultExteriorSurfaceConstructions(extSPACE)
+
+    # Uninsulated slab-on-grade, except if HDD > 6999 (Uo = 0.379 W/m2.K).
+    # If HDD < 7000, slab-on-grade insulation is instead only required along
+    # perimeter. Perimeter insulation requires special treatment, à la KIVA. The
+    # vast majority of models do not have full-height basements. Exceptions:
+    #   - LargeOffice
+    #   - LargeHotel
+    #   - Hospital
+    #
+    # The solution is temporarily OK, yet a more nuanced treatment is required
+    # for full-height basement cases. This would likely require a space-by-space
+    # treatment, based on Z-axis grade-vs-floor height difference - @todo.
+    #
+    # Ground-facing constructions are restricted to a building's default
+    # construction set - not customized spaces'.
+    if bldg
+      specs          = {}
+      specs[:type  ] = :slab
+      specs[:uo    ] = nil
+      specs[:uo    ] = gFloorU   if hdd > 6999
+      specs[:frame ] = :none unless hdd > 6999
+      specs[:finish] = :none     if ctg == "robust"
+      specs[:finish] = :none     if ctg == "industry"
+      gFloor         = TBD.genConstruction(model, specs)
+
+      # Ensure insulating layer uniqueness for each insulated construction.
+      if hdd > 6999
+        lyr = TBD.insulatingLayer(gFloor)
+        TBD.assignUniqueMaterial(gFloor, lyr[:index]) if lyr[:index]
+      end
+
+      # @todo: an alternative key is required to switch between insulated vs
+      #        uninsulated ground-facing constructions.
+      id = BTAP::Attributes.surface_types_to_assembly_names["GroundContactFloor"]
+
+      gFloor.additionalProperties.setFeature("btap_uo", gFloorU)
+      gFloor.additionalProperties.setFeature("btap_ut", gFloorU)
+      gFloor.additionalProperties.setFeature("btap_id", id)
+      gFloor.additionalProperties.setFeature("btap_type", "gfloors")
+
+      # Insulated basement wall. A more nuanced treatment is necessary for
+      # multiple basement stories - no insulation required below 2.4m from grade.
+      specs          = {}
+      specs[:type  ] = :basement
+      specs[:uo    ] = gWallU
+      gWall          = TBD.genConstruction(model, specs)
+
+      # Ensure insulating layer uniqueness for each insulated construction.
+      lyr = TBD.insulatingLayer(gWall)
+      TBD.assignUniqueMaterial(gWall, lyr[:index]) if lyr[:index]
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["GroundContactWall"]
+
+      gWall.additionalProperties.setFeature("btap_uo", gWallU)
+      gWall.additionalProperties.setFeature("btap_ut", gWallU)
+      gWall.additionalProperties.setFeature("btap_id", id)
+      gWall.additionalProperties.setFeature("btap_type", "gwalls")
+
+      # Insulated basement roof. Again, a more nuanced approach is necessary if
+      # the basement roof is below 1.2m from grade (e.g. a tunnel).
+      specs          = {}
+      specs[:type  ] = :roof
+      specs[:uo    ] = gRoofU
+      specs[:frame ] = :medium
+      specs[:finish] = :heavy
+      gRoof          = TBD.genConstruction(model, specs)
+
+      # Ensure insulating layer uniqueness for each insulated construction.
+      lyr = TBD.insulatingLayer(gRoof)
+      TBD.assignUniqueMaterial(gRoof, lyr[:index]) if lyr[:index]
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["GroundContactRoof"]
+
+      gRoof.additionalProperties.setFeature("btap_uo", gRoofU)
+      gRoof.additionalProperties.setFeature("btap_ut", gRoofU)
+      gRoof.additionalProperties.setFeature("btap_id", id)
+      gRoof.additionalProperties.setFeature("btap_type", "groofs")
+
+      # Shading.
+      specs        = {}
+      specs[:type] = :shading
+      shading      = TBD.genConstruction(model, specs)
+
+      # Outdoor-facing doors.
+      specs        = {}
+      specs[:type] = :door
+      specs[:uo  ] = doorU
+      eDoor        = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorDoor"]
+
+      eDoor.additionalProperties.setFeature("btap_uo", doorU)
+      eDoor.additionalProperties.setFeature("btap_ut", doorU)
+      eDoor.additionalProperties.setFeature("btap_id", id)
+      eDoor.additionalProperties.setFeature("btap_type", "doors")
+
+      # Outdoor-facing, overhead doors.
+      specs        = {}
+      specs[:type] = :door
+      specs[:uo  ] = doorU
+      oDoor        = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorOverheadDoor"]
+
+      oDoor.additionalProperties.setFeature("btap_uo", doorU)
+      oDoor.additionalProperties.setFeature("btap_ut", doorU)
+      oDoor.additionalProperties.setFeature("btap_id", id)
+      oDoor.additionalProperties.setFeature("btap_type", "odoors")
+
+      # Outdoor-facing, fixed window.
+      specs        = {}
+      specs[:type] = :window
+      specs[:uo  ] = fenU
+      specs[:shgc] = fenSHGC
+      fWindow      = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorFixedWindow"]
+
+      fWindow.additionalProperties.setFeature("btap_uo", fenU)
+      fWindow.additionalProperties.setFeature("btap_ut", fenU)
+      fWindow.additionalProperties.setFeature("btap_id", id)
+      fWindow.additionalProperties.setFeature("btap_type", "windows")
+
+      # Outdoor-facing, operable window.
+      specs        = {}
+      specs[:type] = :window
+      specs[:uo  ] = fenU
+      specs[:shgc] = fenSHGC
+      oWindow      = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorOperableWindow"]
+
+      oWindow.additionalProperties.setFeature("btap_uo", fenU)
+      oWindow.additionalProperties.setFeature("btap_ut", fenU)
+      oWindow.additionalProperties.setFeature("btap_id", id)
+      oWindow.additionalProperties.setFeature("btap_type", "owindows")
+
+      # Outdoor-facing, glass door.
+      specs        = {}
+      specs[:type] = :window
+      specs[:uo  ] = fenU
+      specs[:shgc] = fenSHGC
+      gDoor        = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorGlassDoor"]
+
+      gDoor.additionalProperties.setFeature("btap_uo", fenU)
+      gDoor.additionalProperties.setFeature("btap_ut", fenU)
+      gDoor.additionalProperties.setFeature("btap_id", id)
+      gDoor.additionalProperties.setFeature("btap_type", "gdoors")
+
+      # Outdoor-facing, horizontal skylight.
+      specs        = {}
+      specs[:type] = :skylight
+      specs[:uo  ] = skyU
+      specs[:shgc] = skySHGC
+      sky          = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorSkylight"]
+
+      sky.additionalProperties.setFeature("btap_uo", skyU)
+      sky.additionalProperties.setFeature("btap_ut", skyU)
+      sky.additionalProperties.setFeature("btap_id", id)
+      sky.additionalProperties.setFeature("btap_type", "skylights")
+
+      # Outdoor-facing, tubular daylight dome.
+      specs        = {}
+      specs[:type] = :skylight
+      specs[:uo  ] = skyU
+      specs[:shgc] = skySHGC
+      dome         = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorTubularDaylightDome"]
+
+      dome.additionalProperties.setFeature("btap_uo", skyU)
+      dome.additionalProperties.setFeature("btap_ut", skyU)
+      dome.additionalProperties.setFeature("btap_id", id)
+      dome.additionalProperties.setFeature("btap_type", "domes")
+
+      # Tubular daylight diffuser.
+      specs        = {}
+      specs[:type] = :skylight
+      specs[:uo  ] = skyU
+      specs[:shgc] = skySHGC
+      diffuser     = TBD.genConstruction(model, specs)
+
+      id = BTAP::Attributes.surface_types_to_assembly_names["ExteriorTubularDaylightDiffuser"]
+
+      diffuser.additionalProperties.setFeature("btap_uo", skyU)
+      diffuser.additionalProperties.setFeature("btap_ut", skyU)
+      diffuser.additionalProperties.setFeature("btap_id", id)
+      diffuser.additionalProperties.setFeature("btap_type", "diffusers")
+
+      # Interzone/partition wall.
+      specs          = {}
+      specs[:type  ] = :partition
+      specs[:clad  ] = :none   if frm == :cmu
+      specs[:finish] = :none   if frm == :cmu
+      specs[:frame ] = :medium if frm == :cmu
+      iWall          = TBD.genConstruction(model, specs)
+
+      # Interzone roof/ceiling & floor.
+      specs          = {}
+      specs[:type  ] = :partition
+      specs[:frame ] = :medium unless frm == :wood
+      specs[:frame ] = :heavy      if ctg == "housing" && stc == :concrete
+      specs[:frame ] = :heavy      if ctg == "lodging" && stc == :concrete
+      specs[:frame ] = :heavy      if ctg == "robust"
+      specs[:clad  ] = :none       if ctg == "robust"
+      specs[:finish] = :none       if ctg == "robust"
+      iRoof          = TBD.genConstruction(model, specs)
+      iFloor         = TBD.genConstruction(model, specs)
+
+      solSPACE = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+      intSPACE = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+      subSPACE = OpenStudio::Model::DefaultSubSurfaceConstructions.new(model)
+      solSPACE.setName("BTAP ground constructions BLDG")
+      intSPACE.setName("BTAP interior constructions BLDG")
+      subSPACE.setName("BTAP subsurface constructions BLDG")
+      extSPACE.setName("BTAP exterior constructions BLDG")
+      solSPACE.setWallConstruction(gWall)
+      solSPACE.setFloorConstruction(gFloor)
+      solSPACE.setRoofCeilingConstruction(gRoof)
+      intSPACE.setWallConstruction(iWall)
+      intSPACE.setFloorConstruction(iFloor)
+      intSPACE.setRoofCeilingConstruction(iRoof)
+      subSPACE.setFixedWindowConstruction(fWindow)
+      subSPACE.setOperableWindowConstruction(oWindow)
+      subSPACE.setGlassDoorConstruction(gDoor)
+      subSPACE.setSkylightConstruction(sky)
+      subSPACE.setTubularDaylightDomeConstruction(dome)
+      subSPACE.setTubularDaylightDiffuserConstruction(diffuser)
+      subSPACE.setDoorConstruction(eDoor)
+      subSPACE.setOverheadDoorConstruction(oDoor)
+
+      setSPACE.setName("BTAP construction set BLDG")
+      setSPACE.setDefaultGroundContactSurfaceConstructions(solSPACE)
+      setSPACE.setSpaceShadingConstruction(shading)
+      setSPACE.setBuildingShadingConstruction(shading)
+      setSPACE.setSiteShadingConstruction(shading)
+      setSPACE.setDefaultExteriorSubSurfaceConstructions(subSPACE)
+      setSPACE.setDefaultInteriorSurfaceConstructions(intSPACE)
+      setSPACE.setAdiabaticSurfaceConstruction(iWall)
+      setSPACE.setInteriorPartitionConstruction(iWall)
+
+      model.getSurfaces.each do |surface|
+        next unless surface.outsideBoundaryCondition.downcase == "adiabatic"
+
+        if surface.surfaceType.downcase == "wall"
+          surface.setConstruction(iWall)
+        else
+          surface.setConstruction(iFloor)
+        end
+      end
+    end
+
+    # Unconditioned, unoccupied spaces (e.g. attics) inherit their own
+    # default construction set. Indirectly-conditioned, unoccupied spaces
+    # (e.g. plenums) also inherit their own construction set.
+    attics  = []
+    plenums = []
+
+    spaces.each do |space|
+      next if space.partofTotalFloorArea
+
+      group = TBD.unconditioned?(space) ? attics : plenums
+      group << space
+    end
+
+    if bldg
+      model.getBuilding.setDefaultConstructionSet(setSPACE)
+    else
+      spaces.each do |space|
+        next if attics.include?(space)
+        next if plenums.include?(space)
+
+        space.setDefaultConstructionSet(setSPACE)
+      end
+    end
+
+    # None of the outdoor-facing surfaces of attics are required to be
+    # insulated. All attic interzone surfaces are required to be insulated.
+    unless attics.empty?
+      specs          = {}
+      specs[:type  ] = :slab
+      specs[:uo    ] = nil
+      specs[:frame ] = :none
+      specs[:finish] = :none
+      gAtticFloor    = TBD.genConstruction(model, specs)
+
+      specs          = {}
+      specs[:type  ] = :basement
+      specs[:clad  ] = :none
+      specs[:finish] = :none
+      gAtticWall     = TBD.genConstruction(model, specs)
+
+      specs          = {}
+      specs[:type  ] = :roof
+      specs[:uo    ] = nil
+      specs[:clad  ] = :none
+      specs[:finish] = :heavy
+      gAtticRoof     = TBD.genConstruction(model, specs)
+
+      specs          = {}
+      specs[:type  ] = :wall
+      specs[:uo    ] = nil
+      specs[:clad  ] = :none
+      specs[:finish] = :none
+      eAtticWall     = TBD.genConstruction(model, specs)
+
+      specs          = {}
+      specs[:type  ] = :roof
+      specs[:uo    ] = nil
+      specs[:clad  ] = :none
+      eAtticRoof     = TBD.genConstruction(model, specs)
+
+      specs          = {}
+      specs[:type  ] = :floor
+      specs[:uo    ] = nil
+      specs[:finish] = :none
+      eAtticFloor    = TBD.genConstruction(model, specs)
+
+      specs           = {}
+      specs[:type   ] = :partition
+      specs[:uo     ] = eWallU
+      iAtticWall = TBD.genConstruction(model, specs)
+
+      lyr = TBD.insulatingLayer(iAtticWall)
+      TBD.assignUniqueMaterial(iAtticWall, lyr[:index]) if lyr[:index]
+
+      argh[:perform ] = :lp
+      argh[:stype   ] = :walls
+      argh[:uo      ] = eWallU
+      id = BTAP::Bridging.costed_assembly(argh)
+
+      iAtticWall.additionalProperties.setFeature("btap_uo", eWallU)
+      iAtticWall.additionalProperties.setFeature("btap_ut", eWallU)
+      iAtticWall.additionalProperties.setFeature("btap_id", id)
+      iAtticWall.additionalProperties.setFeature("btap_type", "iwalls")
+
+      # Add default exterior wall construction properties to building or spaces.
+      attics.each do |sp|
+        sp.additionalProperties.setFeature("btap_uo", eWallU)
+        sp.additionalProperties.setFeature("btap_ut", eWallU)
+        sp.additionalProperties.setFeature("btap_id", id)
+        sp.additionalProperties.setFeature("btap_type", "iwalls")
+      end
+
+      # Interzone (insulated) attic 'floors': insulation levels should match
+      # 'exposed roof' presciptive requirements of CONDITIONED spaces below.
+      specs          = {}
+      specs[:type  ] = :partition
+      specs[:uo    ] = eRoofU
+      specs[:frame ] = :medium unless frm == :wood
+      specs[:frame ] = :heavy      if ctg == "housing" && stc == :concrete
+      specs[:frame ] = :heavy      if ctg == "lodging" && stc == :concrete
+      specs[:frame ] = :heavy      if ctg == "robust"
+      specs[:clad  ] = :none       if ctg == "robust"
+      specs[:finish] = :none       if ctg == "robust"
+      iAtticFloor = TBD.genConstruction(model, specs)
+
+      lyr = TBD.insulatingLayer(iAtticFloor)
+      TBD.assignUniqueMaterial(iAtticFloor, lyr[:index]) if lyr[:index]
+
+      argh[:perform] = :lp
+      argh[:stype  ] = :roofs
+      id = BTAP::Bridging.costed_assembly(argh)
+
+      iAtticFloor.additionalProperties.setFeature("btap_uo", eRoofU)
+      iAtticFloor.additionalProperties.setFeature("btap_ut", eRoofU)
+      iAtticFloor.additionalProperties.setFeature("btap_id", id)
+      iAtticFloor.additionalProperties.setFeature("btap_type", "iroofs")
+
+      # Interzone (insulated) attic 'roofs' may be suitable for UNCONDITIONED
+      # crawlspaces (with CONDITIONED spaces above). Insulation levels should
+      # match 'exposed floor' presciptive requirements.
+      specs          = {}
+      specs[:type  ] = :partition
+      specs[:uo    ] = eFloorU
+      specs[:frame ] = :medium unless frm == :wood
+      specs[:frame ] = :heavy      if ctg == "housing" && stc == :concrete
+      specs[:frame ] = :heavy      if ctg == "lodging" && stc == :concrete
+      specs[:frame ] = :heavy      if ctg == "robust"
+      specs[:clad  ] = :none       if ctg == "robust"
+      specs[:finish] = :none       if ctg == "robust"
+      iAtticRoof = TBD.genConstruction(model, specs)
+
+      lyr = TBD.insulatingLayer(iAtticRoof)
+      TBD.assignUniqueMaterial(iAtticRoof, lyr[:index]) if lyr[:index]
+
+      argh[:perform] = :lp
+      argh[:stype  ] = :floors
+      id = BTAP::Bridging.costed_assembly(argh)
+
+      iAtticRoof.additionalProperties.setFeature("btap_uo", eFloorU)
+      iAtticRoof.additionalProperties.setFeature("btap_ut", eFloorU)
+      iAtticRoof.additionalProperties.setFeature("btap_id", id)
+      iAtticRoof.additionalProperties.setFeature("btap_type", "ifloors")
+
+      intATTIC = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+      solATTIC = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+      extATTIC = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+      intATTIC.setName("BTAP interior constructions ATTIC")
+      solATTIC.setName("BTAP ground constructions ATTIC")
+      extATTIC.setName("BTAP exterior constructions ATTIC")
+      intATTIC.setWallConstruction(iAtticWall)
+      intATTIC.setFloorConstruction(iAtticFloor)
+      intATTIC.setRoofCeilingConstruction(iAtticRoof)
+      solATTIC.setWallConstruction(gAtticWall)
+      solATTIC.setFloorConstruction(gAtticFloor)
+      solATTIC.setRoofCeilingConstruction(gAtticRoof)
+      extATTIC.setWallConstruction(eAtticWall)
+      extATTIC.setFloorConstruction(eAtticFloor)
+      extATTIC.setRoofCeilingConstruction(eAtticRoof)
+
+      setATTIC = OpenStudio::Model::DefaultConstructionSet.new(model)
+      setATTIC.setName("BTAP construction set ATTIC")
+      setATTIC.setDefaultInteriorSurfaceConstructions(intATTIC)
+      setATTIC.setDefaultGroundContactSurfaceConstructions(solATTIC)
+      setATTIC.setDefaultExteriorSurfaceConstructions(extATTIC)
+
+      attics.each { |attic| attic.setDefaultConstructionSet(setATTIC) }
+    end
+
+    # No change for outdoor-facing surfaces (vs BLDG default construction set).
+    # Treat interzone 'plenum' floors as uninsulated ceiling tiles.
+    unless plenums.empty?
+      specs          = {}
+      specs[:type  ] = :ceiling
+      specs[:uo    ] = nil
+      specs[:clad  ] = :none
+      specs[:finish] = :none
+      iPlenumFloor   = TBD.genConstruction(model, specs)
+
+      intPLENUM = OpenStudio::Model::DefaultSurfaceConstructions.new(model)
+      intPLENUM.setName("BTAP interior constructions PLENUM")
+      intPLENUM.setFloorConstruction(iPlenumFloor)
+
+      setPLENUM = OpenStudio::Model::DefaultConstructionSet.new(model)
+      setPLENUM.setName("BTAP construction set PLENUM")
+      setPLENUM.setDefaultInteriorSurfaceConstructions(intPLENUM)
+
+      plenums.each { |plenum| plenum.setDefaultConstructionSet(setPLENUM) }
+    end
+
+    # The above solution should work well for prototype models distributed with
+    # OpenStudio-Standards. However, the solution may assign odd construction
+    # choices for some 3rd-party models, e.g. underfloor plenums or 'sandwiched'
+    # unconditioned spaces. It is quite feasible to introduce a final safeguard
+    # check that would loop through all surfaces to:
+    #   - check if insulated when required
+    #   - ensure uninsulated assemblies unless required
+    #   - hard assign constructions if either case
+
+    true
+  end
+
+  # Go through the default construction sets and hard-assigned
+  # constructions. Clone the existing constructions and set their
+  # intended surface type and standards construction type per
+  # the PRM.  For some standards, this will involve making
+  # modifications.  For others, it will not.
+  #
+  # 90.1-2007, 90.1-2010, 90.1-2013
+  # @return [Boolean] returns true if successful, false if not
+
+  def apply_standard_construction_properties(model:,
+                                             runner: nil,
+
+                                             # Exterior surfaces
+                                             ext_wall_cond: nil,
+                                             ext_floor_cond: nil,
+                                             ext_roof_cond: nil,
+
+                                             # Ground surfaces
+                                             ground_wall_cond: nil,
+                                             ground_floor_cond: nil,
+                                             ground_roof_cond: nil,
+
+                                             # Fixed windows
+                                             fixed_window_cond: nil,
+                                             fixed_wind_solar_trans: nil,
+                                             fixed_wind_vis_trans: nil,
+
+                                             # Operable windows
+                                             operable_wind_solar_trans: nil,
+                                             operable_window_cond: nil,
+                                             operable_wind_vis_trans: nil,
+
+                                             # Glass doors
+                                             glass_door_cond: nil,
+                                             glass_door_solar_trans: nil,
+                                             glass_door_vis_trans: nil,
+
+                                             # Opaque doors
+                                             door_construction_cond: nil,
+                                             overhead_door_cond: nil,
+
+                                             # Skylights
+                                             skylight_cond: nil,
+                                             skylight_solar_trans: nil,
+                                             skylight_vis_trans: nil,
+
+                                             # Tubular daylight domes
+                                             tubular_daylight_dome_cond: nil,
+                                             tubular_daylight_dome_solar_trans: nil,
+                                             tubular_daylight_dome_vis_trans: nil,
+
+                                             # Tubular daylight diffusers
+                                             tubular_daylight_diffuser_cond: nil,
+                                             tubular_daylight_diffuser_solar_trans: nil,
+                                             tubular_daylight_diffuser_vis_trans: nil,
+                                             necb_hdd: true)
+
+    model.getDefaultConstructionSets.sort.each do |default_surface_construction_set|
+      BTAP.runner_register('Info', 'apply_standard_construction_properties', runner)
+      if model.weatherFile.empty? || model.weatherFile.get.path.empty? || !File.exist?(model.weatherFile.get.path.get.to_s)
+
+        BTAP.runner_register('Error', 'Weather file is not defined. Please ensure the weather file is defined and exists.', runner)
+        return false
+      end
+      hdd = get_necb_hdd18(model: model, necb_hdd: necb_hdd)
+      correct_cond = lambda do |conductivity, surface_type, boundary_condition|
+        return conductivity.nil? ||
+               conductivity.to_f <= 0.0 ||
+               conductivity == 'NECB_Default' ?
+               max_u_necb(surface_type, boundary_condition, hdd) : conductivity.to_f
+      end
+
+      # Converts trans and vis to nil if requesting default.. or casts the string to a float.
+      correct_vis_trans = lambda do |value|
+        return value.nil? || value.to_f <= 0.0 || value == 'NECB_Default' ? nil : value.to_f
+      end
+
+      BTAP::Resources::Envelope::ConstructionSets.customize_default_surface_construction_set!(
+        model: model,
+        name: "#{default_surface_construction_set.name.get} at hdd = #{hdd}",
+        default_surface_construction_set: default_surface_construction_set,
+
+        # Exterior surfaces
+        ext_wall_cond: correct_cond.call(ext_wall_cond, 'wall', 'outdoors'),
+        ext_floor_cond: correct_cond.call(ext_floor_cond, 'floor', 'outdoors'),
+        ext_roof_cond: correct_cond.call(ext_roof_cond, 'roofceiling', 'outdoors'),
+
+        # Ground surfaces
+        ground_wall_cond: correct_cond.call(ground_wall_cond, 'wall', 'ground'),
+        ground_floor_cond: correct_cond.call(ground_floor_cond, 'floor', 'ground'),
+        ground_roof_cond: correct_cond.call(ground_roof_cond, 'roofceiling', 'ground'),
+        fixed_window_cond: correct_cond.call(fixed_window_cond, 'window', 'outdoors'),
+        fixed_wind_solar_trans: correct_vis_trans.call(fixed_wind_solar_trans),
+        fixed_wind_vis_trans: correct_vis_trans.call(fixed_wind_vis_trans),
+
+        # Operable windows
+        operable_wind_solar_trans: correct_vis_trans.call(operable_wind_solar_trans),
+        operable_window_cond: correct_cond.call(fixed_window_cond, 'window', 'outdoors'),
+        operable_wind_vis_trans: correct_vis_trans.call(operable_wind_vis_trans),
+
+        # Glass doors
+        glass_door_cond: correct_cond.call(glass_door_cond, 'window', 'outdoors'),
+        glass_door_solar_trans: correct_vis_trans.call(glass_door_solar_trans),
+        glass_door_vis_trans: correct_vis_trans.call(glass_door_vis_trans),
+
+        # Opaque doors
+        door_construction_cond: correct_cond.call(door_construction_cond, 'door', 'outdoors'),
+        overhead_door_cond: correct_cond.call(overhead_door_cond, 'door', 'outdoors'),
+
+        # Skylights
+        skylight_cond: correct_cond.call(skylight_cond, 'window', 'outdoors'),
+        skylight_solar_trans: correct_vis_trans.call(skylight_solar_trans),
+        skylight_vis_trans: correct_vis_trans.call(skylight_vis_trans),
+
+        # Tubular daylight domes
+        tubular_daylight_dome_cond: correct_cond.call(skylight_cond, 'window', 'outdoors'),
+        tubular_daylight_dome_solar_trans: correct_vis_trans.call(tubular_daylight_dome_solar_trans),
+        tubular_daylight_dome_vis_trans: correct_vis_trans.call(tubular_daylight_dome_vis_trans),
+
+        # Tubular daylight diffusers
+        tubular_daylight_diffuser_cond: correct_cond.call(skylight_cond, 'window', 'outdoors'),
+        tubular_daylight_diffuser_solar_trans: correct_vis_trans.call(tubular_daylight_diffuser_solar_trans),
+        tubular_daylight_diffuser_vis_trans: correct_vis_trans.call(tubular_daylight_diffuser_vis_trans))
+    end
+
+    # sets all surfaces to use default constructions sets except adiabatic, where it does a hard assignment of the interior wall construction type.
+    model.getPlanarSurfaces.sort.each(&:resetConstruction)
+    # if the default construction set is defined..try to assign the interior wall to the adiabatic surfaces
+    BTAP::Resources::Envelope.assign_interior_surface_construction_to_adiabatic_surfaces(model, nil)
+    BTAP.runner_register('Info', ' apply_standard_construction_properties was sucessful.', runner)
+  end
+
+  # Set all external surface conductances to NECB values.
+  # @author phylroy.lopez@nrcan.gc.ca
+  # @param surface [String]
+  # @param hdd [Float]
+  # @param is_radiant [Boolian]
+  # @param scaling_factor [Float]
+  # @return [String] surface as RSI
+  def set_necb_external_surface_conductance(surface, hdd, is_radiant = false, scaling_factor = 1.0)
+    conductance_value = 0
+    if surface.outsideBoundaryCondition.casecmp('outdoors').zero?
+
+      case surface.surfaceType.downcase
+      when 'wall'
+        conductance_value = @standards_data['conductances']['Wall'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+      when 'floor'
+        conductance_value = @standards_data['conductances']['Floor'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+      when 'roofceiling'
+        conductance_value = @standards_data['conductances']['Roof'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+      end
+      if is_radiant
+        conductance_value *= 0.80
+      end
+      return BTAP::Geometry::Surfaces.set_surfaces_construction_conductance([surface], conductance_value)
+    end
+
+    return unless surface.outsideBoundaryCondition.downcase =~ /ground/
+
+    case surface.surfaceType.downcase
+    when 'wall'
+      conductance_value = @standards_data['conductances']['GroundWall'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+    when 'floor'
+      conductance_value = @standards_data['conductances']['GroundFloor'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+    when 'roofceiling'
+      conductance_value = @standards_data['conductances']['GroundRoof'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+    end
+    if is_radiant
+      conductance_value *= 0.80
+    end
+    return BTAP::Geometry::Surfaces.set_surfaces_construction_conductance([surface], conductance_value)
+  end
+
+  # Set all external subsurfaces (doors, windows, skylights) to NECB values.
+  # @author phylroy.lopez@nrcan.gc.ca
+  # @param subsurface [String]
+  # @param hdd [Float]
+  def set_necb_external_subsurface_conductance(subsurface, hdd)
+    conductance_value = 0
+    return unless subsurface.outsideBoundaryCondition.downcase.match('outdoors')
+
+    case subsurface.subSurfaceType.downcase
+    when /window/
+      conductance_value = @standards_data['conductances']['Window'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+    when /door/
+      conductance_value = @standards_data['conductances']['Door'].find { |i| i['hdd'] > hdd }['thermal_transmittance'] * scaling_factor
+    end
+    subsurface.setRSI(1 / conductance_value)
+  end
+
+  # Adds code-minimum constructions based on the building type
+  # as defined in the OpenStudio_Standards_construction_sets.json file.
+  # Where there is a separate construction set specified for the
+  # individual space type, this construction set will be created and applied
+  # to this space type, overriding the whole-building construction set.
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Boolean] returns true if successful, false if not
+  def model_add_constructions(model)
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', 'Started applying constructions')
+
+    # Assign construction to adiabatic construction
+    # Assign a material to all internal mass objects
+    assign_contruction_to_adiabatic_surfaces(model)
+    # The constructions lookup table uses a slightly different list of
+    # building types.
+    apply_building_default_constructionset(model)
+    # Make a construction set for each space type, if one is specified
+    # apply_default_constructionsets_to_spacetypes(climate_zone, model)
+    OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', 'Finished applying constructions')
+
+    true
+  end
+
+  def apply_building_default_constructionset(model)
+    bldg_def_const_set = model_add_construction_set_from_osm(model: model)
+    model.getBuilding.setDefaultConstructionSet(bldg_def_const_set)
+  end
+
+  def apply_default_constructionsets_to_spacetypes(climate_zone, model)
+    model.getSpaceTypes.sort.each do |space_type|
+      # Get the standards building type
+      stds_building_type = nil
+      if space_type.standardsBuildingType.is_initialized
+        stds_building_type = space_type.standardsBuildingType.get
+      else
+        OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', "Space type called '#{space_type.name}' has no standards building type.")
+      end
+
+      # Get the standards space type
+      stds_spc_type = nil
+      if space_type.standardsSpaceType.is_initialized
+        stds_spc_type = space_type.standardsSpaceType.get
+      else
+        OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', "Space type called '#{space_type.name}' has no standards space type.")
+      end
+
+      # If the standards space type is Attic,
+      # the building type should be blank.
+      if stds_spc_type == 'Attic'
+        stds_building_type = ''
+      end
+
+      # Attempt to make a construction set for this space type
+      # and assign it if it can be created.
+      spc_type_const_set = model_add_construction_set_from_osm(model: model)
+      if spc_type_const_set.is_initialized
+        space_type.setDefaultConstructionSet(spc_type_const_set.get)
+      end
+    end
+  end
+
+  def model_add_construction_set_from_osm(model:,
+                                          construction_set_name: 'BTAP-Mass',
+                                          osm_path: File.absolute_path(File.join(__FILE__, '..', '..', 'common/construction_defaults.osm')))
+    # load resources model
+    construction_library = BTAP::FileIO.load_osm(osm_path)
+
+    if !construction_library.getDefaultConstructionSetByName(construction_set_name.to_s).is_initialized
+      runner.registerError('Did not find the expected construction in library.')
+      return false
+    end
+    selected_construction_set = construction_library.getDefaultConstructionSetByName(construction_set_name.to_s).get
+    new_construction_set = selected_construction_set.clone(model).to_DefaultConstructionSet.get
+    return new_construction_set
+  end
+
+  def assign_contruction_to_adiabatic_surfaces(model)
+    cp02_carpet_pad = OpenStudio::Model::StandardOpaqueMaterial.new(model)
+    cp02_carpet_pad.setName('CP02 CARPET PAD')
+    cp02_carpet_pad.setRoughness('VeryRough')
+    cp02_carpet_pad.setThickness(0.01)
+    cp02_carpet_pad.setConductivity(0.06)
+    cp02_carpet_pad.setDensity(200)
+    cp02_carpet_pad.setSpecificHeat(1360)
+    cp02_carpet_pad.setThermalAbsorptance(0.9)
+    cp02_carpet_pad.setSolarAbsorptance(0.7)
+    cp02_carpet_pad.setVisibleAbsorptance(0.8)
+
+    normalweight_concrete_floor = OpenStudio::Model::StandardOpaqueMaterial.new(model)
+    normalweight_concrete_floor.setName('100mm Normalweight concrete floor')
+    normalweight_concrete_floor.setRoughness('MediumSmooth')
+    normalweight_concrete_floor.setThickness(0.1016)
+    normalweight_concrete_floor.setConductivity(2.31)
+    normalweight_concrete_floor.setDensity(2322)
+    normalweight_concrete_floor.setSpecificHeat(832)
+
+    nonres_floor_insulation = OpenStudio::Model::StandardOpaqueMaterial.new(model)
+    nonres_floor_insulation.setName('Nonres_Floor_Insulation')
+    nonres_floor_insulation.setRoughness('MediumSmooth')
+    nonres_floor_insulation.setThickness(0.083)
+    nonres_floor_insulation.setConductivity(0.029)
+    nonres_floor_insulation.setDensity(29)
+    nonres_floor_insulation.setSpecificHeat(1210)
+    nonres_floor_insulation.setThermalAbsorptance(0.9)
+    nonres_floor_insulation.setSolarAbsorptance(0.7)
+    nonres_floor_insulation.setVisibleAbsorptance(0.8)
+
+    floor_adiabatic_construction = OpenStudio::Model::Construction.new(model)
+    floor_adiabatic_construction.setName('Floor Adiabatic construction')
+    floor_layers = OpenStudio::Model::MaterialVector.new
+    floor_layers << cp02_carpet_pad
+    floor_layers << normalweight_concrete_floor
+    floor_layers << nonres_floor_insulation
+    floor_adiabatic_construction.setLayers(floor_layers)
+
+    g01_13mm_gypsum_board = OpenStudio::Model::StandardOpaqueMaterial.new(model)
+    g01_13mm_gypsum_board.setName('G01 13mm gypsum board')
+    g01_13mm_gypsum_board.setRoughness('Smooth')
+    g01_13mm_gypsum_board.setThickness(0.0127)
+    g01_13mm_gypsum_board.setConductivity(0.1600)
+    g01_13mm_gypsum_board.setDensity(800)
+    g01_13mm_gypsum_board.setSpecificHeat(1090)
+    g01_13mm_gypsum_board.setThermalAbsorptance(0.9)
+    g01_13mm_gypsum_board.setSolarAbsorptance(0.7)
+    g01_13mm_gypsum_board.setVisibleAbsorptance(0.5)
+
+    wall_adiabatic_construction = OpenStudio::Model::Construction.new(model)
+    wall_adiabatic_construction.setName('Wall Adiabatic construction')
+    wall_layers = OpenStudio::Model::MaterialVector.new
+    wall_layers << g01_13mm_gypsum_board
+    wall_layers << g01_13mm_gypsum_board
+    wall_adiabatic_construction.setLayers(wall_layers)
+
+    m10_200mm_concrete_block_basement_wall = OpenStudio::Model::StandardOpaqueMaterial.new(model)
+    m10_200mm_concrete_block_basement_wall.setName('M10 200mm concrete block basement wall')
+    m10_200mm_concrete_block_basement_wall.setRoughness('MediumRough')
+    m10_200mm_concrete_block_basement_wall.setThickness(0.2032)
+    m10_200mm_concrete_block_basement_wall.setConductivity(1.326)
+    m10_200mm_concrete_block_basement_wall.setDensity(1842)
+    m10_200mm_concrete_block_basement_wall.setSpecificHeat(912)
+
+    basement_wall_construction = OpenStudio::Model::Construction.new(model)
+    basement_wall_construction.setName('Basement Wall construction')
+    basement_wall_layers = OpenStudio::Model::MaterialVector.new
+    basement_wall_layers << m10_200mm_concrete_block_basement_wall
+    basement_wall_construction.setLayers(basement_wall_layers)
+
+    basement_floor_construction = OpenStudio::Model::Construction.new(model)
+    basement_floor_construction.setName('Basement Floor construction')
+    basement_floor_layers = OpenStudio::Model::MaterialVector.new
+    basement_floor_layers << m10_200mm_concrete_block_basement_wall
+    basement_floor_layers << cp02_carpet_pad
+    basement_floor_construction.setLayers(basement_floor_layers)
+
+    model.getSurfaces.sort.each do |surface|
+      if surface.outsideBoundaryCondition.to_s == 'Adiabatic'
+        if surface.surfaceType.to_s == 'Wall'
+          surface.setConstruction(wall_adiabatic_construction)
+        else
+          surface.setConstruction(floor_adiabatic_construction)
+        end
+      elsif surface.outsideBoundaryCondition.to_s == 'OtherSideCoefficients'
+        # Ground
+        if surface.surfaceType.to_s == 'Wall'
+          surface.setOutsideBoundaryCondition('Ground')
+          surface.setConstruction(basement_wall_construction)
+        else
+          surface.setOutsideBoundaryCondition('Ground')
+          surface.setConstruction(basement_floor_construction)
+        end
+      end
+    end
+  end
+
+  def scale_model_geometry(model, x_scale, y_scale, z_scale)
+    # Identity matrix for setting space origins
+    m = OpenStudio::Matrix.new(4, 4, 0)
+
+    m[0, 0] = 1.0 / x_scale
+    m[1, 1] = 1.0 / y_scale
+    m[2, 2] = 1.0 / z_scale
+    m[3, 3] = 1.0
+    t = OpenStudio::Transformation.new(m)
+    model.getPlanarSurfaceGroups.each do |planar_surface|
+      planar_surface.changeTransformation(t)
+    end
+    return model
+  end
+
+  # This method applies the maximum fenestration and door to wall ratio to a building as per NECB 2011 8.4.4.3 and
+  # 3.2.1.4 (or equivalent in other versions of the NECB).  It first checks for al exterior walls adjacent to conditioned
+  # spaces.  It distinguishes between plenums and other conditioned spaces.  It uses both to calculate the maximum window
+  # area to be applied to the building but attempts to put these windows only on non-plenum conditioned spaces (if
+  # possible).
+  def apply_max_fdwr_nrcan(model:, fdwr_lim:)
+    # First determine which vertical (between 89 and 91 degrees from horizontal) walls are adjacent to conditioned
+    # spaces.
+    exp_surf_info = find_exposed_conditioned_vertical_surfaces(model)
+    # If there are none (or very few) then throw a warning.
+    if exp_surf_info['total_exp_wall_area_m2'] < 0.1
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.model.Model', 'This building has no exposed walls adjacent to heated spaces.')
+      return false
+    end
+
+    construct_set = model.getBuilding.defaultConstructionSet.get
+    fixed_window_construct_set = construct_set.defaultExteriorSubSurfaceConstructions.get.fixedWindowConstruction.get
+
+    # IF FDWR is greater than 1 then something is wrong raise an error.  If it is less than 0.001 assume all the windows
+    # should go.
+    if fdwr_lim > 1
+      OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', 'This building requires a larger window area than there is wall area.')
+      return false
+    elsif fdwr_lim < 0.001
+      exp_surf_info['exp_nonplenum_walls'].sort.each do |exp_surf|
+        exp_surf.subSurfaces.sort.each(&:remove)
+      end
+      return true
+    end
+    # Get the required window area.
+    win_area = fdwr_lim * exp_surf_info['total_exp_wall_area_m2']
+    # Try to put the windows on non-plenum walls if possible.  So determine if you can fit the required window area
+    # on the non-plenum wall area.
+    if win_area <= exp_surf_info['exp_nonplenum_wall_area_m2']
+      # If you can fit the windows on the non-plenum wall area then recalculate the window ratio so that is is only for
+      # the non-plenum walls.
+      nonplenum_fdwr = win_area / exp_surf_info['exp_nonplenum_wall_area_m2']
+      exp_surf_info['exp_nonplenum_walls'].sort.each do |exp_surf|
+        # Remove any subsurfaces, add the window, set the name to be whatever the surface name is plus the subsurface
+        # type (which will be 'fixedwindow')
+        exp_surf.subSurfaces.sort.each(&:remove)
+        exp_surf.setWindowToWallRatio(nonplenum_fdwr)
+        exp_surf.subSurfaces.sort.each do |sub_surf|
+          sub_surf.setSubSurfaceType('FixedWindow')
+          sub_surf.setConstruction(fixed_window_construct_set)
+          new_name = exp_surf.name.to_s + '_' + sub_surf.subSurfaceType.to_s
+          sub_surf.setName(new_name)
+        end
+      end
+    else
+      # There was not enough non-plenum wall area so add the windows to both the plenum and non-plenum walls.  This is
+      # done separately because the 'find_exposed_conditioned_vertical_surfaces' method returns the plenum and
+      # non-plenum walls separately.
+      exp_surf_info['exp_nonplenum_walls'].sort.each do |exp_surf|
+        # Remove any subsurfaces, add the window, set the name to be whatever the surface name is plus the subsurface
+        # type (which will be 'fixedwindow')
+        exp_surf.subSurfaces.sort.each(&:remove)
+        exp_surf.setWindowToWallRatio(fdwr_lim)
+        exp_surf.subSurfaces.sort.each do |sub_surf|
+          sub_surf.setSubSurfaceType('FixedWindow')
+          sub_surf.setConstruction(fixed_window_construct_set)
+          new_name = exp_surf.name.to_s + '_' + sub_surf.subSurfaceType.to_s
+          sub_surf.setName(new_name)
+        end
+      end
+      exp_surf_info['exp_plenum_walls'].sort.each do |exp_surf|
+        # Remove any subsurfaces, add the window, set the name to be whatever the surface name is plus the subsurface
+        # type (which will be 'fixedwindow')
+        exp_surf.subSurfaces.sort.each(&:remove)
+        exp_surf.setWindowToWallRatio(fdwr_lim)
+        exp_surf.subSurfaces.sort.each do |sub_surf|
+          sub_surf.setSubSurfaceType('FixedWindow')
+          sub_surf.setConstruction(fixed_window_construct_set)
+          new_name = exp_surf.name.to_s + '_' + sub_surf.subSurfaceType.to_s
+          sub_surf.setName(new_name)
+        end
+      end
+    end
+    return true
+  end
+
+  # This method is similar to the 'apply_max_fdwr' method above, but applies a maximum skylight-to-roof-area-ratio (SRR)
+  # to a building model, as per NECB 2011 8.4.4.3 and 3.2.1.4 (or equivalent in other NECB vintages). There are 2 options:
+  #
+  # OPTION A: Default, initial BTAP solution. It first checks for all exterior roofs adjacent to conditioned spaces.
+  #           It distinguishes between plenums and other conditioned spaces. It uses only the non-plenum roof area to
+  #           calculate the maximum skylight area to be applied to the building.
+  #
+  # OPTION B: Selected if srr_opt == 'osut'. OSut's 'addSkylights' attempts to meet the requested SRR% target, even if
+  #           occupied spaces to toplight are under unoccupied plenums or attics - skylight wells are added if needed.
+  #           With attics, skylight well walls are considered part of the 'building envelope' (and therefore insulated
+  #           like exterior walls). The method returns a building 'gross roof area' (see attr_reader :osut), which
+  #           excludes the area of attic roof overhangs.
+  def apply_max_srr_nrcan(model:, srr_lim:, srr_opt: '')
+    # Check if default construction set exists
+    unless model.getBuilding.defaultConstructionSet.is_initialized
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.model.Model', 'No default construction set defined. Cannot apply SRR.')
+      return false
+    end
+
+    construct_set = model.getBuilding.defaultConstructionSet.get
+
+    # Check if skylight construction exists
+    unless construct_set.defaultExteriorSubSurfaceConstructions.is_initialized
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.model.Model', 'No default exterior subsurface constructions defined. Cannot apply SRR.')
+      return false
+    end
+
+    ext_subsurface = construct_set.defaultExteriorSubSurfaceConstructions.get
+    unless ext_subsurface.skylightConstruction.is_initialized
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.model.Model', 'No skylight construction defined. Cannot apply SRR.')
+      return false
+    end
+
+    skylight_construct_set = ext_subsurface.skylightConstruction.get
+
+    unless srr_opt.to_s.downcase == 'osut' # OPTION A
+      # First determine which roof surfaces are adjacent to heated spaces (both plenum and non-plenum).
+      exp_surf_info = find_exposed_conditioned_roof_surfaces(model)
+      # If the non-plenum roof area is very small raise a warning.  It may be perfectly fine but it is probably a good
+      # idea to warn the user.
+      if exp_surf_info['exp_nonplenum_roof_area_m2'] < 0.1
+        OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', 'This building has no exposed ceilings adjacent to spaces that are not attics or plenums.  No skylights will be added.')
+        return false
+      end
+
+      # If the SRR is greater than one something is seriously wrong so raise an error.  If it is less than 0.001 assume
+      # all the skylights should go.
+      if srr_lim > 1
+        OpenStudio.logFree(OpenStudio::Error, 'openstudio.model.Model', 'This building requires a larger skylight area than there is roof area.')
+        return false
+      elsif srr_lim < 0.001
+        exp_surf_info['exp_nonplenum_roofs'].sort.each do |exp_surf|
+          exp_surf.subSurfaces.sort.each(&:remove)
+        end
+        return true
+      end
+
+      # Go through all of exposed roofs adjacent to heated, non-plenum spaces, remove any existing subsurfaces, and add
+      # a skylight in the centroid of the surface, with the same shape of the surface, only scaled to be the area
+      # determined by the SRR.  The name of the skylight will be the surface name with the subsurface type attached
+      # ('skylight' in this case).  Note that this method will only work if the surface does not fold into itself (like an
+      # L or a V).
+      exp_surf_info['exp_nonplenum_roofs'].sort.each do |roof|
+        # sub_surface_create_centered_subsurface_from_scaled_surface(roof, srr_lim, model)
+        sub_surface_create_scaled_subsurfaces_from_surface(surface: roof, area_fraction: srr_lim, construction: skylight_construct_set)
+      end
+    else # OPTION B
+      TBD.clean!
+      spaces = model.getSpaces
+      types  = model.getSpaceTypes
+      roofs  = TBD.facets(spaces, "Outdoors", "RoofCeiling")
+
+      # A model's 'nominal' gross roof area (gra0) may be greater than its
+      # 'effective' gross roof area (graX). For instance, the "SmallOffice"
+      # prototype model has (unconditioned) attic roof overhangs that end up
+      # tallied as a gross roof area in OpenStudio and EnergyPlus. See:
+      #
+      #   github.com/rd2/osut/blob/117c7dceb59fd8aab771da8ba672c14c97d23bd0
+      #   /lib/osut/utils.rb#L6268
+      #
+      gra0 = roofs.sum(&:grossArea)    # nominal gross roof area
+      graX = TBD.grossRoofArea(spaces) # effective gross roof area
+
+      unless gra0.round > 0
+        msg = 'Invalid nominal gross roof area. No skylights will be added.'
+        OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', msg)
+        return false
+      end
+
+      unless graX.round > 0
+        msg = 'Invalid effective gross roof area. No skylights will be added.'
+        OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', msg)
+        return false
+      end
+
+      self.osut[:gra0] = gra0
+      self.osut[:graX] = graX
+
+      # Relying on the total area of attic roof surfaces (for SRR%) exagerrates
+      # the requested skylight area, often by 10% to 15%. This makes it unfair
+      # for NECBs, and more challenging when dealing with skylight wells. This
+      # issue only applies with attics - not plenums. Trim down SRR if required.
+      target = srr_lim * graX
+
+      # Filtering out tiny roof surfaces, twisty corridors, etc.
+      types = types.reject { |tp| tp.nameString.downcase.include?("undefined") }
+      types = types.reject { |tp| tp.nameString.downcase.include?("mech"     ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("elec"     ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("toilet"   ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("locker"   ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("shower"   ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("washroom" ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("corr"     ) }
+      types = types.reject { |tp| tp.nameString.downcase.include?("stair"    ) }
+
+      spaces = spaces.reject { |sp| sp.spaceType.empty? }
+      spaces = spaces.select { |sp| types.include?(sp.spaceType.get) }
+
+      TBD.addSkyLights(spaces, {area: target})
+      self.osut[:logs] = TBD.logs
+
+      skys = TBD.facets(model.getSpaces, "Outdoors", "Skylight")
+      skm2 = skys.sum(&:grossArea)
+
+      unless skm2.round == target.round
+        msg = "Skylights m2: failed to meet #{target.round} (vs #{skm2.round})"
+        OpenStudio.logFree(OpenStudio::Info, 'openstudio.model.Model', msg)
+        return false
+      end
+    end
+
+    return true
+  end
+end

@@ -3,7 +3,8 @@ class Standard
 
   # Applies the standard efficiency ratings and typical performance curves to this object.
   #
-  # @return [Bool] true if successful, false if not
+  # @param coil_heating_dx_multi_speed [OpenStudio::Model::CoilHeatingDXMultiSpeed] coil heating dx multi speed object
+  # @return [Boolean] returns true if successful, false if not
   def coil_heating_dx_multi_speed_apply_efficiency_and_curves(coil_heating_dx_multi_speed, sql_db_vars_map)
     successfully_set_all_properties = true
 
@@ -15,22 +16,21 @@ class Standard
     # Determine supplemental heating type if unitary
     heat_pump = false
     suppl_heating_type = nil
-    if coil_heating_dx_multi_speed.airLoopHVAC.empty?
-      if coil_heating_dx_multi_speed.containingHVACComponent.is_initialized
-        containing_comp = coil_heating_dx_multi_speed.containingHVACComponent.get
-        if containing_comp.to_AirLoopHVACUnitaryHeatPumpAirToAirMultiSpeed.is_initialized
-          heat_pump = true
-          htg_coil = containing_comp.to_AirLoopHVACUnitaryHeatPumpAirToAirMultiSpeed.get.supplementalHeatingCoil
-          suppl_heating_type = if htg_coil.to_CoilHeatingElectric.is_initialized
-                                 'Electric Resistance or None'
-                               else
-                                 'All Other'
-                               end
-        end # TODO: Add other unitary systems
+    if coil_heating_dx_multi_speed.airLoopHVAC.empty? && coil_heating_dx_multi_speed.containingHVACComponent.is_initialized
+      containing_comp = coil_heating_dx_multi_speed.containingHVACComponent.get
+      if containing_comp.to_AirLoopHVACUnitaryHeatPumpAirToAirMultiSpeed.is_initialized
+        heat_pump = true
+        htg_coil = containing_comp.to_AirLoopHVACUnitaryHeatPumpAirToAirMultiSpeed.get.supplementalHeatingCoil
+        suppl_heating_type = if htg_coil.to_CoilHeatingElectric.is_initialized
+                               'Electric Resistance or None'
+                             else
+                               'All Other'
+                             end
       end
+      # @todo Add other unitary systems
     end
 
-    # TODO: Standards - add split system vs single package to model
+    # @todo Standards - add split system vs single package to model
     # For now, assume single package
     subcategory = 'Single Package'
     search_criteria['subcategory'] = subcategory
@@ -43,10 +43,8 @@ class Standard
       ccoil = heat_pump_comp.coolingCoil
       dxcoil = ccoil.to_CoilCoolingDXMultiSpeed.get
       dxcoil_name = dxcoil.name.to_s
-      if sql_db_vars_map
-        if sql_db_vars_map[dxcoil_name]
-          dxcoil.setName(sql_db_vars_map[dxcoil_name])
-        end
+      if sql_db_vars_map && sql_db_vars_map[dxcoil_name]
+        dxcoil.setName(sql_db_vars_map[dxcoil_name])
       end
       clg_stages = dxcoil.stages
       if clg_stages.last.grossRatedTotalCoolingCapacity.is_initialized
@@ -70,7 +68,7 @@ class Standard
 
     # Check to make sure properties were found
     if hp_props.nil?
-      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.standards.CoilHeatingDXMultipeed', "For #{coil_heating_dx_multi_speed.name}, cannot find efficiency info using #{search_criteria}, cannot apply efficiency standard.")
+      OpenStudio.logFree(OpenStudio::Warn, 'openstudio.standards.CoilHeatingDXMultipeed', "For #{coil_heating_dx_multi_speed.name}, cannot find efficiency info using #{search_criteria} and capacity #{capacity_btu_per_hr} btu/hr, cannot apply efficiency standard.")
       successfully_set_all_properties = false
       return successfully_set_all_properties
     end
@@ -163,7 +161,7 @@ class Standard
     # If specified as SEER
     unless hp_props['minimum_seasonal_energy_efficiency_ratio'].nil?
       min_seer = hp_props['minimum_seasonal_energy_efficiency_ratio']
-      cop = seer_to_cop_cooling_with_fan(min_seer)
+      cop = OpenstudioStandards::HVAC.seer_to_cop_no_fan(min_seer)
       coil_heating_dx_multi_speed.setName("#{coil_heating_dx_multi_speed.name} #{capacity_kbtu_per_hr.round}kBtu/hr #{min_seer}SEER")
       OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.CoilHeatingDXMultiSpeed', "For #{template}: #{coil_heating_dx_multi_speed.name}: #{suppl_heating_type} #{subcategory} Capacity = #{capacity_kbtu_per_hr.round}kBtu/hr; SEER = #{min_seer}")
     end
@@ -171,16 +169,17 @@ class Standard
     # If specified as EER
     unless hp_props['minimum_energy_efficiency_ratio'].nil?
       min_eer = hp_props['minimum_energy_efficiency_ratio']
-      cop = eer_to_cop(min_eer)
+      cop = OpenstudioStandards::HVAC.eer_to_cop_no_fan(min_eer)
       coil_heating_dx_multi_speed.setName("#{coil_heating_dx_multi_speed.name} #{capacity_kbtu_per_hr.round}kBtu/hr #{min_eer}EER")
       OpenStudio.logFree(OpenStudio::Info, 'openstudio.standards.CoilHeatingDXMultiSpeed', "For #{template}: #{coil_heating_dx_multi_speed.name}:  #{suppl_heating_type} #{subcategory} Capacity = #{capacity_kbtu_per_hr.round}kBtu/hr; EER = #{min_eer}")
     end
 
     # Set the efficiency values
-    unless cop.nil?
-      htg_stages.each do |istage|
-        istage.setGrossRatedHeatingCOP(cop)
-      end
+    return false if cop.nil?
+
+    htg_stages.each do |istage|
+      istage.setGrossRatedHeatingCOP(cop)
     end
+    return true
   end
 end

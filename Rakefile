@@ -1,56 +1,41 @@
 require 'bundler/gem_tasks'
+require 'json'
+require 'fileutils'
 begin
   Bundler.setup
 rescue Bundler::BundlerError => e
-  $stderr.puts e.message
-  $stderr.puts 'Run `bundle install` to install missing gems'
+  warn e.message
+  warn 'Run `bundle install` to install missing gems'
   exit e.status_code
 end
 
 require 'rake/testtask'
 namespace :test do
   full_file_list = nil
-  if File.exist?('test/circleci_tests.txt')
+  if File.exist?('test/ci_tests.txt')
     # load test files from file.
-    full_file_list = FileList.new(File.readlines('test/circleci_tests.txt'))
+    full_file_list = FileList.new(File.readlines('test/ci_tests.txt'))
     # Select only .rb files that exist
     full_file_list.select! { |item| item.include?('rb') && File.exist?(File.absolute_path("test/#{item.strip}")) }
     full_file_list.map! { |item| File.absolute_path("test/#{item.strip}") }
+    File.open('test/ci_tests.json', 'w') do |f|
+      f.write(JSON.pretty_generate(full_file_list.to_a))
+    end
   else
-    puts 'Could not find list of files to test at test/circleci_tests.txt'
+    puts 'Could not find list of files to test at test/ci_tests.txt'
     return false
   end
 
-  desc 'Parallel Run Locally NECB bldgs regression tests'
-  Rake::TestTask.new(:necb_local_bldgs_regression_tests) do |t|
-    file_list = FileList.new('test/necb/test_all_buildings_locally.rb')
+  desc 'parallel_run_all_tests_locally'
+  Rake::TestTask.new('parallel_run_all_tests_locally') do |t|
+    # Make an empty test/reports directory
+    report_dir = 'test/reports'
+    FileUtils.rm_rf(report_dir)
+    Dir.mkdir(report_dir)
+    file_list = FileList.new('test/parallel_run_all_tests_locally.rb')
     t.libs << 'test'
     t.test_files = file_list
-    t.verbose = true
-  end
-
-  desc 'Run BTAP.perform_qaqc() test'
-  Rake::TestTask.new(:btap_json_test) do |t|
-    file_list = FileList.new('test/necb/test_necb_qaqc.rb')
-    t.libs << 'test'
-    t.test_files = file_list
-    t.verbose = true
-  end
-
-  ['90_1_prm', '90_1_general', 'doe_prototype', 'necb', 'necb_bldg'].each do |type|
-    desc "Manual Run CircleCI tests #{type}"
-    Rake::TestTask.new("circ-#{type}") do |t|
-      array = full_file_list.select { |item| item.include?(type.to_s) }
-      t.libs << 'test'
-      t.test_files = array
-    end
-  end
-
-  desc 'Manual Run All CircleCI tests'
-  Rake::TestTask.new('circ-all-tests') do |t|
-    array = full_file_list
-    t.libs << 'test'
-    t.test_files = array
+    t.verbose = false
   end
 
   # These tests only available in the CI environment
@@ -67,6 +52,7 @@ namespace :test do
           f.each_line do |line|
             # Skip comments the CLI may have included
             next unless line.include?('.rb')
+
             # Remove whitespaces
             line = line.strip
             # Ensure the file exists
@@ -114,8 +100,7 @@ namespace :test do
       end
 
       # Write out the test results to file
-      folder = "#{Dir.pwd}/timing"
-      Dir.mkdir(folder) unless File.exist?(folder)
+      FileUtils.mkdir_p("#{Dir.pwd}/timing")
 
       # By file
       File.open("#{Dir.pwd}/timing/test_by_file.html", 'w') do |html|
@@ -144,34 +129,53 @@ end
 # Tasks to manage the spreadsheet data
 namespace :data do
   require "#{File.dirname(__FILE__)}/data/standards/manage_OpenStudio_Standards.rb"
-  desc 'Download OpenStudio_Standards from Google & export JSONs'
+
+  # OpenStudio Standards spreadsheet names
+  # Order matters: most general/shared must be first,
+  # as data may be overwritten when parsing later spreadsheets.
+  spreadsheets_ashrae = [
+    'OpenStudio_Standards-ashrae_90_1',
+    'OpenStudio_Standards-ashrae_90_1(space_types)',
+    'OpenStudio_Standards-ashrae_90_1_prm',
+    'OpenStudio_Standards-ashrae_90_1_prm(space_types)'
+  ]
+
+  spreadsheets_deer = [
+    'OpenStudio_Standards-deer',
+    'OpenStudio_Standards-deer(space_types)'
+  ]
+
+  spreadsheets_comstock = [
+    'OpenStudio_Standards-ashrae_90_1',
+    'OpenStudio_Standards-ashrae_90_1-ALL-comstock(space_types)',
+    'OpenStudio_Standards-deer',
+    'OpenStudio_Standards-deer-ALL-comstock(space_types)'
+  ]
+
+  spreadsheets_cbes = [
+    'OpenStudio_Standards-cbes',
+    'OpenStudio_Standards-cbes(space_types)'
+  ]
+
+  spreadsheet_titles = spreadsheets_ashrae + spreadsheets_deer + spreadsheets_comstock + spreadsheets_cbes
+  spreadsheet_titles = spreadsheet_titles.uniq
+
+  desc 'Generate JSONs from OpenStudio_Standards spreadsheets'
   task 'update' do
-    download_google_spreadsheet
-    export_spreadsheet_to_json
+    export_spreadsheet_to_json(spreadsheet_titles)
   end
 
-  desc 'Export JSONs from OpenStudio_Standards'
-  task 'update:manual' do
-    export_spreadsheet_to_json
+  desc 'BTAP Costing: Validate the costing database'
+  task 'validate_costing' do
+    require_relative './lib/openstudio-standards/btap/costing/btap_costing'
+    data = BTAPCosting.new
+    data.validate_database
   end
 
-=begin
-  desc 'Update RS-Means Database'
-  task 'update:costing' do
-    $LOAD_PATH.unshift File.expand_path('lib', __FILE__)
-    require 'openstudio'
-    require 'openstudio/ruleset/ShowRunnerOutput'
-    # Require local version instead of installed version for developers
-    begin
-      require_relative 'lib/openstudio-standards.rb'
-      puts 'DEVELOPERS OF OPENSTUDIO-STANDARDS: Requiring code directly instead of using installed gem.  This avoids having to run rake install every time you make a change.'
-    rescue LoadError
-      require 'openstudio-standards'
-      puts 'Using installed openstudio-standards gem.'
-    end
-    BTAPCosting.instance
+  desc 'Export JSONs from OpenStudio_Standards to data library'
+  task 'export:jsons' do
+    export_spreadsheet_to_json(spreadsheets_ashrae, dataset_type: 'data_lib')
   end
-=end
 end
 
 # Tasks to export libraries packaged with
@@ -187,7 +191,7 @@ end
 require 'yard'
 desc 'Generate the documentation'
 YARD::Rake::YardocTask.new(:doc) do |t|
-  require_relative 'lib/openstudio-standards/prototypes/common/prototype_metaprogramming.rb'
+  require_relative 'lib/openstudio-standards/prototypes/common/prototype_metaprogramming'
   # Generate temporary building type class files so that
   # the documentation shows these classes
   save_meta_classes_to_file
@@ -213,7 +217,7 @@ desc 'Check the code for style consistency'
 RuboCop::RakeTask.new(:rubocop) do |t|
   # Make a folder for the output
   out_dir = '.rubocop'
-  Dir.mkdir(out_dir) unless File.exist?(out_dir)
+  FileUtils.mkdir_p(out_dir)
   # Output both XML (CheckStyle format) and HTML
   t.options = ["--out=#{out_dir}/rubocop-results.xml", '--format=h', "--out=#{out_dir}/rubocop-results.html", '--format=offenses', "--out=#{out_dir}/rubocop-summary.txt"]
   t.requires = ['rubocop/formatter/checkstyle_formatter']

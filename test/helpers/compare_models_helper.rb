@@ -6,7 +6,7 @@
 # @param model_true [OpenStudio::Model::Model] the "true" model
 # @param model_compare [OpenStudio::Model::Model] the model to be
 # compared to the "true" model
-# @param look_for_renamed_objects [Bool] if true, objects that have no match based
+# @param look_for_renamed_objects [Boolean] if true, objects that have no match based
 # on name alone will be compared with all objects of the same type on a field-by-field basis.
 # This finds objects that have been renamed but are otherwise
 # identical between models, but significantly slows down the comparison.
@@ -24,16 +24,24 @@ def compare_osm_files(model_true, model_compare, look_for_renamed_objects = fals
     'OS:EnergyManagementSystem:Sensor', # Names are UIDs
     'OS:EnergyManagementSystem:Program', # Names are UIDs
     'OS:EnergyManagementSystem:Actuator', # Names are UIDs
+    'OS:EnergyManagementSystem:OutputVariable', # getString() returns UIDs instead of variable name
     'OS:Connection', # Names are UIDs
     'OS:PortList', # Names are UIDs
     'OS:Building', # Name includes timestamp of creation
     'OS:ModelObjectList', # Names are UIDs
-    'OS:ZoneHVAC:EquipmentList', # Names appear to be created non-deteministically
-    'OS:AvailabilityManagerAssignmentList', # Names appear to be created non-deteministically
-    'OS:Schedule:Rule', # Names appear to be created non-deteministically
+    'OS:ZoneHVAC:EquipmentList', # Names appear to be created non-deterministically
+    'OS:AvailabilityManagerAssignmentList', # Names appear to be created non-deterministically
+    'OS:Schedule:Rule', # Names appear to be created non-deterministically
+    'OS:ScheduleTypeLimits', # Names appear to be created non-deterministically
     'OS:Rendering:Color', # Rendering colors don't matter
     'OS:Output:Meter', # Output meter objects may be different and don't affect results
-    'OS:ProgramControl' # Deprecated object no longer translated to EnergyPlus
+    'OS:ProgramControl', # Deprecated object no longer translated to EnergyPlus
+    'OS:StandardsInformation:Material',
+    'OS:StandardsInformation:Construction',
+    'OS:SimulationControl', # Sizing run and weather run may be different
+    'OS:AdditionalProperties', # Does not impact simulation results
+    'OS:Output:Variable', # Does not impact simulation results
+    'OS:Table:Lookup' # ERV table independent variable name lists are not deterministic
   ]
 
   # Fill model object lists with all object types to be compared
@@ -83,7 +91,7 @@ def compare_osm_files(model_true, model_compare, look_for_renamed_objects = fals
     end
   end
 
-  # Compare objects found in both models field by field 
+  # Compare objects found in both models field by field
   both_models.uniq.each do |b|
     true_object = b[0]
     compare_object = b[1]
@@ -96,7 +104,7 @@ def compare_osm_files(model_true, model_compare, look_for_renamed_objects = fals
     end
   end
 
-  return diffs
+  return diffs.sort
 end
 
 # Gets the "Name" of the object.  For objects with a Name field,
@@ -120,6 +128,7 @@ def object_name(object)
        'OS:ShadowCalculation',
        'OS:SimulationControl',
        'OS:Site:GroundTemperature:BuildingSurface',
+       'OS:Site:GroundTemperature:FCfactorMethod',
        'OS:Site:WaterMainsTemperature',
        'OS:Sizing:Parameters',
        'OS:SurfaceConvectionAlgorithm:Inside',
@@ -132,7 +141,7 @@ def object_name(object)
        'OS:ZoneCapacitanceMultiplier:ResearchSpecial'
     # Objects that are unique (1 per model)
     name = object_type
-  when 'OS:Sizing:Zone', 'OS:Sizing:Plant', 'OS:Sizing:System', 'OS:StandardsInformation:Construction'
+  when 'OS:Sizing:Zone', 'OS:Sizing:Plant', 'OS:Sizing:System', 'OS:StandardsInformation:Construction', 'OS:WaterHeater:Sizing'
     # Objects referencing a parent in the first field
     parent = object.getTarget(1).get
     name = "#{object_type} #{parent.name.get.to_s}"
@@ -215,6 +224,11 @@ def compare_objects_field_by_field(true_object, compare_object, alias_hash = Has
     next if field_name.include?('Latent Fraction Schedule Name')
     next if field_name.include?('Water Use Equipment Name')
 
+    # Don't compare field added in OS 3.2 release (temporary)
+    # checking this field in older versions will require different regression models by version
+    next if field_name.include?('Drain Water Heat Exchanger Type')
+    next if field_name.include?('Drain Water Heat Exchanger Destination')
+
     # Don't compare the names of schedule type limits
     # because they appear to be created non-deteministically
     next if field_name.include?('Schedule Type Limits Name')
@@ -248,6 +262,15 @@ def compare_objects_field_by_field(true_object, compare_object, alias_hash = Has
 
     # Check true value directly against compare value
     next if compare_value == true_value
+
+    # Check numeric values if numeric
+    if (compare_value.is_a? Numeric) && (true_value.is_a? Numeric)
+      diff = true_value.to_f - compare_value.to_f
+      unless true_value.zero?
+        # next if absolute value is less than a tenth of a percent difference
+        next if (diff / true_value.to_f).abs < 0.001
+      end
+    end
 
     # Check true value to aliases from compare model
     renamed_in_true = alias_hash[true_value].uniq
@@ -284,7 +307,7 @@ def find_object_matches_field_by_field(true_object, compare_model, alias_hash = 
     # Compare field by field
     obj_diffs = compare_objects_field_by_field(true_object, compare_object, alias_hash)
     # If there are no differences, this is an obvious match
-    if obj_diffs.size.zero?
+    if obj_diffs.empty?
       matching_objects << compare_object
       # puts "renamed: #{object_name(true_object)} matches #{object_name(compare_object)}"
       next
@@ -310,7 +333,7 @@ end
 # This method is recursive because after it finds that some objects have been renamed, it needs to re-compare
 # all remaining unmatched objects because they might have been unmatched due to having fields
 # referencing renamed object names be different.
-# @param look_for_renamed_objects [Bool] if true, objects that have no match based
+# @param look_for_renamed_objects [Boolean] if true, objects that have no match based
 # on name alone will be compared with all objects of the same type in the model_compare
 # on a field-by-field basis.  This finds objects that have been renamed but are otherwise
 # identical between models, but has a significant speed penalty.

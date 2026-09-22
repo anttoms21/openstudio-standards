@@ -59,39 +59,60 @@
     ]
   },
   {
-    "type": "Refrigeration",
-    "case_type": "Walkin Freezer",
-    "cooling_capacity_per_length": 367.0,
-    "length": 7.32,
-    "evaporator_fan_pwr_per_length": 34.0,
-    "lighting_per_length": 16.4,
-    "defrost_pwr_per_length": 273.0,
-    "cop": 1.5,
-    "cop_f_of_t_curve_name": "RACK1_RackCOPfTCurve",
-    "condenser_fan_pwr": 350.0,
-    "condenser_fan_pwr_curve_name": "RACK1_RackCondFanCurve2",
-    "lighting_schedule": "HotelLarge BLDG_LIGHT_SCH",
-    "restocking_schedule": "HotelLarge Kitchen_Flr_6_Case:1_WALKINFREEZER_WalkInStockingSched",
+    "type": "Exhaust Fan",
+    "name": "Dining_Flr_6 Exhaust Fan",
+    "flow_rate": 0.9438948864,
+    "operation_schedule": "HotelLarge Kitchen_Exhaust_SCH",
+    "flow_fraction_schedule": null,
+    "balanced_exhaust_fraction_schedule": null,
+    "space_names": [
+      "Dining_Flr_6"
+    ]
+  },
+  {
+    "type": "Exhaust Fan",
+    "name": "Banquet_Flr_6 Exhaust Fan",
+    "flow_rate": 0.9438948864,
+    "operation_schedule": "HotelLarge Kitchen_Exhaust_SCH",
+    "flow_fraction_schedule": null,
+    "balanced_exhaust_fraction_schedule": null,
+    "space_names": [
+      "Banquet_Flr_6"
+    ]
+  },
+  {
+    "type": "Exhaust Fan",
+    "name": "Kitchen_Flr_6 Exhaust Fan",
+    "flow_rate": 1.8877897728,
+    "operation_schedule": "HotelLarge Kitchen_Exhaust_SCH",
+    "flow_fraction_schedule": null,
+    "balanced_exhaust_fraction_schedule": "HotelLarge Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule",
     "space_names": [
       "Kitchen_Flr_6"
     ]
   },
   {
-    "type": "Refrigeration",
-    "case_type": "Display Case",
-    "cooling_capacity_per_length": 734.0,
-    "length": 3.66,
-    "evaporator_fan_pwr_per_length": 55.0,
-    "lighting_per_length": 33.0,
-    "defrost_pwr_per_length": 0.0,
-    "cop": 3.0,
-    "cop_f_of_t_curve_name": "RACK2_RackCOPfTCurve",
-    "condenser_fan_pwr": 750.0,
-    "condenser_fan_pwr_curve_name": "RACK1_RackCondFanCurve2",
-    "lighting_schedule": "HotelLarge BLDG_LIGHT_SCH",
-    "restocking_schedule": "HotelLarge Kitchen_Flr_6_Case:2_SELFCONTAINEDDISPLAYCASE_CaseStockingSched",
+    "type": "Exhaust Fan",
+    "name": "Laundry_Flr_1 Exhaust Fan",
+    "flow_rate": 0.2359737216,
+    "operation_schedule": "HotelLarge Hours_of_operation",
+    "flow_fraction_schedule": null,
+    "balanced_exhaust_fraction_schedule": null,
     "space_names": [
-      "Kitchen_Flr_6"
+      "Laundry_Flr_1"
     ]
+  },
+  {
+    "type": "Refrigeration_system",
+    "compressor_type": "Low Temp",
+    "cases": [{
+      "case_type": "Case Large Hotel",
+      "space_names": ["Kitchen_Flr_6"]}],
+    "walkins": [{
+      "walkin_type": "Walk-In Large Hotel",
+      "space_names": ["Kitchen_Flr_6"],
+      "number_of_walkins": 1 }],
+    "name": "RefrSystem - Large Hotel",
+    "space_names": ["Kitchen_Flr_6"]
   }
 ]

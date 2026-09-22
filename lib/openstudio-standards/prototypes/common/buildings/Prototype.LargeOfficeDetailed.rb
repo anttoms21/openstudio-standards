@@ -1,9 +1,14 @@
-
 # Custom changes for the LargeOffice prototype.
-# These are changes that are inconsistent with other prototype
-# building types.
+# These are changes that are inconsistent with other prototype building types.
 module LargeOfficeDetailed
-  def model_custom_hvac_tweaks(building_type, climate_zone, prototype_input, model)
+  # hvac adjustments specific to the prototype model
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @param building_type [String the building type
+  # @param climate_zone [String] ASHRAE climate zone, e.g. 'ASHRAE 169-2013-4A'
+  # @param prototype_input [Hash] hash of prototype inputs
+  # @return [Boolean] returns true if successful, false if not
+  def model_custom_hvac_tweaks(model, building_type, climate_zone, prototype_input)
     system_to_space_map = define_hvac_system_map(building_type, climate_zone)
 
     system_to_space_map.each do |system|
@@ -43,17 +48,20 @@ module LargeOfficeDetailed
 
     # replace EvaporativeFluidCoolerSingleSpeed with CoolingTowerTwoSpeed
     model.getPlantLoops.each do |plant_loop|
-      next unless plant_loop.name.to_s.include? "Heat Pump Loop"
+      next unless plant_loop.name.to_s.include? 'Heat Pump Loop'
+
       sup_wtr_high_temp_f = 65.0
       sup_wtr_low_temp_f = 41.0
       sup_wtr_high_temp_c = OpenStudio.convert(sup_wtr_high_temp_f, 'F', 'C').get
       sup_wtr_low_temp_c = OpenStudio.convert(sup_wtr_low_temp_f, 'F', 'C').get
-      hp_high_temp_sch = model_add_constant_schedule_ruleset(model,
-                                                             sup_wtr_high_temp_c,
-                                                             name = "#{plant_loop.name} High Temp - #{sup_wtr_high_temp_f.round(0)}F")
-      hp_low_temp_sch = model_add_constant_schedule_ruleset(model,
-                                                            sup_wtr_low_temp_c,
-                                                            name = "#{plant_loop.name} Low Temp - #{sup_wtr_low_temp_f.round(0)}F")
+      hp_high_temp_sch = OpenstudioStandards::Schedules.create_constant_schedule_ruleset(model,
+                                                                                         sup_wtr_high_temp_c,
+                                                                                         name: "#{plant_loop.name} High Temp - #{sup_wtr_high_temp_f.round(0)}F",
+                                                                                         schedule_type_limit: 'Temperature')
+      hp_low_temp_sch = OpenstudioStandards::Schedules.create_constant_schedule_ruleset(model,
+                                                                                        sup_wtr_low_temp_c,
+                                                                                        name: "#{plant_loop.name} Low Temp - #{sup_wtr_low_temp_f.round(0)}F",
+                                                                                        schedule_type_limit: 'Temperature')
 
       # add cooling tower object
       cooling_tower = OpenStudio::Model::CoolingTowerTwoSpeed.new(model)
@@ -75,21 +83,79 @@ module LargeOfficeDetailed
       end
     end
 
+    remove_basement_infiltration(model)
+
     return true
   end
-  
+
+  # remove basement infiltration
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Boolean] returns true if successful, false if not
+  def remove_basement_infiltration(model)
+    space_infltrations = model.getSpaceInfiltrationDesignFlowRates
+    space_infltrations.each do |space_inf|
+      if space_inf.name.to_s.include? 'Basement'
+        space_inf = nil
+      end
+    end
+    return true
+  end
+
+  # update water heater loss coefficient
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @return [Boolean] returns true if successful, false if not
   def update_waterheater_loss_coefficient(model)
     case template
-      when '90.1-2004', '90.1-2007', '90.1-2010', '90.1-2013', 'NECB2011'
+      when '90.1-2004', '90.1-2007', '90.1-2010', '90.1-2013', '90.1-2016', '90.1-2019', 'NECB2011'
         model.getWaterHeaterMixeds.sort.each do |water_heater|
           water_heater.setOffCycleLossCoefficienttoAmbientTemperature(11.25413987)
           water_heater.setOnCycleLossCoefficienttoAmbientTemperature(11.25413987)
         end
     end
+    return true
   end
 
+  # swh adjustments specific to the prototype model
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @param building_type [String the building type
+  # @param climate_zone [String] ASHRAE climate zone, e.g. 'ASHRAE 169-2013-4A'
+  # @param prototype_input [Hash] hash of prototype inputs
+  # @return [Boolean] returns true if successful, false if not
   def model_custom_swh_tweaks(model, building_type, climate_zone, prototype_input)
     update_waterheater_loss_coefficient(model)
+    return true
+  end
+
+  # geometry adjustments specific to the prototype model
+  #
+  # @param model [OpenStudio::Model::Model] OpenStudio model object
+  # @param building_type [String the building type
+  # @param climate_zone [String] ASHRAE climate zone, e.g. 'ASHRAE 169-2013-4A'
+  # @param prototype_input [Hash] hash of prototype inputs
+  # @return [Boolean] returns true if successful, false if not
+  def model_custom_geometry_tweaks(model, building_type, climate_zone, prototype_input)
+    # Set original building North axis
+    OpenstudioStandards::Geometry.model_set_building_north_axis(model, 0.0)
+    return true
+  end
+
+  # @!group AirTerminalSingleDuctVAVReheat
+  # Set the initial minimum damper position based on OA rate of the space and the template.
+  # Zones with low OA per area get lower initial guesses.
+  # Final position will be adjusted upward as necessary by Standards.AirLoopHVAC.apply_minimum_vav_damper_positions
+  #
+  # @param air_terminal_single_duct_vav_reheat [OpenStudio::Model::AirTerminalSingleDuctVAVReheat] the air terminal object
+  # @param zone_oa_per_area [Double] the zone outdoor air per area in m^3/s*m^2
+  # @return [Boolean] returns true if successful, false if not
+  def air_terminal_single_duct_vav_reheat_apply_initial_prototype_damper_position(air_terminal_single_duct_vav_reheat, zone_oa_per_area)
+    min_damper_position = template == '90.1-2010' || template == '90.1-2013' || template == '90.1-2016' || template == '90.1-2019' ? 0.2 : 0.3
+
+    # Set the minimum flow fraction
+    air_terminal_single_duct_vav_reheat.setConstantMinimumAirFlowFraction(min_damper_position)
+
     return true
   end
 end

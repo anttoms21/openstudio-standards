@@ -51462,7 +51462,7 @@ OS:Surface,
 
 OS:ThermalZone,
   {a6011ac5-b18a-4c99-af09-54f493b3f2e9}, !- Handle
-  Field Level Elevator EL01,              !- Name
+  Field Level Elevator EL01 Zone,         !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -51544,7 +51544,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {4f103974-e3a4-43fe-bc89-5371a8280bd5}, !- Handle
-  Field Level Break Drying 101AB,         !- Name
+  Field Level Break Drying 101AB Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -51630,7 +51630,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {3c1a8c17-addd-4ac6-8431-b096053bc5b0}, !- Handle
-  Field Level Pool Hydrotherapy 115,      !- Name
+  Field Level Pool Hydrotherapy 115 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -51716,7 +51716,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {8540b7ff-9f2e-4f14-9c37-2e7395fdff5d}, !- Handle
-  Field Level Office 114EG,               !- Name
+  Field Level Office 114EG Zone,         !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -51802,7 +51802,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {a9809bf4-fb6d-4113-932b-c6e37d751160}, !- Handle
-  Field Level Office 114CD,               !- Name
+  Field Level Office 114CD Zone,         !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -51888,7 +51888,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {53d7342d-1191-4e9f-a01e-522ae803966c}, !- Handle
-  Field Level Ticket Sales 123-AB,        !- Name
+  Field Level Ticket Sales 123-AB Zone,  !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -51967,7 +51967,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7363f2c4-610a-4b97-a1c3-80fa70bd5266}, !- Handle
-  Field Level Weight 130-EFG,             !- Name
+  Field Level Weight 130-EFG Zone,       !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52053,7 +52053,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {e7311835-56e0-4781-bc33-84d7509c3dd8}, !- Handle
-  Field Level Mechanical Southeast,       !- Name
+  Field Level Mechanical Southeast Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52148,7 +52148,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {b20fb1a2-5ea8-44b9-9ff7-448490166826}, !- Handle
-  Main Level Vestibule,                   !- Name
+  Main Level Vestibule Zone,              !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52234,7 +52234,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {4b44fd74-722a-4d01-8ca2-3f8692a8552d}, !- Handle
-  Main Level Office Core,                 !- Name
+  Main Level Office Core Zone,           !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52313,7 +52313,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d1767d06-7f56-4fd2-8fb3-8917806ed067}, !- Handle
-  Concourse Level Meeting 319-A,          !- Name
+  Concourse Level Meeting 319-A Zone,    !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52392,7 +52392,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {73c4b0f0-8009-4fb9-84a2-de4dcade456f}, !- Handle
-  Concourse Level Lounge 300 RRW305 RRM306, !- Name
+  Concourse Level Lounge 300 RRW305 RRM306 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52479,7 +52479,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {91079b7c-6203-4a69-871e-d2596bba42e4}, !- Handle
-  Concourse Level Corridor CR329,         !- Name
+  Concourse Level Corridor CR329 Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52558,7 +52558,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {fecc430d-5c92-467d-a7fb-a7e946a3bbe4}, !- Handle
-  Concourse Level Corridor East,          !- Name
+  Concourse Level Corridor East Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52644,7 +52644,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {adfb9127-c331-4302-8825-e0dabd1bafd5}, !- Handle
-  Concourse Level Corridor North CR302 310 312 313, !- Name
+  Concourse Level Corridor North CR302 310 312 313 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52730,7 +52730,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {0be15b8d-6729-441d-b395-939f5ca03d8c}, !- Handle
-  Coaches Level Office 404-B,             !- Name
+  Coaches Level Office 404-B Zone,        !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52816,7 +52816,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {340e4781-f8b0-49aa-a9c8-f5b890002748}, !- Handle
-  Coaches Level Corridor 453 416 Northwest, !- Name
+  Coaches Level Corridor 453 416 Northwest Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52902,7 +52902,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {8890d833-848d-43f7-a059-63928c95f4cd}, !- Handle
-  Coaches Level Corridor Central CR438 RRM440 RRW441, !- Name
+  Coaches Level Corridor Central CR438 RRM440 RRW441 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -52981,7 +52981,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {dc9c1701-0fad-47a1-ba59-82ba84ce220e}, !- Handle
-  Coaches Level Office 427 443,           !- Name
+  Coaches Level Office 427 443 Zone,      !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53067,7 +53067,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {8a9dd8ca-5c17-441c-824f-2e3b27524cfe}, !- Handle
-  Coaches Level Office 414 429 428,       !- Name
+  Coaches Level Office 414 429 428 Zone,  !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53153,7 +53153,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {e88dfbdc-3855-4354-9375-1a127d810d4d}, !- Handle
-  Coaches Level Office 430-433,           !- Name
+  Coaches Level Office 430-433 Zone,      !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53239,7 +53239,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {3a436e11-f2b8-4109-aaf8-cfad5e358a66}, !- Handle
-  Coaches Level Lobby CR425 426,          !- Name
+  Coaches Level Lobby CR425 426 Zone,     !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53325,7 +53325,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {3c27cb73-b13f-4f67-b7b5-d522b5fd4360}, !- Handle
-  Coaches Level Office 460 453,           !- Name
+  Coaches Level Office 460 453 Zone,      !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53404,7 +53404,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7253a647-52e5-4366-8160-9c8c03edf41c}, !- Handle
-  Coaches Level Studio 460AB,             !- Name
+  Coaches Level Studio 460AB Zone,        !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53490,7 +53490,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {578c71f2-6827-4472-a1bb-8f1f583161de}, !- Handle
-  Coaches Level Conference 446-A,         !- Name
+  Coaches Level Conference 446-A Zone,    !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53576,7 +53576,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {6be9990f-37b1-4e32-a34d-e13c00858c72}, !- Handle
-  Coaches Level Conference 445-A 456,     !- Name
+  Coaches Level Conference 445-A 456 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53670,7 +53670,7 @@ OS:Connection,
 
 OS:ThermalZone,
   {afb36799-577e-4d49-bdc1-b482aa9f41e2}, !- Handle
-  Concourse Level Lobby CR324-B 325,      !- Name
+  Concourse Level Lobby CR324-B 325 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53756,7 +53756,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {32b0be95-f0b2-4ed6-bc14-f33d49c7e8ff}, !- Handle
-  Coaches Level Lobby CR464 465,          !- Name
+  Coaches Level Lobby CR464 465 Zone,     !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53842,7 +53842,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {1a02c09d-c3ec-4c95-a224-06fa91f5f682}, !- Handle
-  Athletic Admin Level Lobby CR569 551,   !- Name
+  Athletic Admin Level Lobby CR569 551 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -53928,7 +53928,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {12debb40-ded4-4e74-88de-d1d863345ff7}, !- Handle
-  Athletic Admin Level Office 540F 550A,  !- Name
+  Athletic Admin Level Office 540F 550A Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54014,7 +54014,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {9458afbc-7ff2-4ac5-8761-481d409c47dd}, !- Handle
-  Athletic Admin Level Corridor East,     !- Name
+  Athletic Admin Level Corridor East Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54134,7 +54134,7 @@ OS:Surface,
 
 OS:ThermalZone,
   {cc551997-25f2-4a20-9a47-36e30f4f1d26}, !- Handle
-  Athletic Admin Level Office 530MNP,     !- Name
+  Athletic Admin Level Office 530MNP Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54220,7 +54220,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {bfef0cbd-fcbb-4b27-8e3f-873e6fcef1d7}, !- Handle
-  Athletic Admin Level Office 520D-G,     !- Name
+  Athletic Admin Level Office 520D-G Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54306,7 +54306,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {15e97572-17b2-43d0-aa96-79294bf4c750}, !- Handle
-  Athletic Admin Level Corridor 502 503 Northwest, !- Name
+  Athletic Admin Level Corridor 502 503 Northwest Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54392,7 +54392,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {a6405e41-265e-43c2-a802-e77a5c8b749e}, !- Handle
-  Athletic Admin Level Conference 530H 540A, !- Name
+  Athletic Admin Level Conference 530H 540A Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54478,7 +54478,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {799ea658-9fad-4703-bb57-3d7049535968}, !- Handle
-  Athletic Admin Level Office 506 RRU505, !- Name
+  Athletic Admin Level Office 506 RRU505 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54564,7 +54564,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {b22ca395-d141-4837-911e-aab093fb155b}, !- Handle
-  Rooftop Terrace Level Lobby CR601 600C, !- Name
+  Rooftop Terrace Level Lobby CR601 600C Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54651,7 +54651,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {4639efca-5d1a-4f3a-857b-63c575f71778}, !- Handle
-  Rooftop Terrace Level Lobby CR620 623,  !- Name
+  Rooftop Terrace Level Lobby CR620 623 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54738,7 +54738,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {e1b5c424-dee3-463e-99fe-8b03e3d9c964}, !- Handle
-  Rooftop Terrace Level Lobby CR631 632,  !- Name
+  Rooftop Terrace Level Lobby CR631 632 Zone, !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54825,7 +54825,7 @@ OS:Rendering:Color,
 
 OS:ThermalZone,
   {536dea41-d984-41b0-b7a3-b5fd93bf4d90}, !- Handle
-  Athletic Admin Level Office 507 508,    !- Name
+  Athletic Admin Level Office 507 508 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54903,7 +54903,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {96fb67bb-1e15-429c-82fe-7541c9b30d64}, !- Handle
-  Field Level Corridor Quad B,            !- Name
+  Field Level Corridor Quad B Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -54981,7 +54981,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f6dec41e-d38b-4cd9-8cd6-cb4611e0c3c4}, !- Handle
-  Main Level Elevator EL03AB,             !- Name
+  Main Level Elevator EL03AB Zone,        !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55055,7 +55055,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {886651c3-1cfe-4542-b663-1b364a2f1732}, !- Handle
-  Main Level Elevator Quad B,             !- Name
+  Main Level Elevator Quad B Zone,        !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55129,7 +55129,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {fb864279-c284-476c-8d53-4f4d62a9c65b}, !- Handle
-  Athletic Admin Level Office 520A-C 510K-P, !- Name
+  Athletic Admin Level Office 520A-C 510K-P Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55207,7 +55207,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d70f8784-a0c6-40dc-b214-bc0a082d4ff7}, !- Handle
-  Rooftop Terrace Level Elevator EL01,    !- Name
+  Rooftop Terrace Level Elevator EL01 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55281,7 +55281,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {5f7219d9-92d9-4824-aa33-0994e240a3ca}, !- Handle
-  Concourse Level Meeting 328,            !- Name
+  Concourse Level Meeting 328 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55359,7 +55359,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {bafce641-70b1-4997-8adc-081840c51004}, !- Handle
-  Rooftop Terrace Level Unconditioned East, !- Name
+  Rooftop Terrace Level Unconditioned East Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55433,7 +55433,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {ffb4eb11-468a-49c8-a7b7-b829f4be69ba}, !- Handle
-  Concourse Level Meeting 321 323,        !- Name
+  Concourse Level Meeting 321 323 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55511,7 +55511,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {70250702-8083-423a-a404-97c65cf20eea}, !- Handle
-  Rooftop Terrace Level Vestibule 352,    !- Name
+  Rooftop Terrace Level Vestibule 352 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55590,7 +55590,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {478a37b1-f6d8-4f81-8059-a2676a1e3147}, !- Handle
-  Main Level Open Office North Perimeter, !- Name
+  Main Level Open Office North Perimeter Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55668,7 +55668,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {838bd522-df93-41cb-8e1d-1dc201fe0c25}, !- Handle
-  Main Level Unconditioned West,          !- Name
+  Main Level Unconditioned West Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55742,7 +55742,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f2e74a92-0770-4fb1-a125-0f715a776fa0}, !- Handle
-  Main Level Open Office West Perimeter,  !- Name
+  Main Level Open Office West Perimeter Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55820,7 +55820,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {2518111e-3296-418f-b109-d2cf366df9dc}, !- Handle
-  Field Level Locker Student 102B RR102,  !- Name
+  Field Level Locker Student 102B RR102 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55898,7 +55898,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {a133dfd3-f605-40eb-895d-4d347e02c74f}, !- Handle
-  Field Level Corridor Team Entry,        !- Name
+  Field Level Corridor Team Entry Zone,   !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -55976,7 +55976,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {85903c0f-c9b7-4488-83ce-241f391a6f37}, !- Handle
-  Coaches Level Server 460D,              !- Name
+  Coaches Level Server 460D Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56055,7 +56055,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9c03b3a2-237d-443c-9882-965d4506fb22}, !- Handle
-  Athletic Admin Level Lobby CR511,       !- Name
+  Athletic Admin Level Lobby CR511 Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56133,7 +56133,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {fd0fea83-5a8f-40c9-8f6f-ed8c9b8fae2e}, !- Handle
-  Athletic Admin Level Stair ST501,       !- Name
+  Athletic Admin Level Stair ST501 Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56212,7 +56212,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {792a875e-8311-4a2b-80e9-7f8b073edee9}, !- Handle
-  Field Level Office 101E-G,              !- Name
+  Field Level Office 101E-G Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56290,7 +56290,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {92792708-a2bc-4195-afde-7c7625184f32}, !- Handle
-  Field Level Mechanical Mezzanine,       !- Name
+  Field Level Mechanical Mezzanine Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56369,7 +56369,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d09cbd8e-a954-4ebe-923c-3f29892e244d}, !- Handle
-  Athletic Admin Level Conference 504,    !- Name
+  Athletic Admin Level Conference 504 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56447,7 +56447,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {81eb5877-1946-48b2-8aea-489032046a8e}, !- Handle
-  Athletic Admin Level Office North 510A-J, !- Name
+  Athletic Admin Level Office North 510A-J Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56525,7 +56525,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c60b09a0-940b-4af0-8e59-d6e564bd9a76}, !- Handle
-  Field Level Elevator Quad B Northeast,  !- Name
+  Field Level Elevator Quad B Northeast Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56599,7 +56599,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {53566e20-c6e5-48dd-b6c2-7de981851c0f}, !- Handle
-  Coaches Level CoachOff SW 453-456,      !- Name
+  Coaches Level CoachOff SW 453-456 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56677,7 +56677,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e0627c0d-d150-476b-9f06-2a47584eb401}, !- Handle
-  Concourse Level Elevator EL03AB,        !- Name
+  Concourse Level Elevator EL03AB Zone,   !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56751,7 +56751,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7ed44049-28b4-4866-bbac-8db3a5eca05f}, !- Handle
-  Field Level Laundry 114A,               !- Name
+  Field Level Laundry 114A Zone,          !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56829,7 +56829,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {70c9a12f-18c9-4ef2-a359-71e52e6bc460}, !- Handle
-  Field Level Training 114,               !- Name
+  Field Level Training 114 Zone,          !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56907,7 +56907,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {92c1a49d-c0f2-4533-925c-b05271fc2f11}, !- Handle
-  Athletic Admin Level Office East 561-568, !- Name
+  Athletic Admin Level Office East 561-568 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -56985,7 +56985,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {bb5d044b-3e42-41bb-84d0-ee428602cced}, !- Handle
-  Field Level Vestibule 687,              !- Name
+  Field Level Vestibule 687 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57072,7 +57072,7 @@ OS:Connection,
 
 OS:ThermalZone,
   {bd698b89-4359-449e-a248-41732835ba0e}, !- Handle
-  Main Level Open Office Northwest Perimeter, !- Name
+  Main Level Open Office Northwest Perimeter Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57150,7 +57150,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {6f7bf665-e258-4f5f-9aba-1bc65437adfe}, !- Handle
-  Field Level Reduced Office 113,         !- Name
+  Field Level Reduced Office 113 Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57228,7 +57228,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {b7189885-68fc-4e89-aee6-0b3a2cd28b7a}, !- Handle
-  Field Level Conference 114F,            !- Name
+  Field Level Conference 114F Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57306,7 +57306,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {b93a13ad-760f-4266-953f-ca8596d0eadd}, !- Handle
-  Rooftop Terrace Level Restroom RRM602,  !- Name
+  Rooftop Terrace Level Restroom RRM602 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57385,7 +57385,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {2d3e6507-5da0-4f6f-8696-051d5dc70b77}, !- Handle
-  Concourse Level Lobby CRM300,           !- Name
+  Concourse Level Lobby CRM300 Zone,      !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57464,7 +57464,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {03680cba-5eb2-457f-aecb-2770ea20df56}, !- Handle
-  Field Level Storage 127 128A,           !- Name
+  Field Level Storage 127 128A Zone,      !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57542,7 +57542,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {0c4e22f5-c596-4b13-a885-09525efa8c23}, !- Handle
-  Rooftop Terrace Level Unconditioned North, !- Name
+  Rooftop Terrace Level Unconditioned North Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57616,7 +57616,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {02f59a17-cfe6-4975-85e7-53e7944d1208}, !- Handle
-  Athletic Admin Level Elevator EL03AB,   !- Name
+  Athletic Admin Level Elevator EL03AB Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57690,7 +57690,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c4d83a46-cc85-4cec-bd59-3e94212a0a19}, !- Handle
-  Coaches Level Break 403,                !- Name
+  Coaches Level Break 403 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57768,7 +57768,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c302eb3c-92a1-4cfd-83cf-51a72d724eda}, !- Handle
-  Field Level IDF 131,                    !- Name
+  Field Level IDF 131 Zone,               !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57855,7 +57855,7 @@ OS:Connection,
 
 OS:ThermalZone,
   {9a98b872-8b50-47c6-9cee-a8b9e175000d}, !- Handle
-  Athletic Admin Level Office 540G-J 550B-E, !- Name
+  Athletic Admin Level Office 540G-J 550B-E Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -57933,7 +57933,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {fce2d839-c82e-458e-abaf-dd276b35e423}, !- Handle
-  Coaches Level Conference 415,           !- Name
+  Coaches Level Conference 415 Zone,      !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58011,7 +58011,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {b5d23db8-648d-4a17-9ceb-625d93ba9781}, !- Handle
-  Coaches Level Stair ST401,              !- Name
+  Coaches Level Stair ST401 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58091,7 +58091,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {8679d65e-021a-44ad-8596-b1469e0af5d0}, !- Handle
-  Main Level Stair Quad B,                !- Name
+  Main Level Stair Quad B Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58170,7 +58170,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9aeba2b7-e11d-4b48-b083-f70cc78ac3fa}, !- Handle
-  Coaches Level Unconditioned 400,        !- Name
+  Coaches Level Unconditioned 400 Zone,   !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58244,7 +58244,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c4713985-4bc3-4903-a305-c5bc0cfa2df2}, !- Handle
-  Field Level Laundry 101J,               !- Name
+  Field Level Laundry 101J Zone,          !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58322,7 +58322,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {002822b1-2b4b-4b1c-854b-7f8549909f6f}, !- Handle
-  Field Level Locker Student 125-A 126-A, !- Name
+  Field Level Locker Student 125-A 126-A Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58401,7 +58401,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c0f82c21-5e70-4f23-89da-89c68eafbed3}, !- Handle
-  Concourse Level Unconditioned,          !- Name
+  Concourse Level Unconditioned Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58475,7 +58475,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {38737f93-0810-4648-a931-fde797f38710}, !- Handle
-  Field Level Vestibule 129C,             !- Name
+  Field Level Vestibule 129C Zone,        !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58554,7 +58554,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {68e49184-4ed9-4347-ac0d-c92544a6bd58}, !- Handle
-  Rooftop Terrace Level Mechanical 621,   !- Name
+  Rooftop Terrace Level Mechanical 621 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58633,7 +58633,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {5767bba2-c259-49b4-a18f-c27b82b2b340}, !- Handle
-  Main Level Elevator EL01,               !- Name
+  Main Level Elevator EL01 Zone,          !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58715,7 +58715,7 @@ OS:Connection,
 
 OS:ThermalZone,
   {a73967b0-51f4-4d7f-8640-51a7058144b3}, !- Handle
-  Main Level Open Office South Perimeter, !- Name
+  Main Level Open Office South Perimeter Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58793,7 +58793,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9f0d14d3-a590-478a-b219-a8e70e5e93e2}, !- Handle
-  Field Level Locker Staff RRM121-A RRW120-A, !- Name
+  Field Level Locker Staff RRM121-A RRW120-A Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58871,7 +58871,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {69d10420-60d7-4fb2-9053-99378c65148b}, !- Handle
-  Main Level Elevator EL02AB 210,         !- Name
+  Main Level Elevator EL02AB 210 Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -58945,7 +58945,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {6cf076e8-5c0a-43d1-8b60-e268cfce9125}, !- Handle
-  Coaches Level Office North 410-413 420-423, !- Name
+  Coaches Level Office North 410-413 420-423 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59023,7 +59023,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {32e3e7bc-62f5-4879-8cd8-3d293ce6de16}, !- Handle
-  Field Level Locker Player 106A,         !- Name
+  Field Level Locker Player 106A Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59101,7 +59101,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7ee76cf1-b171-4296-879f-eb4cd3c2283f}, !- Handle
-  Coaches Level Conference 463,           !- Name
+  Coaches Level Conference 463 Zone,      !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59179,7 +59179,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c82d7d5a-9d7c-428d-bdbc-8fdc0f165989}, !- Handle
-  Concourse Level IDF 315,                !- Name
+  Concourse Level IDF 315 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59258,7 +59258,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {185dca4a-8e14-4ee8-b6c1-01c396d7e350}, !- Handle
-  Concourse Level Stair ST302,            !- Name
+  Concourse Level Stair ST302 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59337,7 +59337,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {065d0a6b-1829-48ae-bdcd-1e1821879c6c}, !- Handle
-  Athletic Admin Level Stair ST503,       !- Name
+  Athletic Admin Level Stair ST503 Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59416,7 +59416,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {105e9925-1de0-45fa-b9aa-ee507e9a7ee4}, !- Handle
-  Field Level Corridor North,             !- Name
+  Field Level Corridor North Zone,        !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59494,7 +59494,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {ed19ce39-9894-44d8-9e25-3e70669b7916}, !- Handle
-  Field Level Locker Player Team Tunnel CR104, !- Name
+  Field Level Locker Player Team Tunnel CR104 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59572,7 +59572,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c75db7c7-c83a-4dae-80d6-2e008cbc6d25}, !- Handle
-  Coaches Level Elevator EL03AB,          !- Name
+  Coaches Level Elevator EL03AB Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59646,7 +59646,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {6b9d9bff-cef2-4879-b099-30928c0026c6}, !- Handle
-  Coaches Level Elevator EL01,            !- Name
+  Coaches Level Elevator EL01 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59720,7 +59720,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {0fb030f7-8ec7-4b26-841c-cac8d64deaa3}, !- Handle
-  Field Level Office 110A-C,              !- Name
+  Field Level Office 110A-C Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59798,7 +59798,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f4c81c86-d9e3-437f-b460-fdf059fe5941}, !- Handle
-  Field Level Pool Recovery 111,          !- Name
+  Field Level Pool Recovery 111 Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59877,7 +59877,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9fe63c9e-36d3-49fb-891d-a69b3b4b1e50}, !- Handle
-  Field Level Locker Player 105A,         !- Name
+  Field Level Locker Player 105A Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -59956,7 +59956,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7bc253fb-0248-441d-b399-049a064c1833}, !- Handle
-  Main Level Stair ST201,                 !- Name
+  Main Level Stair ST201 Zone,            !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60035,7 +60035,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e7d1c5d5-37d2-42ca-acae-19c7c46a38a6}, !- Handle
-  Field Level Locker Player 107 BC,       !- Name
+  Field Level Locker Player 107 BC Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60114,7 +60114,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {2be79c63-1b59-4e59-bb8a-f40b9c89135c}, !- Handle
-  Field Level IDF 122A,                   !- Name
+  Field Level IDF 122A Zone,              !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60193,7 +60193,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {740466c2-ea9f-4688-944c-f87e07c2afbe}, !- Handle
-  Rooftop Terrace Level Stair ST601,      !- Name
+  Rooftop Terrace Level Stair ST601 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60272,7 +60272,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {5eaba3a8-3dde-46a9-916a-eddf6cfd67b0}, !- Handle
-  Athletic Admin Level Break 501,         !- Name
+  Athletic Admin Level Break 501 Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60350,7 +60350,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {6f5bea9b-db71-44c7-823c-447de03759ed}, !- Handle
-  Main Level Open Office East Perimeter,  !- Name
+  Main Level Open Office East Perimeter Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60428,7 +60428,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {edea8a60-6510-4f1d-9006-939645014ceb}, !- Handle
-  Concourse Level Mechanical 326,         !- Name
+  Concourse Level Mechanical 326 Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60507,7 +60507,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e47ff35a-f39a-4fce-a4fb-7d4c453bf88c}, !- Handle
-  Rooftop Terrace Level Unconditioned Southeast, !- Name
+  Rooftop Terrace Level Unconditioned Southeast Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60581,7 +60581,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {8e56caa6-c7a9-4ae8-ba1a-a38368d9d678}, !- Handle
-  Athletic Admin Level IDF,               !- Name
+  Athletic Admin Level IDF Zone,          !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60660,7 +60660,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f655820a-6f37-4142-acb8-63e69fef21db}, !- Handle
-  Rooftop Terrace Level Stair ST603,      !- Name
+  Rooftop Terrace Level Stair ST603 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60739,7 +60739,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d9fb08ed-7d26-4b26-946a-c05f860f31af}, !- Handle
-  Coaches Level CoachOff SW 434-437,      !- Name
+  Coaches Level CoachOff SW 434-437 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60817,7 +60817,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d5153b0a-7d1a-48ed-8c72-ce3a4057c7cf}, !- Handle
-  Coaches Level Unconditioned Southeast,  !- Name
+  Coaches Level Unconditioned Southeast Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60891,7 +60891,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {bf7a144d-9fb7-483e-ac86-30fa51ec80c0}, !- Handle
-  Field Level Lobby 116,                  !- Name
+  Field Level Lobby 116 Zone,             !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -60969,7 +60969,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {37415101-def1-4d43-9275-5a097caccad3}, !- Handle
-  Field Level Storage,                    !- Name
+  Field Level Storage Zone,               !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61047,7 +61047,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {475c81b5-917d-4fce-a056-b6480da9422d}, !- Handle
-  Main Level IDF 212,                     !- Name
+  Main Level IDF 212 Zone,                !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61126,7 +61126,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {bca26563-d337-49ab-8ce1-7421b2f38a02}, !- Handle
-  Field Level Locker Coach 124A RR124BC,  !- Name
+  Field Level Locker Coach 124A RR124BC Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61204,7 +61204,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e3ca7507-7d6f-4a94-8d8b-90cbb3d59904}, !- Handle
-  Field Level Stair ST104,                !- Name
+  Field Level Stair ST104 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61283,7 +61283,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {33f2cd4f-59ea-45b7-b13b-238b1c4b15e1}, !- Handle
-  Field Level Storage Southwest 101C D,   !- Name
+  Field Level Storage Southwest 101C D Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61361,7 +61361,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {08f3c4c3-80f7-46a3-89e5-2139c0e09fdd}, !- Handle
-  Field Level Locker Player 105,          !- Name
+  Field Level Locker Player 105 Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61440,7 +61440,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {5c1b13dd-755f-4ae1-809e-cc1f39d2122e}, !- Handle
-  Rooftop Terrace Level Lobby CR630,      !- Name
+  Rooftop Terrace Level Lobby CR630 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61519,7 +61519,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {8baec918-0bf9-4cab-b3f4-06ea6953b2b5}, !- Handle
-  Rooftop Terrace Level Unconditioned Southwest, !- Name
+  Rooftop Terrace Level Unconditioned Southwest Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61593,7 +61593,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d2cfc9d4-db7f-469a-91fd-4ce2fdbb72d5}, !- Handle
-  Athletic Admin Level Unconditioned Northwest Corner, !- Name
+  Athletic Admin Level Unconditioned Northwest Corner Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61667,7 +61667,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e286e098-dd3b-41f8-8eba-cde390172b0c}, !- Handle
-  Concourse Level Lobby CR311,            !- Name
+  Concourse Level Lobby CR311 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61745,7 +61745,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {4a6e783f-c605-4cb4-bb73-0dc85b8b095d}, !- Handle
-  Main Level Stair ST202,                 !- Name
+  Main Level Stair ST202 Zone,            !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61824,7 +61824,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {73139c5b-a03f-488b-bfb0-f079f52aa8cd}, !- Handle
-  Field Level Conference 128D,            !- Name
+  Field Level Conference 128D Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61902,7 +61902,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {2808bc4d-b86a-47ae-85fe-169daffdb7d3}, !- Handle
-  Coaches Level Storage 448 460C,         !- Name
+  Coaches Level Storage 448 460C Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -61980,7 +61980,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {40fe1ee1-8bcd-4af4-bc72-fb9cece22d5d}, !- Handle
-  Rooftop Terrace Level Unconditioned Northwest, !- Name
+  Rooftop Terrace Level Unconditioned Northwest Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62054,7 +62054,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f53dbb80-be97-4a33-a6c6-ab92f1d4ca15}, !- Handle
-  Field Level Conference 101H,            !- Name
+  Field Level Conference 101H Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62132,7 +62132,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {3f58110c-7096-43b3-b35c-8e364a508074}, !- Handle
-  Athletic Admin Level Elevator EL02AB 511A, !- Name
+  Athletic Admin Level Elevator EL02AB 511A Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62206,7 +62206,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {afb8b0dc-8671-47a1-b9c9-beedc140e396}, !- Handle
-  Field Level Storage 101,                !- Name
+  Field Level Storage 101 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62284,7 +62284,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {8c3fe33e-9a90-4a38-a30b-bfb247abf3b6}, !- Handle
-  Concourse Level Stair ST301,            !- Name
+  Concourse Level Stair ST301 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62363,7 +62363,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {073114c8-797b-46f7-a0a4-075f1e6c91c1}, !- Handle
-  Main Level Open Office Southwest Perimeter, !- Name
+  Main Level Open Office Southwest Perimeter Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62441,7 +62441,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {0657c296-e686-4249-81e5-92b75b8a8e7b}, !- Handle
-  Main Level Unconditioned 203 204,       !- Name
+  Main Level Unconditioned 203 204 Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62515,7 +62515,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c81c28c4-ffcf-475a-93a7-0d1741fb2552}, !- Handle
-  Athletic Admin Level Elevator EL01,     !- Name
+  Athletic Admin Level Elevator EL01 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62589,7 +62589,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {a239c10b-358d-45b7-a435-8c41912bc7f4}, !- Handle
-  Coaches Level Meeting 402,              !- Name
+  Coaches Level Meeting 402 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62667,7 +62667,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {71387d9d-3f5f-43d3-8429-8c98086a5192}, !- Handle
-  Field Level Stair ST103,                !- Name
+  Field Level Stair ST103 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62746,7 +62746,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {99124613-2712-4113-87e8-123a4de8b3db}, !- Handle
-  Field Level Corridor Northwest,         !- Name
+  Field Level Corridor Northwest Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62824,7 +62824,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {cc76adcb-9da6-4971-98f3-9636e165e005}, !- Handle
-  Concourse Level Meeting 309 317 318,    !- Name
+  Concourse Level Meeting 309 317 318 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62902,7 +62902,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {5f2842cd-6399-4af4-9149-6046b42dc112}, !- Handle
-  Athletic Admin Level Unconditioned Southeast, !- Name
+  Athletic Admin Level Unconditioned Southeast Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -62976,7 +62976,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {64f4a371-912c-47f9-b123-19104c06ff25}, !- Handle
-  Concourse Level Meeting 314,            !- Name
+  Concourse Level Meeting 314 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63054,7 +63054,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f7fc8190-8479-4ca6-98c9-65adc5f90e5b}, !- Handle
-  Main Level Mechanical 213,              !- Name
+  Main Level Mechanical 213 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63133,7 +63133,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {60374e37-b312-4f81-b378-a321334c4977}, !- Handle
-  Concourse Level Food Service 303 304A,  !- Name
+  Concourse Level Food Service 303 304A Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63211,7 +63211,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {a49587e3-13c1-49d9-8e19-e7a6e40fd8aa}, !- Handle
-  Coaches Level Elevator EL02AB 424,      !- Name
+  Coaches Level Elevator EL02AB 424 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63285,7 +63285,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {43113bde-c34c-4541-b3fe-b7c5d59ea3ec}, !- Handle
-  Field Level Unspecified Quad B Northeast, !- Name
+  Field Level Unspecified Quad B Northeast Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63364,7 +63364,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e2bbabe5-58a7-4edd-8f1f-011e8dade3bd}, !- Handle
-  Main Level Unconditioned South,         !- Name
+  Main Level Unconditioned South Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63438,7 +63438,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {fdc0e0a2-b8d4-4df3-8542-c2c3f9499289}, !- Handle
-  Athletic Admin Level Conference 510R,   !- Name
+  Athletic Admin Level Conference 510R Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63524,7 +63524,7 @@ OS:Connection,
 
 OS:ThermalZone,
   {f6f092de-80c9-4fe8-ac48-61e207aa1c5f}, !- Handle
-  Athletic Admin Level Reduced Office 520N, !- Name
+  Athletic Admin Level Reduced Office 520N Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63602,7 +63602,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {b8a308d4-337f-4488-b87a-19c880efd2d3}, !- Handle
-  Coaches Level Meeting 450,              !- Name
+  Coaches Level Meeting 450 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63680,7 +63680,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e8c8af18-c41e-4544-a1f6-ec5cd4aedb0b}, !- Handle
-  Coaches Level CoachOff S 451 452 461 466-468, !- Name
+  Coaches Level CoachOff S 451 452 461 466-468 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63758,7 +63758,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {a27b5ca4-f38c-4bb1-9f4a-d0902dec4ca0}, !- Handle
-  Field Level Corridor South,             !- Name
+  Field Level Corridor South Zone,        !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63836,7 +63836,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9f27e33b-f493-4ac3-baeb-cc578ecfdf42}, !- Handle
-  Coaches Level Stair ST403,              !- Name
+  Coaches Level Stair ST403 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63915,7 +63915,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9738756f-80d7-462c-869c-36d6ebdc9b5d}, !- Handle
-  Coaches Level CoachOff 461B,            !- Name
+  Coaches Level CoachOff 461B Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -63993,7 +63993,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {f5b841dc-7349-48bd-b553-6ea814fc49fc}, !- Handle
-  Athletic Admin Level Conference 540E,   !- Name
+  Athletic Admin Level Conference 540E Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64071,7 +64071,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {6ee21959-9b71-4dc1-95ba-58e6e4cf57f9}, !- Handle
-  Field Level Stair ST102,                !- Name
+  Field Level Stair ST102 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64150,7 +64150,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {a2040f16-7bbc-406c-9239-aae172786778}, !- Handle
-  Rooftop Terrace Level Stair ST602,      !- Name
+  Rooftop Terrace Level Stair ST602 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64229,7 +64229,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {60232631-fc3c-46fb-aa9e-17df4f813ee1}, !- Handle
-  Athletic Admin Level Corridor West,     !- Name
+  Athletic Admin Level Corridor West Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64307,7 +64307,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {cf1bd766-3231-4130-b34a-477aabd10668}, !- Handle
-  Field Level Locker Player 106,          !- Name
+  Field Level Locker Player 106 Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64385,7 +64385,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {32309f3c-0019-4dfa-880b-19c7f15040bc}, !- Handle
-  Field Level IDF 104A,                   !- Name
+  Field Level IDF 104A Zone,              !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64464,7 +64464,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7852f105-03b3-4eed-b026-3cc5d1eb96e1}, !- Handle
-  Concourse Level Elevator EL01,          !- Name
+  Concourse Level Elevator EL01 Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64538,7 +64538,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {cb8a5422-1ca5-4d94-800a-f54097170e70}, !- Handle
-  Concourse Level Kitchen 304,            !- Name
+  Concourse Level Kitchen 304 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64616,7 +64616,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {71242e8e-8670-4e17-b44f-451c219c62aa}, !- Handle
-  Coaches Level Office East 471-477,      !- Name
+  Coaches Level Office East 471-477 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64694,7 +64694,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {64c43c69-172e-4e83-9768-cadc6048c91c}, !- Handle
-  Athletic Admin Level Break 541,         !- Name
+  Athletic Admin Level Break 541 Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64772,7 +64772,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {80e60fab-9d32-4720-be55-1c0bbff8c44a}, !- Handle
-  Rooftop Terrace Level Restroom RRW603,  !- Name
+  Rooftop Terrace Level Restroom RRW603 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64851,7 +64851,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {de9507f0-57af-46f0-a9e0-e28e40b22b3d}, !- Handle
-  Main Level Lobby Quad B,                !- Name
+  Main Level Lobby Quad B Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -64929,7 +64929,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d5066129-9440-49fd-9270-bd6155a73fd8}, !- Handle
-  Athletic Admin Level Mechanical 509,    !- Name
+  Athletic Admin Level Mechanical 509 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65008,7 +65008,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {0fb974e4-c4ca-41c2-a53b-669cc3a4be82}, !- Handle
-  Concourse Level Stair ST303,            !- Name
+  Concourse Level Stair ST303 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65087,7 +65087,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {3fb4704c-1fb4-48ab-b00e-3fe2f312d5a0}, !- Handle
-  Athletic Admin Level Conference 542,    !- Name
+  Athletic Admin Level Conference 542 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65165,7 +65165,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {a996d2a2-1848-44a2-b039-faad7b83106e}, !- Handle
-  Athletic Admin Level Office South 550F-K 578, !- Name
+  Athletic Admin Level Office South 550F-K 578 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65243,7 +65243,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {05f535e0-a61a-4592-99f3-2f107b0a9001}, !- Handle
-  Concourse Level Meeting 316 320,        !- Name
+  Concourse Level Meeting 316 320 Zone,   !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65321,7 +65321,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {4c688ab1-5f98-45b8-a1fd-1a180212c79f}, !- Handle
-  Athletic Admin Level Office 570-573 Southwest, !- Name
+  Athletic Admin Level Office 570-573 Southwest Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65399,7 +65399,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {e3f02751-e988-441d-94ed-14236b85daf8}, !- Handle
-  Field Level Office 128BC,               !- Name
+  Field Level Office 128BC Zone,          !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65478,7 +65478,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {77e59f21-f770-4180-a9e5-8d3211fc1134}, !- Handle
-  Concourse Level Meeting 327,            !- Name
+  Concourse Level Meeting 327 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65556,7 +65556,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {266b76bd-faed-4da6-b3e3-8d78987b82ed}, !- Handle
-  Field Level Corridor Northeast,         !- Name
+  Field Level Corridor Northeast Zone,    !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65634,7 +65634,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d550f243-7ec4-40ce-a265-bfef5a780d44}, !- Handle
-  Field Level Elevator EL03AB,            !- Name
+  Field Level Elevator EL03AB Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65708,7 +65708,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {93443553-5050-44b0-a0ad-c9696cdec9d9}, !- Handle
-  Main Level Stair ST203,                 !- Name
+  Main Level Stair ST203 Zone,            !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65787,7 +65787,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d3ee4be7-468c-4231-beba-fe135065fe96}, !- Handle
-  Concourse Level Meeting 322,            !- Name
+  Concourse Level Meeting 322 Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65865,7 +65865,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {7ca25680-9d33-493d-8c9f-51d82e77ae90}, !- Handle
-  Athletic Admin Level Unconditioned Northwest, !- Name
+  Athletic Admin Level Unconditioned Northwest Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -65939,7 +65939,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {d95ed997-d21f-4391-aab8-d65c1dce0afc}, !- Handle
-  Rooftop Terrace Level Elevator EL02AB 624, !- Name
+  Rooftop Terrace Level Elevator EL02AB 624 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66013,7 +66013,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {06504741-84a5-4630-81d6-7bfbfbb0d43b}, !- Handle
-  Athletic Admin Level Office 574-577 Southwest, !- Name
+  Athletic Admin Level Office 574-577 Southwest Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66091,7 +66091,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {4c813dfd-01ea-41b5-bbc9-fad8e9c06464}, !- Handle
-  Coaches Level Break 462,                !- Name
+  Coaches Level Break 462 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66170,7 +66170,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {29c7f86c-db7a-417f-9e48-0d3b734f109a}, !- Handle
-  Field Level Lobby 129,                  !- Name
+  Field Level Lobby 129 Zone,             !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66249,7 +66249,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {88830ef9-e323-407b-9c0f-2ac40f7f524a}, !- Handle
-  Field Level Office 130ABCD,             !- Name
+  Field Level Office 130ABCD Zone,        !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66327,7 +66327,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {dbd30fa9-bc98-4a08-8995-5a9b2406b66e}, !- Handle
-  Field Level Stair ST101,                !- Name
+  Field Level Stair ST101 Zone,           !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66406,7 +66406,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {781ed4c8-64fa-42b4-9a0a-017d78b1f581}, !- Handle
-  Coaches Level Conference 404A,          !- Name
+  Coaches Level Conference 404A Zone,     !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66484,7 +66484,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9b8b93b6-3f13-4d17-bdc8-178459757aca}, !- Handle
-  Rooftop Terrace Level Mechanical 600,   !- Name
+  Rooftop Terrace Level Mechanical 600 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66564,7 +66564,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {723088ac-f06e-4ac0-8bd9-f1e703e7edbe}, !- Handle
-  Concourse Level Elevator EL02AB 312,    !- Name
+  Concourse Level Elevator EL02AB 312 Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66638,7 +66638,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {c7d94078-23f6-4711-af8d-2b74ec37bb22}, !- Handle
-  Athletic Admin Level Stair ST502,       !- Name
+  Athletic Admin Level Stair ST502 Zone,  !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66717,7 +66717,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {75ab59e0-3230-46d1-8fff-c9e29969f4b7}, !- Handle
-  Coaches Level IDF 4470,                 !- Name
+  Coaches Level IDF 4470 Zone,            !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66796,7 +66796,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {44310cac-acaf-4f9b-a9e1-fd595848250a}, !- Handle
-  Athletic Admin Level Office 540B-D 530J-L, !- Name
+  Athletic Admin Level Office 540B-D 530J-L Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66874,7 +66874,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {ba21f7a2-fbb2-4498-a0b8-43e08dac51c2}, !- Handle
-  Coaches Level Stair ST402,              !- Name
+  Coaches Level Stair ST402 Zone,         !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -66953,7 +66953,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {78bfd4bf-078c-4839-85c9-cfbcb33ea0ee}, !- Handle
-  Field Level Elevator EL02AB,            !- Name
+  Field Level Elevator EL02AB Zone,       !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -67027,7 +67027,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {bff40705-a027-4bf0-9a3f-e558646816a9}, !- Handle
-  Field Level Locker Player CR103,        !- Name
+  Field Level Locker Player CR103 Zone,   !- Name
   1,                                      !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -67106,7 +67106,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {9564a50e-08fa-4526-b4bb-85741a28b14b}, !- Handle
-  Athletic Admin Level Office 530A-G 520J-M, !- Name
+  Athletic Admin Level Office 530A-G 520J-M Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
@@ -67184,7 +67184,7 @@ OS:ZoneHVAC:EquipmentList,
 
 OS:ThermalZone,
   {74b9c0c2-4263-44d2-a129-41985b8b5776}, !- Handle
-  Rooftop Terrace Level Elevator EL03AB,  !- Name
+  Rooftop Terrace Level Elevator EL03AB Zone, !- Name
   ,                                       !- Multiplier
   ,                                       !- Ceiling Height {m}
   ,                                       !- Volume {m3}
